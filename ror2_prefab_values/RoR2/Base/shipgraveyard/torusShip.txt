@@ -1,0 +1,115 @@
+Key Path : RoR2/Base/shipgraveyard/torusShip.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : torusShip
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = AlwaysAnimate
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = torusShipAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 Cylinder
+
+>> transform = p: (0.0, 0.0, 13.0) r: (0.0, 0.0, 0.0) s: (10000.0, 10000.0, 1449.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 Cylinder.001
+
+>> transform = p: (0.0, 0.0, -13.0) r: (0.0, 0.0, 0.0) s: (10000.0, 10000.0, 1449.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Cylinder.001 (UnityEngine.Mesh)
+>>v mesh = Cylinder.001 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 Cylinder.002
+
+>> transform = p: (-13.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (10000.0, 10000.0, 1449.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Cylinder.002 (UnityEngine.Mesh)
+>>v mesh = Cylinder.002 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 Cylinder.003
+
+>> transform = p: (13.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (10000.0, 10000.0, 1449.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Cylinder.003 (UnityEngine.Mesh)
+>>v mesh = Cylinder.003 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 4 Icosphere
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (10000.0, 10000.0, 10000.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Icosphere (UnityEngine.Mesh)
+>>v mesh = Icosphere Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 5 Torus.001
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (3139.8, 3139.8, 3139.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Torus.001 (UnityEngine.Mesh)
+>>v mesh = Torus.001 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

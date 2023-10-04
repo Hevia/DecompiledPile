@@ -1,0 +1,78 @@
+Key Path : RoR2/Base/NearbyDamageBonus/NearbyDamageBonusIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : NearbyDamageBonusIndicator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 5ba295c0a3919a544939e6efe1ff17b3
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = True
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = True
+>v clientAuthorityOwner = 
+>v assetId = 5ba295c0a3919a544939e6efe1ff17b3
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.NetworkedBodyAttachment
+>v _attachedBodyObject = 
+>v attachedBodyChildName = 
+>v <attachedBody>k__BackingField = 
+>v shouldParentToAttachedBody = True
+>v forceHostAuthority = False
+>v <hasEffectiveAuthority>k__BackingField = False
+>v networkIdentity = 
+>v attached = False
+>v ____attachedBodyObjectNetId = 0
+>v attachedBodyObject = 
+>v attachedBody = 
+>v hasEffectiveAuthority = False
+>v Network_attachedBodyObject = 
+>v NetworkattachedBodyChildName = 
+
+>GameObject Children 0 Donut
+
+>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 105.0, 0.0) s: (12.8, 12.8, 8.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = donut8Mesh (UnityEngine.Mesh)
+>>v mesh = donut8Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 Radius, Spherical
+
+>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 105.0, 0.0) s: (26.0, 26.0, 26.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Sphere, Unwrapped (UnityEngine.Mesh)
+>>v mesh = Sphere, Unwrapped Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

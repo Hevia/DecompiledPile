@@ -1,0 +1,702 @@
+Key Path : RoR2/Base/Core/Main Camera.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : Main Camera
+
+> transform = p: (-14.0, -220.9, -48.5) r: (9.0, 145.6, 2.0) s: (1.0, 1.0, 1.0)
+> RoR2.CameraRigController
+>v sceneCam = Scene Camera (UnityEngine.Camera)
+>v uiCam = UI Camera (UnityEngine.Camera)
+>v skyboxCam = 
+>v sprintingParticleSystem = SprintParticles (UnityEngine.ParticleSystem)
+>v baseFov = 60
+>v viewport = (x:0.00, y:0.00, width:1.00, height:1.00)
+>v maxAimRaycastDistance = 500
+>v isCutscene = False
+>v enableFading = True
+>v fadeStartDistance = 1
+>v fadeEndDistance = 4
+>v createHud = True
+>v suppressPlayerCameras = False
+>v nextTarget = 
+>v <disableSpectating>k__BackingField = False
+>v _cameraMode = 
+>v <hud>k__BackingField = 
+>v <firstPersonTarget>k__BackingField = 
+>v <targetTeamIndex>k__BackingField = None
+>v <targetBody>k__BackingField = 
+>v <rawScreenShakeDisplacement>k__BackingField = (0.0, 0.0, 0.0)
+>v <crosshairWorldPosition>k__BackingField = (0.0, 0.0, 0.0)
+>v _target = 
+>v desiredCameraState = RoR2.CameraState
+>v currentCameraState = RoR2.CameraState
+>v lerpCameraState = RoR2.CameraState
+>v lerpCameraTime = 1
+>v lerpCameraTimeScale = 1
+>v overrideCam = 
+>v cameraModeContext = RoR2.CameraModes.CameraModeBase+CameraModeContext
+>v _viewer = 
+>v _localUserViewer = 
+>v targetParams = 
+>v lastAimAssist = RoR2.CameraRigController+AimAssistInfo
+>v aimAssist = RoR2.CameraRigController+AimAssistInfo
+>v <lastCrosshairHurtBox>k__BackingField = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.CameraRigController]
+>v readOnlyInstancesList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.CameraRigController]
+>v onCameraTargetChanged = 
+>v onCameraEnableGlobal = 
+>v onCameraDisableGlobal = 
+>v aimStickExponent = RoR2.ConVar.FloatConVar
+>v aimStickDualZoneThreshold = RoR2.ConVar.FloatConVar
+>v aimStickDualZoneSlope = RoR2.ConVar.FloatConVar
+>v aimStickDualZoneSmoothing = RoR2.ConVar.FloatConVar
+>v aimStickGlobalScale = RoR2.ConVar.FloatConVar
+>v aimStickAssistMinSlowdownScale = RoR2.ConVar.FloatConVar
+>v aimStickAssistMaxSlowdownScale = RoR2.ConVar.FloatConVar
+>v aimStickAssistMinDelta = RoR2.ConVar.FloatConVar
+>v aimStickAssistMaxDelta = RoR2.ConVar.FloatConVar
+>v aimStickAssistMaxInputHelp = RoR2.ConVar.FloatConVar
+>v aimStickAssistMaxSize = RoR2.ConVar.FloatConVar
+>v aimStickAssistMinSize = RoR2.ConVar.FloatConVar
+>v enableSprintSensitivitySlowdown = RoR2.ConVar.BoolConVar
+>v hitmarkerAlpha = 0
+>v hitmarkerTimer = 0
+>v disableSpectating = False
+>v cameraMode = 
+>v hud = 
+>v firstPersonTarget = 
+>v targetTeamIndex = None
+>v targetBody = 
+>v rawScreenShakeDisplacement = (0.0, 0.0, 0.0)
+>v crosshairWorldPosition = (0.0, 0.0, 0.0)
+>v hasOverride = False
+>v isControlAllowed = True
+>v isHudAllowed = False
+>v target = 
+>v viewer = 
+>v localUserViewer = 
+>v lastCrosshairHurtBox = 
+
+> RoR2.CameraRigControllerSpectateControls
+>v cameraRigController = 
+
+>GameObject Children 0 Scene Camera
+
+>> transform = p: (0.0, 0.0, 0.0) r: (9.0, 145.6, 2.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Camera
+>>v onPreCull = 
+>>v onPreRender = 
+>>v onPostRender = 
+>>v nearClipPlane = 0,04
+>>v farClipPlane = 4000
+>>v fieldOfView = 60
+>>v renderingPath = UsePlayerSettings
+>>v actualRenderingPath = DeferredShading
+>>v allowHDR = True
+>>v allowMSAA = False
+>>v allowDynamicResolution = False
+>>v forceIntoRenderTexture = True
+>>v orthographicSize = 5
+>>v orthographic = False
+>>v opaqueSortMode = Default
+>>v transparencySortMode = Default
+>>v transparencySortAxis = (0.0, 0.0, 1.0)
+>>v depth = 0
+>>v aspect = 1,777778
+>>v velocity = (0.0, 0.0, 0.0)
+>>v cullingMask = -2457633
+>>v eventMask = -1
+>>v layerCullSpherical = False
+>>v cameraType = Game
+>>v overrideSceneCullingMask = 0
+>>v layerCullDistances = System.Single[]
+>>v useOcclusionCulling = True
+>>v cullingMatrix = -0.80066	0.03431	-0.55406	-30.53473
+0.20328	1.70979	-0.18788	371.43460
+0.55757	-0.15589	-0.81538	-66.23300
+0.55756	-0.15588	-0.81537	-66.15167
+
+>>v backgroundColor = RGBA(0.192, 0.302, 0.475, 0.000)
+>>v clearFlags = Skybox
+>>v depthTextureMode = None
+>>v clearStencilAfterLightingPass = False
+>>v usePhysicalProperties = False
+>>v sensorSize = (36.0, 24.0)
+>>v lensShift = (0.0, 0.0)
+>>v focalLength = 50
+>>v gateFit = Horizontal
+>>v rect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>v pixelWidth = 1920
+>>v pixelHeight = 1080
+>>v scaledPixelWidth = 1920
+>>v scaledPixelHeight = 1080
+>>v targetTexture = 
+>>v activeTexture = 
+>>v targetDisplay = 0
+>>v cameraToWorldMatrix = -0.82180	0.11736	-0.55756	-14.04000
+0.03521	0.98715	0.15588	-220.90000
+-0.56869	-0.10847	0.81537	-48.50000
+0.00000	0.00000	0.00000	1.00000
+
+>>v worldToCameraMatrix = -0.82180	0.03521	-0.56869	-31.34086
+0.11736	0.98715	-0.10847	214.44790
+-0.55756	0.15588	0.81537	66.15167
+0.00000	0.00000	0.00000	1.00000
+
+>>v projectionMatrix = 0.97428	0.00000	0.00000	0.00000
+0.00000	1.73205	0.00000	0.00000
+0.00000	0.00000	-1.00002	-0.08000
+0.00000	0.00000	-1.00000	0.00000
+
+>>v nonJitteredProjectionMatrix = 0.97428	0.00000	0.00000	0.00000
+0.00000	1.73205	0.00000	0.00000
+0.00000	0.00000	-1.00002	-0.08000
+0.00000	0.00000	-1.00000	0.00000
+
+>>v useJitteredProjectionMatrixForTransparentRendering = True
+>>v previousViewProjectionMatrix = -0.35342	-212920600000000000.00000	0.00000	0.00000
+2310821000000000000000000000.00000	0.00806	0.00000	132918700000000000000000.00000
+0.00000	0.00000	0.00000	156732000000000000000000.00000
+0.00000	0.01966	-36973900000000000000000000000.00000	41.31355
+
+>>v main = Scene Camera (UnityEngine.Camera)
+>>v current = UI Camera (UnityEngine.Camera)
+>>v scene = UnityEngine.SceneManagement.Scene
+>>v stereoEnabled = False
+>>v stereoSeparation = 0,022
+>>v stereoConvergence = 10
+>>v areVRStereoViewMatricesWithinSingleCullTolerance = False
+>>v stereoTargetEye = Both
+>>v stereoActiveEye = Mono
+>>v allCamerasCount = 3
+>>v allCameras = UnityEngine.Camera[]
+>>v commandBufferCount = 0
+
+>> UnityEngine.FlareLayer
+
+>> AkAudioListener
+>>v defaultListeners = AkAudioListener+DefaultListenerList
+>>v akGameObjectID = 18446744073709551615
+>>v EmittersToStartListeningTo = System.Collections.Generic.List`1[AkGameObj]
+>>v EmittersToStopListeningTo = System.Collections.Generic.List`1[AkGameObj]
+>>v isDefaultListener = True
+>>v listenerId = 0
+>>v DefaultListeners = AkAudioListener+DefaultListenerList
+
+>> RoR2.BlurOptimized
+>>v downsample = 0
+>>v blurSize = 1,25
+>>v blurIterations = 1
+>>v blurType = StandardGauss
+>>v blurMaterial = 
+
+>> UnityEngine.Rigidbody
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v drag = 0
+>>v angularDrag = 0,05
+>>v mass = 1
+>>v useGravity = False
+>>v maxDepenetrationVelocity = 1E+32
+>>v isKinematic = True
+>>v freezeRotation = False
+>>v constraints = None
+>>v collisionDetectionMode = Discrete
+>>v centerOfMass = (0.0, 0.0, 0.0)
+>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>v detectCollisions = True
+>>v position = (0.0, 0.0, 0.0)
+>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>v interpolation = None
+>>v solverIterations = 6
+>>v sleepThreshold = 0,005
+>>v maxAngularVelocity = 7
+>>v solverVelocityIterations = 1
+>>v sleepVelocity = 0
+>>v sleepAngularVelocity = 0
+>>v useConeFriction = False
+>>v solverIterationCount = 6
+>>v solverVelocityIterationCount = 1
+
+>> AkGameObj
+>>v m_listeners = AkGameObjListenerList
+>>v isEnvironmentAware = True
+>>v isStaticObject = False
+>>v m_Collider = 
+>>v m_envData = 
+>>v m_posData = 
+>>v m_positionOffsetData = AkGameObjPositionOffsetData
+>>v isRegistered = False
+>>v m_posOffsetData = 
+>>v AK_NUM_LISTENERS = 8
+>>v listenerMask = 1
+>>v IsUsingDefaultListeners = True
+>>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+>> RoR2.SceneCamera
+>>v onSceneCameraPreCull = RoR2.SceneCamera+SceneCameraDelegate
+>>v onSceneCameraPreRender = RoR2.SceneCamera+SceneCameraDelegate
+>>v onSceneCameraPostRender = RoR2.SceneCamera+SceneCameraDelegate
+>>v <camera>k__BackingField = 
+>>v sortMode = NoDistanceSort
+>>v <cameraRigController>k__BackingField = 
+>>v camera = 
+>>v cameraRigController = 
+
+>> ThreeEyedGames.DecaliciousRenderer
+>>v UseInstancing = True
+>>v _bufferDeferred = 
+>>v _bufferUnlit = 
+>>v _bufferLimitTo = 
+>>v _deferredDecals = 
+>>v _unlitDecals = 
+>>v _limitToMeshRenderers = 
+>>v _limitToSkinnedMeshRenderers = 
+>>v _limitToGameObjects = 
+>>v _decalComponent = 
+>>v _meshFilterComponent = 
+>>v _bufferBaseName = Decalicious - 
+>>v _bufferDeferredName = Decalicious - Deferred
+>>v _bufferUnlitName = Decalicious - Unlit
+>>v _bufferLimitToName = Decalicious - Limit To Game Objects
+>>v _camEventDeferred = BeforeReflections
+>>v _camEventUnlit = BeforeImageEffectsOpaque
+>>v _camEventLimitTo = AfterGBuffer
+>>v _camera = 
+>>v _camLastKnownHDR = False
+>>v _cubeMesh = DecalCube (UnityEngine.Mesh)
+>>v _matrices = 
+>>v _fadeValues = 
+>>v _limitToValues = 
+>>v _instancedBlock = 
+>>v _directBlock = 
+>>v _albedoRenderTarget = 
+>>v _normalRenderTarget = 
+>>v _materialLimitToGameObjects = 
+>>v _avCoeff = UnityEngine.Vector4[]
+
+>> RoR2.PostProcess.SobelCommandBuffer
+>>v cameraEvent = BeforeLighting
+>>v camera = 
+>>v sobelInfoTex = 
+>>v sobelCommandBuffer = 
+>>v sobelCommandBufferSubscribedEvent = BeforeDepthTexture
+>>v sobelBufferMaterial = 
+
+>> UnityEngine.Rendering.PostProcessing.PostProcessLayer
+>>v volumeTrigger = Scene Camera (UnityEngine.Transform)
+>>v volumeLayer = UnityEngine.LayerMask
+>>v stopNaNPropagation = False
+>>v finalBlitToCameraTarget = False
+>>v antialiasingMode = None
+>>v temporalAntialiasing = UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
+>>v subpixelMorphologicalAntialiasing = UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
+>>v fastApproximateAntialiasing = UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
+>>v fog = UnityEngine.Rendering.PostProcessing.Fog
+>>v dithering = 
+>>v debugLayer = UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
+>>v m_Resources = PostProcessResources (UnityEngine.Rendering.PostProcessing.PostProcessResources)
+>>v m_OldResources = 
+>>v m_ShowToolkit = True
+>>v m_ShowCustomSorter = True
+>>v breakBeforeColorGrading = False
+>>v m_BeforeTransparentBundles = System.Collections.Generic.List`1[UnityEngine.Rendering.PostProcessing.PostProcessLayer+SerializedBundleRef]
+>>v m_BeforeStackBundles = System.Collections.Generic.List`1[UnityEngine.Rendering.PostProcessing.PostProcessLayer+SerializedBundleRef]
+>>v m_AfterStackBundles = System.Collections.Generic.List`1[UnityEngine.Rendering.PostProcessing.PostProcessLayer+SerializedBundleRef]
+>>v <sortedBundles>k__BackingField = 
+>>v <cameraDepthFlags>k__BackingField = None
+>>v <haveBundlesBeenInited>k__BackingField = False
+>>v m_Bundles = 
+>>v m_PropertySheetFactory = 
+>>v m_LegacyCmdBufferBeforeReflections = 
+>>v m_LegacyCmdBufferBeforeLighting = 
+>>v m_LegacyCmdBufferOpaque = 
+>>v m_LegacyCmdBuffer = 
+>>v m_Camera = 
+>>v m_CurrentContext = 
+>>v m_LogHistogram = 
+>>v m_SettingsUpdateNeeded = True
+>>v m_IsRenderingInSceneView = False
+>>v m_TargetPool = 
+>>v m_NaNKilled = False
+>>v m_ActiveEffects = System.Collections.Generic.List`1[UnityEngine.Rendering.PostProcessing.PostProcessEffectRenderer]
+>>v m_Targets = System.Collections.Generic.List`1[UnityEngine.Rendering.RenderTargetIdentifier]
+>>v sortedBundles = 
+>>v cameraDepthFlags = None
+>>v haveBundlesBeenInited = False
+
+>> RoR2.OutlineHighlight
+>>v m_resolution = Full
+>>v highlightQueue = System.Collections.Generic.Queue`1[RoR2.OutlineHighlight+HighlightInfo]
+>>v <sceneCamera>k__BackingField = 
+>>v highlightMaterial = 
+>>v commandBuffer = 
+>>v m_RTWidth = 512
+>>v m_RTHeight = 512
+>>v onPreRenderOutlineHighlight = System.Action`1[RoR2.OutlineHighlight]
+>>v sceneCamera = 
+
+>> RoR2.CameraResolutionScaler
+>>v <camera>k__BackingField = 
+>>v oldRenderTexture = 
+>>v resolutionScale = 1
+>>v scalingRenderTexture = 
+>>v camera = 
+
+>> LeTai.Asset.TranslucentImage.TranslucentImageSource
+>>v maxUpdateRate = +Infini
+>>v preview = False
+>>v size = 3
+>>v iteration = 3
+>>v blurRegion = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>v lastBlurRegion = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>v maxDepth = 4
+>>v downsample = 0
+>>v lastDownsample = 0
+>>v strength = 24
+>>v lastUpdate = 0
+>>v camera = 
+>>v shader = 
+>>v material = 
+>>v previewMaterial = 
+>>v <BlurredScreen>k__BackingField = 
+>>v _sizePropId = 1048
+>>v _cropRegionPropId = 971
+>>v shadersLoaded = True
+>>v efficientBlurShader = Hidden/EfficientBlur (UnityEngine.Shader)
+>>v fillCropShader = Hidden/FillCrop (UnityEngine.Shader)
+>>v BlurredScreen = 
+>>v Strength = 24
+>>v Size = 3
+>>v Iteration = 3
+>>v Downsample = 0
+>>v BlurRegion = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>v MaxDepth = 4
+
+>> RoR2.PostProcessing.VisionLimitEffect
+>>v cameraRigController = Main Camera (RoR2.CameraRigController)
+>>v camera = 
+>>v desiredVisionDistance = +Infini
+>>v commandBuffer = 
+>>v material = 
+>>v lastKnownTargetPosition = (0.0, 0.0, 0.0)
+>>v currentAlpha = 0
+>>v alphaVelocity = 0
+>>v currentVisionDistance = 0
+>>v currentVisionDistanceVelocity = 0
+
+>>GameObject Children 0 GlobalPostProcessVolume
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (9.0, 145.6, 2.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>>>v sharedProfile = ppRunBase (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>>>v isGlobal = True
+>>>v blendDistance = 0
+>>>v weight = 1
+>>>v priority = 0
+>>>v m_PreviousLayer = 0
+>>>v m_PreviousPriority = 0
+>>>v m_TempColliders = 
+>>>v m_InternalProfile = 
+>>>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+>>GameObject Children 1 SprintParticles
+
+>>> transform = p: (0.0, 0.0, 17.7) r: (9.0, 145.6, 2.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = False
+>>>v playOnAwake = False
+>>>v duration = 0,25
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 100
+>>>v startSpeed = 60
+>>>v startSize = 0,1
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 0,1
+>>>v gravityModifier = 0
+>>>v maxParticles = 30
+>>>v simulationSpace = Local
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = True
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = True
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Stretch
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = -0,1
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = Quad (UnityEngine.Mesh)
+>>>v meshCount = 1
+>>>v activeVertexStreamsCount = 4
+
+>GameObject Children 1 UI Camera, Worldspace
+
+>> transform = p: (0.0, 0.0, 0.0) r: (9.0, 145.6, 2.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Camera
+>>v onPreCull = 
+>>v onPreRender = 
+>>v onPostRender = 
+>>v nearClipPlane = 0,1
+>>v farClipPlane = 1000
+>>v fieldOfView = 60
+>>v renderingPath = Forward
+>>v actualRenderingPath = Forward
+>>v allowHDR = False
+>>v allowMSAA = True
+>>v allowDynamicResolution = False
+>>v forceIntoRenderTexture = False
+>>v orthographicSize = 5
+>>v orthographic = False
+>>v opaqueSortMode = Default
+>>v transparencySortMode = Default
+>>v transparencySortAxis = (0.0, 0.0, 1.0)
+>>v depth = 1
+>>v aspect = 1,777778
+>>v velocity = (0.0, 0.0, 0.0)
+>>v cullingMask = 2097152
+>>v eventMask = -1
+>>v layerCullSpherical = False
+>>v cameraType = Game
+>>v overrideSceneCullingMask = 0
+>>v layerCullDistances = System.Single[]
+>>v useOcclusionCulling = False
+>>v cullingMatrix = -0.80066	0.03431	-0.55406	-30.53473
+0.20328	1.70979	-0.18788	371.43460
+0.55767	-0.15591	-0.81553	-66.36491
+0.55756	-0.15588	-0.81537	-66.15167
+
+>>v backgroundColor = RGBA(0.192, 0.302, 0.475, 0.000)
+>>v clearFlags = Depth
+>>v depthTextureMode = None
+>>v clearStencilAfterLightingPass = False
+>>v usePhysicalProperties = False
+>>v sensorSize = (36.0, 24.0)
+>>v lensShift = (0.0, 0.0)
+>>v focalLength = 50
+>>v gateFit = Horizontal
+>>v rect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>v pixelWidth = 1920
+>>v pixelHeight = 1080
+>>v scaledPixelWidth = 1920
+>>v scaledPixelHeight = 1080
+>>v targetTexture = 
+>>v activeTexture = 
+>>v targetDisplay = 0
+>>v cameraToWorldMatrix = -0.82180	0.11736	-0.55756	-14.04000
+0.03521	0.98715	0.15588	-220.90000
+-0.56869	-0.10847	0.81537	-48.50000
+0.00000	0.00000	0.00000	1.00000
+
+>>v worldToCameraMatrix = -0.82180	0.03521	-0.56869	-31.34086
+0.11736	0.98715	-0.10847	214.44790
+-0.55756	0.15588	0.81537	66.15167
+0.00000	0.00000	0.00000	1.00000
+
+>>v projectionMatrix = 0.97428	0.00000	0.00000	0.00000
+0.00000	1.73205	0.00000	0.00000
+0.00000	0.00000	-1.00020	-0.20002
+0.00000	0.00000	-1.00000	0.00000
+
+>>v nonJitteredProjectionMatrix = 0.97428	0.00000	0.00000	0.00000
+0.00000	1.73205	0.00000	0.00000
+0.00000	0.00000	-1.00020	-0.20002
+0.00000	0.00000	-1.00000	0.00000
+
+>>v useJitteredProjectionMatrixForTransparentRendering = True
+>>v previousViewProjectionMatrix = 634996700000.00000	-12649160.00000	0.00000	0.00000
+0.00000	0.00001	0.00000	-568047000000000000000000000000000000.00000
+-10215800000000000000000000000000.00000	0.00000	-243.24560	-247837900000000.00000
+0.00037	0.00000	-668952200000000000000000000000.00000	0.00000
+
+>>v main = Scene Camera (UnityEngine.Camera)
+>>v current = UI Camera (UnityEngine.Camera)
+>>v scene = UnityEngine.SceneManagement.Scene
+>>v stereoEnabled = False
+>>v stereoSeparation = 0,022
+>>v stereoConvergence = 10
+>>v areVRStereoViewMatricesWithinSingleCullTolerance = False
+>>v stereoTargetEye = Both
+>>v stereoActiveEye = Mono
+>>v allCamerasCount = 3
+>>v allCameras = UnityEngine.Camera[]
+>>v commandBufferCount = 0
+
+>> RoR2.MatchCamera
+>>v destCamera = 
+>>v srcCamera = Scene Camera (UnityEngine.Camera)
+>>v matchFOV = True
+>>v matchRect = True
+>>v matchPosition = False
+
+>GameObject Children 2 UI Camera
+
+>> transform = p: (0.0, 0.0, 0.0) r: (9.0, 145.6, 2.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Camera
+>>v onPreCull = 
+>>v onPreRender = 
+>>v onPostRender = 
+>>v nearClipPlane = 0,1
+>>v farClipPlane = 1000
+>>v fieldOfView = 60
+>>v renderingPath = Forward
+>>v actualRenderingPath = Forward
+>>v allowHDR = False
+>>v allowMSAA = True
+>>v allowDynamicResolution = False
+>>v forceIntoRenderTexture = False
+>>v orthographicSize = 5
+>>v orthographic = False
+>>v opaqueSortMode = Default
+>>v transparencySortMode = Default
+>>v transparencySortAxis = (0.0, 0.0, 1.0)
+>>v depth = 2
+>>v aspect = 1,777778
+>>v velocity = (0.0, 0.0, 0.0)
+>>v cullingMask = 32
+>>v eventMask = -1
+>>v layerCullSpherical = False
+>>v cameraType = Game
+>>v overrideSceneCullingMask = 0
+>>v layerCullDistances = System.Single[]
+>>v useOcclusionCulling = False
+>>v cullingMatrix = -0.80066	0.03431	-0.55406	-30.53473
+0.20328	1.70979	-0.18788	371.43460
+0.55767	-0.15591	-0.81553	-66.36491
+0.55756	-0.15588	-0.81537	-66.15167
+
+>>v backgroundColor = RGBA(0.192, 0.302, 0.475, 0.000)
+>>v clearFlags = Depth
+>>v depthTextureMode = None
+>>v clearStencilAfterLightingPass = False
+>>v usePhysicalProperties = False
+>>v sensorSize = (36.0, 24.0)
+>>v lensShift = (0.0, 0.0)
+>>v focalLength = 50
+>>v gateFit = Horizontal
+>>v rect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>v pixelWidth = 1920
+>>v pixelHeight = 1080
+>>v scaledPixelWidth = 1920
+>>v scaledPixelHeight = 1080
+>>v targetTexture = 
+>>v activeTexture = 
+>>v targetDisplay = 0
+>>v cameraToWorldMatrix = -0.82180	0.11736	-0.55756	-14.04000
+0.03521	0.98715	0.15588	-220.90000
+-0.56869	-0.10847	0.81537	-48.50000
+0.00000	0.00000	0.00000	1.00000
+
+>>v worldToCameraMatrix = -0.82180	0.03521	-0.56869	-31.34086
+0.11736	0.98715	-0.10847	214.44790
+-0.55756	0.15588	0.81537	66.15167
+0.00000	0.00000	0.00000	1.00000
+
+>>v projectionMatrix = 0.97428	0.00000	0.00000	0.00000
+0.00000	1.73205	0.00000	0.00000
+0.00000	0.00000	-1.00020	-0.20002
+0.00000	0.00000	-1.00000	0.00000
+
+>>v nonJitteredProjectionMatrix = 0.97428	0.00000	0.00000	0.00000
+0.00000	1.73205	0.00000	0.00000
+0.00000	0.00000	-1.00020	-0.20002
+0.00000	0.00000	-1.00000	0.00000
+
+>>v useJitteredProjectionMatrixForTransparentRendering = True
+>>v previousViewProjectionMatrix = 0.00000	716.81670	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	-546.01840
+
+>>v main = Scene Camera (UnityEngine.Camera)
+>>v current = UI Camera (UnityEngine.Camera)
+>>v scene = UnityEngine.SceneManagement.Scene
+>>v stereoEnabled = False
+>>v stereoSeparation = 0,022
+>>v stereoConvergence = 10
+>>v areVRStereoViewMatricesWithinSingleCullTolerance = False
+>>v stereoTargetEye = Both
+>>v stereoActiveEye = Mono
+>>v allCamerasCount = 3
+>>v allCameras = UnityEngine.Camera[]
+>>v commandBufferCount = 0
+
+>> RoR2.PostProcessing.ScreenDamage
+>>v cameraRigController = 
+>>v mat = matScreenDamage (UnityEngine.Material)
+>>v DistortionScale = 0,03
+>>v DistortionPower = 4,84
+>>v DesaturationScale = 0,9
+>>v DesaturationPower = 2
+>>v TintScale = 2
+>>v TintPower = 2,36
+>>v healthPercentage = 1
+>>v hitTintDecayTime = 0,6
+>>v hitTintScale = 1,6
+>>v deathWeight = 2
+
+>> RoR2.MatchCamera
+>>v destCamera = 
+>>v srcCamera = Scene Camera (UnityEngine.Camera)
+>>v matchFOV = False
+>>v matchRect = True
+>>v matchPosition = False
+
+>> RoR2.UICamera
+>>v onUICameraPreCull = RoR2.UICamera+UICameraDelegate
+>>v onUICameraPreRender = 
+>>v onUICameraPostRender = 
+>>v instancesList = System.Collections.Generic.List`1[RoR2.UICamera]
+>>v readOnlyInstancesList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.UICamera]
+>>v <camera>k__BackingField = 
+>>v <cameraRigController>k__BackingField = 
+>>v camera = 
+>>v cameraRigController = 

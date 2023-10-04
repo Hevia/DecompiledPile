@@ -1,0 +1,48 @@
+Key Path : RoR2/Base/Bell/BellBallGhost.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : BellBallGhost
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.Projectile.ProjectileGhostController
+>v transform = 
+>v migration = 0
+>v <authorityTransform>k__BackingField = 
+>v <predictionTransform>k__BackingField = 
+>v inheritScaleFromProjectile = False
+>v authorityTransform = 
+>v predictionTransform = 
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (307.7, 348.6, 350.5) s: (0.7, 0.7, 0.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BellBallMesh (UnityEngine.Mesh)
+>>v mesh = BellBallMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = False
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 6
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Fast
+>>v _slowRotationSpeed = 5
+>>v _fastRotationSpeed = 360
+>>v _rotateAroundAxis = Y
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Fast
+>>v slowRotationSpeed = 5
+>>v fastRotationSpeed = 360
+>>v rotateAroundAxis = Y
+>>v relativeTo = Self
+>>v reverse = False

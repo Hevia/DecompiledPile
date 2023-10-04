@@ -1,0 +1,697 @@
+Key Path : RoR2/Base/LunarWisp/LunarWispTrackingBomb.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : LunarWispTrackingBomb
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 9389910d2f50eb74d8f1d1a91cdda7a5
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = True
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = True
+>v clientAuthorityOwner = 
+>v assetId = 9389910d2f50eb74d8f1d1a91cdda7a5
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.DisableCollisionsBetweenColliders
+>v collidersA = UnityEngine.Collider[]
+>v collidersB = UnityEngine.Collider[]
+
+> RoR2.Projectile.ProjectileController
+>v catalogIndex = 100
+>v ghostPrefab = LunarWispTrackingBombGhost (UnityEngine.GameObject)
+>v ghostTransformAnchor = 
+>v startSound = 
+>v cannotBeDeleted = False
+>v flightSoundLoop = lsdLunarWispTrackingBombFlight (RoR2.Audio.LoopSoundDef)
+>v rigidbody = 
+>v <teamFilter>k__BackingField = 
+>v <ghost>k__BackingField = 
+>v <isPrediction>k__BackingField = False
+>v canImpactOnTrigger = False
+>v <shouldPlaySounds>k__BackingField = False
+>v allowPrediction = True
+>v predictionId = 0
+>v owner = 
+>v onInitialized = 
+>v <procChainMask>k__BackingField = ()
+>v <clientAuthorityOwner>k__BackingField = 
+>v procCoefficient = 1
+>v myColliders = 
+>v ___ownerNetId = 0
+>v teamFilter = 
+>v ghost = 
+>v isPrediction = False
+>v shouldPlaySounds = False
+>v procChainMask = ()
+>v clientAuthorityOwner = 
+>v NetworkpredictionId = 0
+>v Networkowner = 
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 100
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = False
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Continuous
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = Interpolate
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+> RoR2.Projectile.ProjectileNetworkTransform
+>v projectileController = 
+>v transform = 
+>v rb = 
+>v interpolatedTransform = 
+>v positionTransmitInterval = 0,03333334
+>v interpolationFactor = 1
+>v allowClientsideCollision = False
+>v serverPosition = (0.0, 0.0, 0.0)
+>v serverRotation = (0.0, 0.0, 0.0, 0.0)
+>v interpolatedPosition = NetworkLerpedVector3
+>v interpolatedRotation = NetworkLerpedQuaternion
+>v NetworkserverPosition = (0.0, 0.0, 0.0)
+>v NetworkserverRotation = (0.0, 0.0, 0.0, 0.0)
+
+> RoR2.Projectile.ProjectileSimple
+>v lifetime = 15
+>v lifetimeExpiredEffect = 
+>v desiredForwardSpeed = 60
+>v updateAfterFiring = True
+>v enableVelocityOverLifetime = False
+>v velocityOverLifetime = UnityEngine.AnimationCurve
+>v oscillate = False
+>v oscillateMagnitude = 20
+>v oscillateSpeed = 0
+>v deltaHeight = 0
+>v oscillationStopwatch = 0
+>v stopwatch = 0
+>v rigidbody = 
+>v transform = 
+>v velocity = 60
+
+> UnityEngine.SphereCollider
+>v center = (0.0, 0.0, 0.0)
+>v radius = 1
+
+> RoR2.Projectile.ProjectileDamage
+>v damage = 0
+>v crit = False
+>v force = 0
+>v damageColorIndex = Default
+>v damageType = Generic
+>v useDotMaxStacksFromAttacker = False
+>v dotMaxStacksFromAttacker = 4294967295
+
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> RoR2.Projectile.ProjectileImpactExplosion
+>v impactNormal = (0.0, 1.0, 0.0)
+>v impactEffect = LunarWispTrackingBombExplosion (UnityEngine.GameObject)
+>v lifetimeExpiredSoundString = 
+>v lifetimeExpiredSound = 
+>v offsetForLifetimeExpiredSound = 0
+>v destroyOnEnemy = True
+>v destroyOnWorld = True
+>v timerAfterImpact = False
+>v lifetime = 12
+>v lifetimeAfterImpact = 0
+>v lifetimeRandomOffset = 0
+>v stopwatch = 0
+>v stopwatchAfterImpact = 0
+>v hasImpact = False
+>v hasPlayedLifetimeExpiredSound = False
+>v transformSpace = World
+
+> AkGameObj
+>v m_listeners = AkGameObjListenerList
+>v isEnvironmentAware = True
+>v isStaticObject = False
+>v m_Collider = 
+>v m_envData = 
+>v m_posData = 
+>v m_positionOffsetData = AkGameObjPositionOffsetData
+>v isRegistered = False
+>v m_posOffsetData = 
+>v AK_NUM_LISTENERS = 8
+>v listenerMask = 1
+>v IsUsingDefaultListeners = True
+>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+> RoR2.Projectile.ProjectileTargetComponent
+>v <target>k__BackingField = 
+>v target = 
+
+> RoR2.Projectile.ProjectileDirectionalTargetFinder
+>v lookRange = 600
+>v lookCone = 180
+>v targetSearchInterval = 1
+>v onlySearchIfNoTarget = True
+>v allowTargetLoss = False
+>v testLoS = True
+>v ignoreAir = False
+>v flierAltitudeTolerance = +Infini
+>v onNewTargetFound = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v onTargetLost = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v transform = 
+>v teamFilter = 
+>v targetComponent = 
+>v searchTimer = 0
+>v hasTarget = False
+>v hadTargetLastUpdate = False
+>v bullseyeSearch = 
+>v lastFoundHurtBox = 
+>v lastFoundTransform = 
+
+> RoR2.Projectile.ProjectileSteerTowardTarget
+>v yAxisOnly = False
+>v rotationSpeed = 60
+>v transform = 
+>v targetComponent = 
+
+> RoR2.Projectile.AssignTeamFilterToTeamComponent
+
+> RoR2.TeamComponent
+>v hideAllyCardDisplay = True
+>v _teamIndex = None
+>v <body>k__BackingField = 
+>v oldTeamIndex = None
+>v defaultIndicatorPrefab = 
+>v indicator = 
+>v indicatorSetupQueue = System.Collections.Generic.Queue`1[RoR2.TeamComponent]
+>v teamsList = System.Collections.Generic.List`1[RoR2.TeamComponent][]
+>v readonlyTeamsList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.TeamComponent][]
+>v emptyTeamMembers = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.TeamComponent]
+>v onJoinTeamGlobal = 
+>v onLeaveTeamGlobal = 
+>v body = 
+>v teamIndex = None
+
+> RoR2.SkillLocator
+>v primary = 
+>v secondary = 
+>v utility = 
+>v special = 
+>v passiveSkill = RoR2.SkillLocator+PassiveSkill
+>v networkIdentity = 
+>v allSkills = 
+>v hasEffectiveAuthority = False
+>v skillDefDirtyFlags = 0
+>v inDeserialize = False
+>v kRpcRpcDeductCooldownFromAllSkillsServer = -2090076365
+
+> RoR2.CharacterBody
+>v bodyIndex = 74
+>v baseNameToken = UNIDENTIFIED
+>v subtitleNameToken = 
+>v activeBuffsList = 
+>v activeBuffsListCount = 0
+>v buffs = 
+>v eliteBuffCount = 0
+>v timedBuffs = System.Collections.Generic.List`1[RoR2.CharacterBody+TimedBuff]
+>v pendingTonicAfflictionCount = 0
+>v warCryEffectInstance = 
+>v bodyFlags = Masterless
+>v masterObjectId = 0
+>v _masterObject = 
+>v _master = 
+>v <inventory>k__BackingField = 
+>v linkedToMaster = False
+>v <isPlayerControlled>k__BackingField = False
+>v disablingHurtBoxes = False
+>v previousEquipmentIndex = None
+>v <executeEliteHealthFraction>k__BackingField = 0
+>v onInventoryChanged = 
+>v transform = 
+>v <rigidbody>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v <characterMotor>k__BackingField = 
+>v <characterDirection>k__BackingField = 
+>v <teamComponent>k__BackingField = 
+>v <healthComponent>k__BackingField = 
+>v <equipmentSlot>k__BackingField = 
+>v <inputBank>k__BackingField = 
+>v <skillLocator>k__BackingField = 
+>v sfxLocator = 
+>v <modelLocator>k__BackingField = 
+>v <hurtBoxGroup>k__BackingField = 
+>v <mainHurtBox>k__BackingField = 
+>v <coreTransform>k__BackingField = 
+>v onSkillActivatedServer = 
+>v onSkillActivatedAuthority = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.CharacterBody]
+>v readOnlyInstancesList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.CharacterBody]
+>v onBodyAwakeGlobal = System.Action`1[RoR2.CharacterBody]
+>v onBodyDestroyGlobal = System.Action`1[RoR2.CharacterBody]
+>v onBodyStartGlobal = System.Action`1[RoR2.CharacterBody]
+>v onBodyInventoryChangedGlobal = System.Action`1[RoR2.CharacterBody]
+>v <hasEffectiveAuthority>k__BackingField = False
+>v _isSprinting = False
+>v outOfCombatDelay = 5
+>v outOfDangerDelay = 7
+>v outOfCombatStopwatch = 0
+>v outOfDangerStopwatch = 0
+>v <outOfCombat>k__BackingField = True
+>v _outOfDanger = True
+>v previousPosition = (0.0, 0.0, 0.0)
+>v notMovingWait = 1
+>v notMovingStopwatch = 0
+>v rootMotionInMainState = False
+>v mainRootSpeed = 0
+>v baseMaxHealth = 75
+>v baseRegen = 0
+>v baseMaxShield = 0
+>v baseMoveSpeed = 0
+>v baseAcceleration = 0
+>v baseJumpPower = 0
+>v baseDamage = 0
+>v baseAttackSpeed = 0
+>v baseCrit = 0
+>v baseArmor = 0
+>v baseVisionDistance = +Infini
+>v baseJumpCount = 0
+>v sprintingSpeedMultiplier = 1,45
+>v autoCalculateLevelStats = True
+>v levelMaxHealth = 22
+>v levelRegen = 0
+>v levelMaxShield = 0
+>v levelMoveSpeed = 0
+>v levelJumpPower = 0
+>v levelDamage = 0
+>v levelAttackSpeed = 0
+>v levelCrit = 0
+>v levelArmor = 0
+>v <experience>k__BackingField = 0
+>v <level>k__BackingField = 0
+>v <maxHealth>k__BackingField = 0
+>v <maxBarrier>k__BackingField = 0
+>v <barrierDecayRate>k__BackingField = 0
+>v <regen>k__BackingField = 0
+>v <maxShield>k__BackingField = 0
+>v <moveSpeed>k__BackingField = 0
+>v <acceleration>k__BackingField = 0
+>v <jumpPower>k__BackingField = 0
+>v <maxJumpCount>k__BackingField = 0
+>v <maxJumpHeight>k__BackingField = 0
+>v <damage>k__BackingField = 0
+>v <attackSpeed>k__BackingField = 0
+>v <crit>k__BackingField = 0
+>v <critMultiplier>k__BackingField = 0
+>v <bleedChance>k__BackingField = 0
+>v <armor>k__BackingField = 0
+>v <visionDistance>k__BackingField = 0
+>v <critHeal>k__BackingField = 0
+>v <cursePenalty>k__BackingField = 0
+>v <hasOneShotProtection>k__BackingField = False
+>v <isGlass>k__BackingField = False
+>v <oneShotProtectionFraction>k__BackingField = 0
+>v <canPerformBackstab>k__BackingField = False
+>v <canReceiveBackstab>k__BackingField = False
+>v statsDirty = False
+>v aimTimer = 0
+>v masterDirtyBit = 1
+>v buffsDirtyBit = 2
+>v outOfCombatBit = 4
+>v outOfDangerBit = 8
+>v sprintingBit = 16
+>v allDirtyBits = 31
+>v <killCountServer>k__BackingField = 0
+>v helfireController = 
+>v helfireLifetime = 0
+>v fireTrail = 
+>v wasLucky = False
+>v poisonballAngle = 25
+>v poisonballDamageCoefficient = 1
+>v poisonballRefreshTime = 6
+>v poisonballTimer = 0
+>v lunarMissileDamageCoefficient = 0,3
+>v lunarMissileRefreshTime = 10
+>v lunarMissileDelayBetweenShots = 0,1
+>v lunarMissileRechargeTimer = 10
+>v lunarMissileTimerBetweenShots = 0
+>v remainingMissilesToFire = 0
+>v lunarMissilePrefab = 
+>v timeBubbleWardInstance = 
+>v engiShieldTempEffectInstance = 
+>v bucklerShieldTempEffectInstance = 
+>v slowDownTimeTempEffectInstance = 
+>v crippleEffectInstance = 
+>v tonicBuffEffectInstance = 
+>v weakTempEffectInstance = 
+>v energizedTempEffectInstance = 
+>v barrierTempEffectInstance = 
+>v nullifyStack1EffectInstance = 
+>v nullifyStack2EffectInstance = 
+>v nullifyStack3EffectInstance = 
+>v regenBoostEffectInstance = 
+>v elephantDefenseEffectInstance = 
+>v healingDisabledEffectInstance = 
+>v noCooldownEffectInstance = 
+>v doppelgangerEffectInstance = 
+>v deathmarkEffectInstance = 
+>v crocoRegenEffectInstance = 
+>v mercExposeEffectInstance = 
+>v lifestealOnHitEffectInstance = 
+>v teamWarCryEffectInstance = 
+>v randomDamageEffectInstance = 
+>v lunarGolemShieldEffectInstance = 
+>v warbannerEffectInstance = 
+>v teslaFieldEffectInstance = 
+>v lunarSecondaryRootEffectInstance = 
+>v lunarDetonatorEffectInstance = 
+>v fruitingEffectInstance = 
+>v mushroomVoidTempEffectInstance = 
+>v bearVoidTempEffectInstance = 
+>v outOfCombatArmorEffectInstance = 
+>v voidFogMildEffectInstance = 
+>v voidFogStrongEffectInstance = 
+>v voidJailerSlowEffectInstance = 
+>v voidRaidcrabWardWipeFogEffectInstance = 
+>v spreadBloomDecayTime = 0,45
+>v spreadBloomCurve = UnityEngine.AnimationCurve
+>v spreadBloomInternal = 0
+>v _defaultCrosshairPrefab = StandardCrosshair (UnityEngine.GameObject)
+>v hideCrosshair = False
+>v multiKillMaxInterval = 1
+>v multiKillTimer = 0
+>v <multiKillCount>k__BackingField = 0
+>v multiKillThresholdForWarcry = 4
+>v <radius>k__BackingField = 0
+>v aimOriginTransform = 
+>v hullClassification = Human
+>v portraitIcon = texNullIcon (UnityEngine.Texture2D)
+>v bodyColor = RGBA(0.000, 0.000, 0.000, 0.000)
+>v isChampion = False
+>v <isElite>k__BackingField = False
+>v currentVehicle = 
+>v preferredPodPrefab = 
+>v preferredInitialStateType = EntityStates.SerializableEntityStateType
+>v skinIndex = 0
+>v <localStartTime>k__BackingField = RoR2.Run+FixedTimeStamp
+>v customKillTotalStatName = 
+>v overrideCoreTransform = 
+>v kCmdCmdAddTimedBuff = -160178508
+>v kCmdCmdUpdateSprint = -1006016914
+>v kCmdCmdOnSkillActivated = 384138986
+>v kRpcRpcBark = -76716871
+>v kCmdCmdRequestVehicleEjection = 1803737791
+>v kRpcRpcUsePreferredInitialStateType = 638695010
+>v master = 
+>v inventory = 
+>v isPlayerControlled = False
+>v executeEliteHealthFraction = 0
+>v masterObject = 
+>v rigidbody = 
+>v networkIdentity = 
+>v characterMotor = 
+>v characterDirection = 
+>v teamComponent = 
+>v healthComponent = 
+>v equipmentSlot = 
+>v inputBank = 
+>v skillLocator = 
+>v modelLocator = 
+>v hurtBoxGroup = 
+>v mainHurtBox = 
+>v coreTransform = 
+>v hasEffectiveAuthority = False
+>v isSprinting = False
+>v outOfCombat = True
+>v outOfDanger = True
+>v experience = 0
+>v level = 0
+>v maxHealth = 0
+>v maxBarrier = 0
+>v barrierDecayRate = 0
+>v regen = 0
+>v maxShield = 0
+>v moveSpeed = 0
+>v acceleration = 0
+>v jumpPower = 0
+>v maxJumpCount = 0
+>v maxJumpHeight = 0
+>v damage = 0
+>v attackSpeed = 0
+>v crit = 0
+>v critMultiplier = 0
+>v bleedChance = 0
+>v armor = 0
+>v visionDistance = 0
+>v critHeal = 0
+>v cursePenalty = 0
+>v hasOneShotProtection = False
+>v isGlass = False
+>v oneShotProtectionFraction = 0
+>v canPerformBackstab = False
+>v canReceiveBackstab = False
+>v shouldAim = False
+>v killCountServer = 0
+>v bestFitRadius = 1
+>v spreadBloomAngle = 0
+>v defaultCrosshairPrefab = StandardCrosshair (UnityEngine.GameObject)
+>v multiKillCount = 0
+>v radius = 0
+>v isElite = False
+>v isBoss = False
+>v isFlying = True
+>v localStartTime = RoR2.Run+FixedTimeStamp
+>v isEquipmentActivationAllowed = True
+
+> RoR2.HealthComponent
+>v lowHealthFraction = 0,25
+>v health = 1000
+>v shield = 0
+>v barrier = 0
+>v magnetiCharge = 0
+>v dontShowHealthbar = False
+>v globalDeathEventChanceCoefficient = 1
+>v _killingDamageType = 0
+>v body = LunarWispTrackingBomb (RoR2.CharacterBody)
+>v modelLocator = 
+>v painAnimationHandler = 
+>v onIncomingDamageReceivers = 
+>v onTakeDamageReceivers = 
+>v <lastHitTime>k__BackingField = RoR2.Run+FixedTimeStamp
+>v <lastHealTime>k__BackingField = RoR2.Run+FixedTimeStamp
+>v <lastHitAttacker>k__BackingField = 
+>v <godMode>k__BackingField = False
+>v <potionReserve>k__BackingField = 0
+>v <isInFrozenState>k__BackingField = False
+>v frozenExecuteThreshold = 0,3
+>v adaptiveArmorPerOnePercentTaken = 30
+>v adaptiveArmorDecayPerSecond = 40
+>v adaptiveArmorCap = 400
+>v medkitActivationDelay = 2
+>v devilOrbMaxTimer = 0,1
+>v devilOrbHealPool = 0
+>v devilOrbTimer = 0
+>v regenAccumulator = 0
+>v wasAlive = True
+>v adaptiveArmorValue = 0
+>v isShieldRegenForced = False
+>v onCharacterHealServer = System.Action`3[RoR2.HealthComponent,System.Single,RoR2.ProcChainMask]
+>v ospTimer = 0
+>v ospBufferDuration = 0,1
+>v serverDamageTakenThisUpdate = 0
+>v repeatHealComponent = 
+>v itemCounts = RoR2.HealthComponent+ItemCounts
+>v currentEquipmentIndex = 0
+>v kCmdCmdHealFull = -290141736
+>v kCmdCmdRechargeShieldFull = -833942624
+>v kCmdCmdAddBarrier = -1976809257
+>v kCmdCmdForceShieldRegen = -1029271894
+>v killingDamageType = Generic
+>v alive = True
+>v fullHealth = 0
+>v fullShield = 0
+>v fullBarrier = 0
+>v combinedHealth = 1000
+>v fullCombinedHealth = 0
+>v combinedHealthFraction = +Infini
+>v missingCombinedHealth = -1000
+>v lastHitTime = RoR2.Run+FixedTimeStamp
+>v lastHealTime = RoR2.Run+FixedTimeStamp
+>v lastHitAttacker = 
+>v timeSinceLastHit = 0
+>v timeSinceLastHeal = 0
+>v godMode = False
+>v potionReserve = 0
+>v isInFrozenState = False
+>v isHealthLow = False
+>v Networkhealth = 1000
+>v Networkshield = 0
+>v Networkbarrier = 0
+>v NetworkmagnetiCharge = 0
+>v Network_killingDamageType = 0
+
+> RoR2.ModelLocator
+>v _modelTransform = Model (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = 
+>v onModelChanged = 
+>v autoUpdateModelTransform = False
+>v dontDetatchFromParent = True
+>v modelParentTransform = 
+>v noCorpse = True
+>v dontReleaseModelOnDeath = True
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = Model (UnityEngine.Transform)
+
+>GameObject Children 0 Model
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.HurtBoxGroup
+>>v hurtBoxes = RoR2.HurtBox[]
+>>v mainHurtBox = Hurtbox (RoR2.HurtBox)
+>>v bullseyeCount = 1
+>>v _hurtBoxesDeactivatorCounter = 0
+>>v hurtBoxesDeactivatorCounter = 0
+
+>>GameObject Children 0 Hurtbox
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v radius = 0,92
+
+>>> RoR2.HurtBox
+>>>v healthComponent = LunarWispTrackingBomb (RoR2.HealthComponent)
+>>>v isBullseye = True
+>>>v isSniperTarget = False
+>>>v damageModifier = Normal
+>>>v <teamIndex>k__BackingField = None
+>>>v hurtBoxGroup = Model (RoR2.HurtBoxGroup)
+>>>v indexInGroup = 0
+>>>v <collider>k__BackingField = 
+>>>v <volume>k__BackingField = 0
+>>>v isInBullseyeList = False
+>>>v isInSniperTargetList = False
+>>>v bullseyesList = System.Collections.Generic.List`1[RoR2.HurtBox]
+>>>v readOnlyBullseyesList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.HurtBox]
+>>>v sniperTargetsList = System.Collections.Generic.List`1[RoR2.HurtBox]
+>>>v sniperTargetRadius = 1
+>>>v sniperTargetRadiusSqr = 1
+>>>v teamIndex = None
+>>>v collider = 
+>>>v volume = 0
+>>>v readOnlySniperTargetsList = System.Collections.Generic.List`1[RoR2.HurtBox]
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = False
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>GameObject Children 1 ProximityDetonator
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SphereCollider
+>>v center = (0.0, 0.0, 0.0)
+>>v radius = 1,14
+
+>> RoR2.Projectile.MineProximityDetonator
+>>v myTeamFilter = LunarWispTrackingBomb (RoR2.TeamFilter)
+>>v triggerEvents = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+>GameObject Children 2 AuthorityEffect
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (20.0, 20.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 PredictionEffect
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (20.0, 20.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

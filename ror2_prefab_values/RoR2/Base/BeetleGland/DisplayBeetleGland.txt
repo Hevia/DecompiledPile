@@ -1,0 +1,83 @@
+Key Path : RoR2/Base/BeetleGland/DisplayBeetleGland.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayBeetleGland
+
+> transform = p: (179.6, 30.0, 135.1) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlBeetleGland
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.2, 1.2, 1.2)
+>> DynamicBone
+>>v m_Root = BeetleGlandArmature (UnityEngine.Transform)
+>>v m_UpdateRate = 60
+>>v m_UpdateMode = Normal
+>>v m_Damping = 0,1
+>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>v m_Elasticity = 0,1
+>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>v m_Stiffness = 1
+>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>v m_Inert = 0
+>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>v m_Radius = 0
+>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>v m_EndLength = 0
+>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>v m_Gravity = (0.0, 0.0, 0.0)
+>>v m_Force = (0.0, 0.0, 0.0)
+>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>v m_FreezeAxis = None
+>>v m_DistantDisable = False
+>>v m_ReferenceObject = 
+>>v m_DistanceToObject = 20
+>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>v m_BoneTotalLength = 0
+>>v m_ObjectScale = 1
+>>v m_Time = 0
+>>v m_Weight = 1
+>>v m_DistantDisabled = False
+>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>GameObject Children 0 BeetleGlandArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 GlandBone.001
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (347.9, 350.0, 34.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 GlandBone.002
+
+>>>>> transform = p: (0.0, 1.0, 0.0) r: (309.7, 90.0, 5.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 GlandBone.003
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (271.0, 89.1, 25.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 GlandBone.004
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (330.4, 270.7, 187.6) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 GlandBone.004_end
+
+>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (330.4, 270.7, 187.6) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 GlandBone.005
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (328.8, 90.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 GlandBone.006
+
+>>>>> transform = p: (0.0, 0.9, 0.0) r: (356.9, 90.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 GlandBone.006_end
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (356.9, 90.0, 180.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 BeetleGlandMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = GlandBone.001 (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = BeetleGlandMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (-0.1, 0.2, -0.1), Extents: (0.9, 1.7, 1.0)

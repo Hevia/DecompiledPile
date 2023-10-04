@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/LunarTrinket/PickupBeads.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBeads
+
+> transform = p: (-69.9, 8.3, -1.4) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, -0.3)
+>v minDistance = 1
+>v maxDistance = 2
+>v cameraDirection = (0.6, 0.0, -0.9)
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BeadMesh (UnityEngine.Mesh)
+>>v mesh = BeadMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, -0.4, 0.0) r: (0.0, 234.3, 0.0) s: (1.4, 1.4, 1.4)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.9, -0.4, 1.3) r: (0.0, 234.3, 0.0) s: (1.4, 1.4, 1.4)

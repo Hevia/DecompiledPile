@@ -1,0 +1,134 @@
+Key Path : RoR2/Base/Engi/mdlEngiSpiderMine.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlEngiSpiderMine
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 329173.5, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlEngiSpiderMineAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 EngiSpiderMineArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Base
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Screw
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Screw_end
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 thigh1
+
+>>>> transform = p: (-0.3, 0.0, 0.3) r: (359.8, 275.8, 180.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 foot1
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (313.8, 201.0, 121.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 foot1_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (313.8, 201.0, 121.7) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 thigh2
+
+>>>> transform = p: (-0.3, 0.0, -0.3) r: (359.7, 218.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 foot2
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (35.5, 151.1, 116.5) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 foot2_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (35.5, 151.1, 116.5) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 thigh3
+
+>>>> transform = p: (0.3, 0.0, -0.3) r: (359.7, 160.2, 179.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 foot3
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (47.4, 200.0, 237.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 foot3_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (47.4, 200.0, 237.6) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 4 thigh4
+
+>>>> transform = p: (0.3, 0.0, 0.3) r: (359.8, 102.5, 179.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 foot4
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (325.7, 150.4, 243.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 foot4_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (325.7, 150.4, 243.9) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 IKTarget1
+
+>>> transform = p: (-0.1, -0.1, -0.3) r: (270.0, 134.6, 0.0) s: (0.3, 0.3, 0.3)
+>>>GameObject Children 0 IKTarget1_end
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 134.6, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 IKTarget2
+
+>>> transform = p: (-0.1, 0.1, -0.3) r: (270.0, 44.6, 0.0) s: (0.3, 0.3, 0.3)
+>>>GameObject Children 0 IKTarget2_end
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 44.6, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 3 IKTarget3
+
+>>> transform = p: (0.1, 0.1, -0.3) r: (270.0, 314.6, 0.0) s: (0.3, 0.3, 0.3)
+>>>GameObject Children 0 IKTarget3_end
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 314.6, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 4 IKTarget4
+
+>>> transform = p: (0.1, -0.1, -0.3) r: (270.0, 224.6, 0.0) s: (0.3, 0.3, 0.3)
+>>>GameObject Children 0 IKTarget4_end
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 224.6, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 EngiSpiderMineMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Base (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = EngiSpiderMineMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, -0.1, 0.0), Extents: (0.5, 0.3, 0.5)

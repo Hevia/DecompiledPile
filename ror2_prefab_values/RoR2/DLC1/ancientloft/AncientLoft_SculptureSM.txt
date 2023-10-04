@@ -1,0 +1,43 @@
+Key Path : RoR2/DLC1/ancientloft/AncientLoft_SculptureSM.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : AncientLoft_SculptureSM
+
+> transform = p: (-44.3, 40.8, 27.6) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 AncientLoft_SculptureSM
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = SMSculpture (UnityEngine.Mesh)
+>>v mesh = SMSculpture Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = SMSculpture (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> RoR2.ObjectTransformCurve
+>>v useRotationCurves = False
+>>v useTranslationCurves = True
+>>v loop = True
+>>v randomizeInitialTime = False
+>>v rotationCurveX = UnityEngine.AnimationCurve
+>>v rotationCurveY = UnityEngine.AnimationCurve
+>>v rotationCurveZ = UnityEngine.AnimationCurve
+>>v translationCurveX = UnityEngine.AnimationCurve
+>>v translationCurveY = UnityEngine.AnimationCurve
+>>v translationCurveZ = UnityEngine.AnimationCurve
+>>v timeMax = 10
+>>v <time>k__BackingField = 0
+>>v <basePosition>k__BackingField = (0.0, 0.0, 0.0)
+>>v <baseRotation>k__BackingField = (0.0, 0.0, 0.0, 0.0)
+>>v time = 0
+>>v basePosition = (0.0, 0.0, 0.0)
+>>v baseRotation = (0.0, 0.0, 0.0, 0.0)

@@ -1,0 +1,39 @@
+Key Path : RoR2/Base/ElementalRings/PickupIceRing.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupIceRing
+
+> transform = p: (132.4, -117.1, -66.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.1, 0.0)
+>v minDistance = 2
+>v maxDistance = 5
+>v cameraDirection = (0.0, -0.4, 2.1)
+
+>GameObject Children 0 RingSetMeshHires
+
+>> transform = p: (0.0, 0.0, 0.0) r: (292.9, 248.4, 352.1) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RingSetMeshHires (UnityEngine.Mesh)
+>>v mesh = RingSetMeshHires Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 IceRingGemstoneMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (292.9, 248.4, 82.1) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = IceRingGemstoneMesh (UnityEngine.Mesh)
+>>>v mesh = IceRingGemstoneMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 348.1) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.0, 0.4, -2.1) r: (0.0, 270.0, 348.1) s: (1.0, 1.0, 1.0)

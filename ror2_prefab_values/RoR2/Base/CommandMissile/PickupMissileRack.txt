@@ -1,0 +1,110 @@
+Key Path : RoR2/Base/CommandMissile/PickupMissileRack.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupMissileRack
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, 0.2)
+>v minDistance = 8
+>v maxDistance = 12
+>v cameraDirection = (4.4, -2.4, 6.9)
+
+>GameObject Children 0 mdlMissileRack
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = 
+>>v hasBoundPlayables = False
+>>v avatar = mdlMissileRackAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 Cube
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Base (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = Cube (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 1.5, 1.5), Extents: (4.3, 2.7, 2.5)
+
+>>GameObject Children 1 MissileRackArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Base
+
+>>>> transform = p: (0.0, -2.1, 0.8) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Arm1.l
+
+>>>>> transform = p: (2.7, 0.7, -0.4) r: (320.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Arm2.l
+
+>>>>>> transform = p: (1.2, 1.8, 0.0) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Arm2.l_end
+
+>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Arm1.r
+
+>>>>> transform = p: (-2.7, 0.7, -0.4) r: (320.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Arm2.r
+
+>>>>>> transform = p: (-1.2, 1.8, 0.0) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Arm2.r_end
+
+>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 Head
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (20.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Head_end
+
+>>>>>> transform = p: (0.0, 2.6, 0.0) r: (20.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (-0.8, 2.0, 0.4) r: (0.0, 298.1, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-5.2, 4.3, -6.5) r: (0.0, 298.1, 0.0) s: (1.0, 1.0, 1.0)

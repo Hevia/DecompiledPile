@@ -1,0 +1,34 @@
+Key Path : RoR2/Base/WarCryOnMultiKill/PickupPauldron.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupPauldron
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (-0.1, 0.8, 0.1, 0.6)
+>v minDistance = 1,5
+>v maxDistance = 4
+>v cameraDirection = (2.0, -0.1, 0.5)
+
+>GameObject Children 0 mdlPauldron
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = PauldronMesh (UnityEngine.Mesh)
+>>v mesh = PauldronMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (15.9, 346.3, 356.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-2.0, 0.1, -0.5) r: (15.9, 346.3, 356.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (15.9, 346.3, 356.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 4 CameraPosition(Clone)
+
+>> transform = p: (-2.0, 0.1, -0.5) r: (15.9, 346.3, 356.3) s: (1.0, 1.0, 1.0)

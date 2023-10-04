@@ -1,0 +1,1367 @@
+Key Path : RoR2/DLC1/VoidSurvivor/VoidSurvivorDisplay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidSurvivorDisplay
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.LoopSoundPlayer
+>v loopDef = lsdVoidSurvivorDisplay (RoR2.Audio.LoopSoundDef)
+>v loopPtr = RoR2.Audio.LoopSoundManager+SoundLoopPtr
+
+>GameObject Children 0 mdlVoidSurvivor
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = animVoidSurvivor (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = mdlVoidSurvivorAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>> RoR2.CharacterModel
+>>v body = 
+>>v itemDisplayRuleSet = 
+>>v autoPopulateLightInfos = True
+>>v baseRendererInfos = RoR2.CharacterModel+RendererInfo[]
+>>v baseLightInfos = RoR2.CharacterModel+LightInfo[]
+>>v childLocator = 
+>>v goldAffixEffect = 
+>>v hurtBoxInfos = RoR2.CharacterModel+HurtBoxInfo[]
+>>v coreTransform = 
+>>v hitFlashBaseColor = RGBA(0.757, 0.424, 0.200, 1.000)
+>>v hitFlashShieldColor = RGBA(0.518, 0.624, 1.000, 1.000)
+>>v healFlashColor = RGBA(0.408, 0.769, 0.192, 1.000)
+>>v hitFlashDuration = 0,15
+>>v healFlashDuration = 0,35
+>>v _visibility = Visible
+>>v _isGhost = False
+>>v _isDoppelganger = False
+>>v _isEcho = False
+>>v invisibilityCount = 0
+>>v temporaryOverlays = System.Collections.Generic.List`1[RoR2.TemporaryOverlay]
+>>v materialsDirty = True
+>>v propertyStorage = 
+>>v inventoryEquipmentIndex = None
+>>v myEliteIndex = None
+>>v fade = 1
+>>v firstPersonFade = 1
+>>v mainSkinnedMeshRenderer = 
+>>v poisonEliteLightColor = RGBA(0.353, 1.000, 0.757, 0.800)
+>>v hauntedEliteLightColor = RGBA(0.596, 0.894, 0.851, 0.800)
+>>v lunarEliteLightColor = RGBA(1.000, 1.000, 1.000, 0.498)
+>>v voidEliteLightColor = RGBA(0.592, 0.306, 0.518, 0.800)
+>>v lightColorOverride = 
+>>v particleMaterialOverride = 
+>>v poisonAffixEffect = 
+>>v hauntedAffixEffect = 
+>>v voidAffixEffect = 
+>>v affixHauntedCloakLockoutDuration = 3
+>>v currentEquipmentDisplayIndex = None
+>>v enabledItemDisplays = 
+>>v parentedPrefabDisplays = System.Collections.Generic.List`1[RoR2.CharacterModel+ParentedPrefabDisplay]
+>>v limbMaskDisplays = System.Collections.Generic.List`1[RoR2.CharacterModel+LimbMaskDisplay]
+>>v limbFlagSet = RoR2.CharacterModel+LimbFlagSet
+>>v revealedMaterial = matRevealedEffect (UnityEngine.Material)
+>>v cloakedMaterial = matCloakedEffect (UnityEngine.Material)
+>>v ghostMaterial = matGhostEffect (UnityEngine.Material)
+>>v bellBuffMaterial = matBellBuff (UnityEngine.Material)
+>>v wolfhatMaterial = matWolfhatOverlay (UnityEngine.Material)
+>>v energyShieldMaterial = matEnergyShield (UnityEngine.Material)
+>>v fullCritMaterial = matFullCrit (UnityEngine.Material)
+>>v beetleJuiceMaterial = matBeetleJuice (UnityEngine.Material)
+>>v brittleMaterial = matBrittle (UnityEngine.Material)
+>>v clayGooMaterial = matClayGooDebuff (UnityEngine.Material)
+>>v slow80Material = matSlow80Debuff (UnityEngine.Material)
+>>v immuneMaterial = matImmune (UnityEngine.Material)
+>>v elitePoisonOverlayMaterial = matElitePoisonOverlay (UnityEngine.Material)
+>>v elitePoisonParticleReplacementMaterial = matElitePoisonParticleReplacement (UnityEngine.Material)
+>>v eliteHauntedOverlayMaterial = matEliteHauntedOverlay (UnityEngine.Material)
+>>v eliteJustHauntedOverlayMaterial = matEliteJustHauntedOverlay (UnityEngine.Material)
+>>v eliteHauntedParticleReplacementMaterial = matEliteHauntedParticleReplacement (UnityEngine.Material)
+>>v eliteLunarParticleReplacementMaterial = matEliteLunarParticleReplacement (UnityEngine.Material)
+>>v eliteVoidParticleReplacementMaterial = matEliteVoidParticleReplacement (UnityEngine.Material)
+>>v eliteVoidOverlayMaterial = matEliteVoidOverlay (UnityEngine.Material)
+>>v weakMaterial = matWeakOverlay (UnityEngine.Material)
+>>v pulverizedMaterial = matPulverizedOverlay (UnityEngine.Material)
+>>v doppelgangerMaterial = matDoppelganger (UnityEngine.Material)
+>>v ghostParticleReplacementMaterial = matGhostParticleReplacement (UnityEngine.Material)
+>>v lunarGolemShieldMaterial = matLunarGolemShield (UnityEngine.Material)
+>>v echoMaterial = matEcho (UnityEngine.Material)
+>>v gummyCloneMaterial = matGummyClone (UnityEngine.Material)
+>>v voidSurvivorCorruptMaterial = matVoidSurvivorCorruptOverlay (UnityEngine.Material)
+>>v voidShieldMaterial = matEnergyShieldVoid (UnityEngine.Material)
+>>v maxOverlays = 6
+>>v currentOverlays = UnityEngine.Material[]
+>>v activeOverlayCount = 0
+>>v wasPreviouslyClayGooed = False
+>>v wasPreviouslyHaunted = False
+>>v rtpcEliteEnemy = RoR2.WwiseUtils.RtpcSetter
+>>v shaderEliteRampIndex = -1
+>>v sharedMaterialArrays = UnityEngine.Material[][]
+>>v maxMaterials = 7
+>>v visibility = Visible
+>>v isGhost = False
+>>v isDoppelganger = False
+>>v isEcho = False
+
+>> RoR2.AnimationEvents
+>>v soundCenter = Hand (UnityEngine.GameObject)
+>>v bodyObject = 
+>>v characterModel = 
+>>v childLocator = 
+>>v entityLocator = 
+>>v meshRenderer = 
+>>v modelLocator = 
+>>v printHeight = 0
+>>v printTime = 0
+
+>> RoR2.ModelSkinController
+>>v skins = RoR2.SkinDef[]
+>>v <currentSkinIndex>k__BackingField = -1
+>>v characterModel = 
+>>v currentSkinIndex = -1
+
+>>GameObject Children 0 mdlVoidSurvivorBody
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlVoidSurvivorBody (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (-0.2, 0.9, 0.0), Extents: (1.0, 1.0, 0.5)
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 2
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = True
+>>>v time = 0
+>>>v initialFade = 0
+
+>>GameObject Children 1 mdlVoidSurvivorHead
+
+>>> transform = p: (0.0, 1.8, 0.0) r: (292.7, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlVoidSurvivorHead (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 1.8, 0.0), Extents: (0.2, 0.2, 0.2)
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 2
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = True
+>>>v time = 0
+>>>v initialFade = 0
+
+>>GameObject Children 2 mdlVoidSurvivorMetal
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (42.2, 191.7, 242.2) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlVoidSurvivorMetal (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.3, 1.1, 0.1), Extents: (0.5, 0.8, 0.4)
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 2
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = True
+>>>v time = 0
+>>>v initialFade = 0
+
+>>GameObject Children 3 metalcollar.001
+
+>>> transform = p: (0.0, 1.7, 0.0) r: (270.0, 302.4, 0.0) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = metalcollar.001 (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 1.6, 0.0), Extents: (0.1, 0.0, 0.1)
+
+>>GameObject Children 4 VoidSurvivorArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ROOT
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 base
+
+>>>>> transform = p: (0.0, 1.2, 0.0) r: (270.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Pelvis
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 32.4, 174.1) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Thigh.l
+
+>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (8.5, 13.2, 175.7) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Calf.l
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (5.3, 14.0, 188.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Foot.l
+
+>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 32.4, 125.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Toe.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 32.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Toe.l_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 32.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 Thigh.r
+
+>>>>>>> transform = p: (0.0, 0.2, 0.1) r: (8.5, 231.6, 184.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Calf.r
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (5.3, 230.7, 171.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Foot.r
+
+>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 212.4, 234.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Toe.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 212.4, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Toe.r_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 212.4, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 Stomach
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (350.8, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Backjet.l
+
+>>>>>>> transform = p: (-0.1, 0.4, -0.2) r: (344.8, 117.3, 203.9) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Backjet.l_end
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (344.8, 117.3, 203.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 Backjet.r
+
+>>>>>>> transform = p: (0.1, 0.4, -0.2) r: (344.8, 127.4, 156.1) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Backjet.r_end
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (344.8, 127.4, 156.1) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 Chest
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (2.2, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 LargeExhaust1.l
+
+>>>>>>>> transform = p: (-0.1, 0.2, -0.2) r: (313.0, 278.1, 13.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 LargeExhaust2.l
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (313.0, 278.1, 13.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 LargeExhaust2.l_end
+
+>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (313.0, 278.1, 13.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 1 LargeExhaust1.r
+
+>>>>>>>> transform = p: (0.1, 0.2, -0.2) r: (313.0, 326.7, 346.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 LargeExhaust2.r
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (313.0, 326.7, 346.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 LargeExhaust2.r_end
+
+>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (313.0, 326.7, 346.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 2 Neck
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (5.5, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Head
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (24.6, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Head_end
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (24.6, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 3 Shoulder.l
+
+>>>>>>>> transform = p: (-0.1, 0.1, 0.0) r: (353.3, 116.1, 294.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Upperarm.l
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.5, 300.4, 95.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Forearm.l
+
+>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (359.9, 306.3, 95.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 ForearmExhaust
+
+>>>>>>>>>>> transform = p: (0.1, 0.0, 0.0) r: (359.7, 309.8, 8.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 ForearmExhaust_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.7, 309.8, 8.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 Hand
+
+>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (360.0, 305.7, 95.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Index1
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.1) r: (0.7, 304.3, 118.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Index2
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (1.4, 303.4, 120.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Index3
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (4.3, 300.2, 143.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 IndexEnd
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.1, 305.8, 162.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 IndexEnd_end
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.1, 305.8, 162.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 1 Middle1
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (2.8, 301.7, 127.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Middle2
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (2.9, 301.7, 119.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Middle3
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.4, 301.1, 141.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 MiddleEnd
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.6, 303.6, 165.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 MiddleEnd_end
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.6, 303.6, 165.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 2 Pinky1
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (3.0, 304.5, 129.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Pinky2
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.3, 307.2, 143.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 PinkyEnd
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (358.1, 308.9, 149.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 PinkyEnd_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.1, 308.9, 149.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 3 Ring1
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (1.1, 304.5, 128.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Ring2
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (2.3, 303.4, 133.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Ring3
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.2, 302.7, 150.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 RingEnd
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (1.0, 304.2, 161.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 RingEnd_end
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.0, 304.2, 161.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 4 Thumb1
+
+>>>>>>>>>>>> transform = p: (-0.1, 0.1, 0.1) r: (345.3, 318.9, 144.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Thumb2
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 299.1, 106.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 ThumbEnd
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (5.1, 272.5, 86.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 ThumbEnd_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (5.1, 272.5, 86.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 5 VoidSurvivorChargeCrabCannon
+
+>>>>>>>>>>>> transform = p: (-0.1, 0.2, 0.0) r: (360.0, 305.7, 95.7) s: (0.3, 0.3, 0.3)
+>>>>>>>>>>>> RoR2.VFXAttributes
+>>>>>>>>>>>>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>>>>>>>>>>>>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>>>>>>>>>>>>v vfxPriority = Always
+>>>>>>>>>>>>v vfxIntensity = Low
+>>>>>>>>>>>>v optionalLights = UnityEngine.Light[]
+>>>>>>>>>>>>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>>>>>>>>>>>>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+>>>>>>>>>>>>GameObject Children 0 Base
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (360.0, 305.7, 95.7) s: (0.5, 0.5, 0.5)
+>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>v loop = True
+>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>v duration = 1
+>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>v emissionRate = 9
+>>>>>>>>>>>>>v startSpeed = 0
+>>>>>>>>>>>>>v startSize = 3
+>>>>>>>>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>v startLifetime = 1
+>>>>>>>>>>>>>v gravityModifier = 0
+>>>>>>>>>>>>>v maxParticles = 10
+>>>>>>>>>>>>>v simulationSpace = Local
+>>>>>>>>>>>>>v scalingMode = Hierarchy
+>>>>>>>>>>>>>v automaticCullingEnabled = True
+>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>v randomSeed = 0
+>>>>>>>>>>>>>v useAutoRandomSeed = True
+>>>>>>>>>>>>>v proceduralSimulationSupported = True
+>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>v alignment = View
+>>>>>>>>>>>>>v renderMode = Billboard
+>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>v lengthScale = 2
+>>>>>>>>>>>>>v velocityScale = 0
+>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>v sortingFudge = 3,83
+>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>v mesh = 
+>>>>>>>>>>>>>v meshCount = 0
+>>>>>>>>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>>>>>>>>GameObject Children 1 OrbCore
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (360.0, 305.7, 95.7) s: (0.3, 0.3, 0.3)
+>>>>>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>>>>>v sharedMesh = IcosphereHighres (UnityEngine.Mesh)
+>>>>>>>>>>>>>v mesh = IcosphereHighres Instance (UnityEngine.Mesh)
+
+>>>>>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>>>>>>GameObject Children 2 Point light
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (360.0, 305.7, 95.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>> UnityEngine.Light
+>>>>>>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>>>>>>v type = Point
+>>>>>>>>>>>>>v shape = Cone
+>>>>>>>>>>>>>v spotAngle = 30
+>>>>>>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>>>>>>v color = RGBA(0.639, 0.235, 0.773, 1.000)
+>>>>>>>>>>>>>v colorTemperature = 6570
+>>>>>>>>>>>>>v useColorTemperature = False
+>>>>>>>>>>>>>v intensity = 83,8
+>>>>>>>>>>>>>v bounceIntensity = 1
+>>>>>>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>>>>>>v shadowBias = 0,05
+>>>>>>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>>>>>>v range = 0,45
+>>>>>>>>>>>>>v flare = 
+>>>>>>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>>>>>>v cullingMask = -1
+>>>>>>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>>>>>>v shadows = None
+>>>>>>>>>>>>>v shadowStrength = 1
+>>>>>>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>>>>>>v shadowSoftness = 4
+>>>>>>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>>>>>>v cookieSize = 10
+>>>>>>>>>>>>>v cookie = 
+>>>>>>>>>>>>>v renderMode = Auto
+>>>>>>>>>>>>>v bakedIndex = 0
+>>>>>>>>>>>>>v commandBufferCount = 0
+>>>>>>>>>>>>>v pixelLightCount = 4
+>>>>>>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>>>>>>v attenuate = True
+
+>>>>>>>>>>>>> RoR2.FlickerLight
+>>>>>>>>>>>>>v light = Point light (UnityEngine.Light)
+>>>>>>>>>>>>>v sinWaves = Wave[]
+>>>>>>>>>>>>>v initialLightIntensity = 0
+>>>>>>>>>>>>>v stopwatch = 0
+>>>>>>>>>>>>>v randomPhase = 0
+
+>>>>>>>>>>>>GameObject Children 3 Ballz
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (360.0, 305.7, 95.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>v loop = True
+>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>v duration = 1
+>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>v emissionRate = 12
+>>>>>>>>>>>>>v startSpeed = 0
+>>>>>>>>>>>>>v startSize = 0,3
+>>>>>>>>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>v startLifetime = 0,5
+>>>>>>>>>>>>>v gravityModifier = 0
+>>>>>>>>>>>>>v maxParticles = 30
+>>>>>>>>>>>>>v simulationSpace = World
+>>>>>>>>>>>>>v scalingMode = Shape
+>>>>>>>>>>>>>v automaticCullingEnabled = False
+>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>v randomSeed = 0
+>>>>>>>>>>>>>v useAutoRandomSeed = True
+>>>>>>>>>>>>>v proceduralSimulationSupported = False
+>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>v alignment = View
+>>>>>>>>>>>>>v renderMode = Billboard
+>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>v lengthScale = 1
+>>>>>>>>>>>>>v velocityScale = 0,2
+>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>v sortingFudge = 0
+>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>v mesh = 
+>>>>>>>>>>>>>v meshCount = 0
+>>>>>>>>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>>>>>>>>GameObject Children 4 Smoke, Up
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (360.0, 305.7, 95.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>v loop = True
+>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>v duration = 1
+>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>v emissionRate = 12
+>>>>>>>>>>>>>v startSpeed = 0
+>>>>>>>>>>>>>v startSize = 0,6
+>>>>>>>>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>v startLifetime = 0,5
+>>>>>>>>>>>>>v gravityModifier = -0,1
+>>>>>>>>>>>>>v maxParticles = 30
+>>>>>>>>>>>>>v simulationSpace = World
+>>>>>>>>>>>>>v scalingMode = Shape
+>>>>>>>>>>>>>v automaticCullingEnabled = False
+>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>v randomSeed = 0
+>>>>>>>>>>>>>v useAutoRandomSeed = True
+>>>>>>>>>>>>>v proceduralSimulationSupported = False
+>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>v alignment = View
+>>>>>>>>>>>>>v renderMode = Billboard
+>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>v lengthScale = 1
+>>>>>>>>>>>>>v velocityScale = 0,2
+>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>v sortingFudge = 0
+>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>v mesh = 
+>>>>>>>>>>>>>v meshCount = 0
+>>>>>>>>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>>>>>>>>GameObject Children 5 Smoke, Up (1)
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (360.0, 305.7, 95.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>v loop = True
+>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>v duration = 1
+>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>v emissionRate = 12
+>>>>>>>>>>>>>v startSpeed = 0
+>>>>>>>>>>>>>v startSize = 0,6
+>>>>>>>>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>v startLifetime = 0,5
+>>>>>>>>>>>>>v gravityModifier = -0,1
+>>>>>>>>>>>>>v maxParticles = 30
+>>>>>>>>>>>>>v simulationSpace = World
+>>>>>>>>>>>>>v scalingMode = Shape
+>>>>>>>>>>>>>v automaticCullingEnabled = False
+>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>v randomSeed = 0
+>>>>>>>>>>>>>v useAutoRandomSeed = True
+>>>>>>>>>>>>>v proceduralSimulationSupported = False
+>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>v alignment = View
+>>>>>>>>>>>>>v renderMode = Billboard
+>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>v lengthScale = 1
+>>>>>>>>>>>>>v velocityScale = 0,2
+>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>v sortingFudge = 0
+>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>v mesh = 
+>>>>>>>>>>>>>v meshCount = 0
+>>>>>>>>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>>>>>>>>GameObject Children 6 Goo, World
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (5.7, 215.7, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>v loop = True
+>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>v duration = 5
+>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>v emissionRate = 2
+>>>>>>>>>>>>>v startSpeed = 0
+>>>>>>>>>>>>>v startSize = 0,3
+>>>>>>>>>>>>>v startColor = RGBA(0.549, 0.135, 0.585, 0.596)
+>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>v startLifetime = 1
+>>>>>>>>>>>>>v gravityModifier = 0,05
+>>>>>>>>>>>>>v maxParticles = 30
+>>>>>>>>>>>>>v simulationSpace = World
+>>>>>>>>>>>>>v scalingMode = Hierarchy
+>>>>>>>>>>>>>v automaticCullingEnabled = False
+>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>v randomSeed = 0
+>>>>>>>>>>>>>v useAutoRandomSeed = True
+>>>>>>>>>>>>>v proceduralSimulationSupported = False
+>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>v alignment = View
+>>>>>>>>>>>>>v renderMode = Billboard
+>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>v lengthScale = 2
+>>>>>>>>>>>>>v velocityScale = 0
+>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>v sortingFudge = 0
+>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>v mesh = 
+>>>>>>>>>>>>>v meshCount = 0
+>>>>>>>>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>>>>>>>>GameObject Children 7 AnimatedLight
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (360.0, 305.7, 95.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>> UnityEngine.Light
+>>>>>>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>>>>>>v type = Point
+>>>>>>>>>>>>>v shape = Cone
+>>>>>>>>>>>>>v spotAngle = 30
+>>>>>>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>>>>>>v color = RGBA(0.639, 0.235, 0.773, 1.000)
+>>>>>>>>>>>>>v colorTemperature = 6570
+>>>>>>>>>>>>>v useColorTemperature = False
+>>>>>>>>>>>>>v intensity = 91,68
+>>>>>>>>>>>>>v bounceIntensity = 1
+>>>>>>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>>>>>>v shadowBias = 0,05
+>>>>>>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>>>>>>v range = 1,68
+>>>>>>>>>>>>>v flare = 
+>>>>>>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>>>>>>v cullingMask = -1
+>>>>>>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>>>>>>v shadows = None
+>>>>>>>>>>>>>v shadowStrength = 1
+>>>>>>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>>>>>>v shadowSoftness = 4
+>>>>>>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>>>>>>v cookieSize = 10
+>>>>>>>>>>>>>v cookie = 
+>>>>>>>>>>>>>v renderMode = Auto
+>>>>>>>>>>>>>v bakedIndex = 0
+>>>>>>>>>>>>>v commandBufferCount = 0
+>>>>>>>>>>>>>v pixelLightCount = 4
+>>>>>>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>>>>>>v attenuate = True
+
+>>>>>>>>>>>>> LightIntensityCurve
+>>>>>>>>>>>>>v curve = UnityEngine.AnimationCurve
+>>>>>>>>>>>>>v timeMax = 0,5
+>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>v light = 
+>>>>>>>>>>>>>v maxIntensity = 0
+>>>>>>>>>>>>>v loop = False
+>>>>>>>>>>>>>v randomStart = False
+>>>>>>>>>>>>>v enableNegativeLights = False
+
+>>>>>>>>>>>>GameObject Children 8 FistExplosion
+
+>>>>>>>>>>>>> transform = p: (0.1, -0.3, 0.0) r: (360.0, 305.7, 95.7) s: (3.8, 3.8, 3.8)
+>>>>>>>>>>>>> RoR2.ShakeEmitter
+>>>>>>>>>>>>>v instances = System.Collections.Generic.List`1[RoR2.ShakeEmitter]
+>>>>>>>>>>>>>v shakeOnStart = True
+>>>>>>>>>>>>>v shakeOnEnable = False
+>>>>>>>>>>>>>v wave = Wave
+>>>>>>>>>>>>>v duration = 0,2
+>>>>>>>>>>>>>v radius = 30
+>>>>>>>>>>>>>v scaleShakeRadiusWithLocalScale = False
+>>>>>>>>>>>>>v amplitudeTimeDecay = True
+>>>>>>>>>>>>>v stopwatch = +Infini
+>>>>>>>>>>>>>v halfPeriodTimer = 0
+>>>>>>>>>>>>>v halfPeriodVector = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v currentOffset = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v deepRumbleFactor = 5
+
+>>>>>>>>>>>>>GameObject Children 0 Billboard, Directional
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (5.7, 215.7, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>>v alignment = Facing
+>>>>>>>>>>>>>>v renderMode = Stretch
+>>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>>v lengthScale = 1
+>>>>>>>>>>>>>>v velocityScale = 1
+>>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>>v sortingFudge = 0
+>>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>>v pivot = (0.0, 2.9, 0.0)
+>>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>>v mesh = 
+>>>>>>>>>>>>>>v meshCount = 0
+>>>>>>>>>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>>v loop = False
+>>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>>v duration = 1
+>>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>>v emissionRate = 0
+>>>>>>>>>>>>>>v startSpeed = 2
+>>>>>>>>>>>>>>v startSize = 0,1
+>>>>>>>>>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>>v startLifetime = 0,4
+>>>>>>>>>>>>>>v gravityModifier = 0
+>>>>>>>>>>>>>>v maxParticles = 30
+>>>>>>>>>>>>>>v simulationSpace = Local
+>>>>>>>>>>>>>>v scalingMode = Shape
+>>>>>>>>>>>>>>v automaticCullingEnabled = False
+>>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>>v randomSeed = 3623426449
+>>>>>>>>>>>>>>v useAutoRandomSeed = False
+>>>>>>>>>>>>>>v proceduralSimulationSupported = False
+>>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>>GameObject Children 1 Billboard, Splash
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (5.7, 215.7, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>>v alignment = Facing
+>>>>>>>>>>>>>>v renderMode = Billboard
+>>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>>v lengthScale = 2
+>>>>>>>>>>>>>>v velocityScale = 0
+>>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>>v sortingFudge = 0
+>>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>>v pivot = (0.0, 0.1, 0.0)
+>>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>>v mesh = 
+>>>>>>>>>>>>>>v meshCount = 0
+>>>>>>>>>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>>v loop = False
+>>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>>v duration = 2
+>>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>>v emissionRate = 0
+>>>>>>>>>>>>>>v startSpeed = 2
+>>>>>>>>>>>>>>v startSize = 0,06
+>>>>>>>>>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>>v startLifetime = 0,8
+>>>>>>>>>>>>>>v gravityModifier = -0,1
+>>>>>>>>>>>>>>v maxParticles = 30
+>>>>>>>>>>>>>>v simulationSpace = Local
+>>>>>>>>>>>>>>v scalingMode = Shape
+>>>>>>>>>>>>>>v automaticCullingEnabled = False
+>>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>>v randomSeed = 2596608896
+>>>>>>>>>>>>>>v useAutoRandomSeed = False
+>>>>>>>>>>>>>>v proceduralSimulationSupported = False
+>>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>>GameObject Children 2 Billboard, Dots
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (5.7, 215.7, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>>v alignment = Facing
+>>>>>>>>>>>>>>v renderMode = Billboard
+>>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>>v lengthScale = 2
+>>>>>>>>>>>>>>v velocityScale = 0
+>>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>>v sortingFudge = 0
+>>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>>v pivot = (0.0, 0.1, 0.0)
+>>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>>v mesh = 
+>>>>>>>>>>>>>>v meshCount = 0
+>>>>>>>>>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>>v loop = False
+>>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>>v duration = 2
+>>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>>v emissionRate = 0
+>>>>>>>>>>>>>>v startSpeed = 1
+>>>>>>>>>>>>>>v startSize = 0,04
+>>>>>>>>>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>>v startLifetime = 1,3
+>>>>>>>>>>>>>>v gravityModifier = -0,1
+>>>>>>>>>>>>>>v maxParticles = 30
+>>>>>>>>>>>>>>v simulationSpace = Local
+>>>>>>>>>>>>>>v scalingMode = Shape
+>>>>>>>>>>>>>>v automaticCullingEnabled = False
+>>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>>v randomSeed = 2596608896
+>>>>>>>>>>>>>>v useAutoRandomSeed = False
+>>>>>>>>>>>>>>v proceduralSimulationSupported = False
+>>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>GameObject Children 6 AnimatedLight (1)
+
+>>>>>>>>>>>> transform = p: (-0.1, 0.2, 0.0) r: (360.0, 305.7, 95.7) s: (0.3, 0.3, 0.3)
+>>>>>>>>>>>> UnityEngine.Light
+>>>>>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>>>>>v type = Point
+>>>>>>>>>>>>v shape = Cone
+>>>>>>>>>>>>v spotAngle = 30
+>>>>>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>>>>>v color = RGBA(0.639, 0.235, 0.773, 1.000)
+>>>>>>>>>>>>v colorTemperature = 6570
+>>>>>>>>>>>>v useColorTemperature = False
+>>>>>>>>>>>>v intensity = 44
+>>>>>>>>>>>>v bounceIntensity = 1
+>>>>>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>>>>>v shadowBias = 0,05
+>>>>>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>>>>>v range = 1,4
+>>>>>>>>>>>>v flare = 
+>>>>>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>>>>>v cullingMask = -1
+>>>>>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>>>>>v shadows = None
+>>>>>>>>>>>>v shadowStrength = 1
+>>>>>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>>>>>v shadowSoftness = 4
+>>>>>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>>>>>v cookieSize = 10
+>>>>>>>>>>>>v cookie = 
+>>>>>>>>>>>>v renderMode = Auto
+>>>>>>>>>>>>v bakedIndex = 0
+>>>>>>>>>>>>v commandBufferCount = 0
+>>>>>>>>>>>>v pixelLightCount = 4
+>>>>>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>>>>>v attenuate = True
+
+>>>>>>>GameObject Children 4 Shoulder.r
+
+>>>>>>>> transform = p: (0.1, 0.1, 0.0) r: (353.3, 128.7, 65.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Upperarm.r
+
+>>>>>>>>> transform = p: (-0.1, 0.3, -0.1) r: (10.6, 122.4, 180.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Elbow.r
+
+>>>>>>>>>> transform = p: (0.2, 0.4, 0.0) r: (21.4, 150.4, 191.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Elbow.r_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (21.4, 150.4, 191.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 Forearm.r
+
+>>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (15.0, 121.4, 179.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 CannonEnd
+
+>>>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (8.0, 121.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 CannonEnd_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (8.0, 121.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 5 Shoulderpad1
+
+>>>>>>>> transform = p: (0.2, 0.4, -0.1) r: (0.4, 120.4, 76.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Shoulderpad2
+
+>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.5, 121.9, 58.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Shoulderpad2_end
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (1.5, 121.9, 58.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 6 SmallExhaust.l
+
+>>>>>>>> transform = p: (-0.2, 0.3, -0.1) r: (301.0, 265.4, 24.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 SmallExhaust.l_end
+
+>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (301.0, 265.4, 24.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 7 SmallExhaust.r
+
+>>>>>>>> transform = p: (0.2, 0.3, -0.1) r: (302.1, 338.7, 345.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 SmallExhaust.r_end
+
+>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (302.1, 338.7, 345.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 FootControl.l
+
+>>>>> transform = p: (-0.2, 0.0, 0.1) r: (270.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKTarget.Ankle.l
+
+>>>>>> transform = p: (0.0, 0.2, 0.1) r: (8.3, 32.4, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKTarget.Ankle.l_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (8.3, 32.4, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 IKTarget.Foot.l
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKTarget.Foot.l_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 ToeControl.l
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (90.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKPole.Toe.l
+
+>>>>>>> transform = p: (0.0, 0.0, -0.1) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKPole.Toe.l_end
+
+>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 IKTarget.Toe.l
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKTarget.Toe.l_end
+
+>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 FootControl.r
+
+>>>>> transform = p: (0.2, 0.0, 0.1) r: (270.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKTarget.Ankle.r
+
+>>>>>> transform = p: (0.0, 0.2, 0.1) r: (8.3, 212.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKTarget.Ankle.r_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (8.3, 212.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 IKTarget.Foot.r
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKTarget.Foot.r_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 ToeControl.r
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (90.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKPole.Toe.r
+
+>>>>>>> transform = p: (0.0, 0.0, -0.1) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKPole.Toe.r_end
+
+>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 IKTarget.Toe.r
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKTarget.Toe.r_end
+
+>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 IKPole.Ankle.l
+
+>>>>> transform = p: (-0.2, 0.6, 0.1) r: (81.7, 32.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKPole.Ankle.l_end
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (81.7, 32.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 4 IKPole.Ankle.r
+
+>>>>> transform = p: (0.2, 0.6, 0.1) r: (278.3, 32.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKPole.Ankle.r_end
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (278.3, 32.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 5 IKTarget.Hand.l
+
+>>>>> transform = p: (-0.9, 1.5, -0.1) r: (6.0, 212.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKPole.Hand.l
+
+>>>>>> transform = p: (0.0, 1.2, -0.3) r: (6.0, 212.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKPole.Hand.l_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (6.0, 212.4, 90.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 6 IKTarget.Hand.r
+
+>>>>> transform = p: (0.4, 0.5, 0.2) r: (90.0, 302.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKPole.Hand.R
+
+>>>>>> transform = p: (0.0, -1.4, -0.6) r: (0.0, 32.4, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKPole.Hand.R_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 32.4, 270.0) s: (1.0, 1.0, 1.0)

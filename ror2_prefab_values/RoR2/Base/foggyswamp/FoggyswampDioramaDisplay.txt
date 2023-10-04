@@ -1,0 +1,471 @@
+Key Path : RoR2/Base/foggyswamp/FoggyswampDioramaDisplay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : FoggyswampDioramaDisplay
+
+> transform = p: (86.5, -105.4, -76.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = Focus Point (UnityEngine.Transform)
+>v cameraPositionTransform = Camera Position (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 10
+>v maxDistance = 120
+>v cameraDirection = (72.9, -52.3, -42.2)
+
+>GameObject Children 0 Ruins
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 FSRuinPillarCollision (2)
+
+>>> transform = p: (9.7, 0.4, 9.9) r: (0.0, 262.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Mesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 262.6, 0.0) s: (5.0, 5.0, 5.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = BbRuinPillar1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = BbRuinPillar1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = BbRuinPillar1_LOD0 (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 1 FSRuinRingCollision
+
+>>>> transform = p: (0.0, -1.6, 0.0) r: (0.0, 307.6, 270.0) s: (16.4, 16.4, 16.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = GPRuinRing1 (UnityEngine.Mesh)
+>>>>v mesh = GPRuinRing1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = GPRuinRing1Collision (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 1 Foliage
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 spmBbDryBush (1)
+
+>>> transform = p: (10.6, 3.6, -8.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 3.0, 0.0)
+>>>v size = 8,535939
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmBbDryBush_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmBbDryBush_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmBbDryBush_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmBbDryBush_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmBbDryBush_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 1 FSTreeTrunkMediumCollision (6)
+
+>>> transform = p: (-7.7, 4.4, -4.8) r: (11.6, 352.2, 340.5) s: (1.4, 1.4, 1.4)
+>>>GameObject Children 0 Mesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (292.6, 52.7, 301.5) s: (20.0, 20.0, 20.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = FSTreeTrunkMedium (UnityEngine.Mesh)
+>>>>v mesh = FSTreeTrunkMedium Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = FSTreeTrunkMediumCollision (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdWood (RoR2.SurfaceDef)
+
+>>GameObject Children 2 FSRootBundleLargeNoCollision (2)
+
+>>> transform = p: (-11.3, 1.8, -6.9) r: (343.5, 164.2, 220.6) s: (0.9, 0.9, 0.9)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-7.3, -7.5, -2.8)
+>>>v size = 53,2504
+>>>v lodCount = 3
+>>>v fadeMode = CrossFade
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 RootBundleLarge_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (343.5, 164.2, 220.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleLarge_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleLarge_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 RootBundleLarge_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (343.5, 164.2, 220.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleLarge_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleLarge_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 RootBundleLarge_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (343.5, 164.2, 220.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleLarge_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleLarge_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 3 RootBundleLargeCards
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (343.5, 164.2, 220.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleLargeCards (UnityEngine.Mesh)
+>>>>v mesh = RootBundleLargeCards Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 FSRootBundleSmallNoCollision (1)
+
+>>> transform = p: (-15.6, 0.0, 14.8) r: (328.4, 41.3, 244.5) s: (2.1, 2.1, 2.1)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (1.4, -2.5, 0.4)
+>>>v size = 8,001756
+>>>v lodCount = 3
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 RootBundleSmall_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (328.4, 41.3, 244.5) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleSmall_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleSmall_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 RootBundleSmall_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (328.4, 41.3, 244.5) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleSmall_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleSmall_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 RootBundleSmall_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (328.4, 41.3, 244.5) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleSmall_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleSmall_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 FSRootBundleSmallNoCollision (2)
+
+>>> transform = p: (-19.4, 0.0, -3.7) r: (348.3, 58.3, 169.2) s: (2.1, 2.1, 2.1)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (1.4, -2.5, 0.4)
+>>>v size = 8,001756
+>>>v lodCount = 3
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 RootBundleSmall_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (348.3, 58.3, 169.2) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleSmall_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleSmall_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 RootBundleSmall_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (348.3, 58.3, 169.2) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleSmall_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleSmall_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 RootBundleSmall_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (348.3, 58.3, 169.2) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleSmall_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleSmall_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 5 spmBbDryBush (2)
+
+>>> transform = p: (5.1, 4.9, 4.7) r: (0.0, 332.6, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 3.0, 0.0)
+>>>v size = 8,535939
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmBbDryBush_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 332.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmBbDryBush_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmBbDryBush_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 332.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmBbDryBush_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmBbDryBush_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>GameObject Children 2 Terrain
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Terrain (2)
+
+>>> transform = p: (-6.6, 3.3, 7.7) r: (275.5, 144.7, 205.0) s: (11.6, 15.5, 5.7)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = GPMeshBlender1 (UnityEngine.Mesh)
+>>>v mesh = GPMeshBlender1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 Sand
+
+>>> transform = p: (-4.2, 0.7, -1.2) r: (275.5, 86.8, 205.0) s: (17.4, 18.3, 12.8)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SandDuneMesh (UnityEngine.Mesh)
+>>>v mesh = SandDuneMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Sand
+
+>>> transform = p: (1.9, 0.6, -2.7) r: (272.7, 349.2, 189.5) s: (15.3, 18.3, 17.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SandDuneMesh (UnityEngine.Mesh)
+>>>v mesh = SandDuneMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 Sand
+
+>>> transform = p: (9.1, 0.4, 2.4) r: (275.5, 352.6, 205.0) s: (13.7, 14.4, 12.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SandDuneMesh (UnityEngine.Mesh)
+>>>v mesh = SandDuneMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 Sand
+
+>>> transform = p: (-5.4, 2.2, -14.8) r: (272.7, 349.2, 189.5) s: (7.0, 8.4, 8.8)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SandDuneMesh (UnityEngine.Mesh)
+>>>v mesh = SandDuneMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 5 Terrain (4)
+
+>>> transform = p: (5.9, 5.6, 8.8) r: (274.7, 327.4, 294.7) s: (8.6, 11.6, 4.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = GPMeshBlender1 (UnityEngine.Mesh)
+>>>v mesh = GPMeshBlender1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 6 mdlBBBoulderMediumRound1 (20)
+
+>>> transform = p: (-8.4, 3.8, 9.6) r: (69.0, 209.7, 191.9) s: (6.3, 6.3, 6.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v mesh = BBBoulderMediumRound1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 7 mdlBBBoulderMediumRound1 (21)
+
+>>> transform = p: (-14.0, 0.5, 5.5) r: (19.6, 216.8, 257.2) s: (8.0, 8.0, 8.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v mesh = BBBoulderMediumRound1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 8 mdlBBBoulderMediumRound1 (22)
+
+>>> transform = p: (11.7, 1.7, -15.6) r: (19.6, 216.8, 257.2) s: (3.7, 3.7, 3.7)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v mesh = BBBoulderMediumRound1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 9 mdlBBBoulderMediumRound1 (23)
+
+>>> transform = p: (4.2, 0.4, -14.3) r: (9.4, 199.2, 284.9) s: (5.7, 5.7, 5.7)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v mesh = BBBoulderMediumRound1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>GameObject Children 3 Ring
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 90.0) s: (13.0, 26.0, 26.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = GPRuinCircle1 (UnityEngine.Mesh)
+>>v mesh = GPRuinCircle1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 4 Camera Position
+
+>> transform = p: (-72.9, 58.4, 42.2) r: (24.9, 119.5, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 5 Focus Point
+
+>> transform = p: (0.0, 6.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

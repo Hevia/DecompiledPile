@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/Cleanse/PickupWaterPack.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupWaterPack
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.6, 0.0, -0.8)
+>v minDistance = 2
+>v maxDistance = 4
+>v cameraDirection = (-2.2, 0.0, -0.4)
+
+>GameObject Children 0 WaterPackWithStrapMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (308.9, 178.0, 229.6) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = WaterPackWithStrapMesh (UnityEngine.Mesh)
+>>v mesh = WaterPackWithStrapMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.6, -0.2) r: (0.0, 170.6, 0.0) s: (2.0, 2.0, 2.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (4.4, 0.6, 0.5) r: (0.0, 170.6, 0.0) s: (2.0, 2.0, 2.0)

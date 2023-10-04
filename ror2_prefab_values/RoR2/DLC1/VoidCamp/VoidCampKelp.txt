@@ -1,0 +1,112 @@
+Key Path : RoR2/DLC1/VoidCamp/VoidCampKelp.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidCampKelp
+
+> transform = p: (13.1, -1.5, -12.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 081976e000d3d0542aec2878daf7f008
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 081976e000d3d0542aec2878daf7f008
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> SetRandomRotation
+>v setRandomXRotation = False
+>v setRandomYRotation = True
+>v setRandomZRotation = False
+
+>GameObject Children 0 spmArenaKelpTree
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>v size = 97,68597
+>>v lodCount = 4
+>>v fadeMode = SpeedTree
+>>v animateCrossFading = True
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.BillboardRenderer
+>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True

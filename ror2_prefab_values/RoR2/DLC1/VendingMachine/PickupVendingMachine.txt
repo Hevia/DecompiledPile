@@ -1,0 +1,27 @@
+Key Path : RoR2/DLC1/VendingMachine/PickupVendingMachine.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupVendingMachine
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (-1.1, -1.8, -2.9)
+
+>GameObject Children 0 FocusPoint(Clone)
+
+>> transform = p: (0.1, -0.4, -0.2) r: (26.4, 200.8, 359.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 CameraPosition(Clone)
+
+>> transform = p: (1.2, 1.4, 2.7) r: (28.1, 200.8, 359.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 mdlSodaPhoneBusted
+
+>> transform = p: (0.0, -1.2, 0.0) r: (307.0, 180.0, 180.0) s: (2.1, 2.1, 2.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlSodaPhoneBusted (UnityEngine.Mesh)
+>>v mesh = mdlSodaPhoneBusted Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

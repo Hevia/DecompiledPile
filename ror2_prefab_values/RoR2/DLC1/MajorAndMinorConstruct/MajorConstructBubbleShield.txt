@@ -1,0 +1,298 @@
+Key Path : RoR2/DLC1/MajorAndMinorConstruct/MajorConstructBubbleShield.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MajorConstructBubbleShield
+
+> transform = p: (46.5, -118.7, 94.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 8c2d5e6e47a2364459724eda0437d457
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 8c2d5e6e47a2364459724eda0437d457
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> RoR2.EventFunctions
+
+> ChildLocator
+>v transformPairs = ChildLocator+NameTransformPair[]
+>v Count = 1
+
+> RoR2.VFXAttributes
+>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>v vfxPriority = Always
+>v vfxIntensity = Medium
+>v optionalLights = UnityEngine.Light[]
+>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+> RoR2.NetworkedBodyAttachment
+>v _attachedBodyObject = 
+>v attachedBodyChildName = 
+>v <attachedBody>k__BackingField = 
+>v shouldParentToAttachedBody = True
+>v forceHostAuthority = False
+>v <hasEffectiveAuthority>k__BackingField = False
+>v networkIdentity = 
+>v attached = False
+>v ____attachedBodyObjectNetId = 0
+>v attachedBodyObject = 
+>v attachedBody = 
+>v hasEffectiveAuthority = False
+>v Network_attachedBodyObject = 
+>v NetworkattachedBodyChildName = 
+
+>GameObject Children 0 Collision
+
+>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (60.0, 60.0, 60.0)
+>> UnityEngine.MeshCollider
+>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> UnityEngine.Rigidbody
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v drag = 0
+>>v angularDrag = 0,05
+>>v mass = 1
+>>v useGravity = False
+>>v maxDepenetrationVelocity = 1E+32
+>>v isKinematic = True
+>>v freezeRotation = False
+>>v constraints = None
+>>v collisionDetectionMode = ContinuousSpeculative
+>>v centerOfMass = (0.0, 0.0, 0.0)
+>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>v detectCollisions = True
+>>v position = (0.0, 0.0, 0.0)
+>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>v interpolation = None
+>>v solverIterations = 6
+>>v sleepThreshold = 0,005
+>>v maxAngularVelocity = 7
+>>v solverVelocityIterations = 1
+>>v sleepVelocity = 0
+>>v sleepAngularVelocity = 0
+>>v useConeFriction = False
+>>v solverIterationCount = 6
+>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 0 ActiveVisual
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VeryHighResSphere (UnityEngine.Mesh)
+>>>v mesh = VeryHighResSphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = 
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 0,6
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = False
+>>>v time = 0
+>>>v initialFade = 0
+
+>>> RoR2.ObjectScaleCurve
+>>>v useOverallCurveOnly = False
+>>>v curveX = UnityEngine.AnimationCurve
+>>>v curveY = UnityEngine.AnimationCurve
+>>>v curveZ = UnityEngine.AnimationCurve
+>>>v overallCurve = UnityEngine.AnimationCurve
+>>>v timeMax = 0,3
+>>>v <time>k__BackingField = 0
+>>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>>v time = 0
+>>>v baseScale = (0.0, 0.0, 0.0)
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = False
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>>GameObject Children 0 Edge
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.AnimateShaderAlpha
+>>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>>v targetRenderer = 
+>>>>v _propBlock = 
+>>>>v materials = 
+>>>>v timeMax = 0,6
+>>>>v decal = 
+>>>>v pauseTime = False
+>>>>v destroyOnEnd = False
+>>>>v disableOnEnd = False
+>>>>v time = 0
+>>>>v initialFade = 0
+
+>>GameObject Children 1 DisableCollisionsTrigger
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v radius = 0,5
+
+>>> RoR2.DisableCollisionsIfInTrigger
+>>>v colliderToIgnore = Collision (UnityEngine.MeshCollider)
+>>>v trigger = 
+
+>GameObject Children 1 Fairies
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.ParticleSystem
+>>v startDelay = 0
+>>v loop = True
+>>v playOnAwake = True
+>>v duration = 2,8
+>>v playbackSpeed = 1
+>>v enableEmission = True
+>>v emissionRate = 3
+>>v startSpeed = 0
+>>v startSize = 0,5
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v startRotation = 0
+>>v startRotation3D = (0.0, 0.0, 0.0)
+>>v startLifetime = 4
+>>v gravityModifier = 0
+>>v maxParticles = 1000
+>>v simulationSpace = World
+>>v scalingMode = Local
+>>v automaticCullingEnabled = False
+>>v isPlaying = False
+>>v isEmitting = False
+>>v isStopped = True
+>>v isPaused = False
+>>v particleCount = 0
+>>v time = 0
+>>v randomSeed = 0
+>>v useAutoRandomSeed = True
+>>v proceduralSimulationSupported = False
+>>v main = UnityEngine.ParticleSystem+MainModule
+>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>> UnityEngine.ParticleSystemRenderer
+>>v alignment = View
+>>v renderMode = Billboard
+>>v sortMode = None
+>>v lengthScale = 2
+>>v velocityScale = 0
+>>v cameraVelocityScale = 0
+>>v normalDirection = 1
+>>v shadowBias = 0
+>>v sortingFudge = 0
+>>v minParticleSize = 0
+>>v maxParticleSize = 0,5
+>>v pivot = (0.0, 0.0, 0.0)
+>>v flip = (0.0, 0.0, 0.0)
+>>v maskInteraction = None
+>>v trailMaterial = 
+>>v enableGPUInstancing = True
+>>v allowRoll = True
+>>v mesh = 
+>>v meshCount = 0
+>>v activeVertexStreamsCount = 4

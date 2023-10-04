@@ -1,0 +1,78 @@
+Key Path : RoR2/Base/Enigma/PickupEnigma.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupEnigma
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlArtifactOpenBox
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = ArtifactOpenBoxMesh (UnityEngine.Mesh)
+>>v mesh = ArtifactOpenBoxMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 Point Light
+
+>>> transform = p: (0.0, 0.0, 0.9) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(1.000, 0.815, 0.000, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 51,07
+>>>v bounceIntensity = 1
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 1,4
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>GameObject Children 1 GlowAnchor
+
+>> transform = p: (0.0, 0.8, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 GlowSprite
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (2.7, 1.4, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.Billboard
+>>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]

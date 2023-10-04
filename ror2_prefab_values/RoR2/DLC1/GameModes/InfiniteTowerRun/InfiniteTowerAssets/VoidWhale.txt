@@ -1,0 +1,244 @@
+Key Path : RoR2/DLC1/GameModes/InfiniteTowerRun/InfiniteTowerAssets/VoidWhale.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidWhale
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> Rewired.ComponentControls.Effects.RotateAroundAxis
+>v _speed = Slow
+>v _slowRotationSpeed = 5
+>v _fastRotationSpeed = 20
+>v _rotateAroundAxis = Y
+>v _relativeTo = Self
+>v _reverse = False
+>v speed = Slow
+>v slowRotationSpeed = 5
+>v fastRotationSpeed = 20
+>v rotateAroundAxis = Y
+>v relativeTo = Self
+>v reverse = False
+
+>GameObject Children 0 Offset
+
+>> transform = p: (0.0, 0.0, -3000.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlVoidWhaleTempExample
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (33.5, 33.5, 33.5)
+>>> UnityEngine.Animator
+>>>v isOptimizable = True
+>>>v isHuman = False
+>>>v hasRootMotion = False
+>>>v humanScale = 1
+>>>v isInitialized = False
+>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v applyRootMotion = False
+>>>v linearVelocityBlending = False
+>>>v animatePhysics = False
+>>>v updateMode = Normal
+>>>v hasTransformHierarchy = True
+>>>v gravityWeight = 0
+>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>v bodyRotation = (0.0, 0.0, -5824302000000000.0, 0.0)
+>>>v stabilizeFeet = False
+>>>v layerCount = 0
+>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>v parameterCount = 0
+>>>v feetPivotActive = 0
+>>>v pivotWeight = 0
+>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>v isMatchingTarget = False
+>>>v speed = 1
+>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v cullingMode = CullUpdateTransforms
+>>>v playbackTime = -1
+>>>v recorderStartTime = -1
+>>>v recorderStopTime = -1
+>>>v recorderMode = Offline
+>>>v runtimeAnimatorController = animVoidWhale (UnityEngine.AnimatorController)
+>>>v hasBoundPlayables = False
+>>>v avatar = mdlVoidWhaleAvatar (UnityEngine.Avatar)
+>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>v layersAffectMassCenter = False
+>>>v leftFeetBottomHeight = 0
+>>>v rightFeetBottomHeight = 0
+>>>v logWarnings = True
+>>>v fireEvents = True
+>>>v keepAnimatorControllerStateOnDisable = False
+
+>>>GameObject Children 0 mdlVoidWhaleBody
+
+>>>> transform = p: (0.0, 0.0, -2.3) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.SkinnedMeshRenderer
+>>>>v quality = Auto
+>>>>v updateWhenOffscreen = False
+>>>>v forceMatrixRecalculationPerRender = False
+>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>v bones = UnityEngine.Transform[]
+>>>>v sharedMesh = mdlVoidWhaleBody (UnityEngine.Mesh)
+>>>>v skinnedMotionVectors = True
+>>>>v localBounds = Center: (-2.0, 1.6, 0.0), Extents: (9.4, 3.1, 3.9)
+
+>>>GameObject Children 1 mdlVoidWhaleEyes
+
+>>>> transform = p: (-1.7, 1.8, 3.8) r: (270.0, 180.0, 0.0) s: (0.4, 0.3, 0.3)
+>>>> UnityEngine.SkinnedMeshRenderer
+>>>>v quality = Auto
+>>>>v updateWhenOffscreen = False
+>>>>v forceMatrixRecalculationPerRender = False
+>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>v bones = UnityEngine.Transform[]
+>>>>v sharedMesh = mdlVoidWhaleEyes (UnityEngine.Mesh)
+>>>>v skinnedMotionVectors = True
+>>>>v localBounds = Center: (3.4, 1.8, 0.0), Extents: (0.7, 0.4, 1.9)
+
+>>>GameObject Children 2 mdlVoidWhaleFins
+
+>>>> transform = p: (-2.5, 1.5, 0.7) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.SkinnedMeshRenderer
+>>>>v quality = Auto
+>>>>v updateWhenOffscreen = False
+>>>>v forceMatrixRecalculationPerRender = False
+>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>v bones = UnityEngine.Transform[]
+>>>>v sharedMesh = mdlVoidWhaleFins (UnityEngine.Mesh)
+>>>>v skinnedMotionVectors = True
+>>>>v localBounds = Center: (-3.2, -0.1, 0.0), Extents: (5.6, 2.7, 4.3)
+
+>>>GameObject Children 3 VoidWhaleArmature
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 ROOT
+
+>>>>> transform = p: (0.0, 0.0, 0.3) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Spine3
+
+>>>>>> transform = p: (0.8, 2.9, 0.0) r: (0.0, 0.0, 271.5) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Spine2
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 99.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 FinFront1.L
+
+>>>>>>>> transform = p: (-1.8, 1.1, -2.5) r: (13.4, 10.4, 218.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 FinFront2.L
+
+>>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (13.5, 10.4, 230.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinFront3.L
+
+>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (5.9, 356.2, 240.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinFront4.L
+
+>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (3.6, 337.7, 261.9) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 1 FinFront1.R
+
+>>>>>>>> transform = p: (-1.8, 1.1, 2.5) r: (13.4, 169.6, 141.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 FinFront2.R
+
+>>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (13.5, 169.6, 129.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinFront3.R
+
+>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (5.9, 183.8, 119.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinFront4.R
+
+>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (3.6, 202.3, 98.1) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 2 Spine1
+
+>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 0.0, 95.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 EyeBack.L
+
+>>>>>>>>> transform = p: (-0.6, -0.1, -1.7) r: (359.2, 283.6, 359.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 1 EyeBack.R
+
+>>>>>>>>> transform = p: (-0.6, -0.1, 1.7) r: (359.2, 256.4, 0.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 2 EyeFront.L
+
+>>>>>>>>> transform = p: (-0.9, 0.8, -1.7) r: (359.2, 272.6, 360.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 3 EyeFront.R
+
+>>>>>>>>> transform = p: (-0.9, 0.8, 1.7) r: (359.2, 267.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 Spine4
+
+>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 0.0, 271.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 FinMid1.L
+
+>>>>>>>> transform = p: (2.4, 1.1, -2.3) r: (2.9, 2.1, 215.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 FinMid2.L
+
+>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (356.6, 355.1, 227.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinMid3.L
+
+>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (348.2, 339.6, 242.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinMid4.L
+
+>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (347.5, 326.8, 268.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 1 FinMid1.R
+
+>>>>>>>> transform = p: (2.4, 1.1, 2.3) r: (2.9, 177.9, 144.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 FinMid2.R
+
+>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (356.6, 184.9, 132.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinMid3.R
+
+>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (348.2, 200.4, 117.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinMid4.R
+
+>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (347.5, 213.2, 92.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 2 Spine5
+
+>>>>>>>> transform = p: (0.0, 1.9, 0.0) r: (0.0, 0.0, 269.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 FinBack1.L
+
+>>>>>>>>> transform = p: (1.4, 2.4, -1.3) r: (356.0, 357.3, 214.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinBack2.L
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (351.6, 352.7, 226.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinBack3.L
+
+>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (348.1, 346.5, 240.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinBack4.L
+
+>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (348.2, 347.0, 263.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 1 FinBack1.R
+
+>>>>>>>>> transform = p: (1.4, 2.4, 1.3) r: (356.0, 182.7, 146.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinBack2.R
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (351.6, 187.3, 133.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinBack3.R
+
+>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (348.1, 193.5, 119.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinBack4.R
+
+>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (348.2, 193.0, 96.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 2 Spine6
+
+>>>>>>>>> transform = p: (0.0, 1.9, 0.0) r: (0.0, 0.0, 261.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Spine7
+
+>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 0.0, 259.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Spine8
+
+>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (0.0, 0.0, 253.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Spine9
+
+>>>>>>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 0.0, 236.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 BackFin1.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (17.2, 261.4, 128.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 BackFin2.L
+
+>>>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (345.9, 280.7, 103.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 BackFin3.L
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (327.2, 320.1, 72.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 1 BackFin1.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (17.2, 278.6, 231.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 BackFin2.R
+
+>>>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (345.9, 259.3, 256.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 BackFin3.R
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (327.2, 219.9, 287.3) s: (1.0, 1.0, 1.0)

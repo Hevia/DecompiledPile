@@ -1,0 +1,29 @@
+Key Path : RoR2/Base/moon/mdlLunarTool2.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlLunarTool2
+
+> transform = p: (3.3, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (4.2, 4.2, 4.2)
+> UnityEngine.MeshFilter
+>v sharedMesh = mdlLunarTool2 (UnityEngine.Mesh)
+>v mesh = mdlLunarTool2 Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+>GameObject Children 0 mdlLunarTool2Collision
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlLunarTool2Collision (UnityEngine.Mesh)
+>>v mesh = mdlLunarTool2Collision Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = mdlLunarTool2Collision (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True

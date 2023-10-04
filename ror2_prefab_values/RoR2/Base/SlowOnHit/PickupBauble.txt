@@ -1,0 +1,50 @@
+Key Path : RoR2/Base/SlowOnHit/PickupBauble.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBauble
+
+> transform = p: (-3.5, -148.4, -1.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (-0.1, 0.3, 0.0, -0.9)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (-3.2, -0.8, -3.8)
+
+>GameObject Children 0 BaubleSand
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BaubleSand (UnityEngine.Mesh)
+>>v mesh = BaubleSand Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 BaubleGlass
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BaubleGlass (UnityEngine.Mesh)
+>>v mesh = BaubleGlass Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 BaubleMetal
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BaubleMetal (UnityEngine.Mesh)
+>>v mesh = BaubleMetal Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 FocusPoint(Clone)
+
+>> transform = p: (-1.1, 0.7, -0.2) r: (0.0, 129.7, 351.2) s: (1.0, 1.0, 1.0)
+>GameObject Children 4 CameraPosition(Clone)
+
+>> transform = p: (2.1, 1.5, 3.6) r: (0.0, 129.7, 351.2) s: (1.0, 1.0, 1.0)

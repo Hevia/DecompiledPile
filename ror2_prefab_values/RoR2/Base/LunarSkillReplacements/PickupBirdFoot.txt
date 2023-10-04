@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/LunarSkillReplacements/PickupBirdFoot.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBirdFoot
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.9, 0.0, 0.4)
+>v minDistance = 1
+>v maxDistance = 3
+>v cameraDirection = (0.9, 0.0, 1.0)
+
+>GameObject Children 0 mdlBirdFoot
+
+>> transform = p: (0.3, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BirdFootMeshFatterTwisted (UnityEngine.Mesh)
+>>v mesh = BirdFootMeshFatterTwisted Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (-0.1, 0.1, 0.0) r: (0.0, 312.1, 0.0) s: (1.3, 1.3, 1.3)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-1.3, 0.1, -1.3) r: (0.0, 312.1, 0.0) s: (1.3, 1.3, 1.3)

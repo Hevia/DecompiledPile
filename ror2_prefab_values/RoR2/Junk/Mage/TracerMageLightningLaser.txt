@@ -1,0 +1,83 @@
+Key Path : RoR2/Junk/Mage/TracerMageLightningLaser.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TracerMageLightningLaser
+
+> transform = p: (118.7, 0.4, 275.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.EffectComponent
+>v effectIndex = 543
+>v effectData = 
+>v positionAtReferencedTransform = True
+>v parentToReferencedTransform = False
+>v applyScale = False
+>v soundName = 
+>v disregardZScale = False
+>v didResolveReferencedObject = False
+>v referencedObject = 
+>v didResolveReferencedChildTransform = False
+>v referencedChildTransform = 
+>v didResolveReferencedHurtBox = False
+>v referencedHurtBoxGameObject = 
+
+> RoR2.Tracer
+>v startTransform = TracerStartPos (UnityEngine.Transform)
+>v beamObject = LaserLine (UnityEngine.GameObject)
+>v beamDensity = 10
+>v speed = 5000
+>v headTransform = TracerHead (UnityEngine.Transform)
+>v tailTransform = TracerTail (UnityEngine.Transform)
+>v length = 100
+>v reverse = False
+>v onTailReachedDestination = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v startPos = (0.0, 0.0, 0.0)
+>v endPos = (0.0, 0.0, 0.0)
+>v distanceTraveled = 0
+>v totalDistance = 0
+>v normal = (0.0, 0.0, 0.0)
+
+> RoR2.EventFunctions
+
+>GameObject Children 0 TracerStartPos
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 TracerHead
+
+>> transform = p: (0.0, 0.0, 1.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 TracerTail
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 LaserLine
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 2
+>>v startWidth = 1
+>>v endWidth = 1
+>>v widthMultiplier = 1
+>>v numCornerVertices = 0
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v positionCount = 2
+>>v shadowBias = 0
+>>v generateLightingData = False
+>>v textureMode = Tile
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> BeamPointsFromTransforms
+>>v target = LaserLine (UnityEngine.LineRenderer)
+>>v pointTransforms = UnityEngine.Transform[]
+
+>> RoR2.AnimateShaderAlpha
+>>v alphaCurve = UnityEngine.AnimationCurve
+>>v targetRenderer = 
+>>v _propBlock = 
+>>v materials = 
+>>v timeMax = 0,3
+>>v decal = 
+>>v pauseTime = False
+>>v destroyOnEnd = False
+>>v disableOnEnd = False
+>>v time = 0
+>>v initialFade = 0

@@ -1,0 +1,59 @@
+Key Path : RoR2/Base/Grandparent/mdlGrandparentSpawnEgg.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlGrandparentSpawnEgg
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animation
+>v clip = GrandparentSpawnEggArmature|Spawn (UnityEngine.AnimationClip)
+>v playAutomatically = True
+>v wrapMode = Default
+>v isPlaying = False
+>v animatePhysics = False
+>v animateOnlyIfVisible = True
+>v cullingType = BasedOnRenderers
+>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)
+
+>GameObject Children 0 GrandparentSpawnEggArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 EggBase
+
+>>> transform = p: (0.0, 0.0, 1.7) r: (359.7, 0.3, 0.3) s: (0.6, 0.5, 0.4)
+>>>GameObject Children 0 EggDeform
+
+>>>> transform = p: (0.0, 0.4, 0.0) r: (359.7, 0.3, 0.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 EggDeform_end
+
+>>>>> transform = p: (0.0, 0.5, 0.0) r: (359.7, 0.3, 0.3) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 NetBase
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 NetDeform
+
+>>>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>>>GameObject Children 0 NetDeform_end
+
+>>>>> transform = p: (0.0, 0.9, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 GrandparentSpawnEggMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = NetBase (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = GrandparentSpawnEggMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, -0.7, 0.0), Extents: (1.3, 3.0, 1.3)
+
+>GameObject Children 2 GrandparentSpawnNetMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = NetBase (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = GrandparentSpawnNetMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, -1.9, 0.0), Extents: (6.3, 2.2, 6.3)

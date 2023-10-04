@@ -1,0 +1,95 @@
+Key Path : RoR2/Base/Bear/DisplayBear.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayBear
+
+> transform = p: (140.2, 22.8, 170.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlBear
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> DynamicBone
+>>v m_Root = 
+>>v m_UpdateRate = 60
+>>v m_UpdateMode = Normal
+>>v m_Damping = 0,454
+>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>v m_Elasticity = 0,559
+>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>v m_Stiffness = 0,718
+>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>v m_Inert = 0
+>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>v m_Radius = 0
+>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>v m_EndLength = 0
+>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>v m_Gravity = (0.0, 0.0, 0.0)
+>>v m_Force = (0.0, 0.0, 0.0)
+>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>v m_FreezeAxis = None
+>>v m_DistantDisable = False
+>>v m_ReferenceObject = 
+>>v m_DistanceToObject = 20
+>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>v m_BoneTotalLength = 0
+>>v m_ObjectScale = 1
+>>v m_Time = 0
+>>v m_Weight = 1
+>>v m_DistantDisabled = False
+>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>GameObject Children 0 BearArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Root
+
+>>>> transform = p: (0.0, 0.3, 0.1) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Body
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (6.3, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Arm.L
+
+>>>>>> transform = p: (-0.3, 0.1, -0.1) r: (305.1, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Arm.L_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (305.1, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 Arm.R
+
+>>>>>> transform = p: (0.3, 0.1, -0.1) r: (300.7, 90.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Arm.R_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (300.7, 90.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 Foot.L
+
+>>>>>> transform = p: (-0.1, 0.5, 0.0) r: (350.7, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Foot.L_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (350.7, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 Foot.R
+
+>>>>>> transform = p: (0.1, 0.5, 0.0) r: (9.3, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Foot.R_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (9.3, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Head.002
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Head.002_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 BearMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (2.4, 2.4, 2.4)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Root (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = BearMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.4, 0.2), Extents: (0.6, 0.3, 0.7)

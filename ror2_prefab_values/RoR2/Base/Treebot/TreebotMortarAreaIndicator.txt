@@ -1,0 +1,77 @@
+Key Path : RoR2/Base/Treebot/TreebotMortarAreaIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TreebotMortarAreaIndicator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (15.0, 15.0, 15.0)
+>GameObject Children 0 Expander
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = False
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 0,1
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>>GameObject Children 0 Mesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (0.3, 0.3, 1.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = donut3Mesh (UnityEngine.Mesh)
+>>>v mesh = donut3Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 0,5
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = False
+>>>v time = 0
+>>>v initialFade = 0
+
+>>GameObject Children 1 Sphere
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Line
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LineRenderer
+>>>v numPositions = 10
+>>>v startWidth = 0,2
+>>>v endWidth = 0,2
+>>>v widthMultiplier = 0,2
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v useWorldSpace = False
+>>>v loop = False
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v positionCount = 10
+>>>v shadowBias = 0,5
+>>>v generateLightingData = False
+>>>v textureMode = RepeatPerSegment
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>> MaintainRotation
+>>>v eulerAngles = (0.0, 0.0, 0.0)

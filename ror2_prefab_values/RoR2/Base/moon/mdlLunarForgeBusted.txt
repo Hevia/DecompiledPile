@@ -1,0 +1,29 @@
+Key Path : RoR2/Base/moon/mdlLunarForgeBusted.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlLunarForgeBusted
+
+> transform = p: (-11.1, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (3.7, 3.7, 3.7)
+> UnityEngine.MeshFilter
+>v sharedMesh = mdlLunarForgeBusted (UnityEngine.Mesh)
+>v mesh = mdlLunarForgeBusted Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+>GameObject Children 0 mdlLunarForgeBustedCollision
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlLunarForgeBustedCollision (UnityEngine.Mesh)
+>>v mesh = mdlLunarForgeBustedCollision Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = mdlLunarForgeBustedCollision (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True

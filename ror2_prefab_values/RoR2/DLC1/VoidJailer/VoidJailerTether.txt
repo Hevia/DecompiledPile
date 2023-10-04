@@ -1,0 +1,248 @@
+Key Path : RoR2/DLC1/VoidJailer/VoidJailerTether.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidJailerTether
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = f23ec5c0c5b3cf44194eface5dcc04b1
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = f23ec5c0c5b3cf44194eface5dcc04b1
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> UnityEngine.LineRenderer
+>v numPositions = 20
+>v startWidth = 1
+>v endWidth = 1
+>v widthMultiplier = 1
+>v numCornerVertices = 0
+>v numCapVertices = 0
+>v useWorldSpace = True
+>v loop = False
+>v startColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>v positionCount = 20
+>v shadowBias = 0
+>v generateLightingData = False
+>v textureMode = Stretch
+>v alignment = View
+>v widthCurve = UnityEngine.AnimationCurve
+>v colorGradient = UnityEngine.Gradient
+
+> BezierCurveLine
+>v vertexList = UnityEngine.Vector3[]
+>v p0 = (0.0, 0.0, 0.0)
+>v v0 = (0.0, 0.0, 0.0)
+>v p1 = (0.0, 0.0, 19.8)
+>v v1 = (0.0, 0.0, 0.0)
+>v endTransform = EndTransform (UnityEngine.Transform)
+>v animateBezierWind = False
+>v windMagnitude = (1.0, 1.0, 1.0)
+>v windFrequency = (0.2, 0.2, 0.2)
+>v windPhaseShift = (0.0, 0.0, 0.0)
+>v lastWind = (0.0, 0.0, 0.0)
+>v finalv0 = (0.0, 0.0, 0.0)
+>v finalv1 = (0.0, 0.0, 0.0)
+>v windTime = 0
+>v <lineRenderer>k__BackingField = 
+>v lineRenderer = 
+
+> RoR2.AnimateShaderAlpha
+>v alphaCurve = UnityEngine.AnimationCurve
+>v targetRenderer = 
+>v _propBlock = 
+>v materials = 
+>v timeMax = 1
+>v decal = 
+>v pauseTime = False
+>v destroyOnEnd = False
+>v disableOnEnd = False
+>v time = 0
+>v initialFade = 0
+
+> RoR2.JailerTetherController
+>v targetRoot = 
+>v ownerRoot = 
+>v origin = 
+>v reelSpeed = 6
+>v breakDistanceSqr = 0
+>v damageCoefficientPerTick = 0
+>v tickInterval = 0
+>v tickTimer = 0
+>v attachTime = 0
+>v fixedAge = 0
+>v age = 0
+>v beginSiphon = False
+>v bezierCurveLine = 
+>v targetHealthComponent = 
+>v ownerBody = 
+>v targetBody = 
+>v tetheredBuff = 
+>v ___targetRootNetId = 0
+>v ___ownerRootNetId = 0
+>v ___originNetId = 0
+>v NetworktargetRoot = 
+>v NetworkownerRoot = 
+>v Networkorigin = 
+>v NetworkreelSpeed = 6
+
+>GameObject Children 0 EndTransform
+
+>> transform = p: (0.0, 0.0, 19.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 Start Transform
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Line Renderer
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LineRenderer
+>>>v numPositions = 6
+>>>v startWidth = 1
+>>>v endWidth = 1
+>>>v widthMultiplier = 1
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v useWorldSpace = True
+>>>v loop = False
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v positionCount = 6
+>>>v shadowBias = 0,5
+>>>v generateLightingData = False
+>>>v textureMode = Stretch
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>> BezierCurveLine
+>>>v vertexList = UnityEngine.Vector3[]
+>>>v p0 = (0.0, 0.0, 0.0)
+>>>v v0 = (3.0, 0.0, 0.0)
+>>>v p1 = (0.0, 0.0, 19.8)
+>>>v v1 = (0.0, 0.0, 0.0)
+>>>v endTransform = EndTransform (UnityEngine.Transform)
+>>>v animateBezierWind = False
+>>>v windMagnitude = (0.0, 0.0, 0.0)
+>>>v windFrequency = (0.0, 0.0, 0.0)
+>>>v windPhaseShift = (0.0, 0.0, 0.0)
+>>>v lastWind = (0.0, 0.0, 0.0)
+>>>v finalv0 = (0.0, 0.0, 0.0)
+>>>v finalv1 = (0.0, 0.0, 0.0)
+>>>v windTime = 0
+>>>v <lineRenderer>k__BackingField = 
+>>>v lineRenderer = 
+
+>GameObject Children 2 Start Transform (1)
+
+>> transform = p: (0.2, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Line Renderer
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LineRenderer
+>>>v numPositions = 6
+>>>v startWidth = 1
+>>>v endWidth = 1
+>>>v widthMultiplier = 1
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v useWorldSpace = True
+>>>v loop = False
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v positionCount = 6
+>>>v shadowBias = 0,5
+>>>v generateLightingData = False
+>>>v textureMode = Stretch
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>> BezierCurveLine
+>>>v vertexList = UnityEngine.Vector3[]
+>>>v p0 = (0.0, 0.0, 0.0)
+>>>v v0 = (3.0, 0.0, 0.0)
+>>>v p1 = (0.0, 0.0, 19.8)
+>>>v v1 = (0.0, 0.0, 0.0)
+>>>v endTransform = EndTransform (UnityEngine.Transform)
+>>>v animateBezierWind = False
+>>>v windMagnitude = (0.0, 0.0, 0.0)
+>>>v windFrequency = (0.0, 0.0, 0.0)
+>>>v windPhaseShift = (0.0, 0.0, 0.0)
+>>>v lastWind = (0.0, 0.0, 0.0)
+>>>v finalv0 = (0.0, 0.0, 0.0)
+>>>v finalv1 = (0.0, 0.0, 0.0)
+>>>v windTime = 0
+>>>v <lineRenderer>k__BackingField = 
+>>>v lineRenderer = 
+
+>GameObject Children 3 Start Transform (2)
+
+>> transform = p: (-0.2, 0.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Line Renderer
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LineRenderer
+>>>v numPositions = 6
+>>>v startWidth = 0,8
+>>>v endWidth = 0,8
+>>>v widthMultiplier = 0,8
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v useWorldSpace = True
+>>>v loop = False
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v positionCount = 6
+>>>v shadowBias = 0,5
+>>>v generateLightingData = False
+>>>v textureMode = Stretch
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>> BezierCurveLine
+>>>v vertexList = UnityEngine.Vector3[]
+>>>v p0 = (0.0, 0.0, 0.0)
+>>>v v0 = (3.0, 0.0, 0.0)
+>>>v p1 = (0.0, 0.0, 19.8)
+>>>v v1 = (0.0, 0.0, 0.0)
+>>>v endTransform = EndTransform (UnityEngine.Transform)
+>>>v animateBezierWind = False
+>>>v windMagnitude = (0.0, 0.0, 0.0)
+>>>v windFrequency = (0.0, 0.0, 0.0)
+>>>v windPhaseShift = (0.0, 0.0, 0.0)
+>>>v lastWind = (0.0, 0.0, 0.0)
+>>>v finalv0 = (0.0, 0.0, 0.0)
+>>>v finalv1 = (0.0, 0.0, 0.0)
+>>>v windTime = 0
+>>>v <lineRenderer>k__BackingField = 
+>>>v lineRenderer = 

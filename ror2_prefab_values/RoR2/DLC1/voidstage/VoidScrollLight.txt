@@ -1,0 +1,137 @@
+Key Path : RoR2/DLC1/voidstage/VoidScrollLight.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidScrollLight
+
+> transform = p: (-11.7, 32.9, -2.8) r: (0.0, 0.0, 0.0) s: (3.0, 3.0, 3.0)
+>GameObject Children 0 meshFirepitAsh
+
+>> transform = p: (-0.1, 2.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshFirepitAsh (UnityEngine.Mesh)
+>>v mesh = meshFirepitAsh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 1 meshVoidFirepit
+
+>> transform = p: (0.0, 2.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshVoidFirepit (UnityEngine.Mesh)
+>>v mesh = meshVoidFirepit Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = meshVoidFirepit (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 2 meshVoidScroll
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshVoidScroll (UnityEngine.Mesh)
+>>v mesh = meshVoidScroll Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = meshVoidScroll (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 3 Point Light (4)
+
+>> transform = p: (0.0, 2.9, -0.1) r: (0.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Point
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.827, 0.000, 1.000, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 13,7
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 20
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = None
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>> RoR2.FlickerLight
+>>v light = Point Light (4) (UnityEngine.Light)
+>>v sinWaves = Wave[]
+>>v initialLightIntensity = 0
+>>v stopwatch = 0
+>>v randomPhase = 0
+
+>GameObject Children 4 meshVoidCrystalSM
+
+>> transform = p: (0.0, 2.8, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.5, 0.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshVoidCrystalSM (UnityEngine.Mesh)
+>>v mesh = meshVoidCrystalSM Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = meshVoidCrystalSM (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)

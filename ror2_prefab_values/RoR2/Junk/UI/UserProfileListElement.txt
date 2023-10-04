@@ -1,0 +1,168 @@
+Key Path : RoR2/Junk/UI/UserProfileListElement.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : UserProfileListElement
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.CanvasRenderer
+>v <isMask>k__BackingField = False
+>v hasPopInstruction = False
+>v materialCount = 0
+>v popMaterialCount = 0
+>v absoluteDepth = -1
+>v hasMoved = False
+>v cullTransparentMesh = False
+>v hasRectClipping = False
+>v relativeDepth = -1
+>v cull = False
+>v isMask = False
+>v clippingSoftness = (0.0, 0.0)
+
+> UnityEngine.UI.Image
+>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>v m_Sprite = texUIAnimateSlice1Colored (UnityEngine.Sprite)
+>v m_OverrideSprite = 
+>v m_Type = Sliced
+>v m_PreserveAspect = False
+>v m_FillCenter = True
+>v m_FillMethod = Radial360
+>v m_FillAmount = 1
+>v m_FillClockwise = True
+>v m_FillOrigin = 0
+>v m_AlphaHitTestMinimumThreshold = 0
+>v m_Tracked = False
+>v m_UseSpriteMesh = False
+>v m_PixelsPerUnitMultiplier = 1
+>v m_CachedReferencePixelsPerUnit = 100
+>v s_VertScratch = UnityEngine.Vector2[]
+>v s_UVScratch = UnityEngine.Vector2[]
+>v s_Xy = UnityEngine.Vector3[]
+>v s_Uv = UnityEngine.Vector3[]
+>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>v s_Initialized = False
+>v sprite = texUIAnimateSlice1Colored (UnityEngine.Sprite)
+>v overrideSprite = texUIAnimateSlice1Colored (UnityEngine.Sprite)
+>v type = Sliced
+>v preserveAspect = False
+>v fillCenter = True
+>v fillMethod = Radial360
+>v fillAmount = 1
+>v fillClockwise = True
+>v fillOrigin = 0
+>v eventAlphaThreshold = 1
+>v alphaHitTestMinimumThreshold = 0
+>v useSpriteMesh = False
+>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>v mainTexture = texUIAnimateSlice1Colored (UnityEngine.Texture2D)
+>v hasBorder = True
+>v pixelsPerUnitMultiplier = 1
+>v pixelsPerUnit = 1
+>v material = matUIPaintStreakAnimated (UnityEngine.Material)
+>v minWidth = 0
+>v preferredWidth = 109
+>v flexibleWidth = -1
+>v minHeight = 0
+>v preferredHeight = 20
+>v flexibleHeight = -1
+>v layoutPriority = 0
+
+> UnityEngine.UI.LayoutElement
+>v m_IgnoreLayout = False
+>v m_MinWidth = -1
+>v m_MinHeight = 48
+>v m_PreferredWidth = -1
+>v m_PreferredHeight = 48
+>v m_FlexibleWidth = -1
+>v m_FlexibleHeight = -1
+>v m_LayoutPriority = 1
+>v ignoreLayout = False
+>v minWidth = -1
+>v minHeight = 48
+>v preferredWidth = -1
+>v preferredHeight = 48
+>v flexibleWidth = -1
+>v flexibleHeight = -1
+>v layoutPriority = 1
+
+> RoR2.UI.MPEventSystemLocator
+>v _eventSystemProvider = 
+>v _eventSystem = 
+>v onEventSystemDiscovered = 
+>v onEventSystemLost = 
+>v eventSystemProvider = 
+>v eventSystem = 
+
+> RoR2.UI.UserProfileListElementController
+>v nameLabel = TextMeshPro Text (RoR2.UI.HGTextMeshProUGUI)
+>v button = 
+>v playTimeLabel = PlayTimeLabel (RoR2.UI.HGTextMeshProUGUI)
+>v listController = 
+>v _userProfile = 
+>v userProfile = 
+
+> RoR2.UI.HGButton
+>v textMeshProUGui = 
+>v stopwatch = 0
+>v originalColor = RGBA(0.000, 0.000, 0.000, 0.000)
+>v showImageOnHover = False
+>v imageOnHover = 
+>v imageOnInteractable = 
+>v updateTextOnHover = False
+>v hoverLanguageTextMeshController = 
+>v hoverToken = 
+>v hovering = False
+>v previousState = Disabled
+>v uiClickSoundOverride = 
+>v buttonScaleVelocity = 0
+>v imageOnHoverAlphaVelocity = 0
+>v imageOnHoverScaleVelocity = 0
+
+> RoR2.UI.SkinControllers.ButtonSkinController
+>v instancesList = System.Collections.Generic.List`1[RoR2.UI.SkinControllers.ButtonSkinController]
+>v button = 
+>v useRecommendedButtonWidth = False
+>v useRecommendedButtonHeight = False
+>v useRecommendedImage = True
+>v useRecommendedMaterial = True
+>v useRecommendedAlignment = True
+>v useRecommendedLabel = True
+>v layoutElement = 
+
+>GameObject Children 0 TextMeshPro Text
+
+>> transform = p: (4.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> RoR2.UI.HGTextMeshProUGUI
+>>v useLanguageDefaultFont = True
+>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)
+
+>GameObject Children 1 PlayTimeLabel
+
+>> transform = p: (-4.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> RoR2.UI.HGTextMeshProUGUI
+>>v useLanguageDefaultFont = True
+>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)

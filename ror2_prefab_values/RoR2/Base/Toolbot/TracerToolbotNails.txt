@@ -1,0 +1,107 @@
+Key Path : RoR2/Base/Toolbot/TracerToolbotNails.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TracerToolbotNails
+
+> transform = p: (118.7, 0.4, 275.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.EffectComponent
+>v effectIndex = 552
+>v effectData = 
+>v positionAtReferencedTransform = False
+>v parentToReferencedTransform = False
+>v applyScale = False
+>v soundName = 
+>v disregardZScale = False
+>v didResolveReferencedObject = False
+>v referencedObject = 
+>v didResolveReferencedChildTransform = False
+>v referencedChildTransform = 
+>v didResolveReferencedHurtBox = False
+>v referencedHurtBoxGameObject = 
+
+> RoR2.Tracer
+>v startTransform = SmokeLineStartPos (UnityEngine.Transform)
+>v beamObject = 
+>v beamDensity = 10
+>v speed = 202
+>v headTransform = TracerHead (UnityEngine.Transform)
+>v tailTransform = TracerTail (UnityEngine.Transform)
+>v length = 6
+>v reverse = False
+>v onTailReachedDestination = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v startPos = (0.0, 0.0, 0.0)
+>v endPos = (0.0, 0.0, 0.0)
+>v distanceTraveled = 0
+>v totalDistance = 0
+>v normal = (0.0, 0.0, 0.0)
+
+> UnityEngine.LineRenderer
+>v numPositions = 2
+>v startWidth = 0,4
+>v endWidth = 0,4
+>v widthMultiplier = 0,4
+>v numCornerVertices = 0
+>v numCapVertices = 0
+>v useWorldSpace = True
+>v loop = False
+>v startColor = RGBA(0.949, 0.671, 0.000, 1.000)
+>v endColor = RGBA(1.000, 0.000, 0.000, 1.000)
+>v positionCount = 2
+>v shadowBias = 0
+>v generateLightingData = False
+>v textureMode = Stretch
+>v alignment = View
+>v widthCurve = UnityEngine.AnimationCurve
+>v colorGradient = UnityEngine.Gradient
+
+> BeamPointsFromTransforms
+>v target = TracerToolbotNails (UnityEngine.LineRenderer)
+>v pointTransforms = UnityEngine.Transform[]
+
+> RoR2.EventFunctions
+
+>GameObject Children 0 TracerHead
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 TracerTail
+
+>> transform = p: (0.0, 0.0, -0.2) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 SmokeLine
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 2
+>>v startWidth = 0,1
+>>v endWidth = 0,1
+>>v widthMultiplier = 0,1
+>>v numCornerVertices = 0
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(0.800, 0.725, 0.639, 1.000)
+>>v endColor = RGBA(0.188, 0.157, 0.122, 0.000)
+>>v positionCount = 2
+>>v shadowBias = 0
+>>v generateLightingData = False
+>>v textureMode = Stretch
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> BeamPointsFromTransforms
+>>v target = SmokeLine (UnityEngine.LineRenderer)
+>>v pointTransforms = UnityEngine.Transform[]
+
+>> RoR2.AnimateShaderAlpha
+>>v alphaCurve = UnityEngine.AnimationCurve
+>>v targetRenderer = 
+>>v _propBlock = 
+>>v materials = 
+>>v timeMax = 1
+>>v decal = 
+>>v pauseTime = False
+>>v destroyOnEnd = False
+>>v disableOnEnd = False
+>>v time = 0
+>>v initialFade = 0
+
+>>GameObject Children 0 SmokeLineStartPos
+
+>>> transform = p: (0.6, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)

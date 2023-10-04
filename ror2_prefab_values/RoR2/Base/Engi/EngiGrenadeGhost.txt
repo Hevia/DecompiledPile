@@ -1,0 +1,31 @@
+Key Path : RoR2/Base/Engi/EngiGrenadeGhost.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : EngiGrenadeGhost
+
+> transform = p: (-13.6, 9.4, -38.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.Projectile.ProjectileGhostController
+>v transform = 
+>v migration = 0
+>v <authorityTransform>k__BackingField = 
+>v <predictionTransform>k__BackingField = 
+>v inheritScaleFromProjectile = False
+>v authorityTransform = 
+>v predictionTransform = 
+
+> RoR2.VFXAttributes
+>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>v vfxPriority = Always
+>v vfxIntensity = Low
+>v optionalLights = UnityEngine.Light[]
+>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+>GameObject Children 0 mdlEngiGrenade
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = engiGrenadeMesh (UnityEngine.Mesh)
+>>v mesh = engiGrenadeMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

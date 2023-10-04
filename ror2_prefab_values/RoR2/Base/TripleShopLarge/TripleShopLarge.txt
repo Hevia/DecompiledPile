@@ -1,0 +1,116 @@
+Key Path : RoR2/Base/TripleShopLarge/TripleShopLarge.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TripleShopLarge
+
+> transform = p: (27.7, -1.2, 65.6) r: (0.0, 0.0, 0.0) s: (1.3, 1.3, 1.3)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = c814170ba819d7b45934c0fc54fd99d1
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = c814170ba819d7b45934c0fc54fd99d1
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.MultiShopController
+>v terminalPrefab = MultiShopLargeTerminal (UnityEngine.GameObject)
+>v terminalPositions = UnityEngine.Transform[]
+>v revealCount = 1
+>v hiddenChance = 0,2
+>v itemTier = Tier2
+>v doEquipmentInstead = False
+>v hideDisplayContent = True
+>v doCloseOnTerminalPurchase = 
+>v _terminalGameObjects = 
+>v terminalGameObjects = HG.ReadOnlyArray`1[[UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
+>v available = True
+>v baseCost = 50
+>v costType = Money
+>v cost = 0
+>v rng = 
+>v Networkavailable = True
+>v Networkcost = 0
+
+> RoR2.Hologram.HologramProjector
+>v displayDistance = 20
+>v hologramPivot = HologramPivot (UnityEngine.Transform)
+>v disableHologramRotation = False
+>v transformDampVelocity = 0
+>v contentProvider = 
+>v viewerReselectTimer = 0
+>v viewerReselectInterval = 0,25
+>v cachedViewer = 
+>v viewer = 
+>v hologramContentInstance = 
+
+>GameObject Children 0 HologramPivot
+
+>> transform = p: (0.0, 7.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 TerminalHolder
+
+>> transform = p: (0.0, 1.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 TerminalPosition
+
+>>> transform = p: (1.1, -0.5, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 TerminalHolder
+
+>> transform = p: (0.0, 1.2, 0.0) r: (0.0, 120.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 TerminalPosition
+
+>>> transform = p: (1.1, -0.5, 0.0) r: (0.0, 210.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 TerminalHolder
+
+>> transform = p: (0.0, 1.2, 0.0) r: (0.0, 240.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 TerminalPosition
+
+>>> transform = p: (1.1, -0.5, 0.0) r: (0.0, 330.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 4 mdlMultiShopTerminalCenter
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MultiShopLargeCenterMesh (UnityEngine.Mesh)
+>>v mesh = MultiShopLargeCenterMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.RandomizeSplatBias
+>>v minRedBias = 0
+>>v maxRedBias = 0
+>>v minGreenBias = -0,38
+>>v maxGreenBias = 0,5
+>>v minBlueBias = -2
+>>v maxBlueBias = -2
+>>v _propBlock = 
+>>v characterModel = 
+>>v materialsList = 
+>>v rendererList = 
+>>v printShader = 

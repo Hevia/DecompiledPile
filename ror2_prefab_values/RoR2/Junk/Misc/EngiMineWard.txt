@@ -1,0 +1,115 @@
+Key Path : RoR2/Junk/Misc/EngiMineWard.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : EngiMineWard
+
+> transform = p: (-11.0, -213.0, -174.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> RoR2.BuffWard
+>v shape = Sphere
+>v radius = 15
+>v interval = 0,3
+>v rangeIndicator = Indicator (UnityEngine.Transform)
+>v buffDef = bdSlow50 (RoR2.BuffDef)
+>v buffDuration = 1,5
+>v floorWard = False
+>v expires = True
+>v invertTeamFilter = False
+>v expireDuration = 10
+>v animateRadius = False
+>v radiusCoefficientCurve = UnityEngine.AnimationCurve
+>v removalTime = 0
+>v needsRemovalTime = False
+>v removalSoundString = 
+>v onRemoval = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v requireGrounded = False
+>v teamFilter = 
+>v buffTimer = 0
+>v rangeIndicatorScaleVelocity = 0
+>v stopwatch = 0
+>v calculatedRadius = 0
+>v Networkradius = 15
+
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 64c1338eab4e75c49bf20e7a77f3492e
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 64c1338eab4e75c49bf20e7a77f3492e
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = False
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = None
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+>GameObject Children 0 Indicator
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 IndicatorSphere
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

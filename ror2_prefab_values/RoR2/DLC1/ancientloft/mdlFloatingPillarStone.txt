@@ -1,0 +1,116 @@
+Key Path : RoR2/DLC1/ancientloft/mdlFloatingPillarStone.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlFloatingPillarStone
+
+> transform = p: (-80.4, 40.3, 165.1) r: (270.0, 316.4, 0.0) s: (1.5, 1.5, 1.5)
+>GameObject Children 0 mdlFloatingPillarStone
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 316.4, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = FloatingPillarStoneController (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = mdlFloatingPillarStoneAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 FloatingPillarStoneArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 316.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ROOT
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 316.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Stone1
+
+>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 316.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Stone2
+
+>>>>>> transform = p: (0.4, 3.4, 0.0) r: (0.0, 316.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 Stone3
+
+>>>>>> transform = p: (0.0, 4.0, 0.0) r: (0.0, 316.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Stone4
+
+>>>>>>> transform = p: (0.0, 2.3, 0.0) r: (0.0, 316.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Base Collision (2)
+
+>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 316.4, 0.0) s: (0.8, 1.1, 3.6)
+>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>GameObject Children 2 Base Collision (1)
+
+>>>>>> transform = p: (0.0, 2.8, 0.0) r: (270.0, 316.4, 0.0) s: (1.1, 1.9, 5.1)
+>>>>>> UnityEngine.BoxCollider
+>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>> RoR2.SurfaceDefProvider
+>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 1 mdlFloatingPillarStone
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 316.4, 0.0) s: (0.0, 0.0, 0.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlFloatingPillarStone (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 4.6, 0.0), Extents: (0.7, 4.7, 1.0)
+
+>GameObject Children 1 Base Collision
+
+>> transform = p: (0.0, 0.0, 0.3) r: (270.0, 316.4, 0.0) s: (1.2, 1.9, 0.7)
+>> UnityEngine.BoxCollider
+>>v center = (0.0, 0.0, 0.0)
+>>v size = (1.0, 1.0, 1.0)
+>>v extents = (0.5, 0.5, 0.5)
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)

@@ -1,0 +1,379 @@
+Key Path : RoR2/Base/Talisman/DisplayTalismanFollower.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayTalismanFollower
+
+> transform = p: (-26.9, -198.5, -186.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlTalisman
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>> DynamicBone
+>>v m_Root = Base (UnityEngine.Transform)
+>>v m_UpdateRate = 60
+>>v m_UpdateMode = Normal
+>>v m_Damping = 0,679
+>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>v m_Elasticity = 0,1
+>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>v m_Stiffness = 0,5
+>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>v m_Inert = 0
+>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>v m_Radius = 0
+>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>v m_EndLength = 0
+>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>v m_Gravity = (0.0, 0.0, 0.0)
+>>v m_Force = (0.0, 0.0, 0.0)
+>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>v m_FreezeAxis = None
+>>v m_DistantDisable = False
+>>v m_ReferenceObject = 
+>>v m_DistanceToObject = 20
+>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>v m_BoneTotalLength = 0
+>>v m_ObjectScale = 1
+>>v m_Time = 0
+>>v m_Weight = 1
+>>v m_DistantDisabled = False
+>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>> RotateItem
+>>v spinSpeed = 0
+>>v bobHeight = 0,3
+>>v offsetVector = (0.0, 0.0, 0.0)
+>>v counter = 0
+>>v initialPosition = (0.0, 0.0, 0.0)
+
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 193330.3, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = AlwaysAnimate
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = animTalisman (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = mdlTalismanAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 TalismanArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Base
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Chain1
+
+>>>>> transform = p: (0.0, -1.1, -0.7) r: (0.0, 244.7, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Chain1.002
+
+>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 244.7, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Chain1.001
+
+>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 244.7, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Chain1.003
+
+>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 244.7, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Chain1.003_end
+
+>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 244.7, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Chain2
+
+>>>>> transform = p: (-1.2, -1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Chain2.002
+
+>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Chain2.001
+
+>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Chain2.003
+
+>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Chain2.003_end
+
+>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 Chain3
+
+>>>>> transform = p: (1.2, -1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Chain3.001
+
+>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Chain3.002
+
+>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Chain3.003
+
+>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Chain3.003_end
+
+>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 263.2, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 Chain4
+
+>>>>> transform = p: (1.6, -0.5, -0.8) r: (0.0, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Chain4.001
+
+>>>>>> transform = p: (0.0, 1.9, 0.0) r: (0.0, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Chain4.002
+
+>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Chain4.002_end
+
+>>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 TalismanMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Base (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = TalismanMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, -2.6, 0.1), Extents: (3.5, 4.8, 2.7)
+
+>>GameObject Children 2 Burst
+
+>>> transform = p: (0.0, -0.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = False
+>>>v playOnAwake = True
+>>>v duration = 4
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 0
+>>>v startSpeed = -20
+>>>v startSize = 3
+>>>v startColor = RGBA(0.410, 1.000, 0.907, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 1
+>>>v gravityModifier = 0
+>>>v maxParticles = 3
+>>>v simulationSpace = Local
+>>>v scalingMode = Hierarchy
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = None
+>>>v sortMode = None
+>>>v lengthScale = 1
+>>>v velocityScale = 0,2
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = matIceOrbCore (UnityEngine.Material)
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 5
+
+>>GameObject Children 3 SpookySmoke
+
+>>> transform = p: (0.0, -0.6, 0.0) r: (0.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = True
+>>>v playOnAwake = True
+>>>v duration = 5
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 3
+>>>v startSpeed = 0
+>>>v startSize = 1,4
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 3
+>>>v gravityModifier = 0
+>>>v maxParticles = 1000
+>>>v simulationSpace = Local
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = True
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = True
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = True
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 4
+
+>>>GameObject Children 0 Point Light
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.Light
+>>>>v m_BakedIndex = 0
+>>>>v type = Point
+>>>>v shape = Cone
+>>>>v spotAngle = 30
+>>>>v innerSpotAngle = 21,80208
+>>>>v color = RGBA(0.175, 1.000, 0.772, 1.000)
+>>>>v colorTemperature = 6570
+>>>>v useColorTemperature = False
+>>>>v intensity = 18,13
+>>>>v bounceIntensity = 1
+>>>>v useBoundingSphereOverride = False
+>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>v shadowCustomResolution = -1
+>>>>v shadowBias = 0,05
+>>>>v shadowNormalBias = 0,4
+>>>>v shadowNearPlane = 0,2
+>>>>v useShadowMatrixOverride = False
+>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>v range = 2
+>>>>v flare = 
+>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>v cullingMask = -1
+>>>>v renderingLayerMask = 1
+>>>>v lightShadowCasterMode = Default
+>>>>v shadows = None
+>>>>v shadowStrength = 1
+>>>>v shadowResolution = FromQualitySettings
+>>>>v shadowSoftness = 4
+>>>>v shadowSoftnessFade = 1
+>>>>v layerShadowCullDistances = System.Single[]
+>>>>v cookieSize = 10
+>>>>v cookie = 
+>>>>v renderMode = Auto
+>>>>v bakedIndex = 0
+>>>>v commandBufferCount = 0
+>>>>v pixelLightCount = 4
+>>>>v shadowConstantBias = 0
+>>>>v shadowObjectSizeBias = 0
+>>>>v attenuate = True
+
+>>>> LightIntensityCurve
+>>>>v curve = UnityEngine.AnimationCurve
+>>>>v timeMax = 3
+>>>>v time = 0
+>>>>v light = 
+>>>>v maxIntensity = 0
+>>>>v loop = True
+>>>>v randomStart = False
+>>>>v enableNegativeLights = False

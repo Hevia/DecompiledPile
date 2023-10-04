@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/Saw/PickupSawmerang.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupSawmerang
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.9, -0.1, 0.3)
+>v minDistance = 5
+>v maxDistance = 8
+>v cameraDirection = (3.6, 0.9, 4.9)
+
+>GameObject Children 0 SawmerangMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Sawmerang (UnityEngine.Mesh)
+>>v mesh = Sawmerang Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (-0.1, 0.0, 0.7) r: (353.9, 305.7, 8.4) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-3.7, -0.9, -4.2) r: (353.9, 305.7, 8.4) s: (1.0, 1.0, 1.0)

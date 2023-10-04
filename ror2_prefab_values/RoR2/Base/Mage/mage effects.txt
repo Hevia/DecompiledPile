@@ -1,0 +1,35 @@
+Key Path : RoR2/Base/Mage/mage effects.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mage effects
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 MageIceWallMesh
+
+>> transform = p: (2.1, 0.1, -0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MageIceWallMesh (UnityEngine.Mesh)
+>>v mesh = MageIceWallMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 MageIcosphereHigh
+
+>> transform = p: (-2.3, -0.3, 0.4) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MageIcosphereHigh (UnityEngine.Mesh)
+>>v mesh = MageIcosphereHigh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 MageIcosphereLow
+
+>> transform = p: (-0.3, -0.3, 0.4) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MageIcosphereLow (UnityEngine.Mesh)
+>>v mesh = MageIcosphereLow Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

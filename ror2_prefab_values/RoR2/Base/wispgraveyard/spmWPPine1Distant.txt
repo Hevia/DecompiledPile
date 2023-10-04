@@ -1,0 +1,42 @@
+Key Path : RoR2/Base/wispgraveyard/spmWPPine1Distant.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : spmWPPine1Distant
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.LODGroup
+>v localReferencePoint = (0.0, 68.3, 0.0)
+>v size = 147,2151
+>v lodCount = 2
+>v fadeMode = SpeedTree
+>v animateCrossFading = True
+>v enabled = True
+>v crossFadeAnimationDuration = 0,5
+
+>GameObject Children 0 spmWPPine1_Billboard
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.BillboardRenderer
+>>v billboard = spmWPPine1_Billboard (UnityEngine.BillboardAsset)
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True
+
+>GameObject Children 1 spmWPPine1_LOD0
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 spmWPPine1_LOD1
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 spmWPPine1_LOD2
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = spmWPPine1_LOD2 (UnityEngine.Mesh)
+>>v mesh = spmWPPine1_LOD2 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True

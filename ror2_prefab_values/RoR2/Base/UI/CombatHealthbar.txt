@@ -1,0 +1,463 @@
+Key Path : RoR2/Base/UI/CombatHealthbar.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : CombatHealthbar
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+> RoR2.UI.HealthBar
+>v _source = 
+>v style = CombatHealthBar (RoR2.UI.HealthBarStyle)
+>v barContainer = CombatHealthbar (UnityEngine.RectTransform)
+>v eliteBackdropRectTransform = Backdrop,Elite (UnityEngine.RectTransform)
+>v criticallyHurtImage = 
+>v deadImage = 
+>v maxLastHitTimer = 0,2
+>v scaleHealthbarWidth = True
+>v minHealthbarWidth = 35
+>v maxHealthbarWidth = 150
+>v minHealthbarHealth = 5
+>v maxHealthbarHealth = 2000
+>v displayStringCurrentHealth = 0
+>v displayStringFullHealth = 0
+>v rectTransform = 
+>v cachedFractionalValue = 1
+>v healthFractionVelocity = 0
+>v healthCritical = False
+>v isInventoryCheckDirty = True
+>v hasLowHealthItem = False
+>v viewerBody = 
+>v infusionPanelColor = RGBA(0.906, 0.329, 0.227, 1.000)
+>v voidPanelColor = RGBA(0.851, 0.482, 1.000, 1.000)
+>v voidShieldsColor = RGBA(1.000, 0.224, 0.780, 1.000)
+>v theta = 0
+>v barAllocator = 
+>v barInfoCollection = RoR2.UI.HealthBar+BarInfoCollection
+>v currentHealthText = 
+>v fullHealthText = 
+>v source = 
+
+> RoR2.UI.LevelText
+>v source = 
+>v targetText = ValueText (RoR2.UI.HGTextMeshProUGUI)
+>v displayData = 0
+>v sharedStringBuilder = 
+
+>GameObject Children 0 Backdrop,Elite
+
+>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Sliced
+>>v m_PreserveAspect = False
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v overrideSprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v type = Sliced
+>>v preserveAspect = False
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texUIMainHealthbar (UnityEngine.Texture2D)
+>>v hasBorder = True
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 3
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 13,33333
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 13
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>>GameObject Children 0 Arrow,EliteBackdrop
+
+>>> transform = p: (0.0, -5.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.Image
+>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v m_Sprite = texSimpleTriangle (UnityEngine.Sprite)
+>>>v m_OverrideSprite = 
+>>>v m_Type = Sliced
+>>>v m_PreserveAspect = False
+>>>v m_FillCenter = True
+>>>v m_FillMethod = Radial360
+>>>v m_FillAmount = 1
+>>>v m_FillClockwise = True
+>>>v m_FillOrigin = 0
+>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>v m_Tracked = False
+>>>v m_UseSpriteMesh = False
+>>>v m_PixelsPerUnitMultiplier = 1
+>>>v m_CachedReferencePixelsPerUnit = 100
+>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>v s_Xy = UnityEngine.Vector3[]
+>>>v s_Uv = UnityEngine.Vector3[]
+>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>v s_Initialized = False
+>>>v sprite = texSimpleTriangle (UnityEngine.Sprite)
+>>>v overrideSprite = texSimpleTriangle (UnityEngine.Sprite)
+>>>v type = Sliced
+>>>v preserveAspect = False
+>>>v fillCenter = True
+>>>v fillMethod = Radial360
+>>>v fillAmount = 1
+>>>v fillClockwise = True
+>>>v fillOrigin = 0
+>>>v eventAlphaThreshold = 1
+>>>v alphaHitTestMinimumThreshold = 0
+>>>v useSpriteMesh = False
+>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v mainTexture = texSimpleTriangle (UnityEngine.Texture2D)
+>>>v hasBorder = False
+>>>v pixelsPerUnitMultiplier = 1
+>>>v pixelsPerUnit = 1
+>>>v material = Default UI Material (UnityEngine.Material)
+>>>v minWidth = 0
+>>>v preferredWidth = 0
+>>>v flexibleWidth = -1
+>>>v minHeight = 0
+>>>v preferredHeight = 0
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 0
+
+>GameObject Children 1 Arrow
+
+>> transform = p: (0.0, -3.5, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texSimpleTriangle (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Simple
+>>v m_PreserveAspect = False
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texSimpleTriangle (UnityEngine.Sprite)
+>>v overrideSprite = texSimpleTriangle (UnityEngine.Sprite)
+>>v type = Simple
+>>v preserveAspect = False
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texSimpleTriangle (UnityEngine.Texture2D)
+>>v hasBorder = False
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 1
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 512
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 256
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>GameObject Children 2 Backdrop
+
+>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Sliced
+>>v m_PreserveAspect = False
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v overrideSprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v type = Sliced
+>>v preserveAspect = False
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texUIMainHealthbar (UnityEngine.Texture2D)
+>>v hasBorder = True
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 3
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 13,33333
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 13
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>GameObject Children 3 EmptyHealthPanel
+
+>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Sliced
+>>v m_PreserveAspect = False
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v overrideSprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v type = Sliced
+>>v preserveAspect = False
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texUIMainHealthbar (UnityEngine.Texture2D)
+>>v hasBorder = True
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 3
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 13,33333
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 13
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>GameObject Children 4 BuffBar
+
+>> transform = p: (-50.0, 9.4, 0.0) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>> RoR2.UI.BuffDisplay
+>>v rectTranform = 
+>>v source = 
+>>v buffIconPrefab = BuffIcon (UnityEngine.GameObject)
+>>v iconWidth = 48
+>>v buffIcons = System.Collections.Generic.List`1[RoR2.UI.BuffIcon]
+
+>> UnityEngine.UI.HorizontalLayoutGroup
+
+>GameObject Children 5 LevelRoot
+
+>> transform = p: (-52.0, -2.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Sliced
+>>v m_PreserveAspect = False
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v overrideSprite = texUIMainHealthbar (UnityEngine.Sprite)
+>>v type = Sliced
+>>v preserveAspect = False
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texUIMainHealthbar (UnityEngine.Texture2D)
+>>v hasBorder = True
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 3
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 13,33333
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 13
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>>GameObject Children 0 ValueText
+
+>>> transform = p: (-12.9, 5.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> RoR2.UI.HGTextMeshProUGUI
+>>>v useLanguageDefaultFont = True
+>>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)

@@ -1,0 +1,148 @@
+Key Path : RoR2/DLC1/ancientloft/AncientLoft_FountainSM.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : AncientLoft_FountainSM
+
+> transform = p: (-49.0, 40.6, 27.2) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 FountainSM
+
+>> transform = p: (1.0, 2.6, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = FountainSM (UnityEngine.Mesh)
+>>v mesh = FountainSM Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = FountainSMCLS (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 1 FountainWater
+
+>> transform = p: (1.0, 2.6, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = FountainWater (UnityEngine.Mesh)
+>>v mesh = FountainWater Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 FountainWaterfall
+
+>> transform = p: (-1.4, -0.4, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = FountainWaterfall (UnityEngine.Mesh)
+>>v mesh = FountainWaterfall Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 SplashSmall
+
+>> transform = p: (-1.1, 2.6, 0.0) r: (0.0, 270.0, 0.0) s: (0.1, 0.2, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>v mesh = Plane Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 4 SplashBig
+
+>> transform = p: (-1.6, -0.2, 0.1) r: (0.0, 270.0, 0.0) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>v mesh = Plane Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 5 Foam
+
+>> transform = p: (-1.5, -0.3, 0.0) r: (90.0, 185.7, 0.0) s: (1.2, 1.2, 1.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = donut6Mesh (UnityEngine.Mesh)
+>>v mesh = donut6Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 6 AncientLoft_LilyPad
+
+>> transform = p: (-3.1, -0.2, 0.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 LilyPad1
+
+>>> transform = p: (-1.6, -0.2, 0.9) r: (270.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LilyPad1 (UnityEngine.Mesh)
+>>>v mesh = LilyPad1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 LilyPad2
+
+>>> transform = p: (0.7, -0.2, 1.1) r: (270.0, 311.2, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LilyPad2 (UnityEngine.Mesh)
+>>>v mesh = LilyPad2 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 LilyPad3
+
+>>> transform = p: (0.9, 2.6, 4.6) r: (270.0, 51.5, 0.0) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LilyPad3 (UnityEngine.Mesh)
+>>>v mesh = LilyPad3 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 Lotus1
+
+>>> transform = p: (1.2, -0.2, 1.2) r: (270.0, 311.2, 0.0) s: (1.2, 1.2, 1.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Lotus1 (UnityEngine.Mesh)
+>>>v mesh = Lotus1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 Lotus2
+
+>>> transform = p: (0.9, 2.6, 4.9) r: (270.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Lotus2 (UnityEngine.Mesh)
+>>>v mesh = Lotus2 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 5 LilyPad1 (1)
+
+>>> transform = p: (-1.5, -0.2, 1.1) r: (270.0, 308.9, 0.0) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LilyPad1 (UnityEngine.Mesh)
+>>>v mesh = LilyPad1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

@@ -1,0 +1,51 @@
+Key Path : RoR2/DLC1/snowyforest/SFDistantTrees.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : SFDistantTrees
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.LODGroup
+>v localReferencePoint = (0.0, 47.6, 0.0)
+>v size = 100,0364
+>v lodCount = 1
+>v fadeMode = SpeedTree
+>v animateCrossFading = False
+>v enabled = True
+>v crossFadeAnimationDuration = 0,5
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = True
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = None
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+>GameObject Children 0 spmBbConif_Billboard
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.BillboardRenderer
+>>v billboard = spmBbConif_Billboard (UnityEngine.BillboardAsset)
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True

@@ -1,0 +1,39 @@
+Key Path : RoR2/Base/BarrierOnKill/PickupBrooch.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBrooch
+
+> transform = p: (112.3, -111.6, 2.2) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.6, 0.0, 0.8)
+>v minDistance = 2
+>v maxDistance = 5
+>v cameraDirection = (3.2, 0.0, -1.2)
+
+>GameObject Children 0 BroochMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (335.3, 323.5, 14.5) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BroochMesh (UnityEngine.Mesh)
+>>v mesh = BroochMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 BroochGemMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (335.3, 323.5, 14.5) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BroochGemMesh (UnityEngine.Mesh)
+>>v mesh = BroochGemMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 20.7, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 CameraPosition(Clone)
+
+>> transform = p: (-3.2, 0.0, 1.2) r: (0.0, 20.7, 0.0) s: (1.0, 1.0, 1.0)

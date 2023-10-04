@@ -1,0 +1,90 @@
+Key Path : RoR2/DLC1/GummyClone/DisplayGummyClone.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayGummyClone
+
+> transform = p: (-5.3, -146.0, -22.2) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlGummyClone
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 GummyCloneArmature
+
+>>> transform = p: (-0.1, -0.4, -0.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> DynamicBone
+>>>v m_Root = ROOT (UnityEngine.Transform)
+>>>v m_UpdateRate = 60
+>>>v m_UpdateMode = Normal
+>>>v m_Damping = 0,17
+>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>v m_Elasticity = 0,17
+>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>v m_Stiffness = 0,12
+>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>v m_Inert = 0,3
+>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>v m_Radius = 0
+>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>v m_EndLength = 0
+>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>v m_Force = (0.0, 0.0, 0.0)
+>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>v m_FreezeAxis = None
+>>>v m_DistantDisable = False
+>>>v m_ReferenceObject = 
+>>>v m_DistanceToObject = 20
+>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>v m_BoneTotalLength = 0
+>>>v m_ObjectScale = 1
+>>>v m_Time = 0
+>>>v m_Weight = 1
+>>>v m_DistantDisabled = False
+>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>GameObject Children 0 ROOT
+
+>>>> transform = p: (0.1, 0.1, 0.4) r: (353.5, 355.1, 346.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Arm.L
+
+>>>>> transform = p: (-0.2, -0.1, 0.1) r: (44.3, 248.6, 261.5) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Arm.R
+
+>>>>> transform = p: (0.2, 0.0, 0.0) r: (27.0, 325.5, 293.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 Body2
+
+>>>>> transform = p: (0.1, -0.7, 0.0) r: (351.3, 349.2, 282.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Head2
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (7.0, 332.3, 290.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 Head1
+
+>>>>> transform = p: (0.0, 0.1, 0.0) r: (4.8, 358.4, 341.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 mdlGummyCloneInner
+
+>>> transform = p: (0.2, 0.2, 0.1) r: (342.2, 77.6, 248.9) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlGummyCloneInner (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.2, -0.3, 0.0), Extents: (0.6, 0.7, 0.4)
+
+>>GameObject Children 2 mdlGummyCloneOuter
+
+>>> transform = p: (0.2, 0.2, 0.1) r: (342.2, 77.6, 248.9) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlGummyCloneOuter (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.2, -0.3, 0.0), Extents: (0.6, 0.7, 0.5)

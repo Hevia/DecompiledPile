@@ -1,0 +1,46 @@
+Key Path : RoR2/Base/shipgraveyard/shipgraveyard torus ship.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : shipgraveyard torus ship
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 TorusShipContainer
+
+>> transform = p: (6.5, 0.7, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = TorusShipContainer (UnityEngine.Mesh)
+>>v mesh = TorusShipContainer Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 TorusShipCore
+
+>> transform = p: (6.5, 0.3, 0.0) r: (270.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = TorusShipCore (UnityEngine.Mesh)
+>>v mesh = TorusShipCore Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 TorusShipPlatform
+
+>> transform = p: (6.5, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = TorusShipPlatform (UnityEngine.Mesh)
+>>v mesh = TorusShipPlatform Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 TorusShipRound
+
+>> transform = p: (6.5, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = TorusShipRound (UnityEngine.Mesh)
+>>v mesh = TorusShipRound Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

@@ -1,0 +1,239 @@
+Key Path : RoR2/DLC1/ancientloft/AncientLoft_PillarIntact.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : AncientLoft_PillarIntact
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 AncientLoft_PillarIntactMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 264.8, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pillar_Intact (UnityEngine.Mesh)
+>>v mesh = Pillar_Intact Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = Pillar_Intact (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.Animator
+>>v isOptimizable = False
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = AlwaysAnimate
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = PillarIntact (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = 
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 swarl (1)
+
+>>> transform = p: (-0.1, -0.5, 24.2) r: (270.0, 264.8, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = True
+>>>v playOnAwake = True
+>>>v duration = 5
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 1
+>>>v startSpeed = 29,95162
+>>>v startSize = 3
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 3,5
+>>>v gravityModifier = 0
+>>>v maxParticles = 1
+>>>v simulationSpace = Local
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 1
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = matAncientLoft_Trail (UnityEngine.Material)
+>>>v enableGPUInstancing = True
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 1 AncientLoft_SpnningRocks
+
+>>> transform = p: (1.0, -0.2, 0.8) r: (0.0, 268.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ALPebble (7)
+
+>>>> transform = p: (3.1, 0.4, 4.3) r: (5.0, 88.0, 180.0) s: (3.3, 3.3, 3.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.1, 0.0, 0.0)
+>>>>v size = 0,4812357
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>> Spinner
+>>>>v randRotationSpeed = 0
+>>>>v randNumX = 0
+>>>>v randNumY = 0
+>>>>v randNumZ = 0
+>>>>v randZeroOrOneX = 0
+>>>>v randZeroOrOneY = 0
+>>>>v randZeroOrOneZ = 0
+
+>>>GameObject Children 1 ALPebble (8)
+
+>>>> transform = p: (-1.0, -3.5, 0.0) r: (37.6, 132.1, 210.6) s: (5.9, 5.9, 5.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.1, 0.0, 0.0)
+>>>>v size = 0,4812357
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>> Spinner
+>>>>v randRotationSpeed = 0
+>>>>v randNumX = 0
+>>>>v randNumY = 0
+>>>>v randNumZ = 0
+>>>>v randZeroOrOneX = 0
+>>>>v randZeroOrOneY = 0
+>>>>v randZeroOrOneZ = 0
+
+>>>GameObject Children 2 SMRockFormationMedium1
+
+>>>> transform = p: (-4.7, 0.0, -3.2) r: (299.7, 268.0, 0.0) s: (100.0, 100.0, 100.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Rock Formations 2 (UnityEngine.Mesh)
+>>>>v mesh = Rock Formations 2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = Rock Formations 2 (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> Spinner
+>>>>v randRotationSpeed = 0
+>>>>v randNumX = 0
+>>>>v randNumY = 0
+>>>>v randNumZ = 0
+>>>>v randZeroOrOneX = 0
+>>>>v randZeroOrOneY = 0
+>>>>v randZeroOrOneZ = 0

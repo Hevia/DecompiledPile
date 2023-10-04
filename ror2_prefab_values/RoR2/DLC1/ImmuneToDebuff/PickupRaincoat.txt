@@ -1,0 +1,39 @@
+Key Path : RoR2/DLC1/ImmuneToDebuff/PickupRaincoat.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupRaincoat
+
+> transform = p: (-6.4, -148.0, -19.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.3, 0.2, 0.1, 0.9)
+>v minDistance = 0,5
+>v maxDistance = 2
+>v cameraDirection = (0.1, -0.2, -0.2)
+
+>GameObject Children 0 mdlRaincoatPickup
+
+>> transform = p: (0.0, 0.0, 0.1) r: (318.0, 180.0, 0.0) s: (1.8, 1.8, 1.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlRainCoatFoldedDisplay (UnityEngine.Mesh)
+>>v mesh = mdlRainCoatFoldedDisplay Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 mdlRaincoatPickupSpecial
+
+>> transform = p: (-0.1, -1.7, 0.1) r: (270.0, 0.0, 0.0) s: (1.3, 1.3, 1.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlRainCoatPickup (UnityEngine.Mesh)
+>>v mesh = mdlRainCoatPickup Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 FocusPoint(Clone)
+
+>> transform = p: (0.0, -0.1, 0.0) r: (0.0, 65.5, 327.7) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 CameraPosition(Clone)
+
+>> transform = p: (-0.1, 0.0, 0.2) r: (0.0, 65.5, 327.7) s: (1.0, 1.0, 1.0)

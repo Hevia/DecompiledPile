@@ -1,0 +1,128 @@
+Key Path : RoR2/DLC1/ImmuneToDebuff/DisplayRainCoatBelt.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayRainCoatBelt
+
+> transform = p: (-5.2, -148.5, -16.6) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlRaincoatDisplayBelt
+
+>> transform = p: (0.0, -1.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = 
+>>v hasBoundPlayables = False
+>>v avatar = mdlRaincoatDisplayBeltAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 mdlRainCoatBeltDisplay
+
+>>> transform = p: (0.0, 1.0, -0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Hood1 (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlRainCoatBeltDisplay (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.2, -0.2), Extents: (0.3, 0.4, 0.3)
+
+>>GameObject Children 1 RainCoatBeltDisplayArmature
+
+>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> DynamicBone
+>>>v m_Root = Hood1 (UnityEngine.Transform)
+>>>v m_UpdateRate = 60
+>>>v m_UpdateMode = Normal
+>>>v m_Damping = 0,192
+>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>v m_Elasticity = 0,072
+>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>v m_Stiffness = 0,1
+>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>v m_Inert = 0
+>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>v m_Radius = 0
+>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>v m_EndLength = 1,35
+>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>v m_Force = (0.0, 0.0, 0.0)
+>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>v m_FreezeAxis = None
+>>>v m_DistantDisable = False
+>>>v m_ReferenceObject = 
+>>>v m_DistanceToObject = 20
+>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>v m_BoneTotalLength = 0
+>>>v m_ObjectScale = 1
+>>>v m_Time = 0
+>>>v m_Weight = 1
+>>>v m_DistantDisabled = False
+>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>GameObject Children 0 Hood1
+
+>>>> transform = p: (0.0, 0.2, 0.2) r: (348.6, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Hood2
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (353.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Hood3
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (354.1, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 ROOT
+
+>>>> transform = p: (0.0, 0.0, 0.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 RaincoatBeltCollider
+
+>>>> transform = p: (0.0, -0.3, -0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> DynamicBoneCollider
+>>>>v m_Center = (0.0, 0.0, 0.0)
+>>>>v m_Radius = 0,5
+>>>>v m_Height = 0
+>>>>v m_Direction = X
+>>>>v m_Bound = Outside

@@ -1,0 +1,70 @@
+Key Path : RoR2/Base/ExtraLife/hippo effects.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : hippo effects
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animation
+>v clip = HippoEffectWingsArmature|Spawn (UnityEngine.AnimationClip)
+>v playAutomatically = True
+>v wrapMode = Default
+>v isPlaying = False
+>v animatePhysics = False
+>v animateOnlyIfVisible = True
+>v cullingType = BasedOnRenderers
+>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)
+
+>GameObject Children 0 HippoEffectWingsArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 wing2.1.l
+
+>>> transform = p: (-0.8, 1.7, 3.6) r: (313.6, 90.2, 360.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 wing2.1.l.001
+
+>>>> transform = p: (0.0, 2.5, 0.0) r: (329.1, 90.1, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 wing2.2.l
+
+>>>>> transform = p: (0.0, 2.5, 0.0) r: (0.0, 180.0, 312.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 wing2.2.l.001
+
+>>>>>> transform = p: (0.0, 2.0, 0.0) r: (0.0, 180.0, 327.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 wing2.3.l
+
+>>>>>>> transform = p: (0.0, 2.0, 0.0) r: (0.0, 180.0, 338.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 wing2.3.l.001
+
+>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 180.0, 356.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 wing2.3.l.001_end
+
+>>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 180.0, 356.3) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 wing2.1.r
+
+>>> transform = p: (0.8, 1.7, 3.6) r: (46.4, 90.6, 0.5) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 wing2.1.r.001
+
+>>>> transform = p: (0.0, 2.5, 0.0) r: (30.9, 90.5, 0.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 wing2.2.r
+
+>>>>> transform = p: (0.0, 2.5, 0.0) r: (0.0, 180.0, 47.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 wing2.2.r.001
+
+>>>>>> transform = p: (0.0, 2.0, 0.0) r: (0.0, 180.0, 32.1) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 wing2.3.r
+
+>>>>>>> transform = p: (0.0, 2.0, 0.0) r: (0.0, 180.0, 21.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 wing2.3.r.001
+
+>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 180.0, 3.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 wing2.3.r.001_end
+
+>>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 180.0, 3.7) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 HippoEffectWingsMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = wing2.1.r (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = HippoEffectWingsMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (-0.1, 1.2, -3.9), Extents: (0.7, 14.0, 12.6)

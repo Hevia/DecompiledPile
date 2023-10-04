@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/BounceNearby/PickupHook.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupHook
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.9, 0.1, 0.3)
+>v minDistance = 0,5
+>v maxDistance = 1
+>v cameraDirection = (0.1, 0.0, 0.1)
+
+>GameObject Children 0 Model
+
+>> transform = p: (0.1, -0.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = HookChainMesh (UnityEngine.Mesh)
+>>v mesh = HookChainMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 311.1, 350.8) s: (1.4, 1.4, 1.4)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.1, 0.0, -0.1) r: (0.0, 311.1, 350.8) s: (1.4, 1.4, 1.4)

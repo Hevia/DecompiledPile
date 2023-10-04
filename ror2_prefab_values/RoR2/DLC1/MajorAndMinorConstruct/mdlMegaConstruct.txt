@@ -1,0 +1,136 @@
+Key Path : RoR2/DLC1/MajorAndMinorConstruct/mdlMegaConstruct.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlMegaConstruct
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlMegaConstructAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 MegaConstructArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 base
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 body.1
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 body2
+
+>>>>>> transform = p: (0.0, 2.7, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 body3
+
+>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 body4
+
+>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 body4_end
+
+>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 head
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 eye
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 eye_end
+
+>>>>>>> transform = p: (0.0, 2.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 MegaConstructEyeMesh
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (5.0, 5.0, 2.5)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = MegaConstructEyeMesh (UnityEngine.Mesh)
+>>>>>>>v mesh = MegaConstructEyeMesh Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 headLid.lower.l
+
+>>>>>> transform = p: (2.7, 0.3, -2.6) r: (325.6, 136.1, 59.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 headLid.lower.l.piece1
+
+>>>>>>> transform = p: (1.5, 1.5, -0.1) r: (297.8, 114.1, 306.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 headLid.lower.l.piece1_end
+
+>>>>>>>> transform = p: (0.0, 2.3, 0.0) r: (297.8, 114.1, 306.5) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 headLid.lower.r
+
+>>>>>> transform = p: (-2.7, 0.3, -2.6) r: (325.8, 223.4, 300.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 headLid.lower.r_end
+
+>>>>>>> transform = p: (0.0, 6.0, 0.0) r: (325.8, 223.4, 300.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 headLid.upper.l
+
+>>>>>> transform = p: (2.6, 0.2, 2.6) r: (34.0, 137.0, 120.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 headLid.upper.l.piece1
+
+>>>>>>> transform = p: (0.0, 4.8, 0.0) r: (34.0, 137.0, 120.9) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 headLid.upper.l.piece1_end
+
+>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (34.0, 137.0, 120.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 4 headLid.upper.r
+
+>>>>>> transform = p: (-2.7, 0.3, 2.6) r: (34.6, 224.3, 239.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 headLid.upper.r_end
+
+>>>>>>> transform = p: (0.0, 6.0, 0.0) r: (34.6, 224.3, 239.8) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 MegaConstructMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = MegaConstructMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (-0.2, 0.0, 0.0), Extents: (5.5, 5.3, 5.3)

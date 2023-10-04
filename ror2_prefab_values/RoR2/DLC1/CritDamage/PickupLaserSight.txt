@@ -1,0 +1,43 @@
+Key Path : RoR2/DLC1/CritDamage/PickupLaserSight.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupLaserSight
+
+> transform = p: (-3.7, -145.9, -19.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, 0.4, 0.0, 0.9)
+>v minDistance = 2
+>v maxDistance = 4
+>v cameraDirection = (1.7, -0.7, -1.8)
+
+>GameObject Children 0 mdlLaserSight
+
+>> transform = p: (0.0, -0.3, 0.0) r: (295.5, 90.0, 270.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlLaserSight (UnityEngine.Mesh)
+>>v mesh = mdlLaserSight Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 mdlLaserSightLaser
+
+>>> transform = p: (-0.5, 0.0, 0.0) r: (295.5, 90.0, 270.0) s: (0.3, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlLaserSightLaser (UnityEngine.Mesh)
+>>>v mesh = mdlLaserSightLaser Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.4, 0.0) r: (0.0, 46.4, 345.2) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-1.7, 1.1, 1.8) r: (0.0, 46.4, 345.2) s: (1.0, 1.0, 1.0)

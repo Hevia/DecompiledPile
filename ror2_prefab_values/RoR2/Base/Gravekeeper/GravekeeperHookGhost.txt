@@ -1,0 +1,137 @@
+Key Path : RoR2/Base/Gravekeeper/GravekeeperHookGhost.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : GravekeeperHookGhost
+
+> transform = p: (0.0, 0.0, 5.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.Projectile.ProjectileGhostController
+>v transform = 
+>v migration = 0
+>v <authorityTransform>k__BackingField = 
+>v <predictionTransform>k__BackingField = 
+>v inheritScaleFromProjectile = False
+>v authorityTransform = 
+>v predictionTransform = 
+
+> RoR2.WinchControl
+>v tailTransform = WinchTail (UnityEngine.Transform)
+>v attachmentString = MuzzleHook
+>v projectileGhostController = 
+>v attachmentTransform = 
+
+> RoR2.VFXAttributes
+>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>v vfxPriority = Always
+>v vfxIntensity = Low
+>v optionalLights = UnityEngine.Light[]
+>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+>GameObject Children 0 Line
+
+>> transform = p: (0.0, 1.5, -1.3) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 2
+>>v startWidth = 0,4
+>>v endWidth = 0,4
+>>v widthMultiplier = 0,4
+>>v numCornerVertices = 0
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>v positionCount = 2
+>>v shadowBias = 0,5
+>>v generateLightingData = False
+>>v textureMode = Tile
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> LineBetweenTransforms
+>>v _transformNodes = UnityEngine.Transform[]
+>>v lineRenderer = 
+>>v vertexList = UnityEngine.Vector3[]
+>>v transformNodes = UnityEngine.Transform[]
+
+>> RoR2.AnimateShaderAlpha
+>>v alphaCurve = UnityEngine.AnimationCurve
+>>v targetRenderer = 
+>>v _propBlock = 
+>>v materials = 
+>>v timeMax = 1
+>>v decal = 
+>>v pauseTime = False
+>>v destroyOnEnd = False
+>>v disableOnEnd = False
+>>v time = 0
+>>v initialFade = 0
+
+>GameObject Children 1 WinchHead
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = False
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 3
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>>GameObject Children 0 WinchMesh
+
+>>> transform = p: (0.0, 0.0, -0.6) r: (0.0, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DisplayHookHeadMesh (UnityEngine.Mesh)
+>>>v mesh = DisplayHookHeadMesh Instance (UnityEngine.Mesh)
+
+>>GameObject Children 1 WinchMeshTail
+
+>>> transform = p: (0.0, 0.0, -1.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 Trail
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.TrailRenderer
+>>>v numPositions = 0
+>>>v time = 3
+>>>v startWidth = 0,5
+>>>v endWidth = 0,3545454
+>>>v widthMultiplier = 0,5
+>>>v autodestruct = False
+>>>v emitting = True
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v minVertexDistance = 0,1
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>>v positionCount = 0
+>>>v shadowBias = 0,5
+>>>v generateLightingData = False
+>>>v textureMode = Tile
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 2
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = True
+>>>v disableOnEnd = False
+>>>v time = 0
+>>>v initialFade = 0
+
+>GameObject Children 2 WinchTail
+
+>> transform = p: (0.0, 0.0, -4.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

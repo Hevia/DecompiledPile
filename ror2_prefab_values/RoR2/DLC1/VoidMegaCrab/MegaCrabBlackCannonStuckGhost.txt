@@ -1,0 +1,242 @@
+Key Path : RoR2/DLC1/VoidMegaCrab/MegaCrabBlackCannonStuckGhost.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MegaCrabBlackCannonStuckGhost
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.Projectile.ProjectileGhostController
+>v transform = 
+>v migration = 0
+>v <authorityTransform>k__BackingField = 
+>v <predictionTransform>k__BackingField = 
+>v inheritScaleFromProjectile = False
+>v authorityTransform = 
+>v predictionTransform = 
+
+> RoR2.VFXAttributes
+>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>v vfxPriority = Always
+>v vfxIntensity = Low
+>v optionalLights = UnityEngine.Light[]
+>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+>GameObject Children 0 Scaler
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = True
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 0,2
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>>GameObject Children 0 Point Light
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 100
+>>>v bounceIntensity = 0
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 30
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>>> LightIntensityCurve
+>>>v curve = UnityEngine.AnimationCurve
+>>>v timeMax = 3
+>>>v time = 0
+>>>v light = 
+>>>v maxIntensity = 0
+>>>v loop = True
+>>>v randomStart = True
+>>>v enableNegativeLights = True
+
+>>GameObject Children 1 VoidMegacrabBlackSphere
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> SetRandomScale
+>>>v minimumScale = 1
+>>>v maximumScale = 6
+
+>>GameObject Children 2 Point Light, Flash
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 100
+>>>v bounceIntensity = 0
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 10
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>>> LightIntensityCurve
+>>>v curve = UnityEngine.AnimationCurve
+>>>v timeMax = 0,6
+>>>v time = 0
+>>>v light = 
+>>>v maxIntensity = 0
+>>>v loop = False
+>>>v randomStart = False
+>>>v enableNegativeLights = False
+
+>>GameObject Children 3 TrailParent
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Fast
+>>>v _slowRotationSpeed = 360
+>>>v _fastRotationSpeed = 360
+>>>v _rotateAroundAxis = Y
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Fast
+>>>v slowRotationSpeed = 360
+>>>v fastRotationSpeed = 360
+>>>v rotateAroundAxis = Y
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>>GameObject Children 0 Trail
+
+>>>> transform = p: (-2.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.TrailRenderer
+>>>>v numPositions = 0
+>>>>v time = 1
+>>>>v startWidth = 2
+>>>>v endWidth = 2
+>>>>v widthMultiplier = 2
+>>>>v autodestruct = False
+>>>>v emitting = True
+>>>>v numCornerVertices = 0
+>>>>v numCapVertices = 0
+>>>>v minVertexDistance = 0,1
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>>>v positionCount = 0
+>>>>v shadowBias = 0,5
+>>>>v generateLightingData = False
+>>>>v textureMode = Stretch
+>>>>v alignment = View
+>>>>v widthCurve = UnityEngine.AnimationCurve
+>>>>v colorGradient = UnityEngine.Gradient
+
+>>>GameObject Children 1 Trail (1)
+
+>>>> transform = p: (2.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.TrailRenderer
+>>>>v numPositions = 0
+>>>>v time = 1
+>>>>v startWidth = 2
+>>>>v endWidth = 2
+>>>>v widthMultiplier = 2
+>>>>v autodestruct = False
+>>>>v emitting = True
+>>>>v numCornerVertices = 0
+>>>>v numCapVertices = 0
+>>>>v minVertexDistance = 0,1
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>>>v positionCount = 0
+>>>>v shadowBias = 0,5
+>>>>v generateLightingData = False
+>>>>v textureMode = Stretch
+>>>>v alignment = View
+>>>>v widthCurve = UnityEngine.AnimationCurve
+>>>>v colorGradient = UnityEngine.Gradient
+
+>>GameObject Children 4 GameObject
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (24.0, 24.0, 24.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

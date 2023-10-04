@@ -1,0 +1,68 @@
+Key Path : RoR2/DLC1/mdlVoidFogEmitter.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlVoidFogEmitter
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlVoidFogEmitterBase
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlVoidFogEmitterBase (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.8, 0.0), Extents: (1.5, 0.8, 1.5)
+
+>GameObject Children 1 mdlVoidFogEmitterSphere
+
+>> transform = p: (-0.1, 1.9, 0.8) r: (270.0, 0.0, 0.0) s: (1.1, 1.1, 1.1)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlVoidFogEmitterSphere (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 2.1, 0.1), Extents: (1.7, 1.6, 1.6)
+
+>GameObject Children 2 VoidFogEmitterArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Base
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 Sphere Core
+
+>>>> transform = p: (0.0, 2.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 SpherePiece1
+
+>>>>> transform = p: (-0.9, 0.4, 0.1) r: (299.1, 138.8, 138.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 SpherePiece2
+
+>>>>> transform = p: (0.2, 0.8, -0.3) r: (16.6, 195.7, 195.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 SpherePiece3
+
+>>>>> transform = p: (0.4, -1.0, 0.0) r: (352.5, 21.9, 21.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 SpherePiece4
+
+>>>>> transform = p: (0.5, -0.9, 0.6) r: (321.6, 15.8, 15.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 4 SpherePiece5
+
+>>>>> transform = p: (-0.2, -0.9, -0.3) r: (11.3, 339.7, 339.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 5 SpherePiece6
+
+>>>>> transform = p: (0.8, 0.8, 0.9) r: (305.4, 197.5, 197.5) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 6 SpherePiece7
+
+>>>>> transform = p: (1.0, 0.2, -0.2) r: (286.4, 231.4, 231.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 7 SpherePiece8
+
+>>>>> transform = p: (1.1, -0.5, 0.4) r: (296.5, 34.7, 34.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 8 SpherePiece9
+
+>>>>> transform = p: (-0.1, -0.2, 0.9) r: (282.5, 357.2, 357.2) s: (1.0, 1.0, 1.0)

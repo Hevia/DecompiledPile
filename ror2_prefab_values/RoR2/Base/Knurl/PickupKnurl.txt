@@ -1,0 +1,72 @@
+Key Path : RoR2/Base/Knurl/PickupKnurl.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupKnurl
+
+> transform = p: (0.0, 0.5, 9.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, 0.0)
+>v minDistance = 4
+>v maxDistance = 6
+>v cameraDirection = (0.0, 0.0, 4.5)
+
+>GameObject Children 0 mdlKnurl
+
+>> transform = p: (0.0, 0.0, 0.0) r: (281.2, 86.5, 75.2) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = KnurlMesh (UnityEngine.Mesh)
+>>v mesh = KnurlMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 KnurlPebble
+
+>>> transform = p: (1.8, 0.0, 0.0) r: (292.3, 210.5, 127.8) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>GameObject Children 1 KnurlPebble
+
+>>> transform = p: (-0.2, -1.5, -1.0) r: (292.3, 210.5, 127.8) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>GameObject Children 2 KnurlPebble
+
+>>> transform = p: (-0.8, -1.1, -0.5) r: (304.2, 340.1, 83.0) s: (0.4, 0.4, 0.4)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>GameObject Children 3 KnurlPebble
+
+>>> transform = p: (-0.4, -1.0, 1.2) r: (3.2, 277.2, 91.1) s: (0.4, 0.4, 0.4)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, -0.2, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.0, -0.2, -4.5) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)

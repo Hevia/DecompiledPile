@@ -1,0 +1,219 @@
+Key Path : RoR2/Base/UI/SoftwareNotice.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : SoftwareNotice
+
+> transform = p: (1019.6, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.UI.VerticalLayoutGroup
+
+> UnityEngine.UI.ContentSizeFitter
+>v m_HorizontalFit = Unconstrained
+>v m_VerticalFit = PreferredSize
+>v m_Rect = 
+>v m_Tracker = UnityEngine.DrivenRectTransformTracker
+>v horizontalFit = Unconstrained
+>v verticalFit = PreferredSize
+
+> UnityEngine.Canvas
+>v preWillRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>v willRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>v renderMode = ScreenSpaceOverlay
+>v isRootCanvas = True
+>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>v scaleFactor = 1
+>v referencePixelsPerUnit = 100
+>v overridePixelPerfect = False
+>v pixelPerfect = False
+>v planeDistance = 100
+>v renderOrder = 5
+>v overrideSorting = False
+>v sortingOrder = 0
+>v targetDisplay = 0
+>v sortingLayerID = 0
+>v cachedSortingLayerValue = 0
+>v additionalShaderChannels = TexCoord1, Normal, Tangent
+>v sortingLayerName = Default
+>v rootCanvas = SoftwareNotice (UnityEngine.Canvas)
+>v renderingDisplaySize = (1920.0, 1080.0)
+>v worldCamera = 
+>v normalizedSortingGridSize = 0,1
+>v sortingGridNormalizedSize = 0
+
+>GameObject Children 0 SoftwareLogoContainer
+
+>> transform = p: (-1019.6, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.UI.LayoutElement
+>>v m_IgnoreLayout = False
+>>v m_MinWidth = 1024
+>>v m_MinHeight = 256
+>>v m_PreferredWidth = -1
+>>v m_PreferredHeight = -1
+>>v m_FlexibleWidth = 0
+>>v m_FlexibleHeight = -1
+>>v m_LayoutPriority = 2
+>>v ignoreLayout = False
+>>v minWidth = 1024
+>>v minHeight = 256
+>>v preferredWidth = -1
+>>v preferredHeight = -1
+>>v flexibleWidth = 0
+>>v flexibleHeight = -1
+>>v layoutPriority = 2
+
+>>GameObject Children 0 Software Logo
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.Image
+>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v m_Sprite = texArtifactGlassEnabled (UnityEngine.Sprite)
+>>>v m_OverrideSprite = 
+>>>v m_Type = Simple
+>>>v m_PreserveAspect = True
+>>>v m_FillCenter = True
+>>>v m_FillMethod = Radial360
+>>>v m_FillAmount = 1
+>>>v m_FillClockwise = True
+>>>v m_FillOrigin = 0
+>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>v m_Tracked = False
+>>>v m_UseSpriteMesh = False
+>>>v m_PixelsPerUnitMultiplier = 1
+>>>v m_CachedReferencePixelsPerUnit = 100
+>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>v s_Xy = UnityEngine.Vector3[]
+>>>v s_Uv = UnityEngine.Vector3[]
+>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>v s_Initialized = False
+>>>v sprite = texArtifactGlassEnabled (UnityEngine.Sprite)
+>>>v overrideSprite = texArtifactGlassEnabled (UnityEngine.Sprite)
+>>>v type = Simple
+>>>v preserveAspect = True
+>>>v fillCenter = True
+>>>v fillMethod = Radial360
+>>>v fillAmount = 1
+>>>v fillClockwise = True
+>>>v fillOrigin = 0
+>>>v eventAlphaThreshold = 1
+>>>v alphaHitTestMinimumThreshold = 0
+>>>v useSpriteMesh = False
+>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v mainTexture = texArtifactGlassEnabled (UnityEngine.Texture2D)
+>>>v hasBorder = False
+>>>v pixelsPerUnitMultiplier = 1
+>>>v pixelsPerUnit = 0,25
+>>>v material = Default UI Material (UnityEngine.Material)
+>>>v minWidth = 0
+>>>v preferredWidth = 256
+>>>v flexibleWidth = -1
+>>>v minHeight = 0
+>>>v preferredHeight = 256
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 0
+
+>GameObject Children 1 Software Name
+
+>> transform = p: (-1019.6, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> RoR2.UI.HGTextMeshProUGUI
+>>v useLanguageDefaultFont = True
+>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)
+
+>> UnityEngine.UI.LayoutElement
+>>v m_IgnoreLayout = False
+>>v m_MinWidth = 128
+>>v m_MinHeight = -1
+>>v m_PreferredWidth = -1
+>>v m_PreferredHeight = -1
+>>v m_FlexibleWidth = 1
+>>v m_FlexibleHeight = -1
+>>v m_LayoutPriority = 3
+>>v ignoreLayout = False
+>>v minWidth = 128
+>>v minHeight = -1
+>>v preferredWidth = -1
+>>v preferredHeight = -1
+>>v flexibleWidth = 1
+>>v flexibleHeight = -1
+>>v layoutPriority = 3
+
+>GameObject Children 2 Software Text
+
+>> transform = p: (-1019.6, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> RoR2.UI.HGTextMeshProUGUI
+>>v useLanguageDefaultFont = True
+>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)
+
+>> RoR2.UI.LanguageTextMeshController
+>>v _token = 
+>>v previousToken = 
+>>v resolvedString = 
+>>v textMeshPro = 
+>>v _formatArgs = System.Object[]
+>>v token = 
+>>v formatArgs = System.Object[]
+
+>> UnityEngine.UI.LayoutElement
+>>v m_IgnoreLayout = False
+>>v m_MinWidth = 128
+>>v m_MinHeight = -1
+>>v m_PreferredWidth = -1
+>>v m_PreferredHeight = -1
+>>v m_FlexibleWidth = 1
+>>v m_FlexibleHeight = -1
+>>v m_LayoutPriority = 3
+>>v ignoreLayout = False
+>>v minWidth = 128
+>>v minHeight = -1
+>>v preferredWidth = -1
+>>v preferredHeight = -1
+>>v flexibleWidth = 1
+>>v flexibleHeight = -1
+>>v layoutPriority = 3
+
+>> RoR2.UI.LanguageTextMeshController
+>>v _token = 
+>>v previousToken = 
+>>v resolvedString = 
+>>v textMeshPro = 
+>>v _formatArgs = System.Object[]
+>>v token = 
+>>v formatArgs = System.Object[]

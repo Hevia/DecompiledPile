@@ -1,0 +1,55 @@
+Key Path : RoR2/Junk/Old Stage1/mdlTemple2Gravpad.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlTemple2Gravpad
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animation
+>v clip = GravpadArmature|GravpadIdle (UnityEngine.AnimationClip)
+>v playAutomatically = True
+>v wrapMode = Default
+>v isPlaying = False
+>v animatePhysics = False
+>v animateOnlyIfVisible = True
+>v cullingType = BasedOnRenderers
+>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)
+
+>GameObject Children 0 GravpadArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Base
+
+>>> transform = p: (0.0, 0.0, 0.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Ring
+
+>>>> transform = p: (0.0, 4.8, -1.2) r: (297.3, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Ring_end
+
+>>>>> transform = p: (0.0, 13.6, 0.0) r: (297.3, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 Rock1
+
+>>> transform = p: (-11.4, 6.5, 8.4) r: (359.3, 142.9, 339.3) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Rock1_end
+
+>>>> transform = p: (0.0, 6.7, 0.0) r: (359.3, 142.9, 339.3) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 Rock2
+
+>>> transform = p: (8.3, 9.2, 8.6) r: (24.5, 156.0, 23.8) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Rock2_end
+
+>>>> transform = p: (0.0, 4.2, 0.0) r: (24.5, 156.0, 23.8) s: (1.0, 1.0, 1.0)
+>>GameObject Children 3 Rock3
+
+>>> transform = p: (15.5, 3.2, 11.8) r: (348.5, 309.9, 154.8) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Rock3_end
+
+>>>> transform = p: (0.0, 4.2, 0.0) r: (348.5, 309.9, 154.8) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 GravpadTemple2Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (7.9, 7.9, 7.9)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Base (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = GravpadTemple2Mesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 7.2, -5.0), Extents: (25.9, 7.2, 19.5)

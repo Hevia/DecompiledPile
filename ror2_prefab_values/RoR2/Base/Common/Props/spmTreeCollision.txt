@@ -1,0 +1,72 @@
+Key Path : RoR2/Base/Common/Props/spmTreeCollision.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : spmTreeCollision
+
+> transform = p: (234.4, 19.5, 159.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.LODGroup
+>v localReferencePoint = (0.0, 54.7, 0.4)
+>v size = 114,8206
+>v lodCount = 4
+>v fadeMode = SpeedTree
+>v animateCrossFading = True
+>v enabled = True
+>v crossFadeAnimationDuration = 0,5
+
+> UnityEngine.CapsuleCollider
+>v center = (0.0, 45.5, 0.0)
+>v radius = 2,48
+>v height = 92,97
+>v direction = 1
+
+>GameObject Children 0 spmTree_Billboard
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.BillboardRenderer
+>>v billboard = spmTree_Billboard (UnityEngine.BillboardAsset)
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True
+
+>GameObject Children 1 spmTree_LOD0
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = spmTree_LOD0 (UnityEngine.Mesh)
+>>v mesh = spmTree_LOD0 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True
+
+>GameObject Children 2 spmTree_LOD1
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = spmTree_LOD1 (UnityEngine.Mesh)
+>>v mesh = spmTree_LOD1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True
+
+>GameObject Children 3 spmTree_LOD2
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = spmTree_LOD2 (UnityEngine.Mesh)
+>>v mesh = spmTree_LOD2 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True

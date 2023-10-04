@@ -1,0 +1,42 @@
+Key Path : RoR2/Base/SiphonOnLowHealth/PickupSiphonOnLowHealth.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupSiphonOnLowHealth
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.3, 0.2, 0.2, 0.9)
+>v minDistance = 1
+>v maxDistance = 2
+>v cameraDirection = (0.4, -0.8, -0.8)
+
+>GameObject Children 0 mdlSiphonOnLowHealth
+
+>> transform = p: (0.0, -0.1, 0.2) r: (328.6, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>GameObject Children 0 TarMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (328.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = TarMesh (UnityEngine.Mesh)
+>>>v mesh = TarMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 VaseMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (328.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VaseMesh (UnityEngine.Mesh)
+>>>v mesh = VaseMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (-0.2, 0.1, 0.0) r: (15.1, 53.0, 316.9) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.5, 0.9, 0.8) r: (15.1, 53.0, 316.9) s: (1.0, 1.0, 1.0)

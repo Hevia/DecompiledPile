@@ -1,0 +1,102 @@
+Key Path : RoR2/Base/skymeadow/HumanTempLight1Off.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : HumanTempLight1Off
+
+> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.MeshFilter
+>v sharedMesh = HumanTempLight1Mesh (UnityEngine.Mesh)
+>v mesh = HumanTempLight1Mesh Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+> UnityEngine.LineRenderer
+>v numPositions = 9
+>v startWidth = 0,2
+>v endWidth = 0,2
+>v widthMultiplier = 0,2
+>v numCornerVertices = 0
+>v numCapVertices = 0
+>v useWorldSpace = True
+>v loop = False
+>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>v positionCount = 9
+>v shadowBias = 0
+>v generateLightingData = False
+>v textureMode = Stretch
+>v alignment = View
+>v widthCurve = UnityEngine.AnimationCurve
+>v colorGradient = UnityEngine.Gradient
+
+> BezierCurveLine
+>v vertexList = UnityEngine.Vector3[]
+>v p0 = (0.0, 0.0, 0.0)
+>v v0 = (0.0, -9.8, 2.3)
+>v p1 = (60.6, 32.6, 23.3)
+>v v1 = (0.0, 5.7, 0.0)
+>v endTransform = 
+>v animateBezierWind = True
+>v windMagnitude = (0.8, 0.2, 0.1)
+>v windFrequency = (0.1, 0.2, 0.0)
+>v windPhaseShift = (0.0, 0.0, 0.0)
+>v lastWind = (0.0, 0.0, 0.0)
+>v finalv0 = (0.0, 0.0, 0.0)
+>v finalv1 = (0.0, 0.0, 0.0)
+>v windTime = 0
+>v <lineRenderer>k__BackingField = 
+>v lineRenderer = 
+
+>GameObject Children 0 Point Light
+
+>> transform = p: (0.0, 0.0, -1.8) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Point
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.420, 0.945, 1.000, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 171,2
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 7,34
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = None
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>> RoR2.FlickerLight
+>>v light = Point Light (UnityEngine.Light)
+>>v sinWaves = Wave[]
+>>v initialLightIntensity = 0
+>>v stopwatch = 0
+>>v randomPhase = 0

@@ -1,0 +1,99 @@
+Key Path : RoR2/DLC1/Assassin2/AssassinShurikenGhost.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : AssassinShurikenGhost
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.Projectile.ProjectileGhostController
+>v transform = 
+>v migration = 0
+>v <authorityTransform>k__BackingField = 
+>v <predictionTransform>k__BackingField = 
+>v inheritScaleFromProjectile = False
+>v authorityTransform = 
+>v predictionTransform = 
+
+> RoR2.VFXAttributes
+>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>v vfxPriority = Always
+>v vfxIntensity = Low
+>v optionalLights = UnityEngine.Light[]
+>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+>GameObject Children 0 RollSpinner
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> SetRandomRotation
+>>v setRandomXRotation = False
+>>v setRandomYRotation = False
+>>v setRandomZRotation = True
+
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Fast
+>>v _slowRotationSpeed = 5
+>>v _fastRotationSpeed = 90
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Fast
+>>v slowRotationSpeed = 5
+>>v fastRotationSpeed = 90
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>>GameObject Children 0 mdlAssassinShuriken
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>>>GameObject Children 0 meshAssassinShuriken
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = meshAssassinShuriken (UnityEngine.Mesh)
+>>>>v mesh = meshAssassinShuriken Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 Trail
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.4, 0.7)
+>>>> UnityEngine.TrailRenderer
+>>>>v numPositions = 0
+>>>>v time = 0,3
+>>>>v startWidth = 0,2916671
+>>>>v endWidth = 0,2916671
+>>>>v widthMultiplier = 1
+>>>>v autodestruct = False
+>>>>v emitting = True
+>>>>v numCornerVertices = 0
+>>>>v numCapVertices = 0
+>>>>v minVertexDistance = 0,1
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>>>v positionCount = 0
+>>>>v shadowBias = 0,5
+>>>>v generateLightingData = False
+>>>>v textureMode = Stretch
+>>>>v alignment = Local
+>>>>v widthCurve = UnityEngine.AnimationCurve
+>>>>v colorGradient = UnityEngine.Gradient
+
+>>>GameObject Children 2 Plane
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>>v mesh = Plane Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True

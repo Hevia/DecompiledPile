@@ -1,0 +1,31 @@
+Key Path : RoR2/DLC1/Railgunner/mdlRailgunnerBeam.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlRailgunnerBeam
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlRailgunnerBeamMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = end (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlRailgunnerBeamMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.0, 1.0), Extents: (1.0, 1.0, 1.2)
+
+>GameObject Children 1 mdlRailgunnerBeamRig
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 end
+
+>>> transform = p: (0.0, 0.0, 1.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 end_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 start
+
+>>> transform = p: (0.0, 0.0, -1.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 start_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

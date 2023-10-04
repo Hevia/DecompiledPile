@@ -1,0 +1,108 @@
+Key Path : RoR2/Base/PassiveHealing/PickupWoodsprite.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupWoodsprite
+
+> transform = p: (59.0, -98.5, -31.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.6, 0.0, 0.8)
+>v minDistance = 0,5
+>v maxDistance = 1,25
+>v cameraDirection = (0.4, 0.2, -0.2)
+
+>GameObject Children 0 mdlWoodSprite
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = WoodSpriteMesh (UnityEngine.Mesh)
+>>v mesh = WoodSpriteMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Slow
+>>v _slowRotationSpeed = 30
+>>v _fastRotationSpeed = 20
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Slow
+>>v slowRotationSpeed = 30
+>>v fastRotationSpeed = 20
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>>GameObject Children 0 Branches
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = WoodspriteBranchMesh (UnityEngine.Mesh)
+>>>v mesh = WoodspriteBranchMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 Point Light
+
+>>> transform = p: (-1.2, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (10.0, 10.0, 10.0)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(1.000, 0.925, 0.250, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 125,99
+>>>v bounceIntensity = 1
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 0,35
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>>> RoR2.FlickerLight
+>>>v light = Point Light (UnityEngine.Light)
+>>>v sinWaves = Wave[]
+>>>v initialLightIntensity = 0
+>>>v stopwatch = 0
+>>>v randomPhase = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, -0.1, 0.0) r: (0.0, 16.4, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.4, -0.3, 0.2) r: (0.0, 16.4, 0.0) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/moon/mdlGreenhouseChainShorter Variant.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlGreenhouseChainShorter Variant
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlGreenhouseChainShorter
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlGreenhouseChainShorter (UnityEngine.Mesh)
+>>v mesh = mdlGreenhouseChainShorter Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 mdlGreenhouseChainShorterCollision
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlGreenhouseChainShorterCollision (UnityEngine.Mesh)
+>>v mesh = mdlGreenhouseChainShorterCollision Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = mdlGreenhouseChainShorterCollision (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True

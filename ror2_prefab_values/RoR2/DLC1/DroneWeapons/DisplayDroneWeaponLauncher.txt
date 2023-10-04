@@ -1,0 +1,25 @@
+Key Path : RoR2/DLC1/DroneWeapons/DisplayDroneWeaponLauncher.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayDroneWeaponLauncher
+
+> transform = p: (-2.0, -141.4, -31.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+> ChildLocator
+>v transformPairs = ChildLocator+NameTransformPair[]
+>v Count = 1
+
+>GameObject Children 0 mdlDroneWeaponLauncher
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlDroneWeaponLauncher (UnityEngine.Mesh)
+>>v mesh = mdlDroneWeaponLauncher Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 Muzzle
+
+>>> transform = p: (0.0, -0.6, 0.5) r: (276.8, 359.4, 0.3) s: (1.0, 1.0, 1.0)

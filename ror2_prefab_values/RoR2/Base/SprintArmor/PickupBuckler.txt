@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/SprintArmor/PickupBuckler.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBuckler
+
+> transform = p: (179.7, -115.6, -55.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (-0.2, -0.2, 0.0, 1.0)
+>v minDistance = 2
+>v maxDistance = 4
+>v cameraDirection = (-0.9, 0.6, -1.4)
+
+>GameObject Children 0 mdlBuckler
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BucklerMesh (UnityEngine.Mesh)
+>>v mesh = BucklerMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.1, 0.0, 0.1) r: (350.3, 117.5, 18.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (1.0, -0.6, 1.4) r: (350.3, 117.5, 18.0) s: (1.0, 1.0, 1.0)

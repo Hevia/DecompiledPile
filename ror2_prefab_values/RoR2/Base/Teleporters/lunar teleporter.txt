@@ -1,0 +1,131 @@
+Key Path : RoR2/Base/Teleporters/lunar teleporter.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : lunar teleporter
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 397768.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = lunar teleporterAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 LunarTeleporterArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 LunarTeleporterProngCollision
+
+>>> transform = p: (0.0, 0.0, 16.7) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LunarTeleporterProngCollision (UnityEngine.Mesh)
+>>>v mesh = LunarTeleporterProngCollision Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 ROOT
+
+>>> transform = p: (0.0, 0.0, -2.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Prong.001
+
+>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Prong.002
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 313.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Prong.003
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 268.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Prong.004
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 223.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Prong.004_end
+
+>>>>>>>> transform = p: (0.0, 4.7, 0.0) r: (0.0, 223.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 Prong.005
+
+>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Prong.006
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 313.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Prong.007
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 268.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Prong.008
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 223.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Prong.008_end
+
+>>>>>>>> transform = p: (0.0, 3.1, 0.0) r: (0.0, 223.5, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 LunarTeleporterBase
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 45.0, 0.0) s: (0.9, 0.9, 0.9)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = LunarTeleporterBase (UnityEngine.Mesh)
+>>v mesh = LunarTeleporterBase Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 LunarTeleporterBaseCollision
+
+>> transform = p: (-224.9, 82.9, 103.1) r: (63.6, 251.3, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = LunarTeleporterBaseCollision (UnityEngine.Mesh)
+>>v mesh = LunarTeleporterBaseCollision Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 LunarTeleporterProngSkinned
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = LunarTeleporterProngSkinned (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.3, 5.3, 1.2), Extents: (9.7, 3.5, 5.8)

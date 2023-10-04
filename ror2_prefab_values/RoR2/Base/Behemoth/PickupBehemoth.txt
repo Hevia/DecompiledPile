@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/Behemoth/PickupBehemoth.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBehemoth
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, 0.9, -0.1, -0.4)
+>v minDistance = 5
+>v maxDistance = 8
+>v cameraDirection = (-4.6, 1.9, 4.1)
+
+>GameObject Children 0 mdlBehemoth
+
+>> transform = p: (-1.0, -0.3, -0.5) r: (301.0, 82.5, 0.7) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.2, -1.1, 0.5) r: (356.5, 221.0, 16.9) s: (1.4, 1.4, 1.4)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (6.8, -3.7, -5.4) r: (356.5, 221.0, 16.9) s: (1.4, 1.4, 1.4)

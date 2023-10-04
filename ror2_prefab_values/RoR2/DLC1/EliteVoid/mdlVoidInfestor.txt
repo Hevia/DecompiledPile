@@ -1,0 +1,167 @@
+Key Path : RoR2/DLC1/EliteVoid/mdlVoidInfestor.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlVoidInfestor
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 454.7, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlVoidInfestorAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 mdlVoidAffixEyes
+
+>> transform = p: (-0.1, 0.0, 1.0) r: (282.1, 277.4, 74.9) s: (0.0, 0.0, 0.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlVoidAffixEyes (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.5, 1.4), Extents: (0.3, 0.1, 0.1)
+
+>GameObject Children 1 mdlVoidAffixFlesh
+
+>> transform = p: (0.0, 0.5, 0.6) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlVoidAffixFlesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.6, -0.6), Extents: (1.0, 0.9, 2.2)
+
+>GameObject Children 2 mdlVoidAffixMetal
+
+>> transform = p: (0.0, 0.5, 0.6) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlVoidAffixMetal (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.8, -0.3), Extents: (1.0, 0.8, 1.8)
+
+>GameObject Children 3 VoidAffixArmature
+
+>> transform = p: (0.0, 0.0, -0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ThoraxLower1
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (282.4, 179.2, 180.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 LegBack1.l
+
+>>>>> transform = p: (-0.6, 0.4, -0.6) r: (316.4, 176.5, 248.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 LegBack2.l
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (351.5, 245.3, 180.5) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 LegBack1.r
+
+>>>>> transform = p: (0.6, 0.4, -0.6) r: (316.4, 183.2, 111.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 LegBack2.r
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (351.8, 114.6, 179.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 ThoraxLower2
+
+>>>>> transform = p: (0.0, 0.7, 0.0) r: (309.7, 179.8, 180.3) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Tail1
+
+>>>>>> transform = p: (0.0, 0.7, 0.1) r: (304.0, 179.7, 180.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Tail2
+
+>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (287.3, 179.5, 180.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Tail3
+
+>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (274.4, 177.9, 182.1) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 ThoraxUpper1
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (276.3, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 LegMidBack1.l
+
+>>>>> transform = p: (0.7, 0.0, -0.6) r: (316.4, 204.0, 253.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 LegMidBack2.l
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (353.9, 289.3, 169.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 LegMidBack1.r
+
+>>>>> transform = p: (-0.7, 0.0, -0.6) r: (316.4, 156.0, 106.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 LegMidBack2.r
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (353.9, 70.7, 191.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 ThoraxUpper2
+
+>>>>> transform = p: (0.0, 0.5, 0.0) r: (286.5, 359.2, 180.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Head
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (290.9, 2.9, 177.1) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 LegFront1.l
+
+>>>>>>> transform = p: (0.4, 0.3, -0.5) r: (299.3, 213.9, 242.9) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 LegFront2.l
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (348.0, 262.4, 186.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 LegFront1.r
+
+>>>>>>> transform = p: (-0.4, 0.3, -0.5) r: (300.5, 143.5, 120.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 LegFront2.r
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (350.1, 97.9, 173.5) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 LegMidFront1.l
+
+>>>>>> transform = p: (0.6, 0.1, -0.6) r: (328.6, 211.9, 255.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 LegMidFront2.l
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (349.0, 278.5, 189.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 LegMidFront1.r
+
+>>>>>> transform = p: (-0.6, 0.1, -0.6) r: (328.4, 148.2, 103.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 LegMidFront2.r
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (348.6, 81.4, 171.1) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,28 @@
+Key Path : RoR2/DLC1/DroneWeapons/PickupDroneWeapons.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupDroneWeapons
+
+> transform = p: (-7.6, -148.4, -28.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.8, 0.0, 0.6)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (5.5, -2.7, 1.4)
+
+>GameObject Children 0 mdlDroneWeaponsPickup
+
+>> transform = p: (0.0, -1.3, 0.0) r: (270.0, 0.0, 0.0) s: (1.3, 1.3, 1.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlDroneWeaponsPickup (UnityEngine.Mesh)
+>>v mesh = mdlDroneWeaponsPickup Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.6, 0.3) r: (0.0, 345.3, 356.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-5.5, 3.3, -1.1) r: (0.0, 345.3, 356.0) s: (1.0, 1.0, 1.0)

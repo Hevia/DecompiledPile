@@ -1,0 +1,308 @@
+Key Path : RoR2/Base/UI/RuleChoiceIcon.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : RuleChoiceIcon
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.CanvasRenderer
+>v <isMask>k__BackingField = False
+>v hasPopInstruction = False
+>v materialCount = 0
+>v popMaterialCount = 0
+>v absoluteDepth = -1
+>v hasMoved = False
+>v cullTransparentMesh = False
+>v hasRectClipping = False
+>v relativeDepth = -1
+>v cull = False
+>v isMask = False
+>v clippingSoftness = (0.0, 0.0)
+
+> UnityEngine.UI.Image
+>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>v m_Sprite = UISprite (UnityEngine.Sprite)
+>v m_OverrideSprite = 
+>v m_Type = Sliced
+>v m_PreserveAspect = False
+>v m_FillCenter = True
+>v m_FillMethod = Radial360
+>v m_FillAmount = 1
+>v m_FillClockwise = True
+>v m_FillOrigin = 0
+>v m_AlphaHitTestMinimumThreshold = 0
+>v m_Tracked = False
+>v m_UseSpriteMesh = False
+>v m_PixelsPerUnitMultiplier = 1
+>v m_CachedReferencePixelsPerUnit = 100
+>v s_VertScratch = UnityEngine.Vector2[]
+>v s_UVScratch = UnityEngine.Vector2[]
+>v s_Xy = UnityEngine.Vector3[]
+>v s_Uv = UnityEngine.Vector3[]
+>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>v s_Initialized = False
+>v sprite = UISprite (UnityEngine.Sprite)
+>v overrideSprite = UISprite (UnityEngine.Sprite)
+>v type = Sliced
+>v preserveAspect = False
+>v fillCenter = True
+>v fillMethod = Radial360
+>v fillAmount = 1
+>v fillClockwise = True
+>v fillOrigin = 0
+>v eventAlphaThreshold = 1
+>v alphaHitTestMinimumThreshold = 0
+>v useSpriteMesh = False
+>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>v mainTexture = UISprite (UnityEngine.Texture2D)
+>v hasBorder = True
+>v pixelsPerUnitMultiplier = 1
+>v pixelsPerUnit = 2
+>v material = Default UI Material (UnityEngine.Material)
+>v minWidth = 0
+>v preferredWidth = 10
+>v flexibleWidth = -1
+>v minHeight = 0
+>v preferredHeight = 10
+>v flexibleHeight = -1
+>v layoutPriority = 0
+
+> RoR2.UI.SkinControllers.PanelSkinController
+>v panelType = Default
+>v image = 
+
+> UnityEngine.UI.LayoutElement
+>v m_IgnoreLayout = False
+>v m_MinWidth = 64
+>v m_MinHeight = 64
+>v m_PreferredWidth = -1
+>v m_PreferredHeight = -1
+>v m_FlexibleWidth = -1
+>v m_FlexibleHeight = -1
+>v m_LayoutPriority = 1
+>v ignoreLayout = False
+>v minWidth = 64
+>v minHeight = 64
+>v preferredWidth = -1
+>v preferredHeight = -1
+>v flexibleWidth = -1
+>v flexibleHeight = -1
+>v layoutPriority = 1
+
+> RoR2.UI.MPEventSystemLocator
+>v _eventSystemProvider = 
+>v _eventSystem = 
+>v onEventSystemDiscovered = 
+>v onEventSystemLost = 
+>v eventSystemProvider = 
+>v eventSystem = 
+
+> RoR2.UI.RuleChoiceController
+>v instancesList = System.Collections.Generic.List`1[RoR2.UI.RuleChoiceController]
+>v strip = 
+>v hgButton = 
+>v image = Button (UnityEngine.UI.Image)
+>v tooltipProvider = Button (RoR2.UI.TooltipProvider)
+>v voteCounter = VoteLabel (RoR2.UI.HGTextMeshProUGUI)
+>v chosenDisplayObject = 
+>v disabledDisplayObject = 
+>v cantVoteDisplayObject = 
+>v requiredTopLayer = 
+>v displayVoteCounter = True
+>v canVote = False
+>v cycleThroughOptions = False
+>v choiceDef = 
+
+>GameObject Children 0 Button
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texDifficultyHardIcon (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Simple
+>>v m_PreserveAspect = True
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texDifficultyHardIcon (UnityEngine.Sprite)
+>>v overrideSprite = texDifficultyHardIcon (UnityEngine.Sprite)
+>>v type = Simple
+>>v preserveAspect = True
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texDifficultyHardIcon (UnityEngine.Texture2D)
+>>v hasBorder = False
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 0,5
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 512
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 512
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> RoR2.UI.MPEventSystemLocator
+>>v _eventSystemProvider = 
+>>v _eventSystem = 
+>>v onEventSystemDiscovered = 
+>>v onEventSystemLost = 
+>>v eventSystemProvider = 
+>>v eventSystem = 
+
+>> RoR2.UI.MPButton
+>>v eventSystemLocator = 
+>>v allowAllEventSystems = True
+>>v submitOnPointerUp = True
+>>v disablePointerClick = False
+>>v disableGamepadClick = False
+>>v requiredTopLayer = 
+>>v onFindSelectableLeft = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>v onFindSelectableRight = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>v onSelect = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>v onDeselect = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>v defaultFallbackButton = False
+>>v inPointerUp = False
+
+>> RoR2.UI.SkinControllers.ButtonSkinController
+>>v instancesList = System.Collections.Generic.List`1[RoR2.UI.SkinControllers.ButtonSkinController]
+>>v button = 
+>>v useRecommendedButtonWidth = False
+>>v useRecommendedButtonHeight = False
+>>v useRecommendedImage = False
+>>v useRecommendedMaterial = False
+>>v useRecommendedAlignment = True
+>>v useRecommendedLabel = True
+>>v layoutElement = 
+
+>> RoR2.UI.TooltipProvider
+>>v titleToken = 
+>>v titleColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v bodyToken = 
+>>v bodyColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v overrideTitleText = 
+>>v overrideBodyText = 
+>>v disableTitleRichText = False
+>>v disableBodyRichText = False
+>>v userCount = 0
+>>v playerColor = RGBA(0.949, 0.255, 0.255, 1.000)
+>>v titleText = 
+>>v bodyText = 
+
+>GameObject Children 1 SelectionIndicatorPanel
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texDetailPanelFrame (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Sliced
+>>v m_PreserveAspect = False
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texDetailPanelFrame (UnityEngine.Sprite)
+>>v overrideSprite = texDetailPanelFrame (UnityEngine.Sprite)
+>>v type = Sliced
+>>v preserveAspect = False
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texDetailPanelFrame (UnityEngine.Texture2D)
+>>v hasBorder = True
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 1
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 20
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 20
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>GameObject Children 2 VoteLabel
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> RoR2.UI.HGTextMeshProUGUI
+>>v useLanguageDefaultFont = True
+>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)

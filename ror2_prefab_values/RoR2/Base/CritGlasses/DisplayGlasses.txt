@@ -1,0 +1,97 @@
+Key Path : RoR2/Base/CritGlasses/DisplayGlasses.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayGlasses
+
+> transform = p: (25.2, -249.0, -91.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+> RoR2.GlassesSize
+>v glassesModelBase = mdlGlasses (UnityEngine.Transform)
+>v glassesBridgeLeft = bridge.l (UnityEngine.Transform)
+>v glassesBridgeRight = bridge.r (UnityEngine.Transform)
+>v bridgeOffsetScale = 0,5
+>v offsetVector = (1.0, 0.0, 0.0)
+
+>GameObject Children 0 mdlGlasses
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 34500000000000.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = 
+>>v hasBoundPlayables = False
+>>v avatar = mdlGlassesAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 Armature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 bridge.l
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (312.2, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 lens.l
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 lens.l_end
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (0.0, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 bridge.r
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 lens.r
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 lens.r_end
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 GlassesMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = bridge.l (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = GlassesMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.1, 0.0, 0.1), Extents: (0.3, 0.5, 0.3)

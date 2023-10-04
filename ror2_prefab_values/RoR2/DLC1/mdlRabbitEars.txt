@@ -1,0 +1,49 @@
+Key Path : RoR2/DLC1/mdlRabbitEars.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlRabbitEars
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlRabbitEars
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlRabbitEars (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.7, 0.1), Extents: (0.9, 1.0, 0.6)
+
+>GameObject Children 1 RabbitEarsArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Base
+
+>>>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Ear1.l
+
+>>>>> transform = p: (-0.3, 0.1, -0.1) r: (4.8, 0.0, 11.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Ear2.l
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (23.8, 1.0, 21.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Ear3.l
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (42.6, 12.5, 25.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 EarEnd.l
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (50.9, 17.3, 32.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Ear1.r
+
+>>>>> transform = p: (0.3, 0.1, -0.1) r: (4.8, 0.0, 349.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Ear2.r
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (23.8, 359.0, 338.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Ear3.r
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (42.6, 347.5, 334.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 EarEnd.r
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (50.9, 342.7, 327.6) s: (1.0, 1.0, 1.0)

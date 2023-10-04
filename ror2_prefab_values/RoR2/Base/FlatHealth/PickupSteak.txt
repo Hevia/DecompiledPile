@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/FlatHealth/PickupSteak.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupSteak
+
+> transform = p: (37.4, -154.5, -179.2) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, 0.3, 0.0, 0.9)
+>v minDistance = 1
+>v maxDistance = 3
+>v cameraDirection = (1.0, -0.4, -1.2)
+
+>GameObject Children 0 SteakMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (314.8, 325.6, 228.4) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = SteakMesh (UnityEngine.Mesh)
+>>v mesh = SteakMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.2, -0.4, 0.2) r: (0.0, 49.1, 345.6) s: (1.4, 1.4, 1.4)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-1.3, 0.2, 1.9) r: (0.0, 49.1, 345.6) s: (1.4, 1.4, 1.4)

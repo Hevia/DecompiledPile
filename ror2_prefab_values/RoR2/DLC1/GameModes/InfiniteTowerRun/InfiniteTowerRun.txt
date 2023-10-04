@@ -1,0 +1,165 @@
+Key Path : RoR2/DLC1/GameModes/InfiniteTowerRun/InfiniteTowerRun.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : InfiniteTowerRun
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = ba84d17b27db8b84d925071b4af1e352
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = ba84d17b27db8b84d925071b4af1e352
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.NetworkRuleBook
+>v <ruleBook>k__BackingField = 
+>v onRuleBookUpdated = 
+>v ruleBookDirtyBit = 1
+>v ruleBook = 
+
+> RoR2.InfiniteTowerRun
+>v waveRngSalt = 14312
+>v enemyItemRngSalt = 1535
+>v safeWardRngSalt = 769876
+>v onWaveInitialized = System.Action`1[RoR2.InfiniteTowerWaveController]
+>v onAllEnemiesDefeatedServer = 
+>v defaultWavePrefab = InfiniteTowerWaveDefault (UnityEngine.GameObject)
+>v waveCategories = RoR2.InfiniteTowerWaveCategory[]
+>v defaultWaveEnemyIndicatorPrefab = WaveEndPositionIndicator (UnityEngine.GameObject)
+>v enemyItemPattern = RoR2.InfiniteTowerRun+EnemyItemEntry[]
+>v enemyItemPeriod = 10
+>v enemyInventory = InfiniteTowerRun (RoR2.Inventory)
+>v stageTransitionPeriod = 10
+>v stageTransitionPortalCard = iscInfiniteTowerPortal (RoR2.InteractableSpawnCard)
+>v stageTransitionPortalMaxDistance = 30
+>v stageTransitionChatToken = PORTAL_INFINITETOWER_OPEN
+>v fogDamagePrefab = InfiniteTowerFogDamager (UnityEngine.GameObject)
+>v spawnMaxRadius = 15
+>v initialSafeWardCard = iscInfiniteTowerSafeWardAwaitingInteraction (RoR2.InteractableSpawnCard)
+>v safeWardCard = iscInfiniteTowerSafeWard (RoR2.InteractableSpawnCard)
+>v playerRespawnEffectPrefab = SimpleRezEffect (UnityEngine.GameObject)
+>v interactableCredits = 600
+>v blacklistedTags = RoR2.ItemTag[]
+>v blacklistedItems = RoR2.ItemDef[]
+>v _waveIndex = 0
+>v waveInstanceId = 0
+>v _waveController = 
+>v waveRng = 
+>v enemyItemRng = 
+>v safeWardRng = 
+>v enemyItemPatternIndex = 0
+>v safeWardController = 
+>v fogDamageController = 
+>v waveIndex = 0
+>v waveController = 
+>v spawnWithPod = False
+>v canFamilyEventTrigger = False
+>v autoGenerateSpawnPoints = False
+>v waveInstance = 
+>v Network_waveIndex = 0
+>v NetworkwaveInstanceId = 0
+
+> RoR2.TeamManager
+>v naturalLevelCap = 94
+>v levelToExperienceTable = System.UInt64[]
+>v hardExpCap = 18260608101859069952
+>v <instance>k__BackingField = 
+>v teamExperience = System.UInt64[]
+>v teamLevels = System.UInt32[]
+>v teamCurrentLevelExperience = System.UInt64[]
+>v teamNextLevelExperience = System.UInt64[]
+>v teamExperienceDirtyBitsMask = 31
+>v instance = 
+
+> RoR2.RunCameraManager
+>v cameras = RoR2.CameraRigController[]
+>v screenLayouts = UnityEngine.Rect[][]
+
+> RoR2.RunArtifactManager
+>v <instance>k__BackingField = 
+>v run = 
+>v enabledArtifactsDirtyBit = 1
+>v allDirtyBits = 1
+>v onArtifactEnabledGlobal = RoR2.RunArtifactManager+ArtifactStateChangeDelegate
+>v onArtifactDisabledGlobal = RoR2.RunArtifactManager+ArtifactStateChangeDelegate
+>v _enabledArtifacts = 
+>v enabledArtifactMaskPool = RoR2.FixedSizeArrayPool`1[System.Boolean]
+>v enabledArtifactsEnumerable = RoR2.GenericStaticEnumerable`2[[RoR2.ArtifactDef, RoR2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[RoR2.RunArtifactManager+RunEnabledArtifacts, RoR2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
+>v instance = 
+
+> RoR2.Inventory
+>v itemStacks = System.Int32[]
+>v itemAcquisitionOrder = System.Collections.Generic.List`1[RoR2.ItemIndex]
+>v itemListDirtyBit = 1
+>v infusionBonusDirtyBit = 4
+>v itemAcquisitionOrderDirtyBit = 8
+>v equipmentDirtyBit = 16
+>v allDirtyBits = 29
+>v onInventoryChanged = 
+>v onEquipmentExternalRestockServer = 
+>v <activeEquipmentSlot>k__BackingField = 0
+>v equipmentStateSlots = RoR2.EquipmentState[]
+>v <infusionBonus>k__BackingField = 0
+>v onInventoryChangedGlobal = System.Action`1[RoR2.Inventory]
+>v onServerItemGiven = System.Action`3[RoR2.Inventory,RoR2.ItemIndex,System.Int32]
+>v onItemAddedClient = 
+>v defaultItemCopyFilterDelegate = System.Func`2[RoR2.ItemIndex,System.Boolean]
+>v kRpcRpcItemAdded = 1978705787
+>v currentEquipmentIndex = None
+>v currentEquipmentState = RoR2.EquipmentState
+>v alternateEquipmentIndex = None
+>v alternateEquipmentState = RoR2.EquipmentState
+>v activeEquipmentSlot = 0
+>v infusionBonus = 0
+
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> RoR2.EnemyInfoPanelInventoryProvider
+>v <inventory>k__BackingField = 
+>v <teamFilter>k__BackingField = 
+>v isDirty = False
+>v onInventoriesChanged = System.Action
+>v inventory = 
+>v teamFilter = 
+
+> RoR2.DirectorCore
+>v spawnedObjects = System.Collections.Generic.List`1[UnityEngine.GameObject]
+>v <instance>k__BackingField = 
+>v occupiedNodes = RoR2.DirectorCore+NodeReference[]
+>v instance = 
+
+> RoR2.ExpansionManagement.ExpansionRequirementComponent
+>v requiredExpansion = DLC1 (RoR2.ExpansionManagement.ExpansionDef)
+>v requireEntitlementIfPlayerControlled = False

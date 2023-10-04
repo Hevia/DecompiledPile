@@ -1,0 +1,3150 @@
+Key Path : RoR2/Base/wispgraveyard/WPObeliskLarge.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : WPObeliskLarge
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>GameObject Children 0 DirtMesh
+
+>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 0.0, 0.0) s: (3.1, 3.1, 1.6)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = WPPlanter2SurfaceMesh (UnityEngine.Mesh)
+>>v mesh = WPPlanter2SurfaceMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = WPPlanter2SurfaceMesh (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 0 spmGPFlower
+
+>>> transform = p: (1.1, 0.9, -0.3) r: (0.0, 0.0, 0.0) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 1 spmGPFlower (1)
+
+>>> transform = p: (1.2, 0.7, -0.3) r: (0.0, 315.4, 0.0) s: (0.4, 0.8, 0.4)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 315.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 315.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 315.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 315.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 2 spmGPFlower
+
+>>> transform = p: (1.3, 0.6, -0.1) r: (355.5, 244.6, 5.5) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.5, 244.6, 5.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.5, 244.6, 5.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.5, 244.6, 5.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.5, 244.6, 5.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 3 spmGPFlower
+
+>>> transform = p: (1.3, 0.1, -0.1) r: (355.7, 252.8, 3.2) s: (0.2, 0.3, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.7, 252.8, 3.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.7, 252.8, 3.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.7, 252.8, 3.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.7, 252.8, 3.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 4 spmGPFlower
+
+>>> transform = p: (1.4, -0.2, -0.1) r: (4.6, 9.1, 350.7) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 9.1, 350.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 9.1, 350.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 9.1, 350.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 9.1, 350.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 5 spmGPFlower
+
+>>> transform = p: (1.5, 0.0, -0.1) r: (354.2, 308.9, 351.5) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.2, 308.9, 351.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.2, 308.9, 351.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.2, 308.9, 351.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.2, 308.9, 351.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 6 spmGPFlower
+
+>>> transform = p: (1.2, -0.4, 0.0) r: (355.3, 303.3, 356.6) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.3, 303.3, 356.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.3, 303.3, 356.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.3, 303.3, 356.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.3, 303.3, 356.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 7 spmGPFlower
+
+>>> transform = p: (1.3, -0.4, -0.1) r: (3.7, 4.1, 350.4) s: (0.2, 0.3, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 4.1, 350.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 4.1, 350.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 4.1, 350.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 4.1, 350.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 8 spmGPFlower
+
+>>> transform = p: (1.3, -0.4, -0.1) r: (8.1, 111.8, 6.4) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (8.1, 111.8, 6.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (8.1, 111.8, 6.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (8.1, 111.8, 6.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (8.1, 111.8, 6.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 9 spmGPFlower
+
+>>> transform = p: (1.3, -0.4, -0.1) r: (356.7, 181.8, 9.8) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.7, 181.8, 9.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.7, 181.8, 9.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.7, 181.8, 9.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.7, 181.8, 9.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 10 spmGPFlower
+
+>>> transform = p: (1.2, -0.5, 0.0) r: (3.7, 81.2, 0.7) s: (0.2, 0.3, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 81.2, 0.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 81.2, 0.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 81.2, 0.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 81.2, 0.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 11 spmGPFlower
+
+>>> transform = p: (1.1, -0.6, 0.0) r: (351.5, 227.6, 1.3) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (351.5, 227.6, 1.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (351.5, 227.6, 1.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (351.5, 227.6, 1.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (351.5, 227.6, 1.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 12 spmGPFlower
+
+>>> transform = p: (1.2, -0.6, -0.1) r: (3.3, 349.4, 348.4) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.3, 349.4, 348.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.3, 349.4, 348.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.3, 349.4, 348.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.3, 349.4, 348.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 13 spmGPFlower
+
+>>> transform = p: (1.3, -0.7, -0.1) r: (7.0, 8.9, 350.1) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (7.0, 8.9, 350.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (7.0, 8.9, 350.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (7.0, 8.9, 350.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (7.0, 8.9, 350.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 14 spmGPFlower
+
+>>> transform = p: (1.4, -0.6, -0.1) r: (3.8, 352.2, 348.5) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.8, 352.2, 348.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.8, 352.2, 348.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.8, 352.2, 348.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.8, 352.2, 348.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 15 spmGPFlower
+
+>>> transform = p: (1.3, -0.7, -0.1) r: (1.4, 340.6, 348.0) s: (0.2, 0.3, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.4, 340.6, 348.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.4, 340.6, 348.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.4, 340.6, 348.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.4, 340.6, 348.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 16 spmGPFlower
+
+>>> transform = p: (1.1, -0.9, -0.1) r: (357.7, 310.7, 351.7) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.7, 310.7, 351.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.7, 310.7, 351.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.7, 310.7, 351.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.7, 310.7, 351.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 17 spmGPFlower
+
+>>> transform = p: (1.2, -0.6, -0.1) r: (356.2, 315.8, 348.5) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 315.8, 348.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 315.8, 348.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 315.8, 348.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 315.8, 348.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 18 spmGPFlower
+
+>>> transform = p: (1.2, -0.8, -0.1) r: (350.4, 206.2, 7.3) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (350.4, 206.2, 7.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (350.4, 206.2, 7.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (350.4, 206.2, 7.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (350.4, 206.2, 7.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 19 spmGPFlower
+
+>>> transform = p: (1.1, -0.7, -0.1) r: (1.8, 134.2, 8.4) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.8, 134.2, 8.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.8, 134.2, 8.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.8, 134.2, 8.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.8, 134.2, 8.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 20 spmGPFlower
+
+>>> transform = p: (1.2, -0.9, -0.1) r: (1.2, 339.4, 348.0) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.2, 339.4, 348.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.2, 339.4, 348.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.2, 339.4, 348.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.2, 339.4, 348.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 21 spmGPFlower
+
+>>> transform = p: (1.2, -1.1, -0.1) r: (5.4, 136.6, 20.0) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.4, 136.6, 20.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.4, 136.6, 20.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.4, 136.6, 20.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.4, 136.6, 20.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 22 spmGPFlower
+
+>>> transform = p: (1.1, -1.1, -0.1) r: (12.1, 62.6, 359.7) s: (0.2, 0.3, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (12.1, 62.6, 359.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (12.1, 62.6, 359.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (12.1, 62.6, 359.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (12.1, 62.6, 359.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 23 spmGPFlower
+
+>>> transform = p: (1.0, -0.8, 0.0) r: (4.4, 356.9, 352.6) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.4, 356.9, 352.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.4, 356.9, 352.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.4, 356.9, 352.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.4, 356.9, 352.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 24 spmGPFlower
+
+>>> transform = p: (1.0, -1.0, -0.1) r: (6.0, 102.1, 6.2) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.0, 102.1, 6.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.0, 102.1, 6.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.0, 102.1, 6.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.0, 102.1, 6.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 25 spmGPFlower
+
+>>> transform = p: (1.0, -0.9, -0.1) r: (8.3, 39.8, 357.6) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (8.3, 39.8, 357.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (8.3, 39.8, 357.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (8.3, 39.8, 357.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (8.3, 39.8, 357.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 26 spmGPFlower
+
+>>> transform = p: (1.1, -0.9, -0.1) r: (356.1, 299.5, 352.3) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.1, 299.5, 352.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.1, 299.5, 352.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.1, 299.5, 352.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.1, 299.5, 352.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 27 spmGPFlower
+
+>>> transform = p: (0.9, -1.0, 0.0) r: (355.3, 293.0, 352.8) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.3, 293.0, 352.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.3, 293.0, 352.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.3, 293.0, 352.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (355.3, 293.0, 352.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 28 spmGPFlower
+
+>>> transform = p: (1.1, -1.0, -0.1) r: (357.9, 160.0, 8.4) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.9, 160.0, 8.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.9, 160.0, 8.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.9, 160.0, 8.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.9, 160.0, 8.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 29 spmGPFlower
+
+>>> transform = p: (0.5, -1.3, -0.1) r: (352.9, 207.7, 358.3) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.9, 207.7, 358.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.9, 207.7, 358.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.9, 207.7, 358.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.9, 207.7, 358.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 30 spmGPFlower
+
+>>> transform = p: (0.4, -1.2, -0.1) r: (356.8, 241.0, 354.3) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.8, 241.0, 354.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.8, 241.0, 354.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.8, 241.0, 354.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.8, 241.0, 354.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 31 spmGPFlower
+
+>>> transform = p: (0.4, -1.4, -0.1) r: (2.0, 71.9, 6.2) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (2.0, 71.9, 6.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (2.0, 71.9, 6.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (2.0, 71.9, 6.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (2.0, 71.9, 6.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 32 spmGPFlower
+
+>>> transform = p: (-0.1, -1.4, -0.1) r: (5.4, 33.7, 3.6) s: (0.2, 0.3, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.4, 33.7, 3.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.4, 33.7, 3.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.4, 33.7, 3.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.4, 33.7, 3.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 33 spmGPFlower
+
+>>> transform = p: (1.5, 0.5, -0.1) r: (350.6, 326.8, 352.9) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (350.6, 326.8, 352.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (350.6, 326.8, 352.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (350.6, 326.8, 352.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (350.6, 326.8, 352.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 34 spmGPFlower
+
+>>> transform = p: (0.6, 1.2, -0.1) r: (5.9, 117.6, 355.3) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.9, 117.6, 355.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.9, 117.6, 355.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.9, 117.6, 355.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (5.9, 117.6, 355.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 35 spmGPFlower
+
+>>> transform = p: (0.3, 1.5, -0.1) r: (359.1, 59.6, 352.6) s: (0.2, 0.5, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (359.1, 59.6, 352.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (359.1, 59.6, 352.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (359.1, 59.6, 352.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (359.1, 59.6, 352.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 36 spmGPFlower
+
+>>> transform = p: (0.8, 1.3, -0.1) r: (6.7, 129.9, 356.7) s: (0.2, 0.3, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.7, 129.9, 356.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.7, 129.9, 356.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.7, 129.9, 356.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.7, 129.9, 356.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 37 spmGPFlower
+
+>>> transform = p: (0.7, 1.2, -0.1) r: (3.5, 94.1, 353.4) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.5, 94.1, 353.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.5, 94.1, 353.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.5, 94.1, 353.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (3.5, 94.1, 353.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 38 spmGPFlower
+
+>>> transform = p: (0.9, 1.3, -0.1) r: (0.0, 224.8, 9.3) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 224.8, 9.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 224.8, 9.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 224.8, 9.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 224.8, 9.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 39 spmGPFlower
+
+>>> transform = p: (0.7, 1.3, -0.1) r: (352.6, 328.2, 1.0) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.6, 328.2, 1.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.6, 328.2, 1.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.6, 328.2, 1.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.6, 328.2, 1.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 40 spmGPFlower
+
+>>> transform = p: (0.8, 1.4, -0.1) r: (353.2, 312.0, 3.1) s: (0.2, 0.3, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (353.2, 312.0, 3.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (353.2, 312.0, 3.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (353.2, 312.0, 3.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (353.2, 312.0, 3.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 41 spmGPFlower
+
+>>> transform = p: (0.9, 1.2, -0.1) r: (352.4, 349.8, 354.7) s: (0.3, 0.6, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.4, 349.8, 354.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.4, 349.8, 354.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.4, 349.8, 354.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.4, 349.8, 354.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 42 spmGPFlower
+
+>>> transform = p: (0.6, -1.2, 0.0) r: (4.6, 323.3, 354.3) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 323.3, 354.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 323.3, 354.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 323.3, 354.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 323.3, 354.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 43 spmGPFlower
+
+>>> transform = p: (0.3, -1.3, -0.1) r: (357.0, 242.7, 354.2) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.0, 242.7, 354.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.0, 242.7, 354.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.0, 242.7, 354.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.0, 242.7, 354.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 44 spmGPFlower
+
+>>> transform = p: (-0.3, -1.6, -0.1) r: (6.3, 298.7, 348.9) s: (0.2, 0.4, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.3, 298.7, 348.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.3, 298.7, 348.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.3, 298.7, 348.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.3, 298.7, 348.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 45 spmGPFlower
+
+>>> transform = p: (0.8, -1.4, -0.1) r: (356.2, 253.5, 353.8) s: (0.2, 0.5, 0.2)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.8, 0.0)
+>>>v size = 1,923791
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmGPFlower_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 253.5, 353.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmGPFlower_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmGPFlower_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 253.5, 353.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmGPFlower_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 253.5, 353.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGPFlower_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 253.5, 353.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmGPFlower_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmGPFlower_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>GameObject Children 1 CrystalMesh
+
+>> transform = p: (-1.7, 0.3, -5.5) r: (15.0, 282.7, 273.5) s: (1.5, 1.3, 1.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlIcoRockL (UnityEngine.Mesh)
+>>v mesh = mdlIcoRockL Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = mdlIcoRockL (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 2 FSRuinRingCollision
+
+>> transform = p: (0.0, 0.7, 0.0) r: (270.0, 90.0, 0.0) s: (1.4, 1.4, 3.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = WPPlatform1FullRing (UnityEngine.Mesh)
+>>v mesh = WPPlatform1FullRing Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = WPPlatform1FullRing (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)

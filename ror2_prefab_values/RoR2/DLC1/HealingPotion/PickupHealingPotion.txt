@@ -1,0 +1,39 @@
+Key Path : RoR2/DLC1/HealingPotion/PickupHealingPotion.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupHealingPotion
+
+> transform = p: (-6.4, -145.9, -24.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, 0.0)
+>v minDistance = 3
+>v maxDistance = 6
+>v cameraDirection = (0.0, 0.0, 4.0)
+
+>GameObject Children 0 mdlHealingPotion
+
+>> transform = p: (0.4, -1.1, 0.3) r: (294.4, 242.3, 343.6) s: (1.2, 1.2, 1.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlHealingPotion (UnityEngine.Mesh)
+>>v mesh = mdlHealingPotion Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 mdlHealingPotionCorkLiquid
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (294.4, 242.3, 343.6) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlHealingPotionCorkLiquid (UnityEngine.Mesh)
+>>>v mesh = mdlHealingPotionCorkLiquid Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.0, 0.1, -3.9) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)

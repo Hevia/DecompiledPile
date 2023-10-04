@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/BonusGoldPackOnKill/PickupTome.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupTome
+
+> transform = p: (96.3, 263.5, -177.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (-0.1, -0.2, 0.0, -1.0)
+>v minDistance = 3
+>v maxDistance = 8
+>v cameraDirection = (1.6, -0.6, -4.4)
+
+>GameObject Children 0 mdlTome
+
+>> transform = p: (0.0, 0.0, 0.0) r: (317.7, 11.0, 0.2) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = TomeMesh (UnityEngine.Mesh)
+>>v mesh = TomeMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 69.7, 352.6) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-1.6, 0.6, 4.4) r: (0.0, 69.7, 352.6) s: (1.0, 1.0, 1.0)

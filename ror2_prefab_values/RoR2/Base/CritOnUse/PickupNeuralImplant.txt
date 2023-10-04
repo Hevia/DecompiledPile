@@ -1,0 +1,93 @@
+Key Path : RoR2/Base/CritOnUse/PickupNeuralImplant.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupNeuralImplant
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.3, 0.1, -1.0)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (-2.2, 0.1, -3.5)
+
+>GameObject Children 0 mdlNeuralImplant
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 NeuralImplantHUDArmature
+
+>>> transform = p: (0.0, 0.0, -0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Popup1
+
+>>>> transform = p: (-1.5, -0.4, -0.1) r: (90.0, 0.0, 0.0) s: (1.8, 1.8, 1.8)
+>>>>GameObject Children 0 Popup1_end
+
+>>>>> transform = p: (0.0, 0.4, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 Popup2
+
+>>>> transform = p: (-1.9, -0.4, -1.1) r: (90.0, 0.0, 0.0) s: (2.3, 2.3, 2.3)
+>>>>GameObject Children 0 Popup2_end
+
+>>>>> transform = p: (0.0, 0.4, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 Popup3
+
+>>>> transform = p: (1.0, -0.4, -0.9) r: (90.0, 0.0, 0.0) s: (1.4, 1.4, 1.4)
+>>>>GameObject Children 0 Popup3_end
+
+>>>>> transform = p: (0.0, 0.4, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 ROOT
+
+>>>> transform = p: (0.0, 1.7, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Layer1
+
+>>>>> transform = p: (0.0, 1.6, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Layer1_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Layer2
+
+>>>>> transform = p: (0.0, 1.9, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Layer2_end
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 Layer3
+
+>>>>> transform = p: (0.0, 2.1, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Layer3_end
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 Layer4
+
+>>>>> transform = p: (0.0, 2.3, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Layer4_end
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 4 Sidebar.l
+
+>>>>> transform = p: (-1.7, 2.1, 0.0) r: (90.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>>>>>GameObject Children 0 Sidebar.l_end
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 5 Sidebar.r
+
+>>>>> transform = p: (1.7, 2.1, 0.0) r: (90.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>>>>>GameObject Children 0 Sidebar.r_end
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 NeuralImplantHUDMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = NeuralImplantHUDMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 2.1, 0.0), Extents: (4.0, 0.4, 1.6)
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (346.4, 121.8, 1.8) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (2.2, -0.1, 3.5) r: (346.4, 121.8, 1.8) s: (1.0, 1.0, 1.0)

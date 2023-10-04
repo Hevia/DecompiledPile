@@ -1,0 +1,65 @@
+Key Path : RoR2/Junk/Commando/TracerBarrage2.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TracerBarrage2
+
+> transform = p: (-102.3, 611.6, -132.6) r: (319.7, 175.6, 30.5) s: (2.7, 2.7, 2.7)
+> RoR2.EffectComponent
+>v effectIndex = 526
+>v effectData = 
+>v positionAtReferencedTransform = False
+>v parentToReferencedTransform = False
+>v applyScale = False
+>v soundName = 
+>v disregardZScale = False
+>v didResolveReferencedObject = False
+>v referencedObject = 
+>v didResolveReferencedChildTransform = False
+>v referencedChildTransform = 
+>v didResolveReferencedHurtBox = False
+>v referencedHurtBoxGameObject = 
+
+> RoR2.Tracer
+>v startTransform = 
+>v beamObject = 
+>v beamDensity = 10
+>v speed = 350
+>v headTransform = TracerHead (UnityEngine.Transform)
+>v tailTransform = TracerTail (UnityEngine.Transform)
+>v length = 10
+>v reverse = False
+>v onTailReachedDestination = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v startPos = (0.0, 0.0, 0.0)
+>v endPos = (0.0, 0.0, 0.0)
+>v distanceTraveled = 0
+>v totalDistance = 0
+>v normal = (0.0, 0.0, 0.0)
+
+> UnityEngine.LineRenderer
+>v numPositions = 2
+>v startWidth = 0,5064264
+>v endWidth = 0,1195245
+>v widthMultiplier = 1
+>v numCornerVertices = 0
+>v numCapVertices = 0
+>v useWorldSpace = True
+>v loop = False
+>v startColor = RGBA(0.094, 0.008, 0.000, 1.000)
+>v endColor = RGBA(0.125, 0.024, 0.012, 1.000)
+>v positionCount = 2
+>v shadowBias = 0
+>v generateLightingData = False
+>v textureMode = Stretch
+>v alignment = View
+>v widthCurve = UnityEngine.AnimationCurve
+>v colorGradient = UnityEngine.Gradient
+
+> BeamPointsFromTransforms
+>v target = TracerBarrage2 (UnityEngine.LineRenderer)
+>v pointTransforms = UnityEngine.Transform[]
+
+> RoR2.EventFunctions
+
+>GameObject Children 0 TracerHead
+
+>> transform = p: (0.0, 0.0, 0.0) r: (337.2, 286.5, 315.5) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 TracerTail
+
+>> transform = p: (0.0, 0.0, 0.0) r: (319.7, 175.6, 30.5) s: (1.0, 1.0, 1.0)

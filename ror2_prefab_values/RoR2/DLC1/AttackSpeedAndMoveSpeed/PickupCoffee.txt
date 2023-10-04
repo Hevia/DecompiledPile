@@ -1,0 +1,32 @@
+Key Path : RoR2/DLC1/AttackSpeedAndMoveSpeed/PickupCoffee.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupCoffee
+
+> transform = p: (-5.3, -146.0, -27.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, -0.5, -0.2, -0.8)
+>v minDistance = 0,5
+>v maxDistance = 2
+>v cameraDirection = (0.4, 0.0, -0.3)
+
+>GameObject Children 0 mdlCoffee
+
+>> transform = p: (0.0, 0.0, 0.0) r: (273.8, 54.9, 166.2) s: (0.3, 0.3, 0.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlCoffee (UnityEngine.Mesh)
+>>v mesh = mdlCoffee Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (30.7, 32.1, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.4, 0.0, 0.3) r: (30.7, 32.1, 0.0) s: (1.0, 1.0, 1.0)

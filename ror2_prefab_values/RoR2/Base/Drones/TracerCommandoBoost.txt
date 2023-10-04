@@ -1,0 +1,143 @@
+Key Path : RoR2/Base/Drones/TracerCommandoBoost.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TracerCommandoBoost
+
+> transform = p: (118.7, 0.4, 275.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.EffectComponent
+>v effectIndex = 530
+>v effectData = 
+>v positionAtReferencedTransform = False
+>v parentToReferencedTransform = False
+>v applyScale = False
+>v soundName = 
+>v disregardZScale = False
+>v didResolveReferencedObject = False
+>v referencedObject = 
+>v didResolveReferencedChildTransform = False
+>v referencedChildTransform = 
+>v didResolveReferencedHurtBox = False
+>v referencedHurtBoxGameObject = 
+
+> RoR2.Tracer
+>v startTransform = TracerStartPos (UnityEngine.Transform)
+>v beamObject = SmokeLine (UnityEngine.GameObject)
+>v beamDensity = 10
+>v speed = 202
+>v headTransform = TracerHead (UnityEngine.Transform)
+>v tailTransform = TracerTail (UnityEngine.Transform)
+>v length = 25
+>v reverse = False
+>v onTailReachedDestination = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v startPos = (0.0, 0.0, 0.0)
+>v endPos = (0.0, 0.0, 0.0)
+>v distanceTraveled = 0
+>v totalDistance = 0
+>v normal = (0.0, 0.0, 0.0)
+
+> UnityEngine.LineRenderer
+>v numPositions = 2
+>v startWidth = 0,2
+>v endWidth = 0,06638642
+>v widthMultiplier = 0,2
+>v numCornerVertices = 0
+>v numCapVertices = 0
+>v useWorldSpace = True
+>v loop = False
+>v startColor = RGBA(0.949, 0.255, 0.000, 1.000)
+>v endColor = RGBA(1.000, 0.000, 0.000, 1.000)
+>v positionCount = 2
+>v shadowBias = 0
+>v generateLightingData = False
+>v textureMode = Stretch
+>v alignment = View
+>v widthCurve = UnityEngine.AnimationCurve
+>v colorGradient = UnityEngine.Gradient
+
+> BeamPointsFromTransforms
+>v target = TracerCommandoBoost (UnityEngine.LineRenderer)
+>v pointTransforms = UnityEngine.Transform[]
+
+> RoR2.EventFunctions
+
+>GameObject Children 0 TracerHead
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 TracerTail
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 SmokeLine
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 2
+>>v startWidth = 0
+>>v endWidth = 0
+>>v widthMultiplier = 1
+>>v numCornerVertices = 0
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(0.192, 0.161, 0.125, 1.000)
+>>v endColor = RGBA(0.188, 0.157, 0.122, 1.000)
+>>v positionCount = 2
+>>v shadowBias = 0
+>>v generateLightingData = False
+>>v textureMode = Stretch
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> BeamPointsFromTransforms
+>>v target = SmokeLine (UnityEngine.LineRenderer)
+>>v pointTransforms = UnityEngine.Transform[]
+
+>> UnityEngine.Animator
+>>v isOptimizable = False
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = AlwaysAnimate
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = SmokeLine (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = 
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>> RoR2.EventFunctions
+
+>>GameObject Children 0 TracerStartPos
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,353 @@
+Key Path : RoR2/Base/Scav/ScavBackpack.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ScavBackpack
+
+> transform = p: (-19.5, -214.0, -160.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = e6f68d343e0ec6645986c7af57417bee
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = e6f68d343e0ec6645986c7af57417bee
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.EntityStateMachine
+>v <state>k__BackingField = 
+>v nextState = 
+>v customName = Main
+>v initialStateType = EntityStates.SerializableEntityStateType
+>v mainStateType = EntityStates.SerializableEntityStateType
+>v <networker>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v commonComponents = RoR2.EntityStateMachine+CommonComponentCache
+>v networkIndex = -1
+>v nextStateModifier = 
+>v <destroying>k__BackingField = False
+>v state = 
+>v networker = 
+>v networkIdentity = 
+>v destroying = False
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlScavBackpackOnly (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = 
+>v onModelChanged = 
+>v autoUpdateModelTransform = False
+>v dontDetatchFromParent = True
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlScavBackpackOnly (UnityEngine.Transform)
+
+> RoR2.NetworkStateMachine
+>v stateMachines = RoR2.EntityStateMachine[]
+>v networkIdentity = 
+
+> RoR2.Highlight
+>v highlightList = System.Collections.Generic.List`1[RoR2.Highlight]
+>v _readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+>v displayNameProvider = 
+>v pickupIndex = ItemTier.Boss
+>v targetRenderer = ScavBackpackOnlyMesh (UnityEngine.SkinnedMeshRenderer)
+>v strength = 1
+>v highlightColor = interactive
+>v isOn = False
+>v readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+
+> RoR2.ChestBehavior
+>v <dropPickup>k__BackingField = BadPickupIndex-1
+>v dropTable = dtChest1 (RoR2.BasicPickupDropTable)
+>v dropTransform = DropTransform (UnityEngine.Transform)
+>v dropUpVelocityStrength = 10
+>v dropForwardVelocityStrength = 15
+>v minDropCount = 1
+>v maxDropCount = 1
+>v openState = EntityStates.SerializableEntityStateType
+>v tier1Chance = 0,8
+>v tier2Chance = 0,2
+>v tier3Chance = 0,01
+>v lunarChance = 0
+>v requiredItemTag = Any
+>v lunarCoinChance = 0
+>v dropRoller = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v rng = 
+>v dropCount = 0
+>v dropPickup = BadPickupIndex-1
+
+> RoR2.PurchaseInteraction
+>v displayNameToken = SCAVBACKPACK_NAME
+>v contextToken = SCAVBACKPACK_CONTEXT
+>v costType = None
+>v available = False
+>v cost = 0
+>v automaticallyScaleCostWithDifficulty = False
+>v requiredUnlockable = 
+>v ignoreSpherecastForInteractability = False
+>v purchaseStatNames = System.String[]
+>v setUnavailableOnTeleporterActivated = False
+>v isShrine = False
+>v isGoldShrine = False
+>v lastActivator = 
+>v lockGameObject = 
+>v rng = 
+>v sharedStringBuilder = 
+>v onItemSpentOnPurchase = 
+>v onEquipmentSpentOnPurchase = 
+>v onPurchase = RoR2.PurchaseEvent RoR2.PurchaseEvent
+>v ___lockGameObjectNetId = 0
+>v NetworkdisplayNameToken = SCAVBACKPACK_NAME
+>v NetworkcontextToken = SCAVBACKPACK_CONTEXT
+>v Networkavailable = False
+>v Networkcost = 0
+>v NetworklockGameObject = 
+
+> RoR2.Hologram.HologramProjector
+>v displayDistance = 15
+>v hologramPivot = HologramPivot (UnityEngine.Transform)
+>v disableHologramRotation = False
+>v transformDampVelocity = 0
+>v contentProvider = 
+>v viewerReselectTimer = 0
+>v viewerReselectInterval = 0,25
+>v cachedViewer = 
+>v viewer = 
+>v hologramContentInstance = 
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = SCAVBACKPACK_NAME
+
+> RoR2.SfxLocator
+>v deathSound = 
+>v barkSound = 
+>v openSound = Play_scav_backpack_open
+>v landingSound = 
+>v fallDamageSound = 
+>v aliveLoopStart = 
+>v aliveLoopStop = 
+>v sprintLoopStart = 
+>v sprintLoopStop = 
+
+> RoR2.DitherModel
+>v fade = 0
+>v bounds = ScavBackpackOnlyMesh (UnityEngine.BoxCollider)
+>v renderers = UnityEngine.Renderer[]
+>v propertyStorage = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.DitherModel]
+
+> RoR2.EntityLogic.DelayedEvent
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v timeStepType = Time
+
+> RoR2.StartEvent
+>v runOnServerOnly = True
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+>GameObject Children 0 mdlScavBackpackOnly
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = animScavBackpack (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = mdlScavBackpackOnlyAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>> RoR2.AnimationEvents
+>>v soundCenter = ScavBackpack (UnityEngine.GameObject)
+>>v bodyObject = 
+>>v characterModel = 
+>>v childLocator = 
+>>v entityLocator = 
+>>v meshRenderer = 
+>>v modelLocator = 
+>>v printHeight = 0
+>>v printTime = 0
+
+>> ChildLocator
+>>v transformPairs = ChildLocator+NameTransformPair[]
+>>v Count = 1
+
+>> RoR2.EntityLocator
+>>v entity = ScavBackpack (UnityEngine.GameObject)
+
+>>GameObject Children 0 ScavBackpackOnlyArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>>>GameObject Children 0 BackpackRoot
+
+>>>> transform = p: (0.0, 0.7, 0.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 BackpackTop
+
+>>>>> transform = p: (0.0, 6.4, 0.0) r: (24.8, 356.4, 349.3) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 BackpackFlap.1
+
+>>>>>> transform = p: (0.0, 4.2, -1.6) r: (74.2, 274.5, 273.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 BackpackFlap.2
+
+>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (23.1, 199.6, 201.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 BackpackFlap.3
+
+>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (319.9, 193.4, 193.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 BackpackFlap.3_end
+
+>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (319.9, 193.4, 193.1) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 Jiggle1.l
+
+>>>>>>> transform = p: (-5.8, 0.7, -0.5) r: (74.2, 274.5, 273.7) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Jiggle1.l_end
+
+>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (74.2, 274.5, 273.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 Jiggle1.r
+
+>>>>>>> transform = p: (5.8, 0.7, -0.5) r: (74.2, 274.5, 273.7) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Jiggle1.r_end
+
+>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (74.2, 274.5, 273.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 Jiggle2.l
+
+>>>>>> transform = p: (-5.4, -0.8, -0.1) r: (24.8, 356.4, 349.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Jiggle2.l_end
+
+>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (24.8, 356.4, 349.3) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 Jiggle2.r
+
+>>>>>> transform = p: (5.4, -0.8, -0.1) r: (24.8, 356.4, 349.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Jiggle2.r_end
+
+>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (24.8, 356.4, 349.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Jiggle3.l
+
+>>>>> transform = p: (-6.4, 0.9, -2.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Jiggle3.l_end
+
+>>>>>> transform = p: (0.0, 1.6, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 Jiggle3.r
+
+>>>>> transform = p: (6.4, 0.9, -2.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Jiggle3.r_end
+
+>>>>>> transform = p: (0.0, 1.6, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 ScavBackpackOnlyMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = BackpackRoot (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = ScavBackpackOnlyMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (-3.0, 7.8, 1.4), Extents: (13.2, 12.7, 9.0)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (-0.6, 0.1, 3.5)
+>>>v size = (6.7, 4.5, 7.2)
+>>>v extents = (3.3, 2.2, 3.6)
+
+>>> RoR2.EntityLocator
+>>>v entity = ScavBackpack (UnityEngine.GameObject)
+
+>>GameObject Children 2 HologramPivot
+
+>>> transform = p: (0.0, 2.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 3 Base
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 Spinner
+
+>> transform = p: (0.0, 5.1, 0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Fast
+>>v _slowRotationSpeed = 5
+>>v _fastRotationSpeed = 120
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Fast
+>>v slowRotationSpeed = 5
+>>v fastRotationSpeed = 120
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>>GameObject Children 0 DropTransform
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (310.8, 0.0, 0.0) s: (1.0, 1.0, 1.0)

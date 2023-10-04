@@ -1,0 +1,215 @@
+Key Path : RoR2/Base/Titan/TitanPreFistProjectile.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TitanPreFistProjectile
+
+> transform = p: (129.1, 32.7, 203.5) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 44b979afbdb688c438bd14bcf12e249f
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = True
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = True
+>v clientAuthorityOwner = 
+>v assetId = 44b979afbdb688c438bd14bcf12e249f
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.Projectile.ProjectileController
+>v catalogIndex = 176
+>v ghostPrefab = TitanPreFistGhost (UnityEngine.GameObject)
+>v ghostTransformAnchor = 
+>v startSound = 
+>v cannotBeDeleted = False
+>v flightSoundLoop = 
+>v rigidbody = 
+>v <teamFilter>k__BackingField = 
+>v <ghost>k__BackingField = 
+>v <isPrediction>k__BackingField = False
+>v canImpactOnTrigger = False
+>v <shouldPlaySounds>k__BackingField = False
+>v allowPrediction = False
+>v predictionId = 0
+>v owner = 
+>v onInitialized = 
+>v <procChainMask>k__BackingField = ()
+>v <clientAuthorityOwner>k__BackingField = 
+>v procCoefficient = 1
+>v myColliders = 
+>v ___ownerNetId = 0
+>v teamFilter = 
+>v ghost = 
+>v isPrediction = False
+>v shouldPlaySounds = False
+>v procChainMask = ()
+>v clientAuthorityOwner = 
+>v NetworkpredictionId = 0
+>v Networkowner = 
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = True
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = None
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+> RoR2.Projectile.ProjectileNetworkTransform
+>v projectileController = 
+>v transform = 
+>v rb = 
+>v interpolatedTransform = 
+>v positionTransmitInterval = 0,03333334
+>v interpolationFactor = 1
+>v allowClientsideCollision = False
+>v serverPosition = (0.0, 0.0, 0.0)
+>v serverRotation = (0.0, 0.0, 0.0, 0.0)
+>v interpolatedPosition = NetworkLerpedVector3
+>v interpolatedRotation = NetworkLerpedQuaternion
+>v NetworkserverPosition = (0.0, 0.0, 0.0)
+>v NetworkserverRotation = (0.0, 0.0, 0.0, 0.0)
+
+> RoR2.Projectile.ProjectileDamage
+>v damage = 0
+>v crit = False
+>v force = 0
+>v damageColorIndex = Default
+>v damageType = Generic
+>v useDotMaxStacksFromAttacker = False
+>v dotMaxStacksFromAttacker = 4294967295
+
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> RoR2.Projectile.ProjectileImpactExplosion
+>v impactNormal = (0.0, 1.0, 0.0)
+>v impactEffect = TitanFistEffect (UnityEngine.GameObject)
+>v lifetimeExpiredSoundString = 
+>v lifetimeExpiredSound = 
+>v offsetForLifetimeExpiredSound = 0,5
+>v destroyOnEnemy = False
+>v destroyOnWorld = False
+>v timerAfterImpact = False
+>v lifetime = 1
+>v lifetimeAfterImpact = 0
+>v lifetimeRandomOffset = 0
+>v stopwatch = 0
+>v stopwatchAfterImpact = 0
+>v hasImpact = False
+>v hasPlayedLifetimeExpiredSound = False
+>v transformSpace = World
+
+> AkGameObj
+>v m_listeners = AkGameObjListenerList
+>v isEnvironmentAware = True
+>v isStaticObject = False
+>v m_Collider = 
+>v m_envData = 
+>v m_posData = 
+>v m_positionOffsetData = AkGameObjPositionOffsetData
+>v isRegistered = False
+>v m_posOffsetData = 
+>v AK_NUM_LISTENERS = 8
+>v listenerMask = 1
+>v IsUsingDefaultListeners = True
+>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_nullifier_attack1_summon
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = 1762402358
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+>GameObject Children 0 TeamAreaIndicator, GroundOnly
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (6.0, 6.0, 6.0)
+>> RoR2.TeamAreaIndicator
+>>v teamComponent = 
+>>v teamFilter = TitanPreFistProjectile (RoR2.TeamFilter)
+>>v teamMaterialPairs = RoR2.TeamAreaIndicator+TeamMaterialPair[]
+>>v areaIndicatorRenderers = UnityEngine.Renderer[]
+
+>>GameObject Children 0 Mesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = donut8Mesh (UnityEngine.Mesh)
+>>>v mesh = donut8Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 1
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = False
+>>>v time = 0
+>>>v initialFade = 0

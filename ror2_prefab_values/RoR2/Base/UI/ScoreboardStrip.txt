@@ -1,0 +1,746 @@
+Key Path : RoR2/Base/UI/ScoreboardStrip.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ScoreboardStrip
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.CanvasRenderer
+>v <isMask>k__BackingField = False
+>v hasPopInstruction = False
+>v materialCount = 0
+>v popMaterialCount = 0
+>v absoluteDepth = -1
+>v hasMoved = False
+>v cullTransparentMesh = False
+>v hasRectClipping = False
+>v relativeDepth = -1
+>v cull = False
+>v isMask = False
+>v clippingSoftness = (0.0, 0.0)
+
+> RoR2.UI.ScoreboardStrip
+>v itemInventoryDisplay = ItemsBackground (RoR2.UI.ItemInventoryDisplay)
+>v equipmentIcon = EquipmentBackground (RoR2.UI.EquipmentIcon)
+>v userAvatar = Avatar (RoR2.SocialUserIcon)
+>v nameLabel = NameLabel (RoR2.UI.HGTextMeshProUGUI)
+>v classIcon = ClassIcon (UnityEngine.UI.RawImage)
+>v moneyText = MoneyText (RoR2.UI.HGTextMeshProUGUI)
+>v master = 
+>v userBody = 
+>v userPlayerCharacterMasterController = 
+
+> UnityEngine.UI.LayoutElement
+>v m_IgnoreLayout = False
+>v m_MinWidth = -1
+>v m_MinHeight = 64
+>v m_PreferredWidth = -1
+>v m_PreferredHeight = 64
+>v m_FlexibleWidth = -1
+>v m_FlexibleHeight = -1
+>v m_LayoutPriority = 1
+>v ignoreLayout = False
+>v minWidth = -1
+>v minHeight = 64
+>v preferredWidth = -1
+>v preferredHeight = 64
+>v flexibleWidth = -1
+>v flexibleHeight = -1
+>v layoutPriority = 1
+
+>GameObject Children 0 LongBackground
+
+>> transform = p: (0.0, -36.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texUICleanButton (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Sliced
+>>v m_PreserveAspect = False
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texUICleanButton (UnityEngine.Sprite)
+>>v overrideSprite = texUICleanButton (UnityEngine.Sprite)
+>>v type = Sliced
+>>v preserveAspect = False
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texUICleanButton (UnityEngine.Texture2D)
+>>v hasBorder = True
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 1
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 16
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 16
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>> UnityEngine.UI.HorizontalLayoutGroup
+
+>>GameObject Children 0 Avatar
+
+>>> transform = p: (-525.2, 12.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.RawImage
+>>>v m_Texture = 
+>>>v m_UVRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>>v mainTexture = UnityWhite (UnityEngine.Texture2D)
+>>>v texture = 
+>>>v uvRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+
+>>> RoR2.SocialUserIcon
+>>>v rawImageComponent = 
+>>>v generatedTexture = 
+>>>v userID = 
+>>>v avatarSize = Small
+>>>v sourceType = Local
+
+>>> UnityEngine.UI.LayoutElement
+>>>v m_IgnoreLayout = False
+>>>v m_MinWidth = -1
+>>>v m_MinHeight = -1
+>>>v m_PreferredWidth = 48
+>>>v m_PreferredHeight = -1
+>>>v m_FlexibleWidth = -1
+>>>v m_FlexibleHeight = -1
+>>>v m_LayoutPriority = 1
+>>>v ignoreLayout = False
+>>>v minWidth = -1
+>>>v minHeight = -1
+>>>v preferredWidth = 48
+>>>v preferredHeight = -1
+>>>v flexibleWidth = -1
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 1
+
+>>> UnityEngine.UI.AspectRatioFitter
+>>>v m_AspectMode = WidthControlsHeight
+>>>v m_AspectRatio = 1
+>>>v m_Rect = 
+>>>v m_DelayedSetDirty = False
+>>>v m_Tracker = UnityEngine.DrivenRectTransformTracker
+>>>v aspectMode = WidthControlsHeight
+>>>v aspectRatio = 1
+
+>>>GameObject Children 0 AvatarFrame
+
+>>>> transform = p: (24.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.CanvasRenderer
+>>>>v <isMask>k__BackingField = False
+>>>>v hasPopInstruction = False
+>>>>v materialCount = 0
+>>>>v popMaterialCount = 0
+>>>>v absoluteDepth = -1
+>>>>v hasMoved = False
+>>>>v cullTransparentMesh = False
+>>>>v hasRectClipping = False
+>>>>v relativeDepth = -1
+>>>>v cull = False
+>>>>v isMask = False
+>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>> UnityEngine.UI.Image
+>>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>v m_Sprite = texUIHighlightBoxOutline (UnityEngine.Sprite)
+>>>>v m_OverrideSprite = 
+>>>>v m_Type = Sliced
+>>>>v m_PreserveAspect = False
+>>>>v m_FillCenter = False
+>>>>v m_FillMethod = Radial360
+>>>>v m_FillAmount = 1
+>>>>v m_FillClockwise = True
+>>>>v m_FillOrigin = 0
+>>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>>v m_Tracked = False
+>>>>v m_UseSpriteMesh = False
+>>>>v m_PixelsPerUnitMultiplier = 1
+>>>>v m_CachedReferencePixelsPerUnit = 100
+>>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>>v s_Xy = UnityEngine.Vector3[]
+>>>>v s_Uv = UnityEngine.Vector3[]
+>>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>>v s_Initialized = False
+>>>>v sprite = texUIHighlightBoxOutline (UnityEngine.Sprite)
+>>>>v overrideSprite = texUIHighlightBoxOutline (UnityEngine.Sprite)
+>>>>v type = Sliced
+>>>>v preserveAspect = False
+>>>>v fillCenter = False
+>>>>v fillMethod = Radial360
+>>>>v fillAmount = 1
+>>>>v fillClockwise = True
+>>>>v fillOrigin = 0
+>>>>v eventAlphaThreshold = 1
+>>>>v alphaHitTestMinimumThreshold = 0
+>>>>v useSpriteMesh = False
+>>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>v mainTexture = texUIHighlightBoxOutline (UnityEngine.Texture2D)
+>>>>v hasBorder = True
+>>>>v pixelsPerUnitMultiplier = 1
+>>>>v pixelsPerUnit = 1
+>>>>v material = Default UI Material (UnityEngine.Material)
+>>>>v minWidth = 0
+>>>>v preferredWidth = 8
+>>>>v flexibleWidth = -1
+>>>>v minHeight = 0
+>>>>v preferredHeight = 8
+>>>>v flexibleHeight = -1
+>>>>v layoutPriority = 0
+
+>>GameObject Children 1 ClassBackground
+
+>>> transform = p: (-525.2, -36.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.LayoutElement
+>>>v m_IgnoreLayout = False
+>>>v m_MinWidth = -1
+>>>v m_MinHeight = -1
+>>>v m_PreferredWidth = 60
+>>>v m_PreferredHeight = -1
+>>>v m_FlexibleWidth = -1
+>>>v m_FlexibleHeight = -1
+>>>v m_LayoutPriority = 1
+>>>v ignoreLayout = False
+>>>v minWidth = -1
+>>>v minHeight = -1
+>>>v preferredWidth = 60
+>>>v preferredHeight = -1
+>>>v flexibleWidth = -1
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 1
+
+>>> UnityEngine.UI.AspectRatioFitter
+>>>v m_AspectMode = WidthControlsHeight
+>>>v m_AspectRatio = 1
+>>>v m_Rect = 
+>>>v m_DelayedSetDirty = False
+>>>v m_Tracker = UnityEngine.DrivenRectTransformTracker
+>>>v aspectMode = WidthControlsHeight
+>>>v aspectRatio = 1
+
+>>> UnityEngine.UI.Image
+>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v m_Sprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v m_OverrideSprite = 
+>>>v m_Type = Sliced
+>>>v m_PreserveAspect = False
+>>>v m_FillCenter = True
+>>>v m_FillMethod = Radial360
+>>>v m_FillAmount = 1
+>>>v m_FillClockwise = True
+>>>v m_FillOrigin = 0
+>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>v m_Tracked = False
+>>>v m_UseSpriteMesh = False
+>>>v m_PixelsPerUnitMultiplier = 1
+>>>v m_CachedReferencePixelsPerUnit = 100
+>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>v s_Xy = UnityEngine.Vector3[]
+>>>v s_Uv = UnityEngine.Vector3[]
+>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>v s_Initialized = False
+>>>v sprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v overrideSprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v type = Sliced
+>>>v preserveAspect = False
+>>>v fillCenter = True
+>>>v fillMethod = Radial360
+>>>v fillAmount = 1
+>>>v fillClockwise = True
+>>>v fillOrigin = 0
+>>>v eventAlphaThreshold = 1
+>>>v alphaHitTestMinimumThreshold = 0
+>>>v useSpriteMesh = False
+>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v mainTexture = texUIHighlightHeader (UnityEngine.Texture2D)
+>>>v hasBorder = True
+>>>v pixelsPerUnitMultiplier = 1
+>>>v pixelsPerUnit = 1
+>>>v material = Default UI Material (UnityEngine.Material)
+>>>v minWidth = 0
+>>>v preferredWidth = 36
+>>>v flexibleWidth = -1
+>>>v minHeight = 0
+>>>v preferredHeight = 36
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 0
+
+>>>GameObject Children 0 ClassIcon
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.CanvasRenderer
+>>>>v <isMask>k__BackingField = False
+>>>>v hasPopInstruction = False
+>>>>v materialCount = 0
+>>>>v popMaterialCount = 0
+>>>>v absoluteDepth = -1
+>>>>v hasMoved = False
+>>>>v cullTransparentMesh = False
+>>>>v hasRectClipping = False
+>>>>v relativeDepth = -1
+>>>>v cull = False
+>>>>v isMask = False
+>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>> UnityEngine.UI.RawImage
+>>>>v m_Texture = texCommandoIcon (UnityEngine.Texture2D)
+>>>>v m_UVRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>>>v mainTexture = texCommandoIcon (UnityEngine.Texture2D)
+>>>>v texture = texCommandoIcon (UnityEngine.Texture2D)
+>>>>v uvRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+
+>>GameObject Children 2 NameLabel
+
+>>> transform = p: (-525.2, -36.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> RoR2.UI.HGTextMeshProUGUI
+>>>v useLanguageDefaultFont = True
+>>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)
+
+>>> UnityEngine.UI.LayoutElement
+>>>v m_IgnoreLayout = False
+>>>v m_MinWidth = -1
+>>>v m_MinHeight = -1
+>>>v m_PreferredWidth = 160
+>>>v m_PreferredHeight = -1
+>>>v m_FlexibleWidth = -1
+>>>v m_FlexibleHeight = -1
+>>>v m_LayoutPriority = 1
+>>>v ignoreLayout = False
+>>>v minWidth = -1
+>>>v minHeight = -1
+>>>v preferredWidth = 160
+>>>v preferredHeight = -1
+>>>v flexibleWidth = -1
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 1
+
+>>GameObject Children 3 MoneyText
+
+>>> transform = p: (-525.2, -36.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> RoR2.UI.HGTextMeshProUGUI
+>>>v useLanguageDefaultFont = True
+>>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)
+
+>>> UnityEngine.UI.LayoutElement
+>>>v m_IgnoreLayout = False
+>>>v m_MinWidth = -1
+>>>v m_MinHeight = -1
+>>>v m_PreferredWidth = 120
+>>>v m_PreferredHeight = -1
+>>>v m_FlexibleWidth = -1
+>>>v m_FlexibleHeight = -1
+>>>v m_LayoutPriority = 1
+>>>v ignoreLayout = False
+>>>v minWidth = -1
+>>>v minHeight = -1
+>>>v preferredWidth = 120
+>>>v preferredHeight = -1
+>>>v flexibleWidth = -1
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 1
+
+>>GameObject Children 4 PlayersBackground
+
+>>> transform = p: (-525.2, -36.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.RawImage
+>>>v m_Texture = texAlphaGradient3 (UnityEngine.Texture2D)
+>>>v m_UVRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>>v mainTexture = texAlphaGradient3 (UnityEngine.Texture2D)
+>>>v texture = texAlphaGradient3 (UnityEngine.Texture2D)
+>>>v uvRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+
+>>GameObject Children 5 ItemsBackground
+
+>>> transform = p: (-525.2, -36.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.Image
+>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v m_Sprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v m_OverrideSprite = 
+>>>v m_Type = Sliced
+>>>v m_PreserveAspect = False
+>>>v m_FillCenter = True
+>>>v m_FillMethod = Radial360
+>>>v m_FillAmount = 1
+>>>v m_FillClockwise = True
+>>>v m_FillOrigin = 0
+>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>v m_Tracked = False
+>>>v m_UseSpriteMesh = False
+>>>v m_PixelsPerUnitMultiplier = 1
+>>>v m_CachedReferencePixelsPerUnit = 100
+>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>v s_Xy = UnityEngine.Vector3[]
+>>>v s_Uv = UnityEngine.Vector3[]
+>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>v s_Initialized = False
+>>>v sprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v overrideSprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v type = Sliced
+>>>v preserveAspect = False
+>>>v fillCenter = True
+>>>v fillMethod = Radial360
+>>>v fillAmount = 1
+>>>v fillClockwise = True
+>>>v fillOrigin = 0
+>>>v eventAlphaThreshold = 1
+>>>v alphaHitTestMinimumThreshold = 0
+>>>v useSpriteMesh = False
+>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v mainTexture = texUIHighlightHeader (UnityEngine.Texture2D)
+>>>v hasBorder = True
+>>>v pixelsPerUnitMultiplier = 1
+>>>v pixelsPerUnit = 1
+>>>v material = Default UI Material (UnityEngine.Material)
+>>>v minWidth = 0
+>>>v preferredWidth = 36
+>>>v flexibleWidth = -1
+>>>v minHeight = 0
+>>>v preferredHeight = 36
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 0
+
+>>> RoR2.UI.ItemInventoryDisplay
+>>>v rectTransform = 
+>>>v itemIconPrefab = ItemIcon (UnityEngine.GameObject)
+>>>v itemIconPrefabWidth = 48
+>>>v maxIconWidth = 64
+>>>v maxHeight = 48
+>>>v verticalMargin = 0
+>>>v itemIcons = System.Collections.Generic.List`1[RoR2.UI.ItemIcon]
+>>>v itemOrder = 
+>>>v itemOrderCount = 0
+>>>v itemStacks = 
+>>>v currentIconScale = 1
+>>>v previousWidth = 0
+>>>v updateRequestPending = False
+>>>v inventory = 
+>>>v inventoryWasValid = False
+>>>v <preferredHeight>k__BackingField = 0
+>>>v flexibleWidth = 0
+>>>v minHeight = 0
+>>>v preferredHeight = 0
+>>>v flexibleHeight = 0
+>>>v layoutPriority = 0
+
+>>> UnityEngine.UI.LayoutElement
+>>>v m_IgnoreLayout = False
+>>>v m_MinWidth = -1
+>>>v m_MinHeight = -1
+>>>v m_PreferredWidth = 600
+>>>v m_PreferredHeight = -1
+>>>v m_FlexibleWidth = 3000000
+>>>v m_FlexibleHeight = -1
+>>>v m_LayoutPriority = 1
+>>>v ignoreLayout = False
+>>>v minWidth = -1
+>>>v minHeight = -1
+>>>v preferredWidth = 600
+>>>v preferredHeight = -1
+>>>v flexibleWidth = 3000000
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 1
+
+>>> UnityEngine.Canvas
+>>>v preWillRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>>>v willRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>>>v renderMode = WorldSpace
+>>>v isRootCanvas = True
+>>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>>v scaleFactor = 1
+>>>v referencePixelsPerUnit = 100
+>>>v overridePixelPerfect = False
+>>>v pixelPerfect = False
+>>>v planeDistance = 100
+>>>v renderOrder = 5
+>>>v overrideSorting = False
+>>>v sortingOrder = 0
+>>>v targetDisplay = 0
+>>>v sortingLayerID = 0
+>>>v cachedSortingLayerValue = 0
+>>>v additionalShaderChannels = None
+>>>v sortingLayerName = Default
+>>>v rootCanvas = ItemsBackground (UnityEngine.Canvas)
+>>>v worldCamera = 
+>>>v normalizedSortingGridSize = 0,1
+>>>v sortingGridNormalizedSize = 0
+
+>>> UnityEngine.UI.GraphicRaycaster
+>>>v kNoEventMaskSet = -1
+>>>v m_IgnoreReversedGraphics = True
+>>>v m_BlockingObjects = None
+>>>v m_BlockingMask = UnityEngine.LayerMask
+>>>v m_Canvas = 
+>>>v m_RaycastResults = System.Collections.Generic.List`1[UnityEngine.UI.Graphic]
+>>>v s_SortedGraphics = System.Collections.Generic.List`1[UnityEngine.UI.Graphic]
+>>>v sortOrderPriority = -2147483648
+>>>v renderOrderPriority = -2147483648
+>>>v ignoreReversedGraphics = True
+>>>v blockingObjects = None
+>>>v eventCamera = Scene Camera (UnityEngine.Camera)
+
+>>GameObject Children 6 EquipmentBackground
+
+>>> transform = p: (-525.2, -36.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.Image
+>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v m_Sprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v m_OverrideSprite = 
+>>>v m_Type = Sliced
+>>>v m_PreserveAspect = False
+>>>v m_FillCenter = True
+>>>v m_FillMethod = Radial360
+>>>v m_FillAmount = 1
+>>>v m_FillClockwise = True
+>>>v m_FillOrigin = 0
+>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>v m_Tracked = False
+>>>v m_UseSpriteMesh = False
+>>>v m_PixelsPerUnitMultiplier = 1
+>>>v m_CachedReferencePixelsPerUnit = 100
+>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>v s_Xy = UnityEngine.Vector3[]
+>>>v s_Uv = UnityEngine.Vector3[]
+>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>v s_Initialized = False
+>>>v sprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v overrideSprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>>v type = Sliced
+>>>v preserveAspect = False
+>>>v fillCenter = True
+>>>v fillMethod = Radial360
+>>>v fillAmount = 1
+>>>v fillClockwise = True
+>>>v fillOrigin = 0
+>>>v eventAlphaThreshold = 1
+>>>v alphaHitTestMinimumThreshold = 0
+>>>v useSpriteMesh = False
+>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v mainTexture = texUIHighlightHeader (UnityEngine.Texture2D)
+>>>v hasBorder = True
+>>>v pixelsPerUnitMultiplier = 1
+>>>v pixelsPerUnit = 1
+>>>v material = Default UI Material (UnityEngine.Material)
+>>>v minWidth = 0
+>>>v preferredWidth = 36
+>>>v flexibleWidth = -1
+>>>v minHeight = 0
+>>>v preferredHeight = 36
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 0
+
+>>> RoR2.UI.EquipmentIcon
+>>>v targetInventory = 
+>>>v targetEquipmentSlot = 
+>>>v displayRoot = 
+>>>v playerCharacterMasterController = 
+>>>v iconImage = EquipmentIcon (UnityEngine.UI.RawImage)
+>>>v cooldownText = 
+>>>v stockText = 
+>>>v stockFlashPanelObject = 
+>>>v reminderFlashPanelObject = 
+>>>v isReadyPanelObject = 
+>>>v isAutoCastPanelObject = 
+>>>v tooltipProvider = EquipmentBackground (RoR2.UI.TooltipProvider)
+>>>v displayAlternateEquipment = False
+>>>v previousStockCount = 0
+>>>v equipmentReminderTimer = 0
+>>>v currentDisplayData = RoR2.UI.EquipmentIcon+DisplayData
+>>>v hasEquipment = False
+
+>>> RoR2.UI.TooltipProvider
+>>>v titleToken = 
+>>>v titleColor = RGBA(0.000, 0.000, 0.000, 0.000)
+>>>v bodyToken = 
+>>>v bodyColor = RGBA(0.000, 0.000, 0.000, 0.000)
+>>>v overrideTitleText = 
+>>>v overrideBodyText = 
+>>>v disableTitleRichText = False
+>>>v disableBodyRichText = False
+>>>v userCount = 0
+>>>v playerColor = RGBA(0.949, 0.255, 0.255, 1.000)
+>>>v titleText = 
+>>>v bodyText = 
+
+>>> UnityEngine.UI.LayoutElement
+>>>v m_IgnoreLayout = False
+>>>v m_MinWidth = -1
+>>>v m_MinHeight = -1
+>>>v m_PreferredWidth = 60
+>>>v m_PreferredHeight = -1
+>>>v m_FlexibleWidth = -1
+>>>v m_FlexibleHeight = -1
+>>>v m_LayoutPriority = 1
+>>>v ignoreLayout = False
+>>>v minWidth = -1
+>>>v minHeight = -1
+>>>v preferredWidth = 60
+>>>v preferredHeight = -1
+>>>v flexibleWidth = -1
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 1
+
+>>> UnityEngine.UI.AspectRatioFitter
+>>>v m_AspectMode = WidthControlsHeight
+>>>v m_AspectRatio = 1
+>>>v m_Rect = 
+>>>v m_DelayedSetDirty = False
+>>>v m_Tracker = UnityEngine.DrivenRectTransformTracker
+>>>v aspectMode = WidthControlsHeight
+>>>v aspectRatio = 1
+
+>>>GameObject Children 0 EquipmentIcon
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.CanvasRenderer
+>>>>v <isMask>k__BackingField = False
+>>>>v hasPopInstruction = False
+>>>>v materialCount = 0
+>>>>v popMaterialCount = 0
+>>>>v absoluteDepth = -1
+>>>>v hasMoved = False
+>>>>v cullTransparentMesh = False
+>>>>v hasRectClipping = False
+>>>>v relativeDepth = -1
+>>>>v cull = False
+>>>>v isMask = False
+>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>> UnityEngine.UI.RawImage
+>>>>v m_Texture = 
+>>>>v m_UVRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>>>v mainTexture = UnityWhite (UnityEngine.Texture2D)
+>>>>v texture = 
+>>>>v uvRect = (x:0.00, y:0.00, width:1.00, height:1.00)

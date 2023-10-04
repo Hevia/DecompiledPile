@@ -1,0 +1,95 @@
+Key Path : RoR2/DLC1/VoidCamp/VoidCampPositionIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidCampPositionIndicator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+> RoR2.PositionIndicator
+>v targetTransform = 
+>v transform = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.PositionIndicator]
+>v insideViewObject = InsideFrameMarker (UnityEngine.GameObject)
+>v outsideViewObject = OutsideFrameArrow (UnityEngine.GameObject)
+>v alwaysVisibleObject = 
+>v shouldRotateOutsideViewObject = True
+>v outsideViewRotationOffset = 90
+>v yOffset = 0
+>v generateDefaultPosition = False
+>v <defaultPosition>k__BackingField = (0.0, 0.0, 0.0)
+>v cvPositionIndicatorsEnable = RoR2.ConVar.BoolConVar
+>v defaultPosition = (0.0, 0.0, 0.0)
+
+>GameObject Children 0 BossIcon
+
+>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.SpriteRenderer
+>>v sprite = texDifficultyHardIcon (UnityEngine.Sprite)
+>>v drawMode = Simple
+>>v size = (0.4, 0.4)
+>>v adaptiveModeThreshold = 0,5
+>>v tileMode = Continuous
+>>v color = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v maskInteraction = None
+>>v flipX = False
+>>v flipY = False
+>>v spriteSortPoint = Center
+
+>GameObject Children 1 OutsideFrameArrow
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>>GameObject Children 0 Sprite
+
+>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 3.3, 1.0)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texChevronPlayer (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.868, 0.634, 0.953, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center
+
+>>>GameObject Children 0 Sprite
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.SpriteRenderer
+>>>>v sprite = texChevronPlayer (UnityEngine.Sprite)
+>>>>v drawMode = Simple
+>>>>v size = (0.4, 0.4)
+>>>>v adaptiveModeThreshold = 0,5
+>>>>v tileMode = Continuous
+>>>>v color = RGBA(0.868, 0.634, 0.953, 1.000)
+>>>>v maskInteraction = None
+>>>>v flipX = False
+>>>>v flipY = False
+>>>>v spriteSortPoint = Center
+
+>GameObject Children 2 InsideFrameMarker
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Sprite
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texCursorController_Inactive (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (2.6, 2.6)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.868, 0.634, 0.953, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center
+
+>>> RoR2.ObjectScaleCurve
+>>>v useOverallCurveOnly = False
+>>>v curveX = UnityEngine.AnimationCurve
+>>>v curveY = UnityEngine.AnimationCurve
+>>>v curveZ = UnityEngine.AnimationCurve
+>>>v overallCurve = UnityEngine.AnimationCurve
+>>>v timeMax = 1
+>>>v <time>k__BackingField = 0
+>>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>>v time = 0
+>>>v baseScale = (0.0, 0.0, 0.0)

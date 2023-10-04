@@ -1,0 +1,207 @@
+Key Path : RoR2/Base/WardOnLevel/WarbannerWard.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : WarbannerWard
+
+> transform = p: (48.6, 3.4, -26.6) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> RoR2.BuffWard
+>v shape = Sphere
+>v radius = 15
+>v interval = 0,5
+>v rangeIndicator = Indicator (UnityEngine.Transform)
+>v buffDef = bdWarbanner (RoR2.BuffDef)
+>v buffDuration = 1,5
+>v floorWard = True
+>v expires = False
+>v invertTeamFilter = False
+>v expireDuration = 0
+>v animateRadius = False
+>v radiusCoefficientCurve = UnityEngine.AnimationCurve
+>v removalTime = 0
+>v needsRemovalTime = False
+>v removalSoundString = 
+>v onRemoval = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v requireGrounded = False
+>v teamFilter = 
+>v buffTimer = 0
+>v rangeIndicatorScaleVelocity = 0
+>v stopwatch = 0
+>v calculatedRadius = 0
+>v Networkradius = 15
+
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = edc41add154bedd4dae64def5c85e10f
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = edc41add154bedd4dae64def5c85e10f
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_item_proc_warbanner
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = -1274311113
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = False
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = None
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+>GameObject Children 0 Indicator
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 IndicatorSphere
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere, Unwrapped (UnityEngine.Mesh)
+>>>v mesh = Sphere, Unwrapped Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 mdlWarbanner
+
+>> transform = p: (0.0, 1.4, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = False
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 0,5
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>>GameObject Children 0 Cylinder
+
+>>> transform = p: (0.0, 0.0, -0.2) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 Plane
+
+>>> transform = p: (0.0, 0.0, 0.2) r: (0.0, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>v mesh = Plane Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.Cloth
+>>>v <useContinuousCollision>k__BackingField = 0
+>>>v <selfCollision>k__BackingField = False
+>>>v vertices = UnityEngine.Vector3[]
+>>>v normals = UnityEngine.Vector3[]
+>>>v coefficients = UnityEngine.ClothSkinningCoefficient[]
+>>>v capsuleColliders = UnityEngine.CapsuleCollider[]
+>>>v sphereColliders = UnityEngine.ClothSphereColliderPair[]
+>>>v sleepThreshold = 0,1
+>>>v bendingStiffness = 0
+>>>v stretchingStiffness = 1
+>>>v damping = 0,1
+>>>v externalAcceleration = (0.0, 0.0, 0.0)
+>>>v randomAcceleration = (0.0, 0.0, 4.0)
+>>>v useGravity = True
+>>>v enabled = True
+>>>v friction = 0,5
+>>>v collisionMassScale = 0
+>>>v enableContinuousCollision = True
+>>>v useVirtualParticles = 1
+>>>v worldVelocityScale = 0,1
+>>>v worldAccelerationScale = 0,01
+>>>v clothSolverFrequency = 120
+>>>v solverFrequency = True
+>>>v useTethers = True
+>>>v stiffnessFrequency = 10
+>>>v selfCollisionDistance = 0
+>>>v selfCollisionStiffness = 1
+>>>v useContinuousCollision = 0
+>>>v selfCollision = False
+
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = 
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (5.8, 0.0, -0.3), Extents: (3.4, 2.8, 0.4)

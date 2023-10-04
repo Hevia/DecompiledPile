@@ -1,0 +1,1350 @@
+Key Path : RoR2/Base/wispgraveyard/WPPlatform2DirtTrack.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : WPPlatform2DirtTrack
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.MeshFilter
+>v sharedMesh = WPPlatform2DirtTrackMesh (UnityEngine.Mesh)
+>v mesh = WPPlatform2DirtTrackMesh Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+> UnityEngine.MeshCollider
+>v sharedMesh = WPPlatform2DirtTrackMesh (UnityEngine.Mesh)
+>v convex = False
+>v inflateMesh = False
+>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>v skinWidth = 0
+>v smoothSphereCollisions = True
+
+> RoR2.SurfaceDefProvider
+>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>GameObject Children 0 BorderMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshFilter
+>>v sharedMesh = WPPlatform2DirtTrackBorderMesh (UnityEngine.Mesh)
+>>v mesh = WPPlatform2DirtTrackBorderMesh Instance (UnityEngine.Mesh)
+
+>GameObject Children 1 spmGlGrass1
+
+>> transform = p: (-6.0, -5.4, 3.3) r: (65.7, 91.2, 91.2) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (65.7, 91.2, 91.2) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 2 spmGlGrass1
+
+>> transform = p: (-6.3, -4.9, 3.3) r: (324.0, 270.1, 270.4) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (324.0, 270.1, 270.4) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 3 spmGlGrass1
+
+>> transform = p: (-6.6, -4.7, 3.3) r: (338.0, 89.7, 90.6) s: (0.2, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (338.0, 89.7, 90.6) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 4 spmGlGrass1
+
+>> transform = p: (-7.6, -2.8, 3.2) r: (325.0, 89.0, 91.3) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (325.0, 89.0, 91.3) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 5 spmGlGrass1
+
+>> transform = p: (-5.2, -6.1, 3.2) r: (34.3, 92.8, 92.9) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (34.3, 92.8, 92.9) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 6 spmGlGrass1
+
+>> transform = p: (-5.1, -6.1, 3.2) r: (43.3, 93.4, 92.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (43.3, 93.4, 92.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 7 spmGlGrass1
+
+>> transform = p: (-4.7, -6.2, 3.2) r: (359.0, 273.5, 268.1) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (359.0, 273.5, 268.1) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 8 spmGlGrass1
+
+>> transform = p: (-4.8, -6.7, 3.2) r: (278.1, 87.4, 93.8) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (278.1, 87.4, 93.8) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 9 spmGlGrass1
+
+>> transform = p: (-4.8, -6.9, 3.2) r: (301.9, 272.0, 265.5) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (301.9, 272.0, 265.5) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 10 spmGlGrass1
+
+>> transform = p: (-3.6, -6.9, 3.2) r: (20.9, 89.0, 89.4) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (20.9, 89.0, 89.4) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 11 spmGlGrass1
+
+>> transform = p: (-3.1, -7.1, 3.2) r: (32.6, 88.3, 89.6) s: (0.1, 0.1, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (32.6, 88.3, 89.6) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 12 spmGlGrass1
+
+>> transform = p: (-3.0, -7.4, 3.2) r: (43.6, 268.5, 269.8) s: (0.2, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (43.6, 268.5, 269.8) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 13 spmGlGrass1
+
+>> transform = p: (-2.9, -7.3, 3.2) r: (285.3, 269.3, 269.4) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (285.3, 269.3, 269.4) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 14 spmGlGrass1
+
+>> transform = p: (-7.6, 1.6, 3.2) r: (325.1, 268.4, 271.1) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (325.1, 268.4, 271.1) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 15 spmGlGrass1
+
+>> transform = p: (-8.1, 1.9, 3.2) r: (59.7, 81.5, 86.1) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (59.7, 81.5, 86.1) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 16 spmGlGrass1
+
+>> transform = p: (-6.8, 4.0, 3.2) r: (27.3, 269.6, 270.2) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (27.3, 269.6, 270.2) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 17 spmGlGrass1
+
+>> transform = p: (-6.4, 4.7, 3.3) r: (284.8, 96.1, 85.3) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (284.8, 96.1, 85.3) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 18 spmGlGrass1
+
+>> transform = p: (-6.2, 5.5, 3.2) r: (52.0, 270.7, 271.9) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (52.0, 270.7, 271.9) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 19 spmGlGrass1
+
+>> transform = p: (-5.3, 5.9, 3.3) r: (348.8, 91.0, 91.0) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (348.8, 91.0, 91.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 20 spmGlGrass1
+
+>> transform = p: (-5.4, 6.0, 3.3) r: (12.4, 270.4, 270.9) s: (0.2, 0.2, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (12.4, 270.4, 270.9) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 21 spmGlGrass1
+
+>> transform = p: (-3.9, 7.3, 3.2) r: (57.4, 275.4, 275.0) s: (0.2, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (57.4, 275.4, 275.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 22 spmGlGrass1
+
+>> transform = p: (-3.2, 7.0, 3.2) r: (337.8, 272.9, 269.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (337.8, 272.9, 269.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 23 spmGlGrass1
+
+>> transform = p: (-2.5, 7.5, 3.2) r: (87.6, 47.0, 45.9) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (87.6, 47.0, 45.9) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 24 spmGlGrass1
+
+>> transform = p: (-2.5, 7.4, 3.2) r: (301.4, 93.9, 86.8) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (301.4, 93.9, 86.8) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 25 spmGlGrass1
+
+>> transform = p: (-2.7, 7.4, 3.2) r: (82.5, 80.2, 79.3) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (82.5, 80.2, 79.3) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 26 spmGlGrass1
+
+>> transform = p: (-1.6, 7.8, 3.2) r: (85.1, 286.4, 287.7) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (85.1, 286.4, 287.7) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 27 spmGlGrass1
+
+>> transform = p: (3.9, 6.7, 3.2) r: (285.4, 89.6, 90.5) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (285.4, 89.6, 90.5) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 28 spmGlGrass1
+
+>> transform = p: (4.9, 6.8, 3.2) r: (27.7, 273.3, 272.8) s: (0.2, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (27.7, 273.3, 272.8) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 29 spmGlGrass1
+
+>> transform = p: (5.3, 6.3, 3.2) r: (11.7, 91.3, 88.4) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (11.7, 91.3, 88.4) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 30 spmGlGrass1
+
+>> transform = p: (7.4, 3.2, 3.2) r: (30.5, 269.1, 269.5) s: (0.2, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (30.5, 269.1, 269.5) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 31 spmGlGrass1
+
+>> transform = p: (7.7, 1.2, 3.2) r: (30.8, 91.9, 90.1) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (30.8, 91.9, 90.1) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 32 spmGlGrass1
+
+>> transform = p: (8.0, 0.7, 3.2) r: (317.6, 272.2, 267.6) s: (0.2, 0.2, 0.2)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (317.6, 272.2, 267.6) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 33 spmGlGrass1
+
+>> transform = p: (7.5, -3.6, 3.3) r: (355.8, 272.4, 268.8) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (355.8, 272.4, 268.8) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 34 spmGlGrass1
+
+>> transform = p: (6.7, -4.3, 3.3) r: (289.0, 271.0, 268.7) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (289.0, 271.0, 268.7) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 35 spmGlGrass1
+
+>> transform = p: (5.4, -6.3, 3.2) r: (30.6, 96.5, 96.5) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (30.6, 96.5, 96.5) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 36 spmGlGrass1
+
+>> transform = p: (4.3, -6.6, 3.2) r: (320.2, 88.6, 91.5) s: (0.1, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (320.2, 88.6, 91.5) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 37 spmGlGrass1
+
+>> transform = p: (4.2, -6.5, 3.2) r: (43.5, 268.1, 268.0) s: (0.2, 0.1, 0.1)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>v size = 1,5239
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (43.5, 268.1, 268.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 38 PebbleGoolake
+
+>> transform = p: (6.1, 5.4, 3.2) r: (41.2, 96.2, 97.2) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 39 PebbleGoolake
+
+>> transform = p: (6.0, 5.3, 3.2) r: (5.9, 96.6, 91.1) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 40 PebbleGoolake
+
+>> transform = p: (6.9, 3.8, 3.2) r: (26.6, 262.7, 268.5) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 41 PebbleGoolake
+
+>> transform = p: (7.9, -0.8, 3.2) r: (273.9, 160.5, 21.6) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 42 PebbleGoolake
+
+>> transform = p: (7.5, -1.2, 3.2) r: (26.6, 259.6, 267.7) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 43 PebbleGoolake
+
+>> transform = p: (8.0, -1.2, 3.2) r: (327.1, 272.2, 274.4) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 44 PebbleGoolake
+
+>> transform = p: (8.4, -1.1, 3.2) r: (71.2, 162.2, 126.5) s: (0.1, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 45 PebbleGoolake
+
+>> transform = p: (7.7, -1.0, 3.3) r: (331.6, 91.0, 96.9) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 46 PebbleGoolake
+
+>> transform = p: (7.1, -4.5, 3.3) r: (321.2, 274.6, 267.2) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 47 PebbleGoolake
+
+>> transform = p: (7.2, -4.1, 3.3) r: (313.1, 269.7, 273.7) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 48 PebbleGoolake
+
+>> transform = p: (6.9, -4.8, 3.3) r: (286.1, 81.5, 108.4) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 49 PebbleGoolake
+
+>> transform = p: (5.7, -5.2, 3.3) r: (55.6, 98.5, 102.1) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 50 PebbleGoolake
+
+>> transform = p: (4.7, -6.0, 3.3) r: (313.2, 255.2, 285.3) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 51 PebbleGoolake
+
+>> transform = p: (4.7, -6.3, 3.3) r: (310.5, 263.7, 274.5) s: (0.1, 0.1, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 52 PebbleGoolake
+
+>> transform = p: (3.8, -6.9, 3.3) r: (296.5, 256.4, 287.3) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 53 PebbleGoolake
+
+>> transform = p: (2.4, -7.5, 3.3) r: (282.4, 106.6, 75.9) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 54 PebbleGoolake
+
+>> transform = p: (1.8, 8.0, 3.2) r: (89.0, 162.2, 166.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 55 PebbleGoolake
+
+>> transform = p: (0.8, 7.6, 3.3) r: (69.7, 101.5, 106.8) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 56 PebbleGoolake
+
+>> transform = p: (-1.6, 7.3, 3.2) r: (73.9, 239.0, 240.5) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 57 PebbleGoolake
+
+>> transform = p: (-3.6, 6.7, 3.2) r: (4.1, 93.3, 97.7) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 58 PebbleGoolake
+
+>> transform = p: (-4.3, 6.8, 3.3) r: (336.8, 264.0, 274.2) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 59 PebbleGoolake
+
+>> transform = p: (-6.1, 4.1, 3.2) r: (26.3, 289.1, 248.1) s: (0.2, 0.2, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 60 PebbleGoolake
+
+>> transform = p: (-7.3, 1.1, 3.2) r: (357.5, 307.9, 267.8) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 61 PebbleGoolake
+
+>> transform = p: (-7.3, 0.5, 3.1) r: (351.8, 129.5, 96.6) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 62 PebbleGoolake
+
+>> transform = p: (-7.7, -2.6, 3.3) r: (272.4, 63.2, 122.7) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 63 PebbleGoolake
+
+>> transform = p: (-7.5, -2.6, 3.3) r: (82.4, 144.2, 147.3) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 64 PebbleGoolake
+
+>> transform = p: (-6.7, -4.4, 3.3) r: (354.8, 92.2, 96.1) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 65 PebbleGoolake
+
+>> transform = p: (-5.6, -5.9, 3.3) r: (329.8, 94.2, 91.7) s: (0.2, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 66 PebbleGoolake
+
+>> transform = p: (-1.3, -8.0, 3.3) r: (291.9, 263.4, 276.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

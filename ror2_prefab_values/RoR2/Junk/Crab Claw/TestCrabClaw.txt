@@ -1,0 +1,38 @@
+Key Path : RoR2/Junk/Crab Claw/TestCrabClaw.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TestCrabClaw
+
+> transform = p: (99.1, -77.5, -228.5) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.LimbMatcher
+>v scaleLimbs = True
+>v valid = False
+>v limbPairs = RoR2.LimbMatcher+LimbPair[]
+
+>GameObject Children 0 CrabClawArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 crab_upper_arm
+
+>>> transform = p: (0.0, 0.4, 0.1) r: (283.0, 359.7, 181.3) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 crab_lower_arm
+
+>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 90.0, 93.5) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 crab_hand
+
+>>>>> transform = p: (0.0, 0.4, 0.0) r: (274.1, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 crab_claw
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (341.1, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 crab_claw_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (341.1, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 CrabClawMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = crab_upper_arm (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = CrabClawMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.6, 0.1), Extents: (0.1, 0.8, 0.3)

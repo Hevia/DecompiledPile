@@ -1,0 +1,132 @@
+Key Path : RoR2/Base/Commando/TracerCommandoShotgun.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TracerCommandoShotgun
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.EffectComponent
+>v effectIndex = 532
+>v effectData = 
+>v positionAtReferencedTransform = False
+>v parentToReferencedTransform = False
+>v applyScale = False
+>v soundName = 
+>v disregardZScale = False
+>v didResolveReferencedObject = False
+>v referencedObject = 
+>v didResolveReferencedChildTransform = False
+>v referencedChildTransform = 
+>v didResolveReferencedHurtBox = False
+>v referencedHurtBoxGameObject = 
+
+> RoR2.Tracer
+>v startTransform = StartTransform (UnityEngine.Transform)
+>v beamObject = 
+>v beamDensity = 10
+>v speed = 160
+>v headTransform = TracerHead (UnityEngine.Transform)
+>v tailTransform = TracerTail (UnityEngine.Transform)
+>v length = 14
+>v reverse = False
+>v onTailReachedDestination = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v startPos = (0.0, 0.0, 0.0)
+>v endPos = (0.0, 0.0, 0.0)
+>v distanceTraveled = 0
+>v totalDistance = 0
+>v normal = (0.0, 0.0, 0.0)
+
+> UnityEngine.LineRenderer
+>v numPositions = 2
+>v startWidth = 0,2
+>v endWidth = 0,2
+>v widthMultiplier = 2
+>v numCornerVertices = 0
+>v numCapVertices = 0
+>v useWorldSpace = True
+>v loop = False
+>v startColor = RGBA(0.122, 0.000, 0.451, 1.000)
+>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>v positionCount = 2
+>v shadowBias = 0
+>v generateLightingData = False
+>v textureMode = Stretch
+>v alignment = View
+>v widthCurve = UnityEngine.AnimationCurve
+>v colorGradient = UnityEngine.Gradient
+
+> BeamPointsFromTransforms
+>v target = TracerCommandoShotgun (UnityEngine.LineRenderer)
+>v pointTransforms = UnityEngine.Transform[]
+
+> RoR2.EventFunctions
+
+> RoR2.DetachTrailOnDestroy
+>v targetTrailRenderers = UnityEngine.TrailRenderer[]
+
+>GameObject Children 0 StartTransform
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 2
+>>v startWidth = 0,2
+>>v endWidth = 0,2
+>>v widthMultiplier = 0,2
+>>v numCornerVertices = 0
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>v positionCount = 2
+>>v shadowBias = 0,5
+>>v generateLightingData = False
+>>v textureMode = Stretch
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> LineBetweenTransforms
+>>v _transformNodes = UnityEngine.Transform[]
+>>v lineRenderer = 
+>>v vertexList = UnityEngine.Vector3[]
+>>v transformNodes = UnityEngine.Transform[]
+
+>> RoR2.AnimateShaderAlpha
+>>v alphaCurve = UnityEngine.AnimationCurve
+>>v targetRenderer = 
+>>v _propBlock = 
+>>v materials = 
+>>v timeMax = 1
+>>v decal = 
+>>v pauseTime = False
+>>v destroyOnEnd = True
+>>v disableOnEnd = False
+>>v time = 0
+>>v initialFade = 0
+
+>> RoR2.EventFunctions
+
+>GameObject Children 1 TracerTail
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.TrailRenderer
+>>v numPositions = 0
+>>v time = 0,1
+>>v startWidth = 0,2
+>>v endWidth = 0,2
+>>v widthMultiplier = 0,2
+>>v autodestruct = True
+>>v emitting = True
+>>v numCornerVertices = 0
+>>v numCapVertices = 0
+>>v minVertexDistance = 0,1
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>v positionCount = 0
+>>v shadowBias = 0,5
+>>v generateLightingData = False
+>>v textureMode = Stretch
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>GameObject Children 2 TracerHead
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,285 @@
+Key Path : RoR2/Base/Bison/mdlBison.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlBison
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = True
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = True
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlBisonAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 BisonArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Base
+
+>>>> transform = p: (0.0, 2.0, -0.1) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 pelvis
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (284.1, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Tail.1
+
+>>>>>> transform = p: (0.0, 1.2, 0.2) r: (305.2, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Tail.2
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (340.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Tail.3
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (349.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Tail.4
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (3.7, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Tail.4_end
+
+>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (3.7, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 thigh.b.l
+
+>>>>>> transform = p: (-0.6, 0.7, 0.0) r: (345.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 calf.b.l
+
+>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (319.6, 180.1, 180.1) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 foot.b.l
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (315.7, 0.0, 180.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 toe.b.l
+
+>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (305.5, 360.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.b.l_end
+
+>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (305.5, 360.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 thigh.b.r
+
+>>>>>> transform = p: (0.6, 0.7, 0.0) r: (345.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 calf.b.r
+
+>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (319.6, 179.9, 179.9) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 foot.b.r
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (315.7, 0.0, 179.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 toe.b.r
+
+>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (305.5, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.b.r_end
+
+>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (305.5, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 stomach
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (299.7, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 chest
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (299.6, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 JiggleMane1.l
+
+>>>>>>> transform = p: (0.4, 1.2, -0.5) r: (16.2, 91.5, 185.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 JiggleMane1.l_end
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (16.2, 91.5, 185.2) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 JiggleMane1.r
+
+>>>>>>> transform = p: (-0.4, 1.2, -0.5) r: (16.2, 268.5, 174.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 JiggleMane1.r_end
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (16.2, 268.5, 174.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 JiggleMane2.l
+
+>>>>>>> transform = p: (0.2, 1.4, -0.9) r: (1.9, 90.2, 185.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 JiggleMane2.l_end
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (1.9, 90.2, 185.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 3 JiggleMane2.r
+
+>>>>>>> transform = p: (-0.2, 1.4, -0.9) r: (1.9, 269.8, 175.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 JiggleMane2.r_end
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (1.9, 269.8, 175.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 4 neck
+
+>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (273.7, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 head
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (296.1, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 head_end
+
+>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (296.1, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 5 thigh.f.l
+
+>>>>>>> transform = p: (0.6, 0.3, 0.1) r: (340.7, 179.5, 188.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 calf.f.l
+
+>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (3.0, 181.3, 177.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 foot.f.l
+
+>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (326.3, 358.5, 188.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.f.l
+
+>>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (317.4, 354.5, 183.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 toe.f.l_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (317.4, 354.5, 183.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 6 thigh.f.r
+
+>>>>>>> transform = p: (-0.6, 0.3, 0.1) r: (340.7, 180.5, 171.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 calf.f.r
+
+>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (3.0, 178.7, 182.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 foot.f.r
+
+>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (326.3, 1.5, 171.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.f.r
+
+>>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (317.4, 5.5, 176.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 toe.f.r_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (317.4, 5.5, 176.3) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 JiggleStomach.1.l
+
+>>>>>> transform = p: (0.4, 0.0, -0.3) r: (358.3, 90.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 JiggleStomach.1.l_end
+
+>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (358.3, 90.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 JiggleStomach.1.r
+
+>>>>>> transform = p: (-0.4, 0.0, -0.3) r: (358.3, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 JiggleStomach.1.r_end
+
+>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (358.3, 270.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 FootControl.b.l
+
+>>>> transform = p: (-0.6, 0.0, -0.7) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 HelperToe.b.l
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 HelperToe.b.l_end
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 IKToeTarget.b.l
+
+>>>>> transform = p: (0.0, -0.1, 0.2) r: (337.0, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKToePole.b.l
+
+>>>>>> transform = p: (0.0, -0.9, -1.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKToePole.b.l_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 FootControl.b.r
+
+>>>> transform = p: (0.6, 0.0, -0.7) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 HelperToe.b.r
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 HelperToe.b.r_end
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 IKToeTarget.b.r
+
+>>>>> transform = p: (0.0, -0.1, 0.2) r: (337.0, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKToePole.b.r
+
+>>>>>> transform = p: (0.0, -0.9, -1.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKToePole.b.r_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 FootControl.f.l
+
+>>>> transform = p: (-0.7, 0.0, 0.8) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 HelperToe.f.l
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (1.1, 294.6, 358.3) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 HelperToe.f.l_end
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.1, 294.6, 358.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 IKToeTarget.f.l
+
+>>>>> transform = p: (0.0, 0.0, 0.3) r: (359.8, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKToePole.f.l
+
+>>>>>> transform = p: (0.0, -0.6, -1.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKToePole.f.l_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 4 FootControl.f.r
+
+>>>> transform = p: (0.7, 0.0, 0.8) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 HelperToe.f.r
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (1.1, 65.4, 1.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 HelperToe.f.r_end
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.1, 65.4, 1.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 IKToeTarget.f.r
+
+>>>>> transform = p: (0.0, 0.0, 0.3) r: (359.8, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKToePole.f.r
+
+>>>>>> transform = p: (0.0, -0.6, -1.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKToePole.f.r_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 BisonHairMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = BisonHairMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 1.6, 0.4), Extents: (1.3, 1.6, 2.1)
+
+>GameObject Children 2 BisonMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = BisonMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 1.6, 0.6), Extents: (1.2, 1.7, 2.3)

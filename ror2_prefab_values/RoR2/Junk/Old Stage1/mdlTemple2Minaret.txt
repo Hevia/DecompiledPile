@@ -1,0 +1,63 @@
+Key Path : RoR2/Junk/Old Stage1/mdlTemple2Minaret.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlTemple2Minaret
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animation
+>v clip = HugeSphereArmature|BigSphereSpin (UnityEngine.AnimationClip)
+>v playAutomatically = True
+>v wrapMode = Default
+>v isPlaying = False
+>v animatePhysics = False
+>v animateOnlyIfVisible = True
+>v cullingType = BasedOnRenderers
+>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)
+
+>GameObject Children 0 HugeSphereArmature
+
+>> transform = p: (0.1, 94.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Base
+
+>>> transform = p: (0.0, 0.0, -12.5) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Center
+
+>>>> transform = p: (0.0, 12.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Center_end
+
+>>>>> transform = p: (0.0, 6.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 Link1
+
+>>>> transform = p: (0.0, 12.5, 0.0) r: (31.0, 295.1, 227.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Link2
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (10.4, 313.0, 323.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Link3
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (37.2, 37.1, 274.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Link4
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (315.9, 30.5, 5.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Link4_end
+
+>>>>>>>> transform = p: (0.0, 7.6, 0.0) r: (315.9, 30.5, 5.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 MinaretMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MinaretMesh (UnityEngine.Mesh)
+>>v mesh = MinaretMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 Sphere.001
+
+>> transform = p: (0.1, 94.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Base (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = Sphere.001 (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 10.8, 0.0), Extents: (9.2, 10.5, 8.2)

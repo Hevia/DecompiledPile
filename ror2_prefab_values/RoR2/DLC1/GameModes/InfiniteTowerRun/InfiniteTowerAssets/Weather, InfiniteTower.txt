@@ -1,0 +1,3077 @@
+Key Path : RoR2/DLC1/GameModes/InfiniteTowerRun/InfiniteTowerAssets/Weather, InfiniteTower.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : Weather, InfiniteTower
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 PP + Amb
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>>v sharedProfile = ppSceneITSafe (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>>v isGlobal = True
+>>v blendDistance = 0
+>>v weight = 1
+>>v priority = 30
+>>v m_PreviousLayer = 0
+>>v m_PreviousPriority = 0
+>>v m_TempColliders = 
+>>v m_InternalProfile = 
+>>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+>> RoR2.SetAmbientLight
+>>v setSkyboxMaterial = True
+>>v setAmbientLightColor = True
+>>v skyboxMaterial = matSkyboxInfiniteTower (UnityEngine.Material)
+>>v ambientMode = Flat
+>>v ambientIntensity = 1,5
+>>v ambientSkyColor = RGBA(0.436, 0.432, 0.632, 1.000)
+>>v ambientEquatorColor = RGBA(0.000, 0.000, 0.000, 1.000)
+>>v ambientGroundColor = RGBA(0.000, 0.000, 0.000, 1.000)
+
+>GameObject Children 1 FX
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 CameraRelative
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Weather (Locked Position/Rotation)
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> RoR2.WeatherParticles
+>>>>v resetPositionToZero = False
+>>>>v lockPosition = True
+>>>>v lockRotation = True
+>>>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>>>>GameObject Children 0 Embers
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>v alignment = View
+>>>>>v renderMode = Billboard
+>>>>>v sortMode = None
+>>>>>v lengthScale = 2
+>>>>>v velocityScale = 0
+>>>>>v cameraVelocityScale = 0
+>>>>>v normalDirection = 1
+>>>>>v shadowBias = 0
+>>>>>v sortingFudge = 0
+>>>>>v minParticleSize = 0
+>>>>>v maxParticleSize = 0,02
+>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>v maskInteraction = None
+>>>>>v trailMaterial = 
+>>>>>v enableGPUInstancing = True
+>>>>>v allowRoll = True
+>>>>>v mesh = 
+>>>>>v meshCount = 0
+>>>>>v activeVertexStreamsCount = 4
+
+>>>>> UnityEngine.ParticleSystem
+>>>>>v startDelay = 0
+>>>>>v loop = True
+>>>>>v playOnAwake = True
+>>>>>v duration = 5
+>>>>>v playbackSpeed = 1
+>>>>>v enableEmission = True
+>>>>>v emissionRate = 20
+>>>>>v startSpeed = 0
+>>>>>v startSize = 0,4
+>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>v startRotation = 0
+>>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>>v startLifetime = 6
+>>>>>v gravityModifier = 0
+>>>>>v maxParticles = 1000
+>>>>>v simulationSpace = World
+>>>>>v scalingMode = Local
+>>>>>v automaticCullingEnabled = False
+>>>>>v isPlaying = False
+>>>>>v isEmitting = False
+>>>>>v isStopped = True
+>>>>>v isPaused = False
+>>>>>v particleCount = 0
+>>>>>v time = 0
+>>>>>v randomSeed = 0
+>>>>>v useAutoRandomSeed = True
+>>>>>v proceduralSimulationSupported = False
+>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>> MaintainRotation
+>>>>>v eulerAngles = (-90.0, 0.0, 0.0)
+
+>>>>GameObject Children 1 Dust
+
+>>>>> transform = p: (0.0, -0.2, -0.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.ParticleSystem
+>>>>>v startDelay = 0
+>>>>>v loop = True
+>>>>>v playOnAwake = True
+>>>>>v duration = 5
+>>>>>v playbackSpeed = 1
+>>>>>v enableEmission = True
+>>>>>v emissionRate = 5
+>>>>>v startSpeed = 0
+>>>>>v startSize = 10
+>>>>>v startColor = RGBA(0.000, 0.000, 0.000, 1.000)
+>>>>>v startRotation = 6,283185
+>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>v startLifetime = 3
+>>>>>v gravityModifier = 0
+>>>>>v maxParticles = 200
+>>>>>v simulationSpace = World
+>>>>>v scalingMode = Local
+>>>>>v automaticCullingEnabled = False
+>>>>>v isPlaying = False
+>>>>>v isEmitting = False
+>>>>>v isStopped = True
+>>>>>v isPaused = False
+>>>>>v particleCount = 0
+>>>>>v time = 0
+>>>>>v randomSeed = 0
+>>>>>v useAutoRandomSeed = True
+>>>>>v proceduralSimulationSupported = False
+>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>v alignment = View
+>>>>>v renderMode = Billboard
+>>>>>v sortMode = None
+>>>>>v lengthScale = 2
+>>>>>v velocityScale = 0,1
+>>>>>v cameraVelocityScale = 0
+>>>>>v normalDirection = 1
+>>>>>v shadowBias = 0
+>>>>>v sortingFudge = 0
+>>>>>v minParticleSize = 0
+>>>>>v maxParticleSize = 0,02
+>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>v maskInteraction = None
+>>>>>v trailMaterial = 
+>>>>>v enableGPUInstancing = False
+>>>>>v allowRoll = True
+>>>>>v mesh = 
+>>>>>v meshCount = 0
+>>>>>v activeVertexStreamsCount = 4
+
+>>>>> RoR2.WeatherParticles
+>>>>>v resetPositionToZero = False
+>>>>>v lockPosition = True
+>>>>>v lockRotation = False
+>>>>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>>>>GameObject Children 2 GiantDust?
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>v alignment = View
+>>>>>v renderMode = Billboard
+>>>>>v sortMode = None
+>>>>>v lengthScale = 2
+>>>>>v velocityScale = 0
+>>>>>v cameraVelocityScale = 0
+>>>>>v normalDirection = 1
+>>>>>v shadowBias = 0
+>>>>>v sortingFudge = 0
+>>>>>v minParticleSize = 0
+>>>>>v maxParticleSize = 1
+>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>v maskInteraction = None
+>>>>>v trailMaterial = 
+>>>>>v enableGPUInstancing = True
+>>>>>v allowRoll = True
+>>>>>v mesh = 
+>>>>>v meshCount = 0
+>>>>>v activeVertexStreamsCount = 4
+
+>>>>> UnityEngine.ParticleSystem
+>>>>>v startDelay = 0
+>>>>>v loop = True
+>>>>>v playOnAwake = True
+>>>>>v duration = 5
+>>>>>v playbackSpeed = 1
+>>>>>v enableEmission = True
+>>>>>v emissionRate = 6
+>>>>>v startSpeed = 20
+>>>>>v startSize = 20
+>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>v startRotation = 6,283185
+>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>v startLifetime = 2
+>>>>>v gravityModifier = 0
+>>>>>v maxParticles = 10
+>>>>>v simulationSpace = World
+>>>>>v scalingMode = Local
+>>>>>v automaticCullingEnabled = False
+>>>>>v isPlaying = False
+>>>>>v isEmitting = False
+>>>>>v isStopped = True
+>>>>>v isPaused = False
+>>>>>v particleCount = 0
+>>>>>v time = 0
+>>>>>v randomSeed = 0
+>>>>>v useAutoRandomSeed = True
+>>>>>v proceduralSimulationSupported = False
+>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>GameObject Children 1 Dust
+
+>>>> transform = p: (0.0, -1.9, -0.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 25
+>>>>v startSpeed = 0
+>>>>v startSize = 19
+>>>>v startColor = RGBA(0.247, 0.472, 0.678, 1.000)
+>>>>v startRotation = 6,283185
+>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>v startLifetime = 3
+>>>>v gravityModifier = -0,1
+>>>>v maxParticles = 200
+>>>>v simulationSpace = World
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0,1
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,003
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = False
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>>> RoR2.WeatherParticles
+>>>>v resetPositionToZero = False
+>>>>v lockPosition = True
+>>>>v lockRotation = False
+>>>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>>>GameObject Children 2 Skybox Sphere
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (6000.0, 6000.0, 6000.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.WeatherParticles
+>>>>v resetPositionToZero = False
+>>>>v lockPosition = True
+>>>>v lockRotation = False
+>>>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>>GameObject Children 1 Quad
+
+>>> transform = p: (0.0, -503.0, 0.0) r: (90.0, 30.0, 0.0) s: (99972.2, 99972.1, 99972.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 2 Directional Light
+
+>> transform = p: (0.0, -539.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Directional
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.933, 0.649, 0.991, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 3
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 10
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = Soft
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 200
+>>v cookie = crtexVoidSunCaustics (UnityEngine.CustomRenderTexture)
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>> NGSS_Directional
+>>v NGSS_KEEP_ONDISABLE = True
+>>v NGSS_NO_UPDATE_ON_PLAY = False
+>>v NGSS_SHADOWS_RESOLUTION = UseQualitySettings
+>>v NGSS_SAMPLING_TEST = 16
+>>v NGSS_SAMPLING_FILTER = 48
+>>v NGSS_SAMPLING_DISTANCE = 75
+>>v NGSS_SHADOWS_SOFTNESS = 3
+>>v NGSS_PCSS_ENABLED = True
+>>v NGSS_PCSS_SOFTNESS_NEAR = 2
+>>v NGSS_PCSS_SOFTNESS_FAR = 2
+>>v NGSS_NOISE_TO_DITHERING_SCALE = 0
+>>v NGSS_NOISE_TEXTURE = BlueNoise_R8_8 (UnityEngine.Texture2D)
+>>v NGSS_DENOISER_ENABLED = True
+>>v NGSS_DENOISER_ITERATIONS = 2
+>>v NGSS_DENOISER_BLUR = 0,25
+>>v NGSS_DENOISER_EDGE_TOLERANCE = 0,5
+>>v NGSS_RECEIVER_PLANE_BIAS = False
+>>v NGSS_CASCADES_BLENDING = True
+>>v NGSS_CASCADES_BLENDING_VALUE = 1
+>>v NGSS_CASCADES_SOFTNESS_NORMALIZATION = 1
+>>v isSetup = False
+>>v isInitialized = False
+>>v isGraphicSet = False
+>>v _DirLight = 
+
+>GameObject Children 3 FOLIAGE: Skybox Kelp Trees
+
+>> transform = p: (-1449.0, -1984.0, -124.0) r: (0.0, 0.0, 0.0) s: (2.2, 2.2, 2.2)
+>>GameObject Children 0 spmArenaKelpTree
+
+>>> transform = p: (276.0, 0.0, 491.0) r: (354.7, 324.6, 9.6) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.7, 324.6, 9.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.7, 324.6, 9.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.7, 324.6, 9.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.7, 324.6, 9.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 1 spmArenaKelpTree (2)
+
+>>> transform = p: (543.0, 0.0, 836.0) r: (0.0, 248.5, 0.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 248.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 248.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 248.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 248.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 2 spmArenaKelpTree (3)
+
+>>> transform = p: (734.0, 0.0, 734.0) r: (0.0, 278.5, 0.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 278.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 278.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 278.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 278.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 3 spmArenaKelpTree (6)
+
+>>> transform = p: (-131.0, 0.0, 694.0) r: (0.1, 229.8, 6.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 229.8, 6.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 229.8, 6.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 229.8, 6.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 229.8, 6.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 4 spmArenaKelpTree (7)
+
+>>> transform = p: (-136.0, 0.0, 1095.0) r: (0.1, 162.0, 6.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 162.0, 6.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 162.0, 6.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 162.0, 6.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 162.0, 6.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 5 spmArenaKelpTree (8)
+
+>>> transform = p: (-68.0, 0.0, 554.0) r: (6.3, 249.2, 24.7) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.3, 249.2, 24.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.3, 249.2, 24.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.3, 249.2, 24.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (6.3, 249.2, 24.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 6 spmArenaKelpTree (10)
+
+>>> transform = p: (390.0, 0.0, 797.0) r: (4.8, 206.7, 9.2) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 206.7, 9.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 206.7, 9.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 206.7, 9.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 206.7, 9.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 7 spmArenaKelpTree (11)
+
+>>> transform = p: (-73.0, 0.0, 955.0) r: (15.7, 193.4, 1.1) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (15.7, 193.4, 1.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (15.7, 193.4, 1.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (15.7, 193.4, 1.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (15.7, 193.4, 1.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 8 spmArenaKelpTree (13)
+
+>>> transform = p: (737.0, 0.0, 316.0) r: (0.2, 206.3, 11.1) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.2, 206.3, 11.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.2, 206.3, 11.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.2, 206.3, 11.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.2, 206.3, 11.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 9 spmArenaKelpTree (14)
+
+>>> transform = p: (398.0, 0.0, -22.0) r: (0.0, 202.9, 0.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 202.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 202.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 202.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 202.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 10 spmArenaKelpTree (15)
+
+>>> transform = p: (393.0, 0.0, 379.0) r: (4.8, 134.9, 4.2) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 134.9, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 134.9, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 134.9, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 134.9, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 11 spmArenaKelpTree (17)
+
+>>> transform = p: (337.0, 17.0, 339.0) r: (4.8, 164.9, 4.2) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 164.9, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 164.9, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 164.9, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 164.9, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 12 spmArenaKelpTree (18)
+
+>>> transform = p: (805.0, 0.0, -225.0) r: (0.1, 304.0, 5.9) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 304.0, 5.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 304.0, 5.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 304.0, 5.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 304.0, 5.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 13 spmArenaKelpTree (19)
+
+>>> transform = p: (1072.0, 0.0, 120.0) r: (0.0, 221.2, 0.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 221.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 221.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 221.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 221.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 14 spmArenaKelpTree (21)
+
+>>> transform = p: (800.0, 0.0, 176.0) r: (0.0, 236.7, 0.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 236.7, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 236.7, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 236.7, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 236.7, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 15 spmArenaKelpTree (22)
+
+>>> transform = p: (461.0, 0.0, -162.0) r: (4.8, 232.6, 4.2) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 232.6, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 232.6, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 232.6, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.8, 232.6, 4.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 16 spmArenaKelpTree (24)
+
+>>> transform = p: (-184.6, 276.5, 154.5) r: (0.0, 260.2, 0.0) s: (6.0, 6.8, 6.8)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 260.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (-4.0, -33.2, 4.5) r: (0.0, 260.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 260.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 260.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 17 spmArenaKelpTree (26)
+
+>>> transform = p: (-273.0, 0.0, 651.0) r: (0.0, 182.6, 0.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 18 spmArenaKelpTree (27)
+
+>>> transform = p: (-498.0, 0.0, 427.0) r: (0.0, 182.6, 5.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 5.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 5.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 5.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 5.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 19 spmArenaKelpTree (29)
+
+>>> transform = p: (-265.0, 0.0, -108.0) r: (0.0, 182.6, 0.0) s: (6.0, 13.5, 13.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 46.5, 0.0)
+>>>v size = 97,68597
+>>>v lodCount = 4
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmArenaKelpTree_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmArenaKelpTree_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmArenaKelpTree_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmArenaKelpTree_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmArenaKelpTree_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 182.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmArenaKelpTree_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = spmArenaKelpTree_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>GameObject Children 4 VoidArena Distant Planets
+
+>> transform = p: (23.1, 0.0, -123.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Slow
+>>v _slowRotationSpeed = 0,35
+>>v _fastRotationSpeed = 20
+>>v _rotateAroundAxis = Y
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Slow
+>>v slowRotationSpeed = 0,35
+>>v fastRotationSpeed = 20
+>>v rotateAroundAxis = Y
+>>v relativeTo = Self
+>>v reverse = False
+
+>>GameObject Children 0 DistantPlanet_AncientLoft1
+
+>>> transform = p: (-1972.1, 0.0, -1108.6) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 mdlancientloft_decimated
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlancientloft_decimated (UnityEngine.Mesh)
+>>>>v mesh = mdlancientloft_decimated Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,3
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,3
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>>GameObject Children 1 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 DistantPlanet_AncientLoft2
+
+>>> transform = p: (-1642.0, 1777.0, 842.0) r: (0.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 mdlancientloft_decimated2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlancientloft_decimated2 (UnityEngine.Mesh)
+>>>>v mesh = mdlancientloft_decimated2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,2
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,2
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>>GameObject Children 1 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 DistantPlanet_DampCave
+
+>>> transform = p: (2021.0, -246.0, -1658.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>GameObject Children 0 mdlDampCaveDecimated
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 152.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlDampCaveDecimated (UnityEngine.Mesh)
+>>>>v mesh = mdlDampCaveDecimated Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,3
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,3
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>>GameObject Children 1 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 DistantPlanet_FrozenWall
+
+>>> transform = p: (1317.0, -507.0, 1385.0) r: (0.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 mdlFrozenWallDecimated
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlFrozenWallDecimated (UnityEngine.Mesh)
+>>>>v mesh = mdlFrozenWallDecimated Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,35
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,35
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>>GameObject Children 1 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 DistantPlanet_GolemPlains
+
+>>> transform = p: (2213.0, 1642.0, 230.0) r: (0.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 mdlGolemplainsDecimated
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (343.2, 55.5, 49.3) s: (0.0, 0.0, 0.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlGolemplainsDecimated (UnityEngine.Mesh)
+>>>>v mesh = mdlGolemplainsDecimated Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,3
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,3
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>>GameObject Children 1 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 5 DistantPlanet_GooLake
+
+>>> transform = p: (1312.0, 788.0, -2064.0) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>>GameObject Children 0 mdlGoolakeDecimated
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 103.8, 0.0) s: (4.0, 4.0, 4.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlGoolakeDecimated (UnityEngine.Mesh)
+>>>>v mesh = mdlGoolakeDecimated Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,3
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,3
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>>GameObject Children 1 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 6 DistantPlanet_SkyMeadow
+
+>>> transform = p: (-1062.0, 613.0, 2182.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlSkymeadowDecimated
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlSkymeadowDecimated (UnityEngine.Mesh)
+>>>>v mesh = mdlSkymeadowDecimated Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,25
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,25
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>GameObject Children 7 DistantPlanet_SpecialBeautiful
+
+>>> transform = p: (2322.0, 0.0, 649.0) r: (0.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlSpecialDistantPlanetBeautiful
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (8306.8, 8306.8, 8306.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlSpecialDistantPlanetBeautiful (UnityEngine.Mesh)
+>>>>v mesh = mdlSpecialDistantPlanetBeautiful Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,38
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,38
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>GameObject Children 8 DistantPlanet_SpecialDream
+
+>>> transform = p: (304.0, 0.0, 2604.0) r: (0.0, 177.2, 0.0) s: (0.5, 0.5, 0.5)
+>>>GameObject Children 0 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 210.7, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlSpecialDistantPlanetDream
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 177.2, 0.0) s: (100.0, 100.0, 100.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlSpecialDistantPlanetDream (UnityEngine.Mesh)
+>>>>v mesh = mdlSpecialDistantPlanetDream Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 9 DistantPlanet_SpecialFD
+
+>>> transform = p: (-2422.0, 735.0, 179.0) r: (0.0, 15.7, 0.0) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 49.1, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlSpecialDistantPlanetFD
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 15.7, 0.0) s: (224.6, 224.6, 224.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlSpecialDistantPlanetFD (UnityEngine.Mesh)
+>>>>v mesh = mdlSpecialDistantPlanetFD Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,25
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,25
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>GameObject Children 10 DistantPlanet_SpecialHenge
+
+>>> transform = p: (-833.0, 869.0, -2179.0) r: (0.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+>>>GameObject Children 0 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlSpecialDistantPlanetHenge
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (105.0, 105.0, 105.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlSpecialDistantPlanetHenge (UnityEngine.Mesh)
+>>>>v mesh = mdlSpecialDistantPlanetHenge Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,3
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,3
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>GameObject Children 11 DistantPlanet_SpecialNebStation
+
+>>> transform = p: (-2034.0, 676.0, -904.0) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>>GameObject Children 0 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (270.0, 33.4, 0.0) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlSpecialDistantPlanetNebStation
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (291.6, 179.9, 198.2) s: (100.0, 100.0, 100.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlSpecialDistantPlanetNebStation (UnityEngine.Mesh)
+>>>>v mesh = mdlSpecialDistantPlanetNebStation Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,3
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,3
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>GameObject Children 12 DistantPlanet_SpecialShatteredPlanet
+
+>>> transform = p: (-2806.1, 212.0, -1121.6) r: (0.0, 75.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 mdlOuterSphereSpecial
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (330.7, 345.4, 123.4) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphereSpecial (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphereSpecial Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlSpecialDistantPlanetShattered
+
+>>>> transform = p: (25.2, -13.5, 0.8) r: (270.0, 75.4, 0.0) s: (100.0, 100.0, 100.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlSpecialDistantPlanetShattered (UnityEngine.Mesh)
+>>>>v mesh = mdlSpecialDistantPlanetShattered Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 13 DistantPlanet_SpecialWeirdStation
+
+>>> transform = p: (-2218.0, 0.0, 1436.0) r: (40.4, 254.6, 292.1) s: (0.7, 0.7, 0.7)
+>>>GameObject Children 0 mdlOuterSphere
+
+>>>> transform = p: (0.0, 11.6, 0.0) r: (343.4, 329.8, 346.1) s: (223.0, 223.0, 223.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlOuterSphere (UnityEngine.Mesh)
+>>>>v mesh = mdlOuterSphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlSpecialDistantPlanetWeirdStation
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (343.4, 329.8, 312.6) s: (96.7, 96.7, 96.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlSpecialDistantPlanetWeirdStation (UnityEngine.Mesh)
+>>>>v mesh = mdlSpecialDistantPlanetWeirdStation Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,3
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Z
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,3
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Z
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>GameObject Children 5 Void Whale Center
+
+>> transform = p: (75.3, -60.7, -70.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 VoidWhale
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 1
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Y
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 1
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Y
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>>GameObject Children 0 Offset
+
+>>>> transform = p: (0.0, 0.0, -3000.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 mdlVoidWhaleTempExample
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (33.5, 33.5, 33.5)
+>>>>> UnityEngine.Animator
+>>>>>v isOptimizable = True
+>>>>>v isHuman = False
+>>>>>v hasRootMotion = False
+>>>>>v humanScale = 1
+>>>>>v isInitialized = False
+>>>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v applyRootMotion = False
+>>>>>v linearVelocityBlending = False
+>>>>>v animatePhysics = False
+>>>>>v updateMode = Normal
+>>>>>v hasTransformHierarchy = True
+>>>>>v gravityWeight = 0
+>>>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>>>v bodyRotation = (0.0, 0.0, 254211.0, 0.0)
+>>>>>v stabilizeFeet = False
+>>>>>v layerCount = 0
+>>>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>>>v parameterCount = 0
+>>>>>v feetPivotActive = 0
+>>>>>v pivotWeight = 0
+>>>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>>>v isMatchingTarget = False
+>>>>>v speed = 1
+>>>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v cullingMode = CullUpdateTransforms
+>>>>>v playbackTime = -1
+>>>>>v recorderStartTime = -1
+>>>>>v recorderStopTime = -1
+>>>>>v recorderMode = Offline
+>>>>>v runtimeAnimatorController = animVoidWhale (UnityEngine.AnimatorController)
+>>>>>v hasBoundPlayables = False
+>>>>>v avatar = mdlVoidWhaleAvatar (UnityEngine.Avatar)
+>>>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>>>v layersAffectMassCenter = False
+>>>>>v leftFeetBottomHeight = 0
+>>>>>v rightFeetBottomHeight = 0
+>>>>>v logWarnings = True
+>>>>>v fireEvents = True
+>>>>>v keepAnimatorControllerStateOnDisable = False
+
+>>>>>GameObject Children 0 mdlVoidWhaleBody
+
+>>>>>> transform = p: (0.0, 0.0, -2.3) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleBody (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (-2.0, 1.6, 0.0), Extents: (9.4, 3.1, 3.9)
+
+>>>>>GameObject Children 1 mdlVoidWhaleEyes
+
+>>>>>> transform = p: (-1.7, 1.8, 3.8) r: (270.0, 180.0, 0.0) s: (0.4, 0.3, 0.3)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleEyes (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (3.4, 1.8, 0.0), Extents: (0.7, 0.4, 1.9)
+
+>>>>>GameObject Children 2 mdlVoidWhaleFins
+
+>>>>>> transform = p: (-2.5, 1.5, 0.7) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleFins (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (-3.2, -0.1, 0.0), Extents: (5.6, 2.7, 4.3)
+
+>>>>>GameObject Children 3 VoidWhaleArmature
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 ROOT
+
+>>>>>>> transform = p: (0.0, 0.0, 0.4) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Spine3
+
+>>>>>>>> transform = p: (0.8, 2.9, 0.0) r: (0.0, 0.0, 271.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Spine2
+
+>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 100.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinFront1.L
+
+>>>>>>>>>> transform = p: (-1.8, 1.1, -2.5) r: (5.5, 4.3, 218.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinFront2.L
+
+>>>>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (0.5, 358.3, 230.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinFront3.L
+
+>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (352.5, 342.1, 244.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinFront4.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (351.9, 326.7, 269.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 FinFront1.R
+
+>>>>>>>>>> transform = p: (-1.8, 1.1, 2.5) r: (5.5, 175.6, 141.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinFront2.R
+
+>>>>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (0.5, 181.7, 129.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinFront3.R
+
+>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (352.5, 197.9, 115.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinFront4.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (351.9, 213.3, 90.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 Spine1
+
+>>>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 0.0, 97.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 EyeBack.L
+
+>>>>>>>>>>> transform = p: (-0.6, -0.1, -1.7) r: (1.4, 283.6, 0.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 EyeBack.R
+
+>>>>>>>>>>> transform = p: (-0.6, -0.1, 1.7) r: (1.4, 256.4, 359.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 EyeFront.L
+
+>>>>>>>>>>> transform = p: (-0.9, 0.8, -1.7) r: (1.4, 272.6, 0.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 3 EyeFront.R
+
+>>>>>>>>>>> transform = p: (-0.9, 0.8, 1.7) r: (1.4, 267.4, 359.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 1 Spine4
+
+>>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 0.0, 270.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinMid1.L
+
+>>>>>>>>>> transform = p: (2.4, 1.1, -2.3) r: (357.1, 358.0, 214.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinMid2.L
+
+>>>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (351.7, 352.2, 227.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinMid3.L
+
+>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (346.6, 342.9, 241.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinMid4.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (346.3, 339.8, 265.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 FinMid1.R
+
+>>>>>>>>>> transform = p: (2.4, 1.1, 2.3) r: (357.1, 182.0, 145.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinMid2.R
+
+>>>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (351.7, 187.8, 132.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinMid3.R
+
+>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (346.6, 197.1, 118.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinMid4.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (346.3, 200.2, 94.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 Spine5
+
+>>>>>>>>>> transform = p: (0.0, 1.9, 0.0) r: (0.0, 0.0, 265.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinBack1.L
+
+>>>>>>>>>>> transform = p: (1.4, 2.4, -1.3) r: (357.7, 358.7, 209.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinBack2.L
+
+>>>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (359.6, 0.4, 221.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinBack3.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (1.2, 2.7, 234.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 FinBack4.L
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (3.2, 11.2, 257.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 FinBack1.R
+
+>>>>>>>>>>> transform = p: (1.4, 2.4, 1.3) r: (357.7, 181.3, 150.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinBack2.R
+
+>>>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (359.6, 179.6, 138.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinBack3.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (1.2, 177.3, 125.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 FinBack4.R
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (3.2, 168.8, 102.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 Spine6
+
+>>>>>>>>>>> transform = p: (0.0, 1.9, 0.0) r: (0.0, 0.0, 252.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Spine7
+
+>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 0.0, 245.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Spine8
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (0.0, 0.0, 233.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Spine9
+
+>>>>>>>>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 0.0, 217.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 BackFin1.L
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (1.3, 261.8, 131.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 BackFin2.L
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (338.6, 277.5, 101.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>>GameObject Children 0 BackFin3.L
+
+>>>>>>>>>>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (329.3, 305.4, 75.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 1 BackFin1.R
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (1.3, 278.2, 229.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 BackFin2.R
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (338.6, 262.5, 258.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>>GameObject Children 0 BackFin3.R
+
+>>>>>>>>>>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (329.3, 234.7, 284.8) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 VoidWhale (1)
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 135.0, 13.6) s: (1.0, 1.0, 1.0)
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 1
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Y
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 1
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Y
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>>GameObject Children 0 Offset
+
+>>>> transform = p: (0.0, 0.0, -1000.0) r: (0.0, 135.0, 13.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 mdlVoidWhaleTempExample
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (13.6, 45.0, 0.0) s: (33.5, 33.5, 33.5)
+>>>>> UnityEngine.Animator
+>>>>>v isOptimizable = True
+>>>>>v isHuman = False
+>>>>>v hasRootMotion = False
+>>>>>v humanScale = 1
+>>>>>v isInitialized = False
+>>>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v applyRootMotion = False
+>>>>>v linearVelocityBlending = False
+>>>>>v animatePhysics = False
+>>>>>v updateMode = Normal
+>>>>>v hasTransformHierarchy = True
+>>>>>v gravityWeight = 0
+>>>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>v stabilizeFeet = False
+>>>>>v layerCount = 0
+>>>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>>>v parameterCount = 0
+>>>>>v feetPivotActive = 0
+>>>>>v pivotWeight = 0
+>>>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>>>v isMatchingTarget = False
+>>>>>v speed = 1
+>>>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v cullingMode = CullUpdateTransforms
+>>>>>v playbackTime = -1
+>>>>>v recorderStartTime = -1
+>>>>>v recorderStopTime = -1
+>>>>>v recorderMode = Offline
+>>>>>v runtimeAnimatorController = animVoidWhale (UnityEngine.AnimatorController)
+>>>>>v hasBoundPlayables = False
+>>>>>v avatar = mdlVoidWhaleAvatar (UnityEngine.Avatar)
+>>>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>>>v layersAffectMassCenter = False
+>>>>>v leftFeetBottomHeight = 0
+>>>>>v rightFeetBottomHeight = 0
+>>>>>v logWarnings = True
+>>>>>v fireEvents = True
+>>>>>v keepAnimatorControllerStateOnDisable = False
+
+>>>>>GameObject Children 0 mdlVoidWhaleBody
+
+>>>>>> transform = p: (0.0, 0.0, -2.3) r: (283.6, 45.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleBody (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (-2.0, 1.6, 0.0), Extents: (9.4, 3.1, 3.9)
+
+>>>>>GameObject Children 1 mdlVoidWhaleEyes
+
+>>>>>> transform = p: (-1.7, 1.8, 3.8) r: (283.6, 45.0, 270.0) s: (0.4, 0.3, 0.3)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleEyes (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (3.4, 1.8, 0.0), Extents: (0.7, 0.4, 1.9)
+
+>>>>>GameObject Children 2 mdlVoidWhaleFins
+
+>>>>>> transform = p: (-2.5, 1.5, 0.7) r: (283.6, 45.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleFins (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (-3.2, -0.1, 0.0), Extents: (5.6, 2.7, 4.3)
+
+>>>>>GameObject Children 3 VoidWhaleArmature
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (283.6, 45.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 ROOT
+
+>>>>>>> transform = p: (0.0, 0.0, 0.3) r: (0.0, 315.0, 346.4) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Spine3
+
+>>>>>>>> transform = p: (0.8, 2.9, 0.0) r: (0.0, 135.0, 285.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Spine2
+
+>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 135.0, 112.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinFront1.L
+
+>>>>>>>>>> transform = p: (-1.8, 1.1, -2.5) r: (10.6, 148.2, 231.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinFront2.L
+
+>>>>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (10.6, 148.3, 244.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinFront3.L
+
+>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (6.7, 132.7, 254.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinFront4.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (8.6, 114.0, 274.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 FinFront1.R
+
+>>>>>>>>>> transform = p: (-1.8, 1.1, 2.5) r: (10.6, 301.8, 128.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinFront2.R
+
+>>>>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (10.6, 301.7, 115.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinFront3.R
+
+>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (6.7, 317.3, 105.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinFront4.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (8.6, 336.0, 85.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 Spine1
+
+>>>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 135.0, 109.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 EyeBack.L
+
+>>>>>>>>>>> transform = p: (-0.6, -0.1, -1.7) r: (12.5, 58.9, 3.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 EyeBack.R
+
+>>>>>>>>>>> transform = p: (-0.6, -0.1, 1.7) r: (12.5, 31.1, 356.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 EyeFront.L
+
+>>>>>>>>>>> transform = p: (-0.9, 0.8, -1.7) r: (12.9, 47.7, 0.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 3 EyeFront.R
+
+>>>>>>>>>>> transform = p: (-0.9, 0.8, 1.7) r: (12.9, 42.3, 359.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 1 Spine4
+
+>>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (0.0, 135.0, 285.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinMid1.L
+
+>>>>>>>>>> transform = p: (2.4, 1.1, -2.3) r: (2.3, 137.7, 229.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinMid2.L
+
+>>>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (357.8, 129.4, 241.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinMid3.L
+
+>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (353.2, 112.6, 255.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinMid4.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (355.2, 100.0, 279.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 FinMid1.R
+
+>>>>>>>>>> transform = p: (2.4, 1.1, 2.3) r: (2.3, 312.3, 130.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinMid2.R
+
+>>>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (357.8, 320.6, 118.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinMid3.R
+
+>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (353.2, 337.4, 104.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinMid4.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (355.2, 350.0, 80.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 Spine5
+
+>>>>>>>>>> transform = p: (0.0, 1.9, 0.0) r: (0.0, 135.0, 283.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinBack1.L
+
+>>>>>>>>>>> transform = p: (1.4, 2.4, -1.3) r: (356.7, 131.4, 227.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinBack2.L
+
+>>>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (353.6, 125.9, 240.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinBack3.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (351.6, 119.1, 254.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 FinBack4.L
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (351.5, 119.6, 276.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 FinBack1.R
+
+>>>>>>>>>>> transform = p: (1.4, 2.4, 1.3) r: (356.7, 318.6, 132.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinBack2.R
+
+>>>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (353.6, 324.1, 119.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinBack3.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (351.6, 330.9, 106.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 FinBack4.R
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (351.5, 330.4, 83.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 Spine6
+
+>>>>>>>>>>> transform = p: (0.0, 1.9, 0.0) r: (0.0, 135.0, 275.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Spine7
+
+>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 135.0, 273.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Spine8
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (0.0, 135.0, 267.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Spine9
+
+>>>>>>>>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 135.0, 250.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 BackFin1.L
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (30.7, 35.5, 126.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 BackFin2.L
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (359.3, 55.4, 105.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>>GameObject Children 0 BackFin3.L
+
+>>>>>>>>>>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (336.5, 89.7, 84.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 1 BackFin1.R
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (30.7, 54.5, 233.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 BackFin2.R
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (359.3, 34.6, 254.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>>GameObject Children 0 BackFin3.R
+
+>>>>>>>>>>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (336.5, 0.3, 275.9) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 VoidWhale (2)
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (359.0, 4.5, 2.8) s: (1.0, 1.0, 1.0)
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 1
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Y
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 1
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Y
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>>GameObject Children 0 Offset
+
+>>>> transform = p: (0.0, 2033.0, -550.0) r: (20.6, 5.6, 3.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 mdlVoidWhaleTempExample
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (2.8, 274.5, 339.3) s: (33.5, 33.5, 33.5)
+>>>>> UnityEngine.Animator
+>>>>>v isOptimizable = True
+>>>>>v isHuman = False
+>>>>>v hasRootMotion = False
+>>>>>v humanScale = 1
+>>>>>v isInitialized = False
+>>>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v applyRootMotion = False
+>>>>>v linearVelocityBlending = False
+>>>>>v animatePhysics = False
+>>>>>v updateMode = Normal
+>>>>>v hasTransformHierarchy = True
+>>>>>v gravityWeight = 0
+>>>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>v stabilizeFeet = False
+>>>>>v layerCount = 0
+>>>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>>>v parameterCount = 0
+>>>>>v feetPivotActive = 0
+>>>>>v pivotWeight = 0
+>>>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>>>v isMatchingTarget = False
+>>>>>v speed = 1
+>>>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v cullingMode = CullUpdateTransforms
+>>>>>v playbackTime = -1
+>>>>>v recorderStartTime = -1
+>>>>>v recorderStopTime = -1
+>>>>>v recorderMode = Offline
+>>>>>v runtimeAnimatorController = animVoidWhale (UnityEngine.AnimatorController)
+>>>>>v hasBoundPlayables = False
+>>>>>v avatar = mdlVoidWhaleAvatar (UnityEngine.Avatar)
+>>>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>>>v layersAffectMassCenter = False
+>>>>>v leftFeetBottomHeight = 0
+>>>>>v rightFeetBottomHeight = 0
+>>>>>v logWarnings = True
+>>>>>v fireEvents = True
+>>>>>v keepAnimatorControllerStateOnDisable = False
+
+>>>>>GameObject Children 0 mdlVoidWhaleBody
+
+>>>>>> transform = p: (0.0, 0.0, -2.3) r: (290.8, 357.1, 187.9) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleBody (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (-2.0, 1.6, 0.0), Extents: (9.4, 3.1, 3.9)
+
+>>>>>GameObject Children 1 mdlVoidWhaleEyes
+
+>>>>>> transform = p: (-1.7, 1.8, 3.8) r: (290.8, 357.1, 187.9) s: (0.4, 0.3, 0.3)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleEyes (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (3.4, 1.8, 0.0), Extents: (0.7, 0.4, 1.9)
+
+>>>>>GameObject Children 2 mdlVoidWhaleFins
+
+>>>>>> transform = p: (-2.5, 1.5, 0.7) r: (290.8, 357.1, 187.9) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = mdlVoidWhaleFins (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (-3.2, -0.1, 0.0), Extents: (5.6, 2.7, 4.3)
+
+>>>>>GameObject Children 3 VoidWhaleArmature
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (290.8, 357.1, 277.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 ROOT
+
+>>>>>>> transform = p: (0.0, 0.0, 0.4) r: (339.4, 185.6, 357.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Spine3
+
+>>>>>>>> transform = p: (0.8, 2.9, 0.0) r: (20.6, 5.6, 274.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Spine2
+
+>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (20.6, 5.6, 103.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinFront1.L
+
+>>>>>>>>>> transform = p: (-1.8, 1.1, -2.5) r: (25.8, 10.7, 223.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinFront2.L
+
+>>>>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (21.2, 3.7, 232.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinFront3.L
+
+>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (13.0, 346.9, 240.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinFront4.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (10.8, 331.5, 260.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 FinFront1.R
+
+>>>>>>>>>> transform = p: (-1.8, 1.1, 2.5) r: (344.7, 180.8, 140.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinFront2.R
+
+>>>>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (340.0, 187.4, 125.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinFront3.R
+
+>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (333.9, 205.8, 105.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinFront4.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (336.6, 222.3, 76.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 Spine1
+
+>>>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (20.6, 5.6, 100.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 EyeBack.L
+
+>>>>>>>>>>> transform = p: (-0.6, -0.1, -1.7) r: (8.8, 286.9, 340.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 EyeBack.R
+
+>>>>>>>>>>> transform = p: (-0.6, -0.1, 1.7) r: (359.3, 261.3, 338.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 EyeFront.L
+
+>>>>>>>>>>> transform = p: (-0.9, 0.8, -1.7) r: (5.1, 276.4, 339.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 3 EyeFront.R
+
+>>>>>>>>>>> transform = p: (-0.9, 0.8, 1.7) r: (3.2, 271.6, 339.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 1 Spine4
+
+>>>>>>>>> transform = p: (0.0, 2.4, 0.0) r: (20.6, 5.6, 273.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 FinMid1.L
+
+>>>>>>>>>> transform = p: (2.4, 1.1, -2.3) r: (17.8, 3.3, 216.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinMid2.L
+
+>>>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (12.5, 357.2, 227.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinMid3.L
+
+>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (7.2, 348.1, 238.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinMid4.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (6.7, 345.1, 260.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 FinMid1.R
+
+>>>>>>>>>> transform = p: (2.4, 1.1, 2.3) r: (336.6, 187.9, 141.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinMid2.R
+
+>>>>>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (331.7, 194.9, 126.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinMid3.R
+
+>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (328.0, 206.1, 108.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinMid4.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (328.3, 209.6, 83.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 Spine5
+
+>>>>>>>>>> transform = p: (0.0, 1.9, 0.0) r: (20.6, 5.6, 268.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 FinBack1.L
+
+>>>>>>>>>>> transform = p: (1.4, 2.4, -1.3) r: (18.4, 4.1, 211.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinBack2.L
+
+>>>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (20.2, 6.0, 224.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinBack3.L
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (21.7, 8.5, 238.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 FinBack4.L
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (22.8, 17.8, 264.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 FinBack1.R
+
+>>>>>>>>>>> transform = p: (1.4, 2.4, 1.3) r: (337.1, 187.1, 147.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 FinBack2.R
+
+>>>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (339.0, 185.2, 135.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 FinBack3.R
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (340.5, 182.7, 123.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 FinBack4.R
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (342.4, 173.7, 103.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 Spine6
+
+>>>>>>>>>>> transform = p: (0.0, 1.9, 0.0) r: (20.6, 5.6, 255.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Spine7
+
+>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (20.6, 5.6, 248.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Spine8
+
+>>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (20.6, 5.6, 236.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Spine9
+
+>>>>>>>>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (20.6, 5.6, 220.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 BackFin1.L
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (1.1, 266.4, 110.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 BackFin2.L
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (345.3, 289.1, 80.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>>GameObject Children 0 BackFin3.L
+
+>>>>>>>>>>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (344.5, 316.6, 59.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 1 BackFin1.R
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (6.8, 281.8, 208.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 BackFin2.R
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (340.2, 275.4, 236.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>>GameObject Children 0 BackFin3.R
+
+>>>>>>>>>>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (321.8, 253.2, 261.1) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,65 @@
+Key Path : RoR2/Base/bazaar/BazaarLightCrystalSmall.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : BazaarLightCrystalSmall
+
+> transform = p: (-3.0, -14.7, 17.0) r: (270.0, 0.0, 0.0) s: (1.9, 1.9, 1.9)
+> UnityEngine.MeshFilter
+>v sharedMesh = BazaarLightCrystallMedium (UnityEngine.Mesh)
+>v mesh = BazaarLightCrystallMedium Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+>GameObject Children 0 Point Light
+
+>> transform = p: (0.0, 0.0, 0.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Point
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.000, 0.953, 0.560, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 16,85
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 2,29
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = None
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>> RoR2.FlickerLight
+>>v light = Point Light (UnityEngine.Light)
+>>v sinWaves = Wave[]
+>>v initialLightIntensity = 0
+>>v stopwatch = 0
+>>v randomPhase = 0

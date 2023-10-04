@@ -1,0 +1,34 @@
+Key Path : RoR2/DLC1/CritGlassesVoid/PickupGlassesVoid.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupGlassesVoid
+
+> transform = p: (-3.0, -138.8, -15.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.2, 0.1, 1.0)
+>v minDistance = 10
+>v maxDistance = 14
+>v cameraDirection = (2.4, -0.5, -9.0)
+
+>GameObject Children 0 mdlGlassesVoid
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (7.3, 7.3, 7.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlCritGlassesVoid (UnityEngine.Mesh)
+>>v mesh = mdlCritGlassesVoid Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (8.6, 70.5, 356.4) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-2.8, 0.5, 8.2) r: (8.6, 70.5, 356.4) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, -2.1) r: (8.6, 70.5, 356.4) s: (1.0, 1.0, 1.0)
+>GameObject Children 4 CameraPosition(Clone)
+
+>> transform = p: (-2.4, 0.5, 6.9) r: (8.6, 70.5, 356.4) s: (1.0, 1.0, 1.0)

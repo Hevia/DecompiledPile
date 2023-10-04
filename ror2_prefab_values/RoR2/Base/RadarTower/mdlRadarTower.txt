@@ -1,0 +1,35 @@
+Key Path : RoR2/Base/RadarTower/mdlRadarTower.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlRadarTower
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 RadarTowerMesh
+
+>> transform = p: (3.2, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RadarTowerMesh (UnityEngine.Mesh)
+>>v mesh = RadarTowerMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 RadarTowerMeshDestroyed
+
+>> transform = p: (-0.1, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RadarTowerMeshDestroyed (UnityEngine.Mesh)
+>>v mesh = RadarTowerMeshDestroyed Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 RadarTowerMeshDestroyedCollision
+
+>> transform = p: (-0.1, 0.0, -2.7) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RadarTowerMeshDestroyedCollision (UnityEngine.Mesh)
+>>v mesh = RadarTowerMeshDestroyedCollision Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

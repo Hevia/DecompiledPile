@@ -1,0 +1,168 @@
+Key Path : RoR2/Junk/Engi/EngiShield.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : EngiShield
+
+> transform = p: (-47.1, 26.4, 25.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.Billboard
+>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]
+
+> AkGameObj
+>v m_listeners = AkGameObjListenerList
+>v isEnvironmentAware = True
+>v isStaticObject = False
+>v m_Collider = 
+>v m_envData = 
+>v m_posData = 
+>v m_positionOffsetData = AkGameObjPositionOffsetData
+>v isRegistered = False
+>v m_posOffsetData = 
+>v AK_NUM_LISTENERS = 8
+>v listenerMask = 1
+>v IsUsingDefaultListeners = True
+>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = True
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = None
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_engi_shift_end
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = 1395092584
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+> RoR2.TemporaryVisualEffect
+>v radius = 1
+>v parentTransform = 
+>v visualTransform = Visual (UnityEngine.Transform)
+>v enterComponents = UnityEngine.MonoBehaviour[]
+>v exitComponents = UnityEngine.MonoBehaviour[]
+>v visualState = Enter
+>v previousVisualState = Enter
+>v healthComponent = 
+
+> RoR2.ObjectScaleCurve
+>v useOverallCurveOnly = False
+>v curveX = UnityEngine.AnimationCurve
+>v curveY = UnityEngine.AnimationCurve
+>v curveZ = UnityEngine.AnimationCurve
+>v overallCurve = UnityEngine.AnimationCurve
+>v timeMax = 0,6
+>v <time>k__BackingField = 0
+>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>v time = 0
+>v baseScale = (0.0, 0.0, 0.0)
+
+> RoR2.ObjectScaleCurve
+>v useOverallCurveOnly = False
+>v curveX = UnityEngine.AnimationCurve
+>v curveY = UnityEngine.AnimationCurve
+>v curveZ = UnityEngine.AnimationCurve
+>v overallCurve = UnityEngine.AnimationCurve
+>v timeMax = 0,6
+>v <time>k__BackingField = 0
+>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>v time = 0
+>v baseScale = (0.0, 0.0, 0.0)
+
+> RoR2.DestroyOnTimer
+>v duration = 1
+>v resetAgeOnDisable = True
+>v age = 0
+
+>GameObject Children 0 Visual
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Mesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (2.3, 2.3, 2.3)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(0.659, 0.775, 0.934, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 6,64
+>>>v bounceIntensity = 1
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 0,68
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>>> RoR2.LightScaleFromParent

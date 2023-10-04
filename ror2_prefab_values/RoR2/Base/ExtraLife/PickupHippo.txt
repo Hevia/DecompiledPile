@@ -1,0 +1,99 @@
+Key Path : RoR2/Base/ExtraLife/PickupHippo.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupHippo
+
+> transform = p: (-3.5, -147.0, 5.8) r: (0.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.2, 0.0, 1.0)
+>v minDistance = 1
+>v maxDistance = 2
+>v cameraDirection = (0.2, 0.0, -0.4)
+
+>GameObject Children 0 mdlHippo
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>>GameObject Children 0 HippoArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ROOT
+
+>>>> transform = p: (0.0, 0.0, -3.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 base
+
+>>>>> transform = p: (0.0, 2.0, -0.7) r: (0.0, 270.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 chest
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 head
+
+>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (16.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ear.l
+
+>>>>>>>> transform = p: (-0.8, 1.3, 0.0) r: (16.2, 0.0, 75.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ear.l_end
+
+>>>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (16.2, 0.0, 75.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 1 ear.r
+
+>>>>>>>> transform = p: (0.8, 1.3, 0.0) r: (16.2, 0.0, 284.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ear.r_end
+
+>>>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (16.2, 0.0, 284.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 2 face
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.8) r: (47.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 face_end
+
+>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (47.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 upper_arm.l
+
+>>>>>>> transform = p: (-1.2, 0.4, 0.0) r: (0.0, 0.0, 148.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 hand.l
+
+>>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 0.0, 166.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 hand.l_end
+
+>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 0.0, 166.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 upper_arm.r
+
+>>>>>>> transform = p: (1.2, 0.4, 0.0) r: (0.0, 0.0, 215.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 hand.r
+
+>>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 0.0, 199.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 hand.r_end
+
+>>>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 0.0, 199.5) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 pelvis
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 foot.l
+
+>>>>>>> transform = p: (-0.8, 1.5, -0.7) r: (66.9, 89.3, 104.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 foot.l_end
+
+>>>>>>>> transform = p: (0.0, 2.0, 0.0) r: (66.9, 89.3, 104.5) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 foot.r
+
+>>>>>>> transform = p: (0.8, 1.5, -0.7) r: (66.9, 268.0, 255.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 foot.r_end
+
+>>>>>>>> transform = p: (0.0, 2.0, 0.0) r: (66.9, 268.0, 255.5) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 HippoMesh
+
+>>> transform = p: (0.0, -1.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.9, 0.9, 0.9)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = HippoMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 2.1, 0.7), Extents: (3.5, 3.7, 2.5)
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 69.5, 0.0) s: (1.3, 1.3, 1.3)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.2, 0.0, 0.5) r: (0.0, 69.5, 0.0) s: (1.3, 1.3, 1.3)

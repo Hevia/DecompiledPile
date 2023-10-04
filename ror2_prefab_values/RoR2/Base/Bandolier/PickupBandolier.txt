@@ -1,0 +1,83 @@
+Key Path : RoR2/Base/Bandolier/PickupBandolier.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBandolier
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.3, 0.0, -1.0)
+>v minDistance = 1,5
+>v maxDistance = 3
+>v cameraDirection = (-0.7, 0.0, -1.1)
+
+>GameObject Children 0 BandolierMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (354.4, 243.8, 131.0) s: (1.6, 1.6, 1.6)
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BandolierMesh (UnityEngine.Mesh)
+>>v mesh = BandolierMesh Instance (UnityEngine.Mesh)
+
+>GameObject Children 1 mdlBandolierShell
+
+>> transform = p: (0.0, -0.2, 0.6) r: (314.4, 295.4, 129.2) s: (0.0, 0.0, 0.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BandolierShell (UnityEngine.Mesh)
+>>v mesh = BandolierShell Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 mdlBandolierShell (1)
+
+>> transform = p: (-0.5, 0.0, 0.4) r: (59.3, 198.2, 133.6) s: (0.0, 0.0, 0.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BandolierShell (UnityEngine.Mesh)
+>>v mesh = BandolierShell Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 mdlBandolierShell (2)
+
+>> transform = p: (-0.3, 0.0, 0.5) r: (336.7, 14.2, 292.3) s: (0.0, 0.0, 0.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BandolierShell (UnityEngine.Mesh)
+>>v mesh = BandolierShell Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 4 mdlBandolierShell (3)
+
+>> transform = p: (0.3, -0.4, 0.0) r: (316.1, 154.4, 320.2) s: (0.0, 0.0, 0.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BandolierShell (UnityEngine.Mesh)
+>>v mesh = BandolierShell Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 5 mdlBandolierShell (4)
+
+>> transform = p: (0.0, -0.4, -0.1) r: (334.4, 304.9, 279.9) s: (0.0, 0.0, 0.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BandolierShell (UnityEngine.Mesh)
+>>v mesh = BandolierShell Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 6 FocusPoint(Clone)
+
+>> transform = p: (-0.1, -0.1, 0.0) r: (0.0, 121.5, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 7 CameraPosition(Clone)
+
+>> transform = p: (0.6, -0.1, 1.1) r: (0.0, 121.5, 0.0) s: (1.0, 1.0, 1.0)

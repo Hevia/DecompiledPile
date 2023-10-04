@@ -1,0 +1,24 @@
+Key Path : RoR2/Base/shipgraveyard/SGSmallGroundStalagmite.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : SGSmallGroundStalagmite
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 1.8, 0.0) r: (270.0, 0.0, 0.0) s: (201.0, 201.0, 477.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = SGSpikeSmallMesh (UnityEngine.Mesh)
+>>v mesh = SGSpikeSmallMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdCrystal (RoR2.SurfaceDef)
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = SGSpikeSmallMesh (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True

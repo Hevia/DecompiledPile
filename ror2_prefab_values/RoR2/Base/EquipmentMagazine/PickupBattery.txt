@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/EquipmentMagazine/PickupBattery.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBattery
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.3, 0.6, -0.5, -0.6)
+>v minDistance = 1
+>v maxDistance = 3
+>v cameraDirection = (-0.5, 1.1, -0.3)
+
+>GameObject Children 0 mdlBattery
+
+>> transform = p: (0.0, 0.0, 0.0) r: (319.4, 72.3, 311.7) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlBattery (UnityEngine.Mesh)
+>>v mesh = mdlBattery Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.3, 0.0) r: (18.9, 192.0, 70.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.5, -0.8, 0.3) r: (18.9, 192.0, 70.0) s: (1.0, 1.0, 1.0)

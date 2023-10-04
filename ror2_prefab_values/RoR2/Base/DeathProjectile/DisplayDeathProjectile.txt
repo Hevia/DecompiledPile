@@ -1,0 +1,240 @@
+Key Path : RoR2/Base/DeathProjectile/DisplayDeathProjectile.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayDeathProjectile
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlDeathProjectileDisplay
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Armature
+
+>>> transform = p: (0.0, 0.0, -0.4) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Bone
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (14.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Bone.001
+
+>>>>> transform = p: (0.0, 0.7, 0.0) r: (350.8, 107.3, 25.2) s: (1.0, 1.0, 1.0)
+>>>>> DynamicBone
+>>>>>v m_Root = Bone (UnityEngine.Transform)
+>>>>>v m_UpdateRate = 60
+>>>>>v m_UpdateMode = Normal
+>>>>>v m_Damping = 0,3
+>>>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Elasticity = 0,1
+>>>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Stiffness = 0,75
+>>>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Inert = 0
+>>>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Radius = 0
+>>>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>>>v m_EndLength = 0
+>>>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>>>v m_Force = (0.0, 0.0, 0.0)
+>>>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>>>v m_FreezeAxis = None
+>>>>>v m_DistantDisable = False
+>>>>>v m_ReferenceObject = 
+>>>>>v m_DistanceToObject = 20
+>>>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>>>v m_BoneTotalLength = 0
+>>>>>v m_ObjectScale = 1
+>>>>>v m_Time = 0
+>>>>>v m_Weight = 1
+>>>>>v m_DistantDisabled = False
+>>>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>>>GameObject Children 0 Bone.001_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (350.8, 107.3, 25.2) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 Bone.002
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (335.1, 44.2, 199.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Bone.008
+
+>>>>> transform = p: (0.0, 0.7, 0.0) r: (335.7, 71.1, 188.5) s: (1.0, 1.0, 1.0)
+>>>>> DynamicBone
+>>>>>v m_Root = Bone.002 (UnityEngine.Transform)
+>>>>>v m_UpdateRate = 60
+>>>>>v m_UpdateMode = Normal
+>>>>>v m_Damping = 0,3
+>>>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Elasticity = 0,1
+>>>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Stiffness = 0,75
+>>>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Inert = 0
+>>>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Radius = 0
+>>>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>>>v m_EndLength = 0
+>>>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>>>v m_Force = (0.0, 0.0, 0.0)
+>>>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>>>v m_FreezeAxis = None
+>>>>>v m_DistantDisable = False
+>>>>>v m_ReferenceObject = 
+>>>>>v m_DistanceToObject = 20
+>>>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>>>v m_BoneTotalLength = 0
+>>>>>v m_ObjectScale = 1
+>>>>>v m_Time = 0
+>>>>>v m_Weight = 1
+>>>>>v m_DistantDisabled = False
+>>>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>>>GameObject Children 0 Bone.008_end
+
+>>>>>> transform = p: (0.0, 0.8, 0.0) r: (335.7, 71.1, 188.5) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 Bone.003
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (329.4, 256.3, 187.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Bone.009
+
+>>>>> transform = p: (0.0, 0.7, 0.0) r: (345.4, 238.5, 190.1) s: (1.0, 1.0, 1.0)
+>>>>> DynamicBone
+>>>>>v m_Root = Bone.003 (UnityEngine.Transform)
+>>>>>v m_UpdateRate = 60
+>>>>>v m_UpdateMode = Normal
+>>>>>v m_Damping = 0,3
+>>>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Elasticity = 0,1
+>>>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Stiffness = 0,75
+>>>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Inert = 0
+>>>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Radius = 0
+>>>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>>>v m_EndLength = 0
+>>>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>>>v m_Force = (0.0, 0.0, 0.0)
+>>>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>>>v m_FreezeAxis = None
+>>>>>v m_DistantDisable = False
+>>>>>v m_ReferenceObject = 
+>>>>>v m_DistanceToObject = 20
+>>>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>>>v m_BoneTotalLength = 0
+>>>>>v m_ObjectScale = 1
+>>>>>v m_Time = 0
+>>>>>v m_Weight = 1
+>>>>>v m_DistantDisabled = False
+>>>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>>>GameObject Children 0 Bone.009_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (345.4, 238.5, 190.1) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 Bone.004
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (285.5, 258.4, 11.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Bone.006
+
+>>>>> transform = p: (0.0, 0.5, 0.0) r: (278.1, 270.2, 358.4) s: (1.0, 1.0, 1.0)
+>>>>> DynamicBone
+>>>>>v m_Root = Bone.004 (UnityEngine.Transform)
+>>>>>v m_UpdateRate = 60
+>>>>>v m_UpdateMode = Normal
+>>>>>v m_Damping = 0,3
+>>>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Elasticity = 0,1
+>>>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Stiffness = 0,75
+>>>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Inert = 0
+>>>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Radius = 0
+>>>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>>>v m_EndLength = 0
+>>>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>>>v m_Force = (0.0, 0.0, 0.0)
+>>>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>>>v m_FreezeAxis = None
+>>>>>v m_DistantDisable = False
+>>>>>v m_ReferenceObject = 
+>>>>>v m_DistanceToObject = 20
+>>>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>>>v m_BoneTotalLength = 0
+>>>>>v m_ObjectScale = 1
+>>>>>v m_Time = 0
+>>>>>v m_Weight = 1
+>>>>>v m_DistantDisabled = False
+>>>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>>>GameObject Children 0 Bone.006_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (278.1, 270.2, 358.4) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 4 Bone.005
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (275.9, 255.3, 196.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Bone.007
+
+>>>>> transform = p: (0.0, 0.6, 0.0) r: (274.6, 255.7, 194.2) s: (1.0, 1.0, 1.0)
+>>>>> DynamicBone
+>>>>>v m_Root = Bone.005 (UnityEngine.Transform)
+>>>>>v m_UpdateRate = 60
+>>>>>v m_UpdateMode = Normal
+>>>>>v m_Damping = 0,3
+>>>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Elasticity = 0,1
+>>>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Stiffness = 0,75
+>>>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Inert = 0
+>>>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Radius = 0
+>>>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>>>v m_EndLength = 0
+>>>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>>>v m_Force = (0.0, 0.0, 0.0)
+>>>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>>>v m_FreezeAxis = None
+>>>>>v m_DistantDisable = False
+>>>>>v m_ReferenceObject = 
+>>>>>v m_DistanceToObject = 20
+>>>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>>>v m_BoneTotalLength = 0
+>>>>>v m_ObjectScale = 1
+>>>>>v m_Time = 0
+>>>>>v m_Weight = 1
+>>>>>v m_DistantDisabled = False
+>>>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>>>GameObject Children 0 Bone.007_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (274.6, 255.7, 194.2) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 DollMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Bone.005 (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = DollMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (-0.7, -0.1, 0.5), Extents: (1.8, 1.5, 2.3)

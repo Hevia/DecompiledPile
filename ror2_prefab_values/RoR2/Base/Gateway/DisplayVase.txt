@@ -1,0 +1,31 @@
+Key Path : RoR2/Base/Gateway/DisplayVase.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayVase
+
+> transform = p: (-114.7, -143.2, -125.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlVase
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>GameObject Children 0 VaseMesh
+
+>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VaseMesh (UnityEngine.Mesh)
+>>>v mesh = VaseMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 VaseStickMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 90.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VaseStickMesh (UnityEngine.Mesh)
+>>>v mesh = VaseStickMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

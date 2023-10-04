@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/GoldGat/PickupGoldGat.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupGoldGat
+
+> transform = p: (-63.2, 24.2, -89.0) r: (0.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 3
+>v maxDistance = 6
+>v cameraDirection = (0.2, 0.0, -4.0)
+
+>GameObject Children 0 mdlCapacitor
+
+>> transform = p: (0.0, 0.0, 0.0) r: (310.7, 71.5, 336.6) s: (2.0, 2.0, 2.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = GoldGatMesh (UnityEngine.Mesh)
+>>v mesh = GoldGatMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 87.2, 0.0) s: (2.5, 2.5, 2.5)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.5, 0.0, 10.0) r: (0.0, 87.2, 0.0) s: (2.5, 2.5, 2.5)

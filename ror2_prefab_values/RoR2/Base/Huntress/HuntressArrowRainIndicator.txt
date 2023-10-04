@@ -1,0 +1,52 @@
+Key Path : RoR2/Base/Huntress/HuntressArrowRainIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : HuntressArrowRainIndicator
+
+> transform = p: (97.3, -160.2, -130.0) r: (0.0, 0.0, 0.0) s: (15.0, 15.0, 15.0)
+>GameObject Children 0 Expander
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = False
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 0,2
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>>GameObject Children 0 Mesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (0.3, 0.3, 1.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = donut3Mesh (UnityEngine.Mesh)
+>>>v mesh = donut3Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 0,5
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = False
+>>>v time = 0
+>>>v initialFade = 0
+
+>>GameObject Children 1 Sphere
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

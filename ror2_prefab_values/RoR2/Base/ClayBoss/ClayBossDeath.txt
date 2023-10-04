@@ -1,0 +1,1342 @@
+Key Path : RoR2/Base/ClayBoss/ClayBossDeath.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ClayBossDeath
+
+> transform = p: (126.3, -66.8, -89.8) r: (0.0, 359.9, 0.0) s: (2.9, 2.9, 2.9)
+> RoR2.EffectComponent
+>v effectIndex = 89
+>v effectData = 
+>v positionAtReferencedTransform = False
+>v parentToReferencedTransform = False
+>v applyScale = False
+>v soundName = 
+>v disregardZScale = False
+>v didResolveReferencedObject = False
+>v referencedObject = 
+>v didResolveReferencedChildTransform = False
+>v referencedChildTransform = 
+>v didResolveReferencedHurtBox = False
+>v referencedHurtBoxGameObject = 
+
+> RoR2.ShakeEmitter
+>v instances = System.Collections.Generic.List`1[RoR2.ShakeEmitter]
+>v shakeOnStart = True
+>v shakeOnEnable = False
+>v wave = Wave
+>v duration = 1
+>v radius = 50
+>v scaleShakeRadiusWithLocalScale = False
+>v amplitudeTimeDecay = True
+>v stopwatch = +Infini
+>v halfPeriodTimer = 0
+>v halfPeriodVector = (0.0, 0.0, 0.0)
+>v currentOffset = (0.0, 0.0, 0.0)
+>v deepRumbleFactor = 5
+
+> RoR2.VFXAttributes
+>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>v vfxPriority = Always
+>v vfxIntensity = High
+>v optionalLights = UnityEngine.Light[]
+>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+> RoR2.Corpse
+>v instancesList = System.Collections.Generic.List`1[RoR2.Corpse]
+>v renderers = 
+>v maxCorpses = 25
+>v disposalMode = OutOfSight
+>v maxChecksPerUpdate = 3
+>v currentCheckIndex = 0
+
+> RoR2.AwakeEvent
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+> RoR2.EntityLogic.DelayedEvent
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v timeStepType = FixedTime
+
+>GameObject Children 0 mdlClayBossShattered
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.ExplodeRigidbodiesOnStart
+>>v bodies = UnityEngine.Rigidbody[]
+>>v force = 500000
+>>v explosionRadius = 300
+
+>>GameObject Children 0 Donuts
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = False
+>>>v playOnAwake = True
+>>>v duration = 3
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 0
+>>>v startSpeed = 8
+>>>v startSize = 0,5
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 6,283185
+>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>v startLifetime = 4
+>>>v gravityModifier = 0,6
+>>>v maxParticles = 30
+>>>v simulationSpace = World
+>>>v scalingMode = Hierarchy
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Mesh
+>>>v sortMode = None
+>>>v lengthScale = 1
+>>>v velocityScale = 0,3
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = ClayBossShatteredDonut (UnityEngine.Mesh)
+>>>v meshCount = 1
+>>>v activeVertexStreamsCount = 5
+
+>>GameObject Children 1 ClayBossShattered_cell
+
+>>> transform = p: (0.1, -1.7, 0.9) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 2 ClayBossShattered_cell.001
+
+>>> transform = p: (-0.8, -1.7, 0.3) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.001 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.001 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 3 ClayBossShattered_cell.002
+
+>>> transform = p: (1.5, 0.1, 0.5) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.002 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.002 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.002 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 4 ClayBossShattered_cell.003
+
+>>> transform = p: (-0.5, -1.7, -0.1) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.003 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.003 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.003 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 5 ClayBossShattered_cell.004
+
+>>> transform = p: (-1.0, 0.2, 1.3) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.004 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.004 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.004 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 6 ClayBossShattered_cell.005
+
+>>> transform = p: (1.1, 0.4, -0.6) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.005 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.005 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.005 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 7 ClayBossShattered_cell.006
+
+>>> transform = p: (0.3, -1.7, 0.2) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.006 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.006 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.006 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 8 ClayBossShattered_cell.007
+
+>>> transform = p: (0.4, -1.7, -0.6) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.007 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.007 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.007 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 9 ClayBossShattered_cell.008
+
+>>> transform = p: (0.4, -0.6, -1.0) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.008 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.008 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.008 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 10 ClayBossShattered_cell.009
+
+>>> transform = p: (0.4, -0.4, -1.0) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.009 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.009 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.009 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 11 ClayBossShattered_cell.010
+
+>>> transform = p: (0.6, -1.4, 0.2) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.010 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.010 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.010 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 12 ClayBossShattered_cell.011
+
+>>> transform = p: (-0.8, -0.4, -0.8) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.011 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.011 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.011 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 13 ClayBossShattered_cell.012
+
+>>> transform = p: (-1.6, -0.5, 0.1) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.012 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.012 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.012 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 14 ClayBossShattered_cell.013
+
+>>> transform = p: (0.4, -1.1, 1.2) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShattered_cell.013 (UnityEngine.Mesh)
+>>>v mesh = ClayBossShattered_cell.013 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShattered_cell.013 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 300
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 15 ClayBossShatteredLid
+
+>>> transform = p: (-0.2, -0.8, 0.1) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossShatteredLid (UnityEngine.Mesh)
+>>>v mesh = ClayBossShatteredLid Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ClayBossShatteredLid (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>GameObject Children 1 Reference Light
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Point
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.993, 0.555, 0.000, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 2,8
+>>v bounceIntensity = 1,47
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 15,45
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = None
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>> LightIntensityCurve
+>>v curve = UnityEngine.AnimationCurve
+>>v timeMax = 2
+>>v time = 0
+>>v light = 
+>>v maxIntensity = 0
+>>v loop = False
+>>v randomStart = False
+>>v enableNegativeLights = False
+
+>GameObject Children 2 Particles
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Flames, Radial
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 179.9, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = False
+>>>v playOnAwake = True
+>>>v duration = 2,5
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 0
+>>>v startSpeed = 0
+>>>v startSize = 2
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 0,4
+>>>v gravityModifier = 0
+>>>v maxParticles = 1
+>>>v simulationSpace = Local
+>>>v scalingMode = Hierarchy
+>>>v automaticCullingEnabled = True
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = True
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = Local
+>>>v renderMode = Mesh
+>>>v sortMode = None
+>>>v lengthScale = 1
+>>>v velocityScale = 0,3
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = donut1Mesh (UnityEngine.Mesh)
+>>>v meshCount = 1
+>>>v activeVertexStreamsCount = 5
+
+>>GameObject Children 1 Flash
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = False
+>>>v playOnAwake = True
+>>>v duration = 2
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 0
+>>>v startSpeed = 0
+>>>v startSize = 20
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 0,1
+>>>v gravityModifier = 0
+>>>v maxParticles = 1
+>>>v simulationSpace = Local
+>>>v scalingMode = Hierarchy
+>>>v automaticCullingEnabled = True
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = True
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = -20
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 2
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 5
+
+>>GameObject Children 2 LightShafts
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = False
+>>>v playOnAwake = True
+>>>v duration = 3
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 0
+>>>v startSpeed = 0
+>>>v startSize = 1
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 0,1
+>>>v gravityModifier = 0
+>>>v maxParticles = 1000
+>>>v simulationSpace = Local
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = True
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = True
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = Local
+>>>v renderMode = Mesh
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = VFXLightShaft (UnityEngine.Mesh)
+>>>v meshCount = 1
+>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 3 Flames
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = False
+>>>v playOnAwake = True
+>>>v duration = 3
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 0
+>>>v startSpeed = 2
+>>>v startSize = 9
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 6,283185
+>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>v startLifetime = 1
+>>>v gravityModifier = 0,6
+>>>v maxParticles = 1000
+>>>v simulationSpace = World
+>>>v scalingMode = Hierarchy
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 1
+>>>v velocityScale = 0,3
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = Sphere (UnityEngine.Mesh)
+>>>v meshCount = 1
+>>>v activeVertexStreamsCount = 5
+
+>>GameObject Children 4 Goo
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = False
+>>>v playOnAwake = True
+>>>v duration = 5
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 0
+>>>v startSpeed = 5
+>>>v startSize = 15
+>>>v startColor = RGBA(0.309, 0.309, 0.309, 1.000)
+>>>v startRotation = 6,283185
+>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>v startLifetime = 2
+>>>v gravityModifier = 0,3
+>>>v maxParticles = 30
+>>>v simulationSpace = World
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 4
+
+>GameObject Children 3 PostProcess
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>>v sharedProfile = ppLocalClayBossDeath (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>>v isGlobal = False
+>>v blendDistance = 24,9
+>>v weight = 1
+>>v priority = 3
+>>v m_PreviousLayer = 0
+>>v m_PreviousPriority = 0
+>>v m_TempColliders = 
+>>v m_InternalProfile = 
+>>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+>> UnityEngine.SphereCollider
+>>v center = (0.0, 0.0, 0.0)
+>>v radius = 27,77
+
+>> RoR2.PostProcessDuration
+>>v ppVolume = PostProcess (UnityEngine.Rendering.PostProcessing.PostProcessVolume)
+>>v ppWeightCurve = UnityEngine.AnimationCurve
+>>v maxDuration = 2
+>>v destroyOnEnd = True
+>>v stopwatch = 0

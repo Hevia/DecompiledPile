@@ -1,0 +1,195 @@
+Key Path : RoR2/Base/Golem/mdlGolem.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlGolem
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = True
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = True
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlGolemAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 golem
+
+>> transform = p: (0.0, -0.9, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = golem (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 2.5, 0.2), Extents: (2.8, 2.7, 1.0)
+
+>GameObject Children 1 GolemArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, -0.9) r: (0.0, 0.0, 0.4) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 armIKtarget.l
+
+>>>> transform = p: (-2.2, 1.5, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 armIKpole.l
+
+>>>>> transform = p: (-2.7, 0.1, 6.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 armIKpole.l_end
+
+>>>>>> transform = p: (0.0, 0.8, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 armIKtarget.r
+
+>>>> transform = p: (2.4, 1.4, -0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 armIKpole.r
+
+>>>>> transform = p: (2.7, 0.1, 6.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 armIKpole.r_end
+
+>>>>>> transform = p: (0.0, 0.8, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 base
+
+>>>> transform = p: (0.0, 2.4, -1.1) r: (88.4, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 pelvis
+
+>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 189.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 thigh.l
+
+>>>>>> transform = p: (-0.6, 0.4, 0.0) r: (353.4, 42.6, 156.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 calf.l
+
+>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (332.1, 222.6, 161.1) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 calf.l_end
+
+>>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (332.1, 222.6, 161.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 thigh.r
+
+>>>>>> transform = p: (0.6, 0.4, 0.0) r: (348.7, 303.0, 209.4) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 calf.r
+
+>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (334.2, 125.7, 196.6) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 calf.r_end
+
+>>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (334.2, 125.7, 196.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 stomach
+
+>>>>> transform = p: (0.0, 1.1, 0.0) r: (359.2, 179.9, 360.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 chest
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (20.1, 359.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 head
+
+>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (14.7, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 head_end
+
+>>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (14.7, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 upper_arm.l
+
+>>>>>>> transform = p: (-1.1, 0.8, 0.0) r: (2.5, 352.9, 116.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 upper_arm.l.001
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (2.5, 352.9, 120.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 upper_arm.l.002
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (2.5, 352.9, 141.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 lower_arm.l
+
+>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (5.3, 83.2, 182.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 hand.l
+
+>>>>>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (359.6, 262.9, 177.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 f1.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (36.4, 261.1, 176.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 f1.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (36.4, 261.1, 176.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 thumb.l
+
+>>>>>>>>>>> transform = p: (0.6, 1.1, 0.2) r: (24.0, 130.1, 199.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumb.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (24.0, 130.1, 199.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 upper_arm.r
+
+>>>>>>> transform = p: (1.1, 0.9, 0.0) r: (3.2, 8.5, 266.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 upper_arm.r.001
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (3.2, 8.5, 243.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 upper_arm.r.002
+
+>>>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (3.2, 8.5, 202.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 lower_arm.r
+
+>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (5.1, 278.2, 176.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 hand.r
+
+>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (358.0, 98.4, 183.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 f1.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (25.8, 100.1, 183.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 f1.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (25.8, 100.1, 183.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 thumb.r
+
+>>>>>>>>>>> transform = p: (-0.6, 0.9, 0.1) r: (28.9, 227.6, 202.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumb.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (28.9, 227.6, 202.5) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 ik-leg.l
+
+>>>> transform = p: (-1.0, 0.1, 0.0) r: (306.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 knee.l
+
+>>>>> transform = p: (-0.9, -1.9, -0.1) r: (272.5, 360.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 knee.l_end
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (272.5, 360.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 4 ik-leg.r
+
+>>>> transform = p: (1.0, 0.1, 0.0) r: (306.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 knee.r
+
+>>>>> transform = p: (0.6, -1.6, 0.1) r: (272.5, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 knee.r_end
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (272.5, 0.0, 180.0) s: (1.0, 1.0, 1.0)

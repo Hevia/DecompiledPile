@@ -1,0 +1,1035 @@
+Key Path : RoR2/Base/Mage/MageDisplay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MageDisplay
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlMage
+
+>> transform = p: (0.0, -0.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 233607.5, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = animMageDisplay (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = mdlMageAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>> DynamicBone
+>>v m_Root = pelvis (UnityEngine.Transform)
+>>v m_UpdateRate = 60
+>>v m_UpdateMode = Normal
+>>v m_Damping = 0,344
+>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>v m_Elasticity = 0,1
+>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>v m_Stiffness = 1
+>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>v m_Inert = 0
+>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>v m_Radius = 0
+>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>v m_EndLength = 0
+>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>v m_Gravity = (0.0, 0.0, 0.0)
+>>v m_Force = (0.0, 0.0, 0.0)
+>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>v m_FreezeAxis = None
+>>v m_DistantDisable = False
+>>v m_ReferenceObject = 
+>>v m_DistanceToObject = 20
+>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>v m_BoneTotalLength = 0
+>>v m_ObjectScale = 1
+>>v m_Time = 0
+>>v m_Weight = 1
+>>v m_DistantDisabled = False
+>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>> RoR2.RTPCController
+>>v akSoundString = Play_mage_m2_shoot
+>>v rtpcString = attackSpeed
+>>v rtpcValue = 100
+>>v useCurveInstead = False
+>>v rtpcValueCurve = UnityEngine.AnimationCurve
+>>v fixedAge = 0
+
+>> RoR2.CharacterModel
+>>v body = 
+>>v itemDisplayRuleSet = idrsMage (RoR2.ItemDisplayRuleSet)
+>>v autoPopulateLightInfos = True
+>>v baseRendererInfos = RoR2.CharacterModel+RendererInfo[]
+>>v baseLightInfos = RoR2.CharacterModel+LightInfo[]
+>>v childLocator = 
+>>v goldAffixEffect = 
+>>v hurtBoxInfos = RoR2.CharacterModel+HurtBoxInfo[]
+>>v coreTransform = 
+>>v hitFlashBaseColor = RGBA(0.757, 0.424, 0.200, 1.000)
+>>v hitFlashShieldColor = RGBA(0.518, 0.624, 1.000, 1.000)
+>>v healFlashColor = RGBA(0.408, 0.769, 0.192, 1.000)
+>>v hitFlashDuration = 0,15
+>>v healFlashDuration = 0,35
+>>v _visibility = Visible
+>>v _isGhost = False
+>>v _isDoppelganger = False
+>>v _isEcho = False
+>>v invisibilityCount = 0
+>>v temporaryOverlays = System.Collections.Generic.List`1[RoR2.TemporaryOverlay]
+>>v materialsDirty = True
+>>v propertyStorage = 
+>>v inventoryEquipmentIndex = None
+>>v myEliteIndex = None
+>>v fade = 1
+>>v firstPersonFade = 1
+>>v mainSkinnedMeshRenderer = 
+>>v poisonEliteLightColor = RGBA(0.353, 1.000, 0.757, 0.800)
+>>v hauntedEliteLightColor = RGBA(0.596, 0.894, 0.851, 0.800)
+>>v lunarEliteLightColor = RGBA(1.000, 1.000, 1.000, 0.498)
+>>v voidEliteLightColor = RGBA(0.592, 0.306, 0.518, 0.800)
+>>v lightColorOverride = 
+>>v particleMaterialOverride = 
+>>v poisonAffixEffect = 
+>>v hauntedAffixEffect = 
+>>v voidAffixEffect = 
+>>v affixHauntedCloakLockoutDuration = 3
+>>v currentEquipmentDisplayIndex = None
+>>v enabledItemDisplays = 
+>>v parentedPrefabDisplays = System.Collections.Generic.List`1[RoR2.CharacterModel+ParentedPrefabDisplay]
+>>v limbMaskDisplays = System.Collections.Generic.List`1[RoR2.CharacterModel+LimbMaskDisplay]
+>>v limbFlagSet = RoR2.CharacterModel+LimbFlagSet
+>>v revealedMaterial = matRevealedEffect (UnityEngine.Material)
+>>v cloakedMaterial = matCloakedEffect (UnityEngine.Material)
+>>v ghostMaterial = matGhostEffect (UnityEngine.Material)
+>>v bellBuffMaterial = matBellBuff (UnityEngine.Material)
+>>v wolfhatMaterial = matWolfhatOverlay (UnityEngine.Material)
+>>v energyShieldMaterial = matEnergyShield (UnityEngine.Material)
+>>v fullCritMaterial = matFullCrit (UnityEngine.Material)
+>>v beetleJuiceMaterial = matBeetleJuice (UnityEngine.Material)
+>>v brittleMaterial = matBrittle (UnityEngine.Material)
+>>v clayGooMaterial = matClayGooDebuff (UnityEngine.Material)
+>>v slow80Material = matSlow80Debuff (UnityEngine.Material)
+>>v immuneMaterial = matImmune (UnityEngine.Material)
+>>v elitePoisonOverlayMaterial = matElitePoisonOverlay (UnityEngine.Material)
+>>v elitePoisonParticleReplacementMaterial = matElitePoisonParticleReplacement (UnityEngine.Material)
+>>v eliteHauntedOverlayMaterial = matEliteHauntedOverlay (UnityEngine.Material)
+>>v eliteJustHauntedOverlayMaterial = matEliteJustHauntedOverlay (UnityEngine.Material)
+>>v eliteHauntedParticleReplacementMaterial = matEliteHauntedParticleReplacement (UnityEngine.Material)
+>>v eliteLunarParticleReplacementMaterial = matEliteLunarParticleReplacement (UnityEngine.Material)
+>>v eliteVoidParticleReplacementMaterial = matEliteVoidParticleReplacement (UnityEngine.Material)
+>>v eliteVoidOverlayMaterial = matEliteVoidOverlay (UnityEngine.Material)
+>>v weakMaterial = matWeakOverlay (UnityEngine.Material)
+>>v pulverizedMaterial = matPulverizedOverlay (UnityEngine.Material)
+>>v doppelgangerMaterial = matDoppelganger (UnityEngine.Material)
+>>v ghostParticleReplacementMaterial = matGhostParticleReplacement (UnityEngine.Material)
+>>v lunarGolemShieldMaterial = matLunarGolemShield (UnityEngine.Material)
+>>v echoMaterial = matEcho (UnityEngine.Material)
+>>v gummyCloneMaterial = matGummyClone (UnityEngine.Material)
+>>v voidSurvivorCorruptMaterial = matVoidSurvivorCorruptOverlay (UnityEngine.Material)
+>>v voidShieldMaterial = matEnergyShieldVoid (UnityEngine.Material)
+>>v maxOverlays = 6
+>>v currentOverlays = UnityEngine.Material[]
+>>v activeOverlayCount = 0
+>>v wasPreviouslyClayGooed = False
+>>v wasPreviouslyHaunted = False
+>>v rtpcEliteEnemy = RoR2.WwiseUtils.RtpcSetter
+>>v shaderEliteRampIndex = -1
+>>v sharedMaterialArrays = UnityEngine.Material[][]
+>>v maxMaterials = 7
+>>v visibility = Visible
+>>v isGhost = False
+>>v isDoppelganger = False
+>>v isEcho = False
+
+>>GameObject Children 0 MageArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 HeelRoll.l
+
+>>>> transform = p: (0.0, 0.4, 0.6) r: (45.8, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKLegPole.l
+
+>>>>> transform = p: (0.0, 1.0, -0.6) r: (318.3, 340.9, 193.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKLegPole.l_end
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (318.3, 340.9, 193.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 ToeRoll.l
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (324.4, 359.8, 0.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootRoll.l
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (354.6, 1.4, 359.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKLegTarget.l
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (314.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKLegTarget.l_end
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (314.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 IKFoot.l
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (44.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKFoot.l_end
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (44.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 ToeControl.l
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (314.2, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKToe.l
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (44.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKToe.l_end
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (44.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 HeelRoll.r
+
+>>>> transform = p: (0.1, 0.3, 0.3) r: (42.1, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKLegPole.r
+
+>>>>> transform = p: (0.0, 1.0, -0.6) r: (321.8, 341.9, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKLegPole.r_end
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (321.8, 341.9, 191.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 ToeRoll.l.002
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (328.2, 359.8, 0.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootRoll.r
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (358.3, 1.4, 360.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKLegTarget.r
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (317.9, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKLegTarget.r_end
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (317.9, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 IKFoot.r
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (47.9, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKFoot.r_end
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (47.9, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 ToeControl.r
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (317.9, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKToe.r
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (47.9, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKToe.r_end
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (47.9, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 ROOT
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 base
+
+>>>>> transform = p: (0.0, 1.5, -0.1) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKArmTarget.l
+
+>>>>>> transform = p: (-0.5, 0.0, 0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKArmPole.l
+
+>>>>>>> transform = p: (-0.2, 1.1, 0.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKArmPole.l_end
+
+>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 IKArmTarget.r
+
+>>>>>> transform = p: (0.4, 0.2, 0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKArmPole.r
+
+>>>>>>> transform = p: (0.2, 1.1, 0.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 IKArmPole.r_end
+
+>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 pelvis
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (15.8, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.Rigidbody
+>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>v drag = 0
+>>>>>>v angularDrag = 0,05
+>>>>>>v mass = 1
+>>>>>>v useGravity = False
+>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>v isKinematic = True
+>>>>>>v freezeRotation = False
+>>>>>>v constraints = None
+>>>>>>v collisionDetectionMode = Discrete
+>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>v detectCollisions = True
+>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>v interpolation = None
+>>>>>>v solverIterations = 6
+>>>>>>v sleepThreshold = 0,005
+>>>>>>v maxAngularVelocity = 7
+>>>>>>v solverVelocityIterations = 1
+>>>>>>v sleepVelocity = 0
+>>>>>>v sleepAngularVelocity = 0
+>>>>>>v useConeFriction = False
+>>>>>>v solverIterationCount = 6
+>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>GameObject Children 0 ClothA.1.l
+
+>>>>>>> transform = p: (-0.2, 0.1, 0.1) r: (352.3, 180.0, 187.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClothA.2.l
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (344.6, 180.0, 187.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClothA.3.l
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (336.9, 180.0, 188.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClothA.4.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (329.1, 179.7, 190.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 ClothA.4.l_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (329.1, 179.7, 190.2) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 ClothA.1.r
+
+>>>>>>> transform = p: (0.2, 0.1, 0.1) r: (352.3, 180.0, 172.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClothA.2.r
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (344.6, 180.0, 172.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClothA.3.r
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (336.9, 180.0, 171.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClothA.4.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (329.0, 180.9, 161.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 ClothA.4.r_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (329.0, 180.9, 161.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 ClothB.1.l
+
+>>>>>>> transform = p: (-0.1, 0.1, 0.1) r: (349.8, 179.9, 185.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClothB.2.l
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (338.0, 179.6, 186.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClothB.3.l
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (330.3, 179.3, 187.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClothB.4.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (322.6, 178.8, 185.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 ClothB.4.l_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (322.6, 178.8, 185.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 3 ClothB.1.r
+
+>>>>>>> transform = p: (0.1, 0.1, 0.1) r: (352.2, 180.1, 174.9) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClothB.2.r
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (344.5, 180.3, 173.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClothB.3.r
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (336.8, 180.6, 173.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClothB.4.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (329.1, 180.9, 174.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 ClothB.4.r_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (329.1, 180.9, 174.4) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 4 ClothC.1.l
+
+>>>>>>> transform = p: (-0.1, 0.1, 0.2) r: (348.3, 179.9, 181.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClothC.2.l
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (339.5, 179.6, 183.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClothC.3.l
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (331.8, 179.1, 184.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClothC.4.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (324.1, 178.3, 185.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 ClothC.4.l_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (324.1, 178.3, 185.2) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 5 ClothC.1.r
+
+>>>>>>> transform = p: (0.1, 0.1, 0.2) r: (352.2, 180.0, 178.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClothC.2.r
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (344.4, 180.2, 176.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClothC.3.r
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (336.6, 180.7, 175.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClothC.4.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (328.9, 181.4, 175.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 ClothC.4.r_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (328.9, 181.4, 175.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 6 ClothD.1
+
+>>>>>>> transform = p: (0.0, 0.0, -0.2) r: (12.3, 198.1, 182.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClothD.2
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (6.9, 197.9, 181.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClothD.3
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (359.7, 197.7, 181.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClothD.4
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (357.1, 197.6, 181.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 ClothD.5
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (357.1, 197.6, 181.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 ClothD.6
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (357.1, 197.6, 181.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 ClothD.6_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (357.1, 197.6, 181.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 7 thigh.l
+
+>>>>>>> transform = p: (-0.1, 0.0, 0.1) r: (341.8, 0.3, 174.9) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>v center = (0.0, 0.3, 0.1)
+>>>>>>>v radius = 0,08
+>>>>>>>v height = 0,57
+>>>>>>>v direction = 1
+
+>>>>>>> DynamicBoneCollider
+>>>>>>>v m_Center = (0.0, 0.3, 0.1)
+>>>>>>>v m_Radius = 0,11
+>>>>>>>v m_Height = 0,57
+>>>>>>>v m_Direction = Y
+>>>>>>>v m_Bound = Outside
+
+>>>>>>>GameObject Children 0 calf.l
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (306.3, 190.4, 159.5) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>>v center = (0.0, 0.3, 0.1)
+>>>>>>>>v radius = 0,09
+>>>>>>>>v height = 0,62
+>>>>>>>>v direction = 1
+
+>>>>>>>>GameObject Children 0 foot.l
+
+>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (9.7, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (317.4, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 toe.l_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (317.4, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 8 thigh.r
+
+>>>>>>> transform = p: (0.1, 0.0, 0.1) r: (355.3, 0.7, 180.1) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>v center = (0.0, 0.3, 0.1)
+>>>>>>>v radius = 0,08
+>>>>>>>v height = 0,57
+>>>>>>>v direction = 1
+
+>>>>>>> DynamicBoneCollider
+>>>>>>>v m_Center = (0.0, 0.3, 0.1)
+>>>>>>>v m_Radius = 0,11
+>>>>>>>v m_Height = 0,57
+>>>>>>>v m_Direction = Y
+>>>>>>>v m_Bound = Outside
+
+>>>>>>>GameObject Children 0 calf.r
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (345.6, 176.7, 184.8) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>>v center = (0.0, 0.3, 0.1)
+>>>>>>>>v radius = 0,09
+>>>>>>>>v height = 0,62
+>>>>>>>>v direction = 1
+
+>>>>>>>>GameObject Children 0 foot.r
+
+>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (6.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (321.1, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 toe.r_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (321.1, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 stomach
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (357.0, 346.6, 0.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 chest
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (353.9, 346.6, 360.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 clavicle.l
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (53.2, 49.5, 157.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 upper_arm.l
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (15.7, 356.0, 144.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 lower_arm.l
+
+>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (37.0, 93.2, 157.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 hand.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (315.1, 267.6, 211.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1.1.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (321.7, 284.4, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1.2.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (19.0, 101.6, 168.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger1.3.l
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (13.6, 102.7, 169.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 finger1.3.l_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (13.6, 102.7, 169.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 1 finger2.1.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (321.7, 284.4, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger2.2.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (19.0, 101.6, 168.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger2.3.l
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (13.6, 102.7, 169.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 finger2.3.l_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (13.6, 102.7, 169.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 2 finger3.1.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (322.0, 282.6, 196.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger3.2.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (18.6, 100.5, 166.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger3.3.l
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (13.2, 101.8, 166.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 finger3.3.l_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (13.2, 101.8, 166.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 3 finger4.1.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (323.1, 277.3, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger4.2.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (17.3, 96.3, 161.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger4.3.l
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (12.0, 97.8, 162.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 finger4.3.l_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (12.0, 97.8, 162.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 4 GripControl.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (73.8, 64.7, 48.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1IKTarget.l
+
+>>>>>>>>>>>>> transform = p: (-0.1, 0.0, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger1IKTarget.l_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 1 finger2IKTarget.l
+
+>>>>>>>>>>>>> transform = p: (-0.1, 0.0, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger2IKTarget.l_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 2 finger3IKTarget.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger3IKTarget.l_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 3 finger4IKTarget.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger4IKTarget.l_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 4 thumbIKTarget.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 thumbIKTarget.l_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (339.5, 281.2, 191.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 5 thumb.1.l
+
+>>>>>>>>>>>> transform = p: (-0.1, 0.1, 0.0) r: (341.9, 291.7, 186.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 thumb.2.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (32.5, 96.9, 165.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 thumb.2.l_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (32.5, 96.9, 165.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 MuzzleLeft
+
+>>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (47.6, 307.5, 26.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Particles 
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (47.6, 307.5, 26.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Point light
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (47.6, 307.5, 26.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>> UnityEngine.Light
+>>>>>>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>>>>>>v type = Point
+>>>>>>>>>>>>>v shape = Cone
+>>>>>>>>>>>>>v spotAngle = 30
+>>>>>>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>>>>>>v color = RGBA(0.267, 0.750, 1.000, 1.000)
+>>>>>>>>>>>>>v colorTemperature = 6570
+>>>>>>>>>>>>>v useColorTemperature = False
+>>>>>>>>>>>>>v intensity = 10,39
+>>>>>>>>>>>>>v bounceIntensity = 1
+>>>>>>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>>>>>>v shadowBias = 0,05
+>>>>>>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>>>>>>v range = 0,87
+>>>>>>>>>>>>>v flare = 
+>>>>>>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>>>>>>v cullingMask = -1
+>>>>>>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>>>>>>v shadows = None
+>>>>>>>>>>>>>v shadowStrength = 1
+>>>>>>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>>>>>>v shadowSoftness = 4
+>>>>>>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>>>>>>v cookieSize = 10
+>>>>>>>>>>>>>v cookie = 
+>>>>>>>>>>>>>v renderMode = Auto
+>>>>>>>>>>>>>v bakedIndex = 0
+>>>>>>>>>>>>>v commandBufferCount = 0
+>>>>>>>>>>>>>v pixelLightCount = 4
+>>>>>>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>>>>>>v attenuate = True
+
+>>>>>>>>>>>>> RoR2.FlickerLight
+>>>>>>>>>>>>>v light = Point light (UnityEngine.Light)
+>>>>>>>>>>>>>v sinWaves = Wave[]
+>>>>>>>>>>>>>v initialLightIntensity = 0
+>>>>>>>>>>>>>v stopwatch = 0
+>>>>>>>>>>>>>v randomPhase = 0
+
+>>>>>>>>>>>>GameObject Children 1 Matrix, Mesh
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (47.6, 307.5, 26.8) s: (0.4, 0.4, 0.4)
+>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>v loop = True
+>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>v duration = 2
+>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>v emissionRate = 3
+>>>>>>>>>>>>>v startSpeed = 0
+>>>>>>>>>>>>>v startSize = 0,4
+>>>>>>>>>>>>>v startColor = RGBA(0.000, 0.000, 0.000, 0.000)
+>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>v startLifetime = 1,2
+>>>>>>>>>>>>>v gravityModifier = 0
+>>>>>>>>>>>>>v maxParticles = 5
+>>>>>>>>>>>>>v simulationSpace = Local
+>>>>>>>>>>>>>v scalingMode = Hierarchy
+>>>>>>>>>>>>>v automaticCullingEnabled = True
+>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>v randomSeed = 0
+>>>>>>>>>>>>>v useAutoRandomSeed = True
+>>>>>>>>>>>>>v proceduralSimulationSupported = True
+>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>v alignment = Local
+>>>>>>>>>>>>>v renderMode = Mesh
+>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>v lengthScale = 2
+>>>>>>>>>>>>>v velocityScale = 0
+>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>v sortingFudge = -20
+>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>v mesh = MageIcosphereLow (UnityEngine.Mesh)
+>>>>>>>>>>>>>v meshCount = 1
+>>>>>>>>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>>>GameObject Children 1 clavicle.r
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (53.3, 282.8, 202.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 upper_arm.r
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (5.6, 348.1, 210.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 lower_arm.r
+
+>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (333.1, 88.3, 142.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 hand.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (17.7, 287.9, 233.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1.1.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (27.4, 266.8, 212.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1.2.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (343.8, 67.5, 158.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger1.3.r
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (348.9, 65.4, 159.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 finger1.3.r_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (348.9, 65.4, 159.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 1 finger2.1.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (27.4, 266.8, 212.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger2.2.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (343.8, 67.5, 158.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger2.3.r
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (348.9, 65.4, 159.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 finger2.3.r_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (348.9, 65.4, 159.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 2 finger3.1.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (22.2, 272.3, 218.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger3.2.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (344.6, 69.1, 155.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger3.3.r
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (349.4, 66.2, 157.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 finger3.3.r_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (349.4, 66.2, 157.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 3 finger4.1.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (21.5, 272.5, 220.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger4.2.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (344.4, 68.6, 153.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger4.3.r
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (349.0, 65.3, 154.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 finger4.3.r_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (349.0, 65.3, 154.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 4 GripControl.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.1) r: (65.3, 295.3, 326.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1IKTarget.r
+
+>>>>>>>>>>>>> transform = p: (0.1, 0.0, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger1IKTarget.r_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 1 finger2IKTarget.r
+
+>>>>>>>>>>>>> transform = p: (0.1, 0.0, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger2IKTarget.r_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 2 finger3IKTarget.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger3IKTarget.r_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 3 finger4IKTarget.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger4IKTarget.r_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 4 thumbIKTarget.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 thumbIKTarget.r_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (17.6, 248.0, 201.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 5 thumb.1.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.1) r: (12.0, 253.1, 200.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 thumb.2.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (331.4, 75.0, 154.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 thumb.2.r_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (331.4, 75.0, 154.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 MuzzleRight
+
+>>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (44.8, 28.6, 129.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Glow, Fire
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (44.8, 28.6, 129.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Particles
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (44.8, 28.6, 129.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Point light
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (44.8, 28.6, 129.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>> UnityEngine.Light
+>>>>>>>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>>>>>>>v type = Point
+>>>>>>>>>>>>>>v shape = Cone
+>>>>>>>>>>>>>>v spotAngle = 30
+>>>>>>>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>>>>>>>v color = RGBA(1.000, 0.653, 0.267, 1.000)
+>>>>>>>>>>>>>>v colorTemperature = 6570
+>>>>>>>>>>>>>>v useColorTemperature = False
+>>>>>>>>>>>>>>v intensity = 10,39
+>>>>>>>>>>>>>>v bounceIntensity = 1
+>>>>>>>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>>>>>>>v shadowBias = 0,05
+>>>>>>>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>>>>>>>v range = 0,87
+>>>>>>>>>>>>>>v flare = 
+>>>>>>>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>>>>>>>v cullingMask = -1
+>>>>>>>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>>>>>>>v shadows = None
+>>>>>>>>>>>>>>v shadowStrength = 1
+>>>>>>>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>>>>>>>v shadowSoftness = 4
+>>>>>>>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>>>>>>>v cookieSize = 10
+>>>>>>>>>>>>>>v cookie = 
+>>>>>>>>>>>>>>v renderMode = Auto
+>>>>>>>>>>>>>>v bakedIndex = 0
+>>>>>>>>>>>>>>v commandBufferCount = 0
+>>>>>>>>>>>>>>v pixelLightCount = 4
+>>>>>>>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>>>>>>>v attenuate = True
+
+>>>>>>>>>>>>>> RoR2.FlickerLight
+>>>>>>>>>>>>>>v light = Point light (UnityEngine.Light)
+>>>>>>>>>>>>>>v sinWaves = Wave[]
+>>>>>>>>>>>>>>v initialLightIntensity = 0
+>>>>>>>>>>>>>>v stopwatch = 0
+>>>>>>>>>>>>>>v randomPhase = 0
+
+>>>>>>>>>>>>>GameObject Children 1 Matrix, Mesh
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (44.8, 28.6, 129.6) s: (0.4, 0.4, 0.4)
+>>>>>>>>>>>>>> UnityEngine.ParticleSystem
+>>>>>>>>>>>>>>v startDelay = 0
+>>>>>>>>>>>>>>v loop = True
+>>>>>>>>>>>>>>v playOnAwake = True
+>>>>>>>>>>>>>>v duration = 2
+>>>>>>>>>>>>>>v playbackSpeed = 1
+>>>>>>>>>>>>>>v enableEmission = True
+>>>>>>>>>>>>>>v emissionRate = 3
+>>>>>>>>>>>>>>v startSpeed = 0
+>>>>>>>>>>>>>>v startSize = 0,4
+>>>>>>>>>>>>>>v startColor = RGBA(0.000, 0.000, 0.000, 0.000)
+>>>>>>>>>>>>>>v startRotation = 6,283185
+>>>>>>>>>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>>>>>>>>>v startLifetime = 1,2
+>>>>>>>>>>>>>>v gravityModifier = 0
+>>>>>>>>>>>>>>v maxParticles = 5
+>>>>>>>>>>>>>>v simulationSpace = Local
+>>>>>>>>>>>>>>v scalingMode = Hierarchy
+>>>>>>>>>>>>>>v automaticCullingEnabled = True
+>>>>>>>>>>>>>>v isPlaying = False
+>>>>>>>>>>>>>>v isEmitting = False
+>>>>>>>>>>>>>>v isStopped = True
+>>>>>>>>>>>>>>v isPaused = False
+>>>>>>>>>>>>>>v particleCount = 0
+>>>>>>>>>>>>>>v time = 0
+>>>>>>>>>>>>>>v randomSeed = 0
+>>>>>>>>>>>>>>v useAutoRandomSeed = True
+>>>>>>>>>>>>>>v proceduralSimulationSupported = True
+>>>>>>>>>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>>>>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>>>>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>>>>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>>>>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>>>>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>>>>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>>>>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>>>>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>>>>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>>>>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>>>>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>>>>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>>>>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>>>>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>>>>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>>>>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>>>>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>>>>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>>>>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>>>>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>>>>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>>>>>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>>>>>>>>>v alignment = Local
+>>>>>>>>>>>>>>v renderMode = Mesh
+>>>>>>>>>>>>>>v sortMode = None
+>>>>>>>>>>>>>>v lengthScale = 2
+>>>>>>>>>>>>>>v velocityScale = 0
+>>>>>>>>>>>>>>v cameraVelocityScale = 0
+>>>>>>>>>>>>>>v normalDirection = 1
+>>>>>>>>>>>>>>v shadowBias = 0
+>>>>>>>>>>>>>>v sortingFudge = -20
+>>>>>>>>>>>>>>v minParticleSize = 0
+>>>>>>>>>>>>>>v maxParticleSize = 0,5
+>>>>>>>>>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>>>>>>>>>v maskInteraction = None
+>>>>>>>>>>>>>>v trailMaterial = 
+>>>>>>>>>>>>>>v enableGPUInstancing = False
+>>>>>>>>>>>>>>v allowRoll = True
+>>>>>>>>>>>>>>v mesh = MageIcosphereLow (UnityEngine.Mesh)
+>>>>>>>>>>>>>>v meshCount = 1
+>>>>>>>>>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>>>GameObject Children 2 neck
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (358.9, 166.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 head
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.2, 0.0, 359.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 head_end
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.2, 0.0, 359.7) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 3 Jets, Right
+
+>>>>>>>> transform = p: (0.1, -0.1, -0.2) r: (85.4, 177.8, 193.7) s: (0.0, 0.0, 0.6)
+>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>v sharedMesh = donut5Mesh (UnityEngine.Mesh)
+>>>>>>>>v mesh = donut5Mesh Instance (UnityEngine.Mesh)
+
+>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>GameObject Children 4 Jets, Left
+
+>>>>>>>> transform = p: (-0.1, -0.1, -0.2) r: (85.4, 177.8, 295.4) s: (0.0, 0.0, 0.6)
+>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>v sharedMesh = donut5Mesh (UnityEngine.Mesh)
+>>>>>>>>v mesh = donut5Mesh Instance (UnityEngine.Mesh)
+
+>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 MageCapeMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = MageCapeMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 1.1, 0.0), Extents: (0.3, 0.6, 0.2)
+
+>>GameObject Children 2 MageMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = MageMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 1.2, 0.0), Extents: (0.7, 1.0, 0.4)

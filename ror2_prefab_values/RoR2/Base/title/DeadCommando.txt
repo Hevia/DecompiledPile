@@ -1,0 +1,1098 @@
+Key Path : RoR2/Base/title/DeadCommando.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DeadCommando
+
+> transform = p: (36.0, 1.1, 27.0) r: (83.1, 91.0, 241.8) s: (3.0, 3.0, 3.0)
+>GameObject Children 0 CommandoArmature
+
+>> transform = p: (0.0, 0.0, 0.1) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (83.1, 91.0, 242.1) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 base
+
+>>>> transform = p: (0.0, 1.0, -0.3) r: (356.7, 29.0, 186.1) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKArmTarget.l
+
+>>>>> transform = p: (-1.1, 0.2, -0.5) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKArmPole.l
+
+>>>>>> transform = p: (0.0, 1.1, 0.3) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKArmPole.l_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 IKArmTarget.r
+
+>>>>> transform = p: (1.1, 0.2, -0.5) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKArmPole.r
+
+>>>>>> transform = p: (0.0, 1.1, 0.3) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 IKArmPole.r_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 pelvis
+
+>>>>> transform = p: (0.1, 1.0, -0.1) r: (273.2, 241.3, 303.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0,1
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = False
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = None
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.CapsuleCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v radius = 0,08
+>>>>>v height = 0,43
+>>>>>v direction = 0
+
+>>>>>GameObject Children 0 thigh.l
+
+>>>>>> transform = p: (-0.1, 0.1, 0.0) r: (77.2, 113.6, 55.6) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.Rigidbody
+>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>v drag = 0,1
+>>>>>>v angularDrag = 0,05
+>>>>>>v mass = 1
+>>>>>>v useGravity = True
+>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>v isKinematic = False
+>>>>>>v freezeRotation = False
+>>>>>>v constraints = None
+>>>>>>v collisionDetectionMode = Discrete
+>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>v detectCollisions = True
+>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>v interpolation = None
+>>>>>>v solverIterations = 6
+>>>>>>v sleepThreshold = 0,005
+>>>>>>v maxAngularVelocity = 7
+>>>>>>v solverVelocityIterations = 1
+>>>>>>v sleepVelocity = 0
+>>>>>>v sleepAngularVelocity = 0
+>>>>>>v useConeFriction = False
+>>>>>>v solverIterationCount = 6
+>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>> UnityEngine.CharacterJoint
+>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>v enableProjection = False
+>>>>>>v projectionDistance = 0,1
+>>>>>>v projectionAngle = 180
+
+>>>>>> UnityEngine.CapsuleCollider
+>>>>>>v center = (0.0, 0.2, 0.0)
+>>>>>>v radius = 0,11
+>>>>>>v height = 0,63
+>>>>>>v direction = 1
+
+>>>>>>GameObject Children 0 calf.l
+
+>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (318.2, 301.7, 280.3) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.Rigidbody
+>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v drag = 0,1
+>>>>>>>v angularDrag = 0,05
+>>>>>>>v mass = 1
+>>>>>>>v useGravity = True
+>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>v isKinematic = False
+>>>>>>>v freezeRotation = False
+>>>>>>>v constraints = None
+>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>v detectCollisions = True
+>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v interpolation = None
+>>>>>>>v solverIterations = 6
+>>>>>>>v sleepThreshold = 0,005
+>>>>>>>v maxAngularVelocity = 7
+>>>>>>>v solverVelocityIterations = 1
+>>>>>>>v sleepVelocity = 0
+>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>v useConeFriction = False
+>>>>>>>v solverIterationCount = 6
+>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>> UnityEngine.CharacterJoint
+>>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>>v enableProjection = False
+>>>>>>>v projectionDistance = 0,1
+>>>>>>>v projectionAngle = 180
+
+>>>>>>> UnityEngine.BoxCollider
+>>>>>>>v center = (0.0, 0.3, 0.0)
+>>>>>>>v size = (0.2, 0.5, 0.2)
+>>>>>>>v extents = (0.1, 0.2, 0.1)
+
+>>>>>>>GameObject Children 0 foot.l
+
+>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (7.1, 45.7, 218.9) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.Rigidbody
+>>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>>v drag = 0
+>>>>>>>>v angularDrag = 0,05
+>>>>>>>>v mass = 1
+>>>>>>>>v useGravity = False
+>>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>>v isKinematic = True
+>>>>>>>>v freezeRotation = False
+>>>>>>>>v constraints = None
+>>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>>v detectCollisions = True
+>>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>v interpolation = None
+>>>>>>>>v solverIterations = 6
+>>>>>>>>v sleepThreshold = 0,005
+>>>>>>>>v maxAngularVelocity = 7
+>>>>>>>>v solverVelocityIterations = 1
+>>>>>>>>v sleepVelocity = 0
+>>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>>v useConeFriction = False
+>>>>>>>>v solverIterationCount = 6
+>>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>>>GameObject Children 0 toe.l
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (353.6, 225.2, 141.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.l_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (353.6, 225.2, 141.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 thigh.r
+
+>>>>>> transform = p: (0.1, 0.1, 0.0) r: (86.4, 113.0, 80.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.Rigidbody
+>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>v drag = 0,1
+>>>>>>v angularDrag = 0,05
+>>>>>>v mass = 1
+>>>>>>v useGravity = True
+>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>v isKinematic = False
+>>>>>>v freezeRotation = False
+>>>>>>v constraints = None
+>>>>>>v collisionDetectionMode = Discrete
+>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>v detectCollisions = True
+>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>v interpolation = None
+>>>>>>v solverIterations = 6
+>>>>>>v sleepThreshold = 0,005
+>>>>>>v maxAngularVelocity = 7
+>>>>>>v solverVelocityIterations = 1
+>>>>>>v sleepVelocity = 0
+>>>>>>v sleepAngularVelocity = 0
+>>>>>>v useConeFriction = False
+>>>>>>v solverIterationCount = 6
+>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>> UnityEngine.CharacterJoint
+>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>v enableProjection = False
+>>>>>>v projectionDistance = 0,1
+>>>>>>v projectionAngle = 180
+
+>>>>>> UnityEngine.CapsuleCollider
+>>>>>>v center = (0.0, 0.2, 0.0)
+>>>>>>v radius = 0,11
+>>>>>>v height = 0,63
+>>>>>>v direction = 1
+
+>>>>>>GameObject Children 0 calf.r
+
+>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (295.4, 286.0, 316.1) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.Rigidbody
+>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v drag = 0,1
+>>>>>>>v angularDrag = 0,05
+>>>>>>>v mass = 1
+>>>>>>>v useGravity = True
+>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>v isKinematic = False
+>>>>>>>v freezeRotation = False
+>>>>>>>v constraints = None
+>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>v detectCollisions = True
+>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v interpolation = None
+>>>>>>>v solverIterations = 6
+>>>>>>>v sleepThreshold = 0,005
+>>>>>>>v maxAngularVelocity = 7
+>>>>>>>v solverVelocityIterations = 1
+>>>>>>>v sleepVelocity = 0
+>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>v useConeFriction = False
+>>>>>>>v solverIterationCount = 6
+>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>> UnityEngine.CharacterJoint
+>>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>>v enableProjection = False
+>>>>>>>v projectionDistance = 0,1
+>>>>>>>v projectionAngle = 180
+
+>>>>>>> UnityEngine.BoxCollider
+>>>>>>>v center = (0.0, 0.3, 0.0)
+>>>>>>>v size = (0.2, 0.5, 0.2)
+>>>>>>>v extents = (0.1, 0.2, 0.1)
+
+>>>>>>>GameObject Children 0 foot.r
+
+>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (355.0, 69.5, 202.9) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.Rigidbody
+>>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>>v drag = 0
+>>>>>>>>v angularDrag = 0,05
+>>>>>>>>v mass = 1
+>>>>>>>>v useGravity = False
+>>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>>v isKinematic = True
+>>>>>>>>v freezeRotation = False
+>>>>>>>>v constraints = None
+>>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>>v detectCollisions = True
+>>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>v interpolation = None
+>>>>>>>>v solverIterations = 6
+>>>>>>>>v sleepThreshold = 0,005
+>>>>>>>>v maxAngularVelocity = 7
+>>>>>>>>v solverVelocityIterations = 1
+>>>>>>>>v sleepVelocity = 0
+>>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>>v useConeFriction = False
+>>>>>>>>v solverIterationCount = 6
+>>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>>>GameObject Children 0 toe.r
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (5.8, 249.2, 157.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.r_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (5.8, 249.2, 157.1) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 stomach
+
+>>>>> transform = p: (0.1, 1.0, -0.1) r: (68.9, 193.6, 13.2) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0,1
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = False
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = None
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.CharacterJoint
+>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>v enableProjection = False
+>>>>>v projectionDistance = 0,1
+>>>>>v projectionAngle = 180
+
+>>>>> UnityEngine.CapsuleCollider
+>>>>>v center = (0.0, 0.1, 0.0)
+>>>>>v radius = 0,1
+>>>>>v height = 0,37
+>>>>>v direction = 0
+
+>>>>>GameObject Children 0 chest
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (81.7, 58.6, 202.6) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.Rigidbody
+>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>v drag = 0,1
+>>>>>>v angularDrag = 0,05
+>>>>>>v mass = 1
+>>>>>>v useGravity = True
+>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>v isKinematic = False
+>>>>>>v freezeRotation = False
+>>>>>>v constraints = None
+>>>>>>v collisionDetectionMode = Discrete
+>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>v detectCollisions = True
+>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>v interpolation = None
+>>>>>>v solverIterations = 6
+>>>>>>v sleepThreshold = 0,005
+>>>>>>v maxAngularVelocity = 7
+>>>>>>v solverVelocityIterations = 1
+>>>>>>v sleepVelocity = 0
+>>>>>>v sleepAngularVelocity = 0
+>>>>>>v useConeFriction = False
+>>>>>>v solverIterationCount = 6
+>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>> UnityEngine.CharacterJoint
+>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>v enableProjection = False
+>>>>>>v projectionDistance = 0,1
+>>>>>>v projectionAngle = 180
+
+>>>>>> UnityEngine.BoxCollider
+>>>>>>v center = (0.0, 0.2, 0.0)
+>>>>>>v size = (0.4, 0.3, 0.4)
+>>>>>>v extents = (0.2, 0.2, 0.2)
+
+>>>>>>GameObject Children 0 head
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (53.0, 130.1, 256.6) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.Rigidbody
+>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v drag = 0,1
+>>>>>>>v angularDrag = 0,05
+>>>>>>>v mass = 1
+>>>>>>>v useGravity = True
+>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>v isKinematic = False
+>>>>>>>v freezeRotation = False
+>>>>>>>v constraints = None
+>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>v detectCollisions = True
+>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v interpolation = None
+>>>>>>>v solverIterations = 6
+>>>>>>>v sleepThreshold = 0,005
+>>>>>>>v maxAngularVelocity = 7
+>>>>>>>v solverVelocityIterations = 1
+>>>>>>>v sleepVelocity = 0
+>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>v useConeFriction = False
+>>>>>>>v solverIterationCount = 6
+>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>> UnityEngine.CharacterJoint
+>>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>>v enableProjection = False
+>>>>>>>v projectionDistance = 0,1
+>>>>>>>v projectionAngle = 180
+
+>>>>>>> UnityEngine.SphereCollider
+>>>>>>>v center = (0.0, 0.2, 0.0)
+>>>>>>>v radius = 0,2
+
+>>>>>>>GameObject Children 0 head_end
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (53.0, 130.1, 256.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 upper_arm.l
+
+>>>>>>> transform = p: (-0.2, 0.4, 0.0) r: (46.6, 213.8, 106.8) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.Rigidbody
+>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v drag = 0,1
+>>>>>>>v angularDrag = 0,05
+>>>>>>>v mass = 1
+>>>>>>>v useGravity = True
+>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>v isKinematic = False
+>>>>>>>v freezeRotation = False
+>>>>>>>v constraints = None
+>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>v detectCollisions = True
+>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v interpolation = None
+>>>>>>>v solverIterations = 6
+>>>>>>>v sleepThreshold = 0,005
+>>>>>>>v maxAngularVelocity = 7
+>>>>>>>v solverVelocityIterations = 1
+>>>>>>>v sleepVelocity = 0
+>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>v useConeFriction = False
+>>>>>>>v solverIterationCount = 6
+>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>> UnityEngine.CharacterJoint
+>>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>>v enableProjection = False
+>>>>>>>v projectionDistance = 0,1
+>>>>>>>v projectionAngle = 180
+
+>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>v center = (0.0, 0.2, 0.0)
+>>>>>>>v radius = 0,09
+>>>>>>>v height = 0,4
+>>>>>>>v direction = 1
+
+>>>>>>>GameObject Children 0 lower_arm.l
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (58.4, 43.3, 276.2) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.Rigidbody
+>>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>>v drag = 0,1
+>>>>>>>>v angularDrag = 0,05
+>>>>>>>>v mass = 1
+>>>>>>>>v useGravity = True
+>>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>>v isKinematic = False
+>>>>>>>>v freezeRotation = False
+>>>>>>>>v constraints = None
+>>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>>v detectCollisions = True
+>>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>v interpolation = None
+>>>>>>>>v solverIterations = 6
+>>>>>>>>v sleepThreshold = 0,005
+>>>>>>>>v maxAngularVelocity = 7
+>>>>>>>>v solverVelocityIterations = 1
+>>>>>>>>v sleepVelocity = 0
+>>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>>v useConeFriction = False
+>>>>>>>>v solverIterationCount = 6
+>>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>>> UnityEngine.CharacterJoint
+>>>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>>>v enableProjection = False
+>>>>>>>>v projectionDistance = 0,1
+>>>>>>>>v projectionAngle = 180
+
+>>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>>v center = (0.0, 0.2, 0.0)
+>>>>>>>>v radius = 0,08
+>>>>>>>>v height = 0,55
+>>>>>>>>v direction = 1
+
+>>>>>>>>GameObject Children 0 hand.l
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (305.4, 216.0, 95.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 finger1.1.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (305.3, 226.6, 79.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger1.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (12.0, 305.9, 210.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1.3.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (331.2, 279.9, 216.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1.3.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (331.2, 279.9, 216.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 finger1IKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (83.2, 296.0, 357.6) s: (0.7, 0.7, 0.7)
+>>>>>>>>>>GameObject Children 0 finger1IKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (28.1, 207.9, 272.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1IKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (28.1, 207.9, 272.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 finger2.1.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (304.5, 206.1, 97.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger2.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (343.1, 288.1, 213.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2.3.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (305.4, 231.9, 253.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger2.3.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (305.4, 231.9, 253.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 3 finger2IKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (83.2, 296.0, 357.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger2IKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (28.1, 207.9, 272.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2IKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (28.1, 207.9, 272.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 4 finger3.1.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (304.6, 224.3, 82.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger3.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (4.6, 302.1, 209.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger3.3.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (322.1, 270.9, 223.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger3.3.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (322.1, 270.9, 223.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 5 finger3IKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (82.8, 296.2, 357.0) s: (0.8, 0.8, 0.8)
+>>>>>>>>>>GameObject Children 0 finger3IKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (28.1, 208.9, 272.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger3IKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (28.1, 208.9, 272.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 6 finger4.1.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (303.5, 228.7, 83.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger4.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (13.1, 310.2, 208.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger4.3.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (333.8, 285.2, 216.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger4.3.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (333.8, 285.2, 216.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 7 finger4IKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (80.4, 297.5, 353.9) s: (0.7, 0.7, 0.7)
+>>>>>>>>>>GameObject Children 0 finger4IKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (27.7, 214.6, 275.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger4IKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (27.7, 214.6, 275.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 8 gun.l
+
+>>>>>>>>>> transform = p: (-0.4, 0.4, 0.2) r: (82.3, 67.6, 67.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>> UnityEngine.Rigidbody
+>>>>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>>>>v drag = 0,1
+>>>>>>>>>>v angularDrag = 0,05
+>>>>>>>>>>v mass = 1
+>>>>>>>>>>v useGravity = True
+>>>>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>>>>v isKinematic = False
+>>>>>>>>>>v freezeRotation = False
+>>>>>>>>>>v constraints = None
+>>>>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>>>>v detectCollisions = True
+>>>>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>>>v interpolation = None
+>>>>>>>>>>v solverIterations = 6
+>>>>>>>>>>v sleepThreshold = 0,005
+>>>>>>>>>>v maxAngularVelocity = 7
+>>>>>>>>>>v solverVelocityIterations = 1
+>>>>>>>>>>v sleepVelocity = 0
+>>>>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>>>>v useConeFriction = False
+>>>>>>>>>>v solverIterationCount = 6
+>>>>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>>>v center = (0.2, 0.2, 0.0)
+>>>>>>>>>>v size = (0.3, 0.3, 0.1)
+>>>>>>>>>>v extents = (0.2, 0.1, 0.0)
+
+>>>>>>>>>>GameObject Children 0 gun.l_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (82.3, 67.6, 67.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 GunMesh.001
+
+>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (2.9, 179.9, 352.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>>>v sharedMesh = GunMesh.001 (UnityEngine.Mesh)
+>>>>>>>>>>>v mesh = GunMesh.001 Instance (UnityEngine.Mesh)
+
+>>>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>>>>GameObject Children 2 MuzzleLeft
+
+>>>>>>>>>>> transform = p: (0.3, 0.1, 0.0) r: (352.9, 90.3, 357.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 9 thumb.1.l
+
+>>>>>>>>>> transform = p: (-0.1, 0.1, 0.0) r: (301.5, 179.3, 95.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 thumb.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (4.0, 88.8, 343.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumb.2.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (4.0, 88.8, 343.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 10 thumbIKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (42.6, 283.2, 350.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 thumbIKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (24.0, 233.3, 285.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumbIKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (24.0, 233.3, 285.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 upper_arm.r
+
+>>>>>>> transform = p: (0.2, 0.4, 0.0) r: (51.5, 188.0, 237.6) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.Rigidbody
+>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v drag = 0,1
+>>>>>>>v angularDrag = 0,05
+>>>>>>>v mass = 1
+>>>>>>>v useGravity = True
+>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>v isKinematic = False
+>>>>>>>v freezeRotation = False
+>>>>>>>v constraints = None
+>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>v detectCollisions = True
+>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>v interpolation = None
+>>>>>>>v solverIterations = 6
+>>>>>>>v sleepThreshold = 0,005
+>>>>>>>v maxAngularVelocity = 7
+>>>>>>>v solverVelocityIterations = 1
+>>>>>>>v sleepVelocity = 0
+>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>v useConeFriction = False
+>>>>>>>v solverIterationCount = 6
+>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>> UnityEngine.CharacterJoint
+>>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>>v enableProjection = False
+>>>>>>>v projectionDistance = 0,1
+>>>>>>>v projectionAngle = 180
+
+>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>v center = (0.0, 0.2, 0.0)
+>>>>>>>v radius = 0,09
+>>>>>>>v height = 0,51
+>>>>>>>v direction = 1
+
+>>>>>>>GameObject Children 0 lower_arm.r
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (65.7, 31.6, 101.9) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.Rigidbody
+>>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>>v drag = 0,1
+>>>>>>>>v angularDrag = 0,05
+>>>>>>>>v mass = 1
+>>>>>>>>v useGravity = True
+>>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>>v isKinematic = False
+>>>>>>>>v freezeRotation = False
+>>>>>>>>v constraints = None
+>>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>>v detectCollisions = True
+>>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>v interpolation = None
+>>>>>>>>v solverIterations = 6
+>>>>>>>>v sleepThreshold = 0,005
+>>>>>>>>v maxAngularVelocity = 7
+>>>>>>>>v solverVelocityIterations = 1
+>>>>>>>>v sleepVelocity = 0
+>>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>>v useConeFriction = False
+>>>>>>>>v solverIterationCount = 6
+>>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>>> UnityEngine.CharacterJoint
+>>>>>>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>>v rotationDrive = UnityEngine.JointDrive
+>>>>>>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>>>>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>>>>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>>>>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>>>>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>>>>>>v enableProjection = False
+>>>>>>>>v projectionDistance = 0,1
+>>>>>>>>v projectionAngle = 180
+
+>>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>>v center = (0.0, 0.2, 0.0)
+>>>>>>>>v radius = 0,08
+>>>>>>>>v height = 0,48
+>>>>>>>>v direction = 1
+
+>>>>>>>>GameObject Children 0 hand.r
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (299.2, 217.5, 247.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 finger1.1.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (78.4, 31.2, 100.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger1.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (356.8, 294.0, 202.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1.3.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (39.9, 317.1, 213.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1.3.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (39.9, 317.1, 213.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 finger1IKBender.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (322.0, 222.1, 69.6) s: (0.7, 0.7, 0.7)
+>>>>>>>>>>GameObject Children 0 finger1IKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (21.7, 206.6, 77.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1IKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (21.7, 206.6, 77.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 finger2.1.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (72.7, 73.5, 139.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger2.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (27.0, 308.8, 208.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2.3.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (63.4, 18.7, 267.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger2.3.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (63.4, 18.7, 267.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 3 finger2IKBender.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (322.0, 222.1, 69.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger2IKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (21.7, 206.6, 77.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2IKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (21.7, 206.6, 77.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 4 finger3.1.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (78.1, 41.8, 111.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger3.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (6.4, 296.9, 203.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger3.3.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (51.6, 328.6, 222.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger3.3.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (51.6, 328.6, 222.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 5 finger3IKBender.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (322.0, 221.5, 69.1) s: (0.8, 0.8, 0.8)
+>>>>>>>>>>GameObject Children 0 finger3IKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (21.5, 205.7, 77.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger3IKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (21.5, 205.7, 77.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 6 finger4.1.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (78.8, 34.4, 108.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger4.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (355.5, 284.8, 201.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger4.3.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (37.9, 303.4, 207.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger4.3.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (37.9, 303.4, 207.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 7 finger4IKBender.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (321.7, 218.4, 66.7) s: (0.7, 0.7, 0.7)
+>>>>>>>>>>GameObject Children 0 finger4IKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (20.4, 200.5, 75.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger4IKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (20.4, 200.5, 75.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 8 gun.r
+
+>>>>>>>>>> transform = p: (0.0, 0.0, 0.1) r: (312.5, 223.0, 176.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>> UnityEngine.Rigidbody
+>>>>>>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>>>>>>v drag = 0,1
+>>>>>>>>>>v angularDrag = 0,05
+>>>>>>>>>>v mass = 1
+>>>>>>>>>>v useGravity = True
+>>>>>>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>>>>>>v isKinematic = False
+>>>>>>>>>>v freezeRotation = False
+>>>>>>>>>>v constraints = None
+>>>>>>>>>>v collisionDetectionMode = Discrete
+>>>>>>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>>>>>>v detectCollisions = True
+>>>>>>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>>>>>>v interpolation = None
+>>>>>>>>>>v solverIterations = 6
+>>>>>>>>>>v sleepThreshold = 0,005
+>>>>>>>>>>v maxAngularVelocity = 7
+>>>>>>>>>>v solverVelocityIterations = 1
+>>>>>>>>>>v sleepVelocity = 0
+>>>>>>>>>>v sleepAngularVelocity = 0
+>>>>>>>>>>v useConeFriction = False
+>>>>>>>>>>v solverIterationCount = 6
+>>>>>>>>>>v solverVelocityIterationCount = 1
+
+>>>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>>>v center = (-0.1, 0.2, 0.0)
+>>>>>>>>>>v size = (0.3, 0.3, 0.1)
+>>>>>>>>>>v extents = (0.2, 0.1, 0.0)
+
+>>>>>>>>>>GameObject Children 0 gun.r_end
+
+>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (312.5, 223.0, 176.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 GunMesh
+
+>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (317.6, 38.0, 3.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>>>v sharedMesh = GunMesh (UnityEngine.Mesh)
+>>>>>>>>>>>v mesh = GunMesh Instance (UnityEngine.Mesh)
+
+>>>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>>>>GameObject Children 2 MuzzleRight
+
+>>>>>>>>>>> transform = p: (-0.3, 0.1, 0.0) r: (2.5, 310.3, 42.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 9 thumb.1.r
+
+>>>>>>>>>> transform = p: (0.1, 0.1, 0.0) r: (70.8, 99.6, 136.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 thumb.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (345.0, 150.2, 344.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumb.2.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (345.0, 150.2, 344.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 10 thumbIKBender.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (350.6, 216.7, 33.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 thumbIKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (16.1, 182.9, 68.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumbIKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (16.1, 182.9, 68.1) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 3 LeftJet
+
+>>>>>>> transform = p: (-0.1, 0.2, -0.3) r: (306.4, 54.4, 188.2) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 4 RightJet
+
+>>>>>>> transform = p: (0.1, 0.2, -0.3) r: (308.8, 10.3, 248.2) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 IKLegTarget.l
+
+>>>> transform = p: (-0.2, 0.0, -0.1) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKLegPole.l
+
+>>>>> transform = p: (0.0, -0.7, 0.0) r: (4.1, 194.7, 172.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKLegPole.l_end
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (4.1, 194.7, 172.6) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 IKLegTarget.r
+
+>>>> transform = p: (0.2, 0.0, -0.1) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKLegPole.r
+
+>>>>> transform = p: (0.0, -0.7, 0.0) r: (7.1, 223.0, 175.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKLegPole.r_end
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (7.1, 223.0, 175.4) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 MuzzleCenter
+
+>>> transform = p: (0.0, -0.9, 1.2) r: (3.3, 209.0, 353.9) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 CommandoMesh
+
+>> transform = p: (0.0, 0.0, 0.1) r: (83.1, 91.0, 241.8) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = True
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = CommandoMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.6, 3.8, 2.2), Extents: (4.3, 4.1, 1.4)

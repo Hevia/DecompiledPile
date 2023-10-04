@@ -1,0 +1,28 @@
+Key Path : RoR2/DLC1/HealingPotion/DisplayHealingPotion.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayHealingPotion
+
+> transform = p: (-4.4, -143.7, -19.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlHealingPotion
+
+>> transform = p: (0.0, -1.6, 0.0) r: (270.0, 0.0, 0.0) s: (1.2, 1.2, 1.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlHealingPotion (UnityEngine.Mesh)
+>>v mesh = mdlHealingPotion Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 mdlHealingPotionCorkLiquid
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlHealingPotionCorkLiquid (UnityEngine.Mesh)
+>>>v mesh = mdlHealingPotionCorkLiquid Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

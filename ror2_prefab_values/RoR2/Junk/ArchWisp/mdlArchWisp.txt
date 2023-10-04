@@ -1,0 +1,116 @@
+Key Path : RoR2/Junk/ArchWisp/mdlArchWisp.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlArchWisp
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlArchWispAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 ArchWispArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 1.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Hand.l
+
+>>>> transform = p: (-0.2, 1.2, 0.6) r: (0.0, 45.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 finger1.l
+
+>>>>> transform = p: (0.3, 0.0, -0.1) r: (352.3, 82.5, 181.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 finger1.l_end
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (352.3, 82.5, 181.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 finger2.l
+
+>>>>> transform = p: (-0.1, 0.1, -0.1) r: (352.4, 342.6, 182.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 finger2.l_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (352.4, 342.6, 182.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 finger3.l
+
+>>>>> transform = p: (0.1, 0.0, 0.2) r: (5.5, 123.7, 183.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 finger3.l_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (5.5, 123.7, 183.6) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 Hand.r
+
+>>>> transform = p: (0.2, 1.2, 0.6) r: (0.0, 315.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 finger1.r
+
+>>>>> transform = p: (-0.3, 0.0, -0.1) r: (352.3, 277.5, 179.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 finger1.r_end
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (352.3, 277.5, 179.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 finger2.r
+
+>>>>> transform = p: (0.1, 0.1, -0.1) r: (352.4, 17.4, 177.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 finger2.r_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (352.4, 17.4, 177.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 finger3.r
+
+>>>>> transform = p: (-0.1, 0.0, 0.2) r: (5.5, 236.3, 176.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 finger3.r_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (5.5, 236.3, 176.4) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 Mask
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Mask_end
+
+>>>>> transform = p: (0.0, 0.7, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 ArchWispMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = ArchWispMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (-0.2, 1.0, -0.3), Extents: (1.0, 1.1, 2.1)

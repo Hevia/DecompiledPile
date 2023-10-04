@@ -1,0 +1,776 @@
+Key Path : RoR2/Base/UI/SettingsSliderControl.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : SettingsSliderControl
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.CanvasRenderer
+>v <isMask>k__BackingField = False
+>v hasPopInstruction = False
+>v materialCount = 0
+>v popMaterialCount = 0
+>v absoluteDepth = -1
+>v hasMoved = False
+>v cullTransparentMesh = False
+>v hasRectClipping = False
+>v relativeDepth = -1
+>v cull = False
+>v isMask = False
+>v clippingSoftness = (0.0, 0.0)
+
+> UnityEngine.UI.Image
+>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>v m_Sprite = texUICleanButton (UnityEngine.Sprite)
+>v m_OverrideSprite = 
+>v m_Type = Sliced
+>v m_PreserveAspect = False
+>v m_FillCenter = True
+>v m_FillMethod = Radial360
+>v m_FillAmount = 1
+>v m_FillClockwise = True
+>v m_FillOrigin = 0
+>v m_AlphaHitTestMinimumThreshold = 0
+>v m_Tracked = False
+>v m_UseSpriteMesh = False
+>v m_PixelsPerUnitMultiplier = 1
+>v m_CachedReferencePixelsPerUnit = 100
+>v s_VertScratch = UnityEngine.Vector2[]
+>v s_UVScratch = UnityEngine.Vector2[]
+>v s_Xy = UnityEngine.Vector3[]
+>v s_Uv = UnityEngine.Vector3[]
+>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>v s_Initialized = False
+>v sprite = texUICleanButton (UnityEngine.Sprite)
+>v overrideSprite = texUICleanButton (UnityEngine.Sprite)
+>v type = Sliced
+>v preserveAspect = False
+>v fillCenter = True
+>v fillMethod = Radial360
+>v fillAmount = 1
+>v fillClockwise = True
+>v fillOrigin = 0
+>v eventAlphaThreshold = 1
+>v alphaHitTestMinimumThreshold = 0
+>v useSpriteMesh = False
+>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>v mainTexture = texUICleanButton (UnityEngine.Texture2D)
+>v hasBorder = True
+>v pixelsPerUnitMultiplier = 1
+>v pixelsPerUnit = 1
+>v material = Default UI Material (UnityEngine.Material)
+>v minWidth = 0
+>v preferredWidth = 16
+>v flexibleWidth = -1
+>v minHeight = 0
+>v preferredHeight = 16
+>v flexibleHeight = -1
+>v layoutPriority = 0
+
+> RoR2.UI.SelectableDescriptionUpdater
+>v languageTextMeshController = 
+>v selectableDescriptionToken = OPTION_MASTERVOLUME_DESCRIPTION
+
+> UnityEngine.UI.LayoutElement
+>v m_IgnoreLayout = False
+>v m_MinWidth = -1
+>v m_MinHeight = 64
+>v m_PreferredWidth = -1
+>v m_PreferredHeight = -1
+>v m_FlexibleWidth = -1
+>v m_FlexibleHeight = -1
+>v m_LayoutPriority = 1
+>v ignoreLayout = False
+>v minWidth = -1
+>v minHeight = 64
+>v preferredWidth = -1
+>v preferredHeight = -1
+>v flexibleWidth = -1
+>v flexibleHeight = -1
+>v layoutPriority = 1
+
+> RoR2.UI.SkinControllers.PanelSkinController
+>v panelType = Default
+>v image = 
+
+> RoR2.UI.MPEventSystemLocator
+>v _eventSystemProvider = 
+>v _eventSystem = 
+>v onEventSystemDiscovered = 
+>v onEventSystemLost = 
+>v eventSystemProvider = 
+>v eventSystem = 
+
+> RoR2.UI.SettingsSlider
+>v slider = Slider (UnityEngine.UI.Slider)
+>v valueText = 
+>v minValue = 0
+>v maxValue = 100
+>v formatString = {0:0}%
+
+>GameObject Children 0 CornerRect
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.UI.LayoutElement
+>>v m_IgnoreLayout = True
+>>v m_MinWidth = -1
+>>v m_MinHeight = -1
+>>v m_PreferredWidth = -1
+>>v m_PreferredHeight = -1
+>>v m_FlexibleWidth = -1
+>>v m_FlexibleHeight = -1
+>>v m_LayoutPriority = 1
+>>v ignoreLayout = True
+>>v minWidth = -1
+>>v minHeight = -1
+>>v preferredWidth = -1
+>>v preferredHeight = -1
+>>v flexibleWidth = -1
+>>v flexibleHeight = -1
+>>v layoutPriority = 1
+
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.Image
+>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>v m_Sprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>v m_OverrideSprite = 
+>>v m_Type = Sliced
+>>v m_PreserveAspect = False
+>>v m_FillCenter = True
+>>v m_FillMethod = Radial360
+>>v m_FillAmount = 1
+>>v m_FillClockwise = True
+>>v m_FillOrigin = 0
+>>v m_AlphaHitTestMinimumThreshold = 0
+>>v m_Tracked = False
+>>v m_UseSpriteMesh = False
+>>v m_PixelsPerUnitMultiplier = 1
+>>v m_CachedReferencePixelsPerUnit = 100
+>>v s_VertScratch = UnityEngine.Vector2[]
+>>v s_UVScratch = UnityEngine.Vector2[]
+>>v s_Xy = UnityEngine.Vector3[]
+>>v s_Uv = UnityEngine.Vector3[]
+>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>v s_Initialized = False
+>>v sprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>v overrideSprite = texUIHighlightHeader (UnityEngine.Sprite)
+>>v type = Sliced
+>>v preserveAspect = False
+>>v fillCenter = True
+>>v fillMethod = Radial360
+>>v fillAmount = 1
+>>v fillClockwise = True
+>>v fillOrigin = 0
+>>v eventAlphaThreshold = 1
+>>v alphaHitTestMinimumThreshold = 0
+>>v useSpriteMesh = False
+>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>v mainTexture = texUIHighlightHeader (UnityEngine.Texture2D)
+>>v hasBorder = True
+>>v pixelsPerUnitMultiplier = 1
+>>v pixelsPerUnit = 1
+>>v material = Default UI Material (UnityEngine.Material)
+>>v minWidth = 0
+>>v preferredWidth = 36
+>>v flexibleWidth = -1
+>>v minHeight = 0
+>>v preferredHeight = 36
+>>v flexibleHeight = -1
+>>v layoutPriority = 0
+
+>GameObject Children 1 Text, Name
+
+>> transform = p: (-16.0, -8.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> RoR2.UI.LanguageTextMeshController
+>>v _token = 
+>>v previousToken = 
+>>v resolvedString = 
+>>v textMeshPro = 
+>>v _formatArgs = System.Object[]
+>>v token = 
+>>v formatArgs = System.Object[]
+
+>> RoR2.UI.HGTextMeshProUGUI
+>>v useLanguageDefaultFont = True
+>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)
+
+>>GameObject Children 0 TMP SubMeshUI [NotoSans-Regular Atlas Material + NotoSansCJKsc-Regular SDF (Korean) Atlas]
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> TMPro.TMP_SubMeshUI
+>>>v m_fontAsset = NotoSansCJKsc-Regular SDF (Korean) (TMPro.TMP_FontAsset)
+>>>v m_spriteAsset = 
+>>>v m_material = 
+>>>v m_sharedMaterial = 
+>>>v m_fallbackMaterial = 
+>>>v m_fallbackSourceMaterial = 
+>>>v m_isDefaultMaterial = False
+>>>v m_padding = 8,5625
+>>>v m_mesh = 
+>>>v m_TextComponent = Text, Name (RoR2.UI.HGTextMeshProUGUI)
+>>>v m_isRegisteredForEvents = False
+>>>v m_materialDirty = False
+>>>v m_materialReferenceIndex = 1
+>>>v m_RootCanvasTransform = 
+>>>v fontAsset = NotoSansCJKsc-Regular SDF (Korean) (TMPro.TMP_FontAsset)
+>>>v spriteAsset = 
+>>>v mainTexture = 
+>>>v sharedMaterial = 
+>>>v fallbackMaterial = 
+>>>v fallbackSourceMaterial = 
+>>>v materialForRendering = 
+>>>v isDefaultMaterial = False
+>>>v padding = 8,5625
+>>>v mesh =  (UnityEngine.Mesh)
+>>>v textComponent = Text, Name (RoR2.UI.HGTextMeshProUGUI)
+
+>GameObject Children 2 SliderControl
+
+>> transform = p: (-6.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>>GameObject Children 0 Slider
+
+>>> transform = p: (-76.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.UI.Slider
+>>>v m_FillRect = Fill (UnityEngine.RectTransform)
+>>>v m_HandleRect = Handle (UnityEngine.RectTransform)
+>>>v m_Direction = LeftToRight
+>>>v m_MinValue = 0
+>>>v m_MaxValue = 1
+>>>v m_WholeNumbers = False
+>>>v m_Value = 0
+>>>v m_OnValueChanged = UnityEngine.UI.Slider+SliderEvent UnityEngine.UI.Slider+SliderEvent
+>>>v m_FillImage = 
+>>>v m_FillTransform = 
+>>>v m_FillContainerRect = 
+>>>v m_HandleTransform = 
+>>>v m_HandleContainerRect = 
+>>>v m_Offset = (0.0, 0.0)
+>>>v m_Tracker = UnityEngine.DrivenRectTransformTracker
+>>>v m_DelayedUpdateVisuals = False
+>>>v fillRect = Fill (UnityEngine.RectTransform)
+>>>v handleRect = Handle (UnityEngine.RectTransform)
+>>>v direction = LeftToRight
+>>>v minValue = 0
+>>>v maxValue = 1
+>>>v wholeNumbers = False
+>>>v value = 0
+>>>v normalizedValue = 0
+>>>v onValueChanged = UnityEngine.UI.Slider+SliderEvent UnityEngine.UI.Slider+SliderEvent
+
+>>>GameObject Children 0 Background
+
+>>>> transform = p: (-74.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.CanvasRenderer
+>>>>v <isMask>k__BackingField = False
+>>>>v hasPopInstruction = False
+>>>>v materialCount = 0
+>>>>v popMaterialCount = 0
+>>>>v absoluteDepth = -1
+>>>>v hasMoved = False
+>>>>v cullTransparentMesh = False
+>>>>v hasRectClipping = False
+>>>>v relativeDepth = -1
+>>>>v cull = False
+>>>>v isMask = False
+>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>> UnityEngine.UI.Image
+>>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>v m_Sprite = texUICleanButton (UnityEngine.Sprite)
+>>>>v m_OverrideSprite = 
+>>>>v m_Type = Sliced
+>>>>v m_PreserveAspect = False
+>>>>v m_FillCenter = True
+>>>>v m_FillMethod = Radial360
+>>>>v m_FillAmount = 1
+>>>>v m_FillClockwise = True
+>>>>v m_FillOrigin = 0
+>>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>>v m_Tracked = False
+>>>>v m_UseSpriteMesh = False
+>>>>v m_PixelsPerUnitMultiplier = 1
+>>>>v m_CachedReferencePixelsPerUnit = 100
+>>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>>v s_Xy = UnityEngine.Vector3[]
+>>>>v s_Uv = UnityEngine.Vector3[]
+>>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>>v s_Initialized = False
+>>>>v sprite = texUICleanButton (UnityEngine.Sprite)
+>>>>v overrideSprite = texUICleanButton (UnityEngine.Sprite)
+>>>>v type = Sliced
+>>>>v preserveAspect = False
+>>>>v fillCenter = True
+>>>>v fillMethod = Radial360
+>>>>v fillAmount = 1
+>>>>v fillClockwise = True
+>>>>v fillOrigin = 0
+>>>>v eventAlphaThreshold = 1
+>>>>v alphaHitTestMinimumThreshold = 0
+>>>>v useSpriteMesh = False
+>>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>v mainTexture = texUICleanButton (UnityEngine.Texture2D)
+>>>>v hasBorder = True
+>>>>v pixelsPerUnitMultiplier = 1
+>>>>v pixelsPerUnit = 1
+>>>>v material = Default UI Material (UnityEngine.Material)
+>>>>v minWidth = 0
+>>>>v preferredWidth = 16
+>>>>v flexibleWidth = -1
+>>>>v minHeight = 0
+>>>>v preferredHeight = 16
+>>>>v flexibleHeight = -1
+>>>>v layoutPriority = 0
+
+>>>GameObject Children 1 Fill Area
+
+>>>> transform = p: (-79.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Fill
+
+>>>>> transform = p: (-64.0, -10.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.CanvasRenderer
+>>>>>v <isMask>k__BackingField = False
+>>>>>v hasPopInstruction = False
+>>>>>v materialCount = 0
+>>>>>v popMaterialCount = 0
+>>>>>v absoluteDepth = -1
+>>>>>v hasMoved = False
+>>>>>v cullTransparentMesh = False
+>>>>>v hasRectClipping = False
+>>>>>v relativeDepth = -1
+>>>>>v cull = False
+>>>>>v isMask = False
+>>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>>> UnityEngine.UI.Image
+>>>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>>v m_Sprite = texUICleanButton (UnityEngine.Sprite)
+>>>>>v m_OverrideSprite = 
+>>>>>v m_Type = Sliced
+>>>>>v m_PreserveAspect = False
+>>>>>v m_FillCenter = True
+>>>>>v m_FillMethod = Radial360
+>>>>>v m_FillAmount = 1
+>>>>>v m_FillClockwise = True
+>>>>>v m_FillOrigin = 0
+>>>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>>>v m_Tracked = False
+>>>>>v m_UseSpriteMesh = False
+>>>>>v m_PixelsPerUnitMultiplier = 1
+>>>>>v m_CachedReferencePixelsPerUnit = 100
+>>>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>>>v s_Xy = UnityEngine.Vector3[]
+>>>>>v s_Uv = UnityEngine.Vector3[]
+>>>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>>>v s_Initialized = False
+>>>>>v sprite = texUICleanButton (UnityEngine.Sprite)
+>>>>>v overrideSprite = texUICleanButton (UnityEngine.Sprite)
+>>>>>v type = Sliced
+>>>>>v preserveAspect = False
+>>>>>v fillCenter = True
+>>>>>v fillMethod = Radial360
+>>>>>v fillAmount = 1
+>>>>>v fillClockwise = True
+>>>>>v fillOrigin = 0
+>>>>>v eventAlphaThreshold = 1
+>>>>>v alphaHitTestMinimumThreshold = 0
+>>>>>v useSpriteMesh = False
+>>>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>>v mainTexture = texUICleanButton (UnityEngine.Texture2D)
+>>>>>v hasBorder = True
+>>>>>v pixelsPerUnitMultiplier = 1
+>>>>>v pixelsPerUnit = 1
+>>>>>v material = Default UI Material (UnityEngine.Material)
+>>>>>v minWidth = 0
+>>>>>v preferredWidth = 16
+>>>>>v flexibleWidth = -1
+>>>>>v minHeight = 0
+>>>>>v preferredHeight = 16
+>>>>>v flexibleHeight = -1
+>>>>>v layoutPriority = 0
+
+>>>GameObject Children 2 Handle Slide Area
+
+>>>> transform = p: (-74.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Handle
+
+>>>>> transform = p: (-64.0, -20.0, 0.0) r: (0.0, 0.0, 45.0) s: (3.0, 3.0, 3.0)
+>>>>> UnityEngine.CanvasRenderer
+>>>>>v <isMask>k__BackingField = False
+>>>>>v hasPopInstruction = False
+>>>>>v materialCount = 0
+>>>>>v popMaterialCount = 0
+>>>>>v absoluteDepth = -1
+>>>>>v hasMoved = False
+>>>>>v cullTransparentMesh = False
+>>>>>v hasRectClipping = False
+>>>>>v relativeDepth = -1
+>>>>>v cull = False
+>>>>>v isMask = False
+>>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>>> UnityEngine.UI.Image
+>>>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>>v m_Sprite = texUICheckboxes_0 (UnityEngine.Sprite)
+>>>>>v m_OverrideSprite = 
+>>>>>v m_Type = Simple
+>>>>>v m_PreserveAspect = True
+>>>>>v m_FillCenter = True
+>>>>>v m_FillMethod = Radial360
+>>>>>v m_FillAmount = 1
+>>>>>v m_FillClockwise = True
+>>>>>v m_FillOrigin = 0
+>>>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>>>v m_Tracked = False
+>>>>>v m_UseSpriteMesh = False
+>>>>>v m_PixelsPerUnitMultiplier = 1
+>>>>>v m_CachedReferencePixelsPerUnit = 100
+>>>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>>>v s_Xy = UnityEngine.Vector3[]
+>>>>>v s_Uv = UnityEngine.Vector3[]
+>>>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>>>v s_Initialized = False
+>>>>>v sprite = texUICheckboxes_0 (UnityEngine.Sprite)
+>>>>>v overrideSprite = texUICheckboxes_0 (UnityEngine.Sprite)
+>>>>>v type = Simple
+>>>>>v preserveAspect = True
+>>>>>v fillCenter = True
+>>>>>v fillMethod = Radial360
+>>>>>v fillAmount = 1
+>>>>>v fillClockwise = True
+>>>>>v fillOrigin = 0
+>>>>>v eventAlphaThreshold = 1
+>>>>>v alphaHitTestMinimumThreshold = 0
+>>>>>v useSpriteMesh = False
+>>>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>>v mainTexture = texUIHandle (UnityEngine.Texture2D)
+>>>>>v hasBorder = False
+>>>>>v pixelsPerUnitMultiplier = 1
+>>>>>v pixelsPerUnit = 0,125
+>>>>>v material = Default UI Material (UnityEngine.Material)
+>>>>>v minWidth = 0
+>>>>>v preferredWidth = 512
+>>>>>v flexibleWidth = -1
+>>>>>v minHeight = 0
+>>>>>v preferredHeight = 512
+>>>>>v flexibleHeight = -1
+>>>>>v layoutPriority = 0
+
+>>GameObject Children 1 TextMeshPro - InputField
+
+>>> transform = p: (-12.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = False
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.Image
+>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v m_Sprite = texUICleanButton (UnityEngine.Sprite)
+>>>v m_OverrideSprite = 
+>>>v m_Type = Sliced
+>>>v m_PreserveAspect = False
+>>>v m_FillCenter = True
+>>>v m_FillMethod = Radial360
+>>>v m_FillAmount = 1
+>>>v m_FillClockwise = True
+>>>v m_FillOrigin = 0
+>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>v m_Tracked = False
+>>>v m_UseSpriteMesh = False
+>>>v m_PixelsPerUnitMultiplier = 1
+>>>v m_CachedReferencePixelsPerUnit = 100
+>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>v s_Xy = UnityEngine.Vector3[]
+>>>v s_Uv = UnityEngine.Vector3[]
+>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>v s_Initialized = False
+>>>v sprite = texUICleanButton (UnityEngine.Sprite)
+>>>v overrideSprite = texUICleanButton (UnityEngine.Sprite)
+>>>v type = Sliced
+>>>v preserveAspect = False
+>>>v fillCenter = True
+>>>v fillMethod = Radial360
+>>>v fillAmount = 1
+>>>v fillClockwise = True
+>>>v fillOrigin = 0
+>>>v eventAlphaThreshold = 1
+>>>v alphaHitTestMinimumThreshold = 0
+>>>v useSpriteMesh = False
+>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v mainTexture = texUICleanButton (UnityEngine.Texture2D)
+>>>v hasBorder = True
+>>>v pixelsPerUnitMultiplier = 1
+>>>v pixelsPerUnit = 1
+>>>v material = Default UI Material (UnityEngine.Material)
+>>>v minWidth = 0
+>>>v preferredWidth = 16
+>>>v flexibleWidth = -1
+>>>v minHeight = 0
+>>>v preferredHeight = 16
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 0
+
+>>> TMPro.TMP_InputField
+>>>v m_SoftKeyboard = 
+>>>v kSeparators = System.Char[]
+>>>v m_RectTransform = 
+>>>v m_TextViewport = Text Area (UnityEngine.RectTransform)
+>>>v m_TextComponentRectMask = 
+>>>v m_TextViewportRectMask = 
+>>>v m_CachedViewportRect = (x:0.00, y:0.00, width:0.00, height:0.00)
+>>>v m_TextComponent = Text (RoR2.UI.HGTextMeshProUGUI)
+>>>v m_TextComponentRectTransform = 
+>>>v m_Placeholder = Placeholder (RoR2.UI.HGTextMeshProUGUI)
+>>>v m_VerticalScrollbar = 
+>>>v m_VerticalScrollbarEventHandler = 
+>>>v m_IsDrivenByLayoutComponents = False
+>>>v m_LayoutGroup = 
+>>>v m_IScrollHandlerParent = 
+>>>v m_ScrollPosition = 0
+>>>v m_ScrollSensitivity = 1
+>>>v m_ContentType = Standard
+>>>v m_InputType = Standard
+>>>v m_AsteriskChar = *
+>>>v m_KeyboardType = Default
+>>>v m_LineType = SingleLine
+>>>v m_HideMobileInput = False
+>>>v m_HideSoftKeyboard = False
+>>>v m_CharacterValidation = None
+>>>v m_RegexValue = 
+>>>v m_GlobalPointSize = 14
+>>>v m_CharacterLimit = 0
+>>>v m_OnEndEdit = TMPro.TMP_InputField+SubmitEvent TMPro.TMP_InputField+SubmitEvent
+>>>v m_OnSubmit = TMPro.TMP_InputField+SubmitEvent TMPro.TMP_InputField+SubmitEvent
+>>>v m_OnSelect = TMPro.TMP_InputField+SelectionEvent TMPro.TMP_InputField+SelectionEvent
+>>>v m_OnDeselect = TMPro.TMP_InputField+SelectionEvent TMPro.TMP_InputField+SelectionEvent
+>>>v m_OnTextSelection = TMPro.TMP_InputField+TextSelectionEvent TMPro.TMP_InputField+TextSelectionEvent
+>>>v m_OnEndTextSelection = TMPro.TMP_InputField+TextSelectionEvent TMPro.TMP_InputField+TextSelectionEvent
+>>>v m_OnValueChanged = TMPro.TMP_InputField+OnChangeEvent TMPro.TMP_InputField+OnChangeEvent
+>>>v m_OnTouchScreenKeyboardStatusChanged = TMPro.TMP_InputField+TouchScreenKeyboardEvent TMPro.TMP_InputField+TouchScreenKeyboardEvent
+>>>v m_OnValidateInput = 
+>>>v m_CaretColor = RGBA(0.196, 0.196, 0.196, 1.000)
+>>>v m_CustomCaretColor = False
+>>>v m_SelectionColor = RGBA(0.659, 0.808, 1.000, 0.753)
+>>>v m_Text = 00.00
+>>>v m_CaretBlinkRate = 0,85
+>>>v m_CaretWidth = 1
+>>>v m_ReadOnly = False
+>>>v m_RichText = True
+>>>v m_StringPosition = 0
+>>>v m_StringSelectPosition = 0
+>>>v m_CaretPosition = 0
+>>>v m_CaretSelectPosition = 0
+>>>v caretRectTrans = 
+>>>v m_CursorVerts = 
+>>>v m_CachedInputRenderer = 
+>>>v m_LastPosition = (0.0, 0.0)
+>>>v m_Mesh = 
+>>>v m_AllowInput = False
+>>>v m_ShouldActivateNextUpdate = False
+>>>v m_UpdateDrag = False
+>>>v m_DragPositionOutOfBounds = False
+>>>v kHScrollSpeed = 0,05
+>>>v kVScrollSpeed = 0,1
+>>>v m_CaretVisible = False
+>>>v m_BlinkCoroutine = 
+>>>v m_BlinkStartTime = 0
+>>>v m_DragCoroutine = 
+>>>v m_OriginalText = 
+>>>v m_WasCanceled = False
+>>>v m_HasDoneFocusTransition = False
+>>>v m_WaitForSecondsRealtime = 
+>>>v m_PreventCallback = False
+>>>v m_TouchKeyboardAllowsInPlaceEditing = False
+>>>v m_IsTextComponentUpdateRequired = False
+>>>v m_isLastKeyBackspace = False
+>>>v m_PointerDownClickStartTime = 0
+>>>v m_KeyDownStartTime = 0
+>>>v m_DoubleClickDelay = 0,5
+>>>v kEmailSpecialCharacters = !#$%&'*+-/=?^_`{|}~
+>>>v m_IsCompositionActive = False
+>>>v m_ShouldUpdateIMEWindowPosition = False
+>>>v m_PreviousIMEInsertionLine = 0
+>>>v m_GlobalFontAsset = tmpBombDropshadow (TMPro.TMP_FontAsset)
+>>>v m_OnFocusSelectAll = True
+>>>v m_isSelectAll = False
+>>>v m_ResetOnDeActivation = True
+>>>v m_SelectionStillActive = False
+>>>v m_ReleaseSelection = False
+>>>v m_PreviouslySelectedObject = 
+>>>v m_RestoreOriginalTextOnEscape = True
+>>>v m_isRichTextEditingAllowed = True
+>>>v m_LineLimit = 0
+>>>v m_InputValidator = 
+>>>v m_isSelected = False
+>>>v m_IsStringPositionDirty = False
+>>>v m_IsCaretPositionDirty = False
+>>>v m_forceRectTransformAdjustment = False
+>>>v m_ProcessingEvent = ignore
+>>>v shouldHideMobileInput = True
+>>>v shouldHideSoftKeyboard = True
+>>>v text = 00.00
+>>>v isFocused = False
+>>>v caretBlinkRate = 0,85
+>>>v caretWidth = 1
+>>>v textViewport = Text Area (UnityEngine.RectTransform)
+>>>v textComponent = Text (RoR2.UI.HGTextMeshProUGUI)
+>>>v placeholder = Placeholder (RoR2.UI.HGTextMeshProUGUI)
+>>>v verticalScrollbar = 
+>>>v scrollSensitivity = 1
+>>>v caretColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v customCaretColor = False
+>>>v selectionColor = RGBA(0.659, 0.808, 1.000, 0.753)
+>>>v onEndEdit = TMPro.TMP_InputField+SubmitEvent TMPro.TMP_InputField+SubmitEvent
+>>>v onSubmit = TMPro.TMP_InputField+SubmitEvent TMPro.TMP_InputField+SubmitEvent
+>>>v onSelect = TMPro.TMP_InputField+SelectionEvent TMPro.TMP_InputField+SelectionEvent
+>>>v onDeselect = TMPro.TMP_InputField+SelectionEvent TMPro.TMP_InputField+SelectionEvent
+>>>v onTextSelection = TMPro.TMP_InputField+TextSelectionEvent TMPro.TMP_InputField+TextSelectionEvent
+>>>v onEndTextSelection = TMPro.TMP_InputField+TextSelectionEvent TMPro.TMP_InputField+TextSelectionEvent
+>>>v onValueChanged = TMPro.TMP_InputField+OnChangeEvent TMPro.TMP_InputField+OnChangeEvent
+>>>v onTouchScreenKeyboardStatusChanged = TMPro.TMP_InputField+TouchScreenKeyboardEvent TMPro.TMP_InputField+TouchScreenKeyboardEvent
+>>>v onValidateInput = 
+>>>v characterLimit = 0
+>>>v pointSize = 14
+>>>v fontAsset = tmpBombDropshadow (TMPro.TMP_FontAsset)
+>>>v onFocusSelectAll = True
+>>>v resetOnDeActivation = True
+>>>v restoreOriginalTextOnEscape = True
+>>>v isRichTextEditingAllowed = True
+>>>v contentType = Standard
+>>>v lineType = SingleLine
+>>>v lineLimit = 0
+>>>v inputType = Standard
+>>>v keyboardType = Default
+>>>v characterValidation = None
+>>>v inputValidator = 
+>>>v readOnly = False
+>>>v richText = True
+>>>v multiLine = False
+>>>v asteriskChar = *
+>>>v wasCanceled = False
+>>>v caretPosition = 0
+>>>v selectionAnchorPosition = 0
+>>>v selectionFocusPosition = 0
+>>>v stringPosition = 0
+>>>v selectionStringAnchorPosition = 0
+>>>v selectionStringFocusPosition = 0
+>>>v minWidth = 0
+>>>v preferredWidth = 20
+>>>v flexibleWidth = -1
+>>>v minHeight = 0
+>>>v preferredHeight = 13
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 1
+
+>>> RoR2.UI.SkinControllers.PanelSkinController
+>>>v panelType = Default
+>>>v image = 
+
+>>>GameObject Children 0 Text Area
+
+>>>> transform = p: (-26.0, -0.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Placeholder
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.CanvasRenderer
+>>>>>v <isMask>k__BackingField = False
+>>>>>v hasPopInstruction = False
+>>>>>v materialCount = 0
+>>>>>v popMaterialCount = 0
+>>>>>v absoluteDepth = -1
+>>>>>v hasMoved = False
+>>>>>v cullTransparentMesh = False
+>>>>>v hasRectClipping = False
+>>>>>v relativeDepth = -1
+>>>>>v cull = False
+>>>>>v isMask = False
+>>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>>> RoR2.UI.HGTextMeshProUGUI
+>>>>>v useLanguageDefaultFont = True
+>>>>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)
+
+>>>>GameObject Children 1 Text
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.CanvasRenderer
+>>>>>v <isMask>k__BackingField = False
+>>>>>v hasPopInstruction = False
+>>>>>v materialCount = 0
+>>>>>v popMaterialCount = 0
+>>>>>v absoluteDepth = -1
+>>>>>v hasMoved = False
+>>>>>v cullTransparentMesh = False
+>>>>>v hasRectClipping = False
+>>>>>v relativeDepth = -1
+>>>>>v cull = False
+>>>>>v isMask = False
+>>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>>> RoR2.UI.HGTextMeshProUGUI
+>>>>>v useLanguageDefaultFont = True
+>>>>>v defaultLanguageFont = tmpBombDropshadow (TMPro.TMP_FontAsset)

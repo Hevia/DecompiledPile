@@ -1,0 +1,48 @@
+Key Path : RoR2/Base/ShinyPearl/DisplayShinyPearl.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayShinyPearl
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 Spinner
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Slow
+>>v _slowRotationSpeed = 60
+>>v _fastRotationSpeed = 20
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Slow
+>>v slowRotationSpeed = 60
+>>v fastRotationSpeed = 20
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>>GameObject Children 0 Mesh
+
+>>> transform = p: (2.5, 0.0, 0.0) r: (9.6, 274.1, 28.0) s: (0.5, 0.5, 0.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = IcosphereHighres (UnityEngine.Mesh)
+>>>v mesh = IcosphereHighres Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 360
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = X
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 360
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = X
+>>>v relativeTo = Self
+>>>v reverse = False

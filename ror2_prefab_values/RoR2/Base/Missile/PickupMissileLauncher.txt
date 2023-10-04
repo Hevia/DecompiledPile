@@ -1,0 +1,66 @@
+Key Path : RoR2/Base/Missile/PickupMissileLauncher.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupMissileLauncher
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, 0.0)
+>v minDistance = 1
+>v maxDistance = 10
+>v cameraDirection = (3.5, -0.3, -2.8)
+
+>GameObject Children 0 Cube
+
+>> transform = p: (0.0, -3.7, 0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Base (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = Cube (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.4, 1.6), Extents: (0.7, 1.8, 2.1)
+
+>GameObject Children 1 MissileLauncherArmature
+
+>> transform = p: (0.0, -3.7, 0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Base
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Neck1
+
+>>>> transform = p: (0.0, 0.5, 0.0) r: (45.7, 180.1, 0.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Neck2
+
+>>>>> transform = p: (0.0, 1.8, 0.0) r: (33.8, 0.0, 0.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Head
+
+>>>>>> transform = p: (0.0, 2.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Head_end
+
+>>>>>>> transform = p: (0.0, 2.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Swivel
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 179.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Swivel_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 179.9, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 HeadIKPole
+
+>>> transform = p: (0.0, 1.5, 2.3) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 HeadIKPole_end
+
+>>>> transform = p: (0.0, 0.8, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 HeadIKTarget
+
+>>> transform = p: (0.0, 0.7, 3.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 HeadIKTarget_end
+
+>>>> transform = p: (0.0, 0.5, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 FocusPoint(Clone)
+
+>> transform = p: (0.0, -1.8, 0.0) r: (0.0, 38.4, 340.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 CameraPosition(Clone)
+
+>> transform = p: (-3.5, -1.5, 2.8) r: (0.0, 38.4, 340.3) s: (1.0, 1.0, 1.0)

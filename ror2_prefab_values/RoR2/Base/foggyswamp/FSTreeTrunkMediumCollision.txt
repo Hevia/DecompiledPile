@@ -1,0 +1,24 @@
+Key Path : RoR2/Base/foggyswamp/FSTreeTrunkMediumCollision.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : FSTreeTrunkMediumCollision
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (20.0, 20.0, 20.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = FSTreeTrunkMedium (UnityEngine.Mesh)
+>>v mesh = FSTreeTrunkMedium Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = FSTreeTrunkMediumCollision (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdWood (RoR2.SurfaceDef)

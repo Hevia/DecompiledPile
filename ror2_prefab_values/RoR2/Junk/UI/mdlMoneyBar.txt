@@ -1,0 +1,40 @@
+Key Path : RoR2/Junk/UI/mdlMoneyBar.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlMoneyBar
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animation
+>v clip = MoneyBarArmature|moneyBarSpawn (UnityEngine.AnimationClip)
+>v playAutomatically = True
+>v wrapMode = Default
+>v isPlaying = False
+>v animatePhysics = False
+>v animateOnlyIfVisible = True
+>v cullingType = BasedOnRenderers
+>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)
+
+>GameObject Children 0 MoneyBarArmature
+
+>> transform = p: (0.3, 4.6, -0.9) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Base
+
+>>> transform = p: (-0.1, 0.0, 0.0) r: (16.0, 257.9, 286.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Arm
+
+>>>> transform = p: (0.0, 1.4, 0.0) r: (292.5, 211.8, 173.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Head
+
+>>>>> transform = p: (0.0, 1.4, 0.0) r: (337.6, 25.1, 32.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Head_end
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (337.6, 25.1, 32.6) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 MoneyBarMesh
+
+>> transform = p: (0.3, 4.6, -0.9) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Base (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = MoneyBarMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (-0.5, 1.1, -0.1), Extents: (1.5, 2.2, 1.7)

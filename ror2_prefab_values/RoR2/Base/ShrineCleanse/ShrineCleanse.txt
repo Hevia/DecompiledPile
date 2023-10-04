@@ -1,0 +1,456 @@
+Key Path : RoR2/Base/ShrineCleanse/ShrineCleanse.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ShrineCleanse
+
+> transform = p: (-3.3, 0.8, 4.4) r: (0.0, 108.4, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = f521acffba61ae040a5cbd40c7d30141
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = f521acffba61ae040a5cbd40c7d30141
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.EntityStateMachine
+>v <state>k__BackingField = 
+>v nextState = 
+>v customName = Main
+>v initialStateType = EntityStates.SerializableEntityStateType
+>v mainStateType = EntityStates.SerializableEntityStateType
+>v <networker>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v commonComponents = RoR2.EntityStateMachine+CommonComponentCache
+>v networkIndex = -1
+>v nextStateModifier = 
+>v <destroying>k__BackingField = False
+>v state = 
+>v networker = 
+>v networkIdentity = 
+>v destroying = False
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlShrineCleanse (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = 
+>v onModelChanged = 
+>v autoUpdateModelTransform = False
+>v dontDetatchFromParent = True
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlShrineCleanse (UnityEngine.Transform)
+
+> RoR2.NetworkStateMachine
+>v stateMachines = RoR2.EntityStateMachine[]
+>v networkIdentity = 
+
+> RoR2.Highlight
+>v highlightList = System.Collections.Generic.List`1[RoR2.Highlight]
+>v _readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+>v displayNameProvider = 
+>v pickupIndex = ItemTier.Boss
+>v targetRenderer = mdlShrineCleanse (UnityEngine.MeshRenderer)
+>v strength = 1
+>v highlightColor = interactive
+>v isOn = False
+>v readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+
+> RoR2.PurchaseInteraction
+>v displayNameToken = SHRINE_CLEANSE_NAME
+>v contextToken = SHRINE_CLEANSE_CONTEXT
+>v costType = LunarItemOrEquipment
+>v available = True
+>v cost = 1
+>v automaticallyScaleCostWithDifficulty = False
+>v requiredUnlockable = 
+>v ignoreSpherecastForInteractability = False
+>v purchaseStatNames = System.String[]
+>v setUnavailableOnTeleporterActivated = False
+>v isShrine = True
+>v isGoldShrine = False
+>v lastActivator = 
+>v lockGameObject = 
+>v rng = 
+>v sharedStringBuilder = 
+>v onItemSpentOnPurchase = 
+>v onEquipmentSpentOnPurchase = 
+>v onPurchase = RoR2.PurchaseEvent RoR2.PurchaseEvent
+>v ___lockGameObjectNetId = 0
+>v NetworkdisplayNameToken = SHRINE_CLEANSE_NAME
+>v NetworkcontextToken = SHRINE_CLEANSE_CONTEXT
+>v Networkavailable = True
+>v Networkcost = 1
+>v NetworklockGameObject = 
+
+> RoR2.EntityLogic.DelayedEvent
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v timeStepType = Time
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = SHRINE_CLEANSE_NAME
+
+> RoR2.SfxLocator
+>v deathSound = 
+>v barkSound = 
+>v openSound = Play_ui_obj_lunarPool_activate
+>v landingSound = 
+>v fallDamageSound = 
+>v aliveLoopStart = 
+>v aliveLoopStop = 
+>v sprintLoopStart = 
+>v sprintLoopStop = 
+
+> RoR2.ShopTerminalBehavior
+>v pickupIndex = BadPickupIndex-1
+>v hidden = False
+>v hasBeenPurchased = False
+>v pickupDisplay = 
+>v dropTransform = DropPivot (UnityEngine.Transform)
+>v dropTable = dtPearls (RoR2.ExplicitPickupDropTable)
+>v dropVelocity = (0.0, 25.0, 6.0)
+>v animator = 
+>v itemTier = NoTier
+>v bannedItemTag = Any
+>v selfGeneratePickup = True
+>v rng = 
+>v hasStarted = False
+>v serverMultiShopController = 
+>v pickupIndexIsHidden = False
+>v NetworkpickupIndex = BadPickupIndex-1
+>v Networkhidden = False
+>v NetworkhasBeenPurchased = False
+
+>GameObject Children 0 mdlShrineCleanse
+
+>> transform = p: (0.0, 0.5, 0.0) r: (270.0, 108.4, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = ShrineCleanseMesh (UnityEngine.Mesh)
+>>v mesh = ShrineCleanseMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Rigidbody
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v drag = 0
+>>v angularDrag = 0,05
+>>v mass = 1
+>>v useGravity = False
+>>v maxDepenetrationVelocity = 1E+32
+>>v isKinematic = True
+>>v freezeRotation = False
+>>v constraints = None
+>>v collisionDetectionMode = Discrete
+>>v centerOfMass = (0.0, 0.0, 0.0)
+>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>v detectCollisions = True
+>>v position = (0.0, 0.0, 0.0)
+>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>v interpolation = None
+>>v solverIterations = 6
+>>v sleepThreshold = 0,005
+>>v maxAngularVelocity = 7
+>>v solverVelocityIterations = 1
+>>v sleepVelocity = 0
+>>v sleepAngularVelocity = 0
+>>v useConeFriction = False
+>>v solverIterationCount = 6
+>>v solverVelocityIterationCount = 1
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = ShrineCleanseMesh (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> AkGameObj
+>>v m_listeners = AkGameObjListenerList
+>>v isEnvironmentAware = True
+>>v isStaticObject = False
+>>v m_Collider = 
+>>v m_envData = 
+>>v m_posData = 
+>>v m_positionOffsetData = AkGameObjPositionOffsetData
+>>v isRegistered = False
+>>v m_posOffsetData = 
+>>v AK_NUM_LISTENERS = 8
+>>v listenerMask = 1
+>>v IsUsingDefaultListeners = True
+>>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+>> AkEvent
+>>v actionOnEventType = AkActionOnEventType_Stop
+>>v curveInterpolation = AkCurveInterpolation_Linear
+>>v enableActionOnEvent = False
+>>v data = Empty Event
+>>v useCallbacks = False
+>>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>>v playingId = 0
+>>v soundEmitterObject = 
+>>v transitionDuration = 0
+>>v EventCallbackMsg = 
+>>v eventIdInternal = 0
+>>v valueGuidInternal = System.Byte[]
+>>v m_callbackDataInternal = 
+>>v eventID = 0
+>>v valueGuid = 
+>>v m_callbackData = 
+
+>> AkEvent
+>>v actionOnEventType = AkActionOnEventType_Stop
+>>v curveInterpolation = AkCurveInterpolation_Linear
+>>v enableActionOnEvent = False
+>>v data = Empty Event
+>>v useCallbacks = False
+>>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>>v playingId = 0
+>>v soundEmitterObject = mdlShrineCleanse (UnityEngine.GameObject)
+>>v transitionDuration = 0
+>>v EventCallbackMsg = 
+>>v eventIdInternal = 0
+>>v valueGuidInternal = System.Byte[]
+>>v m_callbackDataInternal = 
+>>v eventID = 0
+>>v valueGuid = 
+>>v m_callbackData = 
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> RoR2.EntityLocator
+>>v entity = ShrineCleanse (UnityEngine.GameObject)
+
+>>GameObject Children 0 spmSGGrass
+
+>>> transform = p: (0.0, -0.2, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.5, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>>v size = 6,632777
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmSGGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmSGGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmSGGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = False
+
+>>GameObject Children 1 LiquidMesh
+
+>>> transform = p: (0.0, 0.0, 0.5) r: (270.0, 108.4, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = CauldronLiquidMesh (UnityEngine.Mesh)
+>>>v mesh = CauldronLiquidMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Point Light
+
+>>> transform = p: (0.0, 0.0, 0.3) r: (270.0, 108.4, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(0.423, 0.925, 0.816, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 10
+>>>v bounceIntensity = 1
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 2,39
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>>> LightIntensityCurve
+>>>v curve = UnityEngine.AnimationCurve
+>>>v timeMax = 5
+>>>v time = 0
+>>>v light = 
+>>>v maxIntensity = 0
+>>>v loop = True
+>>>v randomStart = True
+>>>v enableNegativeLights = False
+
+>>GameObject Children 3 Swirls
+
+>>> transform = p: (0.0, 0.0, 0.5) r: (270.0, 108.4, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = True
+>>>v playOnAwake = True
+>>>v duration = 5
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 1
+>>>v startSpeed = 1
+>>>v startSize = 0,1
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 6,283185
+>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>v startLifetime = 4
+>>>v gravityModifier = 0
+>>>v maxParticles = 25
+>>>v simulationSpace = Local
+>>>v scalingMode = Shape
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = matCleanseWater (UnityEngine.Material)
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 5
+
+>>GameObject Children 4 Foam
+
+>>> transform = p: (0.0, 0.0, 0.5) r: (90.0, 108.4, 0.0) s: (1.4, 1.4, 1.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = donut6Mesh (UnityEngine.Mesh)
+>>>v mesh = donut6Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 5 DropPivot
+
+>>> transform = p: (0.0, 0.0, 1.3) r: (0.0, 108.4, 0.0) s: (0.7, 0.7, 0.7)
+>>GameObject Children 6 HologramPivot
+
+>>> transform = p: (0.0, -1.8, 0.0) r: (0.0, 288.4, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 Symbol
+
+>> transform = p: (0.0, 1.2, 0.0) r: (0.0, 108.4, 0.0) s: (1.0, 1.0, 1.0)

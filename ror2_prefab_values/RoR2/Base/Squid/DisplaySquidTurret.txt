@@ -1,0 +1,17 @@
+Key Path : RoR2/Base/Squid/DisplaySquidTurret.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplaySquidTurret
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlSquid_Pickup
+
+>> transform = p: (0.1, 0.3, 0.0) r: (270.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlSquidTurret_Display (UnityEngine.Mesh)
+>>v mesh = mdlSquidTurret_Display Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

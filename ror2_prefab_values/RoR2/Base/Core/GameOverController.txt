@@ -1,0 +1,101 @@
+Key Path : RoR2/Base/Core/GameOverController.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : GameOverController
+
+> transform = p: (569.0, 263.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 672a71a556760ec439817b13d084d109
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 672a71a556760ec439817b13d084d109
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.GameOverController
+>v <instance>k__BackingField = 
+>v gameEndReportPanelPrefab = GameEndReportPanel (UnityEngine.GameObject)
+>v appearanceDelay = 3
+>v voteController = 
+>v <shouldDisplayGameEndReportPanels>k__BackingField = False
+>v <runReport>k__BackingField = 
+>v reportPanels = System.Collections.Generic.Dictionary`2[RoR2.UI.HUD,RoR2.UI.GameEndReportPanelController]
+>v runReportDirtyBit = 1
+>v allDirtyBits = 1
+>v kRpcRpcClientGameOver = 1518660169
+>v instance = 
+>v shouldDisplayGameEndReportPanels = False
+>v runReport = 
+
+> RoR2.VoteController
+>v customName = ReturnToCharacterSelect
+>v onlyAllowParticipatingPlayers = True
+>v addNewPlayers = False
+>v canChangeVote = False
+>v canRevokeVote = False
+>v mustTimeOut = False
+>v resetOnConnectionsChanged = False
+>v timeoutDuration = 60
+>v minimumTimeBeforeProcessing = 3
+>v timerStartCondition = OnAnyVoteReceived
+>v choices = UnityEngine.Events.UnityEvent[]
+>v defaultChoiceIndex = 0
+>v destroyGameObjectOnComplete = True
+>v votes = RoR2.SyncListUserVote
+>v timerIsActive = False
+>v timer = 0
+>v kListvotes = 458257089
+>v NetworktimerIsActive = False
+>v Networktimer = 0
+
+> RoR2.ConsoleFunctions
+
+> RoR2.EntityStateMachine
+>v <state>k__BackingField = 
+>v nextState = 
+>v customName = Main
+>v initialStateType = EntityStates.SerializableEntityStateType
+>v mainStateType = EntityStates.SerializableEntityStateType
+>v <networker>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v commonComponents = RoR2.EntityStateMachine+CommonComponentCache
+>v networkIndex = -1
+>v nextStateModifier = 
+>v <destroying>k__BackingField = False
+>v state = 
+>v networker = 
+>v networkIdentity = 
+>v destroying = False
+
+> RoR2.NetworkStateMachine
+>v stateMachines = RoR2.EntityStateMachine[]
+>v networkIdentity = 
+
+> RoR2.SetDontDestroyOnLoad

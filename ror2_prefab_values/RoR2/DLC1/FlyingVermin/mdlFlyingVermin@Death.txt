@@ -1,0 +1,155 @@
+Key Path : RoR2/DLC1/FlyingVermin/mdlFlyingVermin@Death.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlFlyingVermin@Death
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = AlwaysAnimate
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlFlyingVermin@DeathAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 FlyingVerminArmature
+
+>> transform = p: (0.0, -0.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Body
+
+>>>> transform = p: (0.3, 0.3, 0.1) r: (5.8, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Foot.l
+
+>>>>> transform = p: (-0.4, -0.7, 0.0) r: (338.4, 29.0, 350.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Foot.l_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (338.4, 29.0, 350.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Foot.r
+
+>>>>> transform = p: (0.4, -0.7, 0.0) r: (359.9, 290.5, 342.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Foot.r_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (359.9, 290.5, 342.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 MouthBottom
+
+>>>>> transform = p: (0.0, -0.2, -0.2) r: (298.2, 18.6, 338.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 LowerTeeth
+
+>>>>>> transform = p: (0.0, 0.8, -0.1) r: (357.1, 179.1, 189.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 LowerTeeth_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (357.1, 179.1, 189.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 MouthSide.l
+
+>>>>> transform = p: (0.0, -0.2, -0.2) r: (314.0, 101.0, 298.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 MouthSide.l_end
+
+>>>>>> transform = p: (0.0, 1.2, 0.0) r: (314.0, 101.0, 298.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 4 MouthSide.r
+
+>>>>> transform = p: (0.0, -0.2, -0.2) r: (309.6, 258.7, 64.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 MouthSide.r_end
+
+>>>>>> transform = p: (0.0, 1.2, 0.0) r: (309.6, 258.7, 64.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 5 MouthTop
+
+>>>>> transform = p: (0.0, -0.2, -0.2) r: (294.1, 233.2, 125.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 UpperTeeth
+
+>>>>>> transform = p: (0.0, 1.1, -0.1) r: (12.3, 5.2, 20.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 UpperTeeth_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (12.3, 5.2, 20.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 6 Tail1
+
+>>>>> transform = p: (0.0, -0.5, -0.7) r: (19.5, 345.8, 322.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Tail2
+
+>>>>>> transform = p: (0.0, 0.4, 0.0) r: (355.8, 11.1, 290.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Tail3
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (10.2, 46.8, 260.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Tail4
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (48.1, 80.2, 262.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Tail4_end
+
+>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (48.1, 80.2, 262.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 7 Tongue1
+
+>>>>> transform = p: (0.0, -0.2, -0.2) r: (284.5, 3.8, 12.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Tongue2
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (338.8, 17.2, 21.2) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Tongue3
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (21.4, 43.0, 47.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Tongue4
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (26.4, 75.8, 90.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Tongue4_end
+
+>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (26.4, 75.8, 90.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 8 Wing1.l
+
+>>>>> transform = p: (-0.4, 0.9, -0.3) r: (26.4, 143.9, 280.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Wing2.l
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (26.5, 106.6, 298.5) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Wing3.l
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (29.5, 67.6, 312.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Wing3.l_end
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (29.5, 67.6, 312.5) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 9 Wing1.r
+
+>>>>> transform = p: (0.4, 0.9, -0.3) r: (26.4, 216.1, 79.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Wing2.r
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (26.5, 253.4, 61.5) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Wing3.r
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (29.5, 292.4, 47.5) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Wing3.r_end
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (29.5, 292.4, 47.5) s: (1.0, 1.0, 1.0)

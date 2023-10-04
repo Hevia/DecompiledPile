@@ -1,0 +1,28 @@
+Key Path : RoR2/DLC1/LunarPortalOnUse/PickupLunarPortalOnUse.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupLunarPortalOnUse
+
+> transform = p: (-5.7, -144.9, -23.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, 0.4, 0.0, 0.9)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (1.3, -0.4, -1.1)
+
+>GameObject Children 0 mdlLunarPortalOnUsePickup
+
+>> transform = p: (0.0, -0.8, 0.0) r: (320.7, 180.0, 180.0) s: (0.4, 0.4, 0.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlLunarPortalOnUse (UnityEngine.Mesh)
+>>v mesh = mdlLunarPortalOnUse Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 39.9, 347.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-1.3, 0.4, 1.1) r: (0.0, 39.9, 347.3) s: (1.0, 1.0, 1.0)

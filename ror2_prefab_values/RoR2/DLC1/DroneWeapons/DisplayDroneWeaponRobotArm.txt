@@ -1,0 +1,141 @@
+Key Path : RoR2/DLC1/DroneWeapons/DisplayDroneWeaponRobotArm.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayDroneWeaponRobotArm
+
+> transform = p: (-1.4, -141.4, -33.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+> ChildLocator
+>v transformPairs = ChildLocator+NameTransformPair[]
+>v Count = 2
+
+>GameObject Children 0 mdlDroneWeaponRobotArm
+
+>> transform = p: (0.4, -1.9, 0.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 34098180000000.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = DroneWeaponRobotArmController (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = mdlDroneWeaponRobotArmAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 DroneWeaponRobotArmArmature
+
+>>> transform = p: (-0.4, 1.9, -0.4) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ROOT
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 UpperArm
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (342.2, 287.8, 210.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 LowerArm
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (1.8, 301.4, 272.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Hand
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (359.4, 356.1, 272.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Handgun
+
+>>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (359.4, 356.1, 272.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Handgun_end
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (359.4, 356.1, 272.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 1 mdlDroneWeaponHandgun
+
+>>>>>>>>> transform = p: (-0.1, 0.1, 0.0) r: (272.9, 254.4, 281.8) s: (1.3, 1.3, 1.3)
+>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>v sharedMesh = mdlDroneWeaponHandgun (UnityEngine.Mesh)
+>>>>>>>>>v mesh = mdlDroneWeaponHandgun Instance (UnityEngine.Mesh)
+
+>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>GameObject Children 1 Index1
+
+>>>>>>>> transform = p: (-0.1, 0.2, 0.0) r: (357.5, 25.8, 270.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Index2
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.8, 101.3, 266.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Index2_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.8, 101.3, 266.6) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 2 Middle1
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (357.2, 64.8, 270.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Middle2
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.8, 160.3, 267.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Middle2_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.8, 160.3, 267.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 3 Pinky1
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (357.2, 64.8, 270.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Pinky2
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.2, 148.2, 267.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Pinky2_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (359.2, 148.2, 267.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 4 Thumb1
+
+>>>>>>>> transform = p: (-0.1, 0.1, 0.0) r: (301.5, 41.8, 303.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Thumb2
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (276.8, 298.2, 329.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Thumb2_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (276.8, 298.2, 329.8) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 mdlDroneWeaponRobotArm
+
+>>> transform = p: (-0.4, 1.9, -0.4) r: (0.0, 0.0, 280.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlDroneWeaponRobotArm (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.1, -0.1, 0.2), Extents: (0.3, 0.2, 0.3)

@@ -1,0 +1,135 @@
+Key Path : RoR2/Junk/Huntress/GlaiveGhost.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : GlaiveGhost
+
+> transform = p: (648.2, 148.0, 383.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.Projectile.ProjectileGhostController
+>v transform = 
+>v migration = 0
+>v <authorityTransform>k__BackingField = 
+>v <predictionTransform>k__BackingField = 
+>v inheritScaleFromProjectile = False
+>v authorityTransform = 
+>v predictionTransform = 
+
+> RotateObject
+>v rotationSpeed = (0.0, 360.0, 0.0)
+
+> RoR2.ShakeEmitter
+>v instances = System.Collections.Generic.List`1[RoR2.ShakeEmitter]
+>v shakeOnStart = True
+>v shakeOnEnable = False
+>v wave = Wave
+>v duration = 0,2
+>v radius = 20
+>v scaleShakeRadiusWithLocalScale = False
+>v amplitudeTimeDecay = True
+>v stopwatch = +Infini
+>v halfPeriodTimer = 0
+>v halfPeriodVector = (0.0, 0.0, 0.0)
+>v currentOffset = (0.0, 0.0, 0.0)
+>v deepRumbleFactor = 5
+
+> RoR2.VFXAttributes
+>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>v vfxPriority = Always
+>v vfxIntensity = Medium
+>v optionalLights = UnityEngine.Light[]
+>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Glaive (UnityEngine.Mesh)
+>>v mesh = Glaive Instance (UnityEngine.Mesh)
+
+>> RotateObject
+>>v rotationSpeed = (0.0, 0.0, 720.0)
+
+>>GameObject Children 0 Trail
+
+>>> transform = p: (0.0, -0.8, 0.0) r: (90.0, 0.0, 0.0) s: (0.0, 0.2, 0.0)
+>>> UnityEngine.TrailRenderer
+>>>v numPositions = 0
+>>>v time = 0,2
+>>>v startWidth = 0,1
+>>>v endWidth = 0,001030928
+>>>v widthMultiplier = 0,1
+>>>v autodestruct = False
+>>>v emitting = True
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v minVertexDistance = 0,1
+>>>v startColor = RGBA(0.561, 1.000, 0.925, 1.000)
+>>>v endColor = RGBA(0.000, 0.400, 0.867, 0.000)
+>>>v positionCount = 0
+>>>v shadowBias = 0
+>>>v generateLightingData = False
+>>>v textureMode = Stretch
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>GameObject Children 1 Trail (1)
+
+>>> transform = p: (-0.8, 0.4, 0.0) r: (90.0, 0.0, 0.0) s: (0.0, 0.2, 0.0)
+>>> UnityEngine.TrailRenderer
+>>>v numPositions = 0
+>>>v time = 0,2
+>>>v startWidth = 0,1
+>>>v endWidth = 0,001030928
+>>>v widthMultiplier = 0,1
+>>>v autodestruct = False
+>>>v emitting = True
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v minVertexDistance = 0,1
+>>>v startColor = RGBA(0.561, 1.000, 0.925, 1.000)
+>>>v endColor = RGBA(0.000, 0.400, 0.867, 0.000)
+>>>v positionCount = 0
+>>>v shadowBias = 0
+>>>v generateLightingData = False
+>>>v textureMode = Stretch
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>GameObject Children 2 Trail (2)
+
+>>> transform = p: (0.8, 0.5, 0.0) r: (90.0, 0.0, 0.0) s: (0.0, 0.2, 0.0)
+>>> UnityEngine.TrailRenderer
+>>>v numPositions = 0
+>>>v time = 0,2
+>>>v startWidth = 0,1
+>>>v endWidth = 0,001030928
+>>>v widthMultiplier = 0,1
+>>>v autodestruct = False
+>>>v emitting = True
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v minVertexDistance = 0,1
+>>>v startColor = RGBA(0.561, 1.000, 0.925, 1.000)
+>>>v endColor = RGBA(0.000, 0.400, 0.867, 0.000)
+>>>v positionCount = 0
+>>>v shadowBias = 0
+>>>v generateLightingData = False
+>>>v textureMode = Stretch
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>GameObject Children 3 mdlVFXDonut2
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.7)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = donut3Mesh (UnityEngine.Mesh)
+>>>v mesh = donut3Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

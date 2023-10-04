@@ -1,0 +1,36 @@
+Key Path : RoR2/Base/skymeadow/spmSMFruitPlantDuo.spm | UnityObject Type : UnityEngine.GameObject | UnityObject Name : spmSMFruitPlantDuo
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.LODGroup
+>v localReferencePoint = (0.0, 0.8, 0.0)
+>v size = 3,730844
+>v lodCount = 2
+>v fadeMode = SpeedTree
+>v animateCrossFading = True
+>v enabled = True
+>v crossFadeAnimationDuration = 0,5
+
+>GameObject Children 0 spmSMFruitPlantDuo_Billboard
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.BillboardRenderer
+>>v billboard = spmSMFruitPlantDuo_Billboard (UnityEngine.BillboardAsset)
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True
+
+>GameObject Children 1 spmSMFruitPlantDuo_LOD0
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = spmSMFruitPlantDuo_LOD0 (UnityEngine.Mesh)
+>>v mesh = spmSMFruitPlantDuo_LOD0 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True

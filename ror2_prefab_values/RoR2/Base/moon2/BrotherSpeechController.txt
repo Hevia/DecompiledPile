@@ -1,0 +1,58 @@
+Key Path : RoR2/Base/moon2/BrotherSpeechController.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : BrotherSpeechController
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.CharacterSpeech.CharacterSpeechController
+>v initialCharacterMaster = 
+>v chatFormatToken = BROTHER_DIALOGUE_FORMAT
+>v localTime = 0
+>v nextSpeakTime = 0
+>v speechRequestQueue = 
+>v _characterMaster = 
+>v onCharacterMasterDiscovered = 
+>v onCharacterMasterLost = 
+>v _currentCharacterBody = 
+>v onCharacterBodyDiscovered = 
+>v onCharacterBodyLost = 
+>v cvEnableLogging = RoR2.ConVar.BoolConVar
+>v characterMaster = 
+>v currentCharacterBody = 
+
+> RoR2.CharacterSpeech.SimpleCombatSpeechDriver
+>v minimumDurationBetweenSpeech = 1
+>v removeRepeats = True
+>v speechCategories = RoR2.CharacterSpeech.SimpleCombatSpeechDriver+SpeechCategory[]
+>v damageDealtRefName = DAMAGEDEALT
+>v scaleChanceOnDamageDealtByHealthFractionDealt = True
+>v scaleChanceOnDamageDealtMultiplier = 30
+>v onBodyDamageDealt = RoR2.DamageReportUnityEvent RoR2.DamageReportUnityEvent
+>v onStart = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v onBodyKill = RoR2.DamageReportUnityEvent RoR2.DamageReportUnityEvent
+>v onBodyDeath = RoR2.DamageReportUnityEvent RoR2.DamageReportUnityEvent
+>v lastSpeechStopwatch = +Infini
+
+> RoR2.CharacterSpeech.BrotherSpeechDriver
+>v seeHereticResponses = RoR2.CharacterSpeech.CharacterSpeechController+SpeechInfo[]
+>v seeTitanGoldResponses = RoR2.CharacterSpeech.CharacterSpeechController+SpeechInfo[]
+>v seeHereticAndTitanGoldResponses = RoR2.CharacterSpeech.CharacterSpeechController+SpeechInfo[]
+>v killMechanicalResponses = RoR2.CharacterSpeech.CharacterSpeechController+SpeechInfo[]
+>v killHereticResponses = RoR2.CharacterSpeech.CharacterSpeechController+SpeechInfo[]
+>v killTitanGoldReponses = RoR2.CharacterSpeech.CharacterSpeechController+SpeechInfo[]
+>v onTitanGoldSighted = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v simpleCombatSpeechDriver = 
+>v hereticBodyIndex = 62
+>v titanGoldBodyIndex = 123
+
+>GameObject Children 0 InitialSpeech
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.EntityLogic.Timer
+>>v _duration = 3
+>>v _timeStepType = FixedTime
+>>v resetTimerOnEnable = True
+>>v playTimerOnEnable = True
+>>v loop = False
+>>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>v stopwatch = 0
+>>v timerRunning = False
+>>v duration = 3
+>>v timeStepType = FixedTime

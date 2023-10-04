@@ -1,0 +1,190 @@
+Key Path : RoR2/Base/Engi/EngiTurretBlueprints.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : EngiTurretBlueprints
+
+> transform = p: (29.5, -4.8, 9.2) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.BlueprintController
+>v ok = False
+>v okMaterial = matBlueprintsOk (UnityEngine.Material)
+>v invalidMaterial = matBlueprintsInvalid (UnityEngine.Material)
+>v renderers = UnityEngine.Renderer[]
+>v transform = 
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_engi_R_activate
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = -996369684
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Stop_engi_R_hover_loop
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = -715547330
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+>GameObject Children 0 BlobLightProjector
+
+>> transform = p: (0.0, 0.8, 0.0) r: (90.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>> UnityEngine.Projector
+>>v nearClipPlane = 0,1
+>>v farClipPlane = 1,86
+>>v fieldOfView = 30
+>>v aspectRatio = 1
+>>v orthographic = True
+>>v orthographicSize = 2
+>>v ignoreLayers = -2049
+>>v material = GridProjector (UnityEngine.Material)
+
+>GameObject Children 1 mdlEngiTurret (1)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 144852.3, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = 
+>>v hasBoundPlayables = False
+>>v avatar = mdlEngiTurretAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 EngiTurretArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Base
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 legJoint.1
+
+>>>>> transform = p: (0.0, 0.5, 0.5) r: (315.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legBar.1
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (295.3, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 toe.1
+
+>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (334.7, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 toe.1_end
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (334.7, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 legJoint.2
+
+>>>>> transform = p: (-0.5, 0.5, -0.3) r: (312.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legBar.2
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (293.8, 240.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 toe.2
+
+>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (11.6, 177.8, 159.1) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 toe.2_end
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (11.6, 177.8, 159.1) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 legJoint.3
+
+>>>>> transform = p: (0.5, 0.5, -0.3) r: (323.7, 300.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legBar.3
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (299.6, 120.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 toe.3
+
+>>>>>>> transform = p: (0.0, 1.3, 0.0) r: (14.3, 183.4, 206.2) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 toe.3_end
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (14.3, 183.4, 206.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 Neck
+
+>>>>> transform = p: (0.0, 1.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Head
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Head_end
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 footIK.1
+
+>>>> transform = p: (0.0, -2.0, 0.2) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 footIK.1_end
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 footIK.2
+
+>>>> transform = p: (-1.8, 1.0, 0.2) r: (270.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 footIK.2_end
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 footIK.3
+
+>>>> transform = p: (1.6, 0.9, 0.2) r: (270.0, 300.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 footIK.3_end
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 300.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 EngiTurretMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 240.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Base (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = EngiTurretMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (-0.1, 1.3, 0.5), Extents: (2.3, 1.7, 2.1)

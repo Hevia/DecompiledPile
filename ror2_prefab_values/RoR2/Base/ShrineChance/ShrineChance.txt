@@ -1,0 +1,209 @@
+Key Path : RoR2/Base/ShrineChance/ShrineChance.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ShrineChance
+
+> transform = p: (-25.1, -214.2, -171.6) r: (0.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 8a681654848ac374980fea55c4cf55a7
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 8a681654848ac374980fea55c4cf55a7
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlShrineChance (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = Base (UnityEngine.Transform)
+>v onModelChanged = 
+>v autoUpdateModelTransform = True
+>v dontDetatchFromParent = False
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlShrineChance (UnityEngine.Transform)
+
+> RoR2.Highlight
+>v highlightList = System.Collections.Generic.List`1[RoR2.Highlight]
+>v _readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+>v displayNameProvider = 
+>v pickupIndex = ItemTier.Boss
+>v targetRenderer = mdlShrineChance (UnityEngine.MeshRenderer)
+>v strength = 1
+>v highlightColor = interactive
+>v isOn = False
+>v readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+
+> RoR2.PurchaseInteraction
+>v displayNameToken = SHRINE_CHANCE_NAME
+>v contextToken = SHRINE_CHANCE_CONTEXT
+>v costType = Money
+>v available = True
+>v cost = 17
+>v automaticallyScaleCostWithDifficulty = False
+>v requiredUnlockable = 
+>v ignoreSpherecastForInteractability = False
+>v purchaseStatNames = System.String[]
+>v setUnavailableOnTeleporterActivated = False
+>v isShrine = True
+>v isGoldShrine = False
+>v lastActivator = 
+>v lockGameObject = 
+>v rng = 
+>v sharedStringBuilder = 
+>v onItemSpentOnPurchase = 
+>v onEquipmentSpentOnPurchase = 
+>v onPurchase = RoR2.PurchaseEvent RoR2.PurchaseEvent
+>v ___lockGameObjectNetId = 0
+>v NetworkdisplayNameToken = SHRINE_CHANCE_NAME
+>v NetworkcontextToken = SHRINE_CHANCE_CONTEXT
+>v Networkavailable = True
+>v Networkcost = 17
+>v NetworklockGameObject = 
+
+> RoR2.Hologram.HologramProjector
+>v displayDistance = 15
+>v hologramPivot = HologramPivot (UnityEngine.Transform)
+>v disableHologramRotation = False
+>v transformDampVelocity = 0
+>v contentProvider = 
+>v viewerReselectTimer = 0
+>v viewerReselectInterval = 0,25
+>v cachedViewer = 
+>v viewer = 
+>v hologramContentInstance = 
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = SHRINE_CHANCE_NAME
+
+> RoR2.ShrineChanceBehavior
+>v maxPurchaseCount = 2
+>v costMultiplierPerPurchase = 1,4
+>v failureChance = 0,4529
+>v dropTable = dtShrineChance (RoR2.BasicPickupDropTable)
+>v symbolTransform = Symbol (UnityEngine.Transform)
+>v dropletOrigin = DropletOrigin (UnityEngine.Transform)
+>v shrineColor = RGBA(0.924, 1.000, 0.449, 1.000)
+>v purchaseInteraction = 
+>v successfulPurchaseCount = 0
+>v refreshTimer = 0
+>v refreshDuration = 2
+>v waitingForRefresh = False
+>v onShrineChancePurchaseGlobal = 
+>v rng = 
+>v failureWeight = 10,1
+>v equipmentWeight = 2
+>v tier1Weight = 8
+>v tier2Weight = 2
+>v tier3Weight = 0,2
+
+> RoR2.PurchaseAvailabilityIndicator
+>v indicatorObject = Symbol (UnityEngine.GameObject)
+>v disabledIndicatorObject = 
+>v animator = 
+>v mecanimBool = 
+>v purchaseInteraction = 
+
+> RoR2.DitherModel
+>v fade = 0
+>v bounds = mdlShrineChance (UnityEngine.BoxCollider)
+>v renderers = UnityEngine.Renderer[]
+>v propertyStorage = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.DitherModel]
+
+>GameObject Children 0 Base
+
+>> transform = p: (0.0, -0.4, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlShrineChance
+
+>>> transform = p: (0.0, 0.0, 0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShrineChanceMesh (UnityEngine.Mesh)
+>>>v mesh = ShrineChanceMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.EntityLocator
+>>>v entity = ShrineChance (UnityEngine.GameObject)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 1.0)
+>>>v size = (2.9, 2.9, 1.9)
+>>>v extents = (1.4, 1.4, 1.0)
+
+>>> ChildLocator
+>>>v transformPairs = ChildLocator+NameTransformPair[]
+>>>v Count = 1
+
+>>>GameObject Children 0 Collision
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 1.0)
+>>>>v size = (2.9, 2.9, 1.9)
+>>>>v extents = (1.4, 1.4, 1.0)
+
+>>>> UnityEngine.CapsuleCollider
+>>>>v center = (0.0, 0.1, 3.0)
+>>>>v radius = 0,7590176
+>>>>v height = 4,474272
+>>>>v direction = 2
+
+>GameObject Children 1 HologramPivot
+
+>> transform = p: (0.0, 1.5, 1.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 Symbol
+
+>> transform = p: (0.0, 6.2, 0.0) r: (0.0, 180.0, 0.0) s: (1.5, 1.5, 1.5)
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]
+
+>GameObject Children 3 DropletOrigin
+
+>> transform = p: (0.0, 2.3, 1.2) r: (279.5, 352.7, 10.5) s: (1.0, 1.0, 1.0)

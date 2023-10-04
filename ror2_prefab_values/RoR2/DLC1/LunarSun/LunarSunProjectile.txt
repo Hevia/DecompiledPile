@@ -1,0 +1,306 @@
+Key Path : RoR2/DLC1/LunarSun/LunarSunProjectile.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : LunarSunProjectile
+
+> transform = p: (95.3, 6.9, 37.5) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 5f75010e6bd01414fb31b0c485c5dd20
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = True
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = True
+>v clientAuthorityOwner = 
+>v assetId = 5f75010e6bd01414fb31b0c485c5dd20
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.Projectile.ProjectileController
+>v catalogIndex = 99
+>v ghostPrefab = LunarSunProjectileGhost (UnityEngine.GameObject)
+>v ghostTransformAnchor = 
+>v startSound = Play_moonBrother_m1_laser_shoot
+>v cannotBeDeleted = False
+>v flightSoundLoop = 
+>v rigidbody = 
+>v <teamFilter>k__BackingField = 
+>v <ghost>k__BackingField = 
+>v <isPrediction>k__BackingField = False
+>v canImpactOnTrigger = True
+>v <shouldPlaySounds>k__BackingField = False
+>v allowPrediction = True
+>v predictionId = 0
+>v owner = 
+>v onInitialized = 
+>v <procChainMask>k__BackingField = ()
+>v <clientAuthorityOwner>k__BackingField = 
+>v procCoefficient = 1
+>v myColliders = 
+>v ___ownerNetId = 0
+>v teamFilter = 
+>v ghost = 
+>v isPrediction = False
+>v shouldPlaySounds = False
+>v procChainMask = ()
+>v clientAuthorityOwner = 
+>v NetworkpredictionId = 0
+>v Networkowner = 
+
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> RoR2.Projectile.ProjectileDamage
+>v damage = 0
+>v crit = False
+>v force = 0
+>v damageColorIndex = Default
+>v damageType = Generic
+>v useDotMaxStacksFromAttacker = False
+>v dotMaxStacksFromAttacker = 4294967295
+
+> RoR2.Projectile.ProjectileOwnerOrbiter
+>v offset = (0.0, 1.0, 0.0)
+>v initialDegreesFromOwnerForward = 0
+>v degreesPerSecond = 180
+>v radius = 5
+>v planeNormal = (0.0, 1.0, 0.0)
+>v ownerTransform = 
+>v rigidBody = 
+>v resetOnAcquireOwner = True
+>v initialRadialDirection = (0.0, 0.0, 0.0)
+>v initialRunTime = 0
+>v Networkoffset = (0.0, 1.0, 0.0)
+>v NetworkinitialDegreesFromOwnerForward = 0
+>v NetworkdegreesPerSecond = 180
+>v Networkradius = 5
+>v NetworkplaneNormal = (0.0, 1.0, 0.0)
+>v NetworkinitialRadialDirection = (0.0, 0.0, 0.0)
+>v NetworkinitialRunTime = 0
+
+> RoR2.Deployable
+>v ownerMaster = 
+>v onUndeploy = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+> RoR2.Projectile.ProjectileDeployToOwner
+>v deployableSlot = LunarSunBomb
+
+> RoR2.Projectile.LunarSunProjectileController
+>v explosion = 
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = True
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = Interpolate
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+> UnityEngine.SphereCollider
+>v center = (0.0, 0.0, 0.0)
+>v radius = 0,6
+
+> RoR2.Projectile.ProjectileTargetComponent
+>v <target>k__BackingField = 
+>v target = 
+
+> RoR2.Projectile.ProjectileSphereTargetFinder
+>v lookRange = 15
+>v targetSearchInterval = 0,5
+>v onlySearchIfNoTarget = True
+>v allowTargetLoss = False
+>v testLoS = False
+>v ignoreAir = False
+>v flierAltitudeTolerance = +Infini
+>v onNewTargetFound = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v onTargetLost = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v transform = 
+>v teamFilter = 
+>v targetComponent = 
+>v searchTimer = 0
+>v sphereSearch = 
+>v hasTarget = False
+>v hadTargetLastUpdate = False
+>v lastFoundHurtBox = 
+>v lastFoundTransform = 
+>v foundHurtBoxes = System.Collections.Generic.List`1[RoR2.HurtBox]
+
+> RoR2.Projectile.ProjectileSimple
+>v lifetime = 5
+>v lifetimeExpiredEffect = 
+>v desiredForwardSpeed = 100
+>v updateAfterFiring = True
+>v enableVelocityOverLifetime = True
+>v velocityOverLifetime = UnityEngine.AnimationCurve
+>v oscillate = False
+>v oscillateMagnitude = 20
+>v oscillateSpeed = 0
+>v deltaHeight = 0
+>v oscillationStopwatch = 0
+>v stopwatch = 0
+>v rigidbody = 
+>v transform = 
+>v velocity = 100
+
+> RoR2.Projectile.ProjectileSteerTowardTarget
+>v yAxisOnly = False
+>v rotationSpeed = 1080
+>v transform = 
+>v targetComponent = 
+
+> RoR2.Projectile.ProjectileImpactExplosion
+>v impactNormal = (0.0, 1.0, 0.0)
+>v impactEffect = ExplosionLunarSun (UnityEngine.GameObject)
+>v lifetimeExpiredSoundString = 
+>v lifetimeExpiredSound = 
+>v offsetForLifetimeExpiredSound = 0
+>v destroyOnEnemy = True
+>v destroyOnWorld = False
+>v timerAfterImpact = False
+>v lifetime = 999999
+>v lifetimeAfterImpact = 0,3
+>v lifetimeRandomOffset = 0
+>v stopwatch = 0
+>v stopwatchAfterImpact = 0
+>v hasImpact = False
+>v hasPlayedLifetimeExpiredSound = False
+>v transformSpace = World
+
+> RoR2.Projectile.ProjectileNetworkTransform
+>v projectileController = 
+>v transform = 
+>v rb = 
+>v interpolatedTransform = 
+>v positionTransmitInterval = 0,03333334
+>v interpolationFactor = 1
+>v allowClientsideCollision = False
+>v serverPosition = (0.0, 0.0, 0.0)
+>v serverRotation = (0.0, 0.0, 0.0, 0.0)
+>v interpolatedPosition = NetworkLerpedVector3
+>v interpolatedRotation = NetworkLerpedQuaternion
+>v NetworkserverPosition = (0.0, 0.0, 0.0)
+>v NetworkserverRotation = (0.0, 0.0, 0.0, 0.0)
+
+>GameObject Children 0 Ring
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.ParticleSystem
+>>v startDelay = 0
+>>v loop = False
+>>v playOnAwake = False
+>>v duration = 1
+>>v playbackSpeed = 1
+>>v enableEmission = True
+>>v emissionRate = 0
+>>v startSpeed = 0
+>>v startSize = 0,3
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v startRotation = 0
+>>v startRotation3D = (0.0, 0.0, 0.0)
+>>v startLifetime = 0,2
+>>v gravityModifier = 0
+>>v maxParticles = 1000
+>>v simulationSpace = Local
+>>v scalingMode = Local
+>>v automaticCullingEnabled = True
+>>v isPlaying = False
+>>v isEmitting = False
+>>v isStopped = True
+>>v isPaused = False
+>>v particleCount = 0
+>>v time = 0
+>>v randomSeed = 0
+>>v useAutoRandomSeed = True
+>>v proceduralSimulationSupported = True
+>>v main = UnityEngine.ParticleSystem+MainModule
+>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>> UnityEngine.ParticleSystemRenderer
+>>v alignment = Local
+>>v renderMode = Mesh
+>>v sortMode = None
+>>v lengthScale = 2
+>>v velocityScale = 0
+>>v cameraVelocityScale = 0
+>>v normalDirection = 1
+>>v shadowBias = 0
+>>v sortingFudge = 0
+>>v minParticleSize = 0
+>>v maxParticleSize = 0,5
+>>v pivot = (0.0, 0.0, 0.0)
+>>v flip = (0.0, 0.0, 0.0)
+>>v maskInteraction = None
+>>v trailMaterial = 
+>>v enableGPUInstancing = False
+>>v allowRoll = True
+>>v mesh = donut1Mesh (UnityEngine.Mesh)
+>>v meshCount = 1
+>>v activeVertexStreamsCount = 5

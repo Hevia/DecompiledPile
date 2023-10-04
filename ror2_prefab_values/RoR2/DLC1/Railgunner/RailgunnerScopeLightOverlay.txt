@@ -1,0 +1,96 @@
+Key Path : RoR2/DLC1/Railgunner/RailgunnerScopeLightOverlay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : RailgunnerScopeLightOverlay
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.CanvasRenderer
+>v <isMask>k__BackingField = False
+>v hasPopInstruction = False
+>v materialCount = 0
+>v popMaterialCount = 0
+>v absoluteDepth = -1
+>v hasMoved = False
+>v cullTransparentMesh = False
+>v hasRectClipping = False
+>v relativeDepth = -1
+>v cull = False
+>v isMask = False
+>v clippingSoftness = (0.0, 0.0)
+
+> UnityEngine.UI.RawImage
+>v m_Texture = texWhite (UnityEngine.Texture2D)
+>v m_UVRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>v mainTexture = texWhite (UnityEngine.Texture2D)
+>v texture = texWhite (UnityEngine.Texture2D)
+>v uvRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+
+> UnityEngine.CanvasGroup
+>v alpha = 1
+>v interactable = True
+>v blocksRaycasts = False
+>v ignoreParentGroups = False
+
+>GameObject Children 0 SniperTargetViewer
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Canvas
+>>v preWillRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>>v willRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>>v renderMode = WorldSpace
+>>v isRootCanvas = True
+>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>v scaleFactor = 1
+>>v referencePixelsPerUnit = 100
+>>v overridePixelPerfect = False
+>>v pixelPerfect = False
+>>v planeDistance = 100
+>>v renderOrder = 5
+>>v overrideSorting = False
+>>v sortingOrder = 0
+>>v targetDisplay = 0
+>>v sortingLayerID = 0
+>>v cachedSortingLayerValue = 0
+>>v additionalShaderChannels = None
+>>v sortingLayerName = Default
+>>v rootCanvas = SniperTargetViewer (UnityEngine.Canvas)
+>>v worldCamera = 
+>>v normalizedSortingGridSize = 0,1
+>>v sortingGridNormalizedSize = 0
+
+>> RoR2.UI.PointViewer
+>>v <rectTransform>k__BackingField = 
+>>v <canvas>k__BackingField = 
+>>v uiCamController = 
+>>v sceneCam = 
+>>v elementInfoAllocator = HG.StructAllocator`1[RoR2.UI.PointViewer+ElementInfo]
+>>v elementToElementInfo = System.Collections.Generic.Dictionary`2[HG.UnityObjectWrapperKey`1[UnityEngine.GameObject],HG.StructAllocator`1+Ptr[RoR2.UI.PointViewer+ElementInfo]]
+
+>> RoR2.UI.SniperTargetViewer
+>>v visualizerPrefab = RailgunnerSniperTargetVisualizerLight (UnityEngine.GameObject)
+>>v pointViewer = 
+>>v hud = 
+>>v hurtBoxToVisualizer = System.Collections.Generic.Dictionary`2[HG.UnityObjectWrapperKey`1[RoR2.HurtBox],UnityEngine.GameObject]
+>>v displayedTargets = System.Collections.Generic.List`1[RoR2.HurtBox]
+>>v previousDisplayedTargets = System.Collections.Generic.List`1[RoR2.HurtBox]
+
+>GameObject Children 1 ScopeOverlay
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> UnityEngine.UI.RawImage
+>>v m_Texture = 
+>>v m_UVRect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>v mainTexture = UnityWhite (UnityEngine.Texture2D)
+>>v texture = 
+>>v uvRect = (x:0.00, y:0.00, width:1.00, height:1.00)

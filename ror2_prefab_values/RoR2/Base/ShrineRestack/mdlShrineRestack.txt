@@ -1,0 +1,86 @@
+Key Path : RoR2/Base/ShrineRestack/mdlShrineRestack.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlShrineRestack
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 52699920000000.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlShrineRestackAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 ShrineRestackArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Bone
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 RingInner
+
+>>>> transform = p: (0.0, 3.3, 0.0) r: (330.7, 38.3, 43.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 RingInner_end
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (330.7, 38.3, 43.2) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 RingMiddle
+
+>>>> transform = p: (0.0, 3.3, 0.0) r: (346.8, 83.5, 159.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 RingMiddle_end
+
+>>>>> transform = p: (0.0, 0.5, 0.0) r: (346.8, 83.5, 159.8) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 RingOuter
+
+>>>> transform = p: (0.0, 3.3, 0.0) r: (339.6, 306.7, 287.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 RingOuter_end
+
+>>>>> transform = p: (0.0, 0.8, 0.0) r: (339.6, 306.7, 287.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 ShrineRestackMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Bone (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = ShrineRestackMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 2.4, 0.2), Extents: (1.6, 3.1, 1.8)

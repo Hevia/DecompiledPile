@@ -1,0 +1,45 @@
+Key Path : RoR2/DLC1/HalfAttackSpeedHalfCooldowns/PickupLunarShoulderNature.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupLunarShoulderNature
+
+> transform = p: (-5.6, -147.7, -18.2) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition (UnityEngine.Transform)
+>v modelRotation = (0.2, 0.4, 0.4, -0.8)
+>v minDistance = 0,5
+>v maxDistance = 1,5
+>v cameraDirection = (-0.4, 0.1, -0.4)
+
+>GameObject Children 0 mdlLunarShoulderNature
+
+>> transform = p: (0.0, 0.2, 0.0) r: (337.1, 0.0, 90.0) s: (1.5, 1.5, 1.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlLunarShoulderNature (UnityEngine.Mesh)
+>>v mesh = mdlLunarShoulderNature Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 mdlLunarShoulderNaturePlants
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (337.1, 0.0, 90.0) s: (1.4, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlLunarShoulderNaturePlants (UnityEngine.Mesh)
+>>>v mesh = mdlLunarShoulderNaturePlants Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (310.6, 148.5, 1.6) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (310.6, 148.5, 1.6) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 FocusPoint
+
+>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 4 CameraPosition
+
+>> transform = p: (0.4, 0.0, 0.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

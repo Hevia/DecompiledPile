@@ -1,0 +1,35 @@
+Key Path : RoR2/Base/TPHealingNova/mdlGlowFlower.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlGlowFlower
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 BezierCircle
+
+>> transform = p: (0.0, 0.0, 4.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BezierCircle (UnityEngine.Mesh)
+>>v mesh = BezierCircle (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 GlowFlowerMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = GlowFlowerMesh (UnityEngine.Mesh)
+>>v mesh = GlowFlowerMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 GlowFlowerMeshNoStem
+
+>> transform = p: (-6.7, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = GlowFlowerMeshNoStem (UnityEngine.Mesh)
+>>v mesh = GlowFlowerMeshNoStem Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

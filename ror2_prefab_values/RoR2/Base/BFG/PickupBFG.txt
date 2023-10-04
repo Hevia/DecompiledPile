@@ -1,0 +1,93 @@
+Key Path : RoR2/Base/BFG/PickupBFG.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBFG
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, -0.6, -0.4, 0.7)
+>v minDistance = 2
+>v maxDistance = 4
+>v cameraDirection = (-1.3, -0.5, -0.8)
+
+>GameObject Children 0 mdlBFG
+
+>> transform = p: (0.0, -0.7, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 BFGArmature
+
+>>> transform = p: (0.0, 0.0, -2.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Neck1
+
+>>>> transform = p: (0.0, 0.0, 1.9) r: (304.7, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Neck2
+
+>>>>> transform = p: (0.0, 0.5, 0.0) r: (13.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Neck3
+
+>>>>>> transform = p: (0.0, 0.8, 0.0) r: (87.2, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 ClawNeck1.1
+
+>>>>>>> transform = p: (0.0, 0.4, -0.1) r: (346.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClawNeck2.1
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (76.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClawNeck3.1
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (76.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClawNeck3.1_end
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (76.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 ClawNeck1.002
+
+>>>>>>> transform = p: (-0.1, 0.4, 0.0) r: (2.7, 345.4, 89.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClawNeck2.002
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (87.2, 180.0, 194.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClawNeck3.002
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (87.2, 180.0, 194.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClawNeck3.002_end
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (87.2, 180.0, 194.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 ClawNeck1.003
+
+>>>>>>> transform = p: (0.0, 0.4, 0.1) r: (6.3, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClawNeck2.003
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (83.7, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClawNeck3.003
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (83.7, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClawNeck3.003_end
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (83.7, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 3 ClawNeck1.004
+
+>>>>>>> transform = p: (0.1, 0.4, 0.0) r: (2.8, 6.2, 270.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClawNeck2.004
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (87.2, 180.0, 166.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClawNeck3.004
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (87.2, 180.0, 166.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClawNeck3.004_end
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (87.2, 180.0, 166.5) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 BFGMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Neck1 (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = BFGMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.2, 1.0), Extents: (0.3, 0.5, 0.5)
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.4, 0.4) r: (326.2, 171.7, 331.8) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (1.3, 0.9, 1.2) r: (326.2, 171.7, 331.8) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,2739 @@
+Key Path : RoR2/DLC1/voidraid/VoidRaidDioramaDisplay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidRaidDioramaDisplay
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = Focus Point (UnityEngine.Transform)
+>v cameraPositionTransform = Camera Position (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 10
+>v maxDistance = 120
+>v cameraDirection = (70.3, -46.0, 33.9)
+
+>GameObject Children 0 Water
+
+>> transform = p: (12.0, 1.9, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlVoidWater.004 (1)
+
+>>> transform = p: (-55.6, 60.2, 6.5) r: (270.0, 270.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidWater.004 (UnityEngine.Mesh)
+>>>v mesh = mdlVoidWater.004 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdWater (RoR2.SurfaceDef)
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = mdlVoidWater.004 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 1 mdlVoidWater.004 (2)
+
+>>> transform = p: (-23.8, 42.9, 5.5) r: (270.0, 270.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidWater.004 (UnityEngine.Mesh)
+>>>v mesh = mdlVoidWater.004 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdWater (RoR2.SurfaceDef)
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = mdlVoidWater.004 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>GameObject Children 1 Terrain
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlRaidTerrainHGDiorama
+
+>>> transform = p: (0.0, 3.9, 0.0) r: (0.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidTerrainHGDiorama (UnityEngine.Mesh)
+>>>v mesh = mdlRaidTerrainHGDiorama Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 VoidVent (5)
+
+>>> transform = p: (-14.8, 6.7, -13.1) r: (0.0, 3.4, 0.0) s: (0.3, 0.3, 0.3)
+>>>GameObject Children 0 meshVoidOverhangBottom (2)
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 3.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = meshVoidOverhangBottom (UnityEngine.Mesh)
+>>>>v mesh = meshVoidOverhangBottom Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = meshVoidOverhangBottom (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>>>>GameObject Children 0 VoidBubble
+
+>>>>> transform = p: (-1.2, -8.3, 17.4) r: (0.4, 354.4, 2.6) s: (5.4, 5.4, 5.4)
+>>>>>GameObject Children 0 Point Light
+
+>>>>>> transform = p: (0.0, -1.3, -1.7) r: (0.4, 354.4, 2.6) s: (0.6, 0.6, 0.5)
+>>>>>> UnityEngine.Light
+>>>>>>v m_BakedIndex = 0
+>>>>>>v type = Point
+>>>>>>v shape = Cone
+>>>>>>v spotAngle = 30
+>>>>>>v innerSpotAngle = 21,80208
+>>>>>>v color = RGBA(0.877, 0.368, 0.802, 1.000)
+>>>>>>v colorTemperature = 6570
+>>>>>>v useColorTemperature = False
+>>>>>>v intensity = 14,11
+>>>>>>v bounceIntensity = 1
+>>>>>>v useBoundingSphereOverride = False
+>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>v shadowCustomResolution = -1
+>>>>>>v shadowBias = 0,05
+>>>>>>v shadowNormalBias = 0,4
+>>>>>>v shadowNearPlane = 0,2
+>>>>>>v useShadowMatrixOverride = False
+>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>v range = 18,9
+>>>>>>v flare = 
+>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>v cullingMask = -1
+>>>>>>v renderingLayerMask = 1
+>>>>>>v lightShadowCasterMode = Default
+>>>>>>v shadows = None
+>>>>>>v shadowStrength = 1
+>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>v shadowSoftness = 4
+>>>>>>v shadowSoftnessFade = 1
+>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>v cookieSize = 10
+>>>>>>v cookie = 
+>>>>>>v renderMode = Auto
+>>>>>>v bakedIndex = 0
+>>>>>>v commandBufferCount = 0
+>>>>>>v pixelLightCount = 4
+>>>>>>v shadowConstantBias = 0
+>>>>>>v shadowObjectSizeBias = 0
+>>>>>>v attenuate = True
+
+>>>>>> RoR2.FlickerLight
+>>>>>>v light = Point Light (UnityEngine.Light)
+>>>>>>v sinWaves = Wave[]
+>>>>>>v initialLightIntensity = 0
+>>>>>>v stopwatch = 0
+>>>>>>v randomPhase = 0
+
+>>>>>> RoR2.LightScaleFromParent
+
+>>>>>GameObject Children 1 Bubble
+
+>>>>>> transform = p: (0.0, -1.4, -1.7) r: (272.6, 273.4, 274.6) s: (1.5, 1.5, 1.5)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = True
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 3
+>>>>>>v playbackSpeed = 3
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 5
+>>>>>>v startSpeed = 1
+>>>>>>v startSize = 1,5
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 3
+>>>>>>v gravityModifier = -0,04
+>>>>>>v maxParticles = 100
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>GameObject Children 2 OpaqueSmoke
+
+>>>>>> transform = p: (0.0, -2.0, -1.7) r: (272.6, 273.4, 81.0) s: (2.0, 2.0, 2.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = True
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 5
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 2
+>>>>>>v startSpeed = 3
+>>>>>>v startSize = 3
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 2
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 1000
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 0
+>>>>>>v velocityScale = 1
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 2 mdlVoidTerrainEastSmall (2)
+
+>>> transform = p: (15.7, -3.3, -10.0) r: (270.0, 351.3, 0.0) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidTerrainEastSmall (UnityEngine.Mesh)
+>>>v mesh = mdlVoidTerrainEastSmall Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = mdlVoidTerrainEastSmall (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>>GameObject Children 3 mdlVoidCoralPlatformTypeA.001 (1)
+
+>>> transform = p: (-25.0, 5.6, -4.3) r: (273.4, 128.8, 238.8) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidCoralPlatformTypeA.001 (UnityEngine.Mesh)
+>>>v mesh = mdlVoidCoralPlatformTypeA.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = mdlVoidCoralPlatformTypeA.001 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdSand (RoR2.SurfaceDef)
+
+>>GameObject Children 4 mdlVoidCoralPlatformTypeA.004 (1)
+
+>>> transform = p: (-24.1, 5.4, -1.5) r: (276.0, 112.5, 279.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidCoralPlatformTypeA.004 (UnityEngine.Mesh)
+>>>v mesh = mdlVoidCoralPlatformTypeA.004 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = mdlVoidCoralPlatformTypeA.004 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdSand (RoR2.SurfaceDef)
+
+>>GameObject Children 5 mdlVoidCoralPlatformTypeA.003 (1)
+
+>>> transform = p: (4.4, 3.2, 12.3) r: (270.4, 46.1, 242.1) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidCoralPlatformTypeA.003 (UnityEngine.Mesh)
+>>>v mesh = mdlVoidCoralPlatformTypeA.003 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = mdlVoidCoralPlatformTypeA.003 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdSand (RoR2.SurfaceDef)
+
+>>GameObject Children 6 mdlVoidCoralPlatformTypeB.001 (1)
+
+>>> transform = p: (0.4, 2.8, 13.8) r: (273.6, 27.6, 246.7) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidCoralPlatformTypeB.001 (UnityEngine.Mesh)
+>>>v mesh = mdlVoidCoralPlatformTypeB.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = mdlVoidCoralPlatformTypeB.001 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdSand (RoR2.SurfaceDef)
+
+>>GameObject Children 7 mdlVoidRaidVoidObjects (1)
+
+>>> transform = p: (-3.1, 5.6, 1.4) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>>>GameObject Children 0 mdlVoidTerrainNESmallBridge
+
+>>>> transform = p: (115.9, -7.1, -109.6) r: (280.2, 54.2, 183.5) s: (2.5, 2.5, 2.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlVoidTerrainNESmallBridge (UnityEngine.Mesh)
+>>>>v mesh = mdlVoidTerrainNESmallBridge Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = mdlVoidTerrainNESmallBridge (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>>>GameObject Children 1 mdlVoidWalkwayGenericBaseLong.002
+
+>>>> transform = p: (-55.5, -17.2, 92.4) r: (279.0, 73.9, 226.8) s: (1.9, 1.9, 1.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = mdlVoidWalkwayGenericBaseLong.002 (UnityEngine.Mesh)
+>>>>v mesh = mdlVoidWalkwayGenericBaseLong.002 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = mdlVoidWalkwayGenericBaseLong.002 (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 2 meshRaidVoidSupportPlatform
+
+>>>> transform = p: (109.2, -12.1, 84.7) r: (270.0, 45.8, 0.0) s: (0.0, 0.0, 0.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = meshRaidVoidSupportPlatform (UnityEngine.Mesh)
+>>>>v mesh = meshRaidVoidSupportPlatform Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = meshRaidVoidSupportPlatform (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 3 MeshRaidVoidTerrainSouthSmall
+
+>>>> transform = p: (-10.8, -4.7, -157.8) r: (270.0, 25.6, 0.0) s: (0.0, 0.0, 0.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = MeshRaidVoidTerrainSouthSmall (UnityEngine.Mesh)
+>>>>v mesh = MeshRaidVoidTerrainSouthSmall Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = MeshRaidVoidTerrainSouthSmall (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>>>>GameObject Children 0 MeshRaidVoidSupportPlatform
+
+>>>>> transform = p: (12.1, -126.2, 1153.6) r: (270.0, 25.6, 0.0) s: (100.0, 100.0, 100.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = MeshRaidVoidSupportPlatform (UnityEngine.Mesh)
+>>>>>v mesh = MeshRaidVoidSupportPlatform Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.MeshCollider
+>>>>>v sharedMesh = MeshRaidVoidSupportPlatform (UnityEngine.Mesh)
+>>>>>v convex = False
+>>>>>v inflateMesh = False
+>>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>>v skinWidth = 0
+>>>>>v smoothSphereCollisions = True
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>>GameObject Children 1 MeshRaidVoidSupportPlatform.001
+
+>>>>> transform = p: (813.3, 173.4, 1365.6) r: (270.0, 25.6, 0.0) s: (100.0, 100.0, 100.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = MeshRaidVoidSupportPlatform.001 (UnityEngine.Mesh)
+>>>>>v mesh = MeshRaidVoidSupportPlatform.001 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 8 VoidVent (4)
+
+>>> transform = p: (0.0, 7.5, 17.6) r: (0.0, 3.4, 0.0) s: (0.4, 0.4, 0.4)
+>>>GameObject Children 0 meshVoidOverhangBottom (2)
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 3.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = meshVoidOverhangBottom (UnityEngine.Mesh)
+>>>>v mesh = meshVoidOverhangBottom Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = meshVoidOverhangBottom (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>>>>GameObject Children 0 VoidBubble
+
+>>>>> transform = p: (-1.2, -8.3, 17.4) r: (0.4, 354.4, 2.6) s: (5.4, 5.4, 5.4)
+>>>>>GameObject Children 0 Point Light
+
+>>>>>> transform = p: (0.0, -1.3, -1.7) r: (0.4, 354.4, 2.6) s: (0.6, 0.6, 0.5)
+>>>>>> UnityEngine.Light
+>>>>>>v m_BakedIndex = 0
+>>>>>>v type = Point
+>>>>>>v shape = Cone
+>>>>>>v spotAngle = 30
+>>>>>>v innerSpotAngle = 21,80208
+>>>>>>v color = RGBA(0.877, 0.368, 0.802, 1.000)
+>>>>>>v colorTemperature = 6570
+>>>>>>v useColorTemperature = False
+>>>>>>v intensity = 14,11
+>>>>>>v bounceIntensity = 1
+>>>>>>v useBoundingSphereOverride = False
+>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>v shadowCustomResolution = -1
+>>>>>>v shadowBias = 0,05
+>>>>>>v shadowNormalBias = 0,4
+>>>>>>v shadowNearPlane = 0,2
+>>>>>>v useShadowMatrixOverride = False
+>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>v range = 18,9
+>>>>>>v flare = 
+>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>v cullingMask = -1
+>>>>>>v renderingLayerMask = 1
+>>>>>>v lightShadowCasterMode = Default
+>>>>>>v shadows = None
+>>>>>>v shadowStrength = 1
+>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>v shadowSoftness = 4
+>>>>>>v shadowSoftnessFade = 1
+>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>v cookieSize = 10
+>>>>>>v cookie = 
+>>>>>>v renderMode = Auto
+>>>>>>v bakedIndex = 0
+>>>>>>v commandBufferCount = 0
+>>>>>>v pixelLightCount = 4
+>>>>>>v shadowConstantBias = 0
+>>>>>>v shadowObjectSizeBias = 0
+>>>>>>v attenuate = True
+
+>>>>>> RoR2.FlickerLight
+>>>>>>v light = Point Light (UnityEngine.Light)
+>>>>>>v sinWaves = Wave[]
+>>>>>>v initialLightIntensity = 0
+>>>>>>v stopwatch = 0
+>>>>>>v randomPhase = 0
+
+>>>>>> RoR2.LightScaleFromParent
+
+>>>>>GameObject Children 1 Bubble
+
+>>>>>> transform = p: (0.0, -1.4, -1.7) r: (272.6, 273.4, 274.6) s: (1.5, 1.5, 1.5)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = True
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 3
+>>>>>>v playbackSpeed = 3
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 5
+>>>>>>v startSpeed = 1
+>>>>>>v startSize = 1,5
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 3
+>>>>>>v gravityModifier = -0,04
+>>>>>>v maxParticles = 100
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>GameObject Children 2 OpaqueSmoke
+
+>>>>>> transform = p: (0.0, -2.0, -1.7) r: (272.6, 273.4, 81.0) s: (2.0, 2.0, 2.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = True
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 5
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 2
+>>>>>>v startSpeed = 3
+>>>>>>v startSize = 3
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 2
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 1000
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 0
+>>>>>>v velocityScale = 1
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 9 mdlVoidCoralPlatformTypeB.001 (2)
+
+>>> transform = p: (3.8, 2.8, -13.0) r: (273.9, 141.5, 279.5) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidCoralPlatformTypeB.001 (UnityEngine.Mesh)
+>>>v mesh = mdlVoidCoralPlatformTypeB.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = mdlVoidCoralPlatformTypeB.001 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdSand (RoR2.SurfaceDef)
+
+>GameObject Children 2 Ring
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 90.0) s: (13.0, 26.0, 26.0)
+>>GameObject Children 0 mdlVoidRaidDioramaBase
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 2.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidRaidDioramaBase (UnityEngine.Mesh)
+>>>v mesh = mdlVoidRaidDioramaBase Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 mdlVoidRaidDioramaStrip
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 2.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlVoidRaidDioramaStrip (UnityEngine.Mesh)
+>>>v mesh = mdlVoidRaidDioramaStrip Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 3 Props
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 VoidGrass (1)
+
+>>> transform = p: (-17.4, 3.8, 5.4) r: (358.8, 311.1, 7.8) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (358.8, 311.1, 7.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 1 VoidTallGrass (1)
+
+>>> transform = p: (-17.7, 5.2, -6.7) r: (270.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = meshVoidTallGrass (UnityEngine.Mesh)
+>>>v mesh = meshVoidTallGrass Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 0.0, 0.0)
+>>>v size = 1
+>>>v lodCount = 1
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 2 VoidBubbleCoral (1)
+
+>>> transform = p: (-21.7, 5.5, -2.4) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>>>GameObject Children 0 meshVoidBubbleCoral
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = meshVoidBubbleCoral (UnityEngine.Mesh)
+>>>>v mesh = meshVoidBubbleCoral Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = meshVoidBubbleCoral (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>>>GameObject Children 1 VoidBubble
+
+>>>> transform = p: (-4.0, 18.1, 10.9) r: (0.4, 351.0, 2.6) s: (5.4, 5.4, 5.4)
+>>>>GameObject Children 0 Point Light
+
+>>>>> transform = p: (-0.1, -1.9, -1.7) r: (0.4, 351.0, 2.6) s: (0.6, 0.6, 0.5)
+>>>>> UnityEngine.Light
+>>>>>v m_BakedIndex = 0
+>>>>>v type = Point
+>>>>>v shape = Cone
+>>>>>v spotAngle = 30
+>>>>>v innerSpotAngle = 21,80208
+>>>>>v color = RGBA(0.811, 0.478, 0.760, 1.000)
+>>>>>v colorTemperature = 6570
+>>>>>v useColorTemperature = False
+>>>>>v intensity = 12
+>>>>>v bounceIntensity = 1
+>>>>>v useBoundingSphereOverride = False
+>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>v shadowCustomResolution = -1
+>>>>>v shadowBias = 0,05
+>>>>>v shadowNormalBias = 0,4
+>>>>>v shadowNearPlane = 0,2
+>>>>>v useShadowMatrixOverride = False
+>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>v range = 7,68
+>>>>>v flare = 
+>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>v cullingMask = -1
+>>>>>v renderingLayerMask = 1
+>>>>>v lightShadowCasterMode = Default
+>>>>>v shadows = None
+>>>>>v shadowStrength = 1
+>>>>>v shadowResolution = FromQualitySettings
+>>>>>v shadowSoftness = 4
+>>>>>v shadowSoftnessFade = 1
+>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>v cookieSize = 10
+>>>>>v cookie = 
+>>>>>v renderMode = Auto
+>>>>>v bakedIndex = 0
+>>>>>v commandBufferCount = 0
+>>>>>v pixelLightCount = 4
+>>>>>v shadowConstantBias = 0
+>>>>>v shadowObjectSizeBias = 0
+>>>>>v attenuate = True
+
+>>>>> RoR2.FlickerLight
+>>>>>v light = Point Light (UnityEngine.Light)
+>>>>>v sinWaves = Wave[]
+>>>>>v initialLightIntensity = 0
+>>>>>v stopwatch = 0
+>>>>>v randomPhase = 0
+
+>>>>> RoR2.LightScaleFromParent
+
+>>>>GameObject Children 1 Bubble
+
+>>>>> transform = p: (-0.1, -1.9, -1.8) r: (292.9, 294.3, 273.1) s: (1.5, 1.5, 1.5)
+>>>>> UnityEngine.ParticleSystem
+>>>>>v startDelay = 0
+>>>>>v loop = True
+>>>>>v playOnAwake = True
+>>>>>v duration = 3
+>>>>>v playbackSpeed = 3
+>>>>>v enableEmission = True
+>>>>>v emissionRate = 5
+>>>>>v startSpeed = 0,3
+>>>>>v startSize = 0,5
+>>>>>v startColor = RGBA(0.943, 0.000, 0.000, 1.000)
+>>>>>v startRotation = 6,283185
+>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>v startLifetime = 3
+>>>>>v gravityModifier = -0,01
+>>>>>v maxParticles = 100
+>>>>>v simulationSpace = Local
+>>>>>v scalingMode = Local
+>>>>>v automaticCullingEnabled = True
+>>>>>v isPlaying = False
+>>>>>v isEmitting = False
+>>>>>v isStopped = True
+>>>>>v isPaused = False
+>>>>>v particleCount = 0
+>>>>>v time = 0
+>>>>>v randomSeed = 0
+>>>>>v useAutoRandomSeed = True
+>>>>>v proceduralSimulationSupported = True
+>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>v alignment = View
+>>>>>v renderMode = Billboard
+>>>>>v sortMode = None
+>>>>>v lengthScale = 2
+>>>>>v velocityScale = 0
+>>>>>v cameraVelocityScale = 0
+>>>>>v normalDirection = 1
+>>>>>v shadowBias = 0
+>>>>>v sortingFudge = 0
+>>>>>v minParticleSize = 0
+>>>>>v maxParticleSize = 0,5
+>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>v maskInteraction = None
+>>>>>v trailMaterial = 
+>>>>>v enableGPUInstancing = True
+>>>>>v allowRoll = True
+>>>>>v mesh = 
+>>>>>v meshCount = 0
+>>>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 3 CrabFoam1Prop (21)
+
+>>> transform = p: (-15.5, 4.4, -0.6) r: (64.3, 61.2, 354.6) s: (1.3, 1.3, 1.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ArenaCrabFoam1Mesh (UnityEngine.Mesh)
+>>>v mesh = ArenaCrabFoam1Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ArenaCrabFoam1Mesh (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdCrystal (RoR2.SurfaceDef)
+
+>>GameObject Children 4 VoidFanCoralFlat (1)
+
+>>> transform = p: (-17.2, 4.9, -0.2) r: (20.1, 135.4, 354.7) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = meshVoidFanCoralFlat (UnityEngine.Mesh)
+>>>v mesh = meshVoidFanCoralFlat Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 5 VoidGrass (2)
+
+>>> transform = p: (-10.3, 4.0, -15.0) r: (1.2, 213.4, 4.5) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.2, 213.4, 4.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 6 VoidGrass (3)
+
+>>> transform = p: (-7.1, 3.7, -15.0) r: (4.6, 148.3, 0.8) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 148.3, 0.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 7 VoidGrass (4)
+
+>>> transform = p: (5.9, 3.9, -15.9) r: (356.8, 3.9, 356.7) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.8, 3.9, 356.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 8 VoidGrass (5)
+
+>>> transform = p: (4.5, 7.4, -20.7) r: (356.8, 3.9, 356.7) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.8, 3.9, 356.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 9 VoidGrass (6)
+
+>>> transform = p: (10.6, 7.4, -17.0) r: (354.0, 139.7, 0.1) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.0, 139.7, 0.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 10 VoidGrass (7)
+
+>>> transform = p: (6.9, 7.4, -19.7) r: (356.9, 139.7, 0.1) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (356.9, 139.7, 0.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 11 VoidGrass (8)
+
+>>> transform = p: (16.5, 3.8, -0.5) r: (2.9, 139.9, 1.7) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (2.9, 139.9, 1.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 12 VoidGrass (9)
+
+>>> transform = p: (-4.3, 4.1, 16.5) r: (357.1, 140.4, 0.3) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (357.1, 140.4, 0.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 13 VoidGrass (10)
+
+>>> transform = p: (13.2, 4.1, 6.4) r: (1.3, 140.4, 3.1) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (1.3, 140.4, 3.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>GameObject Children 4 Camera Position
+
+>> transform = p: (-70.3, 52.1, -33.9) r: (28.7, 63.6, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 5 Focus Point
+
+>> transform = p: (0.0, 6.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 6 Planets
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 HOLDER: Planets (1)
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 0,5
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Y
+>>>v _relativeTo = World
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 0,5
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Y
+>>>v relativeTo = World
+>>>v reverse = False
+
+>>>GameObject Children 0 VoidRaidPlanetVomitwave
+
+>>>> transform = p: (-2285.0, 1882.0, -984.7) r: (327.0, 341.3, 335.5) s: (178.9, 178.9, 180.1)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 VoidRaidPlanetSmallBlue
+
+>>>> transform = p: (40.2, 1107.8, 1900.1) r: (327.0, 341.3, 335.5) s: (178.9, 178.9, 180.1)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 VoidRaidPlanetPurpleWave
+
+>>>> transform = p: (1822.5, 887.0, 881.3) r: (327.0, 341.3, 335.5) s: (86.2, 86.2, 86.8)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 3 VoidRaidPlanetPurpleCrater
+
+>>>> transform = p: (-2131.5, 824.0, 1047.3) r: (327.0, 341.3, 335.5) s: (178.9, 178.9, 180.1)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 4 Moon Rotational Center
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (338.9, 4.3, 351.4) s: (1.0, 1.0, 1.0)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,3
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = Self
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,3
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = Self
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 VoidRaidPlanetPurpleCraterMoon
+
+>>>>>> transform = p: (-0.1, 0.0, 2.0) r: (327.0, 22.3, 335.5) s: (0.3, 0.3, 0.3)
+>>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 22.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 22.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 22.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 22.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 4 VoidRaidPlanetPinkVomit
+
+>>>> transform = p: (-1352.7, 1374.0, 2103.3) r: (327.0, 341.3, 335.5) s: (178.9, 178.9, 180.1)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 5 VoidRaidPlanetMars
+
+>>>> transform = p: (1592.2, 968.0, 2306.5) r: (327.0, 341.3, 335.5) s: (179.6, 178.9, 179.4)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 4 mdlVoidRaidPlanetRing
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 mdlRaidPlanetRings
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (282.6, 174.6, 309.3) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetRings (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetRings Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 6 VoidRaidPlanetIcey
+
+>>>> transform = p: (2209.1, 933.0, -346.5) r: (327.0, 341.3, 335.5) s: (188.5, 188.5, 189.8)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (306.5, 117.2, 215.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (306.5, 117.2, 215.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (306.5, 117.2, 215.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (306.5, 117.2, 215.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 7 VoidRaidPlanetGreenMarble
+
+>>>> transform = p: (1646.2, 996.0, -1399.7) r: (327.0, 341.3, 335.5) s: (35.5, 35.5, 35.8)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 8 VoidRaidPlanetEvilCrater
+
+>>>> transform = p: (600.2, 1687.0, -2215.3) r: (327.0, 341.3, 335.5) s: (76.2, 76.2, 76.7)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 9 VoidRaidPlanetBlueMarble
+
+>>>> transform = p: (-1246.0, 1421.0, -2088.0) r: (327.0, 341.3, 335.5) s: (259.8, 259.8, 261.6)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 10 VoidRaidPlanetAcid
+
+>>>> transform = p: (-2043.4, 1192.1, 125.7) r: (327.0, 341.3, 335.5) s: (61.0, 61.0, 61.4)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = True
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = True
+
+>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 mdlRaidPlanetSurfaceFX
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 mdlRaidPlanetDiffuse
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 mdlRaidPlanetEdgeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 4 mdlRaidPlanetRings (1)
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (305.1, 114.5, 61.2) s: (1.2, 1.2, 1.2)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlRaidPlanetRings (UnityEngine.Mesh)
+>>>>>v mesh = mdlRaidPlanetRings Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 11 2DPlanets
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 2DPlanetEarth
+
+>>>>> transform = p: (1847.8, 728.9, 1730.8) r: (348.9, 47.1, 0.0) s: (18.9, 18.8, 18.9)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 2DPlanetFrostbite
+
+>>>>> transform = p: (-497.6, 821.6, 2170.8) r: (344.6, 346.8, 0.0) s: (18.9, 18.8, 18.9)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 2DPlanetFrozen
+
+>>>>> transform = p: (-539.1, 884.8, 2143.3) r: (344.6, 346.8, 0.0) s: (11.7, 11.7, 11.7)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 2DPlanetStar
+
+>>>>> transform = p: (-1577.3, 685.9, 1646.6) r: (13.3, 129.2, 0.0) s: (22.7, 22.6, 22.7)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdl2DPlanetStar (UnityEngine.Mesh)
+>>>>>v mesh = mdl2DPlanetStar Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 4 2DPlanetRing
+
+>>>>> transform = p: (-3028.8, 1232.4, -347.6) r: (19.7, 80.9, 0.0) s: (66.4, 65.9, 66.4)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdl2DPlanetRing (UnityEngine.Mesh)
+>>>>>v mesh = mdl2DPlanetRing Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 5 2DPlanetSecretMars
+
+>>>>> transform = p: (-3085.4, 1777.4, -703.7) r: (332.7, 247.9, 4.7) s: (38.6, 38.3, 38.6)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 6 2DPlanetSmallMoon
+
+>>>>> transform = p: (-2295.7, 1338.0, 1963.3) r: (339.1, 295.6, 359.6) s: (14.8, 14.7, 14.8)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 7 2DPlanetSecretMoon
+
+>>>>> transform = p: (128.9, 1309.1, -2073.4) r: (326.2, 173.5, 2.4) s: (17.0, 16.9, 17.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 8 2DPlanetSecretEgg
+
+>>>>> transform = p: (1550.1, 1407.8, -2053.7) r: (339.3, 143.6, 176.4) s: (18.8, 18.6, 18.8)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdl2DPlanetEgg (UnityEngine.Mesh)
+>>>>>v mesh = mdl2DPlanetEgg Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 9 2DPlanetZ
+
+>>>>> transform = p: (2203.9, 1244.2, -1314.5) r: (339.3, 121.1, 354.4) s: (17.8, 17.7, 17.8)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 10 2DPlanetGrey
+
+>>>>> transform = p: (2513.1, 1550.5, 259.9) r: (328.6, 81.4, 0.0) s: (17.8, 17.7, 17.8)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>GameObject Children 7 CenterSwirl (1)
+
+>> transform = p: (0.0, -1.1, 0.0) r: (0.0, 0.0, 0.0) s: (-0.1, 0.1, 0.1)
+>>GameObject Children 0 mdlRaidSwirlySmoke1
+
+>>> transform = p: (-0.8, 5.6, -0.3) r: (90.0, 0.0, 0.0) s: (1.4, 1.4, 1.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlySmoke (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlySmoke Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 10
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 10
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>GameObject Children 1 CenterSwirlStars
+
+>>> transform = p: (0.0, 5.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = True
+>>>v playOnAwake = True
+>>>v duration = 1
+>>>v playbackSpeed = 0,4
+>>>v enableEmission = True
+>>>v emissionRate = 4
+>>>v startSpeed = 0
+>>>v startSize = 0,04
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 24
+>>>v gravityModifier = 0
+>>>v maxParticles = 2000
+>>>v simulationSpace = World
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = True
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 2 mdlRaidSwirlySmoke2
+
+>>> transform = p: (-0.9, 7.2, -0.3) r: (90.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlySmoke (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlySmoke Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 8
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 8
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>GameObject Children 3 mdlRaidSwirlySmoke2 2
+
+>>> transform = p: (-1.0, 7.2, 1.4) r: (90.0, 326.7, 0.0) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlySmoke (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlySmoke Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 12
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 12
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>GameObject Children 4 mdlRaidSwirlySmoke3
+
+>>> transform = p: (-0.7, 7.2, 2.1) r: (90.0, 311.6, 0.0) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlySmoke (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlySmoke Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 11
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 11
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>GameObject Children 5 mdlRaidSwirlyCenterGlow
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.6, 1.6, 1.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlyCenterGlow (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlyCenterGlow Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 6 Sphere
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (38.5, 38.5, 38.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v radius = 0,5
+
+>>>GameObject Children 0 BonusEyeFX (1)
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (-1.1, 1.1, 1.1)
+>>>>GameObject Children 0 EyeOverlay1
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 EyeOverlay2
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 EyeLight
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Light
+>>>>>v m_BakedIndex = 0
+>>>>>v type = Point
+>>>>>v shape = Cone
+>>>>>v spotAngle = 30
+>>>>>v innerSpotAngle = 21,80208
+>>>>>v color = RGBA(0.691, 0.231, 0.961, 1.000)
+>>>>>v colorTemperature = 6570
+>>>>>v useColorTemperature = False
+>>>>>v intensity = 65,26
+>>>>>v bounceIntensity = 1
+>>>>>v useBoundingSphereOverride = False
+>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>v shadowCustomResolution = -1
+>>>>>v shadowBias = 0,05
+>>>>>v shadowNormalBias = 0,4
+>>>>>v shadowNearPlane = 0,2
+>>>>>v useShadowMatrixOverride = False
+>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>v range = 13,01
+>>>>>v flare = 
+>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>v cullingMask = -1
+>>>>>v renderingLayerMask = 1
+>>>>>v lightShadowCasterMode = Default
+>>>>>v shadows = None
+>>>>>v shadowStrength = 1
+>>>>>v shadowResolution = FromQualitySettings
+>>>>>v shadowSoftness = 4
+>>>>>v shadowSoftnessFade = 1
+>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>v cookieSize = 10
+>>>>>v cookie = 
+>>>>>v renderMode = Auto
+>>>>>v bakedIndex = 0
+>>>>>v commandBufferCount = 0
+>>>>>v pixelLightCount = 4
+>>>>>v shadowConstantBias = 0
+>>>>>v shadowObjectSizeBias = 0
+>>>>>v attenuate = True
+
+>>GameObject Children 7 Swirl Light
+
+>>> transform = p: (0.0, -45.7, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(0.696, 0.542, 1.000, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 136,7
+>>>v bounceIntensity = 1
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 25,56
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>GameObject Children 8 CenterSwirl (2)
+
+>> transform = p: (0.0, -1.3, 0.0) r: (0.0, 0.0, 0.0) s: (-0.4, 0.4, 0.4)
+>>GameObject Children 0 mdlRaidSwirlySmoke1
+
+>>> transform = p: (-0.8, 5.6, -0.3) r: (90.0, 0.0, 0.0) s: (1.4, 1.4, 1.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlySmoke (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlySmoke Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 0,5
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 0,5
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>GameObject Children 1 CenterSwirlStars
+
+>>> transform = p: (0.0, 5.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = True
+>>>v playOnAwake = True
+>>>v duration = 1
+>>>v playbackSpeed = 0,4
+>>>v enableEmission = True
+>>>v emissionRate = 4
+>>>v startSpeed = 0
+>>>v startSize = 0,2
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 24
+>>>v gravityModifier = 0
+>>>v maxParticles = 2000
+>>>v simulationSpace = World
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = True
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 2 mdlRaidSwirlySmoke2
+
+>>> transform = p: (-0.9, 7.2, -0.3) r: (90.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlySmoke (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlySmoke Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 0,4
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 0,4
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>GameObject Children 3 mdlRaidSwirlySmoke2 2
+
+>>> transform = p: (-1.0, 7.2, 1.4) r: (90.0, 326.7, 0.0) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlySmoke (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlySmoke Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 0,6
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 0,6
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>GameObject Children 4 mdlRaidSwirlySmoke3
+
+>>> transform = p: (-0.7, 7.2, 2.1) r: (90.0, 311.6, 0.0) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlySmoke (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlySmoke Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 0,55
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 0,55
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>GameObject Children 5 mdlRaidSwirlyCenterGlow
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.6, 1.6, 1.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRaidSwirlyCenterGlow (UnityEngine.Mesh)
+>>>v mesh = mdlRaidSwirlyCenterGlow Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

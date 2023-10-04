@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/Meteor/PickupMeteor.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupMeteor
+
+> transform = p: (150.3, -116.6, -19.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, 0.2)
+>v minDistance = 2
+>v maxDistance = 4
+>v cameraDirection = (0.7, 0.0, 1.7)
+
+>GameObject Children 0 mdlMeteor
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MeteorMesh (UnityEngine.Mesh)
+>>v mesh = MeteorMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 293.6, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.7, 0.0, -1.7) r: (0.0, 293.6, 0.0) s: (1.0, 1.0, 1.0)

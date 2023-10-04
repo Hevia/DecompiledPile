@@ -1,0 +1,150 @@
+Key Path : RoR2/Base/PassiveHealing/WoodSpriteIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : WoodSpriteIndicator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+> RoR2.UI.MPEventSystemProvider
+>v _eventSystem = 
+>v fallBackToMainEventSystem = True
+>v _resolvedEventSystem = 
+>v listeners = System.Collections.Generic.List`1[RoR2.UI.MPEventSystemLocator]
+>v eventSystem = 
+>v resolvedEventSystem = 
+
+>GameObject Children 0 Holder
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 45.0) s: (0.4, 0.4, 0.4)
+>> UnityEngine.SpriteRenderer
+>>v sprite = texWoodSpriteCrosshair (UnityEngine.Sprite)
+>>v drawMode = Simple
+>>v size = (5.1, 5.1)
+>>v adaptiveModeThreshold = 0,5
+>>v tileMode = Continuous
+>>v color = RGBA(0.739, 1.000, 0.306, 1.000)
+>>v maskInteraction = None
+>>v flipX = False
+>>v flipY = False
+>>v spriteSortPoint = Center
+
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Slow
+>>v _slowRotationSpeed = 20
+>>v _fastRotationSpeed = 20
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Slow
+>>v slowRotationSpeed = 20
+>>v fastRotationSpeed = 20
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = False
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 0,3
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>GameObject Children 1 TextMeshPro
+
+>> transform = p: (0.8, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshFilter
+>>v sharedMesh = 
+>>v mesh = TextMeshPro (UnityEngine.Mesh)
+
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> TMPro.TextMeshPro
+>>v m_hasFontAssetChanged = False
+>>v m_previousLossyScaleY = -1
+>>v m_renderer = TextMeshPro (UnityEngine.MeshRenderer)
+>>v m_meshFilter = 
+>>v m_CanvasRenderer = 
+>>v m_isFirstAllocation = False
+>>v m_max_characters = 8
+>>v m_max_numberOfLines = 4
+>>v m_subTextObjects = TMPro.TMP_SubMesh[]
+>>v m_maskType = MaskOff
+>>v m_EnvMapMatrix = 0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+
+>>v m_RectTransformCorners = UnityEngine.Vector3[]
+>>v m_isRegisteredForEvents = False
+>>v k_GenerateTextMarker = Unity.Profiling.ProfilerMarker
+>>v k_SetArraySizesMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIMarker = Unity.Profiling.ProfilerMarker
+>>v k_ParseMarkupTextMarker = Unity.Profiling.ProfilerMarker
+>>v k_CharacterLookupMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleGPOSFeaturesMarker = Unity.Profiling.ProfilerMarker
+>>v k_CalculateVerticesPositionMarker = Unity.Profiling.ProfilerMarker
+>>v k_ComputeTextMetricsMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleVisibleCharacterMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleWhiteSpacesMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleHorizontalLineBreakingMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleVerticalLineBreakingMarker = Unity.Profiling.ProfilerMarker
+>>v k_SaveGlyphVertexDataMarker = Unity.Profiling.ProfilerMarker
+>>v k_ComputeCharacterAdvanceMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleCarriageReturnMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleLineTerminationMarker = Unity.Profiling.ProfilerMarker
+>>v k_SavePageInfoMarker = Unity.Profiling.ProfilerMarker
+>>v k_SaveProcessingStatesMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIIMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIIIMarker = Unity.Profiling.ProfilerMarker
+>>v _SortingLayer = 0
+>>v _SortingLayerID = 0
+>>v _SortingOrder = 0
+>>v OnPreRenderText = 
+>>v m_currentAutoSizeMode = False
+>>v sortingLayerID = 0
+>>v sortingOrder = 0
+>>v autoSizeTextContainer = False
+>>v textContainer = 
+>>v transform = TextMeshPro (UnityEngine.RectTransform)
+>>v renderer = TextMeshPro (UnityEngine.MeshRenderer)
+>>v mesh =  (UnityEngine.Mesh)
+>>v meshFilter = TextMeshPro (UnityEngine.MeshFilter)
+>>v maskType = MaskOff
+
+>> RoR2.UI.MPEventSystemLocator
+>>v _eventSystemProvider = 
+>>v _eventSystem = 
+>>v onEventSystemDiscovered = 
+>>v onEventSystemLost = 
+>>v eventSystemProvider = 
+>>v eventSystem = 
+
+>> RoR2.InputBindingDisplayController
+>>v actionName = Equipment
+>>v axisRange = Full
+>>v useExplicitInputSource = False
+>>v explicitInputSource = MouseAndKeyboard
+>>v eventSystemLocator = 
+>>v guiLabel = 
+>>v label = 
+>>v lastEventSystem = 
+>>v lastInputSource = MouseAndKeyboard
+>>v instances = System.Collections.Generic.List`1[RoR2.InputBindingDisplayController]
+>>v sharedStringBuilder = 

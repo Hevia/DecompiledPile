@@ -1,0 +1,58 @@
+Key Path : RoR2/Base/FocusConvergence/DisplayFocusedConvergenceFollower.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayFocusedConvergenceFollower
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>GameObject Children 0 Rotator
+
+>> transform = p: (0.0, 0.0, 0.0) r: (29.9, 81.0, 20.8) s: (0.6, 0.6, 0.6)
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Slow
+>>v _slowRotationSpeed = 30
+>>v _fastRotationSpeed = 20
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Slow
+>>v slowRotationSpeed = 30
+>>v fastRotationSpeed = 20
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>>GameObject Children 0 Rotator (1)
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (42.7, 340.8, 17.8) s: (1.0, 1.0, 1.0)
+>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>v _speed = Slow
+>>>v _slowRotationSpeed = 45
+>>>v _fastRotationSpeed = 20
+>>>v _rotateAroundAxis = Z
+>>>v _relativeTo = Self
+>>>v _reverse = False
+>>>v speed = Slow
+>>>v slowRotationSpeed = 45
+>>>v fastRotationSpeed = 20
+>>>v rotateAroundAxis = Z
+>>>v relativeTo = Self
+>>>v reverse = False
+
+>>>GameObject Children 0 Holder
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (315.5, 315.6, 18.3) s: (1.3, 1.3, 1.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = FocusedConvergenceHolderMesh (UnityEngine.Mesh)
+>>>>v mesh = FocusedConvergenceHolderMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 Orb
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (315.5, 315.6, 18.3) s: (3.6, 3.6, 3.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Sphere, Unwrapped (UnityEngine.Mesh)
+>>>>v mesh = Sphere, Unwrapped Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0

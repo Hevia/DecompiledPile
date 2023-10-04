@@ -1,0 +1,53 @@
+Key Path : RoR2/Base/Gateway/PickupVase.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupVase
+
+> transform = p: (-114.7, -143.2, -125.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (-0.3, -0.2, -0.2, 0.9)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (-2.4, 2.5, -4.4)
+
+>GameObject Children 0 mdlVase
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 VaseMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VaseMesh (UnityEngine.Mesh)
+>>>v mesh = VaseMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 VaseStickMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 90.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VaseStickMesh (UnityEngine.Mesh)
+>>>v mesh = VaseStickMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 VaseStickMesh (1)
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (353.1, 247.8, 82.8) s: (1.2, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VaseStickMesh (UnityEngine.Mesh)
+>>>v mesh = VaseStickMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (337.0, 106.6, 28.8) s: (1.4, 1.4, 1.4)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (3.4, -3.5, 6.3) r: (337.0, 106.6, 28.8) s: (1.4, 1.4, 1.4)

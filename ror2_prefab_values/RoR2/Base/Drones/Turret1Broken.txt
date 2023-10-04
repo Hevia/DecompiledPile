@@ -1,0 +1,505 @@
+Key Path : RoR2/Base/Drones/Turret1Broken.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : Turret1Broken
+
+> transform = p: (-19.4, -214.9, -154.6) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 60e08168b0a17fd43a94b7493175608a
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 60e08168b0a17fd43a94b7493175608a
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.Highlight
+>v highlightList = System.Collections.Generic.List`1[RoR2.Highlight]
+>v _readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+>v displayNameProvider = 
+>v pickupIndex = ItemTier.Boss
+>v targetRenderer = Turret1Mesh (UnityEngine.SkinnedMeshRenderer)
+>v strength = 1
+>v highlightColor = interactive
+>v isOn = False
+>v readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+
+> RoR2.SummonMasterBehavior
+>v masterPrefab = Turret1Master (UnityEngine.GameObject)
+>v callOnEquipmentSpentOnPurchase = False
+>v destroyAfterSummoning = True
+
+> RoR2.PurchaseInteraction
+>v displayNameToken = TURRET1_INTERACTABLE_NAME
+>v contextToken = TURRET1_CONTEXT
+>v costType = Money
+>v available = True
+>v cost = 35
+>v automaticallyScaleCostWithDifficulty = False
+>v requiredUnlockable = 
+>v ignoreSpherecastForInteractability = False
+>v purchaseStatNames = System.String[]
+>v setUnavailableOnTeleporterActivated = False
+>v isShrine = False
+>v isGoldShrine = False
+>v lastActivator = 
+>v lockGameObject = 
+>v rng = 
+>v sharedStringBuilder = 
+>v onItemSpentOnPurchase = 
+>v onEquipmentSpentOnPurchase = 
+>v onPurchase = RoR2.PurchaseEvent RoR2.PurchaseEvent
+>v ___lockGameObjectNetId = 0
+>v NetworkdisplayNameToken = TURRET1_INTERACTABLE_NAME
+>v NetworkcontextToken = TURRET1_CONTEXT
+>v Networkavailable = True
+>v Networkcost = 35
+>v NetworklockGameObject = 
+
+> RoR2.EventFunctions
+
+> RoR2.Hologram.HologramProjector
+>v displayDistance = 15
+>v hologramPivot = HologramPivot (UnityEngine.Transform)
+>v disableHologramRotation = False
+>v transformDampVelocity = 0
+>v contentProvider = 
+>v viewerReselectTimer = 0
+>v viewerReselectInterval = 0,25
+>v cachedViewer = 
+>v viewer = 
+>v hologramContentInstance = 
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = TURRET1_NAME
+
+> RoR2.DitherModel
+>v fade = 0
+>v bounds = Turret1Mesh (UnityEngine.SphereCollider)
+>v renderers = UnityEngine.Renderer[]
+>v propertyStorage = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.DitherModel]
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlTurret1 (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = ModelBase (UnityEngine.Transform)
+>v onModelChanged = 
+>v autoUpdateModelTransform = False
+>v dontDetatchFromParent = True
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlTurret1 (UnityEngine.Transform)
+
+>GameObject Children 0 ModelBase
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlTurret1
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>>>GameObject Children 0 Turret1Armature
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Base
+
+>>>>> transform = p: (0.0, 2.6, 4.0) r: (276.8, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Bottom
+
+>>>>>> transform = p: (0.0, 2.4, 0.0) r: (6.8, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Thigh.1
+
+>>>>>>> transform = p: (0.0, 4.3, 0.0) r: (300.6, 314.9, 249.6) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Calf.1
+
+>>>>>>>> transform = p: (0.0, 2.6, 0.0) r: (338.3, 214.1, 329.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Foot.1
+
+>>>>>>>>> transform = p: (0.0, 2.1, 0.0) r: (332.1, 4.9, 212.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Foot.1_end
+
+>>>>>>>>>> transform = p: (0.0, 2.8, 0.0) r: (332.1, 4.9, 212.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 Thigh.2
+
+>>>>>>> transform = p: (0.0, 4.3, 0.0) r: (296.4, 324.3, 127.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Calf.2
+
+>>>>>>>> transform = p: (0.0, 2.6, 0.0) r: (300.7, 150.0, 301.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Foot.2
+
+>>>>>>>>> transform = p: (0.0, 2.1, 0.0) r: (345.8, 355.2, 104.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Foot.2_end
+
+>>>>>>>>>> transform = p: (0.0, 2.8, 0.0) r: (345.8, 355.2, 104.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 Thigh.3
+
+>>>>>>> transform = p: (0.0, 4.3, 0.0) r: (52.8, 329.1, 239.9) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Calf.3
+
+>>>>>>>> transform = p: (0.0, 2.6, 0.0) r: (48.1, 114.2, 14.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Foot.3
+
+>>>>>>>>> transform = p: (0.0, 2.1, 0.0) r: (1.6, 350.1, 238.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Foot.3_end
+
+>>>>>>>>>> transform = p: (0.0, 2.8, 0.0) r: (1.6, 350.1, 238.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 3 Thigh.4
+
+>>>>>>> transform = p: (0.0, 4.3, 0.0) r: (71.0, 25.4, 213.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Calf.4
+
+>>>>>>>> transform = p: (0.0, 2.6, 0.0) r: (37.8, 165.6, 347.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Foot.4
+
+>>>>>>>>> transform = p: (0.0, 2.1, 0.0) r: (48.6, 5.5, 195.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Foot.4_end
+
+>>>>>>>>>> transform = p: (0.0, 2.8, 0.0) r: (48.6, 5.5, 195.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 Top
+
+>>>>>> transform = p: (0.0, 2.4, 0.0) r: (19.8, 324.6, 4.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Barrel
+
+>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (308.0, 27.2, 123.4) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Barrel_end
+
+>>>>>>>> transform = p: (0.0, 12.9, 0.0) r: (308.0, 27.2, 123.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 FootIKPole.1
+
+>>>>> transform = p: (0.0, -4.6, 3.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootIKPole.1_end
+
+>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 FootIKPole.2
+
+>>>>> transform = p: (-4.6, 0.0, 3.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootIKPole.2_end
+
+>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 FootIKPole.3
+
+>>>>> transform = p: (4.6, 0.0, 3.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootIKPole.3_end
+
+>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 4 FootIKPole.4
+
+>>>>> transform = p: (0.0, 4.6, 3.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootIKPole.4_end
+
+>>>>>> transform = p: (0.0, 1.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 5 FootIKTarget.1
+
+>>>>> transform = p: (2.2, -4.6, -0.8) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootIKTarget.1_end
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 6 FootIKTarget.2
+
+>>>>> transform = p: (-7.2, -0.1, -0.7) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootIKTarget.2_end
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 7 FootIKTarget.3
+
+>>>>> transform = p: (6.4, -0.7, -0.8) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootIKTarget.3_end
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 8 FootIKTarget.4
+
+>>>>> transform = p: (0.8, 5.6, -0.8) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FootIKTarget.4_end
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 Turret1Mesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.SkinnedMeshRenderer
+>>>>v quality = Auto
+>>>>v updateWhenOffscreen = False
+>>>>v forceMatrixRecalculationPerRender = False
+>>>>v rootBone = Base (UnityEngine.Transform)
+>>>>v bones = UnityEngine.Transform[]
+>>>>v sharedMesh = Turret1Mesh (UnityEngine.Mesh)
+>>>>v skinnedMotionVectors = True
+>>>>v localBounds = Center: (0.0, 1.9, -2.3), Extents: (7.2, 7.5, 5.8)
+
+>>>> UnityEngine.SphereCollider
+>>>>v center = (0.0, 0.0, 3.0)
+>>>>v radius = 5,18
+
+>>>> RoR2.EntityLocator
+>>>>v entity = Turret1Broken (UnityEngine.GameObject)
+
+>>>GameObject Children 2 BrokenDroneVFX
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Small Sparks, Mesh
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.ParticleSystem
+>>>>>v startDelay = 0
+>>>>>v loop = True
+>>>>>v playOnAwake = True
+>>>>>v duration = 1
+>>>>>v playbackSpeed = 1
+>>>>>v enableEmission = True
+>>>>>v emissionRate = 10
+>>>>>v startSpeed = 3
+>>>>>v startSize = 0,3
+>>>>>v startColor = RGBA(1.000, 0.457, 0.000, 1.000)
+>>>>>v startRotation = 0
+>>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>>v startLifetime = 0,1
+>>>>>v gravityModifier = 0,3
+>>>>>v maxParticles = 1000
+>>>>>v simulationSpace = Local
+>>>>>v scalingMode = Local
+>>>>>v automaticCullingEnabled = True
+>>>>>v isPlaying = False
+>>>>>v isEmitting = False
+>>>>>v isStopped = True
+>>>>>v isPaused = False
+>>>>>v particleCount = 0
+>>>>>v time = 0
+>>>>>v randomSeed = 0
+>>>>>v useAutoRandomSeed = True
+>>>>>v proceduralSimulationSupported = True
+>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>v alignment = View
+>>>>>v renderMode = Stretch
+>>>>>v sortMode = None
+>>>>>v lengthScale = 2
+>>>>>v velocityScale = 0
+>>>>>v cameraVelocityScale = 0
+>>>>>v normalDirection = 1
+>>>>>v shadowBias = 0
+>>>>>v sortingFudge = 0
+>>>>>v minParticleSize = 0
+>>>>>v maxParticleSize = 0,5
+>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>v maskInteraction = None
+>>>>>v trailMaterial = 
+>>>>>v enableGPUInstancing = True
+>>>>>v allowRoll = True
+>>>>>v mesh = 
+>>>>>v meshCount = 0
+>>>>>v activeVertexStreamsCount = 4
+
+>>>>GameObject Children 1 Damage Point
+
+>>>>> transform = p: (-1.0, 5.8, 1.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Small Sparks, Point
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = True
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 1
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 0
+>>>>>>v startSpeed = 3
+>>>>>>v startSize = 0,1
+>>>>>>v startColor = RGBA(1.000, 0.457, 0.000, 1.000)
+>>>>>>v startRotation = 0
+>>>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>>>v startLifetime = 0,6
+>>>>>>v gravityModifier = 0,3
+>>>>>>v maxParticles = 1000
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Stretch
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>GameObject Children 1 Smoke, Point
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = True
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 2
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 9
+>>>>>>v startSpeed = 1,25
+>>>>>>v startSize = 0,5
+>>>>>>v startColor = RGBA(0.632, 0.632, 0.632, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 2
+>>>>>>v gravityModifier = -0,03
+>>>>>>v maxParticles = 1000
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = True
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = True
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 11,69
+>>>>>>v velocityScale = 1
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 1 HologramPivot
+
+>>> transform = p: (0.0, 2.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,117 @@
+Key Path : RoR2/Base/RoboBallBuddy/mdlRoboBallFriendGreenFoliage.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlRoboBallFriendGreenFoliage
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlRoboBallFriendGreenFoliageAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 mdlRoboBallBranches
+
+>> transform = p: (0.9, 0.1, 0.4) r: (356.2, 46.1, 294.9) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlRoboBallBranches (UnityEngine.Mesh)
+>>v mesh = mdlRoboBallBranches Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 mdlRoboBallFoliage
+
+>> transform = p: (-1.2, 0.3, 0.4) r: (356.8, 42.0, 287.4) s: (0.1, 0.2, 0.2)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Root (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlRoboBallFoliage (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (-0.2, 0.0, -0.7), Extents: (1.3, 1.7, 0.9)
+
+>GameObject Children 2 mdlRoboBallGreenFeathers
+
+>> transform = p: (0.0, 0.6, 0.7) r: (282.4, 86.2, 270.2) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Root (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlRoboBallGreenFeathers (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.6, 1.5, 0.4)
+
+>GameObject Children 3 RoboBallFriendFoliageArmature
+
+>> transform = p: (0.0, 0.0, 0.7) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Root
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 FeatherBottom.1
+
+>>>> transform = p: (0.0, -0.4, 0.1) r: (9.7, 174.0, 179.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 FeatherBottom.2
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (351.2, 171.9, 183.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FeatherBottom.3
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (342.3, 170.7, 185.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 FeatherBottom.4
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (339.4, 170.3, 184.5) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 FeatherTop.1
+
+>>>> transform = p: (0.0, 0.6, 0.0) r: (12.7, 359.9, 359.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 FeatherTop.2
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (358.9, 359.7, 2.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 FeatherTop.3
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (338.2, 358.6, 2.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 FeatherTop.4
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (320.5, 357.6, 3.2) s: (1.0, 1.0, 1.0)

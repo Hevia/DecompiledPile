@@ -1,0 +1,147 @@
+Key Path : RoR2/DLC1/DroneCommander/mdlDroneCommander.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlDroneCommander
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, -189254600000000000000000000000.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlDroneCommanderAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 DroneCommanderArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.2) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Body
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Arm.L
+
+>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 60.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Bolt.L
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 60.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Bolt.L_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 60.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 Panel1.L
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Panel1.L_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 Panel2.L
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Panel2.L_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 Panel3.L
+
+>>>>>> transform = p: (0.0, 0.9, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Panel3.L_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Arm.R
+
+>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 60.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Bolt.R
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 60.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Bolt.R_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 60.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 Panel1.R
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Panel1.R_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 Panel2.R
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Panel2.R_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 Panel3.R
+
+>>>>>> transform = p: (0.0, 0.9, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Panel3.R_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 60.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 Hat
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Hat.End
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Hat.End_end
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 mdlDroneCommander
+
+>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlDroneCommander (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.1, 0.0), Extents: (0.6, 0.3, 1.0)
+
+>GameObject Children 2 mdlDroneHat
+
+>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlDroneHat (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.3, 0.0), Extents: (0.2, 0.1, 0.2)

@@ -1,0 +1,76 @@
+Key Path : RoR2/Base/Toolbot/mdlRoboCrate.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlRoboCrate
+
+> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 495091.5, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = AlwaysAnimate
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlRoboCrateAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 Base
+
+>> transform = p: (0.0, 0.0, -1.3) r: (2.0, 0.0, 348.4) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Door
+
+>>> transform = p: (0.0, 1.6, 1.2) r: (281.7, 80.3, 99.9) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Door_end
+
+>>>> transform = p: (0.0, 0.3, 0.0) r: (281.7, 80.3, 99.9) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 RobotCrateMesh
+
+>>> transform = p: (0.0, 2.9, 0.0) r: (2.0, 0.0, 348.4) s: (2.4, 2.4, 2.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = RobotCrateMesh (UnityEngine.Mesh)
+>>>v mesh = RobotCrateMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 Camera
+
+>> transform = p: (0.0, -14.3, 3.1) r: (282.3, 181.4, 177.2) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Camera_end
+
+>>> transform = p: (0.0, 0.4, 0.0) r: (282.3, 181.4, 177.2) s: (1.0, 1.0, 1.0)

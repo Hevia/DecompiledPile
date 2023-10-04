@@ -1,0 +1,32 @@
+Key Path : RoR2/Base/moon/MoonBridgeCap.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MoonBridgeCap
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.MeshFilter
+>v sharedMesh = Moon_Bridge_Cap (UnityEngine.Mesh)
+>v mesh = Moon_Bridge_Cap Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+> UnityEngine.MeshCollider
+>v sharedMesh = Moon_Bridge_Cap (UnityEngine.Mesh)
+>v convex = False
+>v inflateMesh = False
+>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>v skinWidth = 0
+>v smoothSphereCollisions = True
+
+> RoR2.SurfaceDefProvider
+>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 0 Water
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Bridge_Cap_Water (UnityEngine.Mesh)
+>>v mesh = Moon_Bridge_Cap_Water Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

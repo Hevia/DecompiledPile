@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/LunarDagger/PickupLunarDagger.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupLunarDagger
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.9, -0.2, 0.3)
+>v minDistance = 2
+>v maxDistance = 3,5
+>v cameraDirection = (1.1, 0.7, 1.3)
+
+>GameObject Children 0 mdlLunarDagger
+
+>> transform = p: (0.0, 0.0, 0.0) r: (316.6, 270.0, 90.0) s: (2.0, 2.0, 2.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = LunarDaggerMesh (UnityEngine.Mesh)
+>>v mesh = LunarDaggerMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (-0.3, 0.4, 0.1) r: (356.1, 307.5, 23.1) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-1.3, -0.4, -1.2) r: (356.1, 307.5, 23.1) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,84 @@
+Key Path : RoR2/DLC1/LunarSun/DisplaySunHeadNeck.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplaySunHeadNeck
+
+> transform = p: (-8.7, -147.7, -9.5) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlSunHeadNeck
+
+>> transform = p: (0.1, -1.6, 0.0) r: (0.0, 78.6, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlSunHeadNeck
+
+>>> transform = p: (0.0, 1.7, -0.1) r: (292.5, 78.6, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Bandage1 (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlSunHeadNeck (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.1, -0.1), Extents: (0.1, 0.3, 0.1)
+
+>>GameObject Children 1 SunHeadArmature
+
+>>> transform = p: (0.0, 1.7, -0.1) r: (275.5, 281.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Bandage1
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (291.4, 281.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>> DynamicBone
+>>>>v m_Root = Bandage1 (UnityEngine.Transform)
+>>>>v m_UpdateRate = 60
+>>>>v m_UpdateMode = Normal
+>>>>v m_Damping = 0,576
+>>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>>v m_Elasticity = 0,016
+>>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>>v m_Stiffness = 0
+>>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>>v m_Inert = 0
+>>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>>v m_Radius = 0
+>>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>>v m_EndLength = 0,69
+>>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>>v m_Force = (0.0, 0.0, 0.0)
+>>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>>v m_FreezeAxis = None
+>>>>v m_DistantDisable = False
+>>>>v m_ReferenceObject = 
+>>>>v m_DistanceToObject = 20
+>>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>>v m_BoneTotalLength = 0
+>>>>v m_ObjectScale = 1
+>>>>v m_Time = 0
+>>>>v m_Weight = 1
+>>>>v m_DistantDisabled = False
+>>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>>GameObject Children 0 Bandage2
+
+>>>>> transform = p: (0.0, 0.1, 0.0) r: (304.5, 281.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Bandage3
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (326.4, 281.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Bandage4
+
+>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (341.0, 281.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 ROOT
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.5, 101.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 SunHeadDynamicCollider
+
+>>>>> transform = p: (0.0, -0.2, 0.0) r: (354.5, 101.4, 0.0) s: (0.3, 0.3, 0.3)
+>>>>> DynamicBoneCollider
+>>>>>v m_Center = (0.0, 0.0, 0.0)
+>>>>>v m_Radius = 0,5
+>>>>>v m_Height = 1,42
+>>>>>v m_Direction = Y
+>>>>>v m_Bound = Outside

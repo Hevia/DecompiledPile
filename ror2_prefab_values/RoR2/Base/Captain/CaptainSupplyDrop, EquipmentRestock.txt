@@ -1,0 +1,1728 @@
+Key Path : RoR2/Base/Captain/CaptainSupplyDrop, EquipmentRestock.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : CaptainSupplyDrop, EquipmentRestock
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = e1735d6bf76ce57428ba431b5398aeb3
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = e1735d6bf76ce57428ba431b5398aeb3
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.GenericOwnership
+>v onOwnerChanged = 
+>v ownerInstanceId = 0
+>v cachedOwnerObject = 
+>v ownerObject = 
+>v NetworkownerInstanceId = 0
+
+> RoR2.EntityStateMachine
+>v <state>k__BackingField = 
+>v nextState = 
+>v customName = Main
+>v initialStateType = EntityStates.SerializableEntityStateType
+>v mainStateType = EntityStates.SerializableEntityStateType
+>v <networker>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v commonComponents = RoR2.EntityStateMachine+CommonComponentCache
+>v networkIndex = -1
+>v nextStateModifier = 
+>v <destroying>k__BackingField = False
+>v state = 
+>v networker = 
+>v networkIdentity = 
+>v destroying = False
+
+> RoR2.NetworkStateMachine
+>v stateMachines = RoR2.EntityStateMachine[]
+>v networkIdentity = 
+
+> RoR2.ProxyInteraction
+>v getContextString = 
+>v getInteractability = 
+>v onInteractionBegin = 
+>v shouldIgnoreSpherecastForInteractability = 
+>v shouldShowOnScanner = 
+
+> RoR2.ModelLocator
+>v _modelTransform = captain supply drop (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = ModelBase (UnityEngine.Transform)
+>v onModelChanged = 
+>v autoUpdateModelTransform = True
+>v dontDetatchFromParent = False
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = captain supply drop (UnityEngine.Transform)
+
+> RoR2.GenericEnergyComponent
+>v _capacity = 100
+>v _chargeRate = 0
+>v referenceTime = RoR2.Run+FixedTimeStamp
+>v <hasEffectiveAuthority>k__BackingField = False
+>v _internalChargeRate = 0
+>v hasEffectiveAuthority = False
+>v energy = 0
+>v normalizedEnergy = 0
+>v chargeRate = 0
+>v normalizedChargeRate = 0
+>v capacity = 100
+>v NetworkreferenceTime = RoR2.Run+FixedTimeStamp
+
+> RoR2.Highlight
+>v highlightList = System.Collections.Generic.List`1[RoR2.Highlight]
+>v _readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+>v displayNameProvider = 
+>v pickupIndex = ItemTier.Boss
+>v targetRenderer = CaptainSupplyDropMesh (UnityEngine.SkinnedMeshRenderer)
+>v strength = 1
+>v highlightColor = interactive
+>v isOn = False
+>v readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = CAPTAIN_SUPPLY_EQUIPMENT_RESTOCK_NAME
+
+> RoR2.Projectile.ProjectileDamage
+>v damage = 0
+>v crit = False
+>v force = 0
+>v damageColorIndex = Default
+>v damageType = Generic
+>v useDotMaxStacksFromAttacker = False
+>v dotMaxStacksFromAttacker = 4294967295
+
+>GameObject Children 0 Smoke
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.ParticleSystem
+>>v startDelay = 3
+>>v loop = False
+>>v playOnAwake = True
+>>v duration = 0,2
+>>v playbackSpeed = 1
+>>v enableEmission = True
+>>v emissionRate = 300
+>>v startSpeed = 32
+>>v startSize = 0,6
+>>v startColor = RGBA(0.208, 0.149, 0.130, 1.000)
+>>v startRotation = 6,283185
+>>v startRotation3D = (0.0, 0.0, 6.3)
+>>v startLifetime = 1
+>>v gravityModifier = 0,1
+>>v maxParticles = 1000
+>>v simulationSpace = World
+>>v scalingMode = Local
+>>v automaticCullingEnabled = False
+>>v isPlaying = False
+>>v isEmitting = False
+>>v isStopped = True
+>>v isPaused = False
+>>v particleCount = 0
+>>v time = 0
+>>v randomSeed = 0
+>>v useAutoRandomSeed = True
+>>v proceduralSimulationSupported = False
+>>v main = UnityEngine.ParticleSystem+MainModule
+>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>> UnityEngine.ParticleSystemRenderer
+>>v alignment = View
+>>v renderMode = Billboard
+>>v sortMode = None
+>>v lengthScale = 2
+>>v velocityScale = 0
+>>v cameraVelocityScale = 0
+>>v normalDirection = 1
+>>v shadowBias = 0
+>>v sortingFudge = 0
+>>v minParticleSize = 0
+>>v maxParticleSize = 0,5
+>>v pivot = (0.0, 0.0, 0.0)
+>>v flip = (0.0, 0.0, 0.0)
+>>v maskInteraction = None
+>>v trailMaterial = 
+>>v enableGPUInstancing = True
+>>v allowRoll = True
+>>v mesh = 
+>>v meshCount = 0
+>>v activeVertexStreamsCount = 4
+
+>GameObject Children 1 Inactive
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (10.0, 10.0, 10.0)
+>>GameObject Children 0 Sphere, Outer
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VeryHighResSphere (UnityEngine.Mesh)
+>>>v mesh = VeryHighResSphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 0,3
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = False
+>>>v time = 0
+>>>v initialFade = 0
+
+>>GameObject Children 1 Sphere, Inner Expanding
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VeryHighResSphere (UnityEngine.Mesh)
+>>>v mesh = VeryHighResSphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.ObjectScaleCurve
+>>>v useOverallCurveOnly = True
+>>>v curveX = UnityEngine.AnimationCurve
+>>>v curveY = UnityEngine.AnimationCurve
+>>>v curveZ = UnityEngine.AnimationCurve
+>>>v overallCurve = UnityEngine.AnimationCurve
+>>>v timeMax = 3
+>>>v <time>k__BackingField = 0
+>>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>>v time = 0
+>>>v baseScale = (0.0, 0.0, 0.0)
+
+>>GameObject Children 2 AirstrikeOrientation
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 FallingProjectile
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> RoR2.ObjectTransformCurve
+>>>>v useRotationCurves = False
+>>>>v useTranslationCurves = True
+>>>>v loop = False
+>>>>v randomizeInitialTime = False
+>>>>v rotationCurveX = UnityEngine.AnimationCurve
+>>>>v rotationCurveY = UnityEngine.AnimationCurve
+>>>>v rotationCurveZ = UnityEngine.AnimationCurve
+>>>>v translationCurveX = UnityEngine.AnimationCurve
+>>>>v translationCurveY = UnityEngine.AnimationCurve
+>>>>v translationCurveZ = UnityEngine.AnimationCurve
+>>>>v timeMax = 3
+>>>>v <time>k__BackingField = 0
+>>>>v <basePosition>k__BackingField = (0.0, 0.0, 0.0)
+>>>>v <baseRotation>k__BackingField = (0.0, 0.0, 0.0, 0.0)
+>>>>v time = 0
+>>>>v basePosition = (0.0, 0.0, 0.0)
+>>>>v baseRotation = (0.0, 0.0, 0.0, 0.0)
+
+>>>>GameObject Children 0 Core
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Rings
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 3
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 9
+>>>>>>v startSpeed = 0
+>>>>>>v startSize = 6
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 0
+>>>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>>>v startLifetime = 0,3
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 10
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>GameObject Children 1 BrightFlash
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = True
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 3
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 36
+>>>>>>v startSpeed = 0
+>>>>>>v startSize = 90
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 0,01745329
+>>>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>>>v startLifetime = 0,1
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 10
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 1
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>GameObject Children 2 Soft Glow
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = True
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 3
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 15
+>>>>>>v startSpeed = 0
+>>>>>>v startSize = 36
+>>>>>>v startColor = RGBA(0.220, 0.846, 0.953, 0.580)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 0,2
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 30
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>GameObject Children 3 Flames
+
+>>>>>> transform = p: (0.0, 0.0, 1.2) r: (90.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 3
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 8
+>>>>>>v startSpeed = 0
+>>>>>>v startSize = 3
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 0
+>>>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>>>v startLifetime = 0,3
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 1000
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = True
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = True
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = Local
+>>>>>>v renderMode = Mesh
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, -2.3)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = False
+>>>>>>v allowRoll = True
+>>>>>>v mesh = donut5Mesh (UnityEngine.Mesh)
+>>>>>>v meshCount = 1
+>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>>GameObject Children 0 Point light
+
+>>>>>>> transform = p: (0.0, 0.0, 1.0) r: (270.0, 180.0, 0.0) s: (1.5, 1.5, 1.5)
+>>>>>>> UnityEngine.Light
+>>>>>>>v m_BakedIndex = 0
+>>>>>>>v type = Point
+>>>>>>>v shape = Cone
+>>>>>>>v spotAngle = 30
+>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>v color = RGBA(0.919, 0.437, 0.000, 1.000)
+>>>>>>>v colorTemperature = 6570
+>>>>>>>v useColorTemperature = False
+>>>>>>>v intensity = 6,52
+>>>>>>>v bounceIntensity = 1
+>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>v shadowCustomResolution = -1
+>>>>>>>v shadowBias = 0,05
+>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>v range = 10
+>>>>>>>v flare = 
+>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>v cullingMask = -1
+>>>>>>>v renderingLayerMask = 1
+>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>v shadows = None
+>>>>>>>v shadowStrength = 1
+>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>v shadowSoftness = 4
+>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>v cookieSize = 10
+>>>>>>>v cookie = 
+>>>>>>>v renderMode = Auto
+>>>>>>>v bakedIndex = 0
+>>>>>>>v commandBufferCount = 0
+>>>>>>>v pixelLightCount = 4
+>>>>>>>v shadowConstantBias = 0
+>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>v attenuate = True
+
+>>>>GameObject Children 1 Trail
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Random Brights
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 2,4
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 1000
+>>>>>>v startSpeed = 5
+>>>>>>v startSize = 0,1
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 0
+>>>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>>>v startLifetime = 1
+>>>>>>v gravityModifier = 0,1
+>>>>>>v maxParticles = 1000
+>>>>>>v simulationSpace = World
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = True
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 4
+
+>>>>>GameObject Children 1 TrailRenderer
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.TrailRenderer
+>>>>>>v numPositions = 0
+>>>>>>v time = 0,2
+>>>>>>v startWidth = 3
+>>>>>>v endWidth = 3
+>>>>>>v widthMultiplier = 3
+>>>>>>v autodestruct = False
+>>>>>>v emitting = True
+>>>>>>v numCornerVertices = 0
+>>>>>>v numCapVertices = 0
+>>>>>>v minVertexDistance = 0,1
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>>>>>v positionCount = 0
+>>>>>>v shadowBias = 0,5
+>>>>>>v generateLightingData = False
+>>>>>>v textureMode = Stretch
+>>>>>>v alignment = View
+>>>>>>v widthCurve = UnityEngine.AnimationCurve
+>>>>>>v colorGradient = UnityEngine.Gradient
+
+>>GameObject Children 3 AreaIndicatorCenter
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Rings
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 1
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 9
+>>>>v startSpeed = 0
+>>>>v startSize = 1
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 0,3
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 10
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>GameObject Children 2 ModelBase
+
+>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 captain supply drop
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.Animator
+>>>v isOptimizable = True
+>>>v isHuman = False
+>>>v hasRootMotion = False
+>>>v humanScale = 1
+>>>v isInitialized = False
+>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v applyRootMotion = False
+>>>v linearVelocityBlending = False
+>>>v animatePhysics = False
+>>>v updateMode = Normal
+>>>v hasTransformHierarchy = True
+>>>v gravityWeight = 0
+>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v stabilizeFeet = False
+>>>v layerCount = 0
+>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>v parameterCount = 0
+>>>v feetPivotActive = 0
+>>>v pivotWeight = 0
+>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>v isMatchingTarget = False
+>>>v speed = 1
+>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v cullingMode = CullUpdateTransforms
+>>>v playbackTime = -1
+>>>v recorderStartTime = -1
+>>>v recorderStopTime = -1
+>>>v recorderMode = Offline
+>>>v runtimeAnimatorController = animCaptainSupplyDrop (UnityEngine.AnimatorController)
+>>>v hasBoundPlayables = False
+>>>v avatar = captain supply dropAvatar (UnityEngine.Avatar)
+>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>v layersAffectMassCenter = False
+>>>v leftFeetBottomHeight = 0
+>>>v rightFeetBottomHeight = 0
+>>>v logWarnings = True
+>>>v fireEvents = True
+>>>v keepAnimatorControllerStateOnDisable = False
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = False
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> ChildLocator
+>>>v transformPairs = ChildLocator+NameTransformPair[]
+>>>v Count = 2
+
+>>> RoR2.OnEnableEvent
+>>>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+>>> RoR2.EventFunctions
+
+>>> AkGameObj
+>>>v m_listeners = AkGameObjListenerList
+>>>v isEnvironmentAware = True
+>>>v isStaticObject = False
+>>>v m_Collider = 
+>>>v m_envData = 
+>>>v m_posData = 
+>>>v m_positionOffsetData = AkGameObjPositionOffsetData
+>>>v isRegistered = False
+>>>v m_posOffsetData = 
+>>>v AK_NUM_LISTENERS = 8
+>>>v listenerMask = 1
+>>>v IsUsingDefaultListeners = True
+>>>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+>>>GameObject Children 0 CaptainSupplyDropArmature
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 ROOT
+
+>>>>> transform = p: (0.0, 0.0, -0.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Base
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 MainShaft
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 SolarPanel
+
+>>>>>>>> transform = p: (0.0, 1.7, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 SolarPanel_end
+
+>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 Pounder
+
+>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Pounder_end
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 CaptainSupplyDropMesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 45.0, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.SkinnedMeshRenderer
+>>>>v quality = Auto
+>>>>v updateWhenOffscreen = False
+>>>>v forceMatrixRecalculationPerRender = False
+>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>v bones = UnityEngine.Transform[]
+>>>>v sharedMesh = CaptainSupplyDropMesh (UnityEngine.Mesh)
+>>>>v skinnedMotionVectors = True
+>>>>v localBounds = Center: (0.0, 1.4, 0.0), Extents: (0.6, 1.4, 0.6)
+
+>>>GameObject Children 2 InteractionCollider
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.CapsuleCollider
+>>>>v center = (0.0, 0.0, 0.0)
+>>>>v radius = 0,75
+>>>>v height = 4
+>>>>v direction = 1
+
+>>>> RoR2.EntityLocator
+>>>>v entity = CaptainSupplyDrop, EquipmentRestock (UnityEngine.GameObject)
+
+>>>GameObject Children 3 EnergyIndicatorContainer
+
+>>>> transform = p: (0.0, 3.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>>GameObject Children 0 Canvas
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>>>> UnityEngine.Canvas
+>>>>>v preWillRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>>>>>v willRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>>>>>v renderMode = WorldSpace
+>>>>>v isRootCanvas = True
+>>>>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>>>>v scaleFactor = 1
+>>>>>v referencePixelsPerUnit = 100
+>>>>>v overridePixelPerfect = False
+>>>>>v pixelPerfect = False
+>>>>>v planeDistance = 100
+>>>>>v renderOrder = 5
+>>>>>v overrideSorting = False
+>>>>>v sortingOrder = 0
+>>>>>v targetDisplay = 0
+>>>>>v sortingLayerID = 0
+>>>>>v cachedSortingLayerValue = 0
+>>>>>v additionalShaderChannels = None
+>>>>>v sortingLayerName = Default
+>>>>>v rootCanvas = Canvas (UnityEngine.Canvas)
+>>>>>v worldCamera = 
+>>>>>v normalizedSortingGridSize = 0,1
+>>>>>v sortingGridNormalizedSize = 0
+
+>>>>> RoR2.Billboard
+>>>>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]
+
+>>>>>GameObject Children 0 EnergyIndicatorBackgroundPanel
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.CanvasRenderer
+>>>>>>v <isMask>k__BackingField = False
+>>>>>>v hasPopInstruction = False
+>>>>>>v materialCount = 0
+>>>>>>v popMaterialCount = 0
+>>>>>>v absoluteDepth = -1
+>>>>>>v hasMoved = False
+>>>>>>v cullTransparentMesh = False
+>>>>>>v hasRectClipping = False
+>>>>>>v relativeDepth = -1
+>>>>>>v cull = False
+>>>>>>v isMask = False
+>>>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>>>> UnityEngine.UI.Image
+>>>>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>>>v m_Sprite = texUIHighlightBoxOutlineThickIcon (UnityEngine.Sprite)
+>>>>>>v m_OverrideSprite = 
+>>>>>>v m_Type = Sliced
+>>>>>>v m_PreserveAspect = False
+>>>>>>v m_FillCenter = True
+>>>>>>v m_FillMethod = Horizontal
+>>>>>>v m_FillAmount = 1
+>>>>>>v m_FillClockwise = True
+>>>>>>v m_FillOrigin = 0
+>>>>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>>>>v m_Tracked = False
+>>>>>>v m_UseSpriteMesh = False
+>>>>>>v m_PixelsPerUnitMultiplier = 1
+>>>>>>v m_CachedReferencePixelsPerUnit = 100
+>>>>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>>>>v s_Xy = UnityEngine.Vector3[]
+>>>>>>v s_Uv = UnityEngine.Vector3[]
+>>>>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>>>>v s_Initialized = False
+>>>>>>v sprite = texUIHighlightBoxOutlineThickIcon (UnityEngine.Sprite)
+>>>>>>v overrideSprite = texUIHighlightBoxOutlineThickIcon (UnityEngine.Sprite)
+>>>>>>v type = Sliced
+>>>>>>v preserveAspect = False
+>>>>>>v fillCenter = True
+>>>>>>v fillMethod = Horizontal
+>>>>>>v fillAmount = 1
+>>>>>>v fillClockwise = True
+>>>>>>v fillOrigin = 0
+>>>>>>v eventAlphaThreshold = 1
+>>>>>>v alphaHitTestMinimumThreshold = 0
+>>>>>>v useSpriteMesh = False
+>>>>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>>>v mainTexture = texUIHighlightBoxOutlineThickIcon (UnityEngine.Texture2D)
+>>>>>>v hasBorder = True
+>>>>>>v pixelsPerUnitMultiplier = 1
+>>>>>>v pixelsPerUnit = 1
+>>>>>>v material = Default UI Material (UnityEngine.Material)
+>>>>>>v minWidth = 0
+>>>>>>v preferredWidth = 12
+>>>>>>v flexibleWidth = -1
+>>>>>>v minHeight = 0
+>>>>>>v preferredHeight = 12
+>>>>>>v flexibleHeight = -1
+>>>>>>v layoutPriority = 0
+
+>>>>>> RoR2.ObjectScaleCurve
+>>>>>>v useOverallCurveOnly = False
+>>>>>>v curveX = UnityEngine.AnimationCurve
+>>>>>>v curveY = UnityEngine.AnimationCurve
+>>>>>>v curveZ = UnityEngine.AnimationCurve
+>>>>>>v overallCurve = UnityEngine.AnimationCurve
+>>>>>>v timeMax = 0,2
+>>>>>>v <time>k__BackingField = 0
+>>>>>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>>>>>v time = 0
+>>>>>>v baseScale = (0.0, 0.0, 0.0)
+
+>>>>>>GameObject Children 0 EnergyIndicator
+
+>>>>>>> transform = p: (0.0, -1.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.CanvasRenderer
+>>>>>>>v <isMask>k__BackingField = False
+>>>>>>>v hasPopInstruction = False
+>>>>>>>v materialCount = 0
+>>>>>>>v popMaterialCount = 0
+>>>>>>>v absoluteDepth = -1
+>>>>>>>v hasMoved = False
+>>>>>>>v cullTransparentMesh = False
+>>>>>>>v hasRectClipping = False
+>>>>>>>v relativeDepth = -1
+>>>>>>>v cull = False
+>>>>>>>v isMask = False
+>>>>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>>>>> UnityEngine.UI.Image
+>>>>>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>>>>v m_Sprite = texUIDifficultySegment (UnityEngine.Sprite)
+>>>>>>>v m_OverrideSprite = 
+>>>>>>>v m_Type = Filled
+>>>>>>>v m_PreserveAspect = False
+>>>>>>>v m_FillCenter = True
+>>>>>>>v m_FillMethod = Horizontal
+>>>>>>>v m_FillAmount = 0,593
+>>>>>>>v m_FillClockwise = True
+>>>>>>>v m_FillOrigin = 0
+>>>>>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>>>>>v m_Tracked = False
+>>>>>>>v m_UseSpriteMesh = False
+>>>>>>>v m_PixelsPerUnitMultiplier = 1
+>>>>>>>v m_CachedReferencePixelsPerUnit = 100
+>>>>>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>>>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>>>>>v s_Xy = UnityEngine.Vector3[]
+>>>>>>>v s_Uv = UnityEngine.Vector3[]
+>>>>>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>>>>>v s_Initialized = False
+>>>>>>>v sprite = texUIDifficultySegment (UnityEngine.Sprite)
+>>>>>>>v overrideSprite = texUIDifficultySegment (UnityEngine.Sprite)
+>>>>>>>v type = Filled
+>>>>>>>v preserveAspect = False
+>>>>>>>v fillCenter = True
+>>>>>>>v fillMethod = Horizontal
+>>>>>>>v fillAmount = 0,593
+>>>>>>>v fillClockwise = True
+>>>>>>>v fillOrigin = 0
+>>>>>>>v eventAlphaThreshold = 1
+>>>>>>>v alphaHitTestMinimumThreshold = 0
+>>>>>>>v useSpriteMesh = False
+>>>>>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>>>>v mainTexture = texUIDifficultySegment (UnityEngine.Texture2D)
+>>>>>>>v hasBorder = False
+>>>>>>>v pixelsPerUnitMultiplier = 1
+>>>>>>>v pixelsPerUnit = 1
+>>>>>>>v material = Default UI Material (UnityEngine.Material)
+>>>>>>>v minWidth = 0
+>>>>>>>v preferredWidth = 512
+>>>>>>>v flexibleWidth = -1
+>>>>>>>v minHeight = 0
+>>>>>>>v preferredHeight = 128
+>>>>>>>v flexibleHeight = -1
+>>>>>>>v layoutPriority = 0
+
+>>>GameObject Children 4 PodGroundImpact
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> DestroyOnParticleEnd
+>>>>v ps = 
+
+>>>> RoR2.ShakeEmitter
+>>>>v instances = System.Collections.Generic.List`1[RoR2.ShakeEmitter]
+>>>>v shakeOnStart = True
+>>>>v shakeOnEnable = False
+>>>>v wave = Wave
+>>>>v duration = 0,3
+>>>>v radius = 50
+>>>>v scaleShakeRadiusWithLocalScale = False
+>>>>v amplitudeTimeDecay = True
+>>>>v stopwatch = +Infini
+>>>>v halfPeriodTimer = 0
+>>>>v halfPeriodVector = (0.0, 0.0, 0.0)
+>>>>v currentOffset = (0.0, 0.0, 0.0)
+>>>>v deepRumbleFactor = 5
+
+>>>> RoR2.VFXAttributes
+>>>>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>>>>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>>>>v vfxPriority = Always
+>>>>v vfxIntensity = Medium
+>>>>v optionalLights = UnityEngine.Light[]
+>>>>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>>>>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+>>>>GameObject Children 0 Particles
+
+>>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Debris, 3D
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 0,5
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 10
+>>>>>>v startSpeed = 35
+>>>>>>v startSize = 1
+>>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 2
+>>>>>>v gravityModifier = 2
+>>>>>>v maxParticles = 100
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = Local
+>>>>>>v renderMode = Mesh
+>>>>>>v sortMode = None
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = matGolemExplosion (UnityEngine.Material)
+>>>>>>v enableGPUInstancing = False
+>>>>>>v allowRoll = True
+>>>>>>v mesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>>>>v meshCount = 1
+>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>GameObject Children 1 Debris
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 0,5
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 0
+>>>>>>v startSpeed = 20
+>>>>>>v startSize = 0,7
+>>>>>>v startColor = RGBA(0.020, 0.020, 0.024, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 1
+>>>>>>v gravityModifier = 1
+>>>>>>v maxParticles = 100
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = Distance
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = False
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>GameObject Children 2 Dust
+
+>>>>>> transform = p: (0.0, -1.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 1
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 0
+>>>>>>v startSpeed = 2
+>>>>>>v startSize = 6
+>>>>>>v startColor = RGBA(0.142, 0.071, 0.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 2
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 357
+>>>>>>v simulationSpace = World
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = Distance
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0,49
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = False
+>>>>>>v allowRoll = True
+>>>>>>v mesh = Sphere (UnityEngine.Mesh)
+>>>>>>v meshCount = 1
+>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>GameObject Children 3 Dust, Directional
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 1
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 0
+>>>>>>v startSpeed = 2
+>>>>>>v startSize = 4
+>>>>>>v startColor = RGBA(0.142, 0.071, 0.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 1
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 357
+>>>>>>v simulationSpace = World
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Stretch
+>>>>>>v sortMode = Distance
+>>>>>>v lengthScale = 1,94
+>>>>>>v velocityScale = 3,55
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 1.4, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = False
+>>>>>>v allowRoll = True
+>>>>>>v mesh = Sphere (UnityEngine.Mesh)
+>>>>>>v meshCount = 1
+>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>GameObject Children 4 Flash
+
+>>>>>> transform = p: (0.0, -1.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 1
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 0
+>>>>>>v startSpeed = 2
+>>>>>>v startSize = 3
+>>>>>>v startColor = RGBA(0.142, 0.071, 0.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 0,1
+>>>>>>v gravityModifier = 0
+>>>>>>v maxParticles = 357
+>>>>>>v simulationSpace = World
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Billboard
+>>>>>>v sortMode = Distance
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0,49
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = False
+>>>>>>v allowRoll = True
+>>>>>>v mesh = Sphere (UnityEngine.Mesh)
+>>>>>>v meshCount = 1
+>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>GameObject Children 5 Sparks
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.ParticleSystem
+>>>>>>v startDelay = 0
+>>>>>>v loop = False
+>>>>>>v playOnAwake = True
+>>>>>>v duration = 0,5
+>>>>>>v playbackSpeed = 1
+>>>>>>v enableEmission = True
+>>>>>>v emissionRate = 0
+>>>>>>v startSpeed = 20
+>>>>>>v startSize = 0,1
+>>>>>>v startColor = RGBA(0.745, 0.672, 0.000, 1.000)
+>>>>>>v startRotation = 6,283185
+>>>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>>>v startLifetime = 1
+>>>>>>v gravityModifier = 1
+>>>>>>v maxParticles = 100
+>>>>>>v simulationSpace = Local
+>>>>>>v scalingMode = Local
+>>>>>>v automaticCullingEnabled = False
+>>>>>>v isPlaying = False
+>>>>>>v isEmitting = False
+>>>>>>v isStopped = True
+>>>>>>v isPaused = False
+>>>>>>v particleCount = 0
+>>>>>>v time = 0
+>>>>>>v randomSeed = 0
+>>>>>>v useAutoRandomSeed = True
+>>>>>>v proceduralSimulationSupported = False
+>>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>>v alignment = View
+>>>>>>v renderMode = Stretch
+>>>>>>v sortMode = Distance
+>>>>>>v lengthScale = 2
+>>>>>>v velocityScale = 0
+>>>>>>v cameraVelocityScale = 0
+>>>>>>v normalDirection = 1
+>>>>>>v shadowBias = 0
+>>>>>>v sortingFudge = 0
+>>>>>>v minParticleSize = 0
+>>>>>>v maxParticleSize = 0,5
+>>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>>v maskInteraction = None
+>>>>>>v trailMaterial = 
+>>>>>>v enableGPUInstancing = False
+>>>>>>v allowRoll = True
+>>>>>>v mesh = 
+>>>>>>v meshCount = 0
+>>>>>>v activeVertexStreamsCount = 5
+
+>>>>>GameObject Children 6 Point Light
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.Light
+>>>>>>v m_BakedIndex = 0
+>>>>>>v type = Point
+>>>>>>v shape = Cone
+>>>>>>v spotAngle = 30
+>>>>>>v innerSpotAngle = 21,80208
+>>>>>>v color = RGBA(1.000, 0.587, 0.137, 1.000)
+>>>>>>v colorTemperature = 6570
+>>>>>>v useColorTemperature = False
+>>>>>>v intensity = 100
+>>>>>>v bounceIntensity = 1
+>>>>>>v useBoundingSphereOverride = False
+>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>v shadowCustomResolution = -1
+>>>>>>v shadowBias = 0,05
+>>>>>>v shadowNormalBias = 0,4
+>>>>>>v shadowNearPlane = 0,2
+>>>>>>v useShadowMatrixOverride = False
+>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>v range = 10
+>>>>>>v flare = 
+>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>v cullingMask = -1
+>>>>>>v renderingLayerMask = 1
+>>>>>>v lightShadowCasterMode = Default
+>>>>>>v shadows = None
+>>>>>>v shadowStrength = 1
+>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>v shadowSoftness = 4
+>>>>>>v shadowSoftnessFade = 1
+>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>v cookieSize = 10
+>>>>>>v cookie = 
+>>>>>>v renderMode = Auto
+>>>>>>v bakedIndex = 0
+>>>>>>v commandBufferCount = 0
+>>>>>>v pixelLightCount = 4
+>>>>>>v shadowConstantBias = 0
+>>>>>>v shadowObjectSizeBias = 0
+>>>>>>v attenuate = True
+
+>>>>>> LightIntensityCurve
+>>>>>>v curve = UnityEngine.AnimationCurve
+>>>>>>v timeMax = 0,2
+>>>>>>v time = 0
+>>>>>>v light = 
+>>>>>>v maxIntensity = 0
+>>>>>>v loop = False
+>>>>>>v randomStart = False
+>>>>>>v enableNegativeLights = False
+
+>>>>GameObject Children 1 Sphere (1)
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (15.0, 15.0, 15.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.SphereCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v radius = 0,5
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 5 FakeActorCollider
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.CapsuleCollider
+>>>>v center = (0.0, 0.0, 0.0)
+>>>>v radius = 0,75
+>>>>v height = 4
+>>>>v direction = 1

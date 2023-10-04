@@ -1,0 +1,274 @@
+Key Path : RoR2/Base/ClayBoss/TarTether.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TarTether
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 87a8f8f715c386145ad7f3dd385e04b8
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 87a8f8f715c386145ad7f3dd385e04b8
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.TarTetherController
+>v targetRoot = 
+>v ownerRoot = 
+>v reelSpeed = 6
+>v mulchDistanceSqr = 0
+>v breakDistanceSqr = 0
+>v mulchDamageScale = 0
+>v mulchTickIntervalScale = 0
+>v damageCoefficientPerTick = 0
+>v tickInterval = 0
+>v tickTimer = 0
+>v attachTime = 0,3
+>v fixedAge = 0
+>v age = 0
+>v beginSiphon = False
+>v bezierCurveLine = 
+>v targetHealthComponent = 
+>v ownerHealthComponent = 
+>v ownerBody = 
+>v ___targetRootNetId = 0
+>v ___ownerRootNetId = 0
+>v NetworktargetRoot = 
+>v NetworkownerRoot = 
+
+> UnityEngine.LineRenderer
+>v numPositions = 20
+>v startWidth = 1
+>v endWidth = 0,55797
+>v widthMultiplier = 1
+>v numCornerVertices = 0
+>v numCapVertices = 0
+>v useWorldSpace = True
+>v loop = False
+>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>v endColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>v positionCount = 20
+>v shadowBias = 0
+>v generateLightingData = False
+>v textureMode = Tile
+>v alignment = View
+>v widthCurve = UnityEngine.AnimationCurve
+>v colorGradient = UnityEngine.Gradient
+
+> BezierCurveLine
+>v vertexList = UnityEngine.Vector3[]
+>v p0 = (0.0, 0.0, 0.0)
+>v v0 = (0.0, 23.5, -6.9)
+>v p1 = (0.0, 0.0, 5.1)
+>v v1 = (0.0, -14.7, 1.1)
+>v endTransform = EndTransform (UnityEngine.Transform)
+>v animateBezierWind = True
+>v windMagnitude = (1.0, 1.0, 1.0)
+>v windFrequency = (0.2, 0.2, 0.2)
+>v windPhaseShift = (0.0, 0.0, 0.0)
+>v lastWind = (0.0, 0.0, 0.0)
+>v finalv0 = (0.0, 0.0, 0.0)
+>v finalv1 = (0.0, 0.0, 0.0)
+>v windTime = 0
+>v <lineRenderer>k__BackingField = 
+>v lineRenderer = 
+
+> RoR2.AnimateShaderAlpha
+>v alphaCurve = UnityEngine.AnimationCurve
+>v targetRenderer = 
+>v _propBlock = 
+>v materials = 
+>v timeMax = 1
+>v decal = 
+>v pauseTime = False
+>v destroyOnEnd = False
+>v disableOnEnd = False
+>v time = 0
+>v initialFade = 0
+
+>GameObject Children 0 EndTransform
+
+>> transform = p: (0.0, 0.0, 5.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> AkGameObj
+>>v m_listeners = AkGameObjListenerList
+>>v isEnvironmentAware = True
+>>v isStaticObject = False
+>>v m_Collider = 
+>>v m_envData = 
+>>v m_posData = 
+>>v m_positionOffsetData = AkGameObjPositionOffsetData
+>>v isRegistered = False
+>>v m_posOffsetData = 
+>>v AK_NUM_LISTENERS = 8
+>>v listenerMask = 1
+>>v IsUsingDefaultListeners = True
+>>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+>> AkEvent
+>>v actionOnEventType = AkActionOnEventType_Stop
+>>v curveInterpolation = AkCurveInterpolation_Linear
+>>v enableActionOnEvent = False
+>>v data = Play_clayboss_R_tether_loop
+>>v useCallbacks = False
+>>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>>v playingId = 0
+>>v soundEmitterObject = 
+>>v transitionDuration = 0
+>>v EventCallbackMsg = 
+>>v eventIdInternal = 0
+>>v valueGuidInternal = System.Byte[]
+>>v m_callbackDataInternal = 
+>>v eventID = -1161999547
+>>v valueGuid = System.Byte[]
+>>v m_callbackData = 
+
+>> UnityEngine.Rigidbody
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v drag = 0
+>>v angularDrag = 0,05
+>>v mass = 1
+>>v useGravity = False
+>>v maxDepenetrationVelocity = 1E+32
+>>v isKinematic = True
+>>v freezeRotation = False
+>>v constraints = None
+>>v collisionDetectionMode = Discrete
+>>v centerOfMass = (0.0, 0.0, 0.0)
+>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>v detectCollisions = True
+>>v position = (0.0, 0.0, 0.0)
+>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>v interpolation = None
+>>v solverIterations = 6
+>>v sleepThreshold = 0,005
+>>v maxAngularVelocity = 7
+>>v solverVelocityIterations = 1
+>>v sleepVelocity = 0
+>>v sleepAngularVelocity = 0
+>>v useConeFriction = False
+>>v solverIterationCount = 6
+>>v solverVelocityIterationCount = 1
+
+>> AkEvent
+>>v actionOnEventType = AkActionOnEventType_Stop
+>>v curveInterpolation = AkCurveInterpolation_Linear
+>>v enableActionOnEvent = False
+>>v data = Stop_clayboss_R_tether_loop
+>>v useCallbacks = False
+>>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>>v playingId = 0
+>>v soundEmitterObject = 
+>>v transitionDuration = 0
+>>v EventCallbackMsg = 
+>>v eventIdInternal = 0
+>>v valueGuidInternal = System.Byte[]
+>>v m_callbackDataInternal = 
+>>v eventID = -1877066981
+>>v valueGuid = System.Byte[]
+>>v m_callbackData = 
+
+>>GameObject Children 0 Blood
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = True
+>>>v playOnAwake = True
+>>>v duration = 1
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 24
+>>>v startSpeed = 1
+>>>v startSize = 1
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 0.922)
+>>>v startRotation = 6,283185
+>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>v startLifetime = 0,3
+>>>v gravityModifier = 0
+>>>v maxParticles = 1000
+>>>v simulationSpace = Local
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 4

@@ -1,0 +1,98 @@
+Key Path : RoR2/Junk/Dropship/mdlDropship.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlDropship
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 672.1, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlDropshipAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 Armature
+
+>> transform = p: (0.0, 0.0, 1.8) r: (270.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>>GameObject Children 0 base
+
+>>> transform = p: (0.0, 4.5, -0.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 door
+
+>>>> transform = p: (0.0, 1.3, 5.8) r: (3.5, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 ram1.control
+
+>>>>> transform = p: (-1.9, 0.0, 0.0) r: (350.8, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 ram1.control_end
+
+>>>>>> transform = p: (0.0, 4.5, 0.0) r: (350.8, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 ram1
+
+>>>> transform = p: (-1.9, 9.3, 2.2) r: (39.0, 180.0, 180.0) s: (1.0, 0.4, 1.0)
+>>>>GameObject Children 0 ram1.base
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (315.9, 180.0, 180.0) s: (1.0, 1.0, 2.3)
+>>>>>GameObject Children 0 ram1.base_end
+
+>>>>>> transform = p: (0.0, 1.6, 0.0) r: (315.9, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 ram1.tip
+
+>>>>> transform = p: (0.0, 10.6, 0.0) r: (297.9, 180.0, 180.0) s: (1.0, 1.1, 2.3)
+>>>>>GameObject Children 0 ram1.tip_end
+
+>>>>>> transform = p: (0.0, 1.5, 0.0) r: (297.9, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 Seatbelt
+
+>>>> transform = p: (0.0, 6.0, -4.8) r: (88.9, 180.1, 180.1) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Seatbelt_end
+
+>>>>> transform = p: (0.0, 2.7, 0.0) r: (88.9, 180.1, 180.1) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 DropShip
+
+>> transform = p: (0.0, -0.3, 0.0) r: (270.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = base (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = DropShip (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 8.2, 0.3), Extents: (6.9, 12.5, 6.7)

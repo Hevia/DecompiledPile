@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/LunarBadLuck/PickupStarSeed.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupStarSeed
+
+> transform = p: (50.5, -155.3, -167.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, -0.9, 0.1, -0.4)
+>v minDistance = 5
+>v maxDistance = 8
+>v cameraDirection = (3.3, 1.0, 3.5)
+
+>GameObject Children 0 mdlStarSeed
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = StarSeedMesh (UnityEngine.Mesh)
+>>v mesh = StarSeedMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (11.6, 315.4, 11.5) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-3.3, -1.0, -3.5) r: (11.6, 315.4, 11.5) s: (1.0, 1.0, 1.0)

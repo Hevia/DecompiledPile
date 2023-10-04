@@ -1,0 +1,742 @@
+Key Path : RoR2/Base/intro/cutscene intro.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : cutscene intro
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = AlwaysAnimate
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = cutscene introAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 CabinMesh
+
+>> transform = p: (0.2, 0.1, 0.3) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = CabinMesh (UnityEngine.Mesh)
+>>v mesh = CabinMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 CargoMesh
+
+>> transform = p: (-1.7, -0.2, 1.9) r: (270.0, 0.0, 0.0) s: (6.0, 6.0, 6.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = CargoMesh (UnityEngine.Mesh)
+>>v mesh = CargoMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 CommandoMesh
+
+>> transform = p: (-2.3, -0.1, 0.3) r: (0.0, 90.0, 0.0) s: (18.6, 18.6, 18.6)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = CommandoMesh (UnityEngine.Mesh)
+>>v mesh = CommandoMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 CutsceneIntroShot1Armature
+
+>> transform = p: (-0.3, 0.1, 0.3) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Camera
+
+>>> transform = p: (0.0, -0.4, -0.1) r: (283.5, 217.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Camera 1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (13.5, 217.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.Camera
+>>>>v onPreCull = 
+>>>>v onPreRender = 
+>>>>v onPostRender = 
+>>>>v nearClipPlane = 0,01
+>>>>v farClipPlane = 20
+>>>>v fieldOfView = 50,53402
+>>>>v renderingPath = UsePlayerSettings
+>>>>v actualRenderingPath = DeferredShading
+>>>>v allowHDR = True
+>>>>v allowMSAA = True
+>>>>v allowDynamicResolution = False
+>>>>v forceIntoRenderTexture = False
+>>>>v orthographicSize = 0,004719936
+>>>>v orthographic = False
+>>>>v opaqueSortMode = Default
+>>>>v transparencySortMode = Default
+>>>>v transparencySortAxis = (0.0, 0.0, 1.0)
+>>>>v depth = 0
+>>>>v aspect = 1,777778
+>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>v cullingMask = -1
+>>>>v eventMask = -1
+>>>>v layerCullSpherical = False
+>>>>v cameraType = Game
+>>>>v overrideSceneCullingMask = 0
+>>>>v layerCullDistances = System.Single[]
+>>>>v useOcclusionCulling = True
+>>>>v cullingMatrix = -0.94568	0.00000	0.72524	-0.11238
+-0.30069	2.06025	-0.39209	0.15344
+-0.59236	-0.23345	-0.77241	0.21898
+-0.59176	-0.23322	-0.77164	0.23875
+
+>>>>v backgroundColor = RGBA(0.192, 0.302, 0.475, 0.000)
+>>>>v clearFlags = Skybox
+>>>>v depthTextureMode = None
+>>>>v clearStencilAfterLightingPass = False
+>>>>v usePhysicalProperties = True
+>>>>v sensorSize = (32.0, 18.0)
+>>>>v lensShift = (0.0, 0.0)
+>>>>v focalLength = 19,06806
+>>>>v gateFit = Horizontal
+>>>>v rect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>>>v pixelWidth = 1920
+>>>>v pixelHeight = 1080
+>>>>v scaledPixelWidth = 1920
+>>>>v scaledPixelHeight = 1080
+>>>>v targetTexture = 
+>>>>v activeTexture = 
+>>>>v targetDisplay = 0
+>>>>v cameraToWorldMatrix = -0.79352	-0.14192	0.59176	0.07674
+0.00000	0.97242	0.23322	-0.01474
+0.60854	-0.18506	0.77164	0.25502
+0.00000	0.00000	0.00000	1.00000
+
+>>>>v worldToCameraMatrix = -0.79352	0.00000	0.60855	-0.09430
+-0.14192	0.97242	-0.18506	0.07242
+0.59176	0.23322	0.77164	-0.23875
+0.00000	0.00000	0.00000	1.00000
+
+>>>>v projectionMatrix = 1.19175	0.00000	0.00000	0.00000
+0.00000	2.11867	0.00000	0.00000
+0.00000	0.00000	-1.00100	-0.02001
+0.00000	0.00000	-1.00000	0.00000
+
+>>>>v nonJitteredProjectionMatrix = 1.19175	0.00000	0.00000	0.00000
+0.00000	2.11867	0.00000	0.00000
+0.00000	0.00000	-1.00100	-0.02001
+0.00000	0.00000	-1.00000	0.00000
+
+>>>>v useJitteredProjectionMatrixForTransparentRendering = True
+>>>>v previousViewProjectionMatrix = 0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+
+>>>>v main = Scene Camera (UnityEngine.Camera)
+>>>>v current = UI Camera (UnityEngine.Camera)
+>>>>v scene = UnityEngine.SceneManagement.Scene
+>>>>v stereoEnabled = False
+>>>>v stereoSeparation = 0,022
+>>>>v stereoConvergence = 10
+>>>>v areVRStereoViewMatricesWithinSingleCullTolerance = False
+>>>>v stereoTargetEye = Both
+>>>>v stereoActiveEye = Mono
+>>>>v allCamerasCount = 3
+>>>>v allCameras = UnityEngine.Camera[]
+>>>>v commandBufferCount = 0
+
+>>>GameObject Children 1 Camera_end
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (283.5, 217.5, 180.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 CameraFocus
+
+>>> transform = p: (0.9, 0.7, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 CameraFocus_end
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ROOT_end
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 3 ShipRoot
+
+>>> transform = p: (1.6, 0.0, -0.2) r: (0.0, 90.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ShipJetCore
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 90.0, 90.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = ShipJetCore (UnityEngine.Mesh)
+>>>>v mesh = ShipJetCore Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 0 ShipHull
+
+>>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 90.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = ShipHull (UnityEngine.Mesh)
+>>>>>v mesh = ShipHull Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 0 ShipHull|Greeble. Antennae|Dupli|0.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (47.8, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 ShipHull|Greeble. Antennae|Dupli|1.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (316.3, 175.1, 321.3) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 ShipHull|Greeble. Antennae|Dupli|2.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (2.1, 86.8, 216.2) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 3 ShipHull|Greeble. Antennae|Dupli|3.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (79.4, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 4 ShipHull|Greeble. Antennae|Dupli|4.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (75.4, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 5 ShipHull|Greeble. Antennae|Dupli|5.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (44.8, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 6 ShipHull|Greeble. Antennae|Dupli|6.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (58.6, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 7 ShipHull|Greeble. Antennae|Dupli|7.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (312.2, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 8 ShipHull|Greeble. Antennae|Dupli|8.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (318.2, 180.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 9 ShipHull|Greeble. Antennae|Dupli|9.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (73.2, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 10 ShipHull|Greeble. Antennae|Dupli|10.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 11 ShipHull|Greeble. Antennae|Dupli|11.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (56.8, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 12 ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (41.8, 180.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble. Antennae|Dupli|12.1.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 13 ShipHull|Greeble|Dupli|0.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (276.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 14 ShipHull|Greeble|Dupli|1.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (70.6, 180.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 15 ShipHull|Greeble|Dupli|2.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (302.7, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 16 ShipHull|Greeble|Dupli|3.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (293.7, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 17 ShipHull|Greeble|Dupli|4.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (321.2, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 18 ShipHull|Greeble|Dupli|5.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (25.8, 0.4, 279.4) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 19 ShipHull|Greeble|Dupli|6.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (300.7, 180.0, 179.9) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 20 ShipHull|Greeble|Dupli|7.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (56.3, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 21 ShipHull|Greeble|Dupli|8.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (53.4, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 22 ShipHull|Greeble|Dupli|9.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (319.4, 188.2, 36.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 23 ShipHull|Greeble|Dupli|10.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (325.3, 187.4, 37.1) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 24 ShipHull|Greeble|Dupli|11.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (340.3, 313.3, 289.6) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 25 ShipHull|Greeble|Dupli|12.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (81.8, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 26 ShipHull|Greeble|Dupli|13.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (50.6, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 27 ShipHull|Greeble|Dupli|14.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (53.3, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 28 ShipHull|Greeble|Dupli|15.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (301.4, 180.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 29 ShipHull|Greeble|Dupli|16.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (301.4, 180.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 30 ShipHull|Greeble|Dupli|17.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (59.2, 180.0, 0.1) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 31 ShipHull|Greeble|Dupli|18.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (58.9, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 32 ShipHull|Greeble|Dupli|19.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (279.7, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 33 ShipHull|Greeble|Dupli|20.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (61.1, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 34 ShipHull|Greeble|Dupli|21.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.4, 268.9, 242.3) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 35 ShipHull|Greeble|Dupli|22.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (277.1, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 36 ShipHull|Greeble|Dupli|23.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (278.2, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 37 ShipHull|Greeble|Dupli|24.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (282.4, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 38 ShipHull|Greeble|Dupli|25.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (318.2, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 39 ShipHull|Greeble|Dupli|26.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (294.0, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 40 ShipHull|Greeble|Dupli|27.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (59.5, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 41 ShipHull|Greeble|Dupli|28.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (63.6, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 42 ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (304.0, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 (UnityEngine.Mesh)
+>>>>>>v mesh = ShipHull|Greeble|Dupli|29.0.0.0.0.0.0.0.0.0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 ShipSailRing
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = ShipSailRing (UnityEngine.Mesh)
+>>>>>v mesh = ShipSailRing Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 0 ShipSailRingSlider
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = ShipSailRingSlider (UnityEngine.Mesh)
+>>>>>>v mesh = ShipSailRingSlider Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>>GameObject Children 0 ShipSail, Short
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = ShipSail, Short (UnityEngine.Mesh)
+>>>>>>>v mesh = ShipSail, Short Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>GameObject Children 0 ShipSail, Point
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 16.9, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>v sharedMesh = ShipSail, Point (UnityEngine.Mesh)
+>>>>>>>>v mesh = ShipSail, Point Instance (UnityEngine.Mesh)
+
+>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 ShipRoot_end
+
+>>>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 90.0, 90.0) s: (1.0, 1.0, 1.0)

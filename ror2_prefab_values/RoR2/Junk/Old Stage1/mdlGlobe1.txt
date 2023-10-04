@@ -1,0 +1,47 @@
+Key Path : RoR2/Junk/Old Stage1/mdlGlobe1.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlGlobe1
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animation
+>v clip = SphereArmature|Twitch1 (UnityEngine.AnimationClip)
+>v playAutomatically = True
+>v wrapMode = Default
+>v isPlaying = False
+>v animatePhysics = False
+>v animateOnlyIfVisible = True
+>v cullingType = BasedOnRenderers
+>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)
+
+>GameObject Children 0 Sphere
+
+>> transform = p: (32.1, 1.4, 0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Link3 (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (-0.7, 0.0, 1.5), Extents: (17.7, 16.3, 19.7)
+
+>GameObject Children 1 SphereArmature
+
+>> transform = p: (32.1, 1.4, 0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Center
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Center_end
+
+>>>> transform = p: (0.0, 9.5, 0.0) r: (0.0, 0.0, 0.6) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 Link3
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (327.5, 65.2, 359.6) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Link2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.9, 143.2, 58.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Link1
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (46.2, 99.1, 311.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Link1_end
+
+>>>>>> transform = p: (0.0, 17.6, 0.0) r: (46.2, 99.1, 311.0) s: (1.0, 1.0, 1.0)

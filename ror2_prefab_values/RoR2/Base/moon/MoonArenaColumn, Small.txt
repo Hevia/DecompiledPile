@@ -1,0 +1,62 @@
+Key Path : RoR2/Base/moon/MoonArenaColumn, Small.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MoonArenaColumn, Small
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 45.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 MoonArenaColumn1
+
+>> transform = p: (7.2, -1.1, 0.0) r: (270.0, 45.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MoonArenaColumn1 (UnityEngine.Mesh)
+>>v mesh = MoonArenaColumn1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = MoonArenaColumn1 (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 0 MoonPlatformFlatSmall
+
+>>> transform = p: (11.1, 0.0, 1.5) r: (270.0, 45.0, 0.0) s: (0.1, 0.6, 0.9)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Moon_Platform_Flat_Small (UnityEngine.Mesh)
+>>>v mesh = Moon_Platform_Flat_Small Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (2.0, 0.0, 0.3)
+>>>v size = (8.0, 4.0, 0.6)
+>>>v extents = (4.0, 2.0, 0.3)
+
+>>GameObject Children 1 MoonPlatformFlatSmall (1)
+
+>>> transform = p: (4.6, 0.0, 0.9) r: (270.0, 45.0, 0.0) s: (0.1, 0.6, 0.9)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Moon_Platform_Flat_Small (UnityEngine.Mesh)
+>>>v mesh = Moon_Platform_Flat_Small Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (2.0, 0.0, 0.3)
+>>>v size = (8.0, 4.0, 0.6)
+>>>v extents = (4.0, 2.0, 0.3)

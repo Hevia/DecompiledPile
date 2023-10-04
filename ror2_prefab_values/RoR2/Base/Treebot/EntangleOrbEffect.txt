@@ -1,0 +1,266 @@
+Key Path : RoR2/Base/Treebot/EntangleOrbEffect.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : EntangleOrbEffect
+
+> transform = p: (8.8, 7.7, -39.4) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+> RoR2.EffectComponent
+>v effectIndex = 137
+>v effectData = 
+>v positionAtReferencedTransform = False
+>v parentToReferencedTransform = False
+>v applyScale = False
+>v soundName = 
+>v disregardZScale = False
+>v didResolveReferencedObject = False
+>v referencedObject = 
+>v didResolveReferencedChildTransform = False
+>v referencedChildTransform = 
+>v didResolveReferencedHurtBox = False
+>v referencedHurtBoxGameObject = 
+
+> RoR2.Orbs.OrbEffect
+>v targetTransform = 
+>v duration = 0
+>v startPosition = (0.0, 0.0, 0.0)
+>v previousPosition = (0.0, 0.0, 0.0)
+>v lastKnownTargetPosition = (0.0, 0.0, 0.0)
+>v age = 0
+>v parentObjectTransform = 
+>v startVelocity1 = (-2.0, 1.0, 2.0)
+>v startVelocity2 = (2.0, 2.0, -2.0)
+>v endVelocity1 = (0.0, 0.0, 0.0)
+>v endVelocity2 = (0.0, 0.0, 0.0)
+>v startVelocity = (0.0, 0.0, 0.0)
+>v endVelocity = (0.0, 0.0, 0.0)
+>v movementCurve = UnityEngine.AnimationCurve
+>v bezierCurveLine = BezierEffect (BezierCurveLine)
+>v faceMovement = False
+>v callArrivalIfTargetIsGone = True
+>v startEffect = 
+>v startEffectScale = 3
+>v startEffectCopiesRotation = False
+>v endEffect = 
+>v endEffectScale = 1
+>v endEffectCopiesRotation = False
+>v onArrival = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+> RoR2.VFXAttributes
+>v vfxList = System.Collections.Generic.List`1[RoR2.VFXAttributes]
+>v _readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+>v vfxPriority = Always
+>v vfxIntensity = Low
+>v optionalLights = UnityEngine.Light[]
+>v secondaryParticleSystem = UnityEngine.ParticleSystem[]
+>v readonlyVFXList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.VFXAttributes]
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = True
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = None
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+> RoR2.DetachParticleOnDestroyAndEndEmission
+>v particleSystem = Rings (UnityEngine.ParticleSystem)
+
+> AkGameObj
+>v m_listeners = AkGameObjListenerList
+>v isEnvironmentAware = True
+>v isStaticObject = False
+>v m_Collider = 
+>v m_envData = 
+>v m_posData = 
+>v m_positionOffsetData = AkGameObjPositionOffsetData
+>v isRegistered = False
+>v m_posOffsetData = 
+>v AK_NUM_LISTENERS = 8
+>v listenerMask = 1
+>v IsUsingDefaultListeners = True
+>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_treeBot_R_yank
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = -1656194426
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+>GameObject Children 0 BezierEffect
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 2
+>>v startWidth = 0,5
+>>v endWidth = 0,5
+>>v widthMultiplier = 0,5
+>>v numCornerVertices = 0
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v positionCount = 2
+>>v shadowBias = 0
+>>v generateLightingData = False
+>>v textureMode = Stretch
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> BezierCurveLine
+>>v vertexList = UnityEngine.Vector3[]
+>>v p0 = (0.0, 0.0, 0.0)
+>>v v0 = (0.0, 0.0, 0.0)
+>>v p1 = (8.8, 7.7, -39.4)
+>>v v1 = (0.0, 0.0, 0.0)
+>>v endTransform = 
+>>v animateBezierWind = False
+>>v windMagnitude = (1.0, 2.0, 1.0)
+>>v windFrequency = (0.3, 0.1, 0.4)
+>>v windPhaseShift = (0.0, 0.0, 0.0)
+>>v lastWind = (0.0, 0.0, 0.0)
+>>v finalv0 = (0.0, 0.0, 0.0)
+>>v finalv1 = (0.0, 0.0, 0.0)
+>>v windTime = 0
+>>v <lineRenderer>k__BackingField = 
+>>v lineRenderer = 
+
+>> RoR2.AnimateShaderAlpha
+>>v alphaCurve = UnityEngine.AnimationCurve
+>>v targetRenderer = 
+>>v _propBlock = 
+>>v materials = 
+>>v timeMax = 0,4
+>>v decal = 
+>>v pauseTime = False
+>>v destroyOnEnd = True
+>>v disableOnEnd = False
+>>v time = 0
+>>v initialFade = 0
+
+>> RoR2.AnimateShaderAlpha
+>>v alphaCurve = UnityEngine.AnimationCurve
+>>v targetRenderer = 
+>>v _propBlock = 
+>>v materials = 
+>>v timeMax = 0,8
+>>v decal = 
+>>v pauseTime = False
+>>v destroyOnEnd = False
+>>v disableOnEnd = True
+>>v time = 0
+>>v initialFade = 0
+
+>>GameObject Children 0 Rings
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = True
+>>>v playOnAwake = True
+>>>v duration = 0,3
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 2
+>>>v startSpeed = 0
+>>>v startSize = 1
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v startRotation = 0
+>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>v startLifetime = 0,6
+>>>v gravityModifier = 0
+>>>v maxParticles = 5
+>>>v simulationSpace = Local
+>>>v scalingMode = Shape
+>>>v automaticCullingEnabled = True
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = True
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = Local
+>>>v renderMode = Mesh
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,5
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = True
+>>>v allowRoll = True
+>>>v mesh = RootVineMesh (UnityEngine.Mesh)
+>>>v meshCount = 1
+>>>v activeVertexStreamsCount = 4
+
+>>> RoR2.LoopSound
+>>>v akSoundString = Play_treeBot_R_constrict
+>>>v repeatInterval = 1
+>>>v soundOwner = EntangleOrbEffect (UnityEngine.Transform)
+>>>v stopwatch = 0

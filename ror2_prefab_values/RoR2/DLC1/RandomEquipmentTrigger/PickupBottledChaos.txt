@@ -1,0 +1,31 @@
+Key Path : RoR2/DLC1/RandomEquipmentTrigger/PickupBottledChaos.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBottledChaos
+
+> transform = p: (0.2, -148.9, -8.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, 0.0)
+>v minDistance = 1
+>v maxDistance = 2
+>v cameraDirection = (0.0, 0.3, 0.9)
+
+>GameObject Children 0 mdlBottledChaos
+
+>> transform = p: (0.0, -0.1, 0.0) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>GameObject Children 0 mdlBottledChaos
+
+>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlBottledChaos (UnityEngine.Mesh)
+>>>v mesh = mdlBottledChaos Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.0, 0.2, -0.9) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,44 @@
+Key Path : RoR2/Base/goldshores/GoldshoreGolemStatue.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : GoldshoreGolemStatue
+
+> transform = p: (64.1, -13.8, 153.1) r: (270.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+> UnityEngine.MeshFilter
+>v sharedMesh = ShrineChanceMesh (UnityEngine.Mesh)
+>v mesh = ShrineChanceMesh Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+> RoR2.EntityLocator
+>v entity = 
+
+> UnityEngine.BoxCollider
+>v center = (0.0, 0.0, 1.0)
+>v size = (2.9, 2.9, 1.9)
+>v extents = (1.4, 1.4, 1.0)
+
+> ChildLocator
+>v transformPairs = ChildLocator+NameTransformPair[]
+>v Count = 1
+
+>GameObject Children 0 Collision
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.BoxCollider
+>>v center = (0.0, 0.0, 1.0)
+>>v size = (2.9, 2.9, 1.9)
+>>v extents = (1.4, 1.4, 1.0)
+
+>> UnityEngine.CapsuleCollider
+>>v center = (0.0, 0.1, 3.0)
+>>v radius = 0,7590176
+>>v height = 4,474272
+>>v direction = 2
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = 
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True

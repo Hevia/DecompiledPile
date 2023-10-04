@@ -1,0 +1,50 @@
+Key Path : RoR2/Base/Core/NetworkManager.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : NetworkManager
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.Projectile.ProjectileManager
+>v <instance>k__BackingField = NetworkManager(Clone) (RoR2.Projectile.ProjectileManager)
+>v predictionManager = 
+>v fireMsg = RoR2.Projectile.ProjectileManager+PlayerFireProjectileMessage
+>v releasePredictionIdMsg = RoR2.Projectile.ProjectileManager+ReleasePredictionIdMessage
+>v instance = NetworkManager(Clone) (RoR2.Projectile.ProjectileManager)
+
+> RoR2.Networking.CharacterNetworkTransformManager
+>v instance = NetworkManager(Clone) (RoR2.Networking.CharacterNetworkTransformManager)
+>v currentInMessage = RoR2.Networking.CharacterNetworkTransformManager+CharacterUpdateMessage
+>v currentOutMessage = RoR2.Networking.CharacterNetworkTransformManager+CharacterUpdateMessage
+>v snapshotQueue = System.Collections.Generic.Queue`1[RoR2.Networking.CharacterNetworkTransformManager+NetSnapshot]
+
+> RoR2.ExperienceManager
+>v <instance>k__BackingField = NetworkManager(Clone) (RoR2.ExperienceManager)
+>v localTime = 0
+>v pendingAwards = System.Collections.Generic.List`1[RoR2.ExperienceManager+TimedExpAward]
+>v nextAward = 0
+>v minOrbTravelTime = 0,5
+>v maxOrbTravelTime = 2
+>v orbTimeOffsetSequence = System.Single[]
+>v currentOutgoingCreateExpEffectMessage = RoR2.ExperienceManager+CreateExpEffectMessage
+>v currentIncomingCreateExpEffectMessage = RoR2.ExperienceManager+CreateExpEffectMessage
+>v instance = NetworkManager(Clone) (RoR2.ExperienceManager)
+
+> RoR2.Orbs.OrbManager
+>v <instance>k__BackingField = NetworkManager(Clone) (RoR2.Orbs.OrbManager)
+>v <time>k__BackingField = 0
+>v travelingOrbs = System.Collections.Generic.List`1[RoR2.Orbs.Orb]
+>v nextOrbArrival = +Infini
+>v orbsWithFixedUpdateBehavior = System.Collections.Generic.List`1[RoR2.Orbs.IOrbFixedUpdateBehavior]
+>v instance = NetworkManager(Clone) (RoR2.Orbs.OrbManager)
+>v time = 0
+
+> NetworkManagerConfiguration
+>v DontDestroyOnLoad = True
+>v RunInBackground = True
+>v LogLevel = Info
+>v OfflineScene = title
+>v OnlineScene = lobby
+>v PlayerPrefab = NetworkUser (UnityEngine.GameObject)
+>v AutoCreatePlayer = False
+>v PlayerSpawnMethod = Random
+>v SpawnPrefabs = System.Collections.Generic.List`1[UnityEngine.GameObject]
+>v CustomConfig = True
+>v MaxConnections = 4
+>v QosChannels = System.Collections.Generic.List`1[UnityEngine.Networking.QosType]

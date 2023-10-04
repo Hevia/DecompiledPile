@@ -1,0 +1,24 @@
+Key Path : RoR2/Base/goldshores/goldshores terrain.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : goldshores terrain
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 goldshoreMainIslandMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (8.2, 8.2, 0.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = goldshoreMainIslandMesh (UnityEngine.Mesh)
+>>v mesh = goldshoreMainIslandMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 goldshoreSubmergedIslandMesh
+
+>> transform = p: (-34.3, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (8.2, 8.2, 0.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = goldshoreSubmergedIslandMesh (UnityEngine.Mesh)
+>>v mesh = goldshoreSubmergedIslandMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

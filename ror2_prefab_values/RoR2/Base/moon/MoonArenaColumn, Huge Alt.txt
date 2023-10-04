@@ -1,0 +1,179 @@
+Key Path : RoR2/Base/moon/MoonArenaColumn, Huge Alt.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MoonArenaColumn, Huge Alt
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 Column
+
+>> transform = p: (21.8, 33.5, -1.4) r: (0.0, 90.0, 270.0) s: (3.0, 1.2, 3.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MoonArenaColumn1 (UnityEngine.Mesh)
+>>v mesh = MoonArenaColumn1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = MoonArenaColumn1 (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 1 Column
+
+>> transform = p: (21.8, 33.5, 1.4) r: (0.0, 90.0, 270.0) s: (3.0, 1.2, 3.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MoonArenaColumn1 (UnityEngine.Mesh)
+>>v mesh = MoonArenaColumn1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = MoonArenaColumn1 (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 2 MoonPlatformFlatSmall
+
+>> transform = p: (27.9, 0.0, 0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Platform_Flat_Small (UnityEngine.Mesh)
+>>v mesh = Moon_Platform_Flat_Small Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.BoxCollider
+>>v center = (2.0, 0.0, 0.3)
+>>v size = (8.0, 4.0, 0.6)
+>>v extents = (4.0, 2.0, 0.3)
+
+>GameObject Children 3 MoonPlatformFlatSmall (1)
+
+>> transform = p: (33.0, 2.0, 0.3) r: (270.0, 0.0, 0.0) s: (0.4, 1.7, 1.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Platform_Flat_Small (UnityEngine.Mesh)
+>>v mesh = Moon_Platform_Flat_Small Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.BoxCollider
+>>v center = (2.0, 0.0, 0.3)
+>>v size = (8.0, 4.0, 0.6)
+>>v extents = (4.0, 2.0, 0.3)
+
+>GameObject Children 4 MoonPillar
+
+>> transform = p: (21.3, 8.0, 1.2) r: (90.0, 45.0, 0.0) s: (0.9, 0.9, 0.9)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Pillar (UnityEngine.Mesh)
+>>v mesh = Moon_Pillar Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.BoxCollider
+>>v center = (0.0, 0.0, 3.5)
+>>v size = (2.0, 2.0, 9.0)
+>>v extents = (1.0, 1.0, 4.5)
+
+>>GameObject Children 0 MoonPillar (2)
+
+>>> transform = p: (0.0, 0.0, 7.2) r: (90.0, 45.0, 0.0) s: (1.1, 1.1, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Moon_Pillar (UnityEngine.Mesh)
+>>>v mesh = Moon_Pillar Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 3.5)
+>>>v size = (2.0, 2.0, 9.0)
+>>>v extents = (1.0, 1.0, 4.5)
+
+>GameObject Children 5 MoonPillar
+
+>> transform = p: (21.3, 8.0, -1.2) r: (90.0, 45.0, 0.0) s: (0.9, 0.9, 0.9)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Pillar (UnityEngine.Mesh)
+>>v mesh = Moon_Pillar Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.BoxCollider
+>>v center = (0.0, 0.0, 3.5)
+>>v size = (2.0, 2.0, 9.0)
+>>v extents = (1.0, 1.0, 4.5)
+
+>>GameObject Children 0 MoonPillar (1)
+
+>>> transform = p: (0.0, 0.0, 7.2) r: (90.0, 45.0, 0.0) s: (1.1, 1.1, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Moon_Pillar (UnityEngine.Mesh)
+>>>v mesh = Moon_Pillar Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 3.5)
+>>>v size = (2.0, 2.0, 9.0)
+>>>v extents = (1.0, 1.0, 4.5)
+
+>GameObject Children 6 MoonPlatformThickLarge
+
+>> transform = p: (23.5, 6.8, 1.5) r: (0.0, 270.0, 270.0) s: (0.5, 0.7, 0.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Platform_Thick_Large (UnityEngine.Mesh)
+>>v mesh = Moon_Platform_Thick_Large Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.BoxCollider
+>>v center = (-1.0, -2.0, -0.7)
+>>v size = (14.0, 8.0, 2.6)
+>>v extents = (7.0, 4.0, 1.3)

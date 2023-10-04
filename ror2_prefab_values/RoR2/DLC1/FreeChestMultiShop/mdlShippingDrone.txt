@@ -1,0 +1,55 @@
+Key Path : RoR2/DLC1/FreeChestMultiShop/mdlShippingDrone.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlShippingDrone
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlShippingDrone
+
+>> transform = p: (0.0, 6.9, 0.0) r: (270.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = mdlShippingDrone (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.0, 0.1), Extents: (3.5, 0.6, 5.2)
+
+>GameObject Children 1 ShippingDrone
+
+>> transform = p: (0.0, 6.9, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Body
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 BackLight
+
+>>>>> transform = p: (0.0, 0.0, -4.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 BladeBack.L
+
+>>>>> transform = p: (-2.4, 0.1, -3.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 BladeBack.R
+
+>>>>> transform = p: (2.4, 0.1, -3.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 BladeFront.L
+
+>>>>> transform = p: (-2.4, 0.1, 4.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 4 BladeFront.R
+
+>>>>> transform = p: (2.4, 0.1, 4.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 5 Capsule.L
+
+>>>>> transform = p: (-3.6, 0.1, -0.7) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 6 Capsule.R
+
+>>>>> transform = p: (3.6, 0.1, -0.7) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 7 FrontLight
+
+>>>>> transform = p: (0.0, 0.0, 5.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 8 ReleaseWindow.L
+
+>>>>> transform = p: (-2.7, 0.1, -1.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 9 ReleaseWindow.R
+
+>>>>> transform = p: (2.7, 0.1, -1.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

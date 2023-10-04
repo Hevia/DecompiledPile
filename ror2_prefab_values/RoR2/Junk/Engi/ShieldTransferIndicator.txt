@@ -1,0 +1,313 @@
+Key Path : RoR2/Junk/Engi/ShieldTransferIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ShieldTransferIndicator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+> RoR2.UI.AnimateUIAlpha
+>v alphaCurve = UnityEngine.AnimationCurve
+>v image = 
+>v rawImage = 
+>v spriteRenderer = Center Circle (UnityEngine.SpriteRenderer)
+>v timeMax = 0,25
+>v destroyOnEnd = False
+>v loopOnEnd = False
+>v disableGameObjectOnEnd = False
+>v time = 0
+>v originalColor = RGBA(0.000, 0.000, 0.000, 0.000)
+
+> RoR2.UI.MPEventSystemProvider
+>v _eventSystem = 
+>v fallBackToMainEventSystem = True
+>v _resolvedEventSystem = 
+>v listeners = System.Collections.Generic.List`1[RoR2.UI.MPEventSystemLocator]
+>v eventSystem = 
+>v resolvedEventSystem = 
+
+>GameObject Children 0 Holder
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.2, 1.2, 0.6)
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Fast
+>>v _slowRotationSpeed = 5
+>>v _fastRotationSpeed = 20
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Fast
+>>v slowRotationSpeed = 5
+>>v fastRotationSpeed = 20
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>>GameObject Children 0 Top Arrow
+
+>>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texChevronPlayer (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.819, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = True
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 1 Left Arrow
+
+>>> transform = p: (-0.3, 0.0, 0.0) r: (0.0, 0.0, 90.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texChevronPlayer (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.819, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = True
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 2 Right Arrow
+
+>>> transform = p: (0.3, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texChevronPlayer (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.819, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = True
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 3 Bottom Arrow
+
+>>> transform = p: (0.0, -0.3, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texChevronPlayer (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.819, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 4 Center Circle
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texCrosshairCross3Remap (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.819, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center
+
+>>> RoR2.AnimateShaderAlpha
+>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>v targetRenderer = 
+>>>v _propBlock = 
+>>>v materials = 
+>>>v timeMax = 5
+>>>v decal = 
+>>>v pauseTime = False
+>>>v destroyOnEnd = False
+>>>v disableOnEnd = False
+>>>v time = 0
+>>>v initialFade = 0
+
+>>GameObject Children 5 Left Arrow
+
+>>> transform = p: (-0.2, 0.0, 0.0) r: (0.0, 0.0, 90.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texCrosshairArrow (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.940, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = True
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 6 Right Arrow
+
+>>> transform = p: (0.2, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texCrosshairArrow (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.940, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = True
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 7 Top Arrow
+
+>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texCrosshairArrow (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.940, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = True
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 8 Bottom Arrow
+
+>>> transform = p: (0.0, -0.2, 0.0) r: (0.0, 0.0, 180.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texCrosshairArrow (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.515, 1.000, 0.940, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = True
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 9 Holder
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.2)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texEngiShieldSpriteCrosshair (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (5.1, 5.1)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.306, 0.910, 1.000, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center
+
+>>> RoR2.ObjectScaleCurve
+>>>v useOverallCurveOnly = False
+>>>v curveX = UnityEngine.AnimationCurve
+>>>v curveY = UnityEngine.AnimationCurve
+>>>v curveZ = UnityEngine.AnimationCurve
+>>>v overallCurve = UnityEngine.AnimationCurve
+>>>v timeMax = 0,3
+>>>v <time>k__BackingField = 0
+>>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>>v time = 0
+>>>v baseScale = (0.0, 0.0, 0.0)
+
+>GameObject Children 1 TextMeshPro
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshFilter
+>>v sharedMesh = 
+>>v mesh = TextMeshPro (UnityEngine.Mesh)
+
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> TMPro.TextMeshPro
+>>v m_hasFontAssetChanged = False
+>>v m_previousLossyScaleY = -1
+>>v m_renderer = TextMeshPro (UnityEngine.MeshRenderer)
+>>v m_meshFilter = 
+>>v m_CanvasRenderer = 
+>>v m_isFirstAllocation = False
+>>v m_max_characters = 8
+>>v m_max_numberOfLines = 4
+>>v m_subTextObjects = TMPro.TMP_SubMesh[]
+>>v m_maskType = MaskOff
+>>v m_EnvMapMatrix = 0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+
+>>v m_RectTransformCorners = UnityEngine.Vector3[]
+>>v m_isRegisteredForEvents = False
+>>v k_GenerateTextMarker = Unity.Profiling.ProfilerMarker
+>>v k_SetArraySizesMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIMarker = Unity.Profiling.ProfilerMarker
+>>v k_ParseMarkupTextMarker = Unity.Profiling.ProfilerMarker
+>>v k_CharacterLookupMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleGPOSFeaturesMarker = Unity.Profiling.ProfilerMarker
+>>v k_CalculateVerticesPositionMarker = Unity.Profiling.ProfilerMarker
+>>v k_ComputeTextMetricsMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleVisibleCharacterMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleWhiteSpacesMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleHorizontalLineBreakingMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleVerticalLineBreakingMarker = Unity.Profiling.ProfilerMarker
+>>v k_SaveGlyphVertexDataMarker = Unity.Profiling.ProfilerMarker
+>>v k_ComputeCharacterAdvanceMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleCarriageReturnMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleLineTerminationMarker = Unity.Profiling.ProfilerMarker
+>>v k_SavePageInfoMarker = Unity.Profiling.ProfilerMarker
+>>v k_SaveProcessingStatesMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIIMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIIIMarker = Unity.Profiling.ProfilerMarker
+>>v _SortingLayer = 0
+>>v _SortingLayerID = 0
+>>v _SortingOrder = 0
+>>v OnPreRenderText = 
+>>v m_currentAutoSizeMode = False
+>>v sortingLayerID = 0
+>>v sortingOrder = 0
+>>v autoSizeTextContainer = False
+>>v textContainer = 
+>>v transform = TextMeshPro (UnityEngine.RectTransform)
+>>v renderer = TextMeshPro (UnityEngine.MeshRenderer)
+>>v mesh =  (UnityEngine.Mesh)
+>>v meshFilter = TextMeshPro (UnityEngine.MeshFilter)
+>>v maskType = MaskOff
+
+>> RoR2.UI.MPEventSystemLocator
+>>v _eventSystemProvider = 
+>>v _eventSystem = 
+>>v onEventSystemDiscovered = 
+>>v onEventSystemLost = 
+>>v eventSystemProvider = 
+>>v eventSystem = 
+
+>> RoR2.InputBindingDisplayController
+>>v actionName = UtilitySkill
+>>v axisRange = Full
+>>v useExplicitInputSource = False
+>>v explicitInputSource = MouseAndKeyboard
+>>v eventSystemLocator = 
+>>v guiLabel = 
+>>v label = 
+>>v lastEventSystem = 
+>>v lastInputSource = MouseAndKeyboard
+>>v instances = System.Collections.Generic.List`1[RoR2.InputBindingDisplayController]
+>>v sharedStringBuilder = 

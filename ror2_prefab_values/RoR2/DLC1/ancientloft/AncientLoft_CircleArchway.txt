@@ -1,0 +1,42 @@
+Key Path : RoR2/DLC1/ancientloft/AncientLoft_CircleArchway.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : AncientLoft_CircleArchway
+
+> transform = p: (-71.1, 21.1, 88.9) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.MeshCollider
+>v sharedMesh = mdlCircleArchwayCollision (UnityEngine.Mesh)
+>v convex = False
+>v inflateMesh = False
+>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>v skinWidth = 0
+>v smoothSphereCollisions = True
+
+> RoR2.SurfaceDefProvider
+>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 0 AnimSpeed2
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RotateObject
+>>v rotationSpeed = (0.0, -1.0, 0.0)
+
+>>GameObject Children 0 CircleArchPivot
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> RoR2.EntityLogic.TeleporterEventRelay
+>>>v onTeleporterBeginCharging = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>>v onTeleporterCharged = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>>v onTeleporterFinish = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>>v recordedActivationState = Idle
+
+>>> RotateObject
+>>>v rotationSpeed = (0.0, 1.5, 0.0)
+
+>>>GameObject Children 0 CircleArchwayAnimatedMesh
+
+>>>> transform = p: (0.0, 0.0, -8.6) r: (270.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CircleArchway (UnityEngine.Mesh)
+>>>>v mesh = CircleArchway Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0

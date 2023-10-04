@@ -1,0 +1,241 @@
+Key Path : RoR2/Base/Dagger/DaggerProjectile.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DaggerProjectile
+
+> transform = p: (120.9, 10.3, 62.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 35853d5e14376084a9b9fe465c7ea20d
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = True
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = True
+>v clientAuthorityOwner = 
+>v assetId = 35853d5e14376084a9b9fe465c7ea20d
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.Projectile.ProjectileController
+>v catalogIndex = 45
+>v ghostPrefab = DaggerProjectileGhost (UnityEngine.GameObject)
+>v ghostTransformAnchor = 
+>v startSound = 
+>v cannotBeDeleted = False
+>v flightSoundLoop = 
+>v rigidbody = 
+>v <teamFilter>k__BackingField = 
+>v <ghost>k__BackingField = 
+>v <isPrediction>k__BackingField = False
+>v canImpactOnTrigger = False
+>v <shouldPlaySounds>k__BackingField = False
+>v allowPrediction = False
+>v predictionId = 0
+>v owner = 
+>v onInitialized = 
+>v <procChainMask>k__BackingField = ()
+>v <clientAuthorityOwner>k__BackingField = 
+>v procCoefficient = 1
+>v myColliders = 
+>v ___ownerNetId = 0
+>v teamFilter = 
+>v ghost = 
+>v isPrediction = False
+>v shouldPlaySounds = False
+>v procChainMask = ()
+>v clientAuthorityOwner = 
+>v NetworkpredictionId = 0
+>v Networkowner = 
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 6
+>v angularDrag = 3
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = False
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = Interpolate
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+> RoR2.Projectile.ProjectileNetworkTransform
+>v projectileController = 
+>v transform = 
+>v rb = 
+>v interpolatedTransform = 
+>v positionTransmitInterval = 0,03333334
+>v interpolationFactor = 1
+>v allowClientsideCollision = False
+>v serverPosition = (0.0, 0.0, 0.0)
+>v serverRotation = (0.0, 0.0, 0.0, 0.0)
+>v interpolatedPosition = NetworkLerpedVector3
+>v interpolatedRotation = NetworkLerpedQuaternion
+>v NetworkserverPosition = (0.0, 0.0, 0.0)
+>v NetworkserverRotation = (0.0, 0.0, 0.0, 0.0)
+
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> UnityEngine.SphereCollider
+>v center = (0.0, 0.0, 0.0)
+>v radius = 0,4
+
+> RoR2.Projectile.ProjectileSingleTargetImpact
+>v projectileController = 
+>v projectileDamage = 
+>v alive = True
+>v destroyWhenNotAlive = True
+>v destroyOnWorld = False
+>v impactEffect = DaggerImpact (UnityEngine.GameObject)
+>v hitSoundString = Play_item_proc_dagger_impact
+>v enemyHitSoundString = 
+
+> RoR2.Projectile.ProjectileDamage
+>v damage = 0
+>v crit = False
+>v force = 0
+>v damageColorIndex = Default
+>v damageType = Generic
+>v useDotMaxStacksFromAttacker = False
+>v dotMaxStacksFromAttacker = 4294967295
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_item_proc_dagger_spawn
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = -1854689133
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+> RoR2.Projectile.ProjectileTargetComponent
+>v <target>k__BackingField = 
+>v target = 
+
+> RoR2.Projectile.ProjectileSteerTowardTarget
+>v yAxisOnly = False
+>v rotationSpeed = 720
+>v transform = 
+>v targetComponent = 
+
+> RoR2.Projectile.ProjectileSimple
+>v lifetime = 30
+>v lifetimeExpiredEffect = 
+>v desiredForwardSpeed = 100
+>v updateAfterFiring = True
+>v enableVelocityOverLifetime = True
+>v velocityOverLifetime = UnityEngine.AnimationCurve
+>v oscillate = False
+>v oscillateMagnitude = 20
+>v oscillateSpeed = 0
+>v deltaHeight = 0
+>v oscillationStopwatch = 0
+>v stopwatch = 0
+>v rigidbody = 
+>v transform = 
+>v velocity = 100
+
+> RoR2.Projectile.ProjectileDirectionalTargetFinder
+>v lookRange = 130
+>v lookCone = 360
+>v targetSearchInterval = 0,5
+>v onlySearchIfNoTarget = True
+>v allowTargetLoss = False
+>v testLoS = False
+>v ignoreAir = False
+>v flierAltitudeTolerance = +Infini
+>v onNewTargetFound = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v onTargetLost = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v transform = 
+>v teamFilter = 
+>v targetComponent = 
+>v searchTimer = 0
+>v hasTarget = False
+>v hadTargetLastUpdate = False
+>v bullseyeSearch = 
+>v lastFoundHurtBox = 
+>v lastFoundTransform = 
+
+> RoR2.EntityLogic.DelayedEvent
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v timeStepType = FixedTime
+
+> RoR2.AwakeEvent
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+> RoR2.DestroyOnTimer
+>v duration = 13
+>v resetAgeOnDisable = False
+>v age = 0
+
+> RoR2.AnimationEvents
+>v soundCenter = DaggerProjectile (UnityEngine.GameObject)
+>v bodyObject = 
+>v characterModel = 
+>v childLocator = 
+>v entityLocator = 
+>v meshRenderer = 
+>v modelLocator = 
+>v printHeight = 0
+>v printTime = 0
+
+>GameObject Children 0 DeactivateDagger
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.EntityLogic.DelayedEvent
+>>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>v timeStepType = FixedTime

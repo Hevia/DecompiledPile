@@ -1,0 +1,539 @@
+Key Path : RoR2/Base/moon/MoonSkyboxPrefab.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MoonSkyboxPrefab
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.WeatherParticles
+>v resetPositionToZero = True
+>v lockPosition = True
+>v lockRotation = False
+>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>GameObject Children 0 Rain
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.ParticleSystem
+>>v startDelay = 0
+>>v loop = True
+>>v playOnAwake = True
+>>v duration = 5
+>>v playbackSpeed = 1
+>>v enableEmission = True
+>>v emissionRate = 400
+>>v startSpeed = -200
+>>v startSize = 0,1
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v startRotation = 0
+>>v startRotation3D = (0.0, 0.0, 0.0)
+>>v startLifetime = 0,2
+>>v gravityModifier = 1
+>>v maxParticles = 1000
+>>v simulationSpace = World
+>>v scalingMode = Local
+>>v automaticCullingEnabled = False
+>>v isPlaying = False
+>>v isEmitting = False
+>>v isStopped = True
+>>v isPaused = False
+>>v particleCount = 0
+>>v time = 0
+>>v randomSeed = 0
+>>v useAutoRandomSeed = True
+>>v proceduralSimulationSupported = False
+>>v main = UnityEngine.ParticleSystem+MainModule
+>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>> UnityEngine.ParticleSystemRenderer
+>>v alignment = View
+>>v renderMode = Stretch
+>>v sortMode = None
+>>v lengthScale = 2
+>>v velocityScale = 0,1
+>>v cameraVelocityScale = 0
+>>v normalDirection = 1
+>>v shadowBias = 0
+>>v sortingFudge = 0
+>>v minParticleSize = 0
+>>v maxParticleSize = 0,5
+>>v pivot = (0.0, 0.0, 0.0)
+>>v flip = (0.0, 0.0, 0.0)
+>>v maskInteraction = None
+>>v trailMaterial = 
+>>v enableGPUInstancing = False
+>>v allowRoll = True
+>>v mesh = 
+>>v meshCount = 0
+>>v activeVertexStreamsCount = 4
+
+>GameObject Children 1 Dust
+
+>> transform = p: (0.0, 20.2, -0.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.ParticleSystem
+>>v startDelay = 0
+>>v loop = True
+>>v playOnAwake = True
+>>v duration = 5
+>>v playbackSpeed = 1
+>>v enableEmission = True
+>>v emissionRate = 15
+>>v startSpeed = 0
+>>v startSize = 0,1
+>>v startColor = RGBA(0.247, 0.582, 0.679, 1.000)
+>>v startRotation = 6,283185
+>>v startRotation3D = (0.0, 0.0, 6.3)
+>>v startLifetime = 3
+>>v gravityModifier = 0
+>>v maxParticles = 200
+>>v simulationSpace = World
+>>v scalingMode = Local
+>>v automaticCullingEnabled = False
+>>v isPlaying = False
+>>v isEmitting = False
+>>v isStopped = True
+>>v isPaused = False
+>>v particleCount = 0
+>>v time = 0
+>>v randomSeed = 0
+>>v useAutoRandomSeed = True
+>>v proceduralSimulationSupported = False
+>>v main = UnityEngine.ParticleSystem+MainModule
+>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>> UnityEngine.ParticleSystemRenderer
+>>v alignment = View
+>>v renderMode = Billboard
+>>v sortMode = None
+>>v lengthScale = 2
+>>v velocityScale = 0,1
+>>v cameraVelocityScale = 0
+>>v normalDirection = 1
+>>v shadowBias = 0
+>>v sortingFudge = 0
+>>v minParticleSize = 0
+>>v maxParticleSize = 0,003
+>>v pivot = (0.0, 0.0, 0.0)
+>>v flip = (0.0, 0.0, 0.0)
+>>v maskInteraction = None
+>>v trailMaterial = 
+>>v enableGPUInstancing = False
+>>v allowRoll = True
+>>v mesh = 
+>>v meshCount = 0
+>>v activeVertexStreamsCount = 4
+
+>> RoR2.WeatherParticles
+>>v resetPositionToZero = False
+>>v lockPosition = True
+>>v lockRotation = False
+>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>GameObject Children 2 GiantDust?
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.ParticleSystemRenderer
+>>v alignment = View
+>>v renderMode = Billboard
+>>v sortMode = None
+>>v lengthScale = 2
+>>v velocityScale = 0
+>>v cameraVelocityScale = 0
+>>v normalDirection = 1
+>>v shadowBias = 0
+>>v sortingFudge = 0
+>>v minParticleSize = 0
+>>v maxParticleSize = 1
+>>v pivot = (0.0, 0.0, 0.0)
+>>v flip = (0.0, 0.0, 0.0)
+>>v maskInteraction = None
+>>v trailMaterial = 
+>>v enableGPUInstancing = True
+>>v allowRoll = True
+>>v mesh = 
+>>v meshCount = 0
+>>v activeVertexStreamsCount = 4
+
+>> UnityEngine.ParticleSystem
+>>v startDelay = 0
+>>v loop = True
+>>v playOnAwake = True
+>>v duration = 5
+>>v playbackSpeed = 1
+>>v enableEmission = True
+>>v emissionRate = 4
+>>v startSpeed = 20
+>>v startSize = 20
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v startRotation = 6,283185
+>>v startRotation3D = (0.0, 0.0, 6.3)
+>>v startLifetime = 2
+>>v gravityModifier = 0
+>>v maxParticles = 10
+>>v simulationSpace = World
+>>v scalingMode = Local
+>>v automaticCullingEnabled = False
+>>v isPlaying = False
+>>v isEmitting = False
+>>v isStopped = True
+>>v isPaused = False
+>>v particleCount = 0
+>>v time = 0
+>>v randomSeed = 0
+>>v useAutoRandomSeed = True
+>>v proceduralSimulationSupported = False
+>>v main = UnityEngine.ParticleSystem+MainModule
+>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>> RoR2.WeatherParticles
+>>v resetPositionToZero = False
+>>v lockPosition = True
+>>v lockRotation = True
+>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>GameObject Children 3 PlanetHolder
+
+>> transform = p: (579.1, -2931.3, 4592.9) r: (355.0, 144.0, 67.4) s: (13.3, 13.3, 13.3)
+>>GameObject Children 0 MoonMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (355.0, 144.0, 67.4) s: (700.0, 700.0, 700.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VeryHighTessSphereMesh (UnityEngine.Mesh)
+>>>v mesh = VeryHighTessSphereMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 Clouds
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (342.3, 59.2, 349.4) s: (258.3, 258.3, 181.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = MoonCloudMesh (UnityEngine.Mesh)
+>>>v mesh = MoonCloudMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Clouds
+
+>>> transform = p: (-2.6, -10.2, 86.4) r: (336.1, 48.3, 298.7) s: (339.4, 339.4, 238.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = MoonCloudMesh (UnityEngine.Mesh)
+>>>v mesh = MoonCloudMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 Clouds
+
+>>> transform = p: (-2.6, 9.9, 86.4) r: (335.6, 48.6, 290.5) s: (339.4, 339.4, 238.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = MoonCloudMesh (UnityEngine.Mesh)
+>>>v mesh = MoonCloudMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 Clouds
+
+>>> transform = p: (-4.2, 74.3, 88.3) r: (22.5, 231.9, 90.8) s: (321.6, 321.6, 225.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = MoonCloudMesh (UnityEngine.Mesh)
+>>>v mesh = MoonCloudMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 4 Moon Chunk Particle System
+
+>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.ParticleSystem
+>>v startDelay = 0
+>>v loop = True
+>>v playOnAwake = True
+>>v duration = 5
+>>v playbackSpeed = 1
+>>v enableEmission = True
+>>v emissionRate = 0
+>>v startSpeed = 0
+>>v startSize = 200
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v startRotation = 0
+>>v startRotation3D = (0.0, 0.0, 0.0)
+>>v startLifetime = +Infini
+>>v gravityModifier = 0
+>>v maxParticles = 30
+>>v simulationSpace = Local
+>>v scalingMode = Local
+>>v automaticCullingEnabled = False
+>>v isPlaying = False
+>>v isEmitting = False
+>>v isStopped = True
+>>v isPaused = False
+>>v particleCount = 0
+>>v time = 0
+>>v randomSeed = 3291887308
+>>v useAutoRandomSeed = False
+>>v proceduralSimulationSupported = False
+>>v main = UnityEngine.ParticleSystem+MainModule
+>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>> UnityEngine.ParticleSystemRenderer
+>>v alignment = Velocity
+>>v renderMode = Mesh
+>>v sortMode = None
+>>v lengthScale = 2
+>>v velocityScale = 0
+>>v cameraVelocityScale = 0
+>>v normalDirection = 1
+>>v shadowBias = 0
+>>v sortingFudge = 0
+>>v minParticleSize = 0
+>>v maxParticleSize = 0,5
+>>v pivot = (0.0, 0.0, 0.0)
+>>v flip = (0.0, 0.0, 0.0)
+>>v maskInteraction = None
+>>v trailMaterial = 
+>>v enableGPUInstancing = True
+>>v allowRoll = False
+>>v mesh = Quad (UnityEngine.Mesh)
+>>v meshCount = 1
+>>v activeVertexStreamsCount = 4
+
+>GameObject Children 5 Mesh Rocks, Opaque
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 MoonRockAngular
+
+>>> transform = p: (-738.0, 535.0, 456.0) r: (0.0, 0.0, 0.0) s: (2000.0, 2000.0, 2000.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SMRockAngular (UnityEngine.Mesh)
+>>>v mesh = SMRockAngular Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 MoonRockAngular (2)
+
+>>> transform = p: (-1312.0, 1131.0, -1284.0) r: (34.1, 214.4, 219.4) s: (2000.0, 2000.0, 2000.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SMRockAngular (UnityEngine.Mesh)
+>>>v mesh = SMRockAngular Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 MoonRockAngular (3)
+
+>>> transform = p: (1848.0, 1835.0, -1114.0) r: (34.1, 214.4, 219.4) s: (5006.0, 5006.0, 5006.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SMRockAngular (UnityEngine.Mesh)
+>>>v mesh = SMRockAngular Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 MoonRockAngular (4)
+
+>>> transform = p: (409.0, 801.0, -1813.0) r: (55.8, 144.7, 185.5) s: (10566.4, 10566.4, 10566.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SMRockAngular (UnityEngine.Mesh)
+>>>v mesh = SMRockAngular Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 MoonRockAngular (5)
+
+>>> transform = p: (-1845.0, 1131.0, 441.0) r: (7.5, 304.2, 213.0) s: (3802.0, 3802.0, 3802.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = SMRockAngular (UnityEngine.Mesh)
+>>>v mesh = SMRockAngular Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 5 MoonRockAngular, Shattered 001
+
+>>> transform = p: (-261.0, 1097.0, 255.0) r: (5.7, 319.8, 5.7) s: (644.4, 644.4, 644.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.001 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 6 MoonRockAngular, Shattered 002
+
+>>> transform = p: (351.0, 734.0, -286.0) r: (35.9, 316.8, 162.8) s: (1132.6, 1132.6, 1132.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.002 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.002 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 7 MoonRockAngular, Shattered 002 (1)
+
+>>> transform = p: (454.0, 1691.0, 1262.0) r: (35.9, 263.0, 162.8) s: (1132.6, 1132.6, 1132.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.002 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.002 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 8 MoonRockAngular, Shattered 001 (1)
+
+>>> transform = p: (-261.0, 1674.0, -353.0) r: (4.3, 278.1, 15.7) s: (644.4, 1213.0, 644.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.001 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 9 MoonRockAngular, Shattered 001 (2)
+
+>>> transform = p: (-1387.0, 1255.0, -238.0) r: (353.5, 81.9, 196.0) s: (988.3, 1860.4, 988.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.006 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.006 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 10 MoonRockAngular, Shattered 001 (3)
+
+>>> transform = p: (867.0, 1578.0, -1356.0) r: (359.2, 266.2, 185.5) s: (1146.4, 2158.1, 1146.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.006 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.006 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 11 MoonRockAngular, Shattered 001 (4)
+
+>>> transform = p: (2385.0, 1224.0, -176.0) r: (357.2, 218.2, 168.6) s: (1146.4, 2158.1, 1146.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.008 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.008 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 12 MoonRockAngular, Shattered 001 (5)
+
+>>> transform = p: (24.0, 612.0, 1272.0) r: (357.2, 166.8, 168.6) s: (1146.4, 2158.1, 1146.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.009 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.009 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 13 MoonRockAngular, Shattered 001 (6)
+
+>>> transform = p: (-1669.0, 342.0, -1410.0) r: (328.5, 112.9, 171.1) s: (1146.4, 2158.1, 1146.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShatteredMoonOutroMesh.009 (UnityEngine.Mesh)
+>>>v mesh = ShatteredMoonOutroMesh.009 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

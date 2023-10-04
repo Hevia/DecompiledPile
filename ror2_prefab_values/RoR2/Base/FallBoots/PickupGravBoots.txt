@@ -1,0 +1,39 @@
+Key Path : RoR2/Base/FallBoots/PickupGravBoots.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupGravBoots
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, 0.9, 0.2, 0.4)
+>v minDistance = 1
+>v maxDistance = 3
+>v cameraDirection = (0.7, -0.4, 0.7)
+
+>GameObject Children 0 mdlGravityBoots
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 339.1, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 mdlGravityBoots
+
+>> transform = p: (0.1, 0.1, -0.3) r: (313.8, 170.6, 160.3) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.2, -0.2) r: (0.0, 315.3, 334.7) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 CameraPosition(Clone)
+
+>> transform = p: (-0.7, 0.6, -0.8) r: (0.0, 315.3, 334.7) s: (1.0, 1.0, 1.0)

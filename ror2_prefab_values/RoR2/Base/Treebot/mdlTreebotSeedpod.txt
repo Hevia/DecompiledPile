@@ -1,0 +1,191 @@
+Key Path : RoR2/Base/Treebot/mdlTreebotSeedpod.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlTreebotSeedpod
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlTreebotSeedpodAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 Circle
+
+>> transform = p: (-1.9, 0.2, -0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Circle (UnityEngine.Mesh)
+>>v mesh = Circle Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 SeedpodLeafMesh
+
+>> transform = p: (-3.7, 0.3, 5.4) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = SeedpodLeafMesh (UnityEngine.Mesh)
+>>v mesh = SeedpodLeafMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 SeedpodMesh
+
+>> transform = p: (-3.7, 0.2, -0.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = SeedpodMesh (UnityEngine.Mesh)
+>>v mesh = SeedpodMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 3 TreebotPodArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.7, 1.2, 0.7)
+>>>GameObject Children 0 CorePetal.001
+
+>>>> transform = p: (-0.1, 0.0, 0.0) r: (359.2, 290.3, 12.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.001_end
+
+>>>>> transform = p: (0.0, 0.6, 0.0) r: (359.2, 290.3, 12.9) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 CorePetal.002
+
+>>>> transform = p: (0.0, 0.0, 0.1) r: (0.2, 326.6, 1.1) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.002_end
+
+>>>>> transform = p: (0.0, 0.6, 0.0) r: (0.2, 326.6, 1.1) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 CorePetal.003
+
+>>>> transform = p: (0.0, 0.0, 0.1) r: (6.9, 21.3, 356.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.003_end
+
+>>>>> transform = p: (0.0, 0.7, 0.0) r: (6.9, 21.3, 356.9) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 CorePetal.004
+
+>>>> transform = p: (0.1, 0.0, 0.0) r: (6.1, 54.2, 357.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.004_end
+
+>>>>> transform = p: (0.0, 0.7, 0.0) r: (6.1, 54.2, 357.7) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 4 CorePetal.005
+
+>>>> transform = p: (0.1, 0.0, 0.0) r: (6.7, 85.3, 355.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.005_end
+
+>>>>> transform = p: (0.0, 0.7, 0.0) r: (6.7, 85.3, 355.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 5 CorePetal.006
+
+>>>> transform = p: (0.1, 0.0, 0.0) r: (359.6, 115.3, 349.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.006_end
+
+>>>>> transform = p: (0.0, 0.6, 0.0) r: (359.6, 115.3, 349.9) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 6 CorePetal.007
+
+>>>> transform = p: (0.0, 0.0, -0.1) r: (357.0, 153.6, 0.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.007_end
+
+>>>>> transform = p: (0.0, 0.5, 0.0) r: (357.0, 153.6, 0.2) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 7 CorePetal.008
+
+>>>> transform = p: (0.0, 0.0, -0.1) r: (0.0, 201.5, 4.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.008_end
+
+>>>>> transform = p: (0.0, 0.6, 0.0) r: (0.0, 201.5, 4.8) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 8 CorePetal.009
+
+>>>> transform = p: (-0.1, 0.0, 0.0) r: (359.1, 249.6, 13.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 CorePetal.009_end
+
+>>>>> transform = p: (0.0, 0.6, 0.0) r: (359.1, 249.6, 13.6) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 9 OuterPetal.001
+
+>>>> transform = p: (0.0, 0.0, 0.1) r: (357.8, 61.3, 17.5) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 OuterPetal.001_end
+
+>>>>> transform = p: (0.0, 1.0, 0.0) r: (357.8, 61.3, 17.5) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 10 OuterPetal.002
+
+>>>> transform = p: (-0.1, 0.0, 0.0) r: (352.3, 356.6, 18.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 OuterPetal.002_end
+
+>>>>> transform = p: (0.0, 1.1, 0.0) r: (352.3, 356.6, 18.4) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 11 OuterPetal.003
+
+>>>> transform = p: (0.0, 0.0, -0.1) r: (358.1, 298.6, 19.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 OuterPetal.003_end
+
+>>>>> transform = p: (0.0, 1.3, 0.0) r: (358.1, 298.6, 19.2) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 12 OuterPetal.004
+
+>>>> transform = p: (0.0, 0.0, -0.1) r: (5.7, 245.1, 18.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 OuterPetal.004_end
+
+>>>>> transform = p: (0.0, 1.3, 0.0) r: (5.7, 245.1, 18.9) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 13 OuterPetal.005
+
+>>>> transform = p: (0.1, 0.0, 0.0) r: (8.2, 187.2, 18.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 OuterPetal.005_end
+
+>>>>> transform = p: (0.0, 1.1, 0.0) r: (8.2, 187.2, 18.2) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 14 OuterPetal.006
+
+>>>> transform = p: (0.0, 0.0, 0.1) r: (5.8, 124.0, 18.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 OuterPetal.006_end
+
+>>>>> transform = p: (0.0, 1.1, 0.0) r: (5.8, 124.0, 18.2) s: (1.0, 1.0, 1.0)
+>GameObject Children 4 TreebotPodMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = TreebotPodMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.6, -0.2), Extents: (0.7, 0.8, 0.8)

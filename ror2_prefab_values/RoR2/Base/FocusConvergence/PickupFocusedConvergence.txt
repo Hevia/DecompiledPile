@@ -1,0 +1,39 @@
+Key Path : RoR2/Base/FocusConvergence/PickupFocusedConvergence.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupFocusedConvergence
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.2, 0.2)
+>v minDistance = 1,75
+>v maxDistance = 2,5
+>v cameraDirection = (0.5, -0.4, 0.9)
+
+>GameObject Children 0 Holder
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = FocusedConvergenceHolderMesh (UnityEngine.Mesh)
+>>v mesh = FocusedConvergenceHolderMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 Orb
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Sphere, Unwrapped (UnityEngine.Mesh)
+>>v mesh = Sphere, Unwrapped Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 297.2, 338.6) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 CameraPosition(Clone)
+
+>> transform = p: (-0.5, 0.5, -0.9) r: (0.0, 297.2, 338.6) s: (1.0, 1.0, 1.0)

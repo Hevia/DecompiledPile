@@ -1,0 +1,143 @@
+Key Path : RoR2/Junk/Mage/MageFirewallWalkerProjectile.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MageFirewallWalkerProjectile
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 34de687c8a9be3040b8555f385210936
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = True
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = True
+>v clientAuthorityOwner = 
+>v assetId = 34de687c8a9be3040b8555f385210936
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> RoR2.Projectile.ProjectileController
+>v catalogIndex = 107
+>v ghostPrefab = ThermiteGhost (UnityEngine.GameObject)
+>v ghostTransformAnchor = 
+>v startSound = 
+>v cannotBeDeleted = False
+>v flightSoundLoop = 
+>v rigidbody = 
+>v <teamFilter>k__BackingField = 
+>v <ghost>k__BackingField = 
+>v <isPrediction>k__BackingField = False
+>v canImpactOnTrigger = False
+>v <shouldPlaySounds>k__BackingField = False
+>v allowPrediction = True
+>v predictionId = 0
+>v owner = 
+>v onInitialized = 
+>v <procChainMask>k__BackingField = ()
+>v <clientAuthorityOwner>k__BackingField = 
+>v procCoefficient = 1
+>v myColliders = 
+>v ___ownerNetId = 0
+>v teamFilter = 
+>v ghost = 
+>v isPrediction = False
+>v shouldPlaySounds = False
+>v procChainMask = ()
+>v clientAuthorityOwner = 
+>v NetworkpredictionId = 0
+>v Networkowner = 
+
+> RoR2.Projectile.ProjectileDamage
+>v damage = 0
+>v crit = False
+>v force = 0
+>v damageColorIndex = Default
+>v damageType = Generic
+>v useDotMaxStacksFromAttacker = False
+>v dotMaxStacksFromAttacker = 4294967295
+
+> UnityEngine.CharacterController
+>v velocity = (0.0, 0.0, 0.0)
+>v isGrounded = False
+>v collisionFlags = None
+>v radius = 0,25
+>v height = 0,5
+>v center = (0.0, 0.0, 0.0)
+>v slopeLimit = 80
+>v stepOffset = 0,3
+>v skinWidth = 0,08
+>v minMoveDistance = 0,001
+>v detectCollisions = True
+>v enableOverlapRecovery = True
+
+> RoR2.Projectile.ProjectileCharacterController
+>v downVector = (0.0, 0.0, 0.0)
+>v velocity = 20
+>v lifetime = 0,5
+>v timer = 0
+>v projectileController = 
+>v characterController = 
+
+> RoR2.Projectile.ProjectileMageFirewallWalkerController
+>v dropInterval = 0,1
+>v firePillarPrefab = ClayPotProjectile (UnityEngine.GameObject)
+>v pillarAngle = 0
+>v curveToCenter = False
+>v moveSign = 0
+>v projectileController = 
+>v projectileDamage = 
+>v lastCenterPosition = (0.0, 0.0, 0.0)
+>v timer = 0
+>v currentPillarVector = (0.0, 1.0, 0.0)
+
+> RoR2.Projectile.ProjectileNetworkTransform
+>v projectileController = 
+>v transform = 
+>v rb = 
+>v interpolatedTransform = 
+>v positionTransmitInterval = 0,03333334
+>v interpolationFactor = 1
+>v allowClientsideCollision = False
+>v serverPosition = (0.0, 0.0, 0.0)
+>v serverRotation = (0.0, 0.0, 0.0, 0.0)
+>v interpolatedPosition = NetworkLerpedVector3
+>v interpolatedRotation = NetworkLerpedQuaternion
+>v NetworkserverPosition = (0.0, 0.0, 0.0)
+>v NetworkserverRotation = (0.0, 0.0, 0.0, 0.0)
+
+> RoR2.Projectile.ProjectileDamageTrail
+>v trailPrefab = MageFireTrail (UnityEngine.GameObject)
+>v damageToTrailDpsFactor = 1
+>v trailLifetimeAfterExpiration = 1
+>v projectileController = 
+>v projectileDamage = 
+>v currentTrailObject = 

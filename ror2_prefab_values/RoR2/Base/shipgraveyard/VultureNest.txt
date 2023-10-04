@@ -1,0 +1,71 @@
+Key Path : RoR2/Base/shipgraveyard/VultureNest.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VultureNest
+
+> transform = p: (70.4, -4.3, -19.9) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (3.0, 3.0, 3.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = VultureNeshMesh (UnityEngine.Mesh)
+>>v mesh = VultureNeshMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.AssignRandomMaterial
+>>v rend = Mesh (UnityEngine.MeshRenderer)
+>>v materials = UnityEngine.Material[]
+
+>GameObject Children 1 Mesh?
+
+>> transform = p: (0.0, 0.0, -0.5) r: (278.6, 236.0, 55.1) s: (3.0, 3.0, 3.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = VultureNeshMesh.001 (UnityEngine.Mesh)
+>>v mesh = VultureNeshMesh.001 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.AssignRandomMaterial
+>>v rend = Mesh? (UnityEngine.MeshRenderer)
+>>v materials = UnityEngine.Material[]
+
+>GameObject Children 2 Spawner
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.Networking.GenericSceneSpawnPoint
+>>v networkedObjectPrefab = VultureEggBody (UnityEngine.GameObject)
+
+>>GameObject Children 0 Mesh
+
+>>> transform = p: (0.1, 0.0, 0.6) r: (279.4, 154.1, 245.3) s: (3.9, 3.9, 3.9)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 Mesh
+
+>>> transform = p: (0.7, 0.2, 0.2) r: (285.1, 66.9, 251.1) s: (3.9, 3.9, 3.9)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Mesh
+
+>>> transform = p: (0.5, -0.4, 0.4) r: (302.5, 32.0, 236.6) s: (3.3, 3.3, 3.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

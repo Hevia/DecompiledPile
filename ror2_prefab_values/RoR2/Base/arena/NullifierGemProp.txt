@@ -1,0 +1,50 @@
+Key Path : RoR2/Base/arena/NullifierGemProp.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : NullifierGemProp
+
+> transform = p: (-17.8, 5.2, 23.7) r: (0.0, 0.0, 0.0) s: (4.5, 4.5, 4.5)
+> UnityEngine.MeshFilter
+>v sharedMesh = Sphere (UnityEngine.Mesh)
+>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+> UnityEngine.SphereCollider
+>v center = (0.0, 0.0, 0.0)
+>v radius = 0,5
+
+>GameObject Children 0 Blender
+
+>> transform = p: (0.0, -0.2, 0.0) r: (270.0, 0.0, 0.0) s: (0.7, 0.7, 1.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = SandDuneMesh (UnityEngine.Mesh)
+>>v mesh = SandDuneMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = SandDuneMesh (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdSnow (RoR2.SurfaceDef)
+
+>GameObject Children 1 Holder
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = ArenaGemHolderMesh (UnityEngine.Mesh)
+>>v mesh = ArenaGemHolderMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdSnow (RoR2.SurfaceDef)

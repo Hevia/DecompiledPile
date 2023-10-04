@@ -1,0 +1,153 @@
+Key Path : RoR2/Base/ClayBoss/mdlClayBoss.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlClayBoss
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 19118640000000.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlClayBossAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 ClayBossArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ClayBossCollisionMesh
+
+>>> transform = p: (-5.8, 0.0, 4.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossCollisionMesh (UnityEngine.Mesh)
+>>>v mesh = ClayBossCollisionMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 ClayBossLidMesh
+
+>>> transform = p: (-12.1, 1.1, 5.8) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ClayBossLidMesh (UnityEngine.Mesh)
+>>>v mesh = ClayBossLidMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Foot.001
+
+>>> transform = p: (0.0, -3.5, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Foot.001_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 3 Foot.002
+
+>>> transform = p: (2.5, -2.5, 0.0) r: (270.0, 45.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Foot.002_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 45.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 4 Foot.003
+
+>>> transform = p: (3.5, 0.0, 0.0) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Foot.003_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 5 Foot.004
+
+>>> transform = p: (2.5, 2.5, 0.0) r: (270.0, 135.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Foot.004_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 135.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 6 Foot.005
+
+>>> transform = p: (0.0, 3.5, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Foot.005_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 7 Foot.006
+
+>>> transform = p: (-2.5, 2.5, 0.0) r: (270.0, 225.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Foot.006_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 225.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 8 Foot.007
+
+>>> transform = p: (-3.5, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Foot.007_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 9 Foot.008
+
+>>> transform = p: (-2.5, -2.5, 0.0) r: (270.0, 315.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Foot.008_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 315.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 10 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 PotBase
+
+>>>> transform = p: (0.0, 3.5, 0.0) r: (30.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 PotLidBottom
+
+>>>>> transform = p: (0.0, -1.2, 0.0) r: (344.9, 242.2, 153.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 PotLidBottom_end
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (344.9, 242.2, 153.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 PotLidTop
+
+>>>>> transform = p: (0.0, 1.1, -1.1) r: (30.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 PotLidTop_end
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (30.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 ClayBossMesh
+
+>> transform = p: (0.0, 4.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = ClayBossMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 3.5, 0.3), Extents: (2.7, 2.4, 2.6)

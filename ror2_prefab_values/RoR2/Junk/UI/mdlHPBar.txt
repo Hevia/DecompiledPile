@@ -1,0 +1,40 @@
+Key Path : RoR2/Junk/UI/mdlHPBar.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlHPBar
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animation
+>v clip = HPBarArmature|hpBarSpawn (UnityEngine.AnimationClip)
+>v playAutomatically = True
+>v wrapMode = Default
+>v isPlaying = False
+>v animatePhysics = False
+>v animateOnlyIfVisible = True
+>v cullingType = BasedOnRenderers
+>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)
+
+>GameObject Children 0 HPBarArmature
+
+>> transform = p: (3.2, 0.0, -3.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Base
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 200.0, 53.9) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Arm
+
+>>>> transform = p: (0.6, 2.3, 0.0) r: (270.0, 150.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Head
+
+>>>>> transform = p: (0.0, 1.3, 0.2) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Head_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 HPBarMesh
+
+>> transform = p: (3.2, 0.0, -3.0) r: (270.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Base (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = HPBarMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.3, 3.2, -0.6), Extents: (2.9, 3.7, 3.7)

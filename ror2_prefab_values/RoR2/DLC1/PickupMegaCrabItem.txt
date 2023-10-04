@@ -1,0 +1,27 @@
+Key Path : RoR2/DLC1/PickupMegaCrabItem.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupMegaCrabItem
+
+> transform = p: (52.8, -154.8, -180.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 2
+>v maxDistance = 4
+>v cameraDirection = (-1.5, -0.8, 2.2)
+
+>GameObject Children 0 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 335.8, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 CameraPosition(Clone)
+
+>> transform = p: (1.5, 1.1, -2.3) r: (11.8, 325.5, 359.4) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 mdlSubThoraxPickup
+
+>> transform = p: (-0.2, 0.3, 0.0) r: (314.4, 341.7, 258.5) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlSubThoraxPickup (UnityEngine.Mesh)
+>>v mesh = mdlSubThoraxPickup Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

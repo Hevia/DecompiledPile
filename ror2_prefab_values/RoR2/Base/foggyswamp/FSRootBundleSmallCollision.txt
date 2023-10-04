@@ -1,0 +1,64 @@
+Key Path : RoR2/Base/foggyswamp/FSRootBundleSmallCollision.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : FSRootBundleSmallCollision
+
+> transform = p: (-12.7, -158.0, -31.1) r: (23.0, 208.2, 103.6) s: (1.0, 1.0, 1.0)
+> UnityEngine.LODGroup
+>v localReferencePoint = (1.4, -2.5, 0.4)
+>v size = 8,00176
+>v lodCount = 3
+>v fadeMode = None
+>v animateCrossFading = False
+>v enabled = True
+>v crossFadeAnimationDuration = 0,5
+
+>GameObject Children 0 RootBundleSmall_LOD0
+
+>> transform = p: (0.0, 0.0, 0.0) r: (23.0, 208.2, 103.6) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RootBundleSmall_LOD0 (UnityEngine.Mesh)
+>>v mesh = RootBundleSmall_LOD0 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 RootBundleSmall_LOD1
+
+>> transform = p: (0.0, 0.0, 0.0) r: (23.0, 208.2, 103.6) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RootBundleSmall_LOD1 (UnityEngine.Mesh)
+>>v mesh = RootBundleSmall_LOD1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 RootBundleSmall_LOD2
+
+>> transform = p: (0.0, 0.0, 0.0) r: (23.0, 208.2, 103.6) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RootBundleSmall_LOD2 (UnityEngine.Mesh)
+>>v mesh = RootBundleSmall_LOD2 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.NonSolidToCamera
+
+>GameObject Children 3 RootBundleCollision
+
+>> transform = p: (0.0, 0.0, 0.0) r: (23.0, 208.2, 103.6) s: (0.2, 0.2, 0.2)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RootBundleSmall_LOD2 (UnityEngine.Mesh)
+>>v mesh = RootBundleSmall_LOD2 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = RootBundleSmall_LOD2 (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdWood (RoR2.SurfaceDef)

@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/Firework/PickupFirework.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupFirework
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.2, 1.0, 0.0, 0.0)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (0.0, 0.1, 6.0)
+
+>GameObject Children 0 mdlFireworksShortstick
+
+>> transform = p: (0.0, 0.0, 0.0) r: (286.7, 270.2, 61.5) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = FireworkMesh (UnityEngine.Mesh)
+>>v mesh = FireworkMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.3, 0.0, 0.0) r: (337.7, 269.8, 0.6) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.3, -0.1, -6.0) r: (337.7, 269.8, 0.6) s: (1.0, 1.0, 1.0)

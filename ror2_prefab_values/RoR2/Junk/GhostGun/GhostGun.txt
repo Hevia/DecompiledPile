@@ -1,0 +1,123 @@
+Key Path : RoR2/Junk/GhostGun/GhostGun.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : GhostGun
+
+> transform = p: (0.0, -1.0, -2.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 8488c6d978a0de24d80a93ccba5598c4
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 8488c6d978a0de24d80a93ccba5598c4
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.GhostGunController
+>v owner = 
+>v interval = 0,25
+>v maxRange = 30
+>v turnSpeed = 180
+>v localOffset = (1.0, 0.5, 2.0)
+>v positionSmoothTime = 0,05
+>v timeout = 2
+>v fireTimer = 0
+>v timeoutTimer = 0
+>v ammo = 0
+>v kills = 0
+>v target = 
+>v velocity = (0.0, 0.0, 0.0)
+
+> UnityEngine.Networking.NetworkTransform
+>v m_TransformSyncMode = SyncTransform
+>v m_SendInterval = 0,1
+>v m_SyncRotationAxis = AxisXYZ
+>v m_RotationSyncCompression = High
+>v m_SyncSpin = False
+>v m_MovementTheshold = 0,001
+>v m_VelocityThreshold = 0,0001
+>v m_SnapThreshold = 5
+>v m_InterpolateRotation = 1
+>v m_InterpolateMovement = 1
+>v m_ClientMoveCallback3D = 
+>v m_ClientMoveCallback2D = 
+>v m_RigidBody3D = 
+>v m_RigidBody2D = 
+>v m_CharacterController = 
+>v m_Grounded = True
+>v m_TargetSyncPosition = (0.0, 0.0, 0.0)
+>v m_TargetSyncVelocity = (0.0, 0.0, 0.0)
+>v m_FixedPosDiff = (0.0, 0.0, 0.0)
+>v m_TargetSyncRotation3D = (0.0, 0.0, 0.0, 0.0)
+>v m_TargetSyncAngularVelocity3D = (0.0, 0.0, 0.0)
+>v m_TargetSyncRotation2D = 0
+>v m_TargetSyncAngularVelocity2D = 0
+>v m_LastClientSyncTime = 0
+>v m_LastClientSendTime = 0
+>v m_PrevPosition = (0.0, 0.0, 0.0)
+>v m_PrevRotation = (0.0, 0.0, 0.0, 0.0)
+>v m_PrevRotation2D = 0
+>v m_PrevVelocity = 0
+>v k_LocalMovementThreshold = 1E-05
+>v k_LocalRotationThreshold = 1E-05
+>v k_LocalVelocityThreshold = 1E-05
+>v k_MoveAheadRatio = 0,1
+>v m_LocalTransformWriter = 
+>v transformSyncMode = SyncTransform
+>v sendInterval = 0,1
+>v syncRotationAxis = AxisXYZ
+>v rotationSyncCompression = High
+>v syncSpin = False
+>v movementTheshold = 0,001
+>v velocityThreshold = 0,0001
+>v snapThreshold = 5
+>v interpolateRotation = 1
+>v interpolateMovement = 1
+>v clientMoveCallback3D = 
+>v clientMoveCallback2D = 
+>v characterContoller = 
+>v rigidbody3D = 
+>v rigidbody2D = 
+>v lastSyncTime = 0
+>v targetSyncPosition = (0.0, 0.0, 0.0)
+>v targetSyncVelocity = (0.0, 0.0, 0.0)
+>v targetSyncRotation3D = (0.0, 0.0, 0.0, 0.0)
+>v targetSyncRotation2D = 0
+>v grounded = True
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = GunMesh (UnityEngine.Mesh)
+>>v mesh = GunMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

@@ -1,0 +1,29 @@
+Key Path : RoR2/Base/Hoof/DisplayHoof.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayHoof
+
+> transform = p: (-5.8, -1.3, -0.6) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+> UnityEngine.MeshFilter
+>v sharedMesh = mdlHoof (UnityEngine.Mesh)
+>v mesh = mdlHoof Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 HoofBandage
+
+>> transform = p: (0.0, 0.0, 3.6) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlHoof_Bandage (UnityEngine.Mesh)
+>>v mesh = mdlHoof_Bandage Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.ItemDisplay
+>>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>>v visibilityLevel = Visible

@@ -1,0 +1,19 @@
+Key Path : RoR2/Base/Core/MusicController.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MusicController
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.MusicController
+>v target = 
+>v enableMusicSystem = True
+>v targetCamera = 
+>v _currentTrack = 
+>v rtpcPlayerHealthValue = RoR2.WwiseUtils.RtpcSetter
+>v rtpcEnemyValue = RoR2.WwiseUtils.RtpcSetter
+>v rtpcTeleporterProximityValue = RoR2.WwiseUtils.RtpcSetter
+>v rtpcTeleporterDirectionValue = RoR2.WwiseUtils.RtpcSetter
+>v rtpcTeleporterPlayerStatus = RoR2.WwiseUtils.RtpcSetter
+>v stBossStatus = RoR2.WwiseUtils.StateSetter
+>v wasPaused = False
+>v pickTrackHook = 
+>v enemyInfoBuffer = Unity.Collections.NativeArray`1[[RoR2.MusicController+EnemyInfo, RoR2, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]
+>v calculateIntensityJob = RoR2.MusicController+CalculateIntensityJob
+>v calculateIntensityJobHandle = Unity.Jobs.JobHandle

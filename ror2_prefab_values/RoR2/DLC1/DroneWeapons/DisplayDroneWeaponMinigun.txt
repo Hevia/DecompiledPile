@@ -1,0 +1,103 @@
+Key Path : RoR2/DLC1/DroneWeapons/DisplayDroneWeaponMinigun.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayDroneWeaponMinigun
+
+> transform = p: (-1.7, -139.2, -33.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+> ChildLocator
+>v transformPairs = ChildLocator+NameTransformPair[]
+>v Count = 2
+
+>GameObject Children 0 mdlDroneWeaponMinigun
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 33774880000000.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = DroneWeaponMinigunController (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = mdlDroneWeaponMinigunAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Clamp
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Arm
+
+>>>>> transform = p: (0.0, -1.0, 0.0) r: (348.9, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Arm_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (348.9, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 mdlDroneWeaponMinigun
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (348.9, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlDroneWeaponMinigun (UnityEngine.Mesh)
+>>>>>>v mesh = mdlDroneWeaponMinigun Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 Muzzle3
+
+>>>>>> transform = p: (-0.2, 0.1, -2.5) r: (348.9, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 Muzzle1
+
+>>>>>> transform = p: (0.0, -0.2, -2.5) r: (348.9, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 4 Muzzle2
+
+>>>>>> transform = p: (0.2, 0.1, -2.5) r: (348.9, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 mdlDroneWeaponMinigunArm
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = mdlDroneWeaponMinigunArm (UnityEngine.Mesh)
+>>>>>v mesh = mdlDroneWeaponMinigunArm Instance (UnityEngine.Mesh)

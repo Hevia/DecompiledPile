@@ -1,0 +1,3474 @@
+Key Path : RoR2/Base/dampcavesimple/DampcaveDioramaDisplay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DampcaveDioramaDisplay
+
+> transform = p: (39.4, -105.4, -131.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = Focus Point (UnityEngine.Transform)
+>v cameraPositionTransform = Camera Position (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 10
+>v maxDistance = 120
+>v cameraDirection = (70.3, -46.0, 33.9)
+
+>GameObject Children 0 Ruins
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 DCGiantChainVariation3
+
+>>> transform = p: (-12.9, 4.7, 4.0) r: (9.5, 94.8, 344.8) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DCGiantChainVariation3 (UnityEngine.Mesh)
+>>>v mesh = DCGiantChainVariation3 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = DCGiantChainVariation3Collision (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 1 DCRuinPillarCollision
+
+>>> transform = p: (8.3, 1.7, 10.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>GameObject Children 0 Mesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (5.0, 5.0, 5.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = BbRuinPillar1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = BbRuinPillar1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = BbRuinPillar1_LOD0 (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 1 Foliage
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 spmBbDryBush (1)
+
+>>> transform = p: (10.6, 3.6, -8.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 3.0, 0.0)
+>>>v size = 8,535939
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmBbDryBush_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmBbDryBush_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmBbDryBush_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmBbDryBush_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmBbDryBush_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 1 FSRootBundleLargeNoCollision (2)
+
+>>> transform = p: (-11.3, -3.8, -6.9) r: (322.5, 205.5, 222.1) s: (0.9, 0.9, 0.9)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-7.3, -7.5, -2.8)
+>>>v size = 53,2504
+>>>v lodCount = 3
+>>>v fadeMode = CrossFade
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 RootBundleLarge_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (322.5, 205.5, 222.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleLarge_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleLarge_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 RootBundleLarge_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (322.5, 205.5, 222.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleLarge_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleLarge_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 RootBundleLarge_LOD2
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (322.5, 205.5, 222.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleLarge_LOD2 (UnityEngine.Mesh)
+>>>>v mesh = RootBundleLarge_LOD2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 3 RootBundleLargeCards
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (322.5, 205.5, 222.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = RootBundleLargeCards (UnityEngine.Mesh)
+>>>>v mesh = RootBundleLargeCards Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 spmBbDryBush (2)
+
+>>> transform = p: (5.1, 4.9, 4.7) r: (0.0, 332.6, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.0, 3.0, 0.0)
+>>>v size = 8,535939
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmBbDryBush_Billboard
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 332.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BillboardRenderer
+>>>>v billboard = spmBbDryBush_Billboard (UnityEngine.BillboardAsset)
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmBbDryBush_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 332.6, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmBbDryBush_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmBbDryBush_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 3 spmDCFern1
+
+>>> transform = p: (-11.2, 6.5, 13.2) r: (13.0, 358.3, 14.2) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.3, 1.0, -0.2)
+>>>v size = 3,780542
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCFern1_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (13.0, 358.3, 14.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmDCFern1_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (13.0, 358.3, 14.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 4 spmDCFern1 (1)
+
+>>> transform = p: (-8.0, 8.2, 10.9) r: (353.7, 351.9, 4.8) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.3, 1.0, -0.2)
+>>>v size = 3,780542
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCFern1_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (353.7, 351.9, 4.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmDCFern1_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (353.7, 351.9, 4.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 5 spmDCFern1 (2)
+
+>>> transform = p: (9.2, 5.1, 16.0) r: (352.6, 7.3, 353.2) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.3, 1.0, -0.2)
+>>>v size = 3,780542
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCFern1_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.6, 7.3, 353.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmDCFern1_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (352.6, 7.3, 353.2) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 6 spmDCFern1 (3)
+
+>>> transform = p: (-3.8, 3.1, -12.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.3, 1.0, -0.2)
+>>>v size = 3,780542
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCFern1_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmDCFern1_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 7 spmDCFern1 (4)
+
+>>> transform = p: (-4.6, 3.1, -10.4) r: (0.0, 297.3, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.3, 1.0, -0.2)
+>>>v size = 3,780542
+>>>v lodCount = 2
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCFern1_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 297.3, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmDCFern1_LOD1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 297.3, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCFern1_LOD1 (UnityEngine.Mesh)
+>>>>v mesh = spmDCFern1_LOD1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 8 spmDCGrass
+
+>>> transform = p: (-4.5, 2.8, -7.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 9 spmDCGrass (1)
+
+>>> transform = p: (-8.2, 2.4, -2.8) r: (0.0, 333.7, 0.0) s: (1.0, 1.5, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 333.7, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 10 spmDCGrass (2)
+
+>>> transform = p: (-14.7, 2.4, -3.6) r: (0.0, 292.2, 0.0) s: (1.0, 1.5, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 292.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 11 spmDCGrass (3)
+
+>>> transform = p: (-14.3, 2.4, 10.7) r: (0.0, 292.2, 0.0) s: (1.0, 1.5, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 292.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 12 spmDCGrass (4)
+
+>>> transform = p: (-2.7, 2.4, 14.4) r: (0.0, 292.2, 0.0) s: (1.0, 1.5, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 292.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 13 spmDCGrass (5)
+
+>>> transform = p: (1.2, 2.4, 15.7) r: (0.0, 321.0, 0.0) s: (1.0, 1.5, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 321.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 14 spmDCGrass (6)
+
+>>> transform = p: (5.5, 2.4, 15.5) r: (0.0, 321.0, 0.0) s: (1.0, 1.5, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 321.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 15 spmDCGrass (7)
+
+>>> transform = p: (16.6, 2.4, 7.8) r: (0.0, 321.0, 0.0) s: (1.0, 1.5, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmDCGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 321.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmDCGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmDCGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>GameObject Children 2 Natural Props
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 DCHeatvent1Off
+
+>>> transform = p: (-7.1, 4.1, 18.0) r: (276.9, 214.9, 133.6) s: (1.5, 1.5, 1.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DCHeatvent1 (UnityEngine.Mesh)
+>>>v mesh = DCHeatvent1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = DCHeatvent1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 1 DCHeatvent1Off (1)
+
+>>> transform = p: (-4.4, 4.1, 17.7) r: (276.9, 152.4, 133.6) s: (1.3, 1.3, 1.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DCHeatvent1 (UnityEngine.Mesh)
+>>>v mesh = DCHeatvent1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = DCHeatvent1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 2 DCHeatvent1On Variant
+
+>>> transform = p: (-17.4, 3.4, 0.4) r: (270.0, 270.5, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DCHeatvent1 (UnityEngine.Mesh)
+>>>v mesh = DCHeatvent1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = DCHeatvent1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = False
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> AkEvent
+>>>v actionOnEventType = AkActionOnEventType_Stop
+>>>v curveInterpolation = AkCurveInterpolation_Linear
+>>>v enableActionOnEvent = False
+>>>v data = Stop_env_dampCave_steamVent_loop
+>>>v useCallbacks = False
+>>>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>>>v playingId = 0
+>>>v soundEmitterObject = 
+>>>v transitionDuration = 0
+>>>v EventCallbackMsg = 
+>>>v eventIdInternal = 0
+>>>v valueGuidInternal = System.Byte[]
+>>>v m_callbackDataInternal = 
+>>>v eventID = 2061687186
+>>>v valueGuid = System.Byte[]
+>>>v m_callbackData = 
+
+>>> AkGameObj
+>>>v m_listeners = AkGameObjListenerList
+>>>v isEnvironmentAware = True
+>>>v isStaticObject = False
+>>>v m_Collider = 
+>>>v m_envData = 
+>>>v m_posData = 
+>>>v m_positionOffsetData = AkGameObjPositionOffsetData
+>>>v isRegistered = False
+>>>v m_posOffsetData = 
+>>>v AK_NUM_LISTENERS = 8
+>>>v listenerMask = 1
+>>>v IsUsingDefaultListeners = True
+>>>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+>>> AkEvent
+>>>v actionOnEventType = AkActionOnEventType_Stop
+>>>v curveInterpolation = AkCurveInterpolation_Linear
+>>>v enableActionOnEvent = False
+>>>v data = Play_env_dampCave_steamVent_loop
+>>>v useCallbacks = False
+>>>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>>>v playingId = 0
+>>>v soundEmitterObject = 
+>>>v transitionDuration = 0
+>>>v EventCallbackMsg = 
+>>>v eventIdInternal = 0
+>>>v valueGuidInternal = System.Byte[]
+>>>v m_callbackDataInternal = 
+>>>v eventID = -1362486952
+>>>v valueGuid = System.Byte[]
+>>>v m_callbackData = 
+
+>>>GameObject Children 0 HeatGas
+
+>>>> transform = p: (0.0, 0.0, 6.6) r: (270.0, 270.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 3
+>>>>v startSpeed = 3
+>>>>v startSize = 3
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 6,283185
+>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>v startLifetime = 2
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 1000
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>>GameObject Children 1 OpaqueSmoke
+
+>>>> transform = p: (0.0, 0.0, 6.2) r: (270.0, 270.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 3
+>>>>v startSpeed = 3
+>>>>v startSize = 2
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 6,283185
+>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>v startLifetime = 2
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 1000
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 0
+>>>>v velocityScale = 1
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 3 DCCoralPropMediumActive
+
+>>> transform = p: (-19.2, 2.4, 2.3) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DCCoralPropMedium (UnityEngine.Mesh)
+>>>v mesh = DCCoralPropMedium Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = DCCoralPropMedium (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 0 Point Light
+
+>>>> transform = p: (0.0, 0.0, 2.9) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.Light
+>>>>v m_BakedIndex = 0
+>>>>v type = Point
+>>>>v shape = Cone
+>>>>v spotAngle = 30
+>>>>v innerSpotAngle = 21,80208
+>>>>v color = RGBA(0.821, 0.564, 0.000, 1.000)
+>>>>v colorTemperature = 6570
+>>>>v useColorTemperature = False
+>>>>v intensity = 36,03
+>>>>v bounceIntensity = 1
+>>>>v useBoundingSphereOverride = False
+>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>v shadowCustomResolution = -1
+>>>>v shadowBias = 0,05
+>>>>v shadowNormalBias = 0,4
+>>>>v shadowNearPlane = 0,2
+>>>>v useShadowMatrixOverride = False
+>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>v range = 13,5
+>>>>v flare = 
+>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>v cullingMask = -1
+>>>>v renderingLayerMask = 1
+>>>>v lightShadowCasterMode = Default
+>>>>v shadows = None
+>>>>v shadowStrength = 1
+>>>>v shadowResolution = FromQualitySettings
+>>>>v shadowSoftness = 4
+>>>>v shadowSoftnessFade = 1
+>>>>v layerShadowCullDistances = System.Single[]
+>>>>v cookieSize = 10
+>>>>v cookie = 
+>>>>v renderMode = Auto
+>>>>v bakedIndex = 0
+>>>>v commandBufferCount = 0
+>>>>v pixelLightCount = 4
+>>>>v shadowConstantBias = 0
+>>>>v shadowObjectSizeBias = 0
+>>>>v attenuate = True
+
+>>>> LightIntensityCurve
+>>>>v curve = UnityEngine.AnimationCurve
+>>>>v timeMax = 3
+>>>>v time = 0
+>>>>v light = 
+>>>>v maxIntensity = 0
+>>>>v loop = True
+>>>>v randomStart = True
+>>>>v enableNegativeLights = False
+
+>>GameObject Children 4 DCCoralPropMedium
+
+>>> transform = p: (-0.6, 2.2, -16.0) r: (270.0, 309.1, 0.0) s: (1.2, 1.2, 1.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DCCoralPropMedium (UnityEngine.Mesh)
+>>>v mesh = DCCoralPropMedium Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = DCCoralPropMedium (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 5 DCCoralPropMedium (1)
+
+>>> transform = p: (-2.6, 2.2, -17.4) r: (270.0, 258.1, 0.0) s: (1.2, 1.2, 1.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DCCoralPropMedium (UnityEngine.Mesh)
+>>>v mesh = DCCoralPropMedium Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = DCCoralPropMedium (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 6 DCHeroPillar
+
+>>> transform = p: (0.7, 43.6, -15.8) r: (0.0, 228.2, 0.0) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = DCHeroPillars1 (UnityEngine.Mesh)
+>>>v mesh = DCHeroPillars1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = DCHeroPillars1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>>>GameObject Children 0 DCStalagmiteSingle
+
+>>>> transform = p: (79.3, -45.9, -35.9) r: (270.0, 132.0, 0.0) s: (0.3, 0.3, 0.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 DCStalagmiteSingle
+
+>>>> transform = p: (77.0, -44.3, -43.1) r: (270.0, 233.9, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 DCStalagmiteSingle
+
+>>>> transform = p: (64.5, -41.1, -53.1) r: (270.0, 118.3, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 3 DCStalagmiteSingle
+
+>>>> transform = p: (62.2, -42.4, -52.6) r: (270.0, 57.2, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 4 DCStalagmiteSingle
+
+>>>> transform = p: (86.2, -35.5, -44.7) r: (270.0, 113.9, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 5 DCStalagmiteSingle
+
+>>>> transform = p: (89.3, -31.7, -44.6) r: (270.0, 9.7, 0.0) s: (1.8, 1.8, 4.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 6 DCStalagmiteSingle
+
+>>>> transform = p: (95.2, -34.7, -40.4) r: (270.0, 359.4, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 7 DCStalagmiteSingle
+
+>>>> transform = p: (96.1, -37.7, -36.7) r: (270.0, 127.5, 0.0) s: (0.9, 0.9, 0.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 8 DCStalagmiteSingle
+
+>>>> transform = p: (73.7, -46.4, -20.5) r: (270.0, 15.7, 0.0) s: (1.6, 1.6, 1.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 9 DCStalagmiteSingle
+
+>>>> transform = p: (72.8, -45.5, -17.8) r: (270.0, 68.8, 0.0) s: (0.9, 0.9, 0.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 10 DCStalagmiteSingle
+
+>>>> transform = p: (79.1, -45.0, -22.7) r: (270.0, 278.7, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 11 DCStalagmiteSingle
+
+>>>> transform = p: (77.4, -45.4, -22.0) r: (270.0, 262.5, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 12 DCStalagmiteSingle
+
+>>>> transform = p: (78.5, -45.9, -26.5) r: (270.0, 317.8, 0.0) s: (1.4, 1.4, 1.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 13 DCStalagmiteSingle
+
+>>>> transform = p: (77.1, -45.4, -21.0) r: (270.0, 273.3, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 14 DCStalagmiteSingle
+
+>>>> transform = p: (72.4, -43.4, -14.5) r: (270.0, 246.7, 0.0) s: (0.6, 0.6, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 15 DCStalagmiteSingle
+
+>>>> transform = p: (77.5, -45.7, -23.3) r: (270.0, 84.3, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 16 DCStalagmiteSingle
+
+>>>> transform = p: (64.7, -50.0, -26.3) r: (270.0, 352.2, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 17 DCStalagmiteSingle
+
+>>>> transform = p: (64.5, -50.1, -26.0) r: (270.0, 347.4, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 18 DCStalagmiteSingle
+
+>>>> transform = p: (66.9, -49.1, -22.8) r: (270.0, 103.9, 0.0) s: (0.6, 0.6, 0.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 19 DCStalagmiteSingle
+
+>>>> transform = p: (66.7, -49.3, -23.9) r: (270.0, 294.6, 0.0) s: (2.0, 2.0, 2.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 20 DCStalagmiteSingle
+
+>>>> transform = p: (61.0, -47.6, -47.3) r: (270.0, 213.2, 0.0) s: (0.7, 0.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 21 DCStalagmiteSingle
+
+>>>> transform = p: (62.6, -46.6, -48.2) r: (270.0, 116.4, 0.0) s: (1.4, 1.4, 1.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 22 DCStalagmiteSingle
+
+>>>> transform = p: (49.9, -45.4, -55.0) r: (270.0, 344.9, 0.0) s: (1.1, 1.1, 1.1)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 23 DCStalagmiteSingle
+
+>>>> transform = p: (55.2, -48.6, -48.0) r: (270.0, 104.2, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 24 DCStalagmiteSingle
+
+>>>> transform = p: (98.2, -25.6, -43.7) r: (270.0, 11.9, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 25 DCStalagmiteSingle
+
+>>>> transform = p: (106.1, -26.4, -38.7) r: (270.0, 100.3, 0.0) s: (1.1, 1.1, 2.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 26 DCStalagmiteSingle
+
+>>>> transform = p: (110.0, -23.0, -43.1) r: (270.0, 214.2, 0.0) s: (1.3, 1.3, 1.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 27 DCStalagmiteSingle
+
+>>>> transform = p: (116.3, -19.0, -47.3) r: (270.0, 59.5, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 28 DCStalagmiteSingle
+
+>>>> transform = p: (105.6, -21.6, -48.2) r: (270.0, 146.5, 0.0) s: (1.1, 1.1, 1.1)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 29 DCStalagmiteSingle
+
+>>>> transform = p: (114.7, -23.0, -39.3) r: (270.0, 172.1, 0.0) s: (0.3, 0.3, 0.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 30 DCStalagmiteSingle
+
+>>>> transform = p: (136.4, -19.0, -25.8) r: (270.0, 247.4, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 31 DCStalagmiteSingle
+
+>>>> transform = p: (132.1, -19.2, -31.2) r: (270.0, 320.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 32 DCStalagmiteSingle
+
+>>>> transform = p: (132.0, -19.9, -28.8) r: (270.0, 117.2, 0.0) s: (0.9, 0.9, 0.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 33 DCStalagmiteSingle
+
+>>>> transform = p: (133.1, -16.8, -36.5) r: (270.0, 140.8, 0.0) s: (0.6, 0.6, 0.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 34 DCStalagmiteSingle
+
+>>>> transform = p: (130.3, -19.4, -32.4) r: (270.0, 311.3, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 35 DCStalagmiteSingle
+
+>>>> transform = p: (136.1, -17.0, -32.5) r: (270.0, 131.2, 0.0) s: (0.8, 0.8, 0.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 36 DCStalagmiteSingle
+
+>>>> transform = p: (137.5, -18.7, -24.9) r: (270.0, 313.4, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 37 DCStalagmiteSingle
+
+>>>> transform = p: (134.1, -19.8, -26.0) r: (270.0, 344.7, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 38 DCStalagmiteSingle
+
+>>>> transform = p: (136.1, -19.2, -23.2) r: (270.0, 216.2, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 39 DCStalagmiteSingle
+
+>>>> transform = p: (138.4, -18.5, -22.6) r: (270.0, 96.9, 0.0) s: (0.3, 0.3, 0.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 40 DCStalagmiteSingle
+
+>>>> transform = p: (119.3, -23.2, -19.1) r: (270.0, 238.2, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 41 DCStalagmiteSingle
+
+>>>> transform = p: (118.6, -24.9, -23.4) r: (270.0, 89.6, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 42 DCStalagmiteSingle
+
+>>>> transform = p: (93.0, -28.9, -6.0) r: (270.0, 44.8, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 43 DCStalagmiteSingle
+
+>>>> transform = p: (98.1, -27.8, -10.5) r: (270.0, 46.4, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 44 DCStalagmiteSingle
+
+>>>> transform = p: (105.9, -32.9, -29.6) r: (270.0, 97.0, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 45 DCStalagmiteSingle
+
+>>>> transform = p: (104.8, -30.4, -21.2) r: (270.0, 318.5, 0.0) s: (1.8, 1.8, 1.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 46 DCStalagmiteSingle
+
+>>>> transform = p: (116.1, -15.9, -1.2) r: (270.0, 243.5, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 47 DCStalagmiteSingle
+
+>>>> transform = p: (122.4, -17.8, -4.3) r: (270.0, 101.6, 0.0) s: (2.0, 2.0, 2.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 48 DCStalagmiteSingle
+
+>>>> transform = p: (117.7, -19.3, -3.8) r: (270.0, 184.4, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 49 DCStalagmiteSingle
+
+>>>> transform = p: (125.1, -18.9, -8.2) r: (270.0, 71.4, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 50 DCStalagmiteSingle
+
+>>>> transform = p: (55.1, -42.7, 2.2) r: (270.0, 97.0, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 51 DCStalagmiteSingle
+
+>>>> transform = p: (56.0, -43.3, 1.5) r: (270.0, 85.8, 0.0) s: (1.6, 1.6, 1.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 52 DCStalagmiteSingle
+
+>>>> transform = p: (54.9, -54.5, -5.3) r: (270.0, 27.8, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 53 DCStalagmiteSingle
+
+>>>> transform = p: (51.0, -52.8, 2.2) r: (270.0, 179.9, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 54 DCStalagmiteSingle
+
+>>>> transform = p: (45.1, -38.1, 15.1) r: (270.0, 74.0, 0.0) s: (0.3, 0.3, 0.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 55 DCStalagmiteSingle
+
+>>>> transform = p: (40.2, -36.4, 23.1) r: (270.0, 286.7, 0.0) s: (1.6, 1.6, 1.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 56 DCStalagmiteSingle
+
+>>>> transform = p: (65.2, -34.2, 8.4) r: (270.0, 303.7, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 57 DCStalagmiteSingle
+
+>>>> transform = p: (63.1, -35.9, 6.1) r: (270.0, 54.6, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 58 DCStalagmiteSingle
+
+>>>> transform = p: (18.1, -50.6, 7.0) r: (270.0, 184.2, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 59 DCStalagmiteSingle
+
+>>>> transform = p: (28.0, -47.3, 11.0) r: (270.0, 351.9, 0.0) s: (1.3, 1.3, 1.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 60 DCStalagmiteSingle
+
+>>>> transform = p: (22.1, -47.2, 11.2) r: (270.0, 165.2, 0.0) s: (1.9, 1.9, 1.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 61 DCStalagmiteSingle
+
+>>>> transform = p: (14.0, -49.6, 5.7) r: (270.0, 280.3, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 62 DCStalagmiteSingle
+
+>>>> transform = p: (18.6, -51.3, 6.3) r: (270.0, 321.0, 0.0) s: (1.4, 1.4, 1.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 63 DCStalagmiteSingle
+
+>>>> transform = p: (24.9, -49.5, 9.8) r: (270.0, 122.7, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 64 DCStalagmiteSingle
+
+>>>> transform = p: (-1.6, -40.2, 9.3) r: (270.0, 232.8, 0.0) s: (1.6, 1.6, 1.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 65 DCStalagmiteSingle
+
+>>>> transform = p: (-3.8, -40.0, 7.5) r: (270.0, 125.5, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 66 DCStalagmiteSingle
+
+>>>> transform = p: (9.7, -38.1, 20.6) r: (270.0, 6.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 67 DCStalagmiteSingle
+
+>>>> transform = p: (8.8, -39.0, 18.1) r: (270.0, 93.2, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 68 DCStalagmiteSingle
+
+>>>> transform = p: (6.9, -39.4, 16.8) r: (270.0, 16.8, 0.0) s: (1.3, 1.3, 1.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 69 DCStalagmiteSingle
+
+>>>> transform = p: (3.0, -38.1, 17.7) r: (270.0, 229.5, 0.0) s: (0.6, 0.6, 0.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 70 DCStalagmiteSingle
+
+>>>> transform = p: (5.1, -38.4, 18.3) r: (270.0, 49.8, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 71 DCStalagmiteSingle
+
+>>>> transform = p: (8.5, -39.0, 18.1) r: (270.0, 193.1, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 72 DCStalagmiteSingle
+
+>>>> transform = p: (15.7, -39.2, 18.8) r: (270.0, 128.9, 0.0) s: (1.8, 1.8, 1.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 73 DCStalagmiteSingle
+
+>>>> transform = p: (14.4, -38.1, 21.5) r: (270.0, 303.0, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 74 DCStalagmiteSingle
+
+>>>> transform = p: (-13.8, -35.3, 6.6) r: (270.0, 118.2, 0.0) s: (0.8, 0.8, 0.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 75 DCStalagmiteSingle
+
+>>>> transform = p: (-10.8, -33.5, 14.3) r: (270.0, 115.5, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 76 DCStalagmiteSingle
+
+>>>> transform = p: (-16.2, -37.9, -7.6) r: (270.0, 6.2, 0.0) s: (1.3, 1.3, 1.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 77 DCStalagmiteSingle
+
+>>>> transform = p: (-14.6, -39.9, -8.2) r: (270.0, 212.3, 0.0) s: (1.5, 1.5, 1.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 78 DCStalagmiteSingle
+
+>>>> transform = p: (26.7, -103.7, -2.8) r: (270.0, 320.3, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 79 DCStalagmiteSingle
+
+>>>> transform = p: (28.1, -104.7, -3.5) r: (270.0, 225.3, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 80 DCStalagmiteSingle
+
+>>>> transform = p: (41.1, -92.7, -5.3) r: (270.0, 352.3, 0.0) s: (0.3, 0.3, 0.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 81 DCStalagmiteSingle
+
+>>>> transform = p: (36.4, -98.3, -4.9) r: (270.0, 247.5, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 82 DCStalagmiteSingle
+
+>>>> transform = p: (11.4, -144.7, -33.3) r: (270.0, 130.6, 0.0) s: (0.6, 0.6, 0.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 83 DCStalagmiteSingle
+
+>>>> transform = p: (12.6, -143.5, -37.5) r: (270.0, 329.0, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 84 DCStalagmiteSingle
+
+>>>> transform = p: (9.0, -142.8, -24.3) r: (270.0, 72.4, 0.0) s: (0.3, 0.3, 0.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 85 DCStalagmiteSingle
+
+>>>> transform = p: (9.7, -143.7, -22.8) r: (270.0, 342.0, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 86 DCStalagmiteSingle
+
+>>>> transform = p: (14.2, -139.1, -42.5) r: (270.0, 257.7, 0.0) s: (1.9, 1.9, 1.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 87 DCStalagmiteSingle
+
+>>>> transform = p: (18.4, -140.6, -45.9) r: (270.0, 345.0, 0.0) s: (0.8, 0.8, 0.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 88 DCStalagmiteSingle
+
+>>>> transform = p: (7.0, -81.4, -4.0) r: (270.0, 130.3, 0.0) s: (1.6, 1.6, 1.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 89 DCStalagmiteSingle
+
+>>>> transform = p: (9.6, -81.8, -0.1) r: (270.0, 173.4, 0.0) s: (0.6, 0.6, 0.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 90 DCStalagmiteSingle
+
+>>>> transform = p: (-4.8, -43.7, 1.2) r: (270.0, 224.4, 0.0) s: (1.4, 1.4, 1.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 91 DCStalagmiteSingle
+
+>>>> transform = p: (-11.1, -40.2, -0.8) r: (270.0, 159.8, 0.0) s: (1.8, 1.8, 1.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 92 DCStalagmiteSingle
+
+>>>> transform = p: (-18.9, -36.4, -33.6) r: (270.0, 133.6, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 93 DCStalagmiteSingle
+
+>>>> transform = p: (-26.1, -30.4, -38.8) r: (270.0, 11.2, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 94 DCStalagmiteSingle
+
+>>>> transform = p: (-26.8, -29.3, -41.0) r: (270.0, 104.4, 0.0) s: (1.3, 1.3, 1.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 95 DCStalagmiteSingle
+
+>>>> transform = p: (-23.8, -30.5, -41.6) r: (270.0, 9.6, 0.0) s: (0.8, 0.8, 0.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 96 DCStalagmiteSingle
+
+>>>> transform = p: (-20.5, -31.6, -42.7) r: (270.0, 136.8, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 97 DCStalagmiteSingle
+
+>>>> transform = p: (-20.6, -28.4, -48.5) r: (270.0, 88.6, 0.0) s: (1.4, 1.4, 1.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 98 DCStalagmiteSingle
+
+>>>> transform = p: (-27.4, -27.3, -45.3) r: (270.0, 65.3, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 99 DCStalagmiteSingle
+
+>>>> transform = p: (-28.7, -30.7, -32.4) r: (270.0, 193.1, 0.0) s: (0.9, 0.9, 0.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 100 DCStalagmiteSingle
+
+>>>> transform = p: (-23.5, -35.9, -22.7) r: (270.0, 163.8, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 101 DCStalagmiteSingle
+
+>>>> transform = p: (-18.4, -38.2, -15.9) r: (270.0, 223.5, 0.0) s: (1.7, 1.7, 1.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 102 DCStalagmiteSingle
+
+>>>> transform = p: (-6.2, -27.6, -57.0) r: (270.0, 176.0, 0.0) s: (1.3, 1.3, 1.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 103 DCStalagmiteSingle
+
+>>>> transform = p: (6.0, -30.9, -58.9) r: (270.0, 68.3, 0.0) s: (1.8, 1.8, 1.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 104 DCStalagmiteSingle
+
+>>>> transform = p: (5.1, -31.1, -58.2) r: (270.0, 334.5, 0.0) s: (0.5, 0.5, 0.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 105 DCStalagmiteSingle
+
+>>>> transform = p: (5.8, -31.0, -58.6) r: (270.0, 113.4, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 106 DCStalagmiteSingle
+
+>>>> transform = p: (6.3, -45.7, -47.1) r: (270.0, 69.0, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 107 DCStalagmiteSingle
+
+>>>> transform = p: (2.8, -41.7, -47.0) r: (270.0, 87.8, 0.0) s: (1.1, 1.1, 1.1)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 108 DCStalagmiteSingle
+
+>>>> transform = p: (16.0, -30.8, -63.0) r: (270.0, 238.6, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 109 DCStalagmiteSingle
+
+>>>> transform = p: (25.6, -30.8, -64.0) r: (270.0, 322.5, 0.0) s: (1.2, 1.2, 1.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 110 DCStalagmiteSingle
+
+>>>> transform = p: (46.9, -30.9, -60.1) r: (270.0, 47.4, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 111 DCStalagmiteSingle
+
+>>>> transform = p: (57.3, -28.5, -57.8) r: (270.0, 140.8, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 112 DCStalagmiteSingle
+
+>>>> transform = p: (39.0, -27.5, -63.7) r: (270.0, 176.5, 0.0) s: (1.6, 1.6, 1.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 113 DCStalagmiteSingle
+
+>>>> transform = p: (39.4, -27.5, -63.5) r: (270.0, 300.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 114 DCStalagmiteSingle
+
+>>>> transform = p: (70.4, -24.6, -55.9) r: (270.0, 38.4, 0.0) s: (1.5, 1.5, 2.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 115 DCStalagmiteSingle
+
+>>>> transform = p: (71.2, -26.6, -54.6) r: (270.0, 169.4, 0.0) s: (0.6, 0.6, 0.6)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 116 DCStalagmiteSingle
+
+>>>> transform = p: (73.6, -26.7, -53.6) r: (270.0, 246.1, 0.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 117 DCStalagmiteSingle
+
+>>>> transform = p: (77.7, -22.6, -54.9) r: (270.0, 162.9, 0.0) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 118 DCStalagmiteSingle
+
+>>>> transform = p: (87.2, -20.2, -54.7) r: (270.0, 10.2, 0.0) s: (0.9, 0.9, 0.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = DCStalagmiteSingle (UnityEngine.Mesh)
+>>>>v mesh = DCStalagmiteSingle Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 119 DCStalagmiteClusterBig
+
+>>>> transform = p: (119.5, -23.3, -22.1) r: (90.0, 305.0, 0.0) s: (1.9, 1.9, 1.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v mesh = CaveStalagmiteClusterBig Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = InflateConvexMesh, CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 120 DCStalagmiteClusterBig
+
+>>>> transform = p: (122.5, -20.9, -16.9) r: (90.0, 287.0, 0.0) s: (2.5, 2.5, 2.5)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v mesh = CaveStalagmiteClusterBig Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = InflateConvexMesh, CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 121 DCStalagmiteClusterBig
+
+>>>> transform = p: (111.9, -21.8, -9.1) r: (90.0, 209.7, 0.0) s: (2.2, 2.2, 2.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v mesh = CaveStalagmiteClusterBig Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = InflateConvexMesh, CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 122 DCStalagmiteClusterBig
+
+>>>> transform = p: (82.2, -30.8, -14.4) r: (90.0, 72.0, 0.0) s: (2.9, 2.9, 5.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v mesh = CaveStalagmiteClusterBig Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = InflateConvexMesh, CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 123 DCStalagmiteClusterBig
+
+>>>> transform = p: (69.6, -33.4, 1.2) r: (90.0, 251.6, 0.0) s: (2.0, 2.0, 2.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v mesh = CaveStalagmiteClusterBig Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = InflateConvexMesh, CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 124 DCStalagmiteClusterBig
+
+>>>> transform = p: (83.1, -29.0, 0.9) r: (90.0, 99.9, 0.0) s: (2.1, 2.1, 3.7)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v mesh = CaveStalagmiteClusterBig Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = InflateConvexMesh, CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 125 DCStalagmiteClusterBig
+
+>>>> transform = p: (21.7, -39.2, 16.7) r: (90.0, 320.5, 0.0) s: (1.9, 1.9, 3.8)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v mesh = CaveStalagmiteClusterBig Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = InflateConvexMesh, CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 126 DCStalagmiteClusterBig
+
+>>>> transform = p: (13.3, -34.0, 27.8) r: (90.0, 251.3, 0.0) s: (1.9, 1.9, 1.9)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v mesh = CaveStalagmiteClusterBig Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CaveStalagmiteClusterBig (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = InflateConvexMesh, CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 127 DCHangingLightSmallShortChain Variant
+
+>>>> transform = p: (80.1, -25.5, 10.3) r: (0.0, 0.0, 0.0) s: (4.7, 4.7, 4.7)
+>>>>GameObject Children 0 ChainStart
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> LineBetweenTransforms
+>>>>>v _transformNodes = UnityEngine.Transform[]
+>>>>>v lineRenderer = 
+>>>>>v vertexList = UnityEngine.Vector3[]
+>>>>>v transformNodes = UnityEngine.Transform[]
+
+>>>>> UnityEngine.LineRenderer
+>>>>>v numPositions = 4
+>>>>>v startWidth = 0,1728973
+>>>>>v endWidth = 0,1728973
+>>>>>v widthMultiplier = 0,5
+>>>>>v numCornerVertices = 0
+>>>>>v numCapVertices = 0
+>>>>>v useWorldSpace = True
+>>>>>v loop = False
+>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>v positionCount = 4
+>>>>>v shadowBias = 0,5
+>>>>>v generateLightingData = False
+>>>>>v textureMode = Tile
+>>>>>v alignment = View
+>>>>>v widthCurve = UnityEngine.AnimationCurve
+>>>>>v colorGradient = UnityEngine.Gradient
+
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = True
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = None
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>GameObject Children 1 ChainJoint1
+
+>>>>> transform = p: (0.0, -1.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = True
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.SphereCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v radius = 0,42
+
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>GameObject Children 2 ChainJoint2
+
+>>>>> transform = p: (0.0, -2.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = False
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.SphereCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v radius = 0,42
+
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>GameObject Children 3 ChainEnd
+
+>>>>> transform = p: (0.0, -3.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>> RoR2.ApplyForceOnStart
+>>>>>v localForce = (25.0, 0.0, 25.0)
+
+>>>>> UnityEngine.CapsuleCollider
+>>>>>v center = (0.0, -0.8, 0.0)
+>>>>>v radius = 0,62
+>>>>>v height = 1,89
+>>>>>v direction = 1
+
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = False
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = None
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>>GameObject Children 0 LightMesh
+
+>>>>>> transform = p: (0.0, -1.5, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = LemmyHangingLampSmall (UnityEngine.Mesh)
+>>>>>>v mesh = LemmyHangingLampSmall Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>>GameObject Children 0 CrystalMesh
+
+>>>>>>> transform = p: (0.0, 0.0, 0.3) r: (270.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = CrystalMeshSmall (UnityEngine.Mesh)
+>>>>>>>v mesh = CrystalMeshSmall Instance (UnityEngine.Mesh)
+
+>>>>>>>GameObject Children 0 CrystalLight
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.7) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.Light
+>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>v type = Point
+>>>>>>>>v shape = Cone
+>>>>>>>>v spotAngle = 30
+>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>v color = RGBA(0.981, 0.961, 0.245, 1.000)
+>>>>>>>>v colorTemperature = 6570
+>>>>>>>>v useColorTemperature = False
+>>>>>>>>v intensity = 7,52
+>>>>>>>>v bounceIntensity = 1
+>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>v shadowBias = 0,05
+>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>v range = 25
+>>>>>>>>v flare = 
+>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>v cullingMask = -1
+>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>v shadows = None
+>>>>>>>>v shadowStrength = 1
+>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>v shadowSoftness = 4
+>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>v cookieSize = 10
+>>>>>>>>v cookie = 
+>>>>>>>>v renderMode = Auto
+>>>>>>>>v bakedIndex = 0
+>>>>>>>>v commandBufferCount = 0
+>>>>>>>>v pixelLightCount = 4
+>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>v attenuate = True
+
+>>>>>>>> RoR2.FlickerLight
+>>>>>>>>v light = CrystalLight (UnityEngine.Light)
+>>>>>>>>v sinWaves = Wave[]
+>>>>>>>>v initialLightIntensity = 0
+>>>>>>>>v stopwatch = 0
+>>>>>>>>v randomPhase = 0
+
+>>>GameObject Children 128 DCHangingLightSmallLongChain
+
+>>>> transform = p: (100.5, -23.1, 0.6) r: (0.0, 0.0, 0.0) s: (4.7, 4.7, 4.7)
+>>>>GameObject Children 0 ChainStart
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> LineBetweenTransforms
+>>>>>v _transformNodes = UnityEngine.Transform[]
+>>>>>v lineRenderer = 
+>>>>>v vertexList = UnityEngine.Vector3[]
+>>>>>v transformNodes = UnityEngine.Transform[]
+
+>>>>> UnityEngine.LineRenderer
+>>>>>v numPositions = 4
+>>>>>v startWidth = 0,1728973
+>>>>>v endWidth = 0,1728973
+>>>>>v widthMultiplier = 0,5
+>>>>>v numCornerVertices = 0
+>>>>>v numCapVertices = 0
+>>>>>v useWorldSpace = True
+>>>>>v loop = False
+>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>v positionCount = 4
+>>>>>v shadowBias = 0,5
+>>>>>v generateLightingData = False
+>>>>>v textureMode = Tile
+>>>>>v alignment = View
+>>>>>v widthCurve = UnityEngine.AnimationCurve
+>>>>>v colorGradient = UnityEngine.Gradient
+
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = False
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = True
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>GameObject Children 1 ChainJoint1
+
+>>>>> transform = p: (0.0, -2.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = True
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.SphereCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v radius = 0,42
+
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>GameObject Children 2 ChainJoint2
+
+>>>>> transform = p: (0.0, -4.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = False
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.SphereCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v radius = 0,42
+
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>GameObject Children 3 ChainEnd
+
+>>>>> transform = p: (0.0, -6.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = False
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>> RoR2.ApplyForceOnStart
+>>>>>v localForce = (25.0, 0.0, 25.0)
+
+>>>>> UnityEngine.CapsuleCollider
+>>>>>v center = (0.0, -0.8, 0.0)
+>>>>>v radius = 0,62
+>>>>>v height = 1,89
+>>>>>v direction = 1
+
+>>>>>GameObject Children 0 LightMesh
+
+>>>>>> transform = p: (0.0, -1.5, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = LemmyHangingLampSmall (UnityEngine.Mesh)
+>>>>>>v mesh = LemmyHangingLampSmall Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>>GameObject Children 0 CrystalMesh
+
+>>>>>>> transform = p: (0.0, 0.0, 0.3) r: (270.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = CrystalMeshSmall (UnityEngine.Mesh)
+>>>>>>>v mesh = CrystalMeshSmall Instance (UnityEngine.Mesh)
+
+>>>>>>>GameObject Children 0 CrystalLight
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.7) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.Light
+>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>v type = Point
+>>>>>>>>v shape = Cone
+>>>>>>>>v spotAngle = 30
+>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>v color = RGBA(0.981, 0.961, 0.245, 1.000)
+>>>>>>>>v colorTemperature = 6570
+>>>>>>>>v useColorTemperature = False
+>>>>>>>>v intensity = 7,52
+>>>>>>>>v bounceIntensity = 1
+>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>v shadowBias = 0,05
+>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>v range = 25
+>>>>>>>>v flare = 
+>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>v cullingMask = -1
+>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>v shadows = None
+>>>>>>>>v shadowStrength = 1
+>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>v shadowSoftness = 4
+>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>v cookieSize = 10
+>>>>>>>>v cookie = 
+>>>>>>>>v renderMode = Auto
+>>>>>>>>v bakedIndex = 0
+>>>>>>>>v commandBufferCount = 0
+>>>>>>>>v pixelLightCount = 4
+>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>v attenuate = True
+
+>>>>>>>> RoR2.FlickerLight
+>>>>>>>>v light = CrystalLight (UnityEngine.Light)
+>>>>>>>>v sinWaves = Wave[]
+>>>>>>>>v initialLightIntensity = 0
+>>>>>>>>v stopwatch = 0
+>>>>>>>>v randomPhase = 0
+
+>>>GameObject Children 129 DCHangingLightSmallLongChain (1)
+
+>>>> transform = p: (121.3, -22.5, -30.7) r: (0.0, 0.0, 0.0) s: (4.7, 4.7, 4.7)
+>>>>GameObject Children 0 ChainStart
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> LineBetweenTransforms
+>>>>>v _transformNodes = UnityEngine.Transform[]
+>>>>>v lineRenderer = 
+>>>>>v vertexList = UnityEngine.Vector3[]
+>>>>>v transformNodes = UnityEngine.Transform[]
+
+>>>>> UnityEngine.LineRenderer
+>>>>>v numPositions = 4
+>>>>>v startWidth = 0,1728973
+>>>>>v endWidth = 0,1728973
+>>>>>v widthMultiplier = 0,5
+>>>>>v numCornerVertices = 0
+>>>>>v numCapVertices = 0
+>>>>>v useWorldSpace = True
+>>>>>v loop = False
+>>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>>v positionCount = 4
+>>>>>v shadowBias = 0,5
+>>>>>v generateLightingData = False
+>>>>>v textureMode = Tile
+>>>>>v alignment = View
+>>>>>v widthCurve = UnityEngine.AnimationCurve
+>>>>>v colorGradient = UnityEngine.Gradient
+
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = False
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = True
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>GameObject Children 1 ChainJoint1
+
+>>>>> transform = p: (0.0, -2.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = True
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.SphereCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v radius = 0,42
+
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>GameObject Children 2 ChainJoint2
+
+>>>>> transform = p: (0.0, -4.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = False
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.SphereCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v radius = 0,42
+
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>GameObject Children 3 ChainEnd
+
+>>>>> transform = p: (0.0, -6.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Rigidbody
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v drag = 0
+>>>>>v angularDrag = 0,05
+>>>>>v mass = 1
+>>>>>v useGravity = True
+>>>>>v maxDepenetrationVelocity = 1E+32
+>>>>>v isKinematic = False
+>>>>>v freezeRotation = False
+>>>>>v constraints = None
+>>>>>v collisionDetectionMode = Discrete
+>>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>>v detectCollisions = True
+>>>>>v position = (0.0, 0.0, 0.0)
+>>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v interpolation = Interpolate
+>>>>>v solverIterations = 6
+>>>>>v sleepThreshold = 0,005
+>>>>>v maxAngularVelocity = 7
+>>>>>v solverVelocityIterations = 1
+>>>>>v sleepVelocity = 0
+>>>>>v sleepAngularVelocity = 0
+>>>>>v useConeFriction = False
+>>>>>v solverIterationCount = 6
+>>>>>v solverVelocityIterationCount = 1
+
+>>>>> UnityEngine.SpringJoint
+>>>>>v spring = 30
+>>>>>v damper = 0,2
+>>>>>v minDistance = 0
+>>>>>v maxDistance = 0
+>>>>>v tolerance = 0,025
+
+>>>>> RoR2.ApplyForceOnStart
+>>>>>v localForce = (25.0, 0.0, 25.0)
+
+>>>>> UnityEngine.CapsuleCollider
+>>>>>v center = (0.0, -0.8, 0.0)
+>>>>>v radius = 0,62
+>>>>>v height = 1,89
+>>>>>v direction = 1
+
+>>>>>GameObject Children 0 LightMesh
+
+>>>>>> transform = p: (0.0, -1.5, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = LemmyHangingLampSmall (UnityEngine.Mesh)
+>>>>>>v mesh = LemmyHangingLampSmall Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>>GameObject Children 0 CrystalMesh
+
+>>>>>>> transform = p: (0.0, 0.0, 0.3) r: (270.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = CrystalMeshSmall (UnityEngine.Mesh)
+>>>>>>>v mesh = CrystalMeshSmall Instance (UnityEngine.Mesh)
+
+>>>>>>>GameObject Children 0 CrystalLight
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.7) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.Light
+>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>v type = Point
+>>>>>>>>v shape = Cone
+>>>>>>>>v spotAngle = 30
+>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>v color = RGBA(0.981, 0.961, 0.245, 1.000)
+>>>>>>>>v colorTemperature = 6570
+>>>>>>>>v useColorTemperature = False
+>>>>>>>>v intensity = 7,52
+>>>>>>>>v bounceIntensity = 1
+>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>v shadowBias = 0,05
+>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>v range = 25
+>>>>>>>>v flare = 
+>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>v cullingMask = -1
+>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>v shadows = None
+>>>>>>>>v shadowStrength = 1
+>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>v shadowSoftness = 4
+>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>v cookieSize = 10
+>>>>>>>>v cookie = 
+>>>>>>>>v renderMode = Auto
+>>>>>>>>v bakedIndex = 0
+>>>>>>>>v commandBufferCount = 0
+>>>>>>>>v pixelLightCount = 4
+>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>v attenuate = True
+
+>>>>>>>> RoR2.FlickerLight
+>>>>>>>>v light = CrystalLight (UnityEngine.Light)
+>>>>>>>>v sinWaves = Wave[]
+>>>>>>>>v initialLightIntensity = 0
+>>>>>>>>v stopwatch = 0
+>>>>>>>>v randomPhase = 0
+
+>>GameObject Children 7 Terrain (4)
+
+>>> transform = p: (5.9, 4.3, 8.8) r: (274.7, 327.4, 294.7) s: (9.8, 13.2, 4.8)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = GPMeshBlender1 (UnityEngine.Mesh)
+>>>v mesh = GPMeshBlender1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 8 mdlBBBoulderMediumRound1 (20)
+
+>>> transform = p: (-8.4, 3.8, 9.6) r: (69.0, 209.7, 191.9) s: (6.3, 6.3, 6.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v mesh = BBBoulderMediumRound1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 9 mdlBBBoulderMediumRound1 (21)
+
+>>> transform = p: (-14.0, 0.5, 5.5) r: (19.6, 216.8, 257.2) s: (5.5, 5.5, 5.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v mesh = BBBoulderMediumRound1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 10 Terrain (5)
+
+>>> transform = p: (10.2, 4.3, 0.7) r: (272.0, 143.2, 149.9) s: (9.8, 13.2, 3.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = GPMeshBlender1 (UnityEngine.Mesh)
+>>>v mesh = GPMeshBlender1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 11 mdlBBBoulderMediumRound1 (22)
+
+>>> transform = p: (8.9, 0.5, 16.1) r: (19.4, 172.6, 221.5) s: (5.5, 5.5, 5.5)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v mesh = BBBoulderMediumRound1 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = BBBoulderMediumRound1 (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>GameObject Children 3 Ring
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 90.0) s: (13.0, 26.0, 26.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = GPRuinCircle1 (UnityEngine.Mesh)
+>>v mesh = GPRuinCircle1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 4 Camera Position
+
+>> transform = p: (-70.3, 52.1, -33.9) r: (28.7, 63.6, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 5 Focus Point
+
+>> transform = p: (0.0, 6.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

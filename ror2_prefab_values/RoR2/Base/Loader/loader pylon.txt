@@ -1,0 +1,110 @@
+Key Path : RoR2/Base/Loader/loader pylon.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : loader pylon
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = loader pylonAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 LoaderPylonArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (359.9, 5.7, 3.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 PylonBottom
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 185.7, 177.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 JetBottom1
+
+>>>>> transform = p: (0.6, 0.1, 0.0) r: (359.9, 5.7, 228.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 JetBottom1_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (359.9, 5.7, 228.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 JetBottom2
+
+>>>>> transform = p: (-0.3, 0.1, -0.5) r: (316.8, 349.1, 172.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 JetBottom2_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (316.8, 349.1, 172.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 JetBottom3
+
+>>>>> transform = p: (-0.3, 0.2, 0.5) r: (18.0, 323.2, 139.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 JetBottom3_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (18.0, 323.2, 139.8) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 PylonTop
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (359.9, 5.7, 3.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 JetTop1
+
+>>>>> transform = p: (-0.6, 0.3, 0.0) r: (43.2, 307.6, 23.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 JetTop1_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (43.2, 307.6, 23.2) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 JetTop2
+
+>>>>> transform = p: (0.3, 0.3, -0.5) r: (329.0, 29.5, 327.5) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 JetTop2_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (329.0, 29.5, 327.5) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 JetTop3
+
+>>>>> transform = p: (0.3, 0.3, 0.5) r: (335.2, 152.4, 36.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 JetTop3_end
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (335.2, 152.4, 36.9) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 LoaderPylonMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = LoaderPylonMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.2, 0.0), Extents: (1.1, 0.9, 1.0)

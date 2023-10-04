@@ -1,0 +1,257 @@
+Key Path : RoR2/Base/ShrineCombat/ShrineCombat.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ShrineCombat
+
+> transform = p: (68.0, -156.1, -212.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 05aa2e5a07d66144b96eef54fc9d8b4f
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 05aa2e5a07d66144b96eef54fc9d8b4f
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlShrineCombat (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = Base (UnityEngine.Transform)
+>v onModelChanged = 
+>v autoUpdateModelTransform = True
+>v dontDetatchFromParent = False
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlShrineCombat (UnityEngine.Transform)
+
+> RoR2.Highlight
+>v highlightList = System.Collections.Generic.List`1[RoR2.Highlight]
+>v _readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+>v displayNameProvider = 
+>v pickupIndex = ItemTier.Boss
+>v targetRenderer = mdlShrineCombat (UnityEngine.MeshRenderer)
+>v strength = 1
+>v highlightColor = interactive
+>v isOn = False
+>v readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+
+> RoR2.PurchaseInteraction
+>v displayNameToken = SHRINE_COMBAT_NAME
+>v contextToken = SHRINE_COMBAT_CONTEXT
+>v costType = None
+>v available = True
+>v cost = 0
+>v automaticallyScaleCostWithDifficulty = False
+>v requiredUnlockable = 
+>v ignoreSpherecastForInteractability = False
+>v purchaseStatNames = System.String[]
+>v setUnavailableOnTeleporterActivated = False
+>v isShrine = True
+>v isGoldShrine = False
+>v lastActivator = 
+>v lockGameObject = 
+>v rng = 
+>v sharedStringBuilder = 
+>v onItemSpentOnPurchase = 
+>v onEquipmentSpentOnPurchase = 
+>v onPurchase = RoR2.PurchaseEvent RoR2.PurchaseEvent
+>v ___lockGameObjectNetId = 0
+>v NetworkdisplayNameToken = SHRINE_COMBAT_NAME
+>v NetworkcontextToken = SHRINE_COMBAT_CONTEXT
+>v Networkavailable = True
+>v Networkcost = 0
+>v NetworklockGameObject = 
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = SHRINE_CHANCE_NAME
+
+> RoR2.ShrineCombatBehavior
+>v shrineEffectColor = RGBA(0.666, 0.533, 0.802, 1.000)
+>v maxPurchaseCount = 1
+>v baseMonsterCredit = 100
+>v monsterCreditCoefficientPerPurchase = 2
+>v symbolTransform = Symbol (UnityEngine.Transform)
+>v spawnPositionEffectPrefab = 
+>v combatDirector = 
+>v purchaseInteraction = 
+>v purchaseCount = 0
+>v refreshTimer = 0
+>v refreshDuration = 2
+>v waitingForRefresh = False
+>v chosenDirectorCard = 
+>v onDefeatedServerGlobal = 
+
+> RoR2.PurchaseAvailabilityIndicator
+>v indicatorObject = Symbol (UnityEngine.GameObject)
+>v disabledIndicatorObject = 
+>v animator = 
+>v mecanimBool = 
+>v purchaseInteraction = 
+
+> RoR2.DitherModel
+>v fade = 0
+>v bounds = mdlShrineCombat (UnityEngine.BoxCollider)
+>v renderers = UnityEngine.Renderer[]
+>v propertyStorage = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.DitherModel]
+
+> RoR2.CombatDirector
+>v customName = 
+>v monsterCredit = 0
+>v expRewardCoefficient = 0,2
+>v goldRewardCoefficient = 1
+>v minSeriesSpawnInterval = 0,5
+>v maxSeriesSpawnInterval = 0,5
+>v minRerollSpawnInterval = 0,1
+>v maxRerollSpawnInterval = 0,1
+>v moneyWaveIntervals = RoR2.RangeFloat[]
+>v teamIndex = Monster
+>v creditMultiplier = 1
+>v spawnDistanceMultiplier = 1
+>v maxSpawnDistance = +Infini
+>v minSpawnRange = 0
+>v shouldSpawnOneWave = True
+>v targetPlayers = False
+>v skipSpawnIfTooCheap = False
+>v resetMonsterCardIfFailed = True
+>v maximumNumberToSpawnBeforeSkipping = 6
+>v eliteBias = 1
+>v onSpawnedServer = RoR2.CombatDirector+OnSpawnedServer RoR2.CombatDirector+OnSpawnedServer
+>v combatSquad = ShrineCombat (RoR2.CombatSquad)
+>v spawnEffectPrefab = CombatShrineSpawnEffect (UnityEngine.GameObject)
+>v ignoreTeamSizeLimit = False
+>v _monsterCards = 
+>v fallBackToStageMonsterCards = True
+>v <monsterSpawnTimer>k__BackingField = 0
+>v <lastAttemptedMonsterCard>k__BackingField = 
+>v <totalCreditsSpent>k__BackingField = 0
+>v instancesList = System.Collections.Generic.List`1[RoR2.CombatDirector]
+>v hasStartedWave = False
+>v rng = 
+>v currentMonsterCard = 
+>v currentActiveEliteTier = 
+>v currentActiveEliteDef = 
+>v currentMonsterCardCost = 0
+>v monsterCardsSelection = 
+>v currentSpawnTarget = ShrineCombat (UnityEngine.GameObject)
+>v playerRetargetTimer = 0
+>v baseEliteCostMultiplier = 6
+>v eliteTiers = RoR2.CombatDirector+EliteTierDef[]
+>v spawnCountInCurrentWave = 0
+>v cvDirectorCombatDisable = RoR2.ConVar.BoolConVar
+>v cvDirectorCombatEnableInternalLogs = RoR2.ConVar.BoolConVar
+>v moneyWaves = 
+>v monsterSpawnTimer = 0
+>v lastAttemptedMonsterCard = 
+>v totalCreditsSpent = 0
+>v lowestEliteCostMultiplier = 6
+
+> RoR2.CombatSquad
+>v membersList = System.Collections.Generic.List`1[RoR2.CharacterMaster]
+>v memberHistory = System.Collections.Generic.List`1[UnityEngine.Networking.NetworkInstanceId]
+>v <readOnlyMembersList>k__BackingField = 
+>v propagateMembershipToSummons = False
+>v grantBonusHealthInMultiplayer = True
+>v onDestroyCallbacksServer = 
+>v defeatedServer = False
+>v membersListDirtyBit = 1
+>v allDirtyBits = 1
+>v awakeTime = RoR2.Run+FixedTimeStamp
+>v onDefeatedServer = 
+>v onDefeatedServerLogicEvent = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v onMemberDeathServer = 
+>v onMemberDefeatedServer = 
+>v onMemberAddedServer = 
+>v onMemberDiscovered = 
+>v onMemberLost = 
+>v readOnlyMembersList = 
+>v memberCount = 0
+
+>GameObject Children 0 Base
+
+>> transform = p: (0.0, -0.5, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlShrineCombat
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ShrineCombatMesh (UnityEngine.Mesh)
+>>>v mesh = ShrineCombatMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.EntityLocator
+>>>v entity = ShrineCombat (UnityEngine.GameObject)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 1.0)
+>>>v size = (2.9, 2.9, 1.9)
+>>>v extents = (1.4, 1.4, 1.0)
+
+>>> ChildLocator
+>>>v transformPairs = ChildLocator+NameTransformPair[]
+>>>v Count = 1
+
+>>>GameObject Children 0 Collision
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 0.5)
+>>>>v size = (2.9, 2.9, 0.9)
+>>>>v extents = (1.4, 1.4, 0.5)
+
+>>>> UnityEngine.CapsuleCollider
+>>>>v center = (0.0, 0.1, 3.0)
+>>>>v radius = 1
+>>>>v height = 4,474272
+>>>>v direction = 2
+
+>GameObject Children 1 Symbol
+
+>> transform = p: (0.0, 6.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]

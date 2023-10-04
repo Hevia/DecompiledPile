@@ -1,0 +1,83 @@
+Key Path : RoR2/Base/moon/MoonBridgeBase.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MoonBridgeBase
+
+> transform = p: (1559.0, 112.0, -583.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 Bridge
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (6.0, 6.0, 6.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Bridge_Base (UnityEngine.Mesh)
+>>v mesh = Moon_Bridge_Base Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = Moon_Bridge_Base (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>>GameObject Children 0 Water
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Moon_Bridge_Water (UnityEngine.Mesh)
+>>>v mesh = Moon_Bridge_Water Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdWater (RoR2.SurfaceDef)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (-1.0, 0.0, 0.1)
+>>>v size = (38.0, 15.1, 1.0)
+>>>v extents = (19.0, 7.5, 0.5)
+
+>GameObject Children 1 Bridge Column
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (6.0, 6.0, 6.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Bridge_Column (UnityEngine.Mesh)
+>>v mesh = Moon_Bridge_Column Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.BoxCollider
+>>v center = (-1.0, 0.0, -2.6)
+>>v size = (38.0, 20.0, 2.5)
+>>v extents = (19.0, 10.0, 1.3)
+
+>> UnityEngine.BoxCollider
+>>v center = (-0.9, 0.0, -60.8)
+>>v size = (26.7, 7.0, 118.9)
+>>v extents = (13.3, 3.5, 59.5)
+
+>GameObject Children 2 MoonPlatformThickLarge
+
+>> transform = p: (101.8, -172.0, -12.5) r: (270.0, 0.0, 0.0) s: (24.0, 6.0, 9.6)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Moon_Platform_Thick_Large (UnityEngine.Mesh)
+>>v mesh = Moon_Platform_Thick_Large Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.BoxCollider
+>>v center = (-1.0, -2.0, -0.7)
+>>v size = (14.0, 8.0, 2.6)
+>>v extents = (7.0, 4.0, 1.3)

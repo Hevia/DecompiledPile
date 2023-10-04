@@ -1,0 +1,839 @@
+Key Path : RoR2/Base/title/CU2 Props.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : CU2 Props
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 Weather (Locked Position/Rotation)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.WeatherParticles
+>>v resetPositionToZero = False
+>>v lockPosition = True
+>>v lockRotation = True
+>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>>GameObject Children 0 Dust
+
+>>> transform = p: (0.0, -0.2, -0.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.ParticleSystem
+>>>v startDelay = 0
+>>>v loop = True
+>>>v playOnAwake = True
+>>>v duration = 5
+>>>v playbackSpeed = 1
+>>>v enableEmission = True
+>>>v emissionRate = 5
+>>>v startSpeed = 0
+>>>v startSize = 0,1
+>>>v startColor = RGBA(0.000, 0.000, 0.000, 1.000)
+>>>v startRotation = 6,283185
+>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>v startLifetime = 3
+>>>v gravityModifier = 0
+>>>v maxParticles = 200
+>>>v simulationSpace = World
+>>>v scalingMode = Local
+>>>v automaticCullingEnabled = False
+>>>v isPlaying = False
+>>>v isEmitting = False
+>>>v isStopped = True
+>>>v isPaused = False
+>>>v particleCount = 0
+>>>v time = 0
+>>>v randomSeed = 0
+>>>v useAutoRandomSeed = True
+>>>v proceduralSimulationSupported = False
+>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>> UnityEngine.ParticleSystemRenderer
+>>>v alignment = View
+>>>v renderMode = Billboard
+>>>v sortMode = None
+>>>v lengthScale = 2
+>>>v velocityScale = 0,1
+>>>v cameraVelocityScale = 0
+>>>v normalDirection = 1
+>>>v shadowBias = 0
+>>>v sortingFudge = 0
+>>>v minParticleSize = 0
+>>>v maxParticleSize = 0,01
+>>>v pivot = (0.0, 0.0, 0.0)
+>>>v flip = (0.0, 0.0, 0.0)
+>>>v maskInteraction = None
+>>>v trailMaterial = 
+>>>v enableGPUInstancing = False
+>>>v allowRoll = True
+>>>v mesh = 
+>>>v meshCount = 0
+>>>v activeVertexStreamsCount = 4
+
+>>> RoR2.WeatherParticles
+>>>v resetPositionToZero = False
+>>>v lockPosition = True
+>>>v lockRotation = False
+>>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>GameObject Children 1 GlobalPostProcessVolume, CU 2
+
+>> transform = p: (0.0, 1.0, -11.0) r: (0.0, 11.5, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>>v sharedProfile = ppTitleCU2 (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>>v isGlobal = True
+>>v blendDistance = 0
+>>v weight = 1
+>>v priority = 2,2
+>>v m_PreviousLayer = 0
+>>v m_PreviousPriority = 0
+>>v m_TempColliders = 
+>>v m_InternalProfile = 
+>>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+>GameObject Children 2 WorldspaceStuff
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 VultureNest
+
+>>> transform = p: (-38.6, -6.7, 227.7) r: (276.6, 337.2, 29.3) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Mesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (276.6, 337.2, 29.3) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = VultureNeshMesh (UnityEngine.Mesh)
+>>>>v mesh = VultureNeshMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.AssignRandomMaterial
+>>>>v rend = Mesh (UnityEngine.MeshRenderer)
+>>>>v materials = UnityEngine.Material[]
+
+>>>GameObject Children 1 Mesh?
+
+>>>> transform = p: (0.0, 0.0, -0.5) r: (280.4, 281.4, 15.7) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = VultureNeshMesh.001 (UnityEngine.Mesh)
+>>>>v mesh = VultureNeshMesh.001 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.AssignRandomMaterial
+>>>>v rend = Mesh? (UnityEngine.MeshRenderer)
+>>>>v materials = UnityEngine.Material[]
+
+>>>GameObject Children 2 Spawner
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (276.6, 337.2, 29.3) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Mesh
+
+>>>>> transform = p: (0.1, 0.0, 0.6) r: (272.8, 168.6, 237.2) s: (3.9, 3.9, 3.9)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 Mesh
+
+>>>>> transform = p: (0.7, 0.2, 0.2) r: (285.8, 49.4, 276.0) s: (3.9, 3.9, 3.9)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 Mesh
+
+>>>>> transform = p: (0.5, -0.4, 0.4) r: (306.1, 30.4, 246.4) s: (3.3, 3.3, 3.3)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 RectShipTail
+
+>>> transform = p: (166.7, -4.3, 318.3) r: (38.4, 266.9, 179.8) s: (10.0, 10.0, 10.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = RectShipTail (UnityEngine.Mesh)
+>>>v mesh = RectShipTail Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = RectShipTail (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 0 Sound
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (38.4, 266.9, 179.8) s: (1.0, 1.0, 1.0)
+>>>> AkGameObj
+>>>>v m_listeners = AkGameObjListenerList
+>>>>v isEnvironmentAware = True
+>>>>v isStaticObject = False
+>>>>v m_Collider = 
+>>>>v m_envData = 
+>>>>v m_posData = 
+>>>>v m_positionOffsetData = AkGameObjPositionOffsetData
+>>>>v isRegistered = False
+>>>>v m_posOffsetData = 
+>>>>v AK_NUM_LISTENERS = 8
+>>>>v listenerMask = 1
+>>>>v IsUsingDefaultListeners = True
+>>>>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+>>>> UnityEngine.Rigidbody
+>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>v drag = 0
+>>>>v angularDrag = 0,05
+>>>>v mass = 1
+>>>>v useGravity = False
+>>>>v maxDepenetrationVelocity = 1E+32
+>>>>v isKinematic = True
+>>>>v freezeRotation = False
+>>>>v constraints = None
+>>>>v collisionDetectionMode = Discrete
+>>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>>v detectCollisions = True
+>>>>v position = (0.0, 0.0, 0.0)
+>>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>>v interpolation = None
+>>>>v solverIterations = 6
+>>>>v sleepThreshold = 0,005
+>>>>v maxAngularVelocity = 7
+>>>>v solverVelocityIterations = 1
+>>>>v sleepVelocity = 0
+>>>>v sleepAngularVelocity = 0
+>>>>v useConeFriction = False
+>>>>v solverIterationCount = 6
+>>>>v solverVelocityIterationCount = 1
+
+>>>> AkEvent
+>>>>v actionOnEventType = AkActionOnEventType_Stop
+>>>>v curveInterpolation = AkCurveInterpolation_Linear
+>>>>v enableActionOnEvent = False
+>>>>v data = Play_env_ship_interior_loop
+>>>>v useCallbacks = False
+>>>>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>>>>v playingId = 0
+>>>>v soundEmitterObject = 
+>>>>v transitionDuration = 0
+>>>>v EventCallbackMsg = 
+>>>>v eventIdInternal = 0
+>>>>v valueGuidInternal = System.Byte[]
+>>>>v m_callbackDataInternal = 
+>>>>v eventID = 2037610980
+>>>>v valueGuid = System.Byte[]
+>>>>v m_callbackData = 
+
+>>>> AkEvent
+>>>>v actionOnEventType = AkActionOnEventType_Stop
+>>>>v curveInterpolation = AkCurveInterpolation_Linear
+>>>>v enableActionOnEvent = False
+>>>>v data = Stop_env_ship_interior_loop
+>>>>v useCallbacks = False
+>>>>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>>>>v playingId = 0
+>>>>v soundEmitterObject = 
+>>>>v transitionDuration = 0
+>>>>v EventCallbackMsg = 
+>>>>v eventIdInternal = 0
+>>>>v valueGuidInternal = System.Byte[]
+>>>>v m_callbackDataInternal = 
+>>>>v eventID = -77355110
+>>>>v valueGuid = System.Byte[]
+>>>>v m_callbackData = 
+
+>>GameObject Children 2 RectShipMid
+
+>>> transform = p: (54.6, 8.6, 331.7) r: (71.8, 261.3, 228.9) s: (10.0, 10.0, 10.0)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = RectShipMiddle (UnityEngine.Mesh)
+>>>v mesh = RectShipMiddle Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = RectShipMiddle (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 3 VultureNest (1)
+
+>>> transform = p: (5.1, -6.4, 53.4) r: (280.4, 218.1, 162.1) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Mesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (280.4, 218.1, 162.1) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = VultureNeshMesh (UnityEngine.Mesh)
+>>>>v mesh = VultureNeshMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.AssignRandomMaterial
+>>>>v rend = Mesh (UnityEngine.MeshRenderer)
+>>>>v materials = UnityEngine.Material[]
+
+>>>GameObject Children 1 Mesh?
+
+>>>> transform = p: (0.0, 0.0, -0.5) r: (288.0, 235.6, 76.3) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = VultureNeshMesh.001 (UnityEngine.Mesh)
+>>>>v mesh = VultureNeshMesh.001 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.AssignRandomMaterial
+>>>>v rend = Mesh? (UnityEngine.MeshRenderer)
+>>>>v materials = UnityEngine.Material[]
+
+>>>GameObject Children 2 Spawner
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (280.4, 218.1, 162.1) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Mesh
+
+>>>>> transform = p: (0.1, 0.0, 0.6) r: (288.3, 197.2, 221.9) s: (3.9, 3.9, 3.9)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 Mesh
+
+>>>>> transform = p: (0.7, 0.2, 0.2) r: (281.4, 130.0, 207.2) s: (3.9, 3.9, 3.9)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 Mesh
+
+>>>>> transform = p: (0.5, -0.4, 0.4) r: (292.5, 58.2, 229.9) s: (3.3, 3.3, 3.3)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = VultureEggMesh (UnityEngine.Mesh)
+>>>>>v mesh = VultureEggMesh Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 MonsterSpinners
+
+>>> transform = p: (0.0, 86.8, 0.0) r: (0.0, 19.9, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Spinner1
+
+>>>> transform = p: (-454.0, 109.0, -141.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,3
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = Self
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,3
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = Self
+>>>>v reverse = False
+
+>>>>GameObject Children 0 mdlRoboBallBoss
+
+>>>>> transform = p: (-788.3, 9.0, 9.0) r: (0.0, 126.5, 0.0) s: (24.0, 24.0, 24.0)
+>>>>> UnityEngine.Animator
+>>>>>v isOptimizable = True
+>>>>>v isHuman = False
+>>>>>v hasRootMotion = False
+>>>>>v humanScale = 1
+>>>>>v isInitialized = False
+>>>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v applyRootMotion = False
+>>>>>v linearVelocityBlending = False
+>>>>>v animatePhysics = False
+>>>>>v updateMode = Normal
+>>>>>v hasTransformHierarchy = True
+>>>>>v gravityWeight = 0
+>>>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>>v stabilizeFeet = False
+>>>>>v layerCount = 0
+>>>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>>>v parameterCount = 0
+>>>>>v feetPivotActive = 0
+>>>>>v pivotWeight = 0
+>>>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>>>v isMatchingTarget = False
+>>>>>v speed = 1
+>>>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>>v cullingMode = CullUpdateTransforms
+>>>>>v playbackTime = -1
+>>>>>v recorderStartTime = -1
+>>>>>v recorderStopTime = -1
+>>>>>v recorderMode = Offline
+>>>>>v runtimeAnimatorController = animRoboBallBoss (UnityEngine.AnimatorController)
+>>>>>v hasBoundPlayables = False
+>>>>>v avatar = mdlRoboBallBossAvatar (UnityEngine.Avatar)
+>>>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>>>v layersAffectMassCenter = False
+>>>>>v leftFeetBottomHeight = 0
+>>>>>v rightFeetBottomHeight = 0
+>>>>>v logWarnings = True
+>>>>>v fireEvents = True
+>>>>>v keepAnimatorControllerStateOnDisable = False
+
+>>>>> DynamicBone
+>>>>>v m_Root = ROOT (UnityEngine.Transform)
+>>>>>v m_UpdateRate = 60
+>>>>>v m_UpdateMode = Normal
+>>>>>v m_Damping = 0,636
+>>>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Elasticity = 0,1
+>>>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Stiffness = 0,1
+>>>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Inert = 0
+>>>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>>>v m_Radius = 0
+>>>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>>>v m_EndLength = 0
+>>>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>>>v m_Force = (0.0, 0.0, 0.0)
+>>>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>>>v m_FreezeAxis = None
+>>>>>v m_DistantDisable = False
+>>>>>v m_ReferenceObject = 
+>>>>>v m_DistanceToObject = 20
+>>>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>>>v m_BoneTotalLength = 0
+>>>>>v m_ObjectScale = 1
+>>>>>v m_Time = 0
+>>>>>v m_Weight = 1
+>>>>>v m_DistantDisabled = False
+>>>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>>>GameObject Children 0 RoboBallBossArmature
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 ROOT
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 EyeBase
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.6) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Eyeball1
+
+>>>>>>>>> transform = p: (0.0, 0.1, -0.6) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Eyeball1_end
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 EyeballMuzzle1
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 1 Eyeball2
+
+>>>>>>>>> transform = p: (-0.5, 0.1, 0.3) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Eyeball2_end
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 EyeballMuzzle2
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 2 Eyeball3
+
+>>>>>>>>> transform = p: (0.5, 0.1, 0.3) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Eyeball3_end
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 EyeballMuzzle3
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 3 Point Light
+
+>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>> UnityEngine.Light
+>>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>>v type = Point
+>>>>>>>>>v shape = Cone
+>>>>>>>>>v spotAngle = 30
+>>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>>v color = RGBA(0.000, 0.769, 0.972, 1.000)
+>>>>>>>>>v colorTemperature = 6570
+>>>>>>>>>v useColorTemperature = False
+>>>>>>>>>v intensity = 64,82
+>>>>>>>>>v bounceIntensity = 1
+>>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>>v shadowBias = 0,05
+>>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>>v range = 5
+>>>>>>>>>v flare = 
+>>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>>v cullingMask = -1
+>>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>>v shadows = None
+>>>>>>>>>v shadowStrength = 1
+>>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>>v shadowSoftness = 4
+>>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>>v cookieSize = 10
+>>>>>>>>>v cookie = 
+>>>>>>>>>v renderMode = Auto
+>>>>>>>>>v bakedIndex = 0
+>>>>>>>>>v commandBufferCount = 0
+>>>>>>>>>v pixelLightCount = 4
+>>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>>v attenuate = True
+
+>>>>>>>>GameObject Children 4 MainEyeMuzzle
+
+>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 1 Hatch
+
+>>>>>>>> transform = p: (0.0, -1.2, -0.5) r: (273.2, 306.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Hatch_end
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (273.2, 306.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 2 Shell
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Shell_end
+
+>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 3 Tentacle1.1.l
+
+>>>>>>>> transform = p: (-0.7, -0.6, 0.3) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Tentacle1.2.l
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Tentacle1.3.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Tentacle1.4.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Tentacle1.5.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Tentacle1.6.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Tentacle1.7.l
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 Tentacle1.8.l
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 Tentacle1.8.l_end
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 4 Tentacle1.1.r
+
+>>>>>>>> transform = p: (0.7, -0.6, 0.3) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Tentacle1.2.r
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Tentacle1.3.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Tentacle1.4.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Tentacle1.5.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Tentacle1.6.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Tentacle1.7.r
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 Tentacle1.8.r
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 Tentacle1.8.r_end
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 5 Tentacle2.1.l
+
+>>>>>>>> transform = p: (-0.7, -0.6, -0.3) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Tentacle2.2.l
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Tentacle2.3.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Tentacle2.4.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Tentacle2.5.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Tentacle2.6.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Tentacle2.7.l
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 Tentacle2.8.l
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 Tentacle2.8.l_end
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 216.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 6 Tentacle2.1.r
+
+>>>>>>>> transform = p: (0.7, -0.6, -0.3) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Tentacle2.2.r
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Tentacle2.3.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Tentacle2.4.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Tentacle2.5.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Tentacle2.6.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 Tentacle2.7.r
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>GameObject Children 0 Tentacle2.8.r
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>>>GameObject Children 0 Tentacle2.8.r_end
+
+>>>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 36.5, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 7 SummonMuzzle
+
+>>>>>>>> transform = p: (0.0, -0.8, 0.0) r: (90.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 8 Center
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 Gyroscope
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>> MaintainRotation
+>>>>>>>v eulerAngles = (0.0, 0.0, 0.0)
+
+>>>>>>>GameObject Children 0 Spinner1
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>>>>v _speed = Fast
+>>>>>>>>v _slowRotationSpeed = 5
+>>>>>>>>v _fastRotationSpeed = 30
+>>>>>>>>v _rotateAroundAxis = Z
+>>>>>>>>v _relativeTo = Self
+>>>>>>>>v _reverse = False
+>>>>>>>>v speed = Fast
+>>>>>>>>v slowRotationSpeed = 5
+>>>>>>>>v fastRotationSpeed = 30
+>>>>>>>>v rotateAroundAxis = Z
+>>>>>>>>v relativeTo = Self
+>>>>>>>>v reverse = False
+
+>>>>>>>>GameObject Children 0 EyeBeam1
+
+>>>>>>>>> transform = p: (1.2, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 1 Spinner2
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>>>>v _speed = Fast
+>>>>>>>>v _slowRotationSpeed = 5
+>>>>>>>>v _fastRotationSpeed = 30
+>>>>>>>>v _rotateAroundAxis = Z
+>>>>>>>>v _relativeTo = Self
+>>>>>>>>v _reverse = False
+>>>>>>>>v speed = Fast
+>>>>>>>>v slowRotationSpeed = 5
+>>>>>>>>v fastRotationSpeed = 30
+>>>>>>>>v rotateAroundAxis = Z
+>>>>>>>>v relativeTo = Self
+>>>>>>>>v reverse = False
+
+>>>>>>>>GameObject Children 0 EyeBeam2
+
+>>>>>>>>> transform = p: (1.2, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 2 Spinner3
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>>>>v _speed = Fast
+>>>>>>>>v _slowRotationSpeed = 5
+>>>>>>>>v _fastRotationSpeed = 30
+>>>>>>>>v _rotateAroundAxis = Z
+>>>>>>>>v _relativeTo = Self
+>>>>>>>>v _reverse = False
+>>>>>>>>v speed = Fast
+>>>>>>>>v slowRotationSpeed = 5
+>>>>>>>>v fastRotationSpeed = 30
+>>>>>>>>v rotateAroundAxis = Z
+>>>>>>>>v relativeTo = Self
+>>>>>>>>v reverse = False
+
+>>>>>>>>GameObject Children 0 EyeBeam3
+
+>>>>>>>>> transform = p: (1.2, 0.0, 0.0) r: (90.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 RoboBallBossMesh
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 126.5, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>>v quality = Auto
+>>>>>>v updateWhenOffscreen = False
+>>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>>v bones = UnityEngine.Transform[]
+>>>>>>v sharedMesh = RoboBallBossMesh (UnityEngine.Mesh)
+>>>>>>v skinnedMotionVectors = True
+>>>>>>v localBounds = Center: (0.0, -0.4, 0.0), Extents: (1.2, 1.5, 1.2)
+
+>>GameObject Children 5 TorusShip Round (1)
+
+>>> transform = p: (256.2, 66.8, 265.6) r: (25.2, 150.8, 212.3) s: (32.6, 32.6, 32.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = TorusShipRound (UnityEngine.Mesh)
+>>>v mesh = TorusShipRound Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = TorusShipRound (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 6 TorusShip Round (2)
+
+>>> transform = p: (-175.3, 8.4, 240.4) r: (295.8, 300.2, 168.6) s: (32.6, 32.6, 32.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = TorusShipRound (UnityEngine.Mesh)
+>>>v mesh = TorusShipRound Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = TorusShipRound (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 7 TorusShip Round
+
+>>> transform = p: (-129.0, -4.9, 373.8) r: (31.7, 182.3, 152.6) s: (32.6, 32.6, 32.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = TorusShipRound (UnityEngine.Mesh)
+>>>v mesh = TorusShipRound Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = TorusShipRound (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)

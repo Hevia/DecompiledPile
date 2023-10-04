@@ -1,0 +1,46 @@
+Key Path : RoR2/Base/Loader/LoaderHookGhost.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : LoaderHookGhost
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.WinchControl
+>v tailTransform = OwnerAttachmentPoint (UnityEngine.Transform)
+>v attachmentString = HandR
+>v projectileGhostController = 
+>v attachmentTransform = 
+
+> RoR2.Projectile.ProjectileGhostController
+>v transform = 
+>v migration = 0
+>v <authorityTransform>k__BackingField = 
+>v <predictionTransform>k__BackingField = 
+>v inheritScaleFromProjectile = False
+>v authorityTransform = 
+>v predictionTransform = 
+
+>GameObject Children 0 OwnerAttachmentPoint
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 LineRenderer
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 2
+>>v startWidth = 0,1840286
+>>v endWidth = 0,1840286
+>>v widthMultiplier = 1
+>>v numCornerVertices = 0
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v positionCount = 2
+>>v shadowBias = 0,5
+>>v generateLightingData = False
+>>v textureMode = Tile
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> BeamPointsFromTransforms
+>>v target = LineRenderer (UnityEngine.LineRenderer)
+>>v pointTransforms = UnityEngine.Transform[]

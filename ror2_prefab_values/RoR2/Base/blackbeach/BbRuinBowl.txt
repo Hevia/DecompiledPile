@@ -1,0 +1,153 @@
+Key Path : RoR2/Base/blackbeach/BbRuinBowl.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : BbRuinBowl
+
+> transform = p: (33.3, -240.3, -116.2) r: (270.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>GameObject Children 0 Point light
+
+>> transform = p: (0.0, 0.0, 0.5) r: (270.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Point
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(1.000, 0.797, 0.132, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 1,5
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 21,86
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = None
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>GameObject Children 1 BbRuinBowl_LOD0
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BbRuinBowl_LOD0 (UnityEngine.Mesh)
+>>v mesh = BbRuinBowl_LOD0 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = BbRuinBowl_LOD0 (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>GameObject Children 2 GlowyBall
+
+>> transform = p: (0.6, -0.4, 0.8) r: (45.0, 0.0, 0.0) s: (2.7, 2.7, 2.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]
+
+>GameObject Children 3 GlowyBall
+
+>> transform = p: (-0.2, -1.4, 0.6) r: (45.0, 0.0, 0.0) s: (1.4, 1.4, 1.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]
+
+>GameObject Children 4 GlowyBall
+
+>> transform = p: (-0.5, -0.2, 0.6) r: (45.0, 0.0, 0.0) s: (1.7, 1.7, 1.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]
+
+>GameObject Children 5 GlowyBall
+
+>> transform = p: (-0.7, -0.9, 0.4) r: (45.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]
+
+>GameObject Children 6 GlowyBall
+
+>> transform = p: (-1.0, -1.6, 0.4) r: (45.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]
+
+>GameObject Children 7 GlowyBall
+
+>> transform = p: (-1.2, -0.6, 0.3) r: (45.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]

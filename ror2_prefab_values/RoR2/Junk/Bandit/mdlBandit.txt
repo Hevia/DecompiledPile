@@ -1,0 +1,493 @@
+Key Path : RoR2/Junk/Bandit/mdlBandit.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlBandit
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlBanditAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 BanditArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 IKArmTarget.l
+
+>>> transform = p: (-0.3, 0.3, 1.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 IKArmPole.l
+
+>>>> transform = p: (-1.1, 0.3, 0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKArmPole.l_end
+
+>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 IKArmTarget.r
+
+>>> transform = p: (-0.2, -0.4, 1.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 IKArmPole.r
+
+>>>> transform = p: (0.8, -0.9, 0.4) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKArmPole.r_end
+
+>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.3) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 base
+
+>>>> transform = p: (0.0, 1.2, -0.3) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 pelvis
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 coatTailCenter.1
+
+>>>>>> transform = p: (0.1, 0.0, 0.1) r: (350.9, 141.7, 176.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 coatTailCenter.2
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (351.7, 144.1, 175.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 coatTailCenter.3
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (355.5, 144.7, 178.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 coatTailCenter.4
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (352.6, 144.8, 178.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 coatTailCenter.4_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (352.6, 144.8, 178.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 coatTailFrontLeft.1
+
+>>>>>> transform = p: (0.2, 0.0, -0.1) r: (11.2, 177.5, 169.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 coatTailFrontLeft.2
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (14.3, 175.5, 169.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 coatTailFrontLeft.3
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (7.4, 176.9, 169.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 coatTailFrontLeft.4
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (1.1, 174.0, 179.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 coatTailFrontLeft.4_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (1.1, 174.0, 179.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 coatTailFrontRight.1
+
+>>>>>> transform = p: (-0.2, 0.0, 0.1) r: (7.5, 137.4, 184.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 coatTailFrontRight.2
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (10.8, 135.1, 183.3) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 coatTailFrontRight.3
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (3.8, 137.1, 185.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 coatTailFrontRight.4
+
+>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (356.0, 138.2, 186.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 coatTailFrontRight.4_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (356.0, 138.2, 186.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 thigh.l
+
+>>>>>> transform = p: (-0.1, 0.1, 0.0) r: (348.0, 273.0, 173.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 calf.l
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (355.6, 91.9, 186.6) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 foot.l
+
+>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (88.9, 288.1, 359.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 toe.l
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 108.1, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.l_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 108.1, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 4 thigh.r
+
+>>>>>> transform = p: (0.1, 0.1, 0.0) r: (346.9, 6.1, 183.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 calf.r
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (354.1, 186.8, 175.4) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 foot.r
+
+>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (88.9, 0.1, 0.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 toe.r
+
+>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 toe.r_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 stomach
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (356.6, 301.8, 6.3) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 chest
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (1.9, 258.1, 356.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 head
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (13.6, 289.9, 359.8) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 hat
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (353.8, 290.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 hatJiggle2
+
+>>>>>>>>> transform = p: (0.0, 0.0, 0.2) r: (78.8, 290.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 hatJiggle2_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (78.8, 290.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 1 hatJiggle3
+
+>>>>>>>>> transform = p: (0.0, -0.1, -0.2) r: (291.2, 110.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 hatJiggle3_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (291.2, 110.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 2 hatJiggleSide.l
+
+>>>>>>>>> transform = p: (-0.2, 0.0, 0.0) r: (327.8, 282.5, 100.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 hatJiggleSide.l_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (327.8, 282.5, 100.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 3 hatJiggleSide.r
+
+>>>>>>>>> transform = p: (0.2, 0.0, 0.0) r: (53.4, 279.3, 254.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 hatJiggleSide.r_end
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (53.4, 279.3, 254.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 upper_arm.l
+
+>>>>>>> transform = p: (-0.2, 0.4, 0.0) r: (26.3, 330.9, 131.7) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 lower_arm.l
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (32.7, 92.7, 147.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 hand.l
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (353.2, 277.0, 222.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 finger1.1.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (12.2, 71.0, 138.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger1.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (46.8, 317.5, 234.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1.3.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (52.0, 35.5, 295.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1.3.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (52.0, 35.5, 295.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 finger1IKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (349.5, 300.0, 33.4) s: (0.7, 0.7, 0.7)
+>>>>>>>>>>GameObject Children 0 finger1IKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (329.3, 2.9, 3.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1IKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (329.3, 2.9, 3.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 finger2.1.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (338.7, 97.8, 154.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger2.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (33.4, 93.8, 328.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2.3.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (345.0, 123.0, 325.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger2.3.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (345.0, 123.0, 325.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 3 finger2IKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (349.5, 300.0, 33.4) s: (1.4, 1.4, 1.4)
+>>>>>>>>>>GameObject Children 0 finger2IKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (329.3, 2.9, 3.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2IKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (329.3, 2.9, 3.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 4 finger3.1.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (356.8, 87.5, 148.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger3.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (62.3, 46.5, 296.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger3.3.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (18.2, 101.6, 328.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger3.3.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (18.2, 101.6, 328.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 5 finger3IKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (349.1, 299.9, 34.2) s: (1.1, 1.1, 1.1)
+>>>>>>>>>>GameObject Children 0 finger3IKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (328.5, 2.9, 3.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger3IKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (328.5, 2.9, 3.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 6 finger4.1.l
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (341.7, 98.8, 144.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger4.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (50.6, 51.3, 298.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger4.3.l
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (14.4, 96.9, 321.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger4.3.l_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (14.4, 96.9, 321.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 7 finger4IKBender.l
+
+>>>>>>>>>> transform = p: (0.1, 0.2, -0.1) r: (346.8, 299.0, 38.8) s: (1.3, 1.3, 1.3)
+>>>>>>>>>>GameObject Children 0 finger4IKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (323.5, 2.5, 3.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger4IKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (323.5, 2.5, 3.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 8 ShotgunBone
+
+>>>>>>>>>> transform = p: (-0.1, 0.2, 0.0) r: (89.2, 315.2, 320.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 BanditShotgunMesh
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.1) r: (270.8, 215.2, 140.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>>>v sharedMesh = BanditShotgunMesh (UnityEngine.Mesh)
+>>>>>>>>>>>v mesh = BanditShotgunMesh Instance (UnityEngine.Mesh)
+
+>>>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>>>>GameObject Children 1 ShotgunPump
+
+>>>>>>>>>>> transform = p: (0.0, 0.5, -0.1) r: (0.6, 175.2, 180.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 ShotgunPump_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (0.6, 175.2, 180.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 9 thumb.1.l
+
+>>>>>>>>>> transform = p: (-0.1, 0.1, 0.0) r: (333.6, 92.2, 169.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 thumb.2.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (339.8, 272.1, 186.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumb.2.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (339.8, 272.1, 186.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 10 thumbIKBender.l
+
+>>>>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (339.4, 328.3, 64.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 thumbIKTarget.l
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (306.2, 2.3, 5.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumbIKTarget.l_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (306.2, 2.3, 5.4) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 upper_arm.r
+
+>>>>>>> transform = p: (0.2, 0.4, 0.0) r: (12.5, 295.1, 199.9) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 lower_arm.r
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (12.2, 192.0, 244.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 hand.r
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (61.1, 53.2, 135.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 finger1.1.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (282.6, 281.2, 177.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger1.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (13.8, 276.6, 5.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1.3.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (326.3, 272.5, 4.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1.3.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (326.3, 272.5, 4.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 1 finger1IKBender.r
+
+>>>>>>>>>> transform = p: (0.1, 0.2, -0.1) r: (49.8, 16.9, 290.9) s: (0.7, 0.7, 0.7)
+>>>>>>>>>>GameObject Children 0 finger1IKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (351.5, 354.9, 287.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1IKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (351.5, 354.9, 287.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 2 finger2.1.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (283.5, 86.1, 7.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger2.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (4.8, 273.2, 4.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2.3.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (330.0, 270.1, 4.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger2.3.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (330.0, 270.1, 4.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 3 finger2IKBender.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (49.8, 16.9, 290.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger2IKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (351.5, 354.9, 287.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2IKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (351.5, 354.9, 287.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 4 finger3.1.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (275.1, 88.7, 9.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger3.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (33.4, 281.8, 5.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger3.3.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (9.5, 280.1, 2.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger3.3.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (9.5, 280.1, 2.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 5 finger3IKBender.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (49.5, 17.5, 290.6) s: (0.8, 0.8, 0.8)
+>>>>>>>>>>GameObject Children 0 finger3IKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (351.2, 355.7, 287.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger3IKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (351.2, 355.7, 287.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 6 finger4.1.r
+
+>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (281.5, 107.4, 349.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger4.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (33.5, 285.0, 12.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger4.3.r
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (14.5, 281.6, 9.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger4.3.r_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (14.5, 281.6, 9.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 7 finger4IKBender.r
+
+>>>>>>>>>> transform = p: (0.0, 0.2, -0.1) r: (48.2, 20.6, 288.5) s: (0.7, 0.7, 0.7)
+>>>>>>>>>>GameObject Children 0 finger4IKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (349.7, 0.5, 286.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger4IKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (349.7, 0.5, 286.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 8 thumb.1.r
+
+>>>>>>>>>> transform = p: (0.1, 0.1, 0.0) r: (328.7, 69.3, 343.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 thumb.2.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (62.7, 274.2, 14.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumb.2.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (62.7, 274.2, 14.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 9 thumbIKBender.r
+
+>>>>>>>>>> transform = p: (0.1, 0.1, -0.2) r: (23.5, 1.4, 243.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 thumbIKTarget.r
+
+>>>>>>>>>>> transform = p: (0.0, 0.1, 0.0) r: (344.4, 17.4, 281.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumbIKTarget.r_end
+
+>>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (344.4, 17.4, 281.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 PistolBone
+
+>>>>>> transform = p: (0.2, 0.1, 0.0) r: (3.7, 302.1, 198.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 BanditPistolMesh
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 302.1, 18.7) s: (0.8, 0.8, 0.8)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = BanditPistolMesh (UnityEngine.Mesh)
+>>>>>>>v mesh = BanditPistolMesh Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>GameObject Children 1 PistolBone_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (3.7, 302.1, 198.8) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 IKLegTarget.l
+
+>>>> transform = p: (-0.2, 0.0, -0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKLegPole.l
+
+>>>>> transform = p: (-0.5, -0.1, -0.2) r: (284.4, 279.7, 260.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKLegPole.l_end
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (284.4, 279.7, 260.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 IKLegTarget.r
+
+>>>> transform = p: (0.2, 0.0, 0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKLegPole.r
+
+>>>>> transform = p: (0.0, -0.7, 0.0) r: (284.4, 80.3, 100.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 IKLegPole.r_end
+
+>>>>>> transform = p: (0.0, 0.1, 0.0) r: (284.4, 80.3, 100.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 BanditCoatMesh
+
+>> transform = p: (0.0, 0.0, -0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = BanditCoatMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 1.2, -0.1), Extents: (0.5, 0.8, 0.5)
+
+>GameObject Children 2 BanditMesh
+
+>> transform = p: (0.0, 0.0, -0.1) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = BanditMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 1.2, 0.0), Extents: (0.4, 1.2, 0.5)

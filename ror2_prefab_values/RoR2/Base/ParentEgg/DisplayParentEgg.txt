@@ -1,0 +1,156 @@
+Key Path : RoR2/Base/ParentEgg/DisplayParentEgg.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayParentEgg
+
+> transform = p: (40.2, 51.4, 194.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlParentEgg
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = 
+>>v hasBoundPlayables = False
+>>v avatar = mdlParentEggAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 GrandParentEggArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> DynamicBone
+>>>v m_Root = GrandParentEggArmature (UnityEngine.Transform)
+>>>v m_UpdateRate = 60
+>>>v m_UpdateMode = Normal
+>>>v m_Damping = 0,255
+>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>v m_Elasticity = 0,094
+>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>v m_Stiffness = 0,847
+>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>v m_Inert = 0
+>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>v m_Radius = 0
+>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>v m_EndLength = 0
+>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>v m_Force = (0.0, 0.0, 0.0)
+>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>v m_FreezeAxis = None
+>>>v m_DistantDisable = False
+>>>v m_ReferenceObject = 
+>>>v m_DistanceToObject = 20
+>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>v m_BoneTotalLength = 0
+>>>v m_ObjectScale = 1
+>>>v m_Time = 0
+>>>v m_Weight = 1
+>>>v m_DistantDisabled = False
+>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>GameObject Children 0 ROOT
+
+>>>> transform = p: (0.0, 0.2, -0.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Pelvis
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (280.7, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Legs
+
+>>>>>> transform = p: (0.0, 0.3, 0.0) r: (294.1, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Legs_end
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (294.1, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Stomach
+
+>>>>> transform = p: (0.0, 0.2, 0.0) r: (330.4, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Chest
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (46.9, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Head
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (46.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Head_end
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (46.2, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 mdlGrandParentEgg
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlGrandParentEgg (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.6, 0.2), Extents: (1.0, 1.3, 1.0)
+
+>>GameObject Children 2 mdlGrandParentEggBaby
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlGrandParentEggBaby (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.6, 0.2), Extents: (0.7, 1.0, 0.9)
+
+>>GameObject Children 3 mdlGrandParentEggOuterShell
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlGrandParentEggOuterShell (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.6, 0.2), Extents: (1.1, 1.4, 1.1)

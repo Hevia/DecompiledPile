@@ -1,0 +1,28 @@
+Key Path : RoR2/DLC1/MoveSpeedOnKill/PickupGrappleHook.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupGrappleHook
+
+> transform = p: (-2.7, -147.0, -18.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.8, -0.5, 0.0)
+>v minDistance = 1
+>v maxDistance = 3
+>v cameraDirection = (0.0, 1.0, 0.4)
+
+>GameObject Children 0 mdlGrappleHookPickup
+
+>> transform = p: (0.0, 0.0, 0.3) r: (333.0, 325.9, 0.0) s: (0.0, 0.0, 0.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlGrappleHookPickup (UnityEngine.Mesh)
+>>v mesh = mdlGrappleHookPickup Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.4, 0.0, -0.2) r: (0.0, 270.0, 66.1) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.4, -1.0, -0.6) r: (0.0, 270.0, 66.1) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,156 @@
+Key Path : RoR2/Base/Meteor/MeteorStorm.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MeteorStorm
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 6003a355a7b5b244d8f05d6428f2dca6
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 6003a355a7b5b244d8f05d6428f2dca6
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.MeteorStormController
+>v waveCount = 20
+>v waveMinInterval = 0,5
+>v waveMaxInterval = 1,5
+>v warningEffectPrefab = MeteorStrikePredictionEffect (UnityEngine.GameObject)
+>v travelEffectPrefab = 
+>v travelEffectDuration = 0
+>v impactEffectPrefab = MeteorStrikeImpact (UnityEngine.GameObject)
+>v impactDelay = 2
+>v blastDamageCoefficient = 6
+>v blastRadius = 8
+>v blastForce = 4000
+>v owner = 
+>v ownerDamage = 0
+>v isCrit = False
+>v onDestroyEvents = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v meteorList = 
+>v waveList = 
+>v wavesPerformed = 0
+>v waveTimer = 0
+
+> AkGameObj
+>v m_listeners = AkGameObjListenerList
+>v isEnvironmentAware = True
+>v isStaticObject = False
+>v m_Collider = 
+>v m_envData = 
+>v m_posData = 
+>v m_positionOffsetData = AkGameObjPositionOffsetData
+>v isRegistered = False
+>v m_posOffsetData = 
+>v AK_NUM_LISTENERS = 8
+>v listenerMask = 1
+>v IsUsingDefaultListeners = True
+>v ListenerList = System.Collections.Generic.List`1[AkAudioListener]
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_item_use_meteor_storm_start
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = -395441067
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_item_use_meteor_storm_end
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = 149370750
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+>GameObject Children 0 PostProcess, In + Run
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>>v sharedProfile = ppLocalMeteorStorm (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>>v isGlobal = True
+>>v blendDistance = 20
+>>v weight = 1
+>>v priority = 2,2
+>>v m_PreviousLayer = 0
+>>v m_PreviousPriority = 0
+>>v m_TempColliders = 
+>>v m_InternalProfile = 
+>>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+>> RoR2.PostProcessDuration
+>>v ppVolume = PostProcess, In + Run (UnityEngine.Rendering.PostProcessing.PostProcessVolume)
+>>v ppWeightCurve = UnityEngine.AnimationCurve
+>>v maxDuration = 2
+>>v destroyOnEnd = False
+>>v stopwatch = 0
+
+>GameObject Children 1 PostProcess, Out
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>>v sharedProfile = ppLocalMeteorStorm (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>>v isGlobal = True
+>>v blendDistance = 20
+>>v weight = 1
+>>v priority = 2
+>>v m_PreviousLayer = 0
+>>v m_PreviousPriority = 0
+>>v m_TempColliders = 
+>>v m_InternalProfile = 
+>>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+>> RoR2.PostProcessDuration
+>>v ppVolume = PostProcess, Out (UnityEngine.Rendering.PostProcessing.PostProcessVolume)
+>>v ppWeightCurve = UnityEngine.AnimationCurve
+>>v maxDuration = 2
+>>v destroyOnEnd = True
+>>v stopwatch = 0

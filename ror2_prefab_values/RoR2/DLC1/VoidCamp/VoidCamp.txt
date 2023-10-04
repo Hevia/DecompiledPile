@@ -1,0 +1,829 @@
+Key Path : RoR2/DLC1/VoidCamp/VoidCamp.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidCamp
+
+> transform = p: (2.3, -4.4, 48.5) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = e515327d3d5e0144488357748ce1e899
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = e515327d3d5e0144488357748ce1e899
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.ExpansionManagement.ExpansionRequirementComponent
+>v requiredExpansion = DLC1 (RoR2.ExpansionManagement.ExpansionDef)
+>v requireEntitlementIfPlayerControlled = False
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlVoidFogEmitter (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = 
+>v onModelChanged = 
+>v autoUpdateModelTransform = False
+>v dontDetatchFromParent = True
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlVoidFogEmitter (UnityEngine.Transform)
+
+> RoR2.EntityStateMachine
+>v <state>k__BackingField = 
+>v nextState = 
+>v customName = 
+>v initialStateType = EntityStates.SerializableEntityStateType
+>v mainStateType = EntityStates.SerializableEntityStateType
+>v <networker>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v commonComponents = RoR2.EntityStateMachine+CommonComponentCache
+>v networkIndex = -1
+>v nextStateModifier = 
+>v <destroying>k__BackingField = False
+>v state = 
+>v networker = 
+>v networkIdentity = 
+>v destroying = False
+
+> RoR2.NetworkStateMachine
+>v stateMachines = RoR2.EntityStateMachine[]
+>v networkIdentity = 
+
+> RoR2.PingInfoProvider
+>v pingIconOverride = texMysteryIcon (UnityEngine.Sprite)
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = VOIDCAMPCENTER_NAME
+
+> RoR2.OutsideInteractableLocker
+>v lockPrefab = PurchaseLockVoid (UnityEngine.GameObject)
+>v updateInterval = 0,1
+>v lockInside = True
+>v <radius>k__BackingField = 0
+>v lockObjectMap = 
+>v updateTimer = 0
+>v currentCoroutine = 
+>v radius = 0
+
+> RoR2.StartEvent
+>v runOnServerOnly = False
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+> RoR2.EntityLogic.DelayedEvent
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v timeStepType = FixedTime
+
+>GameObject Children 0 Camp 1 - Void Monsters & Interactables
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.CampDirector
+>>v interactableDirectorCards = dccsVoidCampInteractables (RoR2.DirectorCardCategorySelection)
+>>v baseMonsterCredit = 60
+>>v baseInteractableCredit = 100
+>>v campMinimumRadius = 5
+>>v campMaximumRadius = 60
+>>v campCenterTransform = VoidCamp (UnityEngine.Transform)
+>>v combatDirector = Camp 1 - Void Monsters & Interactables (RoR2.CombatDirector)
+>>v eliteDef = 
+>>v scaleMonsterCreditWithDifficultyCoefficient = True
+>>v monsterCreditPenaltyCoefficient = 0,5
+>>v rng = 
+>>v monsterCredit = 0
+>>v cardSelector = WeightedSelection`1[RoR2.DirectorCard]
+
+>> RoR2.CombatDirector
+>>v customName = 
+>>v monsterCredit = 0
+>>v expRewardCoefficient = 0,2
+>>v goldRewardCoefficient = 1
+>>v minSeriesSpawnInterval = 0,1
+>>v maxSeriesSpawnInterval = 0,1
+>>v minRerollSpawnInterval = 0,1
+>>v maxRerollSpawnInterval = 0,1
+>>v moneyWaveIntervals = RoR2.RangeFloat[]
+>>v teamIndex = Void
+>>v creditMultiplier = 1
+>>v spawnDistanceMultiplier = 1
+>>v maxSpawnDistance = 80
+>>v minSpawnRange = 0
+>>v shouldSpawnOneWave = False
+>>v targetPlayers = False
+>>v skipSpawnIfTooCheap = True
+>>v resetMonsterCardIfFailed = True
+>>v maximumNumberToSpawnBeforeSkipping = 6
+>>v eliteBias = 4
+>>v onSpawnedServer = RoR2.CombatDirector+OnSpawnedServer RoR2.CombatDirector+OnSpawnedServer
+>>v combatSquad = 
+>>v spawnEffectPrefab = 
+>>v ignoreTeamSizeLimit = False
+>>v _monsterCards = dccsVoidCampMonsters (RoR2.DirectorCardCategorySelection)
+>>v fallBackToStageMonsterCards = False
+>>v <monsterSpawnTimer>k__BackingField = 0
+>>v <lastAttemptedMonsterCard>k__BackingField = 
+>>v <totalCreditsSpent>k__BackingField = 0
+>>v instancesList = System.Collections.Generic.List`1[RoR2.CombatDirector]
+>>v hasStartedWave = False
+>>v rng = 
+>>v currentMonsterCard = 
+>>v currentActiveEliteTier = 
+>>v currentActiveEliteDef = 
+>>v currentMonsterCardCost = 0
+>>v monsterCardsSelection = 
+>>v currentSpawnTarget = VoidCamp (UnityEngine.GameObject)
+>>v playerRetargetTimer = 0
+>>v baseEliteCostMultiplier = 6
+>>v eliteTiers = RoR2.CombatDirector+EliteTierDef[]
+>>v spawnCountInCurrentWave = 0
+>>v cvDirectorCombatDisable = RoR2.ConVar.BoolConVar
+>>v cvDirectorCombatEnableInternalLogs = RoR2.ConVar.BoolConVar
+>>v moneyWaves = 
+>>v monsterSpawnTimer = 0
+>>v lastAttemptedMonsterCard = 
+>>v totalCreditsSpent = 0
+>>v lowestEliteCostMultiplier = 6
+
+>> UnityEngine.Networking.NetworkIdentity
+>>v m_SceneId = 0
+>>v m_AssetId = e515327d3d5e0144488357748ce1e899
+>>v m_ServerOnly = False
+>>v m_LocalPlayerAuthority = False
+>>v m_IsClient = False
+>>v m_IsServer = False
+>>v m_HasAuthority = False
+>>v m_NetId = 0
+>>v m_IsLocalPlayer = False
+>>v m_ConnectionToServer = 
+>>v m_ConnectionToClient = 
+>>v m_PlayerId = -1
+>>v m_NetworkBehaviours = 
+>>v m_ObserverConnections = 
+>>v m_Observers = 
+>>v m_ClientAuthorityOwner = 
+>>v m_Reset = False
+>>v s_NextNetworkId = 1
+>>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>>v clientAuthorityCallback = 
+>>v onNetworkIdAssigned = 
+>>v onStartServerGlobal = 
+>>v isClient = False
+>>v isServer = False
+>>v hasAuthority = False
+>>v netId = 0
+>>v sceneId = 0
+>>v serverOnly = False
+>>v localPlayerAuthority = False
+>>v clientAuthorityOwner = 
+>>v assetId = e515327d3d5e0144488357748ce1e899
+>>v isLocalPlayer = False
+>>v playerControllerId = -1
+>>v connectionToServer = 
+>>v connectionToClient = 
+>>v observers = 
+
+>> RoR2.FogDamageController
+>>v teamFilter = Camp 1 - Void Monsters & Interactables (RoR2.TeamFilter)
+>>v invertTeamFilter = True
+>>v tickPeriodSeconds = 0,5
+>>v healthFractionPerSecond = 0,025
+>>v healthFractionRampCoefficientPerSecond = 0,1
+>>v dangerBuffDef = bdVoidFogMild (RoR2.BuffDef)
+>>v dangerBuffDuration = 0,6
+>>v initialSafeZones = RoR2.BaseZoneBehavior[]
+>>v dictionaryValidationTimer = 0
+>>v damageTimer = 0
+>>v safeZones = System.Collections.Generic.List`1[RoR2.IZone]
+>>v characterBodyToStacks = System.Collections.Generic.Dictionary`2[RoR2.CharacterBody,System.Int32]
+
+>> RoR2.SphereZone
+>>v radius = 60
+>>v rangeIndicator = RangeIndicator (UnityEngine.Transform)
+>>v indicatorSmoothTime = 0,2
+>>v isInverted = True
+>>v rangeIndicatorScaleVelocity = 0
+>>v Networkradius = 60
+
+>> RoR2.TeamFilter
+>>v teamIndexInternal = 0
+>>v defaultTeam = Void
+>>v teamIndex = Neutral
+>>v NetworkteamIndexInternal = 0
+
+>GameObject Children 1 Camp 2 - Flavor Props & Void Elites
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.CampDirector
+>>v interactableDirectorCards = dccsVoidCampFlavorProps (RoR2.DirectorCardCategorySelection)
+>>v baseMonsterCredit = 60
+>>v baseInteractableCredit = 35
+>>v campMinimumRadius = 10
+>>v campMaximumRadius = 60
+>>v campCenterTransform = VoidCamp (UnityEngine.Transform)
+>>v combatDirector = Camp 2 - Flavor Props & Void Elites (RoR2.CombatDirector)
+>>v eliteDef = edVoid (RoR2.EliteDef)
+>>v scaleMonsterCreditWithDifficultyCoefficient = True
+>>v monsterCreditPenaltyCoefficient = 0,5
+>>v rng = 
+>>v monsterCredit = 0
+>>v cardSelector = WeightedSelection`1[RoR2.DirectorCard]
+
+>> RoR2.CombatDirector
+>>v customName = 
+>>v monsterCredit = 0
+>>v expRewardCoefficient = 0,2
+>>v goldRewardCoefficient = 1
+>>v minSeriesSpawnInterval = 0,1
+>>v maxSeriesSpawnInterval = 0,1
+>>v minRerollSpawnInterval = 0,1
+>>v maxRerollSpawnInterval = 0,1
+>>v moneyWaveIntervals = RoR2.RangeFloat[]
+>>v teamIndex = Void
+>>v creditMultiplier = 1
+>>v spawnDistanceMultiplier = 1
+>>v maxSpawnDistance = 80
+>>v minSpawnRange = 0
+>>v shouldSpawnOneWave = False
+>>v targetPlayers = False
+>>v skipSpawnIfTooCheap = True
+>>v resetMonsterCardIfFailed = True
+>>v maximumNumberToSpawnBeforeSkipping = 6
+>>v eliteBias = 1
+>>v onSpawnedServer = RoR2.CombatDirector+OnSpawnedServer RoR2.CombatDirector+OnSpawnedServer
+>>v combatSquad = 
+>>v spawnEffectPrefab = 
+>>v ignoreTeamSizeLimit = False
+>>v _monsterCards = 
+>>v fallBackToStageMonsterCards = True
+>>v <monsterSpawnTimer>k__BackingField = 0
+>>v <lastAttemptedMonsterCard>k__BackingField = 
+>>v <totalCreditsSpent>k__BackingField = 0
+>>v instancesList = System.Collections.Generic.List`1[RoR2.CombatDirector]
+>>v hasStartedWave = False
+>>v rng = 
+>>v currentMonsterCard = 
+>>v currentActiveEliteTier = 
+>>v currentActiveEliteDef = 
+>>v currentMonsterCardCost = 0
+>>v monsterCardsSelection = 
+>>v currentSpawnTarget = VoidCamp (UnityEngine.GameObject)
+>>v playerRetargetTimer = 0
+>>v baseEliteCostMultiplier = 6
+>>v eliteTiers = RoR2.CombatDirector+EliteTierDef[]
+>>v spawnCountInCurrentWave = 0
+>>v cvDirectorCombatDisable = RoR2.ConVar.BoolConVar
+>>v cvDirectorCombatEnableInternalLogs = RoR2.ConVar.BoolConVar
+>>v moneyWaves = 
+>>v monsterSpawnTimer = 0
+>>v lastAttemptedMonsterCard = 
+>>v totalCreditsSpent = 0
+>>v lowestEliteCostMultiplier = 6
+
+>GameObject Children 2 mdlVoidFogEmitter
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SphereCollider
+>>v center = (0.0, 2.2, 0.0)
+>>v radius = 1,5
+
+>> UnityEngine.Animator
+>>v isOptimizable = False
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = AlwaysAnimate
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = VoidFogEmitterAnimController (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = 
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>> RoR2.EntityLocator
+>>v entity = VoidCamp (UnityEngine.GameObject)
+
+>> ChildLocator
+>>v transformPairs = ChildLocator+NameTransformPair[]
+>>v Count = 4
+
+>>GameObject Children 0 mdlVoidFogEmitterBase
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlVoidFogEmitterBase (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.8, 0.0), Extents: (1.5, 0.8, 1.5)
+
+>>GameObject Children 1 mdlVoidFogEmitterSphere
+
+>>> transform = p: (-0.1, 1.9, 0.8) r: (270.0, 0.0, 0.0) s: (1.1, 1.1, 1.1)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlVoidFogEmitterSphere (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 2.1, 0.1), Extents: (1.7, 1.6, 1.6)
+
+>>GameObject Children 2 VoidFogEmitterArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 ROOT
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Base
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 Sphere Core
+
+>>>>> transform = p: (0.0, 2.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 SpherePiece1
+
+>>>>>> transform = p: (-0.9, 0.4, 0.1) r: (299.1, 138.8, 138.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 SpherePiece2
+
+>>>>>> transform = p: (0.2, 0.8, -0.3) r: (16.6, 195.7, 195.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 SpherePiece3
+
+>>>>>> transform = p: (0.4, -1.0, 0.0) r: (352.5, 21.9, 21.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 SpherePiece4
+
+>>>>>> transform = p: (0.5, -0.9, 0.6) r: (321.6, 15.8, 15.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 4 SpherePiece5
+
+>>>>>> transform = p: (-0.2, -0.9, -0.3) r: (11.3, 339.7, 339.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 5 SpherePiece6
+
+>>>>>> transform = p: (0.8, 0.8, 0.9) r: (305.4, 197.5, 197.5) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 6 SpherePiece7
+
+>>>>>> transform = p: (1.0, 0.2, -0.2) r: (286.4, 231.4, 231.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 7 SpherePiece8
+
+>>>>>> transform = p: (1.1, -0.5, 0.4) r: (296.5, 34.7, 34.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 8 SpherePiece9
+
+>>>>>> transform = p: (-0.1, -0.2, 0.9) r: (282.5, 357.2, 357.2) s: (1.0, 1.0, 1.0)
+>>GameObject Children 3 RangeIndicator
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (60.0, 60.0, 60.0)
+>>>GameObject Children 0 RangeFX
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Sphere, Unwrapped (UnityEngine.Mesh)
+>>>>v mesh = Sphere, Unwrapped Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.AnimateShaderAlpha
+>>>>v alphaCurve = UnityEngine.AnimationCurve
+>>>>v targetRenderer = 
+>>>>v _propBlock = 
+>>>>v materials = 
+>>>>v timeMax = 4
+>>>>v decal = 
+>>>>v pauseTime = False
+>>>>v destroyOnEnd = False
+>>>>v disableOnEnd = False
+>>>>v time = 0
+>>>>v initialFade = 0
+
+>>GameObject Children 4 ActiveFX
+
+>>> transform = p: (0.0, 1.8, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Small Sparks
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 30
+>>>>v startSpeed = 0,3
+>>>>v startSize = 0,15
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 6,283185
+>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>v startLifetime = 1
+>>>>v gravityModifier = -0,1
+>>>>v maxParticles = 40
+>>>>v simulationSpace = World
+>>>>v scalingMode = Shape
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>>GameObject Children 1 Smoke
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 10
+>>>>v startSpeed = 0
+>>>>v startSize = 2
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 6,283185
+>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>v startLifetime = 1
+>>>>v gravityModifier = -0,3
+>>>>v maxParticles = 40
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Shape
+>>>>v automaticCullingEnabled = True
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = True
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>>GameObject Children 2 Point Light
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.Light
+>>>>v m_BakedIndex = 0
+>>>>v type = Point
+>>>>v shape = Cone
+>>>>v spotAngle = 30
+>>>>v innerSpotAngle = 21,80208
+>>>>v color = RGBA(0.635, 0.474, 0.830, 1.000)
+>>>>v colorTemperature = 6570
+>>>>v useColorTemperature = False
+>>>>v intensity = 20
+>>>>v bounceIntensity = 1
+>>>>v useBoundingSphereOverride = False
+>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>v shadowCustomResolution = -1
+>>>>v shadowBias = 0,05
+>>>>v shadowNormalBias = 0,4
+>>>>v shadowNearPlane = 0,2
+>>>>v useShadowMatrixOverride = False
+>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>v range = 6,57
+>>>>v flare = 
+>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>v cullingMask = -1
+>>>>v renderingLayerMask = 1
+>>>>v lightShadowCasterMode = Default
+>>>>v shadows = None
+>>>>v shadowStrength = 1
+>>>>v shadowResolution = FromQualitySettings
+>>>>v shadowSoftness = 4
+>>>>v shadowSoftnessFade = 1
+>>>>v layerShadowCullDistances = System.Single[]
+>>>>v cookieSize = 10
+>>>>v cookie = 
+>>>>v renderMode = Auto
+>>>>v bakedIndex = 0
+>>>>v commandBufferCount = 0
+>>>>v pixelLightCount = 4
+>>>>v shadowConstantBias = 0
+>>>>v shadowObjectSizeBias = 0
+>>>>v attenuate = True
+
+>>>> RoR2.FlickerLight
+>>>>v light = Point Light (UnityEngine.Light)
+>>>>v sinWaves = Wave[]
+>>>>v initialLightIntensity = 0
+>>>>v stopwatch = 0
+>>>>v randomPhase = 0
+
+>>>GameObject Children 3 SubtleFog
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 10
+>>>>v startSpeed = 4
+>>>>v startSize = 12
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 1
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 1000
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = True
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = True
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = Local
+>>>>v renderMode = Stretch
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.8, 0.0)
+>>>>v flip = (0.5, 0.5, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = VoidEliteDeathFogMesh (UnityEngine.Mesh)
+>>>>v meshCount = 1
+>>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 5 RewardSpawnTarget
+
+>>> transform = p: (0.0, 6.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 Point Light
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Point
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.307, 0.728, 1.000, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 12
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 40
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = None
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>GameObject Children 4 Decal
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (124.8, 124.8, 124.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Cube (UnityEngine.Mesh)
+>>v mesh = Cube Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> ThreeEyedGames.Decal
+>>v _deferredShaderName = Decalicious/Deferred Decal
+>>v _unlitShaderName = Decalicious/Unlit Decal
+>>v _deferredShader = 
+>>v _unlitShader = 
+>>v RenderMode = Deferred
+>>v Material = matVoidCampDecal (UnityEngine.Material)
+>>v Fade = 1
+>>v LimitTo = 
+>>v DrawAlbedo = True
+>>v UseLightProbes = False
+>>v DrawNormalAndGloss = True
+>>v HighQualityBlending = True
+>>v _colorTransparent = RGBA(0.000, 0.000, 0.000, 0.000)

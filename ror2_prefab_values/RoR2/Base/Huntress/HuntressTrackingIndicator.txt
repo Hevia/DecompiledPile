@@ -1,0 +1,115 @@
+Key Path : RoR2/Base/Huntress/HuntressTrackingIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : HuntressTrackingIndicator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>GameObject Children 0 Core Pip
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>> UnityEngine.SpriteRenderer
+>>v sprite = texCrosshairDotCropped (UnityEngine.Sprite)
+>>v drawMode = Simple
+>>v size = (3.4, 3.4)
+>>v adaptiveModeThreshold = 0,5
+>>v tileMode = Continuous
+>>v color = RGBA(0.101, 0.710, 0.934, 0.286)
+>>v maskInteraction = None
+>>v flipX = False
+>>v flipY = False
+>>v spriteSortPoint = Center
+
+>GameObject Children 1 Holder
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Fast
+>>v _slowRotationSpeed = 5
+>>v _fastRotationSpeed = 60
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Fast
+>>v slowRotationSpeed = 5
+>>v fastRotationSpeed = 60
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = False
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 0,2
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>>GameObject Children 0 Nib Holder
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Nib
+
+>>>> transform = p: (0.3, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.1, 1.0)
+>>>> UnityEngine.SpriteRenderer
+>>>>v sprite = texCrosshairNibCurved (UnityEngine.Sprite)
+>>>>v drawMode = Simple
+>>>>v size = (3.4, 3.4)
+>>>>v adaptiveModeThreshold = 0,5
+>>>>v tileMode = Continuous
+>>>>v color = RGBA(0.101, 0.710, 0.934, 0.286)
+>>>>v maskInteraction = None
+>>>>v flipX = False
+>>>>v flipY = False
+>>>>v spriteSortPoint = Center
+
+>>GameObject Children 1 Nib Holder
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 240.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Nib
+
+>>>> transform = p: (0.3, 0.0, 0.0) r: (0.0, 0.0, 240.0) s: (0.2, 0.1, 1.0)
+>>>> UnityEngine.SpriteRenderer
+>>>>v sprite = texCrosshairNibCurved (UnityEngine.Sprite)
+>>>>v drawMode = Simple
+>>>>v size = (3.4, 3.4)
+>>>>v adaptiveModeThreshold = 0,5
+>>>>v tileMode = Continuous
+>>>>v color = RGBA(0.101, 0.710, 0.934, 0.286)
+>>>>v maskInteraction = None
+>>>>v flipX = False
+>>>>v flipY = False
+>>>>v spriteSortPoint = Center
+
+>>GameObject Children 2 Nib Holder
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 120.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Nib
+
+>>>> transform = p: (0.3, 0.0, 0.0) r: (0.0, 0.0, 120.0) s: (0.2, 0.1, 1.0)
+>>>> UnityEngine.SpriteRenderer
+>>>>v sprite = texCrosshairNibCurved (UnityEngine.Sprite)
+>>>>v drawMode = Simple
+>>>>v size = (3.4, 3.4)
+>>>>v adaptiveModeThreshold = 0,5
+>>>>v tileMode = Continuous
+>>>>v color = RGBA(0.101, 0.710, 0.934, 0.286)
+>>>>v maskInteraction = None
+>>>>v flipX = False
+>>>>v flipY = False
+>>>>v spriteSortPoint = Center
+
+>GameObject Children 2 Core, Dark
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>> UnityEngine.SpriteRenderer
+>>v sprite = texCrosshair2 (UnityEngine.Sprite)
+>>v drawMode = Simple
+>>v size = (3.4, 3.4)
+>>v adaptiveModeThreshold = 0,5
+>>v tileMode = Continuous
+>>v color = RGBA(0.000, 0.301, 0.604, 0.953)
+>>v maskInteraction = None
+>>v flipX = False
+>>v flipY = False
+>>v spriteSortPoint = Center

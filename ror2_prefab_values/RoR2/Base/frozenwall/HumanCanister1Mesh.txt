@@ -1,0 +1,24 @@
+Key Path : RoR2/Base/frozenwall/HumanCanister1Mesh.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : HumanCanister1Mesh
+
+> transform = p: (-78.4, 19.4, -51.8) r: (270.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+> UnityEngine.MeshFilter
+>v sharedMesh = HumanCanister1Mesh (UnityEngine.Mesh)
+>v mesh = HumanCanister1Mesh Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+>GameObject Children 0 Collision
+
+>> transform = p: (0.0, 0.0, 0.4) r: (0.0, 0.0, 0.0) s: (3.0, 2.0, 3.0)
+>> UnityEngine.MeshCollider
+>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdMetal (RoR2.SurfaceDef)

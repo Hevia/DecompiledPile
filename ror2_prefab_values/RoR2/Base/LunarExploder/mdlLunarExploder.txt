@@ -1,0 +1,150 @@
+Key Path : RoR2/Base/LunarExploder/mdlLunarExploder.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlLunarExploder
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 28792720000000.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlLunarExploderAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 LunarExploderArmature
+
+>> transform = p: (0.0, 1.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 ROOT
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 IKBackLegTarget.l
+
+>>>> transform = p: (1.1, -0.9, -1.1) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKBackLegTarget.l_end
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 IKBackLegTarget.r
+
+>>>> transform = p: (-1.1, -0.9, -1.1) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKBackLegTarget.r_end
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 IKFrontLegTarget.l
+
+>>>> transform = p: (1.1, -0.9, 1.1) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKFrontLegTarget.l_end
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 IKFrontLegTarget.r
+
+>>>> transform = p: (-1.1, -0.9, 1.1) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 IKFrontLegTarget.r_end
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 4 stoneBase
+
+>>>> transform = p: (0.0, -0.8, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 backThigh.l
+
+>>>>> transform = p: (-0.4, 0.6, -0.4) r: (324.6, 351.7, 37.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 backFoot.l
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (2.4, 130.2, 206.4) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 backFoot.l_end
+
+>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (2.4, 130.2, 206.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 backThigh.r
+
+>>>>> transform = p: (0.4, 0.6, -0.4) r: (324.6, 8.3, 322.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 backFoot.r
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (2.4, 229.8, 153.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 backFoot.r_end
+
+>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (2.4, 229.8, 153.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 core
+
+>>>>> transform = p: (0.0, 1.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 core_end
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 frontThigh.l
+
+>>>>> transform = p: (-0.4, 0.6, 0.4) r: (324.6, 188.3, 322.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 frontFoot.l
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (25.1, 154.7, 188.7) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 frontFoot.l_end
+
+>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (25.1, 154.7, 188.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 4 frontThigh.r
+
+>>>>> transform = p: (0.4, 0.6, 0.4) r: (324.6, 171.7, 37.9) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 frontFoot.r
+
+>>>>>> transform = p: (0.0, 0.7, 0.0) r: (25.1, 205.3, 171.3) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 frontFoot.r_end
+
+>>>>>>> transform = p: (0.0, 1.2, 0.0) r: (25.1, 205.3, 171.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 LunarExploderCoreMesh
+
+>> transform = p: (0.0, 1.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = LunarExploderCoreMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 0.3, 0.0), Extents: (0.9, 0.9, 0.9)
+
+>GameObject Children 2 LunarExploderMesh
+
+>> transform = p: (0.0, 1.2, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = ROOT (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = LunarExploderMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, -0.2, 0.0), Extents: (1.4, 0.8, 1.4)

@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/Feather/PickupFeather.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupFeather
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.4, 0.9)
+>v minDistance = 0,5
+>v maxDistance = 2
+>v cameraDirection = (0.0, 0.0, -0.3)
+
+>GameObject Children 0 mdlFeatherPickup
+
+>> transform = p: (0.0, -0.8, 0.5) r: (313.5, 49.9, 333.5) s: (0.4, 0.4, 0.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = FeatherMesh (UnityEngine.Mesh)
+>>v mesh = FeatherMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, -0.2, 0.0) r: (44.5, 81.8, 352.6) s: (1.5, 1.5, 1.5)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.0, -0.1, 0.5) r: (44.5, 81.8, 352.6) s: (1.5, 1.5, 1.5)

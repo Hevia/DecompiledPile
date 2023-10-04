@@ -1,0 +1,31 @@
+Key Path : RoR2/Base/WardOnLevel/DisplayWarbanner.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayWarbanner
+
+> transform = p: (247.9, 21.1, 159.5) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlWarbannerWrapped
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>>GameObject Children 0 Cylinder.001
+
+>>> transform = p: (0.0, 0.0, -0.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Cylinder.001 (UnityEngine.Mesh)
+>>>v mesh = Cylinder.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 Cylinder.002
+
+>>> transform = p: (0.0, 0.0, -0.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Cylinder.002 (UnityEngine.Mesh)
+>>>v mesh = Cylinder.002 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

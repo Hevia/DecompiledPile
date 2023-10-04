@@ -1,0 +1,47 @@
+Key Path : RoR2/Base/Common/TeamAreaIndicator, Decal.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : TeamAreaIndicator, Decal
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.TeamAreaIndicator
+>v teamComponent = 
+>v teamFilter = 
+>v teamMaterialPairs = RoR2.TeamAreaIndicator+TeamMaterialPair[]
+>v areaIndicatorRenderers = UnityEngine.Renderer[]
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = DecalCube (UnityEngine.Mesh)
+>>v mesh = DecalCube Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.AnimateShaderAlpha
+>>v alphaCurve = UnityEngine.AnimationCurve
+>>v targetRenderer = 
+>>v _propBlock = 
+>>v materials = 
+>>v timeMax = 0,3
+>>v decal = 
+>>v pauseTime = False
+>>v destroyOnEnd = False
+>>v disableOnEnd = False
+>>v time = 0
+>>v initialFade = 0
+
+>> ThreeEyedGames.Decal
+>>v _deferredShaderName = Decalicious/Deferred Decal
+>>v _unlitShaderName = Decalicious/Unlit Decal
+>>v _deferredShader = 
+>>v _unlitShader = 
+>>v RenderMode = Deferred
+>>v Material = matTeamAreaIndicatorDecalMonster (UnityEngine.Material)
+>>v Fade = 1
+>>v LimitTo = 
+>>v DrawAlbedo = True
+>>v UseLightProbes = False
+>>v DrawNormalAndGloss = False
+>>v HighQualityBlending = False
+>>v _colorTransparent = RGBA(0.000, 0.000, 0.000, 0.000)

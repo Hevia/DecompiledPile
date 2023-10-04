@@ -1,0 +1,20 @@
+Key Path : RoR2/DLC1/GoldOnHurt/DisplayRollOfPennies.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayRollOfPennies
+
+> transform = p: (-2.6, -145.9, -24.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlRollOfPenniesDisplay
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>>GameObject Children 0 mdlRollOfPenniesDisplay
+
+>>> transform = p: (0.0, 0.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlRollOfPenniesDisplay (UnityEngine.Mesh)
+>>>v mesh = mdlRollOfPenniesDisplay Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

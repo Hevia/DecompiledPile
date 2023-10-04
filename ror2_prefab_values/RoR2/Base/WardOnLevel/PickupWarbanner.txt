@@ -1,0 +1,42 @@
+Key Path : RoR2/Base/WardOnLevel/PickupWarbanner.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupWarbanner
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.5, 1.5, 1.5)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (-0.1, 0.2, 0.0, 1.0)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (3.0, 1.6, -6.3)
+
+>GameObject Children 0 mdlWarbanner
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>GameObject Children 0 Plane
+
+>>> transform = p: (0.0, 0.0, 0.2) r: (0.0, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>v mesh = Plane Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 Cylinder
+
+>>> transform = p: (0.0, 0.0, -0.2) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (-0.2, 0.7, 0.0) r: (5.9, 65.8, 12.9) s: (0.7, 0.7, 0.7)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-2.2, -0.3, 4.2) r: (5.9, 65.8, 12.9) s: (0.7, 0.7, 0.7)

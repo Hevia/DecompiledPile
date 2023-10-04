@@ -1,0 +1,89 @@
+Key Path : RoR2/Base/Jetpack/mdlBugWings.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlBugWings
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlBugWingsAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 BugWingArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 WingLarge.l
+
+>>> transform = p: (-0.3, 0.0, 0.9) r: (314.8, 106.4, 323.5) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 WingLarge.l_end
+
+>>>> transform = p: (0.0, 1.6, 0.0) r: (314.8, 106.4, 323.5) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 WingLarge.r
+
+>>> transform = p: (0.3, 0.0, 0.9) r: (314.8, 253.6, 36.5) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 WingLarge.r_end
+
+>>>> transform = p: (0.0, 1.6, 0.0) r: (314.8, 253.6, 36.5) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 WingSmall.L
+
+>>> transform = p: (-0.3, 0.0, 0.5) r: (346.2, 271.3, 169.1) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 WingSmall.L_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (346.2, 271.3, 169.1) s: (1.0, 1.0, 1.0)
+>>GameObject Children 3 WingSmall.R
+
+>>> transform = p: (0.3, 0.0, 0.5) r: (346.2, 88.7, 190.9) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 WingSmall.R_end
+
+>>>> transform = p: (0.0, 1.0, 0.0) r: (346.2, 88.7, 190.9) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 BugWingMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = WingSmall.R (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = BugWingMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (-1.8, -0.8, 0.5), Extents: (2.2, 4.5, 5.6)

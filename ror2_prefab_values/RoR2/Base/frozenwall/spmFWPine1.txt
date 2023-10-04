@@ -1,0 +1,75 @@
+Key Path : RoR2/Base/frozenwall/spmFWPine1.spm | UnityObject Type : UnityEngine.GameObject | UnityObject Name : spmFWPine1
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.LODGroup
+>v localReferencePoint = (0.0, 68.3, 0.0)
+>v size = 147,2151
+>v lodCount = 4
+>v fadeMode = SpeedTree
+>v animateCrossFading = True
+>v enabled = True
+>v crossFadeAnimationDuration = 0,5
+
+>GameObject Children 0 CollisionObject0
+
+>> transform = p: (-0.2, 68.4, -0.9) r: (359.0, 1.0, 88.6) s: (1.0, 1.0, 1.0)
+>> UnityEngine.CapsuleCollider
+>>v center = (0.0, 0.0, 0.0)
+>>v radius = 1,936038
+>>v height = 144,1146
+>>v direction = 0
+
+>GameObject Children 1 spmFWPine1_Billboard
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.BillboardRenderer
+>>v billboard = spmFWPine1_Billboard (UnityEngine.BillboardAsset)
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True
+
+>GameObject Children 2 spmFWPine1_LOD0
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = spmFWPine1_LOD0 (UnityEngine.Mesh)
+>>v mesh = spmFWPine1_LOD0 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True
+
+>GameObject Children 3 spmFWPine1_LOD1
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = spmFWPine1_LOD1 (UnityEngine.Mesh)
+>>v mesh = spmFWPine1_LOD1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True
+
+>GameObject Children 4 spmFWPine1_LOD2
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = spmFWPine1_LOD2 (UnityEngine.Mesh)
+>>v mesh = spmFWPine1_LOD2 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Tree
+>>v data = 
+>>v hasSpeedTreeWind = True

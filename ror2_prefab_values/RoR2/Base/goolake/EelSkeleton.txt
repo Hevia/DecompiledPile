@@ -1,0 +1,46 @@
+Key Path : RoR2/Base/goolake/EelSkeleton.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : EelSkeleton
+
+> transform = p: (-111.6, -62.6, -1.4) r: (17.9, 313.4, 345.0) s: (12.8, 12.8, 12.8)
+>GameObject Children 0 EelSkeletonSkull
+
+>> transform = p: (0.0, 0.6, 2.2) r: (336.5, 35.4, 289.6) s: (25.5, 25.5, 25.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = EelSkeletonSkull (UnityEngine.Mesh)
+>>v mesh = EelSkeletonSkull Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = EelSkeletonSkullCollision (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdWood (RoR2.SurfaceDef)
+
+>GameObject Children 1 EelSkeletonSpine
+
+>> transform = p: (0.0, 0.0, 0.0) r: (293.2, 354.5, 321.3) s: (25.5, 25.5, 25.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = EelSkeletonSpine (UnityEngine.Mesh)
+>>v mesh = EelSkeletonSpine Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = EelSkeletonSpineCollision (UnityEngine.Mesh)
+>>v convex = False
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdWood (RoR2.SurfaceDef)

@@ -1,0 +1,138 @@
+Key Path : RoR2/DLC1/voidstage/VoidCrystalClusterSM.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidCrystalClusterSM
+
+> transform = p: (180.8, -20.1, -63.6) r: (354.1, 41.9, 333.0) s: (0.9, 1.2, 0.9)
+>GameObject Children 0 meshVoidCrystalMD1
+
+>> transform = p: (10.0, 1.9, -4.6) r: (322.5, 141.8, 21.3) s: (1.0, 0.4, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshVoidCrystalMD1 (UnityEngine.Mesh)
+>>v mesh = meshVoidCrystalMD1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = meshVoidCrystalMD1 (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 1 meshVoidCrystalMD2
+
+>> transform = p: (7.3, 2.2, -5.1) r: (297.0, 135.8, 263.8) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshVoidCrystalMD2 (UnityEngine.Mesh)
+>>v mesh = meshVoidCrystalMD2 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = meshVoidCrystalMD2 (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 2 meshVoidCrystalSM
+
+>> transform = p: (10.5, 0.1, -4.3) r: (297.5, 143.3, 257.2) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshVoidCrystalSM (UnityEngine.Mesh)
+>>v mesh = meshVoidCrystalSM Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = meshVoidCrystalSM (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 3 Point Light (3)
+
+>> transform = p: (7.9, 3.0, -4.8) r: (0.0, 0.0, 0.0) s: (1.1, 0.9, 1.1)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Point
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.827, 0.000, 1.000, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 10,2
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 17,1
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = None
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>GameObject Children 4 GoldNuggetLargeCollision
+
+>> transform = p: (9.2, -2.7, -5.7) r: (0.0, 0.0, 0.0) s: (1.1, 0.9, 1.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = GoldNuggetLargeCollision (UnityEngine.Mesh)
+>>v mesh = GoldNuggetLargeCollision Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = GoldNuggetLargeCollision (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdDirt (RoR2.SurfaceDef)

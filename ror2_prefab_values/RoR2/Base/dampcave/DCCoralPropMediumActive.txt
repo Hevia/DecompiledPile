@@ -1,0 +1,79 @@
+Key Path : RoR2/Base/dampcave/DCCoralPropMediumActive.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DCCoralPropMediumActive
+
+> transform = p: (-57.9, -174.1, -89.4) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.MeshFilter
+>v sharedMesh = DCCoralPropMedium (UnityEngine.Mesh)
+>v mesh = DCCoralPropMedium Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+> UnityEngine.MeshCollider
+>v sharedMesh = DCCoralPropMedium (UnityEngine.Mesh)
+>v convex = True
+>v inflateMesh = False
+>v cookingOptions = -1
+>v skinWidth = 0
+>v smoothSphereCollisions = True
+
+> RoR2.SurfaceDefProvider
+>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>GameObject Children 0 Point Light
+
+>> transform = p: (0.0, 0.0, 2.9) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Point
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.821, 0.564, 0.000, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 36,03
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 13,5
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = None
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>> LightIntensityCurve
+>>v curve = UnityEngine.AnimationCurve
+>>v timeMax = 3
+>>v time = 0
+>>v light = 
+>>v maxIntensity = 0
+>>v loop = True
+>>v randomStart = True
+>>v enableNegativeLights = False

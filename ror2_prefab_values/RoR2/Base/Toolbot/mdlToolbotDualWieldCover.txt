@@ -1,0 +1,37 @@
+Key Path : RoR2/Base/Toolbot/mdlToolbotDualWieldCover.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlToolbotDualWieldCover
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animation
+>v clip = DualWieldCoverSpin (UnityEngine.AnimationClip)
+>v playAutomatically = True
+>v wrapMode = Default
+>v isPlaying = False
+>v animatePhysics = False
+>v animateOnlyIfVisible = True
+>v cullingType = BasedOnRenderers
+>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)
+
+>GameObject Children 0 ToolbotDualWieldCoverArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 90.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Base
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Spinner
+
+>>>> transform = p: (0.0, 1.9, 0.0) r: (0.0, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Spinner_end
+
+>>>>> transform = p: (0.0, 5.0, 0.0) r: (0.0, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 ToolbotDualWieldCoverMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Base (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = ToolbotDualWieldCoverMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.0, 3.5, 0.5), Extents: (2.2, 3.5, 2.7)

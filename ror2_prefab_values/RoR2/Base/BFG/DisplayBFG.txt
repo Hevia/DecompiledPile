@@ -1,0 +1,150 @@
+Key Path : RoR2/Base/BFG/DisplayBFG.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayBFG
+
+> transform = p: (21.1, 9.7, 29.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlBFG
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = animBFG (UnityEngine.AnimatorController)
+>>v hasBoundPlayables = False
+>>v avatar = mdlBFGAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>> RoR2.AnimationEvents
+>>v soundCenter = 
+>>v bodyObject = 
+>>v characterModel = 
+>>v childLocator = 
+>>v entityLocator = 
+>>v meshRenderer = 
+>>v modelLocator = 
+>>v printHeight = 0
+>>v printTime = 0
+
+>> ChildLocator
+>>v transformPairs = ChildLocator+NameTransformPair[]
+>>v Count = 2
+
+>>GameObject Children 0 Muzzle, Unparented
+
+>>> transform = p: (0.0, 1.0, 1.4) r: (0.5, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 BFGArmature
+
+>>> transform = p: (0.0, 0.0, -2.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Neck1
+
+>>>> transform = p: (0.0, 0.0, 1.9) r: (304.7, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Neck2
+
+>>>>> transform = p: (0.0, 0.5, 0.0) r: (23.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Neck3
+
+>>>>>> transform = p: (0.0, 0.8, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Muzzle
+
+>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (0.5, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 ClawNeck1.1
+
+>>>>>>> transform = p: (0.0, 0.4, -0.1) r: (0.5, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClawNeck2.1
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClawNeck3.1
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClawNeck3.1_end
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 2 ClawNeck1.002
+
+>>>>>>> transform = p: (-0.1, 0.4, 0.0) r: (0.5, 0.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClawNeck2.002
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClawNeck3.002
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClawNeck3.002_end
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 3 ClawNeck1.003
+
+>>>>>>> transform = p: (0.0, 0.4, 0.1) r: (0.5, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClawNeck2.003
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClawNeck3.003
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClawNeck3.003_end
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 4 ClawNeck1.004
+
+>>>>>>> transform = p: (0.1, 0.4, 0.0) r: (0.5, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 ClawNeck2.004
+
+>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 ClawNeck3.004
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 ClawNeck3.004_end
+
+>>>>>>>>>> transform = p: (0.0, 0.9, 0.0) r: (89.5, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 BFGMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Neck1 (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = BFGMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.2, 1.0), Extents: (0.5, 1.1, 1.1)

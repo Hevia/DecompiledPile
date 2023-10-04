@@ -1,0 +1,910 @@
+Key Path : RoR2/Junk/PotMobile/PotMobileBody.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PotMobileBody
+
+> transform = p: (-93.4, -2.2, 23.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = ee1e680c905b8e741aa5a5a75a1c518a
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = True
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = True
+>v clientAuthorityOwner = 
+>v assetId = ee1e680c905b8e741aa5a5a75a1c518a
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.CharacterBody
+>v bodyIndex = 96
+>v baseNameToken = POTMOBILE_BODY_NAME
+>v subtitleNameToken = 
+>v activeBuffsList = 
+>v activeBuffsListCount = 0
+>v buffs = 
+>v eliteBuffCount = 0
+>v timedBuffs = System.Collections.Generic.List`1[RoR2.CharacterBody+TimedBuff]
+>v pendingTonicAfflictionCount = 0
+>v warCryEffectInstance = 
+>v bodyFlags = None
+>v masterObjectId = 0
+>v _masterObject = 
+>v _master = 
+>v <inventory>k__BackingField = 
+>v linkedToMaster = False
+>v <isPlayerControlled>k__BackingField = False
+>v disablingHurtBoxes = False
+>v previousEquipmentIndex = None
+>v <executeEliteHealthFraction>k__BackingField = 0
+>v onInventoryChanged = 
+>v transform = 
+>v <rigidbody>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v <characterMotor>k__BackingField = 
+>v <characterDirection>k__BackingField = 
+>v <teamComponent>k__BackingField = 
+>v <healthComponent>k__BackingField = 
+>v <equipmentSlot>k__BackingField = 
+>v <inputBank>k__BackingField = 
+>v <skillLocator>k__BackingField = 
+>v sfxLocator = 
+>v <modelLocator>k__BackingField = 
+>v <hurtBoxGroup>k__BackingField = 
+>v <mainHurtBox>k__BackingField = 
+>v <coreTransform>k__BackingField = 
+>v onSkillActivatedServer = 
+>v onSkillActivatedAuthority = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.CharacterBody]
+>v readOnlyInstancesList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.CharacterBody]
+>v onBodyAwakeGlobal = System.Action`1[RoR2.CharacterBody]
+>v onBodyDestroyGlobal = System.Action`1[RoR2.CharacterBody]
+>v onBodyStartGlobal = System.Action`1[RoR2.CharacterBody]
+>v onBodyInventoryChangedGlobal = System.Action`1[RoR2.CharacterBody]
+>v <hasEffectiveAuthority>k__BackingField = False
+>v _isSprinting = False
+>v outOfCombatDelay = 5
+>v outOfDangerDelay = 7
+>v outOfCombatStopwatch = 0
+>v outOfDangerStopwatch = 0
+>v <outOfCombat>k__BackingField = True
+>v _outOfDanger = True
+>v previousPosition = (0.0, 0.0, 0.0)
+>v notMovingWait = 1
+>v notMovingStopwatch = 0
+>v rootMotionInMainState = False
+>v mainRootSpeed = 0
+>v baseMaxHealth = 600
+>v baseRegen = 0
+>v baseMaxShield = 0
+>v baseMoveSpeed = 15
+>v baseAcceleration = 0
+>v baseJumpPower = 0
+>v baseDamage = 12
+>v baseAttackSpeed = 1
+>v baseCrit = 0
+>v baseArmor = 0
+>v baseVisionDistance = +Infini
+>v baseJumpCount = 1
+>v sprintingSpeedMultiplier = 1,45
+>v autoCalculateLevelStats = True
+>v levelMaxHealth = 180
+>v levelRegen = 0
+>v levelMaxShield = 0
+>v levelMoveSpeed = 0
+>v levelJumpPower = 0
+>v levelDamage = 2,4
+>v levelAttackSpeed = 0
+>v levelCrit = 0
+>v levelArmor = 0
+>v <experience>k__BackingField = 0
+>v <level>k__BackingField = 0
+>v <maxHealth>k__BackingField = 0
+>v <maxBarrier>k__BackingField = 0
+>v <barrierDecayRate>k__BackingField = 0
+>v <regen>k__BackingField = 0
+>v <maxShield>k__BackingField = 0
+>v <moveSpeed>k__BackingField = 0
+>v <acceleration>k__BackingField = 0
+>v <jumpPower>k__BackingField = 0
+>v <maxJumpCount>k__BackingField = 0
+>v <maxJumpHeight>k__BackingField = 0
+>v <damage>k__BackingField = 0
+>v <attackSpeed>k__BackingField = 0
+>v <crit>k__BackingField = 0
+>v <critMultiplier>k__BackingField = 0
+>v <bleedChance>k__BackingField = 0
+>v <armor>k__BackingField = 0
+>v <visionDistance>k__BackingField = 0
+>v <critHeal>k__BackingField = 0
+>v <cursePenalty>k__BackingField = 0
+>v <hasOneShotProtection>k__BackingField = False
+>v <isGlass>k__BackingField = False
+>v <oneShotProtectionFraction>k__BackingField = 0
+>v <canPerformBackstab>k__BackingField = False
+>v <canReceiveBackstab>k__BackingField = False
+>v statsDirty = False
+>v aimTimer = 0
+>v masterDirtyBit = 1
+>v buffsDirtyBit = 2
+>v outOfCombatBit = 4
+>v outOfDangerBit = 8
+>v sprintingBit = 16
+>v allDirtyBits = 31
+>v <killCountServer>k__BackingField = 0
+>v helfireController = 
+>v helfireLifetime = 0
+>v fireTrail = 
+>v wasLucky = False
+>v poisonballAngle = 25
+>v poisonballDamageCoefficient = 1
+>v poisonballRefreshTime = 6
+>v poisonballTimer = 0
+>v lunarMissileDamageCoefficient = 0,3
+>v lunarMissileRefreshTime = 10
+>v lunarMissileDelayBetweenShots = 0,1
+>v lunarMissileRechargeTimer = 10
+>v lunarMissileTimerBetweenShots = 0
+>v remainingMissilesToFire = 0
+>v lunarMissilePrefab = 
+>v timeBubbleWardInstance = 
+>v engiShieldTempEffectInstance = 
+>v bucklerShieldTempEffectInstance = 
+>v slowDownTimeTempEffectInstance = 
+>v crippleEffectInstance = 
+>v tonicBuffEffectInstance = 
+>v weakTempEffectInstance = 
+>v energizedTempEffectInstance = 
+>v barrierTempEffectInstance = 
+>v nullifyStack1EffectInstance = 
+>v nullifyStack2EffectInstance = 
+>v nullifyStack3EffectInstance = 
+>v regenBoostEffectInstance = 
+>v elephantDefenseEffectInstance = 
+>v healingDisabledEffectInstance = 
+>v noCooldownEffectInstance = 
+>v doppelgangerEffectInstance = 
+>v deathmarkEffectInstance = 
+>v crocoRegenEffectInstance = 
+>v mercExposeEffectInstance = 
+>v lifestealOnHitEffectInstance = 
+>v teamWarCryEffectInstance = 
+>v randomDamageEffectInstance = 
+>v lunarGolemShieldEffectInstance = 
+>v warbannerEffectInstance = 
+>v teslaFieldEffectInstance = 
+>v lunarSecondaryRootEffectInstance = 
+>v lunarDetonatorEffectInstance = 
+>v fruitingEffectInstance = 
+>v mushroomVoidTempEffectInstance = 
+>v bearVoidTempEffectInstance = 
+>v outOfCombatArmorEffectInstance = 
+>v voidFogMildEffectInstance = 
+>v voidFogStrongEffectInstance = 
+>v voidJailerSlowEffectInstance = 
+>v voidRaidcrabWardWipeFogEffectInstance = 
+>v spreadBloomDecayTime = 0,45
+>v spreadBloomCurve = UnityEngine.AnimationCurve
+>v spreadBloomInternal = 0
+>v _defaultCrosshairPrefab = SprintingCrosshair (UnityEngine.GameObject)
+>v hideCrosshair = False
+>v multiKillMaxInterval = 1
+>v multiKillTimer = 0
+>v <multiKillCount>k__BackingField = 0
+>v multiKillThresholdForWarcry = 4
+>v <radius>k__BackingField = 0
+>v aimOriginTransform = mdlPotMobile (UnityEngine.Transform)
+>v hullClassification = Golem
+>v portraitIcon = texMysteryIcon (UnityEngine.Texture2D)
+>v bodyColor = RGBA(0.000, 0.000, 0.000, 0.000)
+>v isChampion = False
+>v <isElite>k__BackingField = False
+>v currentVehicle = 
+>v preferredPodPrefab = 
+>v preferredInitialStateType = EntityStates.SerializableEntityStateType
+>v skinIndex = 0
+>v <localStartTime>k__BackingField = RoR2.Run+FixedTimeStamp
+>v customKillTotalStatName = 
+>v overrideCoreTransform = 
+>v kCmdCmdAddTimedBuff = -160178508
+>v kCmdCmdUpdateSprint = -1006016914
+>v kCmdCmdOnSkillActivated = 384138986
+>v kRpcRpcBark = -76716871
+>v kCmdCmdRequestVehicleEjection = 1803737791
+>v kRpcRpcUsePreferredInitialStateType = 638695010
+>v master = 
+>v inventory = 
+>v isPlayerControlled = False
+>v executeEliteHealthFraction = 0
+>v masterObject = 
+>v rigidbody = 
+>v networkIdentity = 
+>v characterMotor = 
+>v characterDirection = 
+>v teamComponent = 
+>v healthComponent = 
+>v equipmentSlot = 
+>v inputBank = 
+>v skillLocator = 
+>v modelLocator = 
+>v hurtBoxGroup = 
+>v mainHurtBox = 
+>v coreTransform = 
+>v hasEffectiveAuthority = False
+>v isSprinting = False
+>v outOfCombat = True
+>v outOfDanger = True
+>v experience = 0
+>v level = 0
+>v maxHealth = 0
+>v maxBarrier = 0
+>v barrierDecayRate = 0
+>v regen = 0
+>v maxShield = 0
+>v moveSpeed = 0
+>v acceleration = 0
+>v jumpPower = 0
+>v maxJumpCount = 0
+>v maxJumpHeight = 0
+>v damage = 0
+>v attackSpeed = 0
+>v crit = 0
+>v critMultiplier = 0
+>v bleedChance = 0
+>v armor = 0
+>v visionDistance = 0
+>v critHeal = 0
+>v cursePenalty = 0
+>v hasOneShotProtection = False
+>v isGlass = False
+>v oneShotProtectionFraction = 0
+>v canPerformBackstab = False
+>v canReceiveBackstab = False
+>v shouldAim = False
+>v killCountServer = 0
+>v bestFitRadius = 1
+>v spreadBloomAngle = 0
+>v defaultCrosshairPrefab = SprintingCrosshair (UnityEngine.GameObject)
+>v multiKillCount = 0
+>v radius = 0
+>v aimOrigin = (-93.4, -2.2, 23.1)
+>v isElite = False
+>v isBoss = False
+>v isFlying = True
+>v localStartTime = RoR2.Run+FixedTimeStamp
+>v isEquipmentActivationAllowed = True
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0,03
+>v angularDrag = 0,05
+>v mass = 300
+>v useGravity = True
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = False
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = Interpolate
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+> RoR2.HoverVehicleMotor
+>v targetSteerVector = (0.0, 0.0, 0.0)
+>v centerOfMassOffset = (0.0, -1.0, 0.0)
+>v staticAxles = RoR2.HoverVehicleMotor+AxleGroup[]
+>v steerAxles = RoR2.HoverVehicleMotor+AxleGroup[]
+>v wheelWellDepth = 1,4
+>v wheelBase = 5
+>v trackWidth = 4
+>v rollingFrictionCoefficient = 600
+>v slidingTractionCoefficient = 5000
+>v motorForce = 15000
+>v maxSteerAngle = 90
+>v maxTurningRadius = 2
+>v hoverForce = 24
+>v hoverHeight = 2
+>v hoverDamping = 1
+>v hoverRadius = 0,5
+>v hoverOffsetVector = (0.0, 1.5, 0.0)
+>v inputBank = 
+>v steerVector = (0.0, 0.0, 1.0)
+>v rigidbody = 
+
+> RoR2.HealthComponent
+>v lowHealthFraction = 0,25
+>v health = 100
+>v shield = 0
+>v barrier = 0
+>v magnetiCharge = 0
+>v dontShowHealthbar = False
+>v globalDeathEventChanceCoefficient = 1
+>v _killingDamageType = 0
+>v body = 
+>v modelLocator = 
+>v painAnimationHandler = 
+>v onIncomingDamageReceivers = 
+>v onTakeDamageReceivers = 
+>v <lastHitTime>k__BackingField = RoR2.Run+FixedTimeStamp
+>v <lastHealTime>k__BackingField = RoR2.Run+FixedTimeStamp
+>v <lastHitAttacker>k__BackingField = 
+>v <godMode>k__BackingField = False
+>v <potionReserve>k__BackingField = 0
+>v <isInFrozenState>k__BackingField = False
+>v frozenExecuteThreshold = 0,3
+>v adaptiveArmorPerOnePercentTaken = 30
+>v adaptiveArmorDecayPerSecond = 40
+>v adaptiveArmorCap = 400
+>v medkitActivationDelay = 2
+>v devilOrbMaxTimer = 0,1
+>v devilOrbHealPool = 0
+>v devilOrbTimer = 0
+>v regenAccumulator = 0
+>v wasAlive = True
+>v adaptiveArmorValue = 0
+>v isShieldRegenForced = False
+>v onCharacterHealServer = System.Action`3[RoR2.HealthComponent,System.Single,RoR2.ProcChainMask]
+>v ospTimer = 0
+>v ospBufferDuration = 0,1
+>v serverDamageTakenThisUpdate = 0
+>v repeatHealComponent = 
+>v itemCounts = RoR2.HealthComponent+ItemCounts
+>v currentEquipmentIndex = 0
+>v kCmdCmdHealFull = -290141736
+>v kCmdCmdRechargeShieldFull = -833942624
+>v kCmdCmdAddBarrier = -1976809257
+>v kCmdCmdForceShieldRegen = -1029271894
+>v killingDamageType = Generic
+>v alive = True
+>v combinedHealth = 100
+>v lastHitTime = RoR2.Run+FixedTimeStamp
+>v lastHealTime = RoR2.Run+FixedTimeStamp
+>v lastHitAttacker = 
+>v timeSinceLastHit = 0
+>v timeSinceLastHeal = 0
+>v godMode = False
+>v potionReserve = 0
+>v isInFrozenState = False
+>v Networkhealth = 100
+>v Networkshield = 0
+>v Networkbarrier = 0
+>v NetworkmagnetiCharge = 0
+>v Network_killingDamageType = 0
+
+> RoR2.InputBankTest
+>v characterBody = 
+>v _aimDirection = (0.0, 0.0, 0.0)
+>v lastRaycastTime = -Infini
+>v lastFixedRaycastTime = -Infini
+>v didLastRaycastHit = False
+>v lastHitInfo = UnityEngine.RaycastHit
+>v lastMaxDistance = 0
+>v cachedRaycast = RoR2.InputBankTest+CachedRaycastInfo
+>v moveVector = (0.0, 0.0, 0.0)
+>v skill1 = RoR2.InputBankTest+ButtonState
+>v skill2 = RoR2.InputBankTest+ButtonState
+>v skill3 = RoR2.InputBankTest+ButtonState
+>v skill4 = RoR2.InputBankTest+ButtonState
+>v interact = RoR2.InputBankTest+ButtonState
+>v jump = RoR2.InputBankTest+ButtonState
+>v sprint = RoR2.InputBankTest+ButtonState
+>v activateEquipment = RoR2.InputBankTest+ButtonState
+>v ping = RoR2.InputBankTest+ButtonState
+>v <emoteRequest>k__BackingField = -1
+>v aimDirection = (0.0, 0.0, 1.0)
+>v emoteRequest = -1
+
+> RoR2.CameraTargetParams
+>v cameraParams = ccpStandardTall (RoR2.CharacterCameraParams)
+>v cameraPivotTransform = 
+>v fovOverride = 0
+>v recoil = (0.0, 0.0)
+>v dontRaycastToPivot = False
+>v targetRecoilDampTime = 0,08
+>v recoilDampTime = 0,05
+>v targetRecoil = (0.0, 0.0)
+>v recoilVelocity = (0.0, 0.0)
+>v targetRecoilVelocity = (0.0, 0.0)
+>v aimRequestStack = System.Collections.Generic.List`1[RoR2.CameraTargetParams+AimRequest]
+>v easeCurve = UnityEngine.AnimationCurve
+>v cameraParamsOverrides = 
+>v _currentCameraParamsData = RoR2.CharacterCameraParamsData
+
+> RoR2.Networking.CharacterNetworkTransform
+>v instancesList = System.Collections.Generic.List`1[RoR2.Networking.CharacterNetworkTransform]
+>v _readOnlyInstancesList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Networking.CharacterNetworkTransform]
+>v <transform>k__BackingField = 
+>v <inputBank>k__BackingField = 
+>v <characterMotor>k__BackingField = 
+>v <characterDirection>k__BackingField = 
+>v <rigidbody>k__BackingField = 
+>v positionTransmitInterval = 0,1
+>v lastPositionTransmitTime = -Infini
+>v interpolationFactor = 2
+>v newestNetSnapshot = RoR2.Networking.CharacterNetworkTransform+Snapshot
+>v snapshots = System.Collections.Generic.List`1[RoR2.Networking.CharacterNetworkTransform+Snapshot]
+>v debugDuplicatePositions = False
+>v debugSnapshotReceived = False
+>v rigidbodyStartedKinematic = True
+>v <hasEffectiveAuthority>k__BackingField = False
+>v readOnlyInstancesList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Networking.CharacterNetworkTransform]
+>v transform = 
+>v inputBank = 
+>v characterMotor = 
+>v characterDirection = 
+>v interpolationDelay = 0,2
+>v hasEffectiveAuthority = False
+
+> RoR2.TeamComponent
+>v hideAllyCardDisplay = False
+>v _teamIndex = None
+>v <body>k__BackingField = 
+>v oldTeamIndex = None
+>v defaultIndicatorPrefab = 
+>v indicator = 
+>v indicatorSetupQueue = System.Collections.Generic.Queue`1[RoR2.TeamComponent]
+>v teamsList = System.Collections.Generic.List`1[RoR2.TeamComponent][]
+>v readonlyTeamsList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.TeamComponent][]
+>v emptyTeamMembers = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.TeamComponent]
+>v onJoinTeamGlobal = 
+>v onLeaveTeamGlobal = 
+>v body = 
+>v teamIndex = None
+
+> RoR2.SkillLocator
+>v primary = PotMobileBody (RoR2.GenericSkill)
+>v secondary = 
+>v utility = 
+>v special = 
+>v passiveSkill = RoR2.SkillLocator+PassiveSkill
+>v networkIdentity = 
+>v allSkills = 
+>v hasEffectiveAuthority = False
+>v skillDefDirtyFlags = 0
+>v inDeserialize = False
+>v kRpcRpcDeductCooldownFromAllSkillsServer = -2090076365
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlPotMobile (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = Model Base (UnityEngine.Transform)
+>v onModelChanged = 
+>v autoUpdateModelTransform = True
+>v dontDetatchFromParent = False
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlPotMobile (UnityEngine.Transform)
+
+> RoR2.EntityStateMachine
+>v <state>k__BackingField = 
+>v nextState = 
+>v customName = Body
+>v initialStateType = EntityStates.SerializableEntityStateType
+>v mainStateType = EntityStates.SerializableEntityStateType
+>v <networker>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v commonComponents = RoR2.EntityStateMachine+CommonComponentCache
+>v networkIndex = -1
+>v nextStateModifier = 
+>v <destroying>k__BackingField = False
+>v state = 
+>v networker = 
+>v networkIdentity = 
+>v destroying = False
+
+> RoR2.EntityStateMachine
+>v <state>k__BackingField = 
+>v nextState = 
+>v customName = Weapon
+>v initialStateType = EntityStates.SerializableEntityStateType
+>v mainStateType = EntityStates.SerializableEntityStateType
+>v <networker>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v commonComponents = RoR2.EntityStateMachine+CommonComponentCache
+>v networkIndex = -1
+>v nextStateModifier = 
+>v <destroying>k__BackingField = False
+>v state = 
+>v networker = 
+>v networkIdentity = 
+>v destroying = False
+
+> RoR2.GenericSkill
+>v <skillDef>k__BackingField = 
+>v _skillFamily = PotMobileBodyPrimaryFamily (RoR2.Skills.SkillFamily)
+>v <baseSkill>k__BackingField = 
+>v skillName = FireCannon
+>v hideInCharacterSelect = False
+>v <stateMachine>k__BackingField = 
+>v <skillInstanceData>k__BackingField = 
+>v <characterBody>k__BackingField = 
+>v <defaultSkillDef>k__BackingField = 
+>v onSkillChanged = 
+>v stateMachineLookupBuffer = System.Collections.Generic.List`1[RoR2.EntityStateMachine]
+>v skillOverrides = RoR2.GenericSkill+SkillOverride[]
+>v bonusStockFromBody = 0
+>v <maxStock>k__BackingField = 0
+>v <stock>k__BackingField = 0
+>v finalRechargeInterval = 0
+>v _cooldownScale = 1
+>v _flatCooldownReduction = 1
+>v <rechargeStopwatch>k__BackingField = 0
+>v hasExecutedSuccessfully = False
+>v _customStateMachineResolver = 
+>v skillDef = 
+>v skillFamily = PotMobileBodyPrimaryFamily (RoR2.Skills.SkillFamily)
+>v baseSkill = 
+>v stateMachine = 
+>v skillInstanceData = 
+>v characterBody = 
+>v defaultSkillDef = 
+>v maxStock = 0
+>v stock = 0
+>v cooldownScale = 1
+>v flatCooldownReduction = 1
+>v rechargeStopwatch = 0
+>v cooldownRemaining = 0
+
+> UnityEngine.BoxCollider
+>v center = (0.0, 0.0, 0.0)
+>v size = (3.5, 1.0, 4.0)
+>v extents = (1.7, 0.5, 2.0)
+
+>GameObject Children 0 Model Base
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlPotMobile
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> RoR2.CharacterModel
+>>>v body = PotMobileBody (RoR2.CharacterBody)
+>>>v itemDisplayRuleSet = idrsPotMobile (RoR2.ItemDisplayRuleSet)
+>>>v autoPopulateLightInfos = True
+>>>v baseRendererInfos = RoR2.CharacterModel+RendererInfo[]
+>>>v baseLightInfos = RoR2.CharacterModel+LightInfo[]
+>>>v childLocator = 
+>>>v goldAffixEffect = 
+>>>v hurtBoxInfos = RoR2.CharacterModel+HurtBoxInfo[]
+>>>v coreTransform = 
+>>>v hitFlashBaseColor = RGBA(0.757, 0.424, 0.200, 1.000)
+>>>v hitFlashShieldColor = RGBA(0.518, 0.624, 1.000, 1.000)
+>>>v healFlashColor = RGBA(0.408, 0.769, 0.192, 1.000)
+>>>v hitFlashDuration = 0,15
+>>>v healFlashDuration = 0,35
+>>>v _visibility = Visible
+>>>v _isGhost = False
+>>>v _isDoppelganger = False
+>>>v _isEcho = False
+>>>v invisibilityCount = 0
+>>>v temporaryOverlays = System.Collections.Generic.List`1[RoR2.TemporaryOverlay]
+>>>v materialsDirty = True
+>>>v propertyStorage = 
+>>>v inventoryEquipmentIndex = None
+>>>v myEliteIndex = None
+>>>v fade = 1
+>>>v firstPersonFade = 1
+>>>v mainSkinnedMeshRenderer = 
+>>>v poisonEliteLightColor = RGBA(0.353, 1.000, 0.757, 0.800)
+>>>v hauntedEliteLightColor = RGBA(0.596, 0.894, 0.851, 0.800)
+>>>v lunarEliteLightColor = RGBA(1.000, 1.000, 1.000, 0.498)
+>>>v voidEliteLightColor = RGBA(0.592, 0.306, 0.518, 0.800)
+>>>v lightColorOverride = 
+>>>v particleMaterialOverride = 
+>>>v poisonAffixEffect = 
+>>>v hauntedAffixEffect = 
+>>>v voidAffixEffect = 
+>>>v affixHauntedCloakLockoutDuration = 3
+>>>v currentEquipmentDisplayIndex = None
+>>>v enabledItemDisplays = 
+>>>v parentedPrefabDisplays = System.Collections.Generic.List`1[RoR2.CharacterModel+ParentedPrefabDisplay]
+>>>v limbMaskDisplays = System.Collections.Generic.List`1[RoR2.CharacterModel+LimbMaskDisplay]
+>>>v limbFlagSet = RoR2.CharacterModel+LimbFlagSet
+>>>v revealedMaterial = matRevealedEffect (UnityEngine.Material)
+>>>v cloakedMaterial = matCloakedEffect (UnityEngine.Material)
+>>>v ghostMaterial = matGhostEffect (UnityEngine.Material)
+>>>v bellBuffMaterial = matBellBuff (UnityEngine.Material)
+>>>v wolfhatMaterial = matWolfhatOverlay (UnityEngine.Material)
+>>>v energyShieldMaterial = matEnergyShield (UnityEngine.Material)
+>>>v fullCritMaterial = matFullCrit (UnityEngine.Material)
+>>>v beetleJuiceMaterial = matBeetleJuice (UnityEngine.Material)
+>>>v brittleMaterial = matBrittle (UnityEngine.Material)
+>>>v clayGooMaterial = matClayGooDebuff (UnityEngine.Material)
+>>>v slow80Material = matSlow80Debuff (UnityEngine.Material)
+>>>v immuneMaterial = matImmune (UnityEngine.Material)
+>>>v elitePoisonOverlayMaterial = matElitePoisonOverlay (UnityEngine.Material)
+>>>v elitePoisonParticleReplacementMaterial = matElitePoisonParticleReplacement (UnityEngine.Material)
+>>>v eliteHauntedOverlayMaterial = matEliteHauntedOverlay (UnityEngine.Material)
+>>>v eliteJustHauntedOverlayMaterial = matEliteJustHauntedOverlay (UnityEngine.Material)
+>>>v eliteHauntedParticleReplacementMaterial = matEliteHauntedParticleReplacement (UnityEngine.Material)
+>>>v eliteLunarParticleReplacementMaterial = matEliteLunarParticleReplacement (UnityEngine.Material)
+>>>v eliteVoidParticleReplacementMaterial = matEliteVoidParticleReplacement (UnityEngine.Material)
+>>>v eliteVoidOverlayMaterial = matEliteVoidOverlay (UnityEngine.Material)
+>>>v weakMaterial = matWeakOverlay (UnityEngine.Material)
+>>>v pulverizedMaterial = matPulverizedOverlay (UnityEngine.Material)
+>>>v doppelgangerMaterial = matDoppelganger (UnityEngine.Material)
+>>>v ghostParticleReplacementMaterial = matGhostParticleReplacement (UnityEngine.Material)
+>>>v lunarGolemShieldMaterial = matLunarGolemShield (UnityEngine.Material)
+>>>v echoMaterial = matEcho (UnityEngine.Material)
+>>>v gummyCloneMaterial = matGummyClone (UnityEngine.Material)
+>>>v voidSurvivorCorruptMaterial = matVoidSurvivorCorruptOverlay (UnityEngine.Material)
+>>>v voidShieldMaterial = matEnergyShieldVoid (UnityEngine.Material)
+>>>v maxOverlays = 6
+>>>v currentOverlays = UnityEngine.Material[]
+>>>v activeOverlayCount = 0
+>>>v wasPreviouslyClayGooed = False
+>>>v wasPreviouslyHaunted = False
+>>>v rtpcEliteEnemy = RoR2.WwiseUtils.RtpcSetter
+>>>v shaderEliteRampIndex = -1
+>>>v sharedMaterialArrays = UnityEngine.Material[][]
+>>>v maxMaterials = 7
+>>>v visibility = Visible
+>>>v isGhost = False
+>>>v isDoppelganger = False
+>>>v isEcho = False
+
+>>> ChildLocator
+>>>v transformPairs = ChildLocator+NameTransformPair[]
+>>>v Count = 2
+
+>>> RoR2.HurtBoxGroup
+>>>v hurtBoxes = RoR2.HurtBox[]
+>>>v mainHurtBox = Hurtbox (RoR2.HurtBox)
+>>>v bullseyeCount = 1
+>>>v _hurtBoxesDeactivatorCounter = 0
+>>>v hurtBoxesDeactivatorCounter = 0
+
+>>>GameObject Children 0 Cube
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (3.5, 1.0, 4.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Cube (UnityEngine.Mesh)
+>>>>v mesh = Cube Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 0 Capsule
+
+>>>>> transform = p: (-0.3, 0.4, 0.3) r: (0.0, 0.0, 0.0) s: (0.3, 1.4, 0.3)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = Capsule (UnityEngine.Mesh)
+>>>>>v mesh = Capsule Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 Hurtbox
+
+>>>> transform = p: (0.0, 0.8, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.SphereCollider
+>>>>v center = (0.0, 0.0, 0.0)
+>>>>v radius = 2,39
+
+>>>> RoR2.HurtBox
+>>>>v healthComponent = PotMobileBody (RoR2.HealthComponent)
+>>>>v isBullseye = True
+>>>>v isSniperTarget = False
+>>>>v damageModifier = Normal
+>>>>v <teamIndex>k__BackingField = None
+>>>>v hurtBoxGroup = mdlPotMobile (RoR2.HurtBoxGroup)
+>>>>v indexInGroup = 0
+>>>>v <collider>k__BackingField = 
+>>>>v <volume>k__BackingField = 0
+>>>>v isInBullseyeList = False
+>>>>v isInSniperTargetList = False
+>>>>v bullseyesList = System.Collections.Generic.List`1[RoR2.HurtBox]
+>>>>v readOnlyBullseyesList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.HurtBox]
+>>>>v sniperTargetsList = System.Collections.Generic.List`1[RoR2.HurtBox]
+>>>>v sniperTargetRadius = 1
+>>>>v sniperTargetRadiusSqr = 1
+>>>>v teamIndex = None
+>>>>v collider = 
+>>>>v volume = 0
+>>>>v readOnlySniperTargetsList = System.Collections.Generic.List`1[RoR2.HurtBox]
+
+>>>GameObject Children 2 Front.L
+
+>>>> transform = p: (-2.0, -1.4, 2.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> RoR2.HoverEngine
+>>>>v engineRigidbody = PotMobileBody (UnityEngine.Rigidbody)
+>>>>v wheelVisual = WheelContactPoint (UnityEngine.Transform)
+>>>>v hoverForce = 33,95
+>>>>v hoverHeight = 2
+>>>>v hoverDamping = 1,46
+>>>>v hoverRadius = 0
+>>>>v forceStrength = 0
+>>>>v castRay = Origin: (0.0, 0.0, 0.0), Dir: (0.0, 0.0, 0.0)
+>>>>v castPosition = (0.0, 0.0, 0.0)
+>>>>v raycastHit = UnityEngine.RaycastHit
+>>>>v compression = 0
+>>>>v offsetVector = (0.0, 1.0, 0.0)
+>>>>v isGrounded = False
+
+>>>>GameObject Children 0 WheelContactPoint
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Cylinder
+
+>>>>>> transform = p: (-0.5, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 0.3, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 3 Front.R
+
+>>>> transform = p: (2.0, -1.4, 2.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> RoR2.HoverEngine
+>>>>v engineRigidbody = PotMobileBody (UnityEngine.Rigidbody)
+>>>>v wheelVisual = WheelContactPoint (UnityEngine.Transform)
+>>>>v hoverForce = 33,95
+>>>>v hoverHeight = 2
+>>>>v hoverDamping = 1,46
+>>>>v hoverRadius = 0
+>>>>v forceStrength = 0
+>>>>v castRay = Origin: (0.0, 0.0, 0.0), Dir: (0.0, 0.0, 0.0)
+>>>>v castPosition = (0.0, 0.0, 0.0)
+>>>>v raycastHit = UnityEngine.RaycastHit
+>>>>v compression = 0
+>>>>v offsetVector = (0.0, 1.0, 0.0)
+>>>>v isGrounded = False
+
+>>>>GameObject Children 0 WheelContactPoint
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Cylinder
+
+>>>>>> transform = p: (-0.5, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 0.3, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 4 Back.L
+
+>>>> transform = p: (-2.0, -1.4, -2.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> RoR2.HoverEngine
+>>>>v engineRigidbody = PotMobileBody (UnityEngine.Rigidbody)
+>>>>v wheelVisual = WheelContactPoint (UnityEngine.Transform)
+>>>>v hoverForce = 33,95
+>>>>v hoverHeight = 2
+>>>>v hoverDamping = 1,46
+>>>>v hoverRadius = 0
+>>>>v forceStrength = 0
+>>>>v castRay = Origin: (0.0, 0.0, 0.0), Dir: (0.0, 0.0, 0.0)
+>>>>v castPosition = (0.0, 0.0, 0.0)
+>>>>v raycastHit = UnityEngine.RaycastHit
+>>>>v compression = 0
+>>>>v offsetVector = (0.0, 1.0, 0.0)
+>>>>v isGrounded = False
+
+>>>>GameObject Children 0 WheelContactPoint
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Cylinder
+
+>>>>>> transform = p: (-0.5, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 0.3, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 5 Back.R
+
+>>>> transform = p: (2.0, -1.4, -2.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> RoR2.HoverEngine
+>>>>v engineRigidbody = PotMobileBody (UnityEngine.Rigidbody)
+>>>>v wheelVisual = WheelContactPoint (UnityEngine.Transform)
+>>>>v hoverForce = 33,95
+>>>>v hoverHeight = 2
+>>>>v hoverDamping = 1,46
+>>>>v hoverRadius = 0
+>>>>v forceStrength = 0
+>>>>v castRay = Origin: (0.0, 0.0, 0.0), Dir: (0.0, 0.0, 0.0)
+>>>>v castPosition = (0.0, 0.0, 0.0)
+>>>>v raycastHit = UnityEngine.RaycastHit
+>>>>v compression = 0
+>>>>v offsetVector = (0.0, 1.0, 0.0)
+>>>>v isGrounded = False
+
+>>>>GameObject Children 0 WheelContactPoint
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Cylinder
+
+>>>>>> transform = p: (-0.5, 0.0, 0.0) r: (0.0, 0.0, 270.0) s: (1.0, 0.3, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>>>v mesh = Cylinder Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 6 MuzzleRight
+
+>>>> transform = p: (1.2, 0.4, 3.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 7 MuzzleLeft
+
+>>>> transform = p: (-1.2, 0.4, 3.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 8 Front
+
+>>>> transform = p: (0.0, -0.2, 2.0) r: (0.0, 0.0, 0.0) s: (2.3, 0.4, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Cube (UnityEngine.Mesh)
+>>>>v mesh = Cube Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 9 ForceBox
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 0.0)
+>>>>v size = (4.4, 1.9, 5.9)
+>>>>v extents = (2.2, 0.9, 3.0)
+
+>>>> RoR2.VehicleForceZone
+>>>>v vehicleRigidbody = PotMobileBody (UnityEngine.Rigidbody)
+>>>>v impactMultiplier = 1
+>>>>v collider = 

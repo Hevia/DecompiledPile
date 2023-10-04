@@ -1,0 +1,94 @@
+Key Path : RoR2/Base/Captain/CaptainSupplyDropBlueprint.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : CaptainSupplyDropBlueprint
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.BlueprintController
+>v ok = False
+>v okMaterial = matCaptainBlueprintsWarningOK (UnityEngine.Material)
+>v invalidMaterial = matCaptainBlueprintsWarningInvalid (UnityEngine.Material)
+>v renderers = UnityEngine.Renderer[]
+>v transform = 
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Play_captain_R_aiming_loop
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = 1040620982
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+> AkEvent
+>v actionOnEventType = AkActionOnEventType_Stop
+>v curveInterpolation = AkCurveInterpolation_Linear
+>v enableActionOnEvent = False
+>v data = Stop_captain_R_aiming_loop
+>v useCallbacks = False
+>v Callbacks = System.Collections.Generic.List`1[AkEvent+CallbackData]
+>v playingId = 0
+>v soundEmitterObject = 
+>v transitionDuration = 0
+>v EventCallbackMsg = 
+>v eventIdInternal = 0
+>v valueGuidInternal = System.Byte[]
+>v m_callbackDataInternal = 
+>v eventID = -1437925376
+>v valueGuid = System.Byte[]
+>v m_callbackData = 
+
+>GameObject Children 0 Base
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 BlobLightProjector
+
+>>> transform = p: (0.0, 0.8, 0.0) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.Projector
+>>>v nearClipPlane = 0,1
+>>>v farClipPlane = 1,86
+>>>v fieldOfView = 30
+>>>v aspectRatio = 1
+>>>v orthographic = True
+>>>v orthographicSize = 2
+>>>v ignoreLayers = -2049
+>>>v material = GridProjector (UnityEngine.Material)
+
+>>GameObject Children 1 Mesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = CaptainSupplyDropMesh (UnityEngine.Mesh)
+>>>v mesh = CaptainSupplyDropMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Area
+
+>>> transform = p: (0.0, 0.0, -0.1) r: (90.0, 0.0, 0.0) s: (20.0, 20.0, 20.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 Warning
+
+>>> transform = p: (0.0, 0.0, 0.7) r: (270.0, 0.0, 0.0) s: (5.1, 5.1, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = donut3Mesh (UnityEngine.Mesh)
+>>>v mesh = donut3Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

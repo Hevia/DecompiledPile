@@ -1,0 +1,120 @@
+Key Path : RoR2/DLC1/BearVoid/DisplayBearVoidSit.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayBearVoidSit
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlBearVoid
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Animator
+>>v isOptimizable = True
+>>v isHuman = False
+>>v hasRootMotion = False
+>>v humanScale = 1
+>>v isInitialized = False
+>>v deltaPosition = (0.0, 0.0, 0.0)
+>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v rootPosition = (0.0, 0.0, 0.0)
+>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>v applyRootMotion = False
+>>v linearVelocityBlending = False
+>>v animatePhysics = False
+>>v updateMode = Normal
+>>v hasTransformHierarchy = True
+>>v gravityWeight = 0
+>>v bodyPosition = (0.0, 0.0, 0.0)
+>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>v stabilizeFeet = False
+>>v layerCount = 0
+>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>v parameterCount = 0
+>>v feetPivotActive = 0
+>>v pivotWeight = 0
+>>v pivotPosition = (0.0, 0.0, 0.0)
+>>v isMatchingTarget = False
+>>v speed = 1
+>>v targetPosition = (0.0, 0.0, 0.0)
+>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>v cullingMode = CullUpdateTransforms
+>>v playbackTime = -1
+>>v recorderStartTime = -1
+>>v recorderStopTime = -1
+>>v recorderMode = Offline
+>>v runtimeAnimatorController = 
+>>v hasBoundPlayables = False
+>>v avatar = mdlBearVoidAvatar (UnityEngine.Avatar)
+>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>v layersAffectMassCenter = False
+>>v leftFeetBottomHeight = 0
+>>v rightFeetBottomHeight = 0
+>>v logWarnings = True
+>>v fireEvents = True
+>>v keepAnimatorControllerStateOnDisable = False
+
+>>GameObject Children 0 BearVoidArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Root
+
+>>>> transform = p: (0.0, 0.3, 0.1) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Body
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (6.0, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Arm.L
+
+>>>>>> transform = p: (-0.3, 0.1, -0.1) r: (305.9, 271.6, 184.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Arm.L_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (305.9, 271.6, 184.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 Arm.R
+
+>>>>>> transform = p: (0.3, 0.1, -0.1) r: (309.5, 90.0, 167.2) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Arm.R_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (309.5, 90.0, 167.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 Arm2.L
+
+>>>>>> transform = p: (-0.3, 0.4, 0.0) r: (304.8, 270.0, 198.1) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Arm2.L_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (304.8, 270.0, 198.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 Arm2.R
+
+>>>>>> transform = p: (0.3, 0.4, 0.0) r: (297.3, 90.0, 150.4) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Arm2.R_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (297.3, 90.0, 150.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 4 Foot.L
+
+>>>>>> transform = p: (-0.2, 0.5, 0.0) r: (349.1, 246.8, 260.5) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Foot.L_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (349.1, 246.8, 260.5) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 5 Foot.R
+
+>>>>>> transform = p: (0.2, 0.5, 0.0) r: (12.0, 283.9, 256.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Foot.R_end
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (12.0, 283.9, 256.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 head
+
+>>>>> transform = p: (0.0, 0.3, 0.0) r: (27.4, 353.9, 347.7) s: (1.1, 1.1, 1.1)
+>>>>>GameObject Children 0 head_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (27.4, 353.9, 347.7) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 mdlBearVoid
+
+>>> transform = p: (0.0, 0.4, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Root (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlBearVoid (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.4, 0.3), Extents: (0.7, 0.4, 0.7)

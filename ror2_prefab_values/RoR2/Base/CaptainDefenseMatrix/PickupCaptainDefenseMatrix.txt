@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/CaptainDefenseMatrix/PickupCaptainDefenseMatrix.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupCaptainDefenseMatrix
+
+> transform = p: (-54.0, 2.4, 67.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (-0.2, 0.9, -0.1, 0.5)
+>v minDistance = 2
+>v maxDistance = 4
+>v cameraDirection = (1.0, 0.4, 0.6)
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = CaptainDefenseDrone (UnityEngine.Mesh)
+>>v mesh = CaptainDefenseDrone Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (10.3, 331.7, 18.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-1.0, -0.4, -0.6) r: (10.3, 331.7, 18.3) s: (1.0, 1.0, 1.0)

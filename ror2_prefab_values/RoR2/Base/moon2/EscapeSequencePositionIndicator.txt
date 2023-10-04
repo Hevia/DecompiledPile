@@ -1,0 +1,173 @@
+Key Path : RoR2/Base/moon2/EscapeSequencePositionIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : EscapeSequencePositionIndicator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+> RoR2.PositionIndicator
+>v targetTransform = 
+>v transform = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.PositionIndicator]
+>v insideViewObject = InsideFrame (UnityEngine.GameObject)
+>v outsideViewObject = OutsideFrameArrow (UnityEngine.GameObject)
+>v alwaysVisibleObject = Sprite (UnityEngine.GameObject)
+>v shouldRotateOutsideViewObject = True
+>v outsideViewRotationOffset = 90
+>v yOffset = 0
+>v generateDefaultPosition = False
+>v <defaultPosition>k__BackingField = (0.0, 0.0, 0.0)
+>v cvPositionIndicatorsEnable = RoR2.ConVar.BoolConVar
+>v defaultPosition = (0.0, 0.0, 0.0)
+
+> RoR2.UI.DistanceIndicator
+>v positionIndicator = EscapeSequencePositionIndicator (RoR2.PositionIndicator)
+>v tmp = TextMeshPro (TMPro.TextMeshPro)
+>v instancesList = System.Collections.Generic.List`1[RoR2.UI.DistanceIndicator]
+
+>GameObject Children 0 TextMeshPro
+
+>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = 
+>>v mesh = TextMeshPro (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.CanvasRenderer
+>>v <isMask>k__BackingField = False
+>>v hasPopInstruction = False
+>>v materialCount = 0
+>>v popMaterialCount = 0
+>>v absoluteDepth = -1
+>>v hasMoved = False
+>>v cullTransparentMesh = False
+>>v hasRectClipping = False
+>>v relativeDepth = -1
+>>v cull = False
+>>v isMask = False
+>>v clippingSoftness = (0.0, 0.0)
+
+>> TMPro.TextMeshPro
+>>v m_hasFontAssetChanged = False
+>>v m_previousLossyScaleY = -1
+>>v m_renderer = TextMeshPro (UnityEngine.MeshRenderer)
+>>v m_meshFilter = 
+>>v m_CanvasRenderer = 
+>>v m_isFirstAllocation = False
+>>v m_max_characters = 8
+>>v m_max_numberOfLines = 4
+>>v m_subTextObjects = TMPro.TMP_SubMesh[]
+>>v m_maskType = MaskOff
+>>v m_EnvMapMatrix = 0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+0.00000	0.00000	0.00000	0.00000
+
+>>v m_RectTransformCorners = UnityEngine.Vector3[]
+>>v m_isRegisteredForEvents = False
+>>v k_GenerateTextMarker = Unity.Profiling.ProfilerMarker
+>>v k_SetArraySizesMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIMarker = Unity.Profiling.ProfilerMarker
+>>v k_ParseMarkupTextMarker = Unity.Profiling.ProfilerMarker
+>>v k_CharacterLookupMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleGPOSFeaturesMarker = Unity.Profiling.ProfilerMarker
+>>v k_CalculateVerticesPositionMarker = Unity.Profiling.ProfilerMarker
+>>v k_ComputeTextMetricsMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleVisibleCharacterMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleWhiteSpacesMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleHorizontalLineBreakingMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleVerticalLineBreakingMarker = Unity.Profiling.ProfilerMarker
+>>v k_SaveGlyphVertexDataMarker = Unity.Profiling.ProfilerMarker
+>>v k_ComputeCharacterAdvanceMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleCarriageReturnMarker = Unity.Profiling.ProfilerMarker
+>>v k_HandleLineTerminationMarker = Unity.Profiling.ProfilerMarker
+>>v k_SavePageInfoMarker = Unity.Profiling.ProfilerMarker
+>>v k_SaveProcessingStatesMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIIMarker = Unity.Profiling.ProfilerMarker
+>>v k_GenerateTextPhaseIIIMarker = Unity.Profiling.ProfilerMarker
+>>v _SortingLayer = 0
+>>v _SortingLayerID = 0
+>>v _SortingOrder = 0
+>>v OnPreRenderText = 
+>>v m_currentAutoSizeMode = False
+>>v sortingLayerID = 0
+>>v sortingOrder = 0
+>>v autoSizeTextContainer = False
+>>v textContainer = 
+>>v transform = TextMeshPro (UnityEngine.RectTransform)
+>>v renderer = TextMeshPro (UnityEngine.MeshRenderer)
+>>v mesh =  (UnityEngine.Mesh)
+>>v meshFilter = TextMeshPro (UnityEngine.MeshFilter)
+>>v maskType = MaskOff
+
+>>GameObject Children 0 TMP SubMesh [NotoSansCJKsc-Regular Atlas Material + NotoSans-Regular SDF(ROOT Extended ASCII + Turkish) Atlas]
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = 
+>>>v mesh = TMP SubMesh [NotoSansCJKsc-Regular Atlas Material + NotoSans-Regular SDF(ROOT Extended ASCII + Turkish) Atlas] (UnityEngine.Mesh)
+
+>>> TMPro.TMP_SubMesh
+>>>v m_fontAsset = NotoSans-Regular SDF(ROOT Extended ASCII + Turkish) (TMPro.TMP_FontAsset)
+>>>v m_spriteAsset = 
+>>>v m_material = 
+>>>v m_sharedMaterial = 
+>>>v m_fallbackMaterial = 
+>>>v m_fallbackSourceMaterial = 
+>>>v m_isDefaultMaterial = False
+>>>v m_padding = 1,25
+>>>v m_renderer = TMP SubMesh [NotoSansCJKsc-Regular Atlas Material + NotoSans-Regular SDF(ROOT Extended ASCII + Turkish) Atlas] (UnityEngine.MeshRenderer)
+>>>v m_meshFilter = 
+>>>v m_mesh = 
+>>>v m_TextComponent = TextMeshPro (TMPro.TextMeshPro)
+>>>v m_isRegisteredForEvents = False
+>>>v fontAsset = NotoSans-Regular SDF(ROOT Extended ASCII + Turkish) (TMPro.TMP_FontAsset)
+>>>v spriteAsset = 
+>>>v sharedMaterial = 
+>>>v fallbackMaterial = 
+>>>v fallbackSourceMaterial = 
+>>>v isDefaultMaterial = False
+>>>v padding = 1,25
+>>>v renderer = TMP SubMesh [NotoSansCJKsc-Regular Atlas Material + NotoSans-Regular SDF(ROOT Extended ASCII + Turkish) Atlas] (UnityEngine.MeshRenderer)
+>>>v meshFilter = TMP SubMesh [NotoSansCJKsc-Regular Atlas Material + NotoSans-Regular SDF(ROOT Extended ASCII + Turkish) Atlas] (UnityEngine.MeshFilter)
+>>>v mesh =  (UnityEngine.Mesh)
+>>>v textComponent = TextMeshPro (TMPro.TextMeshPro)
+
+>GameObject Children 1 InsideFrame
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Sprite
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texRescueshipIcon (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.684, 0.750, 1.000, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center
+
+>GameObject Children 2 OutsideFrameArrow
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Sprite
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texRescueshipIcon (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (0.4, 0.4)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.684, 0.750, 1.000, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center

@@ -1,0 +1,37 @@
+Key Path : RoR2/Base/bazaar/NewtStatueProp.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : NewtStatueProp
+
+> transform = p: (92.4, 4.9, 18.1) r: (0.0, 30.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 mdlNewtStatue
+
+>> transform = p: (0.0, -0.1, 0.0) r: (270.0, 30.0, 0.0) s: (1.5, 1.5, 1.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = NewtStatueMesh (UnityEngine.Mesh)
+>>v mesh = NewtStatueMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = NewtStatueMesh (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = -1
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> RoR2.RandomizeSplatBias
+>>v minRedBias = 0
+>>v maxRedBias = 0
+>>v minGreenBias = 0
+>>v maxGreenBias = 0,14
+>>v minBlueBias = -2
+>>v maxBlueBias = -2
+>>v _propBlock = 
+>>v characterModel = 
+>>v materialsList = 
+>>v rendererList = 
+>>v printShader = 

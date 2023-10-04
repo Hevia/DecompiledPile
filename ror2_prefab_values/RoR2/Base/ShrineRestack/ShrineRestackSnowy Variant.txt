@@ -1,0 +1,269 @@
+Key Path : RoR2/Base/ShrineRestack/ShrineRestackSnowy Variant.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ShrineRestackSnowy Variant
+
+> transform = p: (146.6, -78.3, -143.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 36f43f9ec00ade748927e89df4b0e743
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = 36f43f9ec00ade748927e89df4b0e743
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlShrineRestack (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = Base (UnityEngine.Transform)
+>v onModelChanged = 
+>v autoUpdateModelTransform = True
+>v dontDetatchFromParent = False
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 90
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlShrineRestack (UnityEngine.Transform)
+
+> RoR2.Highlight
+>v highlightList = System.Collections.Generic.List`1[RoR2.Highlight]
+>v _readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+>v displayNameProvider = 
+>v pickupIndex = ItemTier.Boss
+>v targetRenderer = ShrineRestackMesh (UnityEngine.SkinnedMeshRenderer)
+>v strength = 1
+>v highlightColor = interactive
+>v isOn = False
+>v readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+
+> RoR2.PurchaseInteraction
+>v displayNameToken = SHRINE_RESTACK_NAME
+>v contextToken = SHRINE_RESTACK_CONTEXT
+>v costType = LunarCoin
+>v available = True
+>v cost = 1
+>v automaticallyScaleCostWithDifficulty = False
+>v requiredUnlockable = 
+>v ignoreSpherecastForInteractability = False
+>v purchaseStatNames = System.String[]
+>v setUnavailableOnTeleporterActivated = False
+>v isShrine = True
+>v isGoldShrine = False
+>v lastActivator = 
+>v lockGameObject = 
+>v rng = 
+>v sharedStringBuilder = 
+>v onItemSpentOnPurchase = 
+>v onEquipmentSpentOnPurchase = 
+>v onPurchase = RoR2.PurchaseEvent RoR2.PurchaseEvent
+>v ___lockGameObjectNetId = 0
+>v NetworkdisplayNameToken = SHRINE_RESTACK_NAME
+>v NetworkcontextToken = SHRINE_RESTACK_CONTEXT
+>v Networkavailable = True
+>v Networkcost = 1
+>v NetworklockGameObject = 
+
+> RoR2.Hologram.HologramProjector
+>v displayDistance = 15
+>v hologramPivot = HologramPivot (UnityEngine.Transform)
+>v disableHologramRotation = True
+>v transformDampVelocity = 0
+>v contentProvider = 
+>v viewerReselectTimer = 0
+>v viewerReselectInterval = 0,25
+>v cachedViewer = 
+>v viewer = 
+>v hologramContentInstance = 
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = SHRINE_BLOOD_NAME
+
+> RoR2.ShrineRestackBehavior
+>v maxPurchaseCount = 1
+>v costMultiplierPerPurchase = 2
+>v symbolTransform = Symbol (UnityEngine.Transform)
+>v purchaseInteraction = 
+>v purchaseCount = 0
+>v refreshTimer = 0
+>v refreshDuration = 2
+>v waitingForRefresh = False
+>v rng = 
+
+> RoR2.PurchaseAvailabilityIndicator
+>v indicatorObject = Symbol (UnityEngine.GameObject)
+>v disabledIndicatorObject = 
+>v animator = mdlShrineRestack (UnityEngine.Animator)
+>v mecanimBool = available
+>v purchaseInteraction = 
+
+> RoR2.DitherModel
+>v fade = 0
+>v bounds = mdlShrineRestack (UnityEngine.CapsuleCollider)
+>v renderers = UnityEngine.Renderer[]
+>v propertyStorage = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.DitherModel]
+
+>GameObject Children 0 Base
+
+>> transform = p: (0.0, -0.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 mdlShrineRestack
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Animator
+>>>v isOptimizable = True
+>>>v isHuman = False
+>>>v hasRootMotion = False
+>>>v humanScale = 1
+>>>v isInitialized = False
+>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v applyRootMotion = False
+>>>v linearVelocityBlending = False
+>>>v animatePhysics = False
+>>>v updateMode = Normal
+>>>v hasTransformHierarchy = True
+>>>v gravityWeight = 0
+>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v stabilizeFeet = False
+>>>v layerCount = 0
+>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>v parameterCount = 0
+>>>v feetPivotActive = 0
+>>>v pivotWeight = 0
+>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>v isMatchingTarget = False
+>>>v speed = 1
+>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v cullingMode = CullUpdateTransforms
+>>>v playbackTime = -1
+>>>v recorderStartTime = -1
+>>>v recorderStopTime = -1
+>>>v recorderMode = Offline
+>>>v runtimeAnimatorController = animShrineRestack (UnityEngine.AnimatorController)
+>>>v hasBoundPlayables = False
+>>>v avatar = mdlShrineRestackAvatar (UnityEngine.Avatar)
+>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>v layersAffectMassCenter = False
+>>>v leftFeetBottomHeight = 0
+>>>v rightFeetBottomHeight = 0
+>>>v logWarnings = True
+>>>v fireEvents = True
+>>>v keepAnimatorControllerStateOnDisable = False
+
+>>> RoR2.EntityLocator
+>>>v entity = ShrineRestackSnowy Variant (UnityEngine.GameObject)
+
+>>> UnityEngine.CapsuleCollider
+>>>v center = (0.0, 2.5, 0.0)
+>>>v radius = 1,45
+>>>v height = 4,25
+>>>v direction = 1
+
+>>> ChildLocator
+>>>v transformPairs = ChildLocator+NameTransformPair[]
+>>>v Count = 1
+
+>>>GameObject Children 0 ShrineRestackArmature
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Bone
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 RingInner
+
+>>>>>> transform = p: (0.0, 3.3, 0.0) r: (330.7, 38.3, 43.2) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 RingInner_end
+
+>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (330.7, 38.3, 43.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 RingMiddle
+
+>>>>>> transform = p: (0.0, 3.3, 0.0) r: (346.8, 83.5, 159.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 RingMiddle_end
+
+>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (346.8, 83.5, 159.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 RingOuter
+
+>>>>>> transform = p: (0.0, 3.3, 0.0) r: (339.6, 306.7, 287.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 RingOuter_end
+
+>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (339.6, 306.7, 287.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 ShrineRestackMesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.SkinnedMeshRenderer
+>>>>v quality = Auto
+>>>>v updateWhenOffscreen = False
+>>>>v forceMatrixRecalculationPerRender = False
+>>>>v rootBone = Bone (UnityEngine.Transform)
+>>>>v bones = UnityEngine.Transform[]
+>>>>v sharedMesh = ShrineRestackMesh (UnityEngine.Mesh)
+>>>>v skinnedMotionVectors = True
+>>>>v localBounds = Center: (0.0, 2.4, 0.2), Extents: (1.6, 3.1, 1.8)
+
+>>>>GameObject Children 0 ShrineRestackSand
+
+>>>>> transform = p: (0.0, 0.0, 0.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = ShrineRestackSand (UnityEngine.Mesh)
+>>>>>v mesh = ShrineRestackSand Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 HologramPivot
+
+>> transform = p: (0.0, 1.1, -0.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 Symbol
+
+>> transform = p: (0.0, 5.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.4, 1.4, 1.4)
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> RoR2.Billboard
+>>v instanceTransformsList = System.Collections.Generic.List`1[UnityEngine.Transform]

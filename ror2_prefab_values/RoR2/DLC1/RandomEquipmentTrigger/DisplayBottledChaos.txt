@@ -1,0 +1,20 @@
+Key Path : RoR2/DLC1/RandomEquipmentTrigger/DisplayBottledChaos.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayBottledChaos
+
+> transform = p: (0.2, -148.9, -8.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlBottledChaos
+
+>> transform = p: (0.0, -0.1, 0.0) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>GameObject Children 0 mdlBottledChaos
+
+>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlBottledChaos (UnityEngine.Mesh)
+>>>v mesh = mdlBottledChaos Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

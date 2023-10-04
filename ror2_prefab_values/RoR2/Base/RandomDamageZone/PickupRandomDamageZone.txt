@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/RandomDamageZone/PickupRandomDamageZone.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupRandomDamageZone
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, -0.1, 0.3)
+>v minDistance = 2
+>v maxDistance = 3
+>v cameraDirection = (0.9, 0.4, 1.4)
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (-0.2, 0.1, -0.1) r: (327.8, 229.2, 25.6) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Sp7_low (UnityEngine.Mesh)
+>>v mesh = Sp7_low Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 301.9, 12.9) s: (2.5, 2.5, 2.5)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-2.2, -1.0, -3.5) r: (0.0, 301.9, 12.9) s: (2.5, 2.5, 2.5)

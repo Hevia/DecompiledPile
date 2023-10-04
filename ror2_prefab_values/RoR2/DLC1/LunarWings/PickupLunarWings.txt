@@ -1,0 +1,61 @@
+Key Path : RoR2/DLC1/LunarWings/PickupLunarWings.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupLunarWings
+
+> transform = p: (-7.5, -148.3, -18.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.7, 0.0, 0.8)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (2.1, 0.0, -0.3)
+
+>GameObject Children 0 mdlUpperWings
+
+>> transform = p: (-0.4, 0.0, 0.2) r: (320.9, 32.5, 263.0) s: (0.5, 0.5, 0.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlFastAttacksLowDamage (UnityEngine.Mesh)
+>>v mesh = mdlFastAttacksLowDamage Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 mdlUpperWingsGlow
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (320.9, 32.5, 263.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlFastAttacksLowDamageGlow (UnityEngine.Mesh)
+>>>v mesh = mdlFastAttacksLowDamageGlow Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 mdlLowerWings
+
+>> transform = p: (-0.4, 0.0, 0.2) r: (320.9, 32.5, 263.0) s: (0.5, 0.5, 0.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlSlowAttacksHighDamage (UnityEngine.Mesh)
+>>v mesh = mdlSlowAttacksHighDamage Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 mdlLowerWingsGlow
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (320.9, 32.5, 263.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlSlowAttacksHighDamageGlow (UnityEngine.Mesh)
+>>>v mesh = mdlSlowAttacksHighDamageGlow Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 2 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 7.3, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 CameraPosition(Clone)
+
+>> transform = p: (-2.1, 0.0, 0.3) r: (0.0, 7.3, 0.0) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,39 @@
+Key Path : RoR2/DLC1/OrbOnUse/PickupOrbOnUse.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupOrbOnUse
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (-0.5, 0.1, -0.1, -0.9)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (-0.6, -2.8, -1.6)
+
+>GameObject Children 0 mdlOrbOnUsePickup
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = mdlOrbOnUsePickup (UnityEngine.Mesh)
+>>v mesh = mdlOrbOnUsePickup Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 mdlCylinderGlassPickup
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlCylinderGlassPickup (UnityEngine.Mesh)
+>>>v mesh = mdlCylinderGlassPickup Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (10.4, 92.4, 298.7) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.6, 2.8, 1.6) r: (10.4, 92.4, 298.7) s: (1.0, 1.0, 1.0)

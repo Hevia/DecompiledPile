@@ -1,0 +1,178 @@
+Key Path : RoR2/Junk/ImpBoss/ImpCrawler.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ImpCrawler
+
+> transform = p: (127.7, 13.6, 84.2) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.MeshFilter
+>v sharedMesh = Cube (UnityEngine.Mesh)
+>v mesh = Cube Instance (UnityEngine.Mesh)
+
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = 59a649f18c394e5449f0de273ed00d06
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = True
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = True
+>v clientAuthorityOwner = 
+>v assetId = 59a649f18c394e5449f0de273ed00d06
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.Projectile.ProjectileController
+>v catalogIndex = 81
+>v ghostPrefab = ImpCrawlerGhost (UnityEngine.GameObject)
+>v ghostTransformAnchor = 
+>v startSound = 
+>v cannotBeDeleted = False
+>v flightSoundLoop = 
+>v rigidbody = 
+>v <teamFilter>k__BackingField = 
+>v <ghost>k__BackingField = 
+>v <isPrediction>k__BackingField = False
+>v canImpactOnTrigger = False
+>v <shouldPlaySounds>k__BackingField = False
+>v allowPrediction = True
+>v predictionId = 0
+>v owner = 
+>v onInitialized = 
+>v <procChainMask>k__BackingField = ()
+>v <clientAuthorityOwner>k__BackingField = 
+>v procCoefficient = 1
+>v myColliders = 
+>v ___ownerNetId = 0
+>v teamFilter = 
+>v ghost = 
+>v isPrediction = False
+>v shouldPlaySounds = False
+>v procChainMask = ()
+>v clientAuthorityOwner = 
+>v NetworkpredictionId = 0
+>v Networkowner = 
+
+> RoR2.Projectile.ProjectileNetworkTransform
+>v projectileController = 
+>v transform = 
+>v rb = 
+>v interpolatedTransform = 
+>v positionTransmitInterval = 0,03333334
+>v interpolationFactor = 1
+>v allowClientsideCollision = False
+>v serverPosition = (0.0, 0.0, 0.0)
+>v serverRotation = (0.0, 0.0, 0.0, 0.0)
+>v interpolatedPosition = NetworkLerpedVector3
+>v interpolatedRotation = NetworkLerpedQuaternion
+>v NetworkserverPosition = (0.0, 0.0, 0.0)
+>v NetworkserverRotation = (0.0, 0.0, 0.0, 0.0)
+
+> RoR2.Projectile.ProjectileDamage
+>v damage = 0
+>v crit = False
+>v force = 0
+>v damageColorIndex = Default
+>v damageType = Generic
+>v useDotMaxStacksFromAttacker = False
+>v dotMaxStacksFromAttacker = 4294967295
+
+> RoR2.TeamFilter
+>v teamIndexInternal = 0
+>v defaultTeam = None
+>v teamIndex = Neutral
+>v NetworkteamIndexInternal = 0
+
+> UnityEngine.CharacterController
+>v velocity = (0.0, 0.0, 0.0)
+>v isGrounded = False
+>v collisionFlags = None
+>v radius = 0,5
+>v height = 0
+>v center = (0.0, 0.0, 0.0)
+>v slopeLimit = 90
+>v stepOffset = 0,1
+>v skinWidth = 0,08
+>v minMoveDistance = 0,001
+>v detectCollisions = True
+>v enableOverlapRecovery = True
+
+> RoR2.Projectile.ProjectileCharacterController
+>v downVector = (0.0, 0.0, 0.0)
+>v velocity = 40
+>v lifetime = 5
+>v timer = 0
+>v projectileController = 
+>v characterController = 
+
+> RoR2.Projectile.ProjectileFireEffects
+>v duration = 1,5
+>v count = 15
+>v effectPrefab = WIPImpEffect (UnityEngine.GameObject)
+>v randomOffset = (1.0, 0.0, 1.0)
+>v timer = 0
+>v nextSpawnTimer = 0
+
+> RoR2.HitBoxGroup
+>v groupName = 
+>v hitBoxes = RoR2.HitBox[]
+
+> RoR2.Projectile.ProjectileOverlapAttack
+>v projectileController = 
+>v projectileDamage = 
+>v damageCoefficient = 1
+>v impactEffect = ImpactImpSwipe (UnityEngine.GameObject)
+>v forceVector = (0.0, 1400.0, 0.0)
+>v overlapProcCoefficient = 1
+>v maximumOverlapTargets = 100
+>v onServerHit = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v attack = 
+>v fireFrequency = 60
+>v resetInterval = -1
+>v resetTimer = 0
+>v fireTimer = 0
+
+> InterpolatedTransformUpdater
+>v m_interpolatedTransform = 
+
+> InterpolatedTransform
+>v m_lastTransforms = 
+>v m_newTransformIndex = 0
+
+> RoR2.Projectile.ProjectileMageFirewallWalkerController
+>v dropInterval = 0,1
+>v firePillarPrefab = BeetleQueenAcid (UnityEngine.GameObject)
+>v pillarAngle = 0
+>v curveToCenter = False
+>v moveSign = 0
+>v projectileController = 
+>v projectileDamage = 
+>v lastCenterPosition = (0.0, 0.0, 0.0)
+>v timer = 0
+>v currentPillarVector = (0.0, 1.0, 0.0)
+
+>GameObject Children 0 Hitbox
+
+>> transform = p: (0.0, 0.6, 0.0) r: (0.0, 0.0, 0.0) s: (2.4, 6.0, 2.4)
+>> RoR2.HitBox

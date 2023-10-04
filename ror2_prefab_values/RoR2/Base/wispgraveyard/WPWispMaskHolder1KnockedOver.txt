@@ -1,0 +1,58 @@
+Key Path : RoR2/Base/wispgraveyard/WPWispMaskHolder1KnockedOver.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : WPWispMaskHolder1KnockedOver
+
+> transform = p: (-542.8, -201.8, -666.9) r: (90.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, -3.6, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = WPWispMaskHolderMesh (UnityEngine.Mesh)
+>>v mesh = WPWispMaskHolderMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> UnityEngine.CapsuleCollider
+>>v center = (0.0, 0.0, 1.1)
+>>v radius = 1,24
+>>v height = 4,66
+>>v direction = 2
+
+>GameObject Children 1 WPWispMaskSingle
+
+>> transform = p: (-0.7, 0.5, 1.0) r: (270.0, 339.5, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = WPWispMaskSingle (UnityEngine.Mesh)
+>>v mesh = WPWispMaskSingle Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.SphereCollider
+>>v center = (0.0, 0.3, -0.2)
+>>v radius = 0,749177
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 2 WPWispMaskSingle (1)
+
+>> transform = p: (0.1, -0.8, 0.8) r: (287.5, 31.3, 321.8) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = WPWispMaskSingle (UnityEngine.Mesh)
+>>v mesh = WPWispMaskSingle Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.SphereCollider
+>>v center = (0.0, 0.3, -0.2)
+>>v radius = 0,749177
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)

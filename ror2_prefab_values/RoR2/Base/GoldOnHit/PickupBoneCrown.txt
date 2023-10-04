@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/GoldOnHit/PickupBoneCrown.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBoneCrown
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, -0.2, -0.1, 1.0)
+>v minDistance = 0,33
+>v maxDistance = 0,66
+>v cameraDirection = (0.1, 0.0, -0.5)
+
+>GameObject Children 0 mdlBoneCrown
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BoneCrownMesh (UnityEngine.Mesh)
+>>v mesh = BoneCrownMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.2, 0.0) r: (352.2, 113.3, 348.6) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.1, 0.1, 0.5) r: (352.2, 113.3, 348.6) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,353 @@
+Key Path : RoR2/Junk/Tank/Tank.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : Tank
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 TankBottom
+
+>> transform = p: (-2.6, 4.7, -1.6) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = TankBottom (UnityEngine.Mesh)
+>>v mesh = TankBottom Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.Rigidbody
+>>v velocity = (0.0, 0.0, 0.0)
+>>v angularVelocity = (0.0, 0.0, 0.0)
+>>v drag = 0
+>>v angularDrag = 0
+>>v mass = 999,9999
+>>v useGravity = True
+>>v maxDepenetrationVelocity = 1E+32
+>>v isKinematic = False
+>>v freezeRotation = False
+>>v constraints = None
+>>v collisionDetectionMode = Discrete
+>>v centerOfMass = (0.0, 0.0, 0.0)
+>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>v detectCollisions = True
+>>v position = (0.0, 0.0, 0.0)
+>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>v interpolation = None
+>>v solverIterations = 6
+>>v sleepThreshold = 0,005
+>>v maxAngularVelocity = 7
+>>v solverVelocityIterations = 1
+>>v sleepVelocity = 0
+>>v sleepAngularVelocity = 0
+>>v useConeFriction = False
+>>v solverIterationCount = 6
+>>v solverVelocityIterationCount = 1
+
+>> UnityEngine.BoxCollider
+>>v center = (0.0, -4.4, -3.0)
+>>v size = (10.5, 17.9, 2.6)
+>>v extents = (5.3, 9.0, 1.3)
+
+>> PhysicsController
+>>v centerOfMass = (0.0, 0.0, 0.0)
+>>v carRigidbody = 
+>>v cameraTransform = Camera (UnityEngine.Transform)
+>>v PID = (1.0, 0.1, 1.0)
+>>v turnOnInput = True
+>>v errorSum = (0.0, 0.0, 0.0)
+>>v deltaError = (0.0, 0.0, 0.0)
+>>v lastError = (0.0, 0.0, 0.0)
+>>v desiredHeading = (0.0, 0.0, 0.0)
+
+>> RoR2.HoverEngine
+>>v engineRigidbody = 
+>>v wheelVisual = 
+>>v hoverForce = 25
+>>v hoverHeight = 4
+>>v hoverDamping = 3
+>>v hoverRadius = 0
+>>v forceStrength = 0
+>>v castRay = Origin: (0.0, 0.0, 0.0), Dir: (0.0, 0.0, 0.0)
+>>v castPosition = (0.0, 0.0, 0.0)
+>>v raycastHit = UnityEngine.RaycastHit
+>>v compression = 0
+>>v offsetVector = (-6.0, 3.7, -4.8)
+>>v isGrounded = True
+
+>> RoR2.HoverEngine
+>>v engineRigidbody = 
+>>v wheelVisual = 
+>>v hoverForce = 25
+>>v hoverHeight = 4
+>>v hoverDamping = 3
+>>v hoverRadius = 0
+>>v forceStrength = 0
+>>v castRay = Origin: (0.0, 0.0, 0.0), Dir: (0.0, 0.0, 0.0)
+>>v castPosition = (0.0, 0.0, 0.0)
+>>v raycastHit = UnityEngine.RaycastHit
+>>v compression = 0
+>>v offsetVector = (6.0, 3.7, -4.8)
+>>v isGrounded = False
+
+>> RoR2.HoverEngine
+>>v engineRigidbody = 
+>>v wheelVisual = 
+>>v hoverForce = 25
+>>v hoverHeight = 4
+>>v hoverDamping = 3
+>>v hoverRadius = 0
+>>v forceStrength = 0
+>>v castRay = Origin: (0.0, 0.0, 0.0), Dir: (0.0, 0.0, 0.0)
+>>v castPosition = (0.0, 0.0, 0.0)
+>>v raycastHit = UnityEngine.RaycastHit
+>>v compression = 0
+>>v offsetVector = (-6.0, -11.9, -4.8)
+>>v isGrounded = False
+
+>> RoR2.HoverEngine
+>>v engineRigidbody = 
+>>v wheelVisual = 
+>>v hoverForce = 25
+>>v hoverHeight = 4
+>>v hoverDamping = 3
+>>v hoverRadius = 0
+>>v forceStrength = 0
+>>v castRay = Origin: (0.0, 0.0, 0.0), Dir: (0.0, 0.0, 0.0)
+>>v castPosition = (0.0, 0.0, 0.0)
+>>v raycastHit = UnityEngine.RaycastHit
+>>v compression = 0
+>>v offsetVector = (6.0, -11.9, -4.8)
+>>v isGrounded = False
+
+>>GameObject Children 0 WindZone
+
+>>> transform = p: (0.0, 0.0, -4.1) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.WindZone
+>>>v mode = Spherical
+>>>v radius = 4,59
+>>>v windMain = 1
+>>>v windTurbulence = 1
+>>>v windPulseMagnitude = 0,5
+>>>v windPulseFrequency = 0,01
+
+>>GameObject Children 1 CameraPivot
+
+>>> transform = p: (0.0, 0.0, 1.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> RoR2.CameraTargetParams
+>>>v cameraParams = 
+>>>v cameraPivotTransform = 
+>>>v fovOverride = 0
+>>>v recoil = (0.0, 0.0)
+>>>v dontRaycastToPivot = False
+>>>v targetRecoilDampTime = 0,08
+>>>v recoilDampTime = 0,05
+>>>v targetRecoil = (0.0, 0.0)
+>>>v recoilVelocity = (0.0, 0.0)
+>>>v targetRecoilVelocity = (0.0, 0.0)
+>>>v aimRequestStack = System.Collections.Generic.List`1[RoR2.CameraTargetParams+AimRequest]
+>>>v easeCurve = UnityEngine.AnimationCurve
+>>>v cameraParamsOverrides = 
+>>>v _currentCameraParamsData = RoR2.CharacterCameraParamsData
+
+>>>GameObject Children 0 CameraAnchor
+
+>>>> transform = p: (1.2, 10.3, -43.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Camera
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.Camera
+>>>>>v onPreCull = 
+>>>>>v onPreRender = 
+>>>>>v onPostRender = 
+>>>>>v nearClipPlane = 0,3
+>>>>>v farClipPlane = 1000
+>>>>>v fieldOfView = 60
+>>>>>v renderingPath = DeferredShading
+>>>>>v actualRenderingPath = DeferredShading
+>>>>>v allowHDR = True
+>>>>>v allowMSAA = True
+>>>>>v allowDynamicResolution = False
+>>>>>v forceIntoRenderTexture = False
+>>>>>v orthographicSize = 5
+>>>>>v orthographic = False
+>>>>>v opaqueSortMode = Default
+>>>>>v transparencySortMode = Default
+>>>>>v transparencySortAxis = (0.0, 0.0, 1.0)
+>>>>>v depth = 0
+>>>>>v aspect = 1,777778
+>>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>>v cullingMask = -1
+>>>>>v eventMask = -1
+>>>>>v layerCullSpherical = False
+>>>>>v cameraType = Game
+>>>>>v overrideSceneCullingMask = 0
+>>>>>v layerCullDistances = System.Single[]
+>>>>>v useOcclusionCulling = True
+>>>>>v cullingMatrix = 0.97428	0.00000	0.00000	1.41772
+0.00000	1.73205	0.00000	-28.86846
+0.00000	0.00000	1.00060	44.67096
+0.00000	0.00000	1.00000	45.24400
+
+>>>>>v backgroundColor = RGBA(0.192, 0.302, 0.475, 0.000)
+>>>>>v clearFlags = Skybox
+>>>>>v depthTextureMode = None
+>>>>>v clearStencilAfterLightingPass = False
+>>>>>v usePhysicalProperties = False
+>>>>>v sensorSize = (36.0, 24.0)
+>>>>>v lensShift = (0.0, 0.0)
+>>>>>v focalLength = 50
+>>>>>v gateFit = Horizontal
+>>>>>v rect = (x:0.00, y:0.00, width:1.00, height:1.00)
+>>>>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>>>>v pixelWidth = 1920
+>>>>>v pixelHeight = 1080
+>>>>>v scaledPixelWidth = 1920
+>>>>>v scaledPixelHeight = 1080
+>>>>>v targetTexture = 
+>>>>>v activeTexture = 
+>>>>>v targetDisplay = 0
+>>>>>v cameraToWorldMatrix = 1.00000	0.00000	0.00000	-1.45515
+0.00000	1.00000	0.00000	16.66722
+0.00000	0.00000	-1.00000	-45.24400
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>v worldToCameraMatrix = 1.00000	0.00000	0.00000	1.45515
+0.00000	1.00000	0.00000	-16.66722
+0.00000	0.00000	-1.00000	-45.24400
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>v projectionMatrix = 0.97428	0.00000	0.00000	0.00000
+0.00000	1.73205	0.00000	0.00000
+0.00000	0.00000	-1.00060	-0.60018
+0.00000	0.00000	-1.00000	0.00000
+
+>>>>>v nonJitteredProjectionMatrix = 0.97428	0.00000	0.00000	0.00000
+0.00000	1.73205	0.00000	0.00000
+0.00000	0.00000	-1.00060	-0.60018
+0.00000	0.00000	-1.00000	0.00000
+
+>>>>>v useJitteredProjectionMatrixForTransparentRendering = True
+>>>>>v previousViewProjectionMatrix = 75570590000000000000000000000000.00000	17440040000000000000000000000.00000	39746310000000000000000000000.00000	4514431000000000000000000000.00000
+223.42580	968278.90000	71839000000000000000000.00000	18393140000000000000000000.00000
+18443800000000000000000000000.00000	0.00000	71182100000000000000000000000.00000	2484224000000000000000000000.00000
+0.00000	71560050000000000000000.00000	71440830000000000000000000000000.00000	71389990000000000000000000000000.00000
+
+>>>>>v main = Scene Camera (UnityEngine.Camera)
+>>>>>v current = UI Camera (UnityEngine.Camera)
+>>>>>v scene = UnityEngine.SceneManagement.Scene
+>>>>>v stereoEnabled = False
+>>>>>v stereoSeparation = 0,022
+>>>>>v stereoConvergence = 10
+>>>>>v areVRStereoViewMatricesWithinSingleCullTolerance = False
+>>>>>v stereoTargetEye = Both
+>>>>>v stereoActiveEye = Mono
+>>>>>v allCamerasCount = 3
+>>>>>v allCameras = UnityEngine.Camera[]
+>>>>>v commandBufferCount = 0
+
+>>>>> UnityEngine.FlareLayer
+
+>>>>> UnityEngine.AudioListener
+>>>>>v volume = 1
+>>>>>v pause = False
+>>>>>v velocityUpdateMode = Auto
+
+>>GameObject Children 2 TankTop
+
+>>> transform = p: (0.0, 0.0, -1.9) r: (270.0, 117.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = TankTop (UnityEngine.Mesh)
+>>>v mesh = TankTop Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> PhysicsController
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v carRigidbody = 
+>>>v cameraTransform = Camera (UnityEngine.Transform)
+>>>v PID = (2.0, 0.1, 4.0)
+>>>v turnOnInput = False
+>>>v errorSum = (0.0, 0.0, 0.0)
+>>>v deltaError = (0.0, 0.0, 0.0)
+>>>v lastError = (0.0, 0.0, 0.0)
+>>>v desiredHeading = (0.0, 0.0, 0.0)
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.BoxCollider
+>>>v center = (-0.7, -0.9, 1.8)
+>>>v size = (9.1, 14.2, 3.1)
+>>>v extents = (4.6, 7.1, 1.6)
+
+>>> UnityEngine.ConfigurableJoint
+>>>v secondaryAxis = (0.0, 1.0, 0.0)
+>>>v xMotion = Locked
+>>>v yMotion = Locked
+>>>v zMotion = Locked
+>>>v angularXMotion = Locked
+>>>v angularYMotion = Locked
+>>>v angularZMotion = Free
+>>>v linearLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v angularXLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v angularYZLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v linearLimit = UnityEngine.SoftJointLimit
+>>>v lowAngularXLimit = UnityEngine.SoftJointLimit
+>>>v highAngularXLimit = UnityEngine.SoftJointLimit
+>>>v angularYLimit = UnityEngine.SoftJointLimit
+>>>v angularZLimit = UnityEngine.SoftJointLimit
+>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>v targetVelocity = (0.0, 0.0, 0.0)
+>>>v xDrive = UnityEngine.JointDrive
+>>>v yDrive = UnityEngine.JointDrive
+>>>v zDrive = UnityEngine.JointDrive
+>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDriveMode = XYAndZ
+>>>v angularXDrive = UnityEngine.JointDrive
+>>>v angularYZDrive = UnityEngine.JointDrive
+>>>v slerpDrive = UnityEngine.JointDrive
+>>>v projectionMode = None
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+>>>v configuredInWorldSpace = False
+>>>v swapBodies = False
+
+>>>GameObject Children 0 TankGun
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (274.6, 297.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = TankGun (UnityEngine.Mesh)
+>>>>v mesh = TankGun Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0

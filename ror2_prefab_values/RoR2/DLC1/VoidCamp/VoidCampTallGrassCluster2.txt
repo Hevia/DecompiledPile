@@ -1,0 +1,113 @@
+Key Path : RoR2/DLC1/VoidCamp/VoidCampTallGrassCluster2.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidCampTallGrassCluster2
+
+> transform = p: (13.1, -1.5, -12.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = f01c63e86973c4d43b6cec1283562133
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = f01c63e86973c4d43b6cec1283562133
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> SetRandomRotation
+>v setRandomXRotation = False
+>v setRandomYRotation = True
+>v setRandomZRotation = False
+
+>GameObject Children 0 VoidTallGrassPair
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshVoidTallGrassPair (UnityEngine.Mesh)
+>>v mesh = meshVoidTallGrassPair Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.0, 0.0)
+>>v size = 1
+>>v lodCount = 1
+>>v fadeMode = SpeedTree
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>GameObject Children 1 VoidXYZMesh1Small
+
+>> transform = p: (0.4, 0.0, -0.7) r: (356.0, 75.9, 349.4) s: (0.9, 0.9, 0.9)
+>>GameObject Children 0 Mesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (356.0, 75.9, 349.4) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VoidXYZMesh1Small (UnityEngine.Mesh)
+>>>v mesh = VoidXYZMesh1Small Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 2 VoidXYZMesh1Small (1)
+
+>> transform = p: (-0.3, 0.2, 0.6) r: (2.7, 12.0, 359.4) s: (0.6, 0.6, 0.6)
+>>GameObject Children 0 Mesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (2.7, 12.0, 359.4) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = VoidXYZMesh1Small (UnityEngine.Mesh)
+>>>v mesh = VoidXYZMesh1Small Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 3 VoidTallGrassTrio
+
+>> transform = p: (0.8, -0.6, 0.4) r: (270.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = meshVoidTallGrassTrio (UnityEngine.Mesh)
+>>v mesh = meshVoidTallGrassTrio Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.0, 0.0, 0.0)
+>>v size = 1
+>>v lodCount = 1
+>>v fadeMode = SpeedTree
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5

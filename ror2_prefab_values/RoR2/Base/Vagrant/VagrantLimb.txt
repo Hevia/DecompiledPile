@@ -1,0 +1,430 @@
+Key Path : RoR2/Base/Vagrant/VagrantLimb.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VagrantLimb
+
+> transform = p: (-45.0, -144.4, -110.4) r: (0.0, 0.0, 0.0) s: (4.0, 4.0, 4.0)
+> RoR2.AddCurvedTorque
+>v torqueCurve = UnityEngine.AnimationCurve
+>v localTorqueVector = (1.0, 0.1, -0.2)
+>v lifetime = 5
+>v rigidbodies = UnityEngine.Rigidbody[]
+>v stopwatch = 0
+
+>GameObject Children 0 VagrantLimbArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Tentacle2.001
+
+>>> transform = p: (-0.1, 0.1, 1.8) r: (356.2, 59.4, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.CapsuleCollider
+>>>v center = (0.0, 0.2, 0.1)
+>>>v radius = 0,16
+>>>v height = 1,36
+>>>v direction = 0
+
+>>GameObject Children 1 Tentacle2.005
+
+>>> transform = p: (-0.1, 0.0, 1.4) r: (356.2, 59.4, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.CharacterJoint
+>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDrive = UnityEngine.JointDrive
+>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>v enableProjection = False
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+
+>>> UnityEngine.CapsuleCollider
+>>>v center = (0.0, 0.0, 0.1)
+>>>v radius = 0,2
+>>>v height = 0,97
+>>>v direction = 0
+
+>>GameObject Children 2 Tentacle2.003
+
+>>> transform = p: (-0.1, 0.0, 0.9) r: (356.2, 59.4, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.CharacterJoint
+>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDrive = UnityEngine.JointDrive
+>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>v enableProjection = False
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.2)
+>>>v radius = 0,13
+
+>>GameObject Children 3 Tentacle2.007
+
+>>> transform = p: (0.0, 0.0, 0.5) r: (356.2, 59.4, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.CharacterJoint
+>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDrive = UnityEngine.JointDrive
+>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>v enableProjection = False
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.2)
+>>>v radius = 0,13
+
+>>GameObject Children 4 Tentacle2.002
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (356.2, 59.4, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.CharacterJoint
+>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDrive = UnityEngine.JointDrive
+>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>v enableProjection = False
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.2)
+>>>v radius = 0,13
+
+>>GameObject Children 5 Tentacle2.006
+
+>>> transform = p: (0.0, 0.0, -0.5) r: (356.2, 59.4, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.CharacterJoint
+>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDrive = UnityEngine.JointDrive
+>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>v enableProjection = False
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.1)
+>>>v radius = 0,13
+
+>>GameObject Children 6 Tentacle2.004
+
+>>> transform = p: (0.1, 0.0, -0.9) r: (356.2, 59.4, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.CharacterJoint
+>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDrive = UnityEngine.JointDrive
+>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>v enableProjection = False
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.1)
+>>>v radius = 0,13
+
+>>GameObject Children 7 Tentacle2.008
+
+>>> transform = p: (0.1, 0.0, -1.4) r: (356.2, 59.4, 180.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.CharacterJoint
+>>>v targetRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDrive = UnityEngine.JointDrive
+>>>v swingAxis = (0.0, 1.0, 0.0)
+>>>v twistLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v swingLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v lowTwistLimit = UnityEngine.SoftJointLimit
+>>>v highTwistLimit = UnityEngine.SoftJointLimit
+>>>v swing1Limit = UnityEngine.SoftJointLimit
+>>>v swing2Limit = UnityEngine.SoftJointLimit
+>>>v enableProjection = False
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v radius = 0,13
+
+>GameObject Children 1 VagrantLimbMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 240.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = True
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = Tentacle2.001 (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = VagrantLimbMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (0.2, 7.6, 0.0), Extents: (4.2, 8.4, 4.5)

@@ -1,0 +1,35 @@
+Key Path : RoR2/Base/ElementalRings/mdlRingSet.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlRingSet
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 IceRingGemstoneMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = IceRingGemstoneMesh (UnityEngine.Mesh)
+>>v mesh = IceRingGemstoneMesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 RingSetMeshHires
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RingSetMeshHires (UnityEngine.Mesh)
+>>v mesh = RingSetMeshHires Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 RingSetMeshLowres
+
+>> transform = p: (-5.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = RingSetMeshLowres (UnityEngine.Mesh)
+>>v mesh = RingSetMeshLowres Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

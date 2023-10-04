@@ -1,0 +1,406 @@
+Key Path : RoR2/DLC1/VoidChest/VoidChest.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : VoidChest
+
+> transform = p: (-23.2, -214.8, -163.5) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Networking.NetworkIdentity
+>v m_SceneId = 0
+>v m_AssetId = e82b1a3fea19dfd439109683ce4a14b7
+>v m_ServerOnly = False
+>v m_LocalPlayerAuthority = False
+>v m_IsClient = False
+>v m_IsServer = False
+>v m_HasAuthority = False
+>v m_NetId = 0
+>v m_IsLocalPlayer = False
+>v m_ConnectionToServer = 
+>v m_ConnectionToClient = 
+>v m_PlayerId = -1
+>v m_NetworkBehaviours = 
+>v m_ObserverConnections = 
+>v m_Observers = 
+>v m_ClientAuthorityOwner = 
+>v m_Reset = False
+>v s_NextNetworkId = 1
+>v s_UpdateWriter = UnityEngine.Networking.NetworkWriter
+>v clientAuthorityCallback = 
+>v onNetworkIdAssigned = 
+>v onStartServerGlobal = 
+>v isClient = False
+>v isServer = False
+>v hasAuthority = False
+>v netId = 0
+>v sceneId = 0
+>v serverOnly = False
+>v localPlayerAuthority = False
+>v clientAuthorityOwner = 
+>v assetId = e82b1a3fea19dfd439109683ce4a14b7
+>v isLocalPlayer = False
+>v playerControllerId = -1
+>v connectionToServer = 
+>v connectionToClient = 
+>v observers = 
+
+> RoR2.EntityStateMachine
+>v <state>k__BackingField = 
+>v nextState = 
+>v customName = Main
+>v initialStateType = EntityStates.SerializableEntityStateType
+>v mainStateType = EntityStates.SerializableEntityStateType
+>v <networker>k__BackingField = 
+>v <networkIdentity>k__BackingField = 
+>v commonComponents = RoR2.EntityStateMachine+CommonComponentCache
+>v networkIndex = -1
+>v nextStateModifier = 
+>v <destroying>k__BackingField = False
+>v state = 
+>v networker = 
+>v networkIdentity = 
+>v destroying = False
+
+> RoR2.ModelLocator
+>v _modelTransform = mdlVoidChest (UnityEngine.Transform)
+>v modelDestructionNotifier = 
+>v modelBaseTransform = ModelBase (UnityEngine.Transform)
+>v onModelChanged = 
+>v autoUpdateModelTransform = False
+>v dontDetatchFromParent = True
+>v modelParentTransform = 
+>v noCorpse = False
+>v dontReleaseModelOnDeath = False
+>v preserveModel = False
+>v normalizeToFloor = False
+>v normalSmoothdampTime = 0,1
+>v normalMaxAngleDelta = 360
+>v normalSmoothdampVelocity = (0.0, 0.0, 0.0)
+>v targetNormal = (0.0, 1.0, 0.0)
+>v currentNormal = (0.0, 1.0, 0.0)
+>v characterMotor = 
+>v modelTransform = mdlVoidChest (UnityEngine.Transform)
+
+> RoR2.NetworkStateMachine
+>v stateMachines = RoR2.EntityStateMachine[]
+>v networkIdentity = 
+
+> RoR2.Highlight
+>v highlightList = System.Collections.Generic.List`1[RoR2.Highlight]
+>v _readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+>v displayNameProvider = 
+>v pickupIndex = ItemTier.Boss
+>v targetRenderer = Voidchest (UnityEngine.SkinnedMeshRenderer)
+>v strength = 1
+>v highlightColor = interactive
+>v isOn = False
+>v readonlyHighlightList = System.Collections.ObjectModel.ReadOnlyCollection`1[RoR2.Highlight]
+
+> RoR2.ChestBehavior
+>v <dropPickup>k__BackingField = BadPickupIndex-1
+>v dropTable = dtVoidChest (RoR2.BasicPickupDropTable)
+>v dropTransform = Center (UnityEngine.Transform)
+>v dropUpVelocityStrength = 20
+>v dropForwardVelocityStrength = 0
+>v minDropCount = 1
+>v maxDropCount = 1
+>v openState = EntityStates.SerializableEntityStateType
+>v tier1Chance = 0
+>v tier2Chance = 0
+>v tier3Chance = 0
+>v lunarChance = 0
+>v requiredItemTag = Any
+>v lunarCoinChance = 0
+>v dropRoller = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v rng = 
+>v dropCount = 0
+>v dropPickup = BadPickupIndex-1
+
+> RoR2.PurchaseInteraction
+>v displayNameToken = VOID_CHEST_NAME
+>v contextToken = VOID_CHEST_CONTEXT
+>v costType = PercentHealth
+>v available = True
+>v cost = 50
+>v automaticallyScaleCostWithDifficulty = False
+>v requiredUnlockable = 
+>v ignoreSpherecastForInteractability = False
+>v purchaseStatNames = System.String[]
+>v setUnavailableOnTeleporterActivated = False
+>v isShrine = False
+>v isGoldShrine = False
+>v lastActivator = 
+>v lockGameObject = 
+>v rng = 
+>v sharedStringBuilder = 
+>v onItemSpentOnPurchase = 
+>v onEquipmentSpentOnPurchase = 
+>v onPurchase = RoR2.PurchaseEvent RoR2.PurchaseEvent
+>v ___lockGameObjectNetId = 0
+>v NetworkdisplayNameToken = VOID_CHEST_NAME
+>v NetworkcontextToken = VOID_CHEST_CONTEXT
+>v Networkavailable = True
+>v Networkcost = 50
+>v NetworklockGameObject = 
+
+> RoR2.GenericDisplayNameProvider
+>v displayToken = VOID_CHEST_NAME
+
+> RoR2.SfxLocator
+>v deathSound = 
+>v barkSound = 
+>v openSound = Play_ui_obj_voidCradle_open
+>v landingSound = 
+>v fallDamageSound = 
+>v aliveLoopStart = 
+>v aliveLoopStop = 
+>v sprintLoopStart = 
+>v sprintLoopStop = 
+
+> RoR2.Hologram.HologramProjector
+>v displayDistance = 15
+>v hologramPivot = HologramPivot (UnityEngine.Transform)
+>v disableHologramRotation = False
+>v transformDampVelocity = 0
+>v contentProvider = 
+>v viewerReselectTimer = 0
+>v viewerReselectInterval = 0,25
+>v cachedViewer = 
+>v viewer = 
+>v hologramContentInstance = 
+
+> RoR2.DitherModel
+>v fade = 0
+>v bounds = Collision (UnityEngine.SphereCollider)
+>v renderers = UnityEngine.Renderer[]
+>v propertyStorage = 
+>v instancesList = System.Collections.Generic.List`1[RoR2.DitherModel]
+
+> RoR2.ExpansionManagement.ExpansionRequirementComponent
+>v requiredExpansion = DLC1 (RoR2.ExpansionManagement.ExpansionDef)
+>v requireEntitlementIfPlayerControlled = False
+
+> RoR2.CombatSquad
+>v membersList = System.Collections.Generic.List`1[RoR2.CharacterMaster]
+>v memberHistory = System.Collections.Generic.List`1[UnityEngine.Networking.NetworkInstanceId]
+>v <readOnlyMembersList>k__BackingField = 
+>v propagateMembershipToSummons = False
+>v grantBonusHealthInMultiplayer = True
+>v onDestroyCallbacksServer = 
+>v defeatedServer = False
+>v membersListDirtyBit = 1
+>v allDirtyBits = 1
+>v awakeTime = RoR2.Run+FixedTimeStamp
+>v onDefeatedServer = 
+>v onDefeatedServerLogicEvent = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v onMemberDeathServer = 
+>v onMemberDefeatedServer = 
+>v onMemberAddedServer = 
+>v onMemberDiscovered = 
+>v onMemberLost = 
+>v readOnlyMembersList = 
+>v memberCount = 0
+
+> RoR2.ScriptedCombatEncounter
+>v onBeginEncounter = 
+>v seed = 0
+>v randomizeSeed = True
+>v teamIndex = Void
+>v spawns = RoR2.ScriptedCombatEncounter+SpawnInfo[]
+>v spawnOnStart = False
+>v grantUniqueBonusScaling = True
+>v <combatSquad>k__BackingField = 
+>v <hasSpawnedServer>k__BackingField = False
+>v rng = 
+>v combatSquad = 
+>v hasSpawnedServer = False
+
+> RoR2.EntityLogic.DelayedEvent
+>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>v timeStepType = FixedTime
+
+>GameObject Children 0 ModelBase
+
+>> transform = p: (0.0, 0.9, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.1)
+>>GameObject Children 0 mdlVoidChest
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Animator
+>>>v isOptimizable = True
+>>>v isHuman = False
+>>>v hasRootMotion = False
+>>>v humanScale = 1
+>>>v isInitialized = False
+>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v applyRootMotion = False
+>>>v linearVelocityBlending = False
+>>>v animatePhysics = False
+>>>v updateMode = Normal
+>>>v hasTransformHierarchy = True
+>>>v gravityWeight = 0
+>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>>v stabilizeFeet = False
+>>>v layerCount = 0
+>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>v parameterCount = 0
+>>>v feetPivotActive = 0
+>>>v pivotWeight = 0
+>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>v isMatchingTarget = False
+>>>v speed = 1
+>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v cullingMode = CullUpdateTransforms
+>>>v playbackTime = -1
+>>>v recorderStartTime = -1
+>>>v recorderStopTime = -1
+>>>v recorderMode = Offline
+>>>v runtimeAnimatorController = animVoidChest (UnityEngine.AnimatorController)
+>>>v hasBoundPlayables = False
+>>>v avatar = mdlVoidChestAvatar (UnityEngine.Avatar)
+>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>v layersAffectMassCenter = False
+>>>v leftFeetBottomHeight = 0
+>>>v rightFeetBottomHeight = 0
+>>>v logWarnings = True
+>>>v fireEvents = True
+>>>v keepAnimatorControllerStateOnDisable = False
+
+>>> ChildLocator
+>>>v transformPairs = ChildLocator+NameTransformPair[]
+>>>v Count = 1
+
+>>> RoR2.EntityLocator
+>>>v entity = VoidChest (UnityEngine.GameObject)
+
+>>> RoR2.AnimationEvents
+>>>v soundCenter = 
+>>>v bodyObject = 
+>>>v characterModel = 
+>>>v childLocator = 
+>>>v entityLocator = 
+>>>v meshRenderer = 
+>>>v modelLocator = 
+>>>v printHeight = 0
+>>>v printTime = 0
+
+>>>GameObject Children 0 Voidchest
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.SkinnedMeshRenderer
+>>>>v quality = Auto
+>>>>v updateWhenOffscreen = False
+>>>>v forceMatrixRecalculationPerRender = False
+>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>v bones = UnityEngine.Transform[]
+>>>>v sharedMesh = Voidchest (UnityEngine.Mesh)
+>>>>v skinnedMotionVectors = True
+>>>>v localBounds = Center: (0.0, 0.4, 0.0), Extents: (0.8, 0.7, 0.8)
+
+>>>GameObject Children 1 VoidchestArmature
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Base
+
+>>>>> transform = p: (0.0, 0.0, -1.6) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Base_end
+
+>>>>>> transform = p: (0.0, 1.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 ROOT
+
+>>>>> transform = p: (0.0, 0.0, -1.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 Bullet
+
+>>>>>> transform = p: (0.0, 3.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.1, 1.0, 1.1)
+>>>>>>GameObject Children 0 BulletInner
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>>>>>>>GameObject Children 0 BulletInner_end
+
+>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 CenterBall.1
+
+>>>>>> transform = p: (0.0, 0.9, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 CenterBall.2
+
+>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 CenterBall.3
+
+>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 CenterBall.4
+
+>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 CenterBall.4_end
+
+>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 1 Point Light
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.Light
+>>>>>>>v m_BakedIndex = 0
+>>>>>>>v type = Point
+>>>>>>>v shape = Cone
+>>>>>>>v spotAngle = 30
+>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>v color = RGBA(0.865, 0.259, 1.000, 1.000)
+>>>>>>>v colorTemperature = 6570
+>>>>>>>v useColorTemperature = False
+>>>>>>>v intensity = 30
+>>>>>>>v bounceIntensity = 1
+>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>v shadowCustomResolution = -1
+>>>>>>>v shadowBias = 0,05
+>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>v range = 3
+>>>>>>>v flare = 
+>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>v cullingMask = -1
+>>>>>>>v renderingLayerMask = 1
+>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>v shadows = None
+>>>>>>>v shadowStrength = 1
+>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>v shadowSoftness = 4
+>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>v cookieSize = 10
+>>>>>>>v cookie = 
+>>>>>>>v renderMode = Auto
+>>>>>>>v bakedIndex = 0
+>>>>>>>v commandBufferCount = 0
+>>>>>>>v pixelLightCount = 4
+>>>>>>>v shadowConstantBias = 0
+>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>v attenuate = True
+
+>>>>GameObject Children 2 Center
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 Collision
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.SphereCollider
+>>>>v center = (0.0, 0.0, 0.0)
+>>>>v radius = 1
+
+>>>> RoR2.EntityLocator
+>>>>v entity = VoidChest (UnityEngine.GameObject)
+
+>GameObject Children 1 HologramPivot
+
+>> transform = p: (0.0, 3.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 GameObject
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 BugSpawnPosition
+
+>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

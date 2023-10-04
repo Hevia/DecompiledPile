@@ -1,0 +1,20 @@
+Key Path : RoR2/DLC1/HalfSpeedDoubleHealth/DisplayLunarShoulderStone.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayLunarShoulderStone
+
+> transform = p: (-6.7, -146.8, -18.2) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlSlowAttacksHighDamage
+
+>> transform = p: (0.1, -0.1, 0.0) r: (285.4, 270.0, 0.0) s: (0.2, 0.2, 0.2)
+>>GameObject Children 0 mdlSlowAttacksHighDamage
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (285.4, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlSlowAttacksHighDamage (UnityEngine.Mesh)
+>>>v mesh = mdlSlowAttacksHighDamage Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

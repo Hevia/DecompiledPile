@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/Tonic/DisplayTonic.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayTonic
+
+> transform = p: (115.6, -109.2, 8.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 TonicGlassOuter
+
+>> transform = p: (0.0, -0.2, 0.0) r: (270.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = TonicGlassOuter (UnityEngine.Mesh)
+>>v mesh = TonicGlassOuter Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 TonicCap
+
+>> transform = p: (0.0, 0.5, 0.0) r: (270.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = TonicCap (UnityEngine.Mesh)
+>>v mesh = TonicCap Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

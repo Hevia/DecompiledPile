@@ -1,0 +1,42 @@
+Key Path : RoR2/Base/KillEliteFrenzy/PickupBrainstalk.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupBrainstalk
+
+> transform = p: (-94.9, -142.7, -201.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, -0.5, 0.0, 0.9)
+>v minDistance = 1
+>v maxDistance = 2,5
+>v cameraDirection = (-0.9, 0.0, -0.7)
+
+>GameObject Children 0 mdlBrainstalk
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 BrainMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BrainMesh (UnityEngine.Mesh)
+>>>v mesh = BrainMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 BrainstalkMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BrainstalkMesh (UnityEngine.Mesh)
+>>>v mesh = BrainstalkMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.3, 0.0) r: (0.0, 144.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.9, 0.3, 0.7) r: (0.0, 144.0, 0.0) s: (1.0, 1.0, 1.0)

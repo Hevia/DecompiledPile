@@ -1,0 +1,1197 @@
+Key Path : RoR2/DLC1/voidraid/Weather, Void Raid Starry Night Variant.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : Weather, Void Raid Starry Night Variant
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 PP + Amb
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>>v sharedProfile = ppSceneVoidRaidStageStarry (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>>v isGlobal = True
+>>v blendDistance = 0
+>>v weight = 1
+>>v priority = 30
+>>v m_PreviousLayer = 0
+>>v m_PreviousPriority = 0
+>>v m_TempColliders = 
+>>v m_InternalProfile = 
+>>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+>> RoR2.SetAmbientLight
+>>v setSkyboxMaterial = True
+>>v setAmbientLightColor = True
+>>v skyboxMaterial = matSkyboxVoidStage (UnityEngine.Material)
+>>v ambientMode = Flat
+>>v ambientIntensity = 0,7
+>>v ambientSkyColor = RGBA(0.492, 0.492, 0.519, 1.000)
+>>v ambientEquatorColor = RGBA(0.212, 0.162, 0.472, 1.000)
+>>v ambientGroundColor = RGBA(0.330, 0.123, 0.177, 1.000)
+
+>GameObject Children 1 Directional Light
+
+>> transform = p: (0.0, 0.0, 0.0) r: (38.5, 142.2, 211.1) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Directional
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.906, 0.560, 0.893, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 1,2
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 10
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = Soft
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 200
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>> NGSS_Directional
+>>v NGSS_KEEP_ONDISABLE = True
+>>v NGSS_NO_UPDATE_ON_PLAY = False
+>>v NGSS_SHADOWS_RESOLUTION = UseQualitySettings
+>>v NGSS_SAMPLING_TEST = 16
+>>v NGSS_SAMPLING_FILTER = 48
+>>v NGSS_SAMPLING_DISTANCE = 75
+>>v NGSS_SHADOWS_SOFTNESS = 3
+>>v NGSS_PCSS_ENABLED = False
+>>v NGSS_PCSS_SOFTNESS_NEAR = 2
+>>v NGSS_PCSS_SOFTNESS_FAR = 2
+>>v NGSS_NOISE_TO_DITHERING_SCALE = 0
+>>v NGSS_NOISE_TEXTURE = BlueNoise_R8_8 (UnityEngine.Texture2D)
+>>v NGSS_DENOISER_ENABLED = True
+>>v NGSS_DENOISER_ITERATIONS = 2
+>>v NGSS_DENOISER_BLUR = 0,25
+>>v NGSS_DENOISER_EDGE_TOLERANCE = 0,5
+>>v NGSS_RECEIVER_PLANE_BIAS = False
+>>v NGSS_CASCADES_BLENDING = True
+>>v NGSS_CASCADES_BLENDING_VALUE = 1
+>>v NGSS_CASCADES_SOFTNESS_NORMALIZATION = 1
+>>v isSetup = False
+>>v isInitialized = False
+>>v isGraphicSet = False
+>>v _DirLight = 
+
+>GameObject Children 2 HOLDER: Lights
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 HOLDER: Cloud Floor
+
+>> transform = p: (0.0, -68.0, 0.0) r: (0.0, 0.0, 0.0) s: (2.0, 2.0, 2.0)
+>>GameObject Children 0 Cloud1
+
+>>> transform = p: (0.0, -60.0, 0.0) r: (90.0, 0.0, 0.0) s: (841.4, 841.4, 841.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 Cloud2
+
+>>> transform = p: (0.0, -30.0, 0.0) r: (90.0, 0.0, 0.0) s: (841.4, 841.4, 841.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Cloud3
+
+>>> transform = p: (-22.8, -20.0, 46.7) r: (90.0, 310.1, 0.0) s: (841.4, 841.4, 841.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 Cloud4
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (841.4, 841.4, 841.4)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 Quad
+
+>>> transform = p: (0.0, -222.7, 0.0) r: (90.0, 30.0, 0.0) s: (49986.1, 49986.1, 49986.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 5 BIG Point Light
+
+>>> transform = p: (54.8, -48.7, -29.7) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(0.420, 0.849, 1.000, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 3
+>>>v bounceIntensity = 1
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 548,4
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>>GameObject Children 6 Point Light (2)
+
+>>> transform = p: (-44.5, -48.7, -24.1) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(0.495, 0.689, 1.000, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 3
+>>>v bounceIntensity = 1
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 800
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>>GameObject Children 7 Point Light (3)
+
+>>> transform = p: (-38.0, -48.7, 30.5) r: (0.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>> UnityEngine.Light
+>>>v m_BakedIndex = 0
+>>>v type = Point
+>>>v shape = Cone
+>>>v spotAngle = 30
+>>>v innerSpotAngle = 21,80208
+>>>v color = RGBA(0.533, 0.712, 1.000, 1.000)
+>>>v colorTemperature = 6570
+>>>v useColorTemperature = False
+>>>v intensity = 3
+>>>v bounceIntensity = 1
+>>>v useBoundingSphereOverride = False
+>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>v shadowCustomResolution = -1
+>>>v shadowBias = 0,05
+>>>v shadowNormalBias = 0,4
+>>>v shadowNearPlane = 0,2
+>>>v useShadowMatrixOverride = False
+>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>v range = 800
+>>>v flare = 
+>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>v cullingMask = -1
+>>>v renderingLayerMask = 1
+>>>v lightShadowCasterMode = Default
+>>>v shadows = None
+>>>v shadowStrength = 1
+>>>v shadowResolution = FromQualitySettings
+>>>v shadowSoftness = 4
+>>>v shadowSoftnessFade = 1
+>>>v layerShadowCullDistances = System.Single[]
+>>>v cookieSize = 10
+>>>v cookie = 
+>>>v renderMode = Auto
+>>>v bakedIndex = 0
+>>>v commandBufferCount = 0
+>>>v pixelLightCount = 4
+>>>v shadowConstantBias = 0
+>>>v shadowObjectSizeBias = 0
+>>>v attenuate = True
+
+>>GameObject Children 8 SPPortalCard
+
+>>> transform = p: (-1.5, 5.6, 2.2) r: (89.7, 0.0, 0.0) s: (523.6, 1468.1, 14.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 4 HOLDER: Skybox, Default
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.WeatherParticles
+>>v resetPositionToZero = False
+>>v lockPosition = True
+>>v lockRotation = False
+>>v instancesList = System.Collections.Generic.List`1[RoR2.WeatherParticles]
+
+>>GameObject Children 0 Skybox Sphere
+
+>>> transform = p: (-166.6, 38.3, -2.7) r: (9.2, 310.9, 160.3) s: (6854.7, 6854.7, 6854.7)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 0 Skybox Sphere Clouds
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (9.2, 310.9, 160.3) s: (0.3, 0.3, 0.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 HOLDER: Planets
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>v _speed = Slow
+>>>>v _slowRotationSpeed = 0,5
+>>>>v _fastRotationSpeed = 20
+>>>>v _rotateAroundAxis = Y
+>>>>v _relativeTo = World
+>>>>v _reverse = False
+>>>>v speed = Slow
+>>>>v slowRotationSpeed = 0,5
+>>>>v fastRotationSpeed = 20
+>>>>v rotateAroundAxis = Y
+>>>>v relativeTo = World
+>>>>v reverse = False
+
+>>>>GameObject Children 0 VoidRaidPlanetVomitwave
+
+>>>>> transform = p: (-2285.0, 1882.0, -984.7) r: (327.0, 341.3, 335.5) s: (330.2, 330.2, 332.5)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 VoidRaidPlanetSmallBlue
+
+>>>>> transform = p: (40.2, 1107.8, 1900.1) r: (327.0, 341.3, 335.5) s: (330.2, 330.2, 332.5)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 VoidRaidPlanetPurpleWave
+
+>>>>> transform = p: (1822.5, 887.0, 881.3) r: (327.0, 341.3, 335.5) s: (159.1, 159.1, 160.2)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 VoidRaidPlanetPurpleCrater
+
+>>>>> transform = p: (-2131.5, 824.0, 1047.3) r: (327.0, 341.3, 335.5) s: (330.2, 330.2, 332.5)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 3 Moon Rotational Center
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (338.9, 4.3, 351.4) s: (1.0, 1.0, 1.0)
+>>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>>v _speed = Slow
+>>>>>>v _slowRotationSpeed = 0,3
+>>>>>>v _fastRotationSpeed = 20
+>>>>>>v _rotateAroundAxis = Y
+>>>>>>v _relativeTo = Self
+>>>>>>v _reverse = True
+>>>>>>v speed = Slow
+>>>>>>v slowRotationSpeed = 0,3
+>>>>>>v fastRotationSpeed = 20
+>>>>>>v rotateAroundAxis = Y
+>>>>>>v relativeTo = Self
+>>>>>>v reverse = True
+
+>>>>>>GameObject Children 0 VoidRaidPlanetPurpleCraterMoon
+
+>>>>>>> transform = p: (-0.1, 0.0, 2.0) r: (327.0, 22.3, 335.5) s: (0.3, 0.3, 0.3)
+>>>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 22.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 22.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 22.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 4 VoidRaidPlanetPinkVomit
+
+>>>>> transform = p: (-1352.7, 1374.0, 2103.3) r: (327.0, 341.3, 335.5) s: (330.2, 330.2, 332.5)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 5 VoidRaidPlanetMars
+
+>>>>> transform = p: (1592.2, 968.0, 2306.5) r: (327.0, 341.3, 335.5) s: (331.5, 330.2, 331.2)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 3 mdlVoidRaidPlanetRing
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 mdlRaidPlanetRings
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (282.6, 174.6, 309.3) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = mdlRaidPlanetRings (UnityEngine.Mesh)
+>>>>>>>v mesh = mdlRaidPlanetRings Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 6 VoidRaidPlanetIcey
+
+>>>>> transform = p: (2209.1, 933.0, -346.5) r: (327.0, 341.3, 335.5) s: (347.9, 347.9, 350.3)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (306.5, 117.2, 215.8) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (306.5, 117.2, 215.8) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (306.5, 117.2, 215.8) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 7 VoidRaidPlanetGreenMarble
+
+>>>>> transform = p: (1646.2, 996.0, -1399.7) r: (327.0, 341.3, 335.5) s: (65.6, 65.6, 66.0)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 8 VoidRaidPlanetEvilCrater
+
+>>>>> transform = p: (600.2, 1687.0, -2215.3) r: (327.0, 341.3, 335.5) s: (140.6, 140.6, 141.6)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 9 VoidRaidPlanetBlueMarble
+
+>>>>> transform = p: (-1246.0, 1421.0, -2088.0) r: (327.0, 341.3, 335.5) s: (479.6, 479.6, 482.9)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 10 VoidRaidPlanetAcid
+
+>>>>> transform = p: (-2043.4, 1192.1, 125.7) r: (327.0, 341.3, 335.5) s: (112.6, 112.6, 113.4)
+>>>>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>>>>v _speed = Slow
+>>>>>v _slowRotationSpeed = 0,5
+>>>>>v _fastRotationSpeed = 20
+>>>>>v _rotateAroundAxis = Y
+>>>>>v _relativeTo = World
+>>>>>v _reverse = True
+>>>>>v speed = Slow
+>>>>>v slowRotationSpeed = 0,5
+>>>>>v fastRotationSpeed = 20
+>>>>>v rotateAroundAxis = Y
+>>>>>v relativeTo = World
+>>>>>v reverse = True
+
+>>>>>GameObject Children 0 mdlRaidPlanetOpaqueBase
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanet (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanet Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 mdlRaidPlanetDiffuse
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 mdlRaidPlanetEdgeLight
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (327.0, 341.3, 335.5) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetVertexShadow (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetVertexShadow Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 3 mdlRaidPlanetRings (1)
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (305.1, 114.5, 61.2) s: (1.2, 1.2, 1.2)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlRaidPlanetRings (UnityEngine.Mesh)
+>>>>>>v mesh = mdlRaidPlanetRings Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 11 2DPlanets
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 2DPlanetEarth
+
+>>>>>> transform = p: (1847.8, 728.9, 1730.8) r: (348.9, 47.1, 0.0) s: (34.9, 34.7, 34.9)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 1 2DPlanetFrostbite
+
+>>>>>> transform = p: (-497.6, 821.6, 2170.8) r: (344.6, 346.8, 0.0) s: (34.9, 34.7, 34.9)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 2 2DPlanetFrozen
+
+>>>>>> transform = p: (-539.1, 884.8, 2143.3) r: (344.6, 346.8, 0.0) s: (21.7, 21.5, 21.7)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 3 2DPlanetStar
+
+>>>>>> transform = p: (-1577.3, 685.9, 1646.6) r: (13.3, 129.2, 0.0) s: (41.9, 41.6, 41.9)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdl2DPlanetStar (UnityEngine.Mesh)
+>>>>>>v mesh = mdl2DPlanetStar Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 4 2DPlanetRing
+
+>>>>>> transform = p: (-3028.8, 1232.4, -347.6) r: (19.7, 80.9, 0.0) s: (122.5, 121.7, 122.5)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdl2DPlanetRing (UnityEngine.Mesh)
+>>>>>>v mesh = mdl2DPlanetRing Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 5 2DPlanetSecretMars
+
+>>>>>> transform = p: (-3085.4, 1777.4, -703.7) r: (332.7, 247.9, 4.7) s: (71.2, 70.7, 71.2)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 6 2DPlanetSmallMoon
+
+>>>>>> transform = p: (-2295.7, 1338.0, 1963.3) r: (339.1, 295.6, 359.6) s: (27.2, 27.0, 27.2)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 7 2DPlanetSecretMoon
+
+>>>>>> transform = p: (128.9, 1309.1, -2073.4) r: (326.2, 173.5, 2.4) s: (31.5, 31.3, 31.5)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 8 2DPlanetSecretEgg
+
+>>>>>> transform = p: (1550.1, 1407.8, -2053.7) r: (339.3, 143.6, 176.4) s: (34.6, 34.4, 34.6)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdl2DPlanetEgg (UnityEngine.Mesh)
+>>>>>>v mesh = mdl2DPlanetEgg Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 9 2DPlanetZ
+
+>>>>>> transform = p: (2203.9, 1244.2, -1314.5) r: (339.3, 121.1, 354.4) s: (32.9, 32.7, 32.9)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>GameObject Children 10 2DPlanetGrey
+
+>>>>>> transform = p: (2513.1, 1550.5, 259.9) r: (328.6, 81.4, 0.0) s: (32.9, 32.7, 32.9)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = mdlCircle (UnityEngine.Mesh)
+>>>>>>v mesh = mdlCircle Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 BillboardPlanets
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (9.2, 310.9, 160.3) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 12
+>>>>v startSpeed = 0
+>>>>v startSize = 100
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 30
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 1000
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 1 Lights
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

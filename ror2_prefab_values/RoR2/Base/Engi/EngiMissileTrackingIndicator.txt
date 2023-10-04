@@ -1,0 +1,109 @@
+Key Path : RoR2/Base/Engi/EngiMissileTrackingIndicator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : EngiMissileTrackingIndicator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 DotOrigin
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>>GameObject Children 0 DotTemplate
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> RoR2.ObjectScaleCurve
+>>>v useOverallCurveOnly = False
+>>>v curveX = UnityEngine.AnimationCurve
+>>>v curveY = UnityEngine.AnimationCurve
+>>>v curveZ = UnityEngine.AnimationCurve
+>>>v overallCurve = UnityEngine.AnimationCurve
+>>>v timeMax = 0,2
+>>>v <time>k__BackingField = 0
+>>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>>v time = 0
+>>>v baseScale = (0.0, 0.0, 0.0)
+
+>>>GameObject Children 0 Arrow
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (0.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>>> UnityEngine.SpriteRenderer
+>>>>v sprite = texUIEngiMissileLockedOn (UnityEngine.Sprite)
+>>>>v drawMode = Simple
+>>>>v size = (2.6, 2.6)
+>>>>v adaptiveModeThreshold = 0,5
+>>>>v tileMode = Continuous
+>>>>v color = RGBA(1.000, 0.439, 0.382, 1.000)
+>>>>v maskInteraction = None
+>>>>v flipX = False
+>>>>v flipY = False
+>>>>v spriteSortPoint = Center
+
+>GameObject Children 1 Base Container
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> RoR2.ObjectScaleCurve
+>>v useOverallCurveOnly = False
+>>v curveX = UnityEngine.AnimationCurve
+>>v curveY = UnityEngine.AnimationCurve
+>>v curveZ = UnityEngine.AnimationCurve
+>>v overallCurve = UnityEngine.AnimationCurve
+>>v timeMax = 0,1
+>>v <time>k__BackingField = 0
+>>v <baseScale>k__BackingField = (0.0, 0.0, 0.0)
+>>v time = 0
+>>v baseScale = (0.0, 0.0, 0.0)
+
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Fast
+>>v _slowRotationSpeed = 5
+>>v _fastRotationSpeed = 270
+>>v _rotateAroundAxis = Z
+>>v _relativeTo = Self
+>>v _reverse = False
+>>v speed = Fast
+>>v slowRotationSpeed = 5
+>>v fastRotationSpeed = 270
+>>v rotateAroundAxis = Z
+>>v relativeTo = Self
+>>v reverse = False
+
+>>GameObject Children 0 Base Core
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 315.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texUIEngiMissilePaint (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (2.6, 2.6)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.137, 1.000, 0.782, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 1 Darken
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 315.0) s: (0.0, 0.0, 0.0)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texCrosshair2 (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (2.6, 2.6)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.000, 0.000, 0.000, 0.310)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center
+
+>>GameObject Children 2 Edge
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.1, 0.1, 0.1)
+>>> UnityEngine.SpriteRenderer
+>>>v sprite = texUIEngiMissilePaint (UnityEngine.Sprite)
+>>>v drawMode = Simple
+>>>v size = (2.6, 2.6)
+>>>v adaptiveModeThreshold = 0,5
+>>>v tileMode = Continuous
+>>>v color = RGBA(0.000, 0.000, 0.000, 1.000)
+>>>v maskInteraction = None
+>>>v flipX = False
+>>>v flipY = False
+>>>v spriteSortPoint = Center

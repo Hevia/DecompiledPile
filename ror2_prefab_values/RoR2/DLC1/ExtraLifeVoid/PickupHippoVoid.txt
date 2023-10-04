@@ -1,0 +1,188 @@
+Key Path : RoR2/DLC1/ExtraLifeVoid/PickupHippoVoid.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupHippoVoid
+
+> transform = p: (3.4, -14.4, 30.2) r: (0.0, 227.4, 0.0) s: (1.2, 1.2, 1.2)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.2, 0.0, 1.0)
+>v minDistance = 1
+>v maxDistance = 1,75
+>v cameraDirection = (0.2, -0.1, 0.4)
+
+>GameObject Children 0 mdlHippoVoid
+
+>> transform = p: (0.0, -0.2, 0.0) r: (0.0, 227.4, 0.0) s: (0.2, 0.2, 0.2)
+>>GameObject Children 0 HippoVoidArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 227.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 root
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 227.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 head.1
+
+>>>>> transform = p: (0.0, 0.4, 0.0) r: (2.4, 227.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 eye
+
+>>>>>> transform = p: (0.0, 0.8, 0.3) r: (360.0, 227.4, 0.0) s: (0.8, 0.8, 0.8)
+>>>>>GameObject Children 1 eye_target
+
+>>>>>> transform = p: (0.0, 0.9, 2.6) r: (0.0, 227.4, 0.0) s: (0.8, 0.8, 0.8)
+>>>>>GameObject Children 2 head.2
+
+>>>>>> transform = p: (0.0, 1.1, 0.0) r: (346.1, 227.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 head.3
+
+>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (328.9, 227.4, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 legback.1.center
+
+>>>>> transform = p: (0.0, 0.4, -0.5) r: (279.2, 47.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legback.2.center
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (277.9, 47.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 legback.3.center
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (282.1, 47.4, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 legback.1.l
+
+>>>>> transform = p: (-0.4, 0.4, -0.3) r: (322.5, 188.2, 96.8) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legback.2.l
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (320.5, 188.6, 91.8) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 legback.3.l
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (320.6, 184.0, 97.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 legback.1.r
+
+>>>>> transform = p: (0.4, 0.4, -0.3) r: (322.5, 266.6, 263.2) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legback.2.r
+
+>>>>>> transform = p: (0.0, 0.6, 0.0) r: (320.5, 266.2, 268.2) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 legback.3.r
+
+>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (320.6, 270.8, 262.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 4 legfront.1.l
+
+>>>>> transform = p: (-0.4, 0.4, 0.4) r: (52.2, 279.3, 100.3) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legfront.2.l
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (52.9, 269.7, 87.4) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 legfront.3.l
+
+>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (53.7, 284.5, 104.9) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 5 legfront.1.r
+
+>>>>> transform = p: (0.4, 0.4, 0.4) r: (52.2, 175.4, 259.7) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legfront.2.r
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (52.9, 185.0, 272.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 legfront.3.r
+
+>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (53.7, 170.3, 255.1) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 mdlHippoVoid
+
+>>> transform = p: (0.0, 1.0, 0.0) r: (270.0, 227.4, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = root (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlHippoVoid (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 1.1, 0.0), Extents: (3.3, 2.8, 3.1)
+
+>>GameObject Children 2 mdlHippoVoidEye
+
+>>> transform = p: (0.0, 1.3, 0.9) r: (270.0, 227.4, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = root (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = mdlHippoVoidEye (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 1.3, 0.9), Extents: (0.1, 0.4, 0.0)
+
+>>>GameObject Children 0 VoidEyeFX
+
+>>>> transform = p: (0.0, -0.1, 0.3) r: (0.0, 345.8, 90.0) s: (0.8, 0.8, 0.8)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 2
+>>>>v startSpeed = 0
+>>>>v startSize = 4
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 3
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 6
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Hierarchy
+>>>>v automaticCullingEnabled = True
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = True
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 2
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = False
+>>>>v allowRoll = True
+>>>>v mesh = Cylinder (UnityEngine.Mesh)
+>>>>v meshCount = 1
+>>>>v activeVertexStreamsCount = 4
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 293.5, 0.0) s: (0.8, 0.8, 0.8)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-0.2, 0.1, 0.3) r: (0.0, 293.5, 0.0) s: (0.8, 0.8, 0.8)

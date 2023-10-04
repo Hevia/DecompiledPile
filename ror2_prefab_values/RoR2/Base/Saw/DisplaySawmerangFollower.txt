@@ -1,0 +1,44 @@
+Key Path : RoR2/Base/Saw/DisplaySawmerangFollower.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplaySawmerangFollower
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 Rotator
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> Rewired.ComponentControls.Effects.RotateAroundAxis
+>>v _speed = Fast
+>>v _slowRotationSpeed = 5
+>>v _fastRotationSpeed = 60
+>>v _rotateAroundAxis = Y
+>>v _relativeTo = Self
+>>v _reverse = True
+>>v speed = Fast
+>>v slowRotationSpeed = 5
+>>v fastRotationSpeed = 60
+>>v rotateAroundAxis = Y
+>>v relativeTo = Self
+>>v reverse = True
+
+>> MoveCurve
+>>v animateX = False
+>>v animateY = False
+>>v animateZ = True
+>>v curveScale = 0,2
+>>v moveCurve = UnityEngine.AnimationCurve
+>>v xValue = 0
+>>v yValue = 0
+>>v zValue = 0
+
+>>GameObject Children 0 SawmerangMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Sawmerang (UnityEngine.Mesh)
+>>>v mesh = Sawmerang Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0

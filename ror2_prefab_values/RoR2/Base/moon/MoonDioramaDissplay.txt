@@ -1,0 +1,2748 @@
+Key Path : RoR2/Base/moon/MoonDioramaDissplay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : MoonDioramaDissplay
+
+> transform = p: (0.0, 76.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = Focus Point (UnityEngine.Transform)
+>v cameraPositionTransform = Camera Position (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 10
+>v maxDistance = 120
+>v cameraDirection = (73.6, -46.0, -25.9)
+
+>GameObject Children 0 MoonBridgeCornerWithTerrain
+
+>> transform = p: (0.0, 3.0, 0.0) r: (0.0, 180.0, 0.0) s: (0.2, 0.2, 0.2)
+>>GameObject Children 0 Water
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (6.0, 6.0, 6.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Moon_Bridge_Water (UnityEngine.Mesh)
+>>>v mesh = Moon_Bridge_Water Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdWater (RoR2.SurfaceDef)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (-1.0, 0.0, 0.1)
+>>>v size = (38.0, 15.1, 1.0)
+>>>v extents = (19.0, 7.5, 0.5)
+
+>>GameObject Children 1 Terrain
+
+>>> transform = p: (0.0, 1.3, 0.0) r: (270.0, 180.0, 0.0) s: (6.0, 6.0, 4.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Moon_Bridge_Corner_Terrain (UnityEngine.Mesh)
+>>>v mesh = Moon_Bridge_Corner_Terrain Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = Moon_Bridge_Corner_Terrain (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdDirt (RoR2.SurfaceDef)
+
+>>>GameObject Children 0 spmSilverRootsColumnToCeiling
+
+>>>> transform = p: (9.7, -13.8, 1.3) r: (0.0, 180.0, 0.0) s: (0.2, 0.3, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-1.0, 4.0, 0.7)
+>>>>v size = 8,019717
+>>>>v lodCount = 3
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmSilverRootsColumnToCeiling_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmSilverRootsColumnToCeiling_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmSilverRootsColumnToCeiling_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>>GameObject Children 1 spmSilverRootsColumnToCeiling_LOD1
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmSilverRootsColumnToCeiling_LOD1 (UnityEngine.Mesh)
+>>>>>v mesh = spmSilverRootsColumnToCeiling_LOD1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>>GameObject Children 2 spmSilverRootsColumnToCeiling_LOD2
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmSilverRootsColumnToCeiling_LOD2 (UnityEngine.Mesh)
+>>>>>v mesh = spmSilverRootsColumnToCeiling_LOD2 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 1 spmSilverRoots1
+
+>>>> transform = p: (7.1, 9.4, 1.3) r: (0.0, 180.0, 0.0) s: (0.2, 0.3, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 3.6, -0.5)
+>>>>v size = 12,51747
+>>>>v lodCount = 3
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmSilverRoots1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmSilverRoots1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmSilverRoots1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>>GameObject Children 1 spmSilverRoots1_LOD1
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmSilverRoots1_LOD1 (UnityEngine.Mesh)
+>>>>>v mesh = spmSilverRoots1_LOD1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>>GameObject Children 2 spmSilverRoots1_LOD2
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmSilverRoots1_LOD2 (UnityEngine.Mesh)
+>>>>>v mesh = spmSilverRoots1_LOD2 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 2 spmMoonGrass1
+
+>>>> transform = p: (10.1, -7.9, 1.8) r: (2.5, 334.1, 8.1) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (2.5, 334.1, 8.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmMoonGrass1
+
+>>>> transform = p: (9.7, -6.9, 1.9) r: (1.4, 164.5, 349.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.4, 164.5, 349.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 4 spmMoonGrass1
+
+>>>> transform = p: (13.7, -9.1, 1.4) r: (1.9, 134.8, 355.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.9, 134.8, 355.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 5 spmMoonGrass1
+
+>>>> transform = p: (9.2, -9.3, 2.0) r: (354.3, 113.7, 356.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (354.3, 113.7, 356.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 6 spmMoonGrass1
+
+>>>> transform = p: (11.0, -4.7, 1.8) r: (354.0, 45.4, 3.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (354.0, 45.4, 3.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 7 spmMoonGrass1
+
+>>>> transform = p: (10.9, -8.5, 1.6) r: (356.9, 71.9, 356.2) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (356.9, 71.9, 356.2) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 8 spmMoonGrass1
+
+>>>> transform = p: (13.7, -5.1, 1.4) r: (10.7, 248.5, 0.3) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (10.7, 248.5, 0.3) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 9 spmMoonGrass1
+
+>>>> transform = p: (11.3, -7.3, 1.6) r: (359.5, 130.8, 355.2) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.5, 130.8, 355.2) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 10 spmMoonGrass1
+
+>>>> transform = p: (11.4, -8.6, 1.6) r: (0.1, 290.6, 4.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 290.6, 4.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 11 spmMoonGrass1
+
+>>>> transform = p: (10.6, -5.1, 1.9) r: (355.0, 112.6, 355.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (355.0, 112.6, 355.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 12 spmMoonGrass1
+
+>>>> transform = p: (12.9, -4.9, 1.5) r: (3.2, 297.4, 8.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.2, 297.4, 8.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 13 spmMoonGrass1
+
+>>>> transform = p: (11.2, -6.1, 1.7) r: (358.0, 144.3, 353.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.0, 144.3, 353.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 14 spmMoonGrass1
+
+>>>> transform = p: (10.4, -4.4, 1.9) r: (360.0, 270.1, 359.4) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (360.0, 270.1, 359.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 15 spmMoonGrass1
+
+>>>> transform = p: (12.1, -4.7, 1.7) r: (358.5, 349.6, 6.8) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.5, 349.6, 6.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 16 spmMoonGrass1
+
+>>>> transform = p: (11.7, -3.1, 1.8) r: (353.1, 51.3, 1.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (353.1, 51.3, 1.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 17 spmMoonGrass1
+
+>>>> transform = p: (11.6, -4.3, 1.8) r: (6.4, 223.7, 357.3) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (6.4, 223.7, 357.3) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 18 spmMoonGrass1
+
+>>>> transform = p: (10.4, -3.7, 2.0) r: (1.0, 230.2, 0.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.0, 230.2, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 19 spmMoonGrass1
+
+>>>> transform = p: (12.9, -4.9, 1.5) r: (358.6, 129.9, 351.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.6, 129.9, 351.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 20 spmMoonGrass1
+
+>>>> transform = p: (10.4, -5.4, 1.9) r: (353.7, 84.6, 358.8) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (353.7, 84.6, 358.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 21 spmMoonGrass1
+
+>>>> transform = p: (12.2, -4.8, 1.6) r: (4.9, 201.6, 355.1) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (4.9, 201.6, 355.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 22 spmMoonGrass1
+
+>>>> transform = p: (8.0, -13.5, 1.9) r: (7.8, 212.8, 355.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (7.8, 212.8, 355.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 23 spmMoonGrass1
+
+>>>> transform = p: (8.9, -10.8, 2.0) r: (1.4, 347.2, 7.2) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.4, 347.2, 7.2) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 24 spmMoonGrass1
+
+>>>> transform = p: (9.7, -10.5, 1.8) r: (0.8, 344.2, 7.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.8, 344.2, 7.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 25 spmMoonGrass1
+
+>>>> transform = p: (9.1, -11.2, 2.0) r: (352.9, 107.3, 356.4) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (352.9, 107.3, 356.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 26 spmMoonGrass1
+
+>>>> transform = p: (11.7, -12.0, 1.4) r: (359.1, 157.6, 355.3) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.1, 157.6, 355.3) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 27 spmMoonGrass1
+
+>>>> transform = p: (10.2, -9.9, 1.8) r: (355.0, 153.8, 350.6) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (355.0, 153.8, 350.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 28 spmMoonGrass1
+
+>>>> transform = p: (9.6, -11.7, 1.8) r: (359.6, 360.0, 5.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.6, 360.0, 5.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 29 spmMoonGrass1
+
+>>>> transform = p: (10.0, -11.7, 1.8) r: (359.1, 166.2, 354.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.1, 166.2, 354.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 30 spmMoonGrass1
+
+>>>> transform = p: (11.0, -13.3, 1.4) r: (357.2, 135.3, 349.1) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (357.2, 135.3, 349.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 31 spmMoonGrass1
+
+>>>> transform = p: (8.6, -12.9, 1.9) r: (358.3, 337.4, 8.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.3, 337.4, 8.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 32 spmMoonGrass1
+
+>>>> transform = p: (9.2, -11.3, 1.9) r: (356.9, 147.3, 352.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (356.9, 147.3, 352.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 33 spmMoonGrass1
+
+>>>> transform = p: (8.5, -13.3, 1.9) r: (8.0, 226.6, 358.8) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (8.0, 226.6, 358.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 34 spmMoonGrass1
+
+>>>> transform = p: (7.5, -12.9, 2.1) r: (1.8, 321.3, 8.8) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.8, 321.3, 8.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 35 spmMoonGrass1
+
+>>>> transform = p: (5.8, -14.0, 2.2) r: (356.4, 95.6, 352.3) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (356.4, 95.6, 352.3) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 36 spmMoonGrass1
+
+>>>> transform = p: (8.5, -12.6, 2.0) r: (352.8, 26.6, 3.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (352.8, 26.6, 3.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 37 spmMoonGrass1
+
+>>>> transform = p: (7.1, -11.7, 2.2) r: (7.6, 231.4, 357.2) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (7.6, 231.4, 357.2) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 38 spmMoonGrass1
+
+>>>> transform = p: (6.6, -14.4, 2.0) r: (352.1, 58.2, 356.2) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (352.1, 58.2, 356.2) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 39 spmMoonGrass1
+
+>>>> transform = p: (6.3, -13.7, 2.2) r: (6.9, 174.5, 355.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (6.9, 174.5, 355.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 40 spmMoonGrass1
+
+>>>> transform = p: (8.6, -13.1, 1.9) r: (357.7, 128.8, 352.2) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (357.7, 128.8, 352.2) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 41 spmMoonGrass1
+
+>>>> transform = p: (-8.9, -14.1, 2.1) r: (3.7, 201.9, 2.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 201.9, 2.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 42 spmMoonGrass1
+
+>>>> transform = p: (-9.5, -13.4, 2.1) r: (3.9, 190.7, 2.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.9, 190.7, 2.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 43 spmMoonGrass1
+
+>>>> transform = p: (-10.0, -13.0, 2.2) r: (2.6, 100.9, 356.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (2.6, 100.9, 356.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 44 spmMoonGrass1
+
+>>>> transform = p: (-9.5, -12.5, 2.2) r: (5.9, 123.7, 355.6) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (5.9, 123.7, 355.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 45 spmMoonGrass1
+
+>>>> transform = p: (-9.4, -13.5, 2.1) r: (3.4, 203.6, 2.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.4, 203.6, 2.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 46 spmMoonGrass1
+
+>>>> transform = p: (-9.1, -13.9, 2.1) r: (1.1, 238.8, 4.3) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.1, 238.8, 4.3) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 47 spmMoonGrass1
+
+>>>> transform = p: (-9.6, -13.9, 2.1) r: (0.8, 83.5, 355.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.8, 83.5, 355.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 48 spmMoonGrass1
+
+>>>> transform = p: (-8.2, -15.2, 2.0) r: (1.6, 234.9, 4.4) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.6, 234.9, 4.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 49 spmMoonGrass1
+
+>>>> transform = p: (-7.5, -14.7, 2.1) r: (4.6, 174.9, 359.4) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 174.9, 359.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 50 spmMoonGrass1
+
+>>>> transform = p: (-10.0, -16.2, 1.4) r: (358.0, 36.0, 350.8) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.0, 36.0, 350.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 51 spmMoonGrass1
+
+>>>> transform = p: (-13.1, -9.7, 2.3) r: (359.6, 228.2, 6.2) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.6, 228.2, 6.2) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 52 spmMoonGrass1
+
+>>>> transform = p: (-12.0, -9.8, 2.4) r: (354.9, 17.3, 353.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (354.9, 17.3, 353.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 53 spmMoonGrass1
+
+>>>> transform = p: (-5.7, -3.3, 1.8) r: (1.7, 49.6, 356.3) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.7, 49.6, 356.3) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 54 spmMoonGrass1
+
+>>>> transform = p: (-5.2, -2.1, 1.9) r: (6.4, 152.3, 4.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (6.4, 152.3, 4.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 55 spmMoonGrass1
+
+>>>> transform = p: (-4.9, -4.0, 1.8) r: (355.9, 283.8, 0.6) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (355.9, 283.8, 0.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 56 spmMoonGrass1
+
+>>>> transform = p: (-7.8, 2.2, 1.6) r: (359.2, 270.8, 359.8) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.2, 270.8, 359.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 57 spmMoonGrass1
+
+>>>> transform = p: (-9.2, 2.1, 1.7) r: (358.4, 147.5, 355.1) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.4, 147.5, 355.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 58 spmMoonGrass1
+
+>>>> transform = p: (-9.0, 0.4, 1.7) r: (358.6, 42.6, 5.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.6, 42.6, 5.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 59 spmMoonGrass1
+
+>>>> transform = p: (-13.4, -13.8, 1.2) r: (5.3, 87.8, 354.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (5.3, 87.8, 354.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 60 spmMoonGrass1
+
+>>>> transform = p: (-11.6, -11.4, 2.2) r: (3.0, 64.1, 352.4) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.0, 64.1, 352.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 61 spmMoonGrass1
+
+>>>> transform = p: (-11.0, -12.1, 2.2) r: (3.2, 96.2, 353.3) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.2, 96.2, 353.3) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 62 spmMoonGrass1
+
+>>>> transform = p: (16.6, -3.0, 1.1) r: (2.6, 257.9, 1.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (2.6, 257.9, 1.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 63 spmMoonGrass1
+
+>>>> transform = p: (15.2, -2.1, 1.2) r: (355.2, 57.0, 6.4) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (355.2, 57.0, 6.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 64 spmMoonGrass1
+
+>>>> transform = p: (13.7, -4.6, 1.4) r: (350.2, 90.8, 355.6) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (350.2, 90.8, 355.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 65 spmMoonGrass1
+
+>>>> transform = p: (8.2, -8.9, 2.1) r: (1.9, 261.5, 357.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.9, 261.5, 357.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 66 spmMoonGrass1
+
+>>>> transform = p: (9.0, -6.2, 2.0) r: (3.7, 271.4, 356.6) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.7, 271.4, 356.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 67 spmMoonGrass1
+
+>>>> transform = p: (8.0, -8.4, 2.1) r: (357.2, 162.1, 358.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (357.2, 162.1, 358.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 68 spmMoonGrass1
+
+>>>> transform = p: (5.3, -6.5, 1.9) r: (3.2, 10.6, 3.9) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.2, 10.6, 3.9) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 69 spmMoonGrass1
+
+>>>> transform = p: (7.5, 16.0, 1.8) r: (351.7, 146.8, 356.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (351.7, 146.8, 356.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 70 spmMoonGrass1
+
+>>>> transform = p: (8.0, 15.9, 1.7) r: (4.7, 3.4, 7.6) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (4.7, 3.4, 7.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 71 spmMoonGrass1
+
+>>>> transform = p: (5.7, 16.1, 1.9) r: (3.4, 275.9, 356.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (3.4, 275.9, 356.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 72 spmMoonGrass1
+
+>>>> transform = p: (6.5, 15.2, 2.0) r: (358.8, 43.6, 4.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.8, 43.6, 4.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 73 spmMoonGrass1
+
+>>>> transform = p: (7.7, 14.5, 1.9) r: (1.1, 359.4, 4.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (1.1, 359.4, 4.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 74 spmMoonGrass1
+
+>>>> transform = p: (6.3, 18.0, 1.5) r: (358.1, 246.6, 348.8) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.1, 246.6, 348.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 75 spmMoonGrass1
+
+>>>> transform = p: (8.6, -18.1, 1.2) r: (359.6, 46.6, 359.0) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.6, 46.6, 359.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 76 spmMoonGrass1
+
+>>>> transform = p: (11.6, -14.9, 1.2) r: (358.0, 74.9, 358.4) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.0, 74.9, 358.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 77 spmMoonGrass1
+
+>>>> transform = p: (6.7, -8.7, 2.3) r: (357.7, 165.6, 353.8) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (357.7, 165.6, 353.8) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 78 spmMoonGrass1
+
+>>>> transform = p: (4.8, 8.1, 1.4) r: (357.2, 193.3, 356.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (357.2, 193.3, 356.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 79 spmMoonGrass1
+
+>>>> transform = p: (2.2, 8.2, 1.5) r: (0.7, 49.4, 3.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.7, 49.4, 3.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 80 spmMoonGrass1
+
+>>>> transform = p: (4.0, 7.5, 1.5) r: (356.4, 164.0, 359.4) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (356.4, 164.0, 359.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 81 spmMoonGrass1
+
+>>>> transform = p: (4.2, 7.8, 1.4) r: (358.6, 220.4, 356.7) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.6, 220.4, 356.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 82 spmMoonGrass1
+
+>>>> transform = p: (3.9, 6.2, 1.5) r: (0.2, 32.2, 1.5) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.2, 32.2, 1.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 83 spmMoonGrass1
+
+>>>> transform = p: (0.1, 2.2, 1.5) r: (4.6, 354.1, 355.1) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (4.6, 354.1, 355.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 84 spmMoonGrass1
+
+>>>> transform = p: (0.3, -13.7, 2.3) r: (358.1, 286.0, 10.6) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (358.1, 286.0, 10.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 85 spmMoonGrass1
+
+>>>> transform = p: (-0.5, -12.8, 2.4) r: (355.7, 253.5, 359.6) s: (0.2, 0.7, 0.2)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (-0.6, 0.7, 0.1)
+>>>>v size = 5,937779
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmMoonGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (355.7, 253.5, 359.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmMoonGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmMoonGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 86 MoonRockFormationMedium
+
+>>>> transform = p: (5.4, -11.3, 2.5) r: (6.9, 30.5, 340.3) s: (61.3, 79.7, 58.9)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 87 MoonRockFormationMedium
+
+>>>> transform = p: (9.8, -15.7, 1.3) r: (11.6, 334.3, 97.3) s: (163.5, 118.4, 119.6)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 88 MoonRockFormationMedium
+
+>>>> transform = p: (8.6, -15.9, 1.3) r: (352.9, 276.8, 276.7) s: (134.4, 96.4, 96.5)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 89 MoonRockFormationMedium
+
+>>>> transform = p: (-6.3, -17.9, 2.2) r: (10.0, 205.3, 163.2) s: (138.2, 182.8, 135.4)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 90 MoonRockFormationMedium
+
+>>>> transform = p: (-2.7, -17.8, 1.5) r: (332.3, 9.4, 141.2) s: (104.0, 110.4, 100.6)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 91 MoonRockFormationMedium
+
+>>>> transform = p: (-4.5, -17.2, 1.6) r: (291.3, 315.6, 309.2) s: (121.3, 120.0, 159.6)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 92 MoonRockFormationMedium
+
+>>>> transform = p: (2.7, 10.7, 1.7) r: (351.7, 261.7, 319.3) s: (133.0, 140.0, 114.5)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 93 MoonRockFormationMedium
+
+>>>> transform = p: (3.9, 11.6, 1.8) r: (18.4, 344.1, 333.8) s: (41.8, 50.6, 40.6)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 94 MoonRockFormationMedium
+
+>>>> transform = p: (6.3, 11.0, 1.8) r: (316.6, 303.1, 212.7) s: (69.6, 75.5, 78.1)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 95 MoonRockFormationMedium
+
+>>>> transform = p: (12.0, 11.8, 1.4) r: (55.9, 228.1, 327.1) s: (140.5, 147.7, 173.7)
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v mesh = SMRockFormationMedium2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = SMRockFormationMedium2 (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 2 TerrainContainer
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (16.7, 16.7, 16.7)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = MoonArenaBaseLayerOctagon.001 (UnityEngine.Mesh)
+>>>v mesh = MoonArenaBaseLayerOctagon.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = MoonArenaBaseLayerOctagon.001 (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 3 Bridge
+
+>>> transform = p: (0.0, -3.0, 0.0) r: (90.0, 0.0, 0.0) s: (15.7, 15.7, 15.7)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = MoonArenaBaseLayerOctagon (UnityEngine.Mesh)
+>>>v mesh = MoonArenaBaseLayerOctagon Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 MoonPlatformThickLarge
+
+>>> transform = p: (101.8, -172.0, -12.5) r: (270.0, 180.0, 0.0) s: (24.0, 6.0, 9.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Moon_Platform_Thick_Large (UnityEngine.Mesh)
+>>>v mesh = Moon_Platform_Thick_Large Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>> UnityEngine.BoxCollider
+>>>v center = (-1.0, -2.0, -0.7)
+>>>v size = (14.0, 8.0, 2.6)
+>>>v extents = (7.0, 4.0, 1.3)
+
+>>GameObject Children 5 BrotherHammerConcrete
+
+>>> transform = p: (11.8, 70.6, -58.7) r: (40.0, 166.8, 87.4) s: (43.5, 43.5, 43.5)
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BrotherHammerConcrete (UnityEngine.Mesh)
+>>>v mesh = BrotherHammerConcrete Instance (UnityEngine.Mesh)
+
+>>>GameObject Children 0 BrotherHammerStib
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (40.0, 166.8, 87.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = BrotherHammerStib (UnityEngine.Mesh)
+>>>>v mesh = BrotherHammerStib Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 Ring
+
+>> transform = p: (0.0, 2.1, 0.0) r: (90.0, 180.0, 0.0) s: (3.4, 3.4, 6.9)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = MoonArenaBaseLayerOctagon (UnityEngine.Mesh)
+>>v mesh = MoonArenaBaseLayerOctagon Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 2 Camera Position
+
+>> transform = p: (-73.6, 52.1, 25.9) r: (28.7, 108.8, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 3 Focus Point
+
+>> transform = p: (0.0, 6.1, 0.0) r: (0.0, 45.1, 0.0) s: (1.0, 1.0, 1.0)

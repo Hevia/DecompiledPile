@@ -1,0 +1,867 @@
+Key Path : RoR2/Base/artifactworld/ArtifactworldDioramaDisplay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : ArtifactworldDioramaDisplay
+
+> transform = p: (0.0, 35.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = Focus Point (UnityEngine.Transform)
+>v cameraPositionTransform = Camera Position (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 10
+>v maxDistance = 120
+>v cameraDirection = (34.6, -40.0, -61.2)
+
+>GameObject Children 0 Ruins
+
+>> transform = p: (10.0, -15.0, -2.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 AW Basic Island 1
+
+>>> transform = p: (-9.0, 20.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 AW_Cube_8x8x1
+
+>>>> transform = p: (4.0, -3.0, -13.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 AW_Cube4x4 (3)
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (90.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube4x4 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube4x4 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 1 AW_Cube4x4
+
+>>>>> transform = p: (0.0, 0.0, 30.0) r: (270.0, 270.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube4x4 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube4x4 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 2 AW_Cube4x4 (1)
+
+>>>>> transform = p: (-6.0, 0.0, 18.0) r: (270.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube4x4 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube4x4 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 3 AW_Cube4x4 (2)
+
+>>>>> transform = p: (-18.0, 0.0, 0.0) r: (90.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube4x4 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube4x4 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 4 spmAWGrass
+
+>>>>> transform = p: (-0.1, 2.5, -0.2) r: (0.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>>>>> UnityEngine.LODGroup
+>>>>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>>>>v size = 6,632777
+>>>>>v lodCount = 1
+>>>>>v fadeMode = None
+>>>>>v animateCrossFading = False
+>>>>>v enabled = True
+>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>GameObject Children 0 spmAWGrass_LOD0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = spmAWGrass_LOD0 (UnityEngine.Mesh)
+>>>>>>v mesh = spmAWGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>> UnityEngine.Tree
+>>>>>>v data = 
+>>>>>>v hasSpeedTreeWind = False
+
+>>>>GameObject Children 5 spmAWGrass (1)
+
+>>>>> transform = p: (8.7, 2.2, 0.3) r: (0.0, 334.0, 0.0) s: (0.4, 0.6, 0.4)
+>>>>> UnityEngine.LODGroup
+>>>>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>>>>v size = 6,632777
+>>>>>v lodCount = 1
+>>>>>v fadeMode = None
+>>>>>v animateCrossFading = False
+>>>>>v enabled = True
+>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>GameObject Children 0 spmAWGrass_LOD0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 334.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = spmAWGrass_LOD0 (UnityEngine.Mesh)
+>>>>>>v mesh = spmAWGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>> UnityEngine.Tree
+>>>>>>v data = 
+>>>>>>v hasSpeedTreeWind = False
+
+>>>>GameObject Children 6 spmAWGrass (2)
+
+>>>>> transform = p: (9.3, 2.2, 8.1) r: (0.0, 334.0, 0.0) s: (0.4, 0.6, 0.4)
+>>>>> UnityEngine.LODGroup
+>>>>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>>>>v size = 6,632777
+>>>>>v lodCount = 1
+>>>>>v fadeMode = None
+>>>>>v animateCrossFading = False
+>>>>>v enabled = True
+>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>GameObject Children 0 spmAWGrass_LOD0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 334.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = spmAWGrass_LOD0 (UnityEngine.Mesh)
+>>>>>>v mesh = spmAWGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>> UnityEngine.Tree
+>>>>>>v data = 
+>>>>>>v hasSpeedTreeWind = False
+
+>>>GameObject Children 1 AW_Cube2x3
+
+>>>> transform = p: (5.0, -6.0, 17.0) r: (90.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Cube2x3 (UnityEngine.Mesh)
+>>>>v mesh = AW_Cube2x3 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 0 AW_Cube1x1
+
+>>>>> transform = p: (0.0, 6.0, -2.0) r: (90.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube1x1 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube1x1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 1 AW_Cube1x1
+
+>>>>> transform = p: (0.0, 8.0, -2.0) r: (90.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube1x1 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube1x1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 2 AW_Cube1x1 (1)
+
+>>>>> transform = p: (0.3, 7.7, -2.7) r: (90.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube1x1 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube1x1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>GameObject Children 0 spmAWGrass
+
+>>>>>> transform = p: (0.0, -0.1, -0.7) r: (0.0, 90.0, 0.0) s: (0.2, 0.5, 0.2)
+>>>>>> UnityEngine.LODGroup
+>>>>>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>>>>>v size = 6,632777
+>>>>>>v lodCount = 1
+>>>>>>v fadeMode = None
+>>>>>>v animateCrossFading = False
+>>>>>>v enabled = True
+>>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>>GameObject Children 0 spmAWGrass_LOD0
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = spmAWGrass_LOD0 (UnityEngine.Mesh)
+>>>>>>>v mesh = spmAWGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>> UnityEngine.Tree
+>>>>>>>v data = 
+>>>>>>>v hasSpeedTreeWind = False
+
+>>>>>GameObject Children 1 spmAWGrass (1)
+
+>>>>>> transform = p: (0.2, 0.1, -0.7) r: (0.0, 355.1, 0.0) s: (0.2, 0.3, 0.2)
+>>>>>> UnityEngine.LODGroup
+>>>>>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>>>>>v size = 6,632777
+>>>>>>v lodCount = 1
+>>>>>>v fadeMode = None
+>>>>>>v animateCrossFading = False
+>>>>>>v enabled = True
+>>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>>GameObject Children 0 spmAWGrass_LOD0
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 355.1, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = spmAWGrass_LOD0 (UnityEngine.Mesh)
+>>>>>>>v mesh = spmAWGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>> UnityEngine.Tree
+>>>>>>>v data = 
+>>>>>>>v hasSpeedTreeWind = False
+
+>>>GameObject Children 2 AW_Cube2x3
+
+>>>> transform = p: (-20.0, -3.0, -1.0) r: (90.0, 180.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Cube2x3 (UnityEngine.Mesh)
+>>>>v mesh = AW_Cube2x3 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 0 AW_Cube1x1 (2)
+
+>>>>> transform = p: (-2.0, 0.0, -1.0) r: (90.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube1x1 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube1x1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>GameObject Children 0 spmAWGrass
+
+>>>>>> transform = p: (0.0, -0.1, -0.7) r: (0.0, 180.0, 0.0) s: (0.2, 0.5, 0.2)
+>>>>>> UnityEngine.LODGroup
+>>>>>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>>>>>v size = 6,632777
+>>>>>>v lodCount = 1
+>>>>>>v fadeMode = None
+>>>>>>v animateCrossFading = False
+>>>>>>v enabled = True
+>>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>>GameObject Children 0 spmAWGrass_LOD0
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = spmAWGrass_LOD0 (UnityEngine.Mesh)
+>>>>>>>v mesh = spmAWGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>> UnityEngine.Tree
+>>>>>>>v data = 
+>>>>>>>v hasSpeedTreeWind = False
+
+>>>>>GameObject Children 1 spmAWGrass (1)
+
+>>>>>> transform = p: (0.2, 0.1, -0.7) r: (0.0, 85.1, 0.0) s: (0.2, 0.3, 0.2)
+>>>>>> UnityEngine.LODGroup
+>>>>>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>>>>>v size = 6,632777
+>>>>>>v lodCount = 1
+>>>>>>v fadeMode = None
+>>>>>>v animateCrossFading = False
+>>>>>>v enabled = True
+>>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>>GameObject Children 0 spmAWGrass_LOD0
+
+>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 85.1, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>> UnityEngine.MeshFilter
+>>>>>>>v sharedMesh = spmAWGrass_LOD0 (UnityEngine.Mesh)
+>>>>>>>v mesh = spmAWGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>v additionalVertexStreams = 
+>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>> UnityEngine.Tree
+>>>>>>>v data = 
+>>>>>>>v hasSpeedTreeWind = False
+
+>>>GameObject Children 3 AW_Cube2x3
+
+>>>> transform = p: (11.0, -6.0, 11.0) r: (90.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Cube2x3 (UnityEngine.Mesh)
+>>>>v mesh = AW_Cube2x3 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 0 AW_Cube1x1
+
+>>>>> transform = p: (0.0, 6.0, -2.0) r: (90.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Cube1x1 (UnityEngine.Mesh)
+>>>>>v mesh = AW_Cube1x1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 4 AW_Cube2x3
+
+>>>> transform = p: (17.0, -6.0, 5.0) r: (90.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Cube2x3 (UnityEngine.Mesh)
+>>>>v mesh = AW_Cube2x3 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 1 AW Island Connection 6
+
+>>> transform = p: (9.0, 22.3, -15.0) r: (0.0, 90.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 AW_Connector
+
+>>>> transform = p: (-2.7, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, -0.1, 0.0)
+>>>>v size = (0.6, 1.9, 0.6)
+>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 1.1, 0.0)
+>>>>v size = (0.3, 0.3, 0.3)
+>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>GameObject Children 1 AW_Connector (1)
+
+>>>> transform = p: (-8.7, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, -0.1, 0.0)
+>>>>v size = (0.6, 1.9, 0.6)
+>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 1.1, 0.0)
+>>>>v size = (0.3, 0.3, 0.3)
+>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>GameObject Children 2 AW_Connector (2)
+
+>>>> transform = p: (-14.7, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, -0.1, 0.0)
+>>>>v size = (0.6, 1.9, 0.6)
+>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 1.1, 0.0)
+>>>>v size = (0.3, 0.3, 0.3)
+>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>GameObject Children 3 AW_Cube1x2x1
+
+>>>> transform = p: (-20.0, 0.0, 0.0) r: (90.0, 0.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Cube1x2 (UnityEngine.Mesh)
+>>>>v mesh = AW_Cube1x2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 4 AW_Connector
+
+>>>> transform = p: (-2.7, -24.0, 0.0) r: (0.0, 90.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, -0.1, 0.0)
+>>>>v size = (0.6, 1.9, 0.6)
+>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 1.1, 0.0)
+>>>>v size = (0.3, 0.3, 0.3)
+>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>>GameObject Children 0 AW_Connector (1)
+
+>>>>> transform = p: (0.0, 2.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.BoxCollider
+>>>>>v center = (0.0, -0.1, 0.0)
+>>>>>v size = (0.6, 1.9, 0.6)
+>>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>> UnityEngine.BoxCollider
+>>>>>v center = (0.0, 1.1, 0.0)
+>>>>>v size = (0.3, 0.3, 0.3)
+>>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>>>GameObject Children 0 AW_Connector (2)
+
+>>>>>> transform = p: (0.0, 2.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>> UnityEngine.BoxCollider
+>>>>>>v center = (0.0, -0.1, 0.0)
+>>>>>>v size = (0.6, 1.9, 0.6)
+>>>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>>>> RoR2.SurfaceDefProvider
+>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>> UnityEngine.BoxCollider
+>>>>>>v center = (0.0, 1.1, 0.0)
+>>>>>>v size = (0.3, 0.3, 0.3)
+>>>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>GameObject Children 5 AW_Cube1x2x1 (1)
+
+>>>> transform = p: (-20.0, -18.0, 0.0) r: (90.0, 0.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Cube1x2 (UnityEngine.Mesh)
+>>>>v mesh = AW_Cube1x2 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 6 AW_Cube1x1x1
+
+>>>> transform = p: (-20.0, -12.0, 0.0) r: (0.0, 90.0, 180.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Cube1x1 (UnityEngine.Mesh)
+>>>>v mesh = AW_Cube1x1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 2 AW Island Connection 2
+
+>>> transform = p: (-24.0, 20.0, -14.0) r: (0.0, 0.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 AW_Connector
+
+>>>> transform = p: (-2.7, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, -0.1, 0.0)
+>>>>v size = (0.6, 1.9, 0.6)
+>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 1.1, 0.0)
+>>>>v size = (0.3, 0.3, 0.3)
+>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>GameObject Children 1 AW_Connector (1)
+
+>>>> transform = p: (-8.7, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, -0.1, 0.0)
+>>>>v size = (0.6, 1.9, 0.6)
+>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 1.1, 0.0)
+>>>>v size = (0.3, 0.3, 0.3)
+>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>GameObject Children 2 AW_Connector (2)
+
+>>>> transform = p: (-14.7, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Connector (UnityEngine.Mesh)
+>>>>v mesh = AW_Connector Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, -0.1, 0.0)
+>>>>v size = (0.6, 1.9, 0.6)
+>>>>v extents = (0.3, 0.9, 0.3)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 1.1, 0.0)
+>>>>v size = (0.3, 0.3, 0.3)
+>>>>v extents = (0.2, 0.1, 0.2)
+
+>>>GameObject Children 3 AW_Cube1x1x1 (2)
+
+>>>> transform = p: (-20.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (3.0, 3.0, 3.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AW_Cube1x1 (UnityEngine.Mesh)
+>>>>v mesh = AW_Cube1x1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 3 AWPotStacked
+
+>>> transform = p: (-22.3, 20.0, -9.0) r: (0.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 AWPot1
+
+>>>> transform = p: (0.0, -0.2, 0.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = PotProjectileMesh (UnityEngine.Mesh)
+>>>>v mesh = PotProjectileMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.CapsuleCollider
+>>>>v center = (0.0, 0.0, 0.1)
+>>>>v radius = 0,89
+>>>>v height = 2,11
+>>>>v direction = 2
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 1 AWPot1 (1)
+
+>>>> transform = p: (0.0, -0.2, 1.9) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = PotProjectileMesh (UnityEngine.Mesh)
+>>>>v mesh = PotProjectileMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.CapsuleCollider
+>>>>v center = (0.0, 0.0, 0.1)
+>>>>v radius = 0,89
+>>>>v height = 2,11
+>>>>v direction = 2
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 2 AWPot1 (2)
+
+>>>> transform = p: (0.0, 1.7, 1.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = PotProjectileMesh (UnityEngine.Mesh)
+>>>>v mesh = PotProjectileMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.CapsuleCollider
+>>>>v center = (0.0, 0.0, 0.1)
+>>>>v radius = 0,89
+>>>>v height = 2,11
+>>>>v direction = 2
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>GameObject Children 4 AWPot1
+
+>>> transform = p: (-21.5, 20.0, -4.5) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = PotProjectileMesh (UnityEngine.Mesh)
+>>>v mesh = PotProjectileMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.CapsuleCollider
+>>>v center = (0.0, 0.0, 0.1)
+>>>v radius = 0,89
+>>>v height = 2,11
+>>>v direction = 2
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 1 AW_Cube0.5x0.5x0.5
+
+>> transform = p: (-1.7, 5.0, -3.9) r: (0.0, 0.0, 270.0) s: (3.0, 3.0, 3.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = AW_Cube0.5x0.5x0.5 (UnityEngine.Mesh)
+>>v mesh = AW_Cube0.5x0.5x0.5 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 2 AW_Cube1x1x1
+
+>> transform = p: (1.7, 8.0, 1.3) r: (0.0, 0.0, 270.0) s: (3.0, 3.0, 3.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = AW_Cube1x1 (UnityEngine.Mesh)
+>>v mesh = AW_Cube1x1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 3 spmSGGrassTall Variant
+
+>> transform = p: (-7.5, 4.7, -13.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (-0.1, 1.3, -0.4)
+>>v size = 6,632777
+>>v lodCount = 1
+>>v fadeMode = None
+>>v animateCrossFading = False
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmSGGrass_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.5, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmSGGrass_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmSGGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = False
+
+>GameObject Children 4 spmBonsai1V1Collider
+
+>> transform = p: (-13.5, 8.0, -2.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (0.6, 7.1, 0.5)
+>>v size = 15,31387
+>>v lodCount = 1
+>>v fadeMode = SpeedTree
+>>v animateCrossFading = True
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmBonsai1V1_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmBonsai1V1_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmBonsai1V1_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 5 spmBonsai1V2
+
+>> transform = p: (-19.0, 11.0, -2.7) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LODGroup
+>>v localReferencePoint = (-3.5, 8.6, -0.9)
+>>v size = 17,31527
+>>v lodCount = 1
+>>v fadeMode = SpeedTree
+>>v animateCrossFading = True
+>>v enabled = True
+>>v crossFadeAnimationDuration = 0,5
+
+>>GameObject Children 0 spmBonsai1V2_LOD0
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = spmBonsai1V2_LOD0 (UnityEngine.Mesh)
+>>>v mesh = spmBonsai1V2_LOD0 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Tree
+>>>v data = 
+>>>v hasSpeedTreeWind = True
+
+>GameObject Children 6 Camera Position
+
+>> transform = p: (-34.6, 50.3, 61.2) r: (26.3, 151.9, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 7 Focus Point
+
+>> transform = p: (0.0, 10.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

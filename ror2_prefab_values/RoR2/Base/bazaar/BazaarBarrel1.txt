@@ -1,0 +1,33 @@
+Key Path : RoR2/Base/bazaar/BazaarBarrel1.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : BazaarBarrel1
+
+> transform = p: (-0.3, -14.4, -23.0) r: (270.0, 321.9, 0.0) s: (1.5, 1.5, 1.4)
+> UnityEngine.CapsuleCollider
+>v center = (0.0, 0.0, 0.0)
+>v radius = 0,92
+>v height = 3,2
+>v direction = 2
+
+> RoR2.SurfaceDefProvider
+>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>GameObject Children 0 BazaarBarrel1Base
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 321.9, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BazaarBarrel1 (UnityEngine.Mesh)
+>>v mesh = BazaarBarrel1 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 BazaarBarrel1Lid
+
+>> transform = p: (0.0, 0.0, -0.2) r: (270.0, 321.9, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = BazaarBarrel1Lid (UnityEngine.Mesh)
+>>v mesh = BazaarBarrel1Lid Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0

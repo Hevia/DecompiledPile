@@ -1,0 +1,28 @@
+Key Path : RoR2/Junk/Incubator/PickupAncestralIncubator.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupAncestralIncubator
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, 0.0)
+>v minDistance = 4
+>v maxDistance = 8
+>v cameraDirection = (0.0, 0.0, 3.9)
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, -1.7, 0.0) r: (270.0, 0.0, 0.0) s: (0.4, 0.4, 0.4)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = PodBody_3 (UnityEngine.Mesh)
+>>v mesh = PodBody_3 Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (0.0, 0.0, -3.9) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,1975 @@
+Key Path : RoR2/DLC1/ancientloft/AncientLoftDioramaDisplay.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : AncientLoftDioramaDisplay
+
+> transform = p: (0.0, 35.4, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = Focus Point (UnityEngine.Transform)
+>v cameraPositionTransform = Camera Position (UnityEngine.Transform)
+>v modelRotation = (0.0, 0.0, 0.0, 1.0)
+>v minDistance = 10
+>v maxDistance = 120
+>v cameraDirection = (34.6, -40.0, -61.2)
+
+>GameObject Children 0 ancient_loft_diorama_base
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (26.0, 26.0, 26.0)
+>>GameObject Children 0 Decal
+
+>>> transform = p: (0.0, 0.1, -0.4) r: (270.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Decal (UnityEngine.Mesh)
+>>>v mesh = Decal Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 fog
+
+>>> transform = p: (-0.1, -0.1, -0.2) r: (270.0, 0.0, 0.0) s: (1.8, 1.8, 1.8)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = fog (UnityEngine.Mesh)
+>>>v mesh = fog Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 mdlAncientLoftDioramaBase
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = mdlAncientLoftDioramaBase (UnityEngine.Mesh)
+>>>v mesh = mdlAncientLoftDioramaBase Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 TempleMain
+
+>>> transform = p: (0.0, 0.1, -0.4) r: (270.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = TempleMain (UnityEngine.Mesh)
+>>>v mesh = TempleMain Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 4 water
+
+>>> transform = p: (-0.1, 0.1, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = water (UnityEngine.Mesh)
+>>>v mesh = water Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 Ruins
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 AncientLoft_TempleShrine (2)
+
+>>> transform = p: (-5.2, 3.4, 15.5) r: (6.1, 0.7, 3.7) s: (0.8, 0.8, 0.8)
+>>>GameObject Children 0 Shrine_Particle
+
+>>>> transform = p: (0.1, 12.3, -0.1) r: (277.2, 329.5, 301.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 4
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 2
+>>>>v startSpeed = 1,2
+>>>>v startSize = 1,2
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 6,283185
+>>>>v startRotation3D = (0.0, 0.0, 6.3)
+>>>>v startLifetime = 6
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 40
+>>>>v simulationSpace = World
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 1
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = 
+>>>>v enableGPUInstancing = False
+>>>>v allowRoll = True
+>>>>v mesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>>v meshCount = 1
+>>>>v activeVertexStreamsCount = 5
+
+>>>GameObject Children 1 Shrine
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (277.2, 329.5, 31.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Shrine (UnityEngine.Mesh)
+>>>>v mesh = Shrine Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = Shrine (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 2 Shrine_ParticleUp
+
+>>>> transform = p: (0.0, 12.1, 0.0) r: (277.2, 329.5, 301.0) s: (0.7, 0.7, 0.7)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 1
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 10
+>>>>v startSpeed = 0,1
+>>>>v startSize = 2
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 2
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 5
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = matBbRuinGlowy 1 (UnityEngine.Material)
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>>GameObject Children 3 Shrine_ParticleDown
+
+>>>> transform = p: (0.0, 12.3, 0.0) r: (82.8, 149.5, 239.0) s: (0.9, 0.9, 0.9)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 1
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 10
+>>>>v startSpeed = 0,1
+>>>>v startSize = 0,8
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 2,5
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 2
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = matBbRuinGlowy 1 (UnityEngine.Material)
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>>GameObject Children 4 Shrine_ParticleSwirl
+
+>>>> transform = p: (0.2, 3.3, 0.2) r: (277.2, 329.5, 301.0) s: (0.6, 0.6, 0.6)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 1
+>>>>v startSpeed = 5
+>>>>v startSize = 1
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 4
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 1
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 0,5
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = matAncientLoft_Trail (UnityEngine.Material)
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>GameObject Children 1 WPPlanter2WithBonsaiTree (7)
+
+>>> transform = p: (-16.1, 4.0, -2.9) r: (0.1, 166.9, 0.7) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 WPPlanter2Mesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.7, 86.1, 80.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = WPPlanter2Mesh (UnityEngine.Mesh)
+>>>>v mesh = WPPlanter2Mesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = WPPlanter2Mesh (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 1 WPPlanter2SurfaceMesh
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (270.7, 86.1, 80.8) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = WPPlanter2SurfaceMesh (UnityEngine.Mesh)
+>>>>v mesh = WPPlanter2SurfaceMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 spmGlGrass1 (2)
+
+>>>> transform = p: (-0.6, -0.1, 0.3) r: (0.7, 91.9, 0.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.7, 91.9, 0.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGlGrass1
+
+>>>> transform = p: (0.2, 0.0, 0.7) r: (0.1, 166.9, 0.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 166.9, 0.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 4 spmBonsai1V1
+
+>>>> transform = p: (0.0, -0.5, 0.0) r: (0.1, 166.9, 0.7) s: (0.9, 0.9, 0.9)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.6, 7.2, 0.6)
+>>>>v size = 14,62662
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmBonsai1V1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 166.9, 0.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmBonsai1V1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmBonsai1V1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 5 spmGlGrass1 (1)
+
+>>>> transform = p: (-0.2, 0.0, -0.3) r: (0.6, 121.9, 0.4) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.6, 121.9, 0.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 6 spmGlGrass1 (3)
+
+>>>> transform = p: (-0.8, 0.0, -0.3) r: (0.7, 91.9, 0.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.7, 91.9, 0.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 7 spmGlGrass1 (4)
+
+>>>> transform = p: (-0.5, -0.1, 1.1) r: (0.7, 91.9, 0.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.7, 91.9, 0.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 8 spmGlGrass1 (5)
+
+>>>> transform = p: (1.0, -0.3, 0.6) r: (0.7, 91.9, 0.1) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.7, 91.9, 0.1) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 2 WPPlanter2WithBonsaiTree (8)
+
+>>> transform = p: (16.7, 3.9, 0.7) r: (359.5, 220.0, 0.5) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 WPPlanter2Mesh
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.7, 86.1, 133.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = WPPlanter2Mesh (UnityEngine.Mesh)
+>>>>v mesh = WPPlanter2Mesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = WPPlanter2Mesh (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 1 WPPlanter2SurfaceMesh
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (270.7, 86.1, 133.9) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = WPPlanter2SurfaceMesh (UnityEngine.Mesh)
+>>>>v mesh = WPPlanter2SurfaceMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 spmGlGrass1 (2)
+
+>>>> transform = p: (-0.6, -0.1, 0.3) r: (0.4, 145.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.4, 145.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 3 spmGlGrass1
+
+>>>> transform = p: (0.2, 0.0, 0.7) r: (359.5, 220.0, 0.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.5, 220.0, 0.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 4 spmBonsai1V1
+
+>>>> transform = p: (0.0, -0.5, 0.0) r: (359.5, 220.0, 0.5) s: (0.9, 0.9, 0.9)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.6, 7.2, 0.6)
+>>>>v size = 14,62662
+>>>>v lodCount = 1
+>>>>v fadeMode = SpeedTree
+>>>>v animateCrossFading = True
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmBonsai1V1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (359.5, 220.0, 0.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmBonsai1V1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmBonsai1V1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 5 spmGlGrass1 (1)
+
+>>>> transform = p: (-0.2, 0.0, -0.3) r: (0.0, 175.0, 0.7) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 175.0, 0.7) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 6 spmGlGrass1 (3)
+
+>>>> transform = p: (-0.8, 0.0, -0.3) r: (0.4, 145.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.4, 145.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 7 spmGlGrass1 (4)
+
+>>>> transform = p: (-0.5, -0.1, 1.1) r: (0.4, 145.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.4, 145.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>>GameObject Children 8 spmGlGrass1 (5)
+
+>>>> transform = p: (1.0, -0.3, 0.6) r: (0.4, 145.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.LODGroup
+>>>>v localReferencePoint = (0.0, 0.6, 0.1)
+>>>>v size = 1,5239
+>>>>v lodCount = 1
+>>>>v fadeMode = None
+>>>>v animateCrossFading = False
+>>>>v enabled = True
+>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>GameObject Children 0 spmGlGrass1_LOD0
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.4, 145.0, 0.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = spmGlGrass1_LOD0 (UnityEngine.Mesh)
+>>>>>v mesh = spmGlGrass1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>> UnityEngine.Tree
+>>>>>v data = 
+>>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 3 AncientLoft_PillarHalfIntact (3)
+
+>>> transform = p: (-23.9, 9.1, -0.3) r: (270.0, 0.0, 0.0) s: (0.5, 0.5, 0.5)
+>>>GameObject Children 0 swarl (2)
+
+>>>> transform = p: (-0.1, -0.2, 24.2) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 1
+>>>>v startSpeed = 29,95162
+>>>>v startSize = 3
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 3,5
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 1
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 1
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = matAncientLoft_Trail (UnityEngine.Material)
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>>GameObject Children 1 mdlPillar_HalfIntact
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.Animator
+>>>>v isOptimizable = True
+>>>>v isHuman = False
+>>>>v hasRootMotion = False
+>>>>v humanScale = 1
+>>>>v isInitialized = False
+>>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>v applyRootMotion = False
+>>>>v linearVelocityBlending = False
+>>>>v animatePhysics = False
+>>>>v updateMode = Normal
+>>>>v hasTransformHierarchy = True
+>>>>v gravityWeight = 0
+>>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>>v bodyRotation = (0.0, 0.0, 0.0, 0.0)
+>>>>v stabilizeFeet = False
+>>>>v layerCount = 0
+>>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>>v parameterCount = 0
+>>>>v feetPivotActive = 0
+>>>>v pivotWeight = 0
+>>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>>v isMatchingTarget = False
+>>>>v speed = 1
+>>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>v cullingMode = CullUpdateTransforms
+>>>>v playbackTime = -1
+>>>>v recorderStartTime = -1
+>>>>v recorderStopTime = -1
+>>>>v recorderMode = Offline
+>>>>v runtimeAnimatorController = PillarHalfIntactController (UnityEngine.AnimatorController)
+>>>>v hasBoundPlayables = False
+>>>>v avatar = mdlPillar_HalfIntactAvatar (UnityEngine.Avatar)
+>>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>>v layersAffectMassCenter = False
+>>>>v leftFeetBottomHeight = 0
+>>>>v rightFeetBottomHeight = 0
+>>>>v logWarnings = True
+>>>>v fireEvents = True
+>>>>v keepAnimatorControllerStateOnDisable = False
+
+>>>>GameObject Children 0 mdlPillar_HalfIntactArmature
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 ROOT
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Stone1
+
+>>>>>>> transform = p: (0.0, 2.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Stone2
+
+>>>>>>>> transform = p: (0.0, 27.3, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Stone3
+
+>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Stone4
+
+>>>>>>>>>> transform = p: (0.0, 13.9, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 collision
+
+>>>>>>>>>>> transform = p: (0.1, 4.4, 0.2) r: (0.0, 0.0, 0.0) s: (3.5, 7.1, 3.5)
+>>>>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>>>GameObject Children 1 SMRockFormationMedium1
+
+>>>>>>>>>> transform = p: (-4.3, -30.5, -4.2) r: (299.7, 0.0, 0.0) s: (100.0, 100.0, 100.0)
+>>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>>v sharedMesh = Rock Formations 2 (UnityEngine.Mesh)
+>>>>>>>>>>v mesh = Rock Formations 2 Instance (UnityEngine.Mesh)
+
+>>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>>>> UnityEngine.MeshCollider
+>>>>>>>>>>v sharedMesh = Rock Formations 2 (UnityEngine.Mesh)
+>>>>>>>>>>v convex = False
+>>>>>>>>>>v inflateMesh = False
+>>>>>>>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>>>>>>>v skinWidth = 0
+>>>>>>>>>>v smoothSphereCollisions = True
+
+>>>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>>>> Spinner
+>>>>>>>>>>v randRotationSpeed = 0
+>>>>>>>>>>v randNumX = 0
+>>>>>>>>>>v randNumY = 0
+>>>>>>>>>>v randNumZ = 0
+>>>>>>>>>>v randZeroOrOneX = 0
+>>>>>>>>>>v randZeroOrOneY = 0
+>>>>>>>>>>v randZeroOrOneZ = 0
+
+>>>>>>>>>GameObject Children 2 collision
+
+>>>>>>>>>> transform = p: (0.0, 6.3, 0.0) r: (0.0, 0.0, 0.0) s: (4.3, 12.4, 4.3)
+>>>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>>GameObject Children 1 ALPebble (8)
+
+>>>>>>>>> transform = p: (-0.8, -31.7, 0.3) r: (37.6, 224.1, 210.6) s: (5.9, 5.9, 5.9)
+>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>>>>>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>>> UnityEngine.LODGroup
+>>>>>>>>>v localReferencePoint = (0.1, 0.0, 0.0)
+>>>>>>>>>v size = 0,4812357
+>>>>>>>>>v lodCount = 1
+>>>>>>>>>v fadeMode = None
+>>>>>>>>>v animateCrossFading = False
+>>>>>>>>>v enabled = True
+>>>>>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>>>>> Spinner
+>>>>>>>>>v randRotationSpeed = 0
+>>>>>>>>>v randNumX = 0
+>>>>>>>>>v randNumY = 0
+>>>>>>>>>v randNumZ = 0
+>>>>>>>>>v randZeroOrOneX = 0
+>>>>>>>>>v randZeroOrOneY = 0
+>>>>>>>>>v randZeroOrOneZ = 0
+
+>>>>>>>>GameObject Children 2 collision
+
+>>>>>>>>> transform = p: (0.1, 0.6, 0.0) r: (0.8, 356.3, 11.6) s: (4.7, 1.4, 4.7)
+>>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>GameObject Children 1 ALPebble (7)
+
+>>>>>>>> transform = p: (3.4, -1.6, 4.5) r: (5.0, 180.0, 180.0) s: (3.3, 3.3, 3.3)
+>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>>>>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>> UnityEngine.LODGroup
+>>>>>>>>v localReferencePoint = (0.1, 0.0, 0.0)
+>>>>>>>>v size = 0,4812357
+>>>>>>>>v lodCount = 1
+>>>>>>>>v fadeMode = None
+>>>>>>>>v animateCrossFading = False
+>>>>>>>>v enabled = True
+>>>>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>>>> Spinner
+>>>>>>>>v randRotationSpeed = 0
+>>>>>>>>v randNumX = 0
+>>>>>>>>v randNumY = 0
+>>>>>>>>v randNumZ = 0
+>>>>>>>>v randZeroOrOneX = 0
+>>>>>>>>v randZeroOrOneY = 0
+>>>>>>>>v randZeroOrOneZ = 0
+
+>>>>>>>GameObject Children 2 collision
+
+>>>>>>>> transform = p: (0.0, 14.7, 0.0) r: (0.0, 0.0, 0.0) s: (5.3, 23.4, 5.7)
+>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>GameObject Children 3 collision
+
+>>>>>>>> transform = p: (0.0, 15.5, 0.0) r: (0.0, 0.0, 0.0) s: (6.7, 1.2, 7.1)
+>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>GameObject Children 4 collision
+
+>>>>>>>> transform = p: (-0.1, 2.6, -0.2) r: (0.0, 0.0, 0.0) s: (5.0, 5.0, 5.0)
+>>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>v radius = 0,5000002
+>>>>>>>>v height = 2,000001
+>>>>>>>>v direction = 1
+
+>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 1 Pillar_HalfIntact
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>v quality = Auto
+>>>>>v updateWhenOffscreen = False
+>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>v bones = UnityEngine.Transform[]
+>>>>>v sharedMesh = Pillar_HalfIntact (UnityEngine.Mesh)
+>>>>>v skinnedMotionVectors = True
+>>>>>v localBounds = Center: (0.0, 26.8, 0.0), Extents: (3.4, 26.9, 3.6)
+
+>>>>> UnityEngine.MeshCollider
+>>>>>v sharedMesh = 
+>>>>>v convex = False
+>>>>>v inflateMesh = False
+>>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>>v skinWidth = 0
+>>>>>v smoothSphereCollisions = True
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = 
+
+>>GameObject Children 4 AncientLoft_PillarHalfIntact (4)
+
+>>> transform = p: (29.7, 9.1, 0.3) r: (270.0, 270.0, 0.0) s: (0.5, 0.5, 0.5)
+>>>GameObject Children 0 swarl (2)
+
+>>>> transform = p: (-0.1, -0.2, 24.2) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.ParticleSystem
+>>>>v startDelay = 0
+>>>>v loop = True
+>>>>v playOnAwake = True
+>>>>v duration = 5
+>>>>v playbackSpeed = 1
+>>>>v enableEmission = True
+>>>>v emissionRate = 1
+>>>>v startSpeed = 29,95162
+>>>>v startSize = 3
+>>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>>v startRotation = 0
+>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>v startLifetime = 3,5
+>>>>v gravityModifier = 0
+>>>>v maxParticles = 1
+>>>>v simulationSpace = Local
+>>>>v scalingMode = Local
+>>>>v automaticCullingEnabled = False
+>>>>v isPlaying = False
+>>>>v isEmitting = False
+>>>>v isStopped = True
+>>>>v isPaused = False
+>>>>v particleCount = 0
+>>>>v time = 0
+>>>>v randomSeed = 0
+>>>>v useAutoRandomSeed = True
+>>>>v proceduralSimulationSupported = False
+>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>> UnityEngine.ParticleSystemRenderer
+>>>>v alignment = View
+>>>>v renderMode = Billboard
+>>>>v sortMode = None
+>>>>v lengthScale = 2
+>>>>v velocityScale = 0
+>>>>v cameraVelocityScale = 0
+>>>>v normalDirection = 1
+>>>>v shadowBias = 0
+>>>>v sortingFudge = 0
+>>>>v minParticleSize = 0
+>>>>v maxParticleSize = 1
+>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>v flip = (0.0, 0.0, 0.0)
+>>>>v maskInteraction = None
+>>>>v trailMaterial = matAncientLoft_Trail (UnityEngine.Material)
+>>>>v enableGPUInstancing = True
+>>>>v allowRoll = True
+>>>>v mesh = 
+>>>>v meshCount = 0
+>>>>v activeVertexStreamsCount = 4
+
+>>>GameObject Children 1 mdlPillar_HalfIntact
+
+>>>> transform = p: (0.0, -12.9, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.Animator
+>>>>v isOptimizable = True
+>>>>v isHuman = False
+>>>>v hasRootMotion = False
+>>>>v humanScale = 1
+>>>>v isInitialized = False
+>>>>v deltaPosition = (0.0, 0.0, 0.0)
+>>>>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>v velocity = (0.0, 0.0, 0.0)
+>>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>>v rootPosition = (0.0, 0.0, 0.0)
+>>>>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>v applyRootMotion = False
+>>>>v linearVelocityBlending = False
+>>>>v animatePhysics = False
+>>>>v updateMode = Normal
+>>>>v hasTransformHierarchy = True
+>>>>v gravityWeight = 0
+>>>>v bodyPosition = (0.0, 0.0, 0.0)
+>>>>v bodyRotation = (0.0, 0.0, 346702.0, 0.0)
+>>>>v stabilizeFeet = False
+>>>>v layerCount = 0
+>>>>v parameters = UnityEngine.AnimatorControllerParameter[]
+>>>>v parameterCount = 0
+>>>>v feetPivotActive = 0
+>>>>v pivotWeight = 0
+>>>>v pivotPosition = (0.0, 0.0, 0.0)
+>>>>v isMatchingTarget = False
+>>>>v speed = 1
+>>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>>v cullingMode = CullUpdateTransforms
+>>>>v playbackTime = -1
+>>>>v recorderStartTime = -1
+>>>>v recorderStopTime = -1
+>>>>v recorderMode = Offline
+>>>>v runtimeAnimatorController = PillarHalfIntactController (UnityEngine.AnimatorController)
+>>>>v hasBoundPlayables = False
+>>>>v avatar = mdlPillar_HalfIntactAvatar (UnityEngine.Avatar)
+>>>>v playableGraph = UnityEngine.Playables.PlayableGraph
+>>>>v layersAffectMassCenter = False
+>>>>v leftFeetBottomHeight = 0
+>>>>v rightFeetBottomHeight = 0
+>>>>v logWarnings = True
+>>>>v fireEvents = True
+>>>>v keepAnimatorControllerStateOnDisable = False
+
+>>>>GameObject Children 0 mdlPillar_HalfIntactArmature
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 ROOT
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 Stone1
+
+>>>>>>> transform = p: (0.0, 2.5, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 Stone2
+
+>>>>>>>> transform = p: (0.0, 27.3, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 Stone3
+
+>>>>>>>>> transform = p: (0.0, 1.5, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 Stone4
+
+>>>>>>>>>> transform = p: (0.0, 13.9, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 collision
+
+>>>>>>>>>>> transform = p: (0.1, 4.4, 0.2) r: (0.0, 270.0, 0.0) s: (3.5, 7.1, 3.5)
+>>>>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>>>GameObject Children 1 SMRockFormationMedium1
+
+>>>>>>>>>> transform = p: (-4.3, -30.5, -4.2) r: (299.7, 270.0, 0.0) s: (100.0, 100.0, 100.0)
+>>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>>v sharedMesh = Rock Formations 2 (UnityEngine.Mesh)
+>>>>>>>>>>v mesh = Rock Formations 2 Instance (UnityEngine.Mesh)
+
+>>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>>>> UnityEngine.MeshCollider
+>>>>>>>>>>v sharedMesh = Rock Formations 2 (UnityEngine.Mesh)
+>>>>>>>>>>v convex = False
+>>>>>>>>>>v inflateMesh = False
+>>>>>>>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>>>>>>>v skinWidth = 0
+>>>>>>>>>>v smoothSphereCollisions = True
+
+>>>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>>>> Spinner
+>>>>>>>>>>v randRotationSpeed = 0
+>>>>>>>>>>v randNumX = 0
+>>>>>>>>>>v randNumY = 0
+>>>>>>>>>>v randNumZ = 0
+>>>>>>>>>>v randZeroOrOneX = 0
+>>>>>>>>>>v randZeroOrOneY = 0
+>>>>>>>>>>v randZeroOrOneZ = 0
+
+>>>>>>>>>GameObject Children 2 collision
+
+>>>>>>>>>> transform = p: (0.0, 6.3, 0.0) r: (0.0, 270.0, 0.0) s: (4.3, 12.4, 4.3)
+>>>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>>GameObject Children 1 ALPebble (8)
+
+>>>>>>>>> transform = p: (-0.8, -31.7, 0.3) r: (37.6, 134.1, 210.6) s: (5.9, 5.9, 5.9)
+>>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>>>>>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>>> UnityEngine.LODGroup
+>>>>>>>>>v localReferencePoint = (0.1, 0.0, 0.0)
+>>>>>>>>>v size = 0,4812357
+>>>>>>>>>v lodCount = 1
+>>>>>>>>>v fadeMode = None
+>>>>>>>>>v animateCrossFading = False
+>>>>>>>>>v enabled = True
+>>>>>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>>>>> Spinner
+>>>>>>>>>v randRotationSpeed = 0
+>>>>>>>>>v randNumX = 0
+>>>>>>>>>v randNumY = 0
+>>>>>>>>>v randNumZ = 0
+>>>>>>>>>v randZeroOrOneX = 0
+>>>>>>>>>v randZeroOrOneY = 0
+>>>>>>>>>v randZeroOrOneZ = 0
+
+>>>>>>>>GameObject Children 2 collision
+
+>>>>>>>>> transform = p: (0.1, 0.6, 0.0) r: (0.8, 266.3, 11.6) s: (4.7, 1.4, 4.7)
+>>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>GameObject Children 1 ALPebble (7)
+
+>>>>>>>> transform = p: (3.4, -1.6, 4.5) r: (5.0, 90.0, 180.0) s: (3.3, 3.3, 3.3)
+>>>>>>>> UnityEngine.MeshFilter
+>>>>>>>>v sharedMesh = Pebble1Mesh (UnityEngine.Mesh)
+>>>>>>>>v mesh = Pebble1Mesh Instance (UnityEngine.Mesh)
+
+>>>>>>>> UnityEngine.MeshRenderer
+>>>>>>>>v additionalVertexStreams = 
+>>>>>>>>v subMeshStartIndex = 0
+
+>>>>>>>> UnityEngine.LODGroup
+>>>>>>>>v localReferencePoint = (0.1, 0.0, 0.0)
+>>>>>>>>v size = 0,4812357
+>>>>>>>>v lodCount = 1
+>>>>>>>>v fadeMode = None
+>>>>>>>>v animateCrossFading = False
+>>>>>>>>v enabled = True
+>>>>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>>>> Spinner
+>>>>>>>>v randRotationSpeed = 0
+>>>>>>>>v randNumX = 0
+>>>>>>>>v randNumY = 0
+>>>>>>>>v randNumZ = 0
+>>>>>>>>v randZeroOrOneX = 0
+>>>>>>>>v randZeroOrOneY = 0
+>>>>>>>>v randZeroOrOneZ = 0
+
+>>>>>>>GameObject Children 2 collision
+
+>>>>>>>> transform = p: (0.0, 14.7, 0.0) r: (0.0, 270.0, 0.0) s: (5.3, 23.4, 5.7)
+>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>GameObject Children 3 collision
+
+>>>>>>>> transform = p: (0.0, 15.5, 0.0) r: (0.0, 270.0, 0.0) s: (6.7, 1.2, 7.1)
+>>>>>>>> UnityEngine.BoxCollider
+>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>v size = (1.0, 1.0, 1.0)
+>>>>>>>>v extents = (0.5, 0.5, 0.5)
+
+>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>>>>GameObject Children 4 collision
+
+>>>>>>>> transform = p: (-0.1, 2.6, -0.2) r: (0.0, 270.0, 0.0) s: (5.0, 5.0, 5.0)
+>>>>>>>> UnityEngine.CapsuleCollider
+>>>>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>>>>v radius = 0,5000002
+>>>>>>>>v height = 2,000001
+>>>>>>>>v direction = 1
+
+>>>>>>>> RoR2.SurfaceDefProvider
+>>>>>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>>GameObject Children 1 Pillar_HalfIntact
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (0.0, 0.0, 0.0)
+>>>>> UnityEngine.SkinnedMeshRenderer
+>>>>>v quality = Auto
+>>>>>v updateWhenOffscreen = False
+>>>>>v forceMatrixRecalculationPerRender = False
+>>>>>v rootBone = ROOT (UnityEngine.Transform)
+>>>>>v bones = UnityEngine.Transform[]
+>>>>>v sharedMesh = Pillar_HalfIntact (UnityEngine.Mesh)
+>>>>>v skinnedMotionVectors = True
+>>>>>v localBounds = Center: (0.0, 26.8, 0.0), Extents: (3.4, 26.9, 3.6)
+
+>>>>> UnityEngine.MeshCollider
+>>>>>v sharedMesh = 
+>>>>>v convex = False
+>>>>>v inflateMesh = False
+>>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>>v skinWidth = 0
+>>>>>v smoothSphereCollisions = True
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = 
+
+>>GameObject Children 5 AncientLoft_CirclePot (4)
+
+>>> transform = p: (0.2, 7.6, 25.1) r: (270.0, 180.0, 0.0) s: (0.6, 0.6, 0.6)
+>>>GameObject Children 0 AncientLoft_CirclePot
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CirclePot (UnityEngine.Mesh)
+>>>>v mesh = CirclePot Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CirclePot (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>> RoR2.ObjectTransformCurve
+>>>>v useRotationCurves = False
+>>>>v useTranslationCurves = True
+>>>>v loop = True
+>>>>v randomizeInitialTime = False
+>>>>v rotationCurveX = UnityEngine.AnimationCurve
+>>>>v rotationCurveY = UnityEngine.AnimationCurve
+>>>>v rotationCurveZ = UnityEngine.AnimationCurve
+>>>>v translationCurveX = UnityEngine.AnimationCurve
+>>>>v translationCurveY = UnityEngine.AnimationCurve
+>>>>v translationCurveZ = UnityEngine.AnimationCurve
+>>>>v timeMax = 10
+>>>>v <time>k__BackingField = 0
+>>>>v <basePosition>k__BackingField = (0.0, 0.0, 0.0)
+>>>>v <baseRotation>k__BackingField = (0.0, 0.0, 0.0, 0.0)
+>>>>v time = 0
+>>>>v basePosition = (0.0, 0.0, 0.0)
+>>>>v baseRotation = (0.0, 0.0, 0.0, 0.0)
+
+>>>>GameObject Children 0 spmBonsai1V1
+
+>>>>> transform = p: (0.3, 0.4, 1.8) r: (0.0, 90.0, 0.0) s: (0.5, 0.3, 0.5)
+>>>>> UnityEngine.LODGroup
+>>>>>v localReferencePoint = (0.6, 7.2, 0.6)
+>>>>>v size = 14,62662
+>>>>>v lodCount = 1
+>>>>>v fadeMode = SpeedTree
+>>>>>v animateCrossFading = True
+>>>>>v enabled = True
+>>>>>v crossFadeAnimationDuration = 0,5
+
+>>>>>GameObject Children 0 spmBonsai1V1_LOD0
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>> UnityEngine.MeshFilter
+>>>>>>v sharedMesh = spmBonsai1V1_LOD0 (UnityEngine.Mesh)
+>>>>>>v mesh = spmBonsai1V1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>>>> UnityEngine.MeshRenderer
+>>>>>>v additionalVertexStreams = 
+>>>>>>v subMeshStartIndex = 0
+
+>>>>>> UnityEngine.Tree
+>>>>>>v data = 
+>>>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 6 AncientLoft_WaterFenceTypeA (12)
+
+>>> transform = p: (11.4, 3.5, 14.1) r: (272.0, 269.9, 132.6) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = WaterFenceTypeA (UnityEngine.Mesh)
+>>>v mesh = WaterFenceTypeA Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = WaterFenceTypeA (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>>>GameObject Children 0 mdlLilyPad (1)
+
+>>>> transform = p: (7.6, -0.3, 2.6) r: (1.4, 208.9, 0.0) s: (1.9, 1.9, 1.9)
+>>>>GameObject Children 0 LilyPad1
+
+>>>>> transform = p: (0.2, 0.0, 0.0) r: (271.4, 207.4, 32.6) s: (0.8, 0.8, 0.8)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = LilyPad1 (UnityEngine.Mesh)
+>>>>>v mesh = LilyPad1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 LilyPad2
+
+>>>>> transform = p: (-0.6, 0.0, 0.1) r: (271.4, 207.4, 1.5) s: (0.2, 0.2, 0.2)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = LilyPad2 (UnityEngine.Mesh)
+>>>>>v mesh = LilyPad2 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 Lotus1
+
+>>>>> transform = p: (1.0, 0.0, 0.0) r: (271.4, 207.4, 1.5) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = Lotus1 (UnityEngine.Mesh)
+>>>>>v mesh = Lotus1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 mdlLilyPad (2)
+
+>>>> transform = p: (3.3, -0.3, 2.7) r: (1.3, 221.3, 0.3) s: (2.4, 2.4, 2.4)
+>>>>GameObject Children 0 LilyPad1
+
+>>>>> transform = p: (1.2, 0.0, 0.0) r: (271.4, 207.4, 45.0) s: (0.8, 0.8, 0.8)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = LilyPad1 (UnityEngine.Mesh)
+>>>>>v mesh = LilyPad1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 LilyPad2
+
+>>>>> transform = p: (0.4, 0.0, 0.3) r: (271.4, 207.4, 13.9) s: (0.2, 0.2, 0.2)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = LilyPad2 (UnityEngine.Mesh)
+>>>>>v mesh = LilyPad2 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 LilyPad3
+
+>>>>> transform = p: (2.3, 0.0, -0.1) r: (271.4, 207.4, 294.1) s: (0.5, 0.5, 0.5)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = LilyPad3 (UnityEngine.Mesh)
+>>>>>v mesh = LilyPad3 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 mdlLilyPad (3)
+
+>>>> transform = p: (-3.8, -0.4, 2.9) r: (1.4, 215.8, 0.2) s: (1.5, 1.5, 1.5)
+>>>>GameObject Children 0 LilyPad1
+
+>>>>> transform = p: (0.2, 0.0, 0.6) r: (271.4, 207.4, 39.4) s: (0.8, 0.8, 0.8)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = LilyPad1 (UnityEngine.Mesh)
+>>>>>v mesh = LilyPad1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 1 LilyPad2
+
+>>>>> transform = p: (-0.3, 0.0, -0.1) r: (271.4, 207.4, 8.4) s: (0.2, 0.2, 0.2)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = LilyPad2 (UnityEngine.Mesh)
+>>>>>v mesh = LilyPad2 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 2 LilyPad3
+
+>>>>> transform = p: (2.5, 0.0, 0.4) r: (271.4, 207.4, 288.6) s: (0.5, 0.5, 0.5)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = LilyPad3 (UnityEngine.Mesh)
+>>>>>v mesh = LilyPad3 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 3 Lotus1
+
+>>>>> transform = p: (1.2, 0.0, 0.1) r: (271.4, 207.4, 8.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = Lotus1 (UnityEngine.Mesh)
+>>>>>v mesh = Lotus1 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 4 Lotus2
+
+>>>>> transform = p: (3.3, -0.1, 0.0) r: (271.4, 207.4, 8.4) s: (0.7, 0.7, 0.7)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = Lotus2 (UnityEngine.Mesh)
+>>>>>v mesh = Lotus2 Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 3 WaterFence_Water
+
+>>>> transform = p: (0.0, 0.1, 2.8) r: (358.7, 42.5, 359.6) s: (2.0, 1.0, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>>v mesh = Plane Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 0 WaterController
+
+>>>>> transform = p: (0.1, -1.0, 0.2) r: (358.7, 42.5, 359.6) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.BoxCollider
+>>>>>v center = (0.0, 0.0, 0.0)
+>>>>>v size = (10.0, 1.8, 8.5)
+>>>>>v extents = (5.0, 0.9, 4.2)
+
+>>>>> RoR2.SurfaceDefProvider
+>>>>>v surfaceDef = sdWater (RoR2.SurfaceDef)
+
+>GameObject Children 2 Foliage
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 AncientLoftGrass (1)
+
+>>> transform = p: (4.7, 3.6, 13.3) r: (2.4, 60.1, 358.6) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 AncientLoftGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (2.4, 60.1, 358.6) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AncientLoftGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = AncientLoftGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 1 AncientLoftGrass (2)
+
+>>> transform = p: (7.5, 3.4, 7.3) r: (0.1, 79.8, 355.5) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 AncientLoftGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.1, 79.8, 355.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AncientLoftGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = AncientLoftGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 2 AncientLoftGrass (3)
+
+>>> transform = p: (11.4, 3.5, -6.9) r: (354.5, 79.8, 356.5) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 AncientLoftGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.5, 79.8, 356.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AncientLoftGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = AncientLoftGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 3 AncientLoftGrass (4)
+
+>>> transform = p: (-15.6, 3.5, 3.4) r: (354.5, 105.5, 356.5) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 AncientLoftGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.5, 105.5, 356.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AncientLoftGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = AncientLoftGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 4 AncientLoftGrass (5)
+
+>>> transform = p: (-5.3, 3.5, 15.2) r: (354.5, 269.3, 356.5) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 AncientLoftGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.5, 269.3, 356.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AncientLoftGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = AncientLoftGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 5 AncientLoftGrass (6)
+
+>>> transform = p: (-16.6, 3.7, -2.0) r: (354.5, 269.3, 356.5) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 AncientLoftGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.5, 269.3, 356.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AncientLoftGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = AncientLoftGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 6 AncientLoftGrass (7)
+
+>>> transform = p: (0.3, 17.2, -10.8) r: (354.5, 105.5, 356.5) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.3, 1.0, -0.4)
+>>>v size = 11,04336
+>>>v lodCount = 1
+>>>v fadeMode = None
+>>>v animateCrossFading = False
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 AncientLoftGrass_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (354.5, 105.5, 356.5) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = AncientLoftGrass_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = AncientLoftGrass_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>>GameObject Children 7 spmBbVine1 (17)
+
+>>> transform = p: (-1.1, 20.4, -9.0) r: (0.0, 139.8, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (-0.5, 3.0, 0.0)
+>>>v size = 6,678652
+>>>v lodCount = 1
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmBbVine1_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 139.8, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmBbVine1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmBbVine1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True
+
+>GameObject Children 3 Camera Position
+
+>> transform = p: (-34.6, 47.2, 61.2) r: (26.3, 151.9, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 4 Focus Point
+
+>> transform = p: (0.0, 7.2, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

@@ -1,0 +1,42 @@
+Key Path : RoR2/Base/LaserTurbine/PickupLaserTurbine.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupLaserTurbine
+
+> transform = p: (29.5, -154.6, -114.5) r: (0.0, 0.0, 0.0) s: (0.8, 0.8, 0.8)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint(Clone) (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition(Clone) (UnityEngine.Transform)
+>v modelRotation = (0.1, 0.9, 0.1, 0.5)
+>v minDistance = 2,5
+>v maxDistance = 4,5
+>v cameraDirection = (1.6, -0.6, 1.0)
+
+>GameObject Children 0 mdlLaserDisk
+
+>> transform = p: (0.0, 0.0, 0.0) r: (354.0, 174.0, 330.2) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 LaserDiskCaseMesh
+
+>>> transform = p: (-0.2, 0.0, 0.0) r: (300.4, 274.4, 258.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LaserDiskCaseMesh (UnityEngine.Mesh)
+>>>v mesh = LaserDiskCaseMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 LaserDiskMesh
+
+>>> transform = p: (0.8, 0.0, 0.0) r: (300.4, 274.4, 258.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LaserDiskMesh (UnityEngine.Mesh)
+>>>v mesh = LaserDiskMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint(Clone)
+
+>> transform = p: (0.0, -0.4, 0.0) r: (0.0, 327.0, 343.4) s: (1.3, 1.3, 1.3)
+>GameObject Children 2 CameraPosition(Clone)
+
+>> transform = p: (-2.0, 0.3, -1.3) r: (0.0, 327.0, 343.4) s: (1.3, 1.3, 1.3)

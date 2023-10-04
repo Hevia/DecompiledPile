@@ -1,0 +1,28 @@
+Key Path : RoR2/Base/FireballsOnHit/PickupFireballsOnHit.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : PickupFireballsOnHit
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ModelPanelParameters
+>v focusPointTransform = FocusPoint (UnityEngine.Transform)
+>v cameraPositionTransform = CameraPosition (UnityEngine.Transform)
+>v modelRotation = (0.0, 1.0, 0.0, 0.0)
+>v minDistance = 3
+>v maxDistance = 6
+>v cameraDirection = (2.1, 0.0, -0.1)
+
+>GameObject Children 0 Mesh
+
+>> transform = p: (0.0, -0.3, -0.1) r: (24.0, 0.0, 0.0) s: (0.7, 0.7, 0.7)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Fireball_low (UnityEngine.Mesh)
+>>v mesh = Fireball_low Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 FocusPoint
+
+>> transform = p: (0.0, 0.0, -0.4) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 2 CameraPosition
+
+>> transform = p: (-2.1, 0.0, -0.3) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)

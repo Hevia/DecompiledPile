@@ -1,0 +1,287 @@
+Key Path : RoR2/DLC1/sulfurpools/SPMoss.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : SPMoss
+
+> transform = p: (0.0, 0.0, 0.0) r: (270.0, 34.0, 0.0) s: (0.7, 0.7, 0.7)
+> UnityEngine.MeshFilter
+>v sharedMesh = meshSPMossBase (UnityEngine.Mesh)
+>v mesh = meshSPMossBase Instance (UnityEngine.Mesh)
+
+> UnityEngine.MeshRenderer
+>v additionalVertexStreams = 
+>v subMeshStartIndex = 0
+
+> UnityEngine.LODGroup
+>v localReferencePoint = (0.0, 0.0, 0.0)
+>v size = 1
+>v lodCount = 1
+>v fadeMode = SpeedTree
+>v animateCrossFading = False
+>v enabled = True
+>v crossFadeAnimationDuration = 0,5
+
+>GameObject Children 0 meshSPMossPlane (4)
+
+>> transform = p: (0.1, -0.1, 0.2) r: (270.3, 221.4, 231.7) s: (1.0, 1.0, 1.9)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = 
+>>v mesh = meshSPMossPlane (4) (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 DCHangingLightSmallShortChain Variant
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 34.0, 0.0) s: (0.8, 0.8, 0.8)
+>>GameObject Children 0 ChainStart
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 34.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> LineBetweenTransforms
+>>>v _transformNodes = UnityEngine.Transform[]
+>>>v lineRenderer = 
+>>>v vertexList = UnityEngine.Vector3[]
+>>>v transformNodes = UnityEngine.Transform[]
+
+>>> UnityEngine.LineRenderer
+>>>v numPositions = 4
+>>>v startWidth = 0,1560054
+>>>v endWidth = 0,1554054
+>>>v widthMultiplier = 0,5
+>>>v numCornerVertices = 0
+>>>v numCapVertices = 0
+>>>v useWorldSpace = True
+>>>v loop = False
+>>>v startColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>>v positionCount = 4
+>>>v shadowBias = 0,5
+>>>v generateLightingData = False
+>>>v textureMode = Tile
+>>>v alignment = View
+>>>v widthCurve = UnityEngine.AnimationCurve
+>>>v colorGradient = UnityEngine.Gradient
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 1 ChainJoint1
+
+>>> transform = p: (0.0, -1.0, 0.0) r: (0.0, 34.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v radius = 0,42
+
+>>> UnityEngine.SpringJoint
+>>>v spring = 40
+>>>v damper = 0,2
+>>>v minDistance = 0
+>>>v maxDistance = 0
+>>>v tolerance = 0,025
+
+>>GameObject Children 2 ChainJoint2
+
+>>> transform = p: (0.0, -1.7, 0.0) r: (0.0, 34.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.SphereCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v radius = 0,42
+
+>>> UnityEngine.SpringJoint
+>>>v spring = 50
+>>>v damper = 0,2
+>>>v minDistance = 0
+>>>v maxDistance = 0
+>>>v tolerance = 0,025
+
+>>GameObject Children 3 ChainEnd
+
+>>> transform = p: (0.0, -3.3, 0.0) r: (0.0, 34.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SpringJoint
+>>>v spring = 50
+>>>v damper = 0,2
+>>>v minDistance = 0
+>>>v maxDistance = 0
+>>>v tolerance = 0,025
+
+>>> RoR2.ApplyForceOnStart
+>>>v localForce = (25.0, 0.0, 25.0)
+
+>>> UnityEngine.CapsuleCollider
+>>>v center = (0.0, -0.1, 0.0)
+>>>v radius = 0,53
+>>>v height = 1,72
+>>>v direction = 1
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>>GameObject Children 0 LightMesh
+
+>>>> transform = p: (0.0, 0.2, 0.0) r: (270.0, 34.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = meshSPMossBall (UnityEngine.Mesh)
+>>>>v mesh = meshSPMossBall Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 0 CrystalLight
+
+>>>>> transform = p: (0.0, 0.0, 0.8) r: (270.0, 34.0, 0.0) s: (0.7, 0.7, 0.7)
+>>>>> UnityEngine.Light
+>>>>>v m_BakedIndex = 0
+>>>>>v type = Point
+>>>>>v shape = Cone
+>>>>>v spotAngle = 30
+>>>>>v innerSpotAngle = 21,80208
+>>>>>v color = RGBA(0.247, 0.904, 0.980, 1.000)
+>>>>>v colorTemperature = 6570
+>>>>>v useColorTemperature = False
+>>>>>v intensity = 4
+>>>>>v bounceIntensity = 1
+>>>>>v useBoundingSphereOverride = False
+>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>v shadowCustomResolution = -1
+>>>>>v shadowBias = 0,05
+>>>>>v shadowNormalBias = 0,4
+>>>>>v shadowNearPlane = 0,2
+>>>>>v useShadowMatrixOverride = False
+>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>v range = 20
+>>>>>v flare = 
+>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>v cullingMask = -1
+>>>>>v renderingLayerMask = 1
+>>>>>v lightShadowCasterMode = Default
+>>>>>v shadows = None
+>>>>>v shadowStrength = 1
+>>>>>v shadowResolution = FromQualitySettings
+>>>>>v shadowSoftness = 4
+>>>>>v shadowSoftnessFade = 1
+>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>v cookieSize = 10
+>>>>>v cookie = 
+>>>>>v renderMode = Auto
+>>>>>v bakedIndex = 0
+>>>>>v commandBufferCount = 0
+>>>>>v pixelLightCount = 4
+>>>>>v shadowConstantBias = 0
+>>>>>v shadowObjectSizeBias = 0
+>>>>>v attenuate = True

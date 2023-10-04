@@ -1,0 +1,377 @@
+Key Path : RoR2/Base/Core/RoR2Application.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : RoR2Application
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.RoR2Application
+>v loaded = False
+>v messageForModders = We don't officially support modding at this time but if you're going to mod the game please change this value to true if you're modding the game. This will disable some things like Prismatic Trials and put players into a separate matchmaking queue from vanilla users to protect their game experience.
+>v isModded = True
+>v networkManagerPrefab = NetworkManager (UnityEngine.GameObject)
+>v platformManagerPrefab = 
+>v networkSessionPrefab = NetworkSession (UnityEngine.GameObject)
+>v postProcessSettingsController = RoR2Application (UnityEngine.Rendering.PostProcessing.PostProcessVolume)
+>v mainCanvas = MainCanvas (UnityEngine.Canvas)
+>v stopwatch = System.Diagnostics.Stopwatch
+>v gameName = Risk of Rain 2
+>v ror1AppId = 248820
+>v ror2AppId = 632360
+>v ror2DedicatedServerAppId = 1180760
+>v isDedicatedServer = False
+>v appId = 632360
+>v <steamworksClient>k__BackingField = 
+>v steamBuildId = 8331485
+>v buildId = 1.2.2.0
+>v hardMaxPlayers = 16
+>v maxPlayers = 4
+>v maxLocalPlayers = 4
+>v <instance>k__BackingField = RoR2Application (RoR2.RoR2Application)
+>v waitMsConVar = RoR2.ConVar.IntConVar
+>v timeTimers = RoR2.TimerQueue
+>v fixedTimeTimers = RoR2.TimerQueue
+>v unscaledTimeTimers = RoR2.TimerQueue
+>v onUpdate = System.Action
+>v onFixedUpdate = System.Action
+>v onLateUpdate = System.Action
+>v onNextUpdate = 
+>v <fileSystem>k__BackingField = Zio.FileSystems.SubFileSystem
+>v cloudStorage = RoR2.SteamworksRemoteStorageFileSystem
+>v loadSteamworksClient = System.Func`1[System.Boolean]
+>v unloadSteamworksClient = System.Action
+>v <loadFinished>k__BackingField = False
+>v <loadStarted>k__BackingField = True
+>v onLoad = System.Action
+>v onStart = 
+>v onShutDown = System.Action
+>v rng = Xoroshiro128Plus
+>v IsFullyLoaded = False
+>v steamworksClient = 
+>v instance = RoR2Application (RoR2.RoR2Application)
+>v fileSystem = Zio.FileSystems.SubFileSystem
+>v loadFinished = False
+>v loadStarted = True
+>v isInSinglePlayer = False
+>v isInMultiPlayer = False
+
+> UnityEngine.Rigidbody
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v drag = 0
+>v angularDrag = 0,05
+>v mass = 1
+>v useGravity = False
+>v maxDepenetrationVelocity = 1E+32
+>v isKinematic = True
+>v freezeRotation = False
+>v constraints = None
+>v collisionDetectionMode = Discrete
+>v centerOfMass = (0.0, 0.0, 0.0)
+>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>v inertiaTensor = (1.0, 1.0, 1.0)
+>v detectCollisions = True
+>v position = (0.0, 0.0, 0.0)
+>v rotation = (0.0, 0.0, 0.0, 1.0)
+>v interpolation = None
+>v solverIterations = 6
+>v sleepThreshold = 0,005
+>v maxAngularVelocity = 7
+>v solverVelocityIterations = 1
+>v sleepVelocity = 0
+>v sleepAngularVelocity = 0
+>v useConeFriction = False
+>v solverIterationCount = 6
+>v solverVelocityIterationCount = 1
+
+> GlobalShaderTextures
+>v warpRampTexture = texRampCompositeLight (UnityEngine.Texture2D)
+>v warpRampShaderVariableName = _GlobalWarpRamp
+>v eliteRampTexture = texRampElites (UnityEngine.Texture2D)
+>v eliteRampShaderVariableName = _EliteRamp
+>v snowMicrofacetTexture = texCloudWhitenoisePointFiltered (UnityEngine.Texture2D)
+>v snowMicrofacetNoiseVariableName = _SnowMicrofacetNoise
+
+> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>v sharedProfile = ppApplication (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>v isGlobal = True
+>v blendDistance = 0
+>v weight = 1
+>v priority = 0
+>v m_PreviousLayer = 0
+>v m_PreviousPriority = 0
+>v m_TempColliders = 
+>v m_InternalProfile = 
+>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+> InterpolationController
+>v m_lastFixedUpdateTimes = 
+>v m_newTimeIndex = 0
+>v m_interpolationFactor = 0,9634928
+>v InterpolationFactor = 0,9634928
+
+> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>v sharedProfile = ppDisabler (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>v isGlobal = True
+>v blendDistance = 0
+>v weight = 1
+>v priority = 99999
+>v m_PreviousLayer = 0
+>v m_PreviousPriority = 0
+>v m_TempColliders = 
+>v m_InternalProfile = 
+>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+
+> UnityEngine.Light
+>v m_BakedIndex = 0
+>v type = Point
+>v shape = Cone
+>v spotAngle = 30
+>v innerSpotAngle = 21,80208
+>v color = RGBA(1.000, 1.000, 1.000, 1.000)
+>v colorTemperature = 6570
+>v useColorTemperature = False
+>v intensity = 1
+>v bounceIntensity = 1
+>v useBoundingSphereOverride = False
+>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>v shadowCustomResolution = -1
+>v shadowBias = 0,05
+>v shadowNormalBias = 0,4
+>v shadowNearPlane = 0,2
+>v useShadowMatrixOverride = False
+>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>v range = 10
+>v flare = 
+>v bakingOutput = UnityEngine.LightBakingOutput
+>v cullingMask = -1
+>v renderingLayerMask = 1
+>v lightShadowCasterMode = Default
+>v shadows = Soft
+>v shadowStrength = 1
+>v shadowResolution = FromQualitySettings
+>v shadowSoftness = 4
+>v shadowSoftnessFade = 1
+>v layerShadowCullDistances = System.Single[]
+>v cookieSize = 10
+>v cookie = 
+>v renderMode = Auto
+>v bakedIndex = 0
+>v commandBufferCount = 0
+>v pixelLightCount = 4
+>v shadowConstantBias = 0
+>v shadowObjectSizeBias = 0
+>v attenuate = True
+
+> NGSS_Local
+>v NGSS_NO_UPDATE_ON_PLAY = False
+>v NGSS_MULTIPLE_INSTANCES_WARNING = True
+>v NGSS_SAMPLING_TEST = 4
+>v NGSS_SAMPLING_FILTER = 4
+>v NGSS_SAMPLING_DISTANCE = 75
+>v NGSS_NORMAL_BIAS = 0,1
+>v NGSS_NOISE_TO_DITHERING_SCALE = 0
+>v NGSS_NOISE_TEXTURE = 
+>v NGSS_SHADOWS_OPACITY = 1
+>v NGSS_PCSS_SOFTNESS_NEAR = 0
+>v NGSS_PCSS_SOFTNESS_FAR = 1
+>v isInitialized = False
+
+>GameObject Children 0 MainCanvas
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (0.0, 0.0, 0.0)
+>> UnityEngine.Canvas
+>>v preWillRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>>v willRenderCanvases = UnityEngine.Canvas+WillRenderCanvases
+>>v renderMode = ScreenSpaceOverlay
+>>v isRootCanvas = True
+>>v pixelRect = (x:0.00, y:0.00, width:1920.00, height:1080.00)
+>>v scaleFactor = 1
+>>v referencePixelsPerUnit = 100
+>>v overridePixelPerfect = False
+>>v pixelPerfect = False
+>>v planeDistance = 100
+>>v renderOrder = 5
+>>v overrideSorting = False
+>>v sortingOrder = 1000
+>>v targetDisplay = 0
+>>v sortingLayerID = 0
+>>v cachedSortingLayerValue = 0
+>>v additionalShaderChannels = None
+>>v sortingLayerName = Default
+>>v rootCanvas = MainCanvas (UnityEngine.Canvas)
+>>v renderingDisplaySize = (1920.0, 1080.0)
+>>v worldCamera = 
+>>v normalizedSortingGridSize = 0,1
+>>v sortingGridNormalizedSize = 0
+
+>> UnityEngine.UI.CanvasScaler
+>>v m_UiScaleMode = ScaleWithScreenSize
+>>v m_ReferencePixelsPerUnit = 100
+>>v m_ScaleFactor = 1
+>>v m_ReferenceResolution = (1920.0, 1080.0)
+>>v m_ScreenMatchMode = MatchWidthOrHeight
+>>v m_MatchWidthOrHeight = 0
+>>v kLogBase = 2
+>>v m_PhysicalUnit = Points
+>>v m_FallbackScreenDPI = 96
+>>v m_DefaultSpriteDPI = 96
+>>v m_DynamicPixelsPerUnit = 1
+>>v m_Canvas = 
+>>v m_PrevScaleFactor = 1
+>>v m_PrevReferencePixelsPerUnit = 100
+>>v uiScaleMode = ScaleWithScreenSize
+>>v referencePixelsPerUnit = 100
+>>v scaleFactor = 1
+>>v referenceResolution = (1920.0, 1080.0)
+>>v screenMatchMode = MatchWidthOrHeight
+>>v matchWidthOrHeight = 0
+>>v physicalUnit = Points
+>>v fallbackScreenDPI = 96
+>>v defaultSpriteDPI = 96
+>>v dynamicPixelsPerUnit = 1
+
+>> UnityEngine.UI.GraphicRaycaster
+>>v kNoEventMaskSet = -1
+>>v m_IgnoreReversedGraphics = True
+>>v m_BlockingObjects = None
+>>v m_BlockingMask = UnityEngine.LayerMask
+>>v m_Canvas = 
+>>v m_RaycastResults = System.Collections.Generic.List`1[UnityEngine.UI.Graphic]
+>>v s_SortedGraphics = System.Collections.Generic.List`1[UnityEngine.UI.Graphic]
+>>v sortOrderPriority = 1000
+>>v renderOrderPriority = 5
+>>v ignoreReversedGraphics = True
+>>v blockingObjects = None
+>>v eventCamera = 
+
+>>GameObject Children 0 SafeArea
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.CanvasRenderer
+>>>v <isMask>k__BackingField = False
+>>>v hasPopInstruction = False
+>>>v materialCount = 0
+>>>v popMaterialCount = 0
+>>>v absoluteDepth = -1
+>>>v hasMoved = False
+>>>v cullTransparentMesh = True
+>>>v hasRectClipping = False
+>>>v relativeDepth = -1
+>>>v cull = False
+>>>v isMask = False
+>>>v clippingSoftness = (0.0, 0.0)
+
+>>> UnityEngine.UI.Image
+>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v m_Sprite = Background (UnityEngine.Sprite)
+>>>v m_OverrideSprite = 
+>>>v m_Type = Sliced
+>>>v m_PreserveAspect = False
+>>>v m_FillCenter = True
+>>>v m_FillMethod = Radial360
+>>>v m_FillAmount = 1
+>>>v m_FillClockwise = True
+>>>v m_FillOrigin = 0
+>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>v m_Tracked = False
+>>>v m_UseSpriteMesh = False
+>>>v m_PixelsPerUnitMultiplier = 1
+>>>v m_CachedReferencePixelsPerUnit = 100
+>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>v s_Xy = UnityEngine.Vector3[]
+>>>v s_Uv = UnityEngine.Vector3[]
+>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>v s_Initialized = False
+>>>v sprite = Background (UnityEngine.Sprite)
+>>>v overrideSprite = Background (UnityEngine.Sprite)
+>>>v type = Sliced
+>>>v preserveAspect = False
+>>>v fillCenter = True
+>>>v fillMethod = Radial360
+>>>v fillAmount = 1
+>>>v fillClockwise = True
+>>>v fillOrigin = 0
+>>>v eventAlphaThreshold = 1
+>>>v alphaHitTestMinimumThreshold = 0
+>>>v useSpriteMesh = False
+>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>v mainTexture = Background (UnityEngine.Texture2D)
+>>>v hasBorder = True
+>>>v pixelsPerUnitMultiplier = 1
+>>>v pixelsPerUnit = 2
+>>>v material = Default UI Material (UnityEngine.Material)
+>>>v minWidth = 0
+>>>v preferredWidth = 10
+>>>v flexibleWidth = -1
+>>>v minHeight = 0
+>>>v preferredHeight = 10
+>>>v flexibleHeight = -1
+>>>v layoutPriority = 0
+
+>>>GameObject Children 0 SaveIcon
+
+>>>> transform = p: (-32.0, 32.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.CanvasRenderer
+>>>>v <isMask>k__BackingField = False
+>>>>v hasPopInstruction = False
+>>>>v materialCount = 0
+>>>>v popMaterialCount = 0
+>>>>v absoluteDepth = -1
+>>>>v hasMoved = False
+>>>>v cullTransparentMesh = True
+>>>>v hasRectClipping = False
+>>>>v relativeDepth = -1
+>>>>v cull = False
+>>>>v isMask = False
+>>>>v clippingSoftness = (0.0, 0.0)
+
+>>>> UnityEngine.UI.Image
+>>>>v s_ETC1DefaultUI = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>v m_Sprite = icon-invert (UnityEngine.Sprite)
+>>>>v m_OverrideSprite = 
+>>>>v m_Type = Simple
+>>>>v m_PreserveAspect = False
+>>>>v m_FillCenter = True
+>>>>v m_FillMethod = Radial360
+>>>>v m_FillAmount = 1
+>>>>v m_FillClockwise = True
+>>>>v m_FillOrigin = 0
+>>>>v m_AlphaHitTestMinimumThreshold = 0
+>>>>v m_Tracked = False
+>>>>v m_UseSpriteMesh = False
+>>>>v m_PixelsPerUnitMultiplier = 1
+>>>>v m_CachedReferencePixelsPerUnit = 100
+>>>>v s_VertScratch = UnityEngine.Vector2[]
+>>>>v s_UVScratch = UnityEngine.Vector2[]
+>>>>v s_Xy = UnityEngine.Vector3[]
+>>>>v s_Uv = UnityEngine.Vector3[]
+>>>>v m_TrackedTexturelessImages = System.Collections.Generic.List`1[UnityEngine.UI.Image]
+>>>>v s_Initialized = False
+>>>>v sprite = icon-invert (UnityEngine.Sprite)
+>>>>v overrideSprite = icon-invert (UnityEngine.Sprite)
+>>>>v type = Simple
+>>>>v preserveAspect = False
+>>>>v fillCenter = True
+>>>>v fillMethod = Radial360
+>>>>v fillAmount = 1
+>>>>v fillClockwise = True
+>>>>v fillOrigin = 0
+>>>>v eventAlphaThreshold = 1
+>>>>v alphaHitTestMinimumThreshold = 0
+>>>>v useSpriteMesh = False
+>>>>v defaultETC1GraphicMaterial = ETC1 Supported UI Material (UnityEngine.Material)
+>>>>v mainTexture = SpriteAtlasTexture-RewiredControlMapper-512x256-fmt12 (UnityEngine.Texture2D)
+>>>>v hasBorder = False
+>>>>v pixelsPerUnitMultiplier = 1
+>>>>v pixelsPerUnit = 1
+>>>>v material = Default UI Material (UnityEngine.Material)
+>>>>v minWidth = 0
+>>>>v preferredWidth = 64
+>>>>v flexibleWidth = -1
+>>>>v minHeight = 0
+>>>>v preferredHeight = 64
+>>>>v flexibleHeight = -1
+>>>>v layoutPriority = 0

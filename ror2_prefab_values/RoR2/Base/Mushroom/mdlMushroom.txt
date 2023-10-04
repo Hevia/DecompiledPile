@@ -1,0 +1,89 @@
+Key Path : RoR2/Base/Mushroom/mdlMushroom.fbx | UnityObject Type : UnityEngine.GameObject | UnityObject Name : mdlMushroom
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> UnityEngine.Animator
+>v isOptimizable = True
+>v isHuman = False
+>v hasRootMotion = False
+>v humanScale = 1
+>v isInitialized = False
+>v deltaPosition = (0.0, 0.0, 0.0)
+>v deltaRotation = (0.0, 0.0, 0.0, 1.0)
+>v velocity = (0.0, 0.0, 0.0)
+>v angularVelocity = (0.0, 0.0, 0.0)
+>v rootPosition = (0.0, 0.0, 0.0)
+>v rootRotation = (0.0, 0.0, 0.0, 1.0)
+>v applyRootMotion = False
+>v linearVelocityBlending = False
+>v animatePhysics = False
+>v updateMode = Normal
+>v hasTransformHierarchy = True
+>v gravityWeight = 0
+>v bodyPosition = (0.0, 0.0, 0.0)
+>v bodyRotation = (0.0, 0.0, 34442280000000.0, 0.0)
+>v stabilizeFeet = False
+>v layerCount = 0
+>v parameters = UnityEngine.AnimatorControllerParameter[]
+>v parameterCount = 0
+>v feetPivotActive = 0
+>v pivotWeight = 0
+>v pivotPosition = (0.0, 0.0, 0.0)
+>v isMatchingTarget = False
+>v speed = 1
+>v targetPosition = (0.0, 0.0, 0.0)
+>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>v cullingMode = CullUpdateTransforms
+>v playbackTime = -1
+>v recorderStartTime = -1
+>v recorderStopTime = -1
+>v recorderMode = Offline
+>v runtimeAnimatorController = 
+>v hasBoundPlayables = False
+>v avatar = mdlMushroomAvatar (UnityEngine.Avatar)
+>v playableGraph = UnityEngine.Playables.PlayableGraph
+>v layersAffectMassCenter = False
+>v leftFeetBottomHeight = 0
+>v rightFeetBottomHeight = 0
+>v logWarnings = True
+>v fireEvents = True
+>v keepAnimatorControllerStateOnDisable = False
+
+>GameObject Children 0 Armature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 MushBone1
+
+>>> transform = p: (0.4, 0.0, 0.0) r: (5.8, 5.9, 332.7) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 MushBone1_end
+
+>>>> transform = p: (0.0, 1.8, 0.0) r: (5.8, 5.9, 332.7) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 MushBone2
+
+>>> transform = p: (-0.5, 0.0, 0.0) r: (358.2, 355.6, 16.7) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 MushBone2_end
+
+>>>> transform = p: (0.0, 2.7, 0.0) r: (358.2, 355.6, 16.7) s: (1.0, 1.0, 1.0)
+>>GameObject Children 2 MushBone3
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (11.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 MushBone3_end
+
+>>>> transform = p: (0.0, 3.2, 0.0) r: (11.6, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 3 MushBone4
+
+>>> transform = p: (0.0, 0.3, 0.0) r: (338.5, 349.9, 358.3) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 MushBone4_end
+
+>>>> transform = p: (0.0, 2.8, 0.0) r: (338.5, 349.9, 358.3) s: (1.0, 1.0, 1.0)
+>GameObject Children 1 MushroomMesh
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 235.0, 0.0) s: (0.8, 0.8, 0.8)
+>> UnityEngine.SkinnedMeshRenderer
+>>v quality = Auto
+>>v updateWhenOffscreen = False
+>>v forceMatrixRecalculationPerRender = False
+>>v rootBone = MushBone1 (UnityEngine.Transform)
+>>v bones = UnityEngine.Transform[]
+>>v sharedMesh = MushroomMesh (UnityEngine.Mesh)
+>>v skinnedMotionVectors = True
+>>v localBounds = Center: (-1.3, 1.0, -0.5), Extents: (2.1, 2.2, 2.0)

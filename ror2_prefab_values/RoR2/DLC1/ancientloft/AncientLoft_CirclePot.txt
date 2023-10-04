@@ -1,0 +1,70 @@
+Key Path : RoR2/DLC1/ancientloft/AncientLoft_CirclePot.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : AncientLoft_CirclePot
+
+> transform = p: (4.7, 2.4, 0.8) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 AncientLoft_CirclePot
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = CirclePot (UnityEngine.Mesh)
+>>v mesh = CirclePot Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.MeshCollider
+>>v sharedMesh = CirclePot (UnityEngine.Mesh)
+>>v convex = True
+>>v inflateMesh = False
+>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>v skinWidth = 0
+>>v smoothSphereCollisions = True
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdStone (RoR2.SurfaceDef)
+
+>> RoR2.ObjectTransformCurve
+>>v useRotationCurves = False
+>>v useTranslationCurves = True
+>>v loop = True
+>>v randomizeInitialTime = False
+>>v rotationCurveX = UnityEngine.AnimationCurve
+>>v rotationCurveY = UnityEngine.AnimationCurve
+>>v rotationCurveZ = UnityEngine.AnimationCurve
+>>v translationCurveX = UnityEngine.AnimationCurve
+>>v translationCurveY = UnityEngine.AnimationCurve
+>>v translationCurveZ = UnityEngine.AnimationCurve
+>>v timeMax = 10
+>>v <time>k__BackingField = 0
+>>v <basePosition>k__BackingField = (0.0, 0.0, 0.0)
+>>v <baseRotation>k__BackingField = (0.0, 0.0, 0.0, 0.0)
+>>v time = 0
+>>v basePosition = (0.0, 0.0, 0.0)
+>>v baseRotation = (0.0, 0.0, 0.0, 0.0)
+
+>>GameObject Children 0 spmBonsai1V1
+
+>>> transform = p: (0.3, 0.4, 1.8) r: (0.0, 0.0, 0.0) s: (0.5, 0.3, 0.5)
+>>> UnityEngine.LODGroup
+>>>v localReferencePoint = (0.6, 7.2, 0.6)
+>>>v size = 14,62662
+>>>v lodCount = 1
+>>>v fadeMode = SpeedTree
+>>>v animateCrossFading = True
+>>>v enabled = True
+>>>v crossFadeAnimationDuration = 0,5
+
+>>>GameObject Children 0 spmBonsai1V1_LOD0
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = spmBonsai1V1_LOD0 (UnityEngine.Mesh)
+>>>>v mesh = spmBonsai1V1_LOD0 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.Tree
+>>>>v data = 
+>>>>v hasSpeedTreeWind = True

@@ -1,0 +1,1773 @@
+Key Path : RoR2/Base/Common/DefaultLobbyBackground.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DefaultLobbyBackground
+
+> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 0 Title Fog, Plane
+
+>> transform = p: (-3.2, 0.1, 9.6) r: (90.0, 0.0, 0.0) s: (21.8, 21.8, 21.8)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = Quad (UnityEngine.Mesh)
+>>v mesh = Quad Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>GameObject Children 1 HumanCrate1Mesh
+
+>> transform = p: (8.1, 1.1, 16.0) r: (270.0, 0.0, 0.0) s: (0.6, 0.6, 0.6)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = HumanCrate1Mesh (UnityEngine.Mesh)
+>>v mesh = HumanCrate1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.BoxCollider
+>>v center = (0.0, 0.0, 0.1)
+>>v size = (4.1, 10.6, 4.1)
+>>v extents = (2.1, 5.3, 2.0)
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>GameObject Children 2 HumanCanister1Mesh
+
+>> transform = p: (7.5, 0.4, 5.9) r: (270.0, 315.0, 0.0) s: (0.3, 0.3, 0.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = HumanCanister1Mesh (UnityEngine.Mesh)
+>>v mesh = HumanCanister1Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>>GameObject Children 0 Collision
+
+>>> transform = p: (0.0, 0.0, 0.4) r: (0.0, 315.0, 0.0) s: (3.0, 2.0, 3.0)
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>GameObject Children 3 HumanCrate2Mesh
+
+>> transform = p: (7.9, 0.6, 11.1) r: (270.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>> UnityEngine.MeshFilter
+>>v sharedMesh = HumanCrate2Mesh (UnityEngine.Mesh)
+>>v mesh = HumanCrate2Mesh Instance (UnityEngine.Mesh)
+
+>> UnityEngine.MeshRenderer
+>>v additionalVertexStreams = 
+>>v subMeshStartIndex = 0
+
+>> UnityEngine.BoxCollider
+>>v center = (0.0, 0.0, 0.0)
+>>v size = (6.1, 7.9, 4.7)
+>>v extents = (3.0, 3.9, 2.3)
+
+>> RoR2.SurfaceDefProvider
+>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>GameObject Children 4 Directional Light
+
+>> transform = p: (0.0, 6.1, 0.0) r: (53.3, 49.5, 104.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Light
+>>v m_BakedIndex = 0
+>>v type = Directional
+>>v shape = Cone
+>>v spotAngle = 30
+>>v innerSpotAngle = 21,80208
+>>v color = RGBA(0.981, 0.356, 0.356, 1.000)
+>>v colorTemperature = 6570
+>>v useColorTemperature = False
+>>v intensity = 1
+>>v bounceIntensity = 1
+>>v useBoundingSphereOverride = False
+>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>v shadowCustomResolution = -1
+>>v shadowBias = 0,05
+>>v shadowNormalBias = 0,4
+>>v shadowNearPlane = 0,2
+>>v useShadowMatrixOverride = False
+>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>v range = 10
+>>v flare = 
+>>v bakingOutput = UnityEngine.LightBakingOutput
+>>v cullingMask = -1
+>>v renderingLayerMask = 1
+>>v lightShadowCasterMode = Default
+>>v shadows = Soft
+>>v shadowStrength = 1
+>>v shadowResolution = FromQualitySettings
+>>v shadowSoftness = 4
+>>v shadowSoftnessFade = 1
+>>v layerShadowCullDistances = System.Single[]
+>>v cookieSize = 10
+>>v cookie = 
+>>v renderMode = Auto
+>>v bakedIndex = 0
+>>v commandBufferCount = 0
+>>v pixelLightCount = 4
+>>v shadowConstantBias = 0
+>>v shadowObjectSizeBias = 0
+>>v attenuate = True
+
+>> LightIntensityCurve
+>>v curve = UnityEngine.AnimationCurve
+>>v timeMax = 2
+>>v time = 0
+>>v light = 
+>>v maxIntensity = 0
+>>v loop = True
+>>v randomStart = False
+>>v enableNegativeLights = False
+
+>> LightIntensityCurve
+>>v curve = UnityEngine.AnimationCurve
+>>v timeMax = 4
+>>v time = 0
+>>v light = 
+>>v maxIntensity = 0
+>>v loop = False
+>>v randomStart = False
+>>v enableNegativeLights = False
+
+>> RoR2.FlickerLight
+>>v light = Directional Light (UnityEngine.Light)
+>>v sinWaves = Wave[]
+>>v initialLightIntensity = 0
+>>v stopwatch = 0
+>>v randomPhase = 0
+
+>> NGSS_Directional
+>>v NGSS_KEEP_ONDISABLE = True
+>>v NGSS_NO_UPDATE_ON_PLAY = False
+>>v NGSS_SHADOWS_RESOLUTION = UseQualitySettings
+>>v NGSS_SAMPLING_TEST = 4
+>>v NGSS_SAMPLING_FILTER = 8
+>>v NGSS_SAMPLING_DISTANCE = 75
+>>v NGSS_SHADOWS_SOFTNESS = 1
+>>v NGSS_PCSS_ENABLED = False
+>>v NGSS_PCSS_SOFTNESS_NEAR = 0,125
+>>v NGSS_PCSS_SOFTNESS_FAR = 1
+>>v NGSS_NOISE_TO_DITHERING_SCALE = 0
+>>v NGSS_NOISE_TEXTURE = BlueNoise_R8_8 (UnityEngine.Texture2D)
+>>v NGSS_DENOISER_ENABLED = True
+>>v NGSS_DENOISER_ITERATIONS = 2
+>>v NGSS_DENOISER_BLUR = 0,25
+>>v NGSS_DENOISER_EDGE_TOLERANCE = 0,5
+>>v NGSS_RECEIVER_PLANE_BIAS = False
+>>v NGSS_CASCADES_BLENDING = True
+>>v NGSS_CASCADES_BLENDING_VALUE = 1
+>>v NGSS_CASCADES_SOFTNESS_NORMALIZATION = 1
+>>v isSetup = False
+>>v isInitialized = False
+>>v isGraphicSet = False
+>>v _DirLight = 
+
+>GameObject Children 5 HANDTeaser
+
+>> transform = p: (-1.6, 0.0, 20.8) r: (0.0, 180.0, 0.0) s: (0.2, 0.2, 0.2)
+>>GameObject Children 0 BezierCircle
+
+>>> transform = p: (15.4, 12.6, 0.3) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = BezierCircle (UnityEngine.Mesh)
+>>>v mesh = BezierCircle (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 1 HAN-DMesh
+
+>>> transform = p: (0.0, 8.8, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = Base (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = HAN-DMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (-0.2, 2.5, 1.0), Extents: (6.1, 4.7, 6.5)
+
+>>GameObject Children 2 HANDArmature
+
+>>> transform = p: (0.0, 8.8, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 armIKPole.l
+
+>>>> transform = p: (-2.2, 9.1, -2.8) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 armIKPole.l_end
+
+>>>>> transform = p: (0.0, 1.5, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 armIKPole.r
+
+>>>> transform = p: (2.0, 9.0, -2.8) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 armIKPole.r_end
+
+>>>>> transform = p: (0.0, 1.5, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 2 Base
+
+>>>> transform = p: (0.0, 1.5, -3.4) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 Chest
+
+>>>>> transform = p: (0.0, 1.5, 0.0) r: (4.4, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 neck1
+
+>>>>>> transform = p: (0.0, 3.2, 0.0) r: (4.4, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 neck2
+
+>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (4.4, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 neck3
+
+>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (38.7, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 neck4
+
+>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (61.6, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 head
+
+>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 Antenna1
+
+>>>>>>>>>>> transform = p: (0.8, 1.4, -2.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Antenna1_end
+
+>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 Antenna2
+
+>>>>>>>>>>> transform = p: (-0.4, 1.4, -2.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Antenna2_end
+
+>>>>>>>>>>>> transform = p: (0.0, 1.4, 0.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 Antenna3
+
+>>>>>>>>>>> transform = p: (-0.7, 1.4, -2.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Antenna3_end
+
+>>>>>>>>>>>> transform = p: (0.0, 2.0, 0.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 3 Hat1
+
+>>>>>>>>>>> transform = p: (-0.7, 1.5, 0.4) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 Hat2
+
+>>>>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 Hat2_end
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 4 Delay
+
+>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>> RoR2.EventFunctions
+
+>>>>>>>>>>> RoR2.EntityLogic.DelayedEvent
+>>>>>>>>>>>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+>>>>>>>>>>>v timeStepType = FixedTime
+
+>>>>>>>>>>> RoR2.AwakeEvent
+>>>>>>>>>>>v action = UnityEngine.Events.UnityEvent UnityEngine.Events.UnityEvent
+
+>>>>>>>>>>GameObject Children 5 MorseCode
+
+>>>>>>>>>>> transform = p: (0.0, 0.0, 0.0) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>> RoR2.MorsecodeFlasher
+>>>>>>>>>>>v alphabet = System.String[]
+>>>>>>>>>>>v morsecodeMessage = z z z
+>>>>>>>>>>>v spaceDelay = 1
+>>>>>>>>>>>v delayBetweenCharacters = 0,3
+>>>>>>>>>>>v dotDuration = 0,1
+>>>>>>>>>>>v dashDuration = 0,5
+>>>>>>>>>>>v messageRepeatDelay = 120
+>>>>>>>>>>>v flashRootObject = PointLight (UnityEngine.GameObject)
+>>>>>>>>>>>v age = 0
+
+>>>>>>>>>>>GameObject Children 0 PointLight
+
+>>>>>>>>>>>> transform = p: (0.0, 0.8, 3.1) r: (26.1, 182.8, 14.6) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>> UnityEngine.Light
+>>>>>>>>>>>>v m_BakedIndex = 0
+>>>>>>>>>>>>v type = Point
+>>>>>>>>>>>>v shape = Cone
+>>>>>>>>>>>>v spotAngle = 30
+>>>>>>>>>>>>v innerSpotAngle = 21,80208
+>>>>>>>>>>>>v color = RGBA(1.000, 0.000, 0.000, 1.000)
+>>>>>>>>>>>>v colorTemperature = 6570
+>>>>>>>>>>>>v useColorTemperature = False
+>>>>>>>>>>>>v intensity = 5
+>>>>>>>>>>>>v bounceIntensity = 1
+>>>>>>>>>>>>v useBoundingSphereOverride = False
+>>>>>>>>>>>>v boundingSphereOverride = (0.0, 0.0, 0.0, 0.0)
+>>>>>>>>>>>>v shadowCustomResolution = -1
+>>>>>>>>>>>>v shadowBias = 0,05
+>>>>>>>>>>>>v shadowNormalBias = 0,4
+>>>>>>>>>>>>v shadowNearPlane = 0,2
+>>>>>>>>>>>>v useShadowMatrixOverride = False
+>>>>>>>>>>>>v shadowMatrixOverride = 1.00000	0.00000	0.00000	0.00000
+0.00000	1.00000	0.00000	0.00000
+0.00000	0.00000	1.00000	0.00000
+0.00000	0.00000	0.00000	1.00000
+
+>>>>>>>>>>>>v range = 2
+>>>>>>>>>>>>v flare = 
+>>>>>>>>>>>>v bakingOutput = UnityEngine.LightBakingOutput
+>>>>>>>>>>>>v cullingMask = -1
+>>>>>>>>>>>>v renderingLayerMask = 1
+>>>>>>>>>>>>v lightShadowCasterMode = Default
+>>>>>>>>>>>>v shadows = None
+>>>>>>>>>>>>v shadowStrength = 1
+>>>>>>>>>>>>v shadowResolution = FromQualitySettings
+>>>>>>>>>>>>v shadowSoftness = 4
+>>>>>>>>>>>>v shadowSoftnessFade = 1
+>>>>>>>>>>>>v layerShadowCullDistances = System.Single[]
+>>>>>>>>>>>>v cookieSize = 10
+>>>>>>>>>>>>v cookie = 
+>>>>>>>>>>>>v renderMode = Auto
+>>>>>>>>>>>>v bakedIndex = 0
+>>>>>>>>>>>>v commandBufferCount = 0
+>>>>>>>>>>>>v pixelLightCount = 4
+>>>>>>>>>>>>v shadowConstantBias = 0
+>>>>>>>>>>>>v shadowObjectSizeBias = 0
+>>>>>>>>>>>>v attenuate = True
+
+>>>>>GameObject Children 1 shoulder1.l
+
+>>>>>> transform = p: (-2.5, 2.0, 0.0) r: (4.4, 180.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 shoulder2.l
+
+>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (278.9, 180.0, 90.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 upper_arm.l
+
+>>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (337.0, 357.6, 192.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 lower_arm.l
+
+>>>>>>>>> transform = p: (0.0, 3.0, 0.0) r: (341.2, 186.5, 167.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 wrist.l
+
+>>>>>>>>>> transform = p: (0.0, 2.2, 0.0) r: (341.2, 186.5, 167.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger1.l.1
+
+>>>>>>>>>>> transform = p: (0.4, 1.8, 0.3) r: (18.7, 6.5, 207.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1.l.2
+
+>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (16.6, 102.4, 199.7) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1.l.3
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (68.2, 155.4, 240.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger1IK.l
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (341.0, 188.8, 4.8) s: (3.4, 3.4, 3.4)
+>>>>>>>>>>>>>>GameObject Children 0 finger1IK.l_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (341.0, 188.8, 4.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 finger2.l.1
+
+>>>>>>>>>>> transform = p: (0.4, 1.8, -0.4) r: (18.8, 6.5, 208.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2.l.2
+
+>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (12.2, 100.7, 199.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger2.l.3
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (64.5, 141.9, 228.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger2IK.l
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (357.2, 277.5, 341.2) s: (3.5, 3.5, 3.5)
+>>>>>>>>>>>>>>GameObject Children 0 finger2IK.l_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (357.2, 277.5, 341.2) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 thumb.l.1
+
+>>>>>>>>>>> transform = p: (-0.4, 1.7, 0.1) r: (18.8, 6.5, 168.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumb.l.2
+
+>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (302.9, 64.8, 216.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 thumbIK.l
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (18.8, 6.5, 13.6) s: (6.9, 6.9, 6.9)
+>>>>>>>>>>>>>GameObject Children 0 thumbIK.l_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (18.8, 6.5, 13.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 2 shoulder1.r
+
+>>>>>> transform = p: (2.5, 2.0, 0.0) r: (4.4, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 shoulder2.r
+
+>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (274.4, 180.0, 270.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 upper_arm.r
+
+>>>>>>>> transform = p: (0.0, 1.0, 0.0) r: (327.1, 21.2, 163.4) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 lower_arm.r
+
+>>>>>>>>> transform = p: (0.0, 3.0, 0.0) r: (325.1, 183.8, 193.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>GameObject Children 0 wrist.r
+
+>>>>>>>>>> transform = p: (0.0, 2.2, 0.0) r: (325.1, 183.8, 193.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 0 finger1.r.1
+
+>>>>>>>>>>> transform = p: (-0.4, 1.8, 0.3) r: (34.9, 3.8, 145.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger1.r.2
+
+>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (4.9, 97.2, 215.1) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger1.r.3
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (319.7, 57.3, 228.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger1IK.r
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (327.6, 171.7, 17.3) s: (3.7, 3.7, 3.7)
+>>>>>>>>>>>>>>GameObject Children 0 finger1IK.r_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (327.6, 171.7, 17.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 1 finger2.r.1
+
+>>>>>>>>>>> transform = p: (-0.4, 1.8, -0.4) r: (34.9, 3.8, 148.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 finger2.r.2
+
+>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (358.5, 92.8, 214.9) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 finger2.r.3
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.6, 0.0) r: (314.8, 49.2, 234.3) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>>GameObject Children 0 finger2IK.r
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.3, 0.0) r: (356.1, 276.5, 325.0) s: (3.7, 3.7, 3.7)
+>>>>>>>>>>>>>>GameObject Children 0 finger2IK.r_end
+
+>>>>>>>>>>>>>>> transform = p: (0.0, 0.4, 0.0) r: (356.1, 276.5, 325.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>GameObject Children 2 thumb.r.1
+
+>>>>>>>>>>> transform = p: (0.4, 1.7, 0.1) r: (34.9, 3.8, 181.8) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>GameObject Children 0 thumb.r.2
+
+>>>>>>>>>>>> transform = p: (0.0, 0.8, 0.0) r: (305.2, 355.9, 96.5) s: (1.0, 1.0, 1.0)
+>>>>>>>>>>>>GameObject Children 0 thumbIK.r
+
+>>>>>>>>>>>>> transform = p: (0.0, 0.5, 0.0) r: (21.9, 110.1, 38.1) s: (6.4, 6.4, 6.4)
+>>>>>>>>>>>>>GameObject Children 0 thumbIK.r_end
+
+>>>>>>>>>>>>>> transform = p: (0.0, 0.2, 0.0) r: (21.9, 110.1, 38.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 3 shoulderIKtarget.l
+
+>>>>>> transform = p: (-4.0, 2.0, 0.0) r: (274.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 shoulderIKtarget.l_end
+
+>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (274.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 4 shoulderIKtarget.r
+
+>>>>>> transform = p: (4.0, 2.0, 0.0) r: (274.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 shoulderIKtarget.r_end
+
+>>>>>>> transform = p: (0.0, 1.1, 0.0) r: (274.4, 180.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 hip
+
+>>>>> transform = p: (0.0, 1.5, 0.0) r: (24.3, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 thigh.l
+
+>>>>>> transform = p: (-2.6, 1.2, 0.0) r: (328.2, 358.5, 187.9) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 calf.l
+
+>>>>>>> transform = p: (0.0, 3.3, 0.0) r: (292.3, 199.2, 162.1) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 foot.l
+
+>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (0.0, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 foot.l_end
+
+>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (0.0, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 1 thigh.r
+
+>>>>>> transform = p: (2.6, 1.2, 0.0) r: (327.5, 2.4, 168.6) s: (1.0, 1.0, 1.0)
+>>>>>>GameObject Children 0 calf.r
+
+>>>>>>> transform = p: (0.0, 3.3, 0.0) r: (295.2, 155.2, 203.0) s: (1.0, 1.0, 1.0)
+>>>>>>>GameObject Children 0 foot.r
+
+>>>>>>>> transform = p: (0.0, 1.6, 0.0) r: (0.0, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>>>>GameObject Children 0 foot.r_end
+
+>>>>>>>>> transform = p: (0.0, 0.7, 0.0) r: (0.0, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 3 hammerBone
+
+>>>> transform = p: (4.2, 2.6, -7.6) r: (344.1, 270.0, 90.0) s: (0.0, 0.0, 0.0)
+>>>>GameObject Children 0 armIKTarget.l
+
+>>>>> transform = p: (-1.9, 12.1, 0.3) r: (344.1, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 armIKTarget.l_end
+
+>>>>>> transform = p: (0.0, 1.5, 0.0) r: (344.1, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 armIKTarget.r
+
+>>>>> transform = p: (0.9, 1.7, 1.2) r: (344.1, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 armIKTarget.r_end
+
+>>>>>> transform = p: (0.0, 1.5, 0.0) r: (344.1, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 HANDHammerMesh
+
+>>>>> transform = p: (0.0, 0.8, 0.0) r: (359.7, 0.3, 44.4) s: (1.0, 1.0, 1.0)
+>>>>> UnityEngine.MeshFilter
+>>>>>v sharedMesh = HANDHammerMesh (UnityEngine.Mesh)
+>>>>>v mesh = HANDHammerMesh Instance (UnityEngine.Mesh)
+
+>>>>> UnityEngine.MeshRenderer
+>>>>>v additionalVertexStreams = 
+>>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 4 headIKTarget
+
+>>>> transform = p: (0.0, -0.5, 0.9) r: (0.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 headIKPole
+
+>>>>> transform = p: (3.8, -0.7, 0.0) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 headIKPole_end
+
+>>>>>> transform = p: (0.0, 0.5, 0.0) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 5 legIKTarget.l
+
+>>>> transform = p: (-3.0, -0.2, -7.8) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 legIKPole.l
+
+>>>>> transform = p: (0.0, 7.8, 3.1) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legIKPole.l_end
+
+>>>>>> transform = p: (0.0, 1.2, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 6 legIKTarget.r
+
+>>>> transform = p: (3.2, -0.2, -7.8) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 legIKPole.r
+
+>>>>> transform = p: (0.0, 7.8, 3.1) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 legIKPole.r_end
+
+>>>>>> transform = p: (0.0, 1.2, 0.0) r: (270.0, 180.0, 0.0) s: (1.0, 1.0, 1.0)
+>GameObject Children 6 MeshProps
+
+>> transform = p: (-61.0, -3.4, 95.9) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 Ground Cluster
+
+>>> transform = p: (61.0, 3.4, -65.7) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 Ground
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v mesh = HumanGrateGround Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>GameObject Children 1 Ground (1)
+
+>>>> transform = p: (10.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v mesh = HumanGrateGround Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>GameObject Children 2 Ground (2)
+
+>>>> transform = p: (0.0, 10.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v mesh = HumanGrateGround Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>GameObject Children 3 Ground (3)
+
+>>>> transform = p: (10.0, 10.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v mesh = HumanGrateGround Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>GameObject Children 4 Ground (4)
+
+>>>> transform = p: (0.0, 20.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v mesh = HumanGrateGround Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>GameObject Children 5 Ground (5)
+
+>>>> transform = p: (10.0, 20.0, 0.0) r: (270.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v mesh = HumanGrateGround Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = HumanGrateGround (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>GameObject Children 1 Back Wall
+
+>>> transform = p: (61.0, 3.4, -67.7) r: (270.0, 0.0, 0.0) s: (10.0, 1.0, 10.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>v mesh = Plane Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 2 Ceiling
+
+>>> transform = p: (61.0, 10.4, -95.9) r: (0.0, 0.0, 180.0) s: (10.0, 1.0, 10.0)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>v mesh = Plane Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = Plane (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 3 HumanCrate2Mesh (1)
+
+>>> transform = p: (65.7, 4.0, -79.6) r: (270.0, 333.8, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCrate2Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCrate2Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v size = (6.1, 7.9, 4.7)
+>>>v extents = (3.0, 3.9, 2.3)
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 4 HumanCrate2Mesh (2)
+
+>>> transform = p: (68.9, 4.0, -87.9) r: (270.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCrate2Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCrate2Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v size = (6.1, 7.9, 4.7)
+>>>v extents = (3.0, 3.9, 2.3)
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 5 HumanCanister1Mesh (1)
+
+>>> transform = p: (67.6, 3.8, -89.5) r: (0.0, 9.0, 315.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCanister1Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCanister1Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 0 Collision
+
+>>>> transform = p: (0.0, 0.0, 0.4) r: (45.0, 279.0, 270.0) s: (3.0, 2.0, 3.0)
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 6 HumanCanister1Mesh (2)
+
+>>> transform = p: (74.3, 3.8, -85.8) r: (270.0, 315.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCanister1Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCanister1Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 0 Collision
+
+>>>> transform = p: (0.0, 0.0, 0.4) r: (0.0, 315.0, 0.0) s: (3.0, 2.0, 3.0)
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 7 HumanCrate2Mesh (3)
+
+>>> transform = p: (68.9, 5.4, -84.8) r: (270.0, 0.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCrate2Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCrate2Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v size = (6.1, 7.9, 4.7)
+>>>v extents = (3.0, 3.9, 2.3)
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 8 ChainLinkCluster
+
+>>> transform = p: (64.0, 9.7, -83.5) r: (0.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 HumanChainLink1
+
+>>>> transform = p: (-7.6, -6.3, 2.9) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanChainLink1 (UnityEngine.Mesh)
+>>>>v mesh = HumanChainLink1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 3.5)
+>>>>v size = (6.4, 0.1, 7.3)
+>>>>v extents = (3.2, 0.1, 3.7)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 1 HumanChainLink1 (1)
+
+>>>> transform = p: (-1.6, -6.3, 2.9) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanChainLink1 (UnityEngine.Mesh)
+>>>>v mesh = HumanChainLink1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 3.5)
+>>>>v size = (6.4, 0.1, 7.3)
+>>>>v extents = (3.2, 0.1, 3.7)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 2 HumanChainLink1 (2)
+
+>>>> transform = p: (4.4, -6.3, 2.9) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanChainLink1 (UnityEngine.Mesh)
+>>>>v mesh = HumanChainLink1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 3.5)
+>>>>v size = (6.4, 0.1, 7.3)
+>>>>v extents = (3.2, 0.1, 3.7)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 3 HumanChainLink1 (3)
+
+>>>> transform = p: (10.4, -6.3, 2.9) r: (270.0, 90.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanChainLink1 (UnityEngine.Mesh)
+>>>>v mesh = HumanChainLink1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 3.5)
+>>>>v size = (6.4, 0.1, 7.3)
+>>>>v extents = (3.2, 0.1, 3.7)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 9 HumanCrate1Mesh (1)
+
+>>> transform = p: (65.1, 4.4, -75.5) r: (0.0, 210.0, 270.0) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCrate1Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCrate1Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 0.1)
+>>>v size = (4.1, 10.6, 4.1)
+>>>v extents = (2.1, 5.3, 2.0)
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = HumanCrate1Mesh (UnityEngine.Mesh)
+>>>v convex = False
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 10 HumanCanister1Mesh (3)
+
+>>> transform = p: (54.8, 3.8, -76.8) r: (270.0, 315.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCanister1Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCanister1Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 0 Collision
+
+>>>> transform = p: (0.0, 0.0, 0.4) r: (0.0, 315.0, 0.0) s: (3.0, 2.0, 3.0)
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 11 HumanCrate1Mesh (2)
+
+>>> transform = p: (54.5, 4.4, -71.1) r: (0.0, 195.0, 270.0) s: (0.6, 0.6, 0.6)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCrate1Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCrate1Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 0.1)
+>>>v size = (4.1, 10.6, 4.1)
+>>>v extents = (2.1, 5.3, 2.0)
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 12 spacecabin
+
+>>> transform = p: (39.5, 2.0, -70.1) r: (0.0, 178.7, 0.0) s: (2.3, 2.3, 2.3)
+>>>GameObject Children 0 CabinOverhead
+
+>>>> transform = p: (4.8, 1.9, 1.0) r: (270.0, 178.7, 0.0) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CabinOverhead (UnityEngine.Mesh)
+>>>>v mesh = CabinOverhead Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 CabinWall
+
+>>>> transform = p: (4.8, 1.9, 1.0) r: (270.0, 178.7, 0.0) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CabinWall (UnityEngine.Mesh)
+>>>>v mesh = CabinWall Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 CabinWall (1)
+
+>>>> transform = p: (-8.5, 1.9, 2.2) r: (270.0, 178.7, 0.0) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CabinWall (UnityEngine.Mesh)
+>>>>v mesh = CabinWall Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = CabinWall (UnityEngine.Mesh)
+>>>>v convex = False
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>GameObject Children 13 spacecabin (1)
+
+>>> transform = p: (49.4, 3.1, -93.9) r: (0.0, 88.7, 0.0) s: (2.3, 2.3, 2.3)
+>>>GameObject Children 0 CabinOverhead
+
+>>>> transform = p: (4.8, 1.9, 1.0) r: (270.0, 88.7, 0.0) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CabinOverhead (UnityEngine.Mesh)
+>>>>v mesh = CabinOverhead Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 1 CabinWall
+
+>>>> transform = p: (4.8, 1.9, 1.0) r: (270.0, 88.7, 0.0) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CabinWall (UnityEngine.Mesh)
+>>>>v mesh = CabinWall Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>GameObject Children 14 ChainLinkCluster (1)
+
+>>> transform = p: (48.4, 9.7, -83.5) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 HumanChainLink1
+
+>>>> transform = p: (-7.6, -6.3, 2.9) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanChainLink1 (UnityEngine.Mesh)
+>>>>v mesh = HumanChainLink1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 3.5)
+>>>>v size = (6.4, 0.1, 7.3)
+>>>>v extents = (3.2, 0.1, 3.7)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 1 HumanChainLink1 (1)
+
+>>>> transform = p: (-1.6, -6.3, 2.9) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanChainLink1 (UnityEngine.Mesh)
+>>>>v mesh = HumanChainLink1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 3.5)
+>>>>v size = (6.4, 0.1, 7.3)
+>>>>v extents = (3.2, 0.1, 3.7)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 2 HumanChainLink1 (2)
+
+>>>> transform = p: (4.4, -6.3, 2.9) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanChainLink1 (UnityEngine.Mesh)
+>>>>v mesh = HumanChainLink1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 3.5)
+>>>>v size = (6.4, 0.1, 7.3)
+>>>>v extents = (3.2, 0.1, 3.7)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>>GameObject Children 3 HumanChainLink1 (3)
+
+>>>> transform = p: (10.4, -6.3, 2.9) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = HumanChainLink1 (UnityEngine.Mesh)
+>>>>v mesh = HumanChainLink1 Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>> UnityEngine.BoxCollider
+>>>>v center = (0.0, 0.0, 3.5)
+>>>>v size = (6.4, 0.1, 7.3)
+>>>>v extents = (3.2, 0.1, 3.7)
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 15 PropAnchor
+
+>>> transform = p: (61.5, 3.3, -75.5) r: (270.0, 39.9, 0.0) s: (1.1, 1.1, 1.1)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = False
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.ConfigurableJoint
+>>>v secondaryAxis = (0.0, 1.0, 0.0)
+>>>v xMotion = Limited
+>>>v yMotion = Limited
+>>>v zMotion = Limited
+>>>v angularXMotion = Free
+>>>v angularYMotion = Free
+>>>v angularZMotion = Free
+>>>v linearLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v angularXLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v angularYZLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v linearLimit = UnityEngine.SoftJointLimit
+>>>v lowAngularXLimit = UnityEngine.SoftJointLimit
+>>>v highAngularXLimit = UnityEngine.SoftJointLimit
+>>>v angularYLimit = UnityEngine.SoftJointLimit
+>>>v angularZLimit = UnityEngine.SoftJointLimit
+>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>v targetVelocity = (0.0, 0.0, 0.0)
+>>>v xDrive = UnityEngine.JointDrive
+>>>v yDrive = UnityEngine.JointDrive
+>>>v zDrive = UnityEngine.JointDrive
+>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDriveMode = XYAndZ
+>>>v angularXDrive = UnityEngine.JointDrive
+>>>v angularYZDrive = UnityEngine.JointDrive
+>>>v slerpDrive = UnityEngine.JointDrive
+>>>v projectionMode = None
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+>>>v configuredInWorldSpace = False
+>>>v swapBodies = False
+
+>>GameObject Children 16 ExtinguisherMesh
+
+>>> transform = p: (61.5, 4.0, -75.5) r: (270.0, 39.9, 0.0) s: (1.1, 1.1, 1.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ExtinguisherMesh (UnityEngine.Mesh)
+>>>v mesh = ExtinguisherMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 10
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ExtinguisherMesh (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 17 FolderMesh
+
+>>> transform = p: (61.9, 3.4, -77.5) r: (270.0, 337.9, 0.0) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = FolderMesh.001 (UnityEngine.Mesh)
+>>>v mesh = FolderMesh.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 18 LaptopMesh (1)
+
+>>> transform = p: (68.2, 5.7, -78.7) r: (270.0, 225.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LaptopMesh (UnityEngine.Mesh)
+>>>v mesh = LaptopMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 2,3
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = LaptopMesh (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 19 ChairPropAnchor
+
+>>> transform = p: (66.0, 3.3, -81.9) r: (270.0, 39.9, 0.0) s: (1.1, 1.1, 1.1)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = False
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.ConfigurableJoint
+>>>v secondaryAxis = (0.0, 1.0, 0.0)
+>>>v xMotion = Limited
+>>>v yMotion = Limited
+>>>v zMotion = Limited
+>>>v angularXMotion = Free
+>>>v angularYMotion = Free
+>>>v angularZMotion = Free
+>>>v linearLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v angularXLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v angularYZLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v linearLimit = UnityEngine.SoftJointLimit
+>>>v lowAngularXLimit = UnityEngine.SoftJointLimit
+>>>v highAngularXLimit = UnityEngine.SoftJointLimit
+>>>v angularYLimit = UnityEngine.SoftJointLimit
+>>>v angularZLimit = UnityEngine.SoftJointLimit
+>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>v targetVelocity = (0.0, 0.0, 0.0)
+>>>v xDrive = UnityEngine.JointDrive
+>>>v yDrive = UnityEngine.JointDrive
+>>>v zDrive = UnityEngine.JointDrive
+>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDriveMode = XYAndZ
+>>>v angularXDrive = UnityEngine.JointDrive
+>>>v angularYZDrive = UnityEngine.JointDrive
+>>>v slerpDrive = UnityEngine.JointDrive
+>>>v projectionMode = None
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+>>>v configuredInWorldSpace = False
+>>>v swapBodies = False
+
+>>GameObject Children 20 ChairMesh
+
+>>> transform = p: (66.0, 4.5, -81.9) r: (270.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ChairMesh (UnityEngine.Mesh)
+>>>v mesh = ChairMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ChairMesh (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,01
+>>>v mass = 5
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>GameObject Children 21 ChairWeight
+
+>>> transform = p: (66.0, 3.5, -81.9) r: (270.0, 0.0, 0.0) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 10
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.FixedJoint
+
+>>GameObject Children 22 PropAnchor (1)
+
+>>> transform = p: (61.5, 3.3, -75.5) r: (270.0, 39.9, 0.0) s: (1.1, 1.1, 1.1)
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 1
+>>>v useGravity = False
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = True
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = None
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.ConfigurableJoint
+>>>v secondaryAxis = (0.0, 1.0, 0.0)
+>>>v xMotion = Limited
+>>>v yMotion = Limited
+>>>v zMotion = Limited
+>>>v angularXMotion = Free
+>>>v angularYMotion = Free
+>>>v angularZMotion = Free
+>>>v linearLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v angularXLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v angularYZLimitSpring = UnityEngine.SoftJointLimitSpring
+>>>v linearLimit = UnityEngine.SoftJointLimit
+>>>v lowAngularXLimit = UnityEngine.SoftJointLimit
+>>>v highAngularXLimit = UnityEngine.SoftJointLimit
+>>>v angularYLimit = UnityEngine.SoftJointLimit
+>>>v angularZLimit = UnityEngine.SoftJointLimit
+>>>v targetPosition = (0.0, 0.0, 0.0)
+>>>v targetVelocity = (0.0, 0.0, 0.0)
+>>>v xDrive = UnityEngine.JointDrive
+>>>v yDrive = UnityEngine.JointDrive
+>>>v zDrive = UnityEngine.JointDrive
+>>>v targetRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v targetAngularVelocity = (0.0, 0.0, 0.0)
+>>>v rotationDriveMode = XYAndZ
+>>>v angularXDrive = UnityEngine.JointDrive
+>>>v angularYZDrive = UnityEngine.JointDrive
+>>>v slerpDrive = UnityEngine.JointDrive
+>>>v projectionMode = None
+>>>v projectionDistance = 0,1
+>>>v projectionAngle = 180
+>>>v configuredInWorldSpace = False
+>>>v swapBodies = False
+
+>>GameObject Children 23 ExtinguisherMesh (1)
+
+>>> transform = p: (61.2, 4.0, -75.0) r: (270.0, 39.9, 0.0) s: (1.1, 1.1, 1.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ExtinguisherMesh (UnityEngine.Mesh)
+>>>v mesh = ExtinguisherMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 10
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ExtinguisherMesh (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 24 ExtinguisherMesh (2)
+
+>>> transform = p: (67.6, 4.0, -82.4) r: (270.0, 39.9, 0.0) s: (1.1, 1.1, 1.1)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = ExtinguisherMesh (UnityEngine.Mesh)
+>>>v mesh = ExtinguisherMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 10
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = ExtinguisherMesh (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 25 FolderMesh (1)
+
+>>> transform = p: (64.8, 3.5, -80.4) r: (334.6, 246.1, 90.7) s: (0.2, 0.2, 0.2)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = FolderMesh.001 (UnityEngine.Mesh)
+>>>v mesh = FolderMesh.001 Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>GameObject Children 26 LaptopMesh (2)
+
+>>> transform = p: (69.2, 5.7, -79.4) r: (270.0, 280.2, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = LaptopMesh (UnityEngine.Mesh)
+>>>v mesh = LaptopMesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.Rigidbody
+>>>v velocity = (0.0, 0.0, 0.0)
+>>>v angularVelocity = (0.0, 0.0, 0.0)
+>>>v drag = 0
+>>>v angularDrag = 0,05
+>>>v mass = 2,3
+>>>v useGravity = True
+>>>v maxDepenetrationVelocity = 1E+32
+>>>v isKinematic = False
+>>>v freezeRotation = False
+>>>v constraints = None
+>>>v collisionDetectionMode = Discrete
+>>>v centerOfMass = (0.0, 0.0, 0.0)
+>>>v worldCenterOfMass = (0.0, 0.0, 0.0)
+>>>v inertiaTensorRotation = (0.0, 0.0, 0.0, 1.0)
+>>>v inertiaTensor = (1.0, 1.0, 1.0)
+>>>v detectCollisions = True
+>>>v position = (0.0, 0.0, 0.0)
+>>>v rotation = (0.0, 0.0, 0.0, 1.0)
+>>>v interpolation = Interpolate
+>>>v solverIterations = 6
+>>>v sleepThreshold = 0,005
+>>>v maxAngularVelocity = 7
+>>>v solverVelocityIterations = 1
+>>>v sleepVelocity = 0
+>>>v sleepAngularVelocity = 0
+>>>v useConeFriction = False
+>>>v solverIterationCount = 6
+>>>v solverVelocityIterationCount = 1
+
+>>> UnityEngine.MeshCollider
+>>>v sharedMesh = LaptopMesh (UnityEngine.Mesh)
+>>>v convex = True
+>>>v inflateMesh = False
+>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>v skinWidth = 0
+>>>v smoothSphereCollisions = True
+
+>>GameObject Children 27 HumanCrate2Mesh (4)
+
+>>> transform = p: (56.4, 4.0, -89.5) r: (270.0, 180.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCrate2Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCrate2Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v size = (6.1, 7.9, 4.7)
+>>>v extents = (3.0, 3.9, 2.3)
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 28 HumanCrate2Mesh (5)
+
+>>> transform = p: (56.4, 5.4, -92.7) r: (270.0, 180.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCrate2Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCrate2Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v size = (6.1, 7.9, 4.7)
+>>>v extents = (3.0, 3.9, 2.3)
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 29 HumanCanister1Mesh (4)
+
+>>> transform = p: (56.8, 3.8, -87.5) r: (270.0, 135.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCanister1Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCanister1Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 0 Collision
+
+>>>> transform = p: (0.0, 0.0, 0.4) r: (0.0, 135.0, 0.0) s: (3.0, 2.0, 3.0)
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 30 HumanCrate2Mesh (6)
+
+>>> transform = p: (56.4, 4.0, -92.7) r: (270.0, 180.0, 0.0) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCrate2Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCrate2Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>> UnityEngine.BoxCollider
+>>>v center = (0.0, 0.0, 0.0)
+>>>v size = (6.1, 7.9, 4.7)
+>>>v extents = (3.0, 3.9, 2.3)
+
+>>> RoR2.SurfaceDefProvider
+>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>>GameObject Children 31 HumanCanister1Mesh (5)
+
+>>> transform = p: (57.8, 3.7, -93.4) r: (0.0, 0.0, 65.4) s: (0.3, 0.3, 0.3)
+>>> UnityEngine.MeshFilter
+>>>v sharedMesh = HumanCanister1Mesh (UnityEngine.Mesh)
+>>>v mesh = HumanCanister1Mesh Instance (UnityEngine.Mesh)
+
+>>> UnityEngine.MeshRenderer
+>>>v additionalVertexStreams = 
+>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 0 Collision
+
+>>>> transform = p: (0.0, 0.0, 0.4) r: (24.6, 90.0, 90.0) s: (3.0, 2.0, 3.0)
+>>>> UnityEngine.MeshCollider
+>>>>v sharedMesh = Cylinder (UnityEngine.Mesh)
+>>>>v convex = True
+>>>>v inflateMesh = False
+>>>>v cookingOptions = CookForFasterSimulation, EnableMeshCleaning, WeldColocatedVertices, UseFastMidphase
+>>>>v skinWidth = 0
+>>>>v smoothSphereCollisions = True
+
+>>>> RoR2.SurfaceDefProvider
+>>>>v surfaceDef = sdMetal (RoR2.SurfaceDef)
+
+>GameObject Children 7 PP
+
+>> transform = p: (21.8, -9.7, 53.5) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.Rendering.PostProcessing.PostProcessVolume
+>>v sharedProfile = ppLobby (UnityEngine.Rendering.PostProcessing.PostProcessProfile)
+>>v isGlobal = True
+>>v blendDistance = 0
+>>v weight = 1
+>>v priority = 0
+>>v m_PreviousLayer = 0
+>>v m_PreviousPriority = 0
+>>v m_TempColliders = 
+>>v m_InternalProfile = 
+>>v profile =  (UnityEngine.Rendering.PostProcessing.PostProcessProfile)

@@ -1,0 +1,80 @@
+Key Path : RoR2/Base/AttackSpeedOnCrit/DisplayWolfPelt.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayWolfPelt
+
+> transform = p: (105.5, -211.2, -186.8) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 mdlWolfPelt
+
+>> transform = p: (0.0, 0.1, 0.0) r: (0.0, 0.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 WolfPeltArmature
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 0.0, 0.0) s: (100.0, 100.0, 100.0)
+>>>GameObject Children 0 HatSnout1
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (311.7, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>> DynamicBone
+>>>>v m_Root = HatSnout1 (UnityEngine.Transform)
+>>>>v m_UpdateRate = 60
+>>>>v m_UpdateMode = Normal
+>>>>v m_Damping = 0,287
+>>>>v m_DampingDistrib = UnityEngine.AnimationCurve
+>>>>v m_Elasticity = 0,1
+>>>>v m_ElasticityDistrib = UnityEngine.AnimationCurve
+>>>>v m_Stiffness = 0,506
+>>>>v m_StiffnessDistrib = UnityEngine.AnimationCurve
+>>>>v m_Inert = 0
+>>>>v m_InertDistrib = UnityEngine.AnimationCurve
+>>>>v m_Radius = 0
+>>>>v m_RadiusDistrib = UnityEngine.AnimationCurve
+>>>>v m_EndLength = 0
+>>>>v m_EndOffset = (0.0, 0.0, 0.0)
+>>>>v m_Gravity = (0.0, 0.0, 0.0)
+>>>>v m_Force = (0.0, 0.0, 0.0)
+>>>>v m_Colliders = System.Collections.Generic.List`1[DynamicBoneCollider]
+>>>>v m_Exclusions = System.Collections.Generic.List`1[UnityEngine.Transform]
+>>>>v m_FreezeAxis = None
+>>>>v m_DistantDisable = False
+>>>>v m_ReferenceObject = 
+>>>>v m_DistanceToObject = 20
+>>>>v m_LocalGravity = (0.0, 0.0, 0.0)
+>>>>v m_ObjectMove = (0.0, 0.0, 0.0)
+>>>>v m_ObjectPrevPosition = (0.0, 0.0, 0.0)
+>>>>v m_BoneTotalLength = 0
+>>>>v m_ObjectScale = 1
+>>>>v m_Time = 0
+>>>>v m_Weight = 1
+>>>>v m_DistantDisabled = False
+>>>>v m_Particles = System.Collections.Generic.List`1[DynamicBone+Particle]
+
+>>>>GameObject Children 0 HatBone3.l
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 187.4) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 HatBone3.l_end
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 187.4) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 HatBone3.r
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 172.6) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 HatBone3.r_end
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 0.0, 172.6) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 HatSnout2
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (290.2, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 HatSnout2_end
+
+>>>>>> transform = p: (0.0, 0.0, 0.0) r: (290.2, 0.0, 180.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 1 WolfPeltMesh
+
+>>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 180.0, 0.0) s: (100.0, 100.0, 100.0)
+>>> UnityEngine.SkinnedMeshRenderer
+>>>v quality = Auto
+>>>v updateWhenOffscreen = False
+>>>v forceMatrixRecalculationPerRender = False
+>>>v rootBone = HatSnout1 (UnityEngine.Transform)
+>>>v bones = UnityEngine.Transform[]
+>>>v sharedMesh = WolfPeltMesh (UnityEngine.Mesh)
+>>>v skinnedMotionVectors = True
+>>>v localBounds = Center: (0.0, 0.0, 0.0), Extents: (0.0, 0.0, 0.0)

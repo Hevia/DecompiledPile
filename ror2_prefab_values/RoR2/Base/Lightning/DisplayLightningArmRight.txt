@@ -1,0 +1,225 @@
+Key Path : RoR2/Base/Lightning/DisplayLightningArmRight.prefab | UnityObject Type : UnityEngine.GameObject | UnityObject Name : DisplayLightningArmRight
+
+> transform = p: (-26.6, -213.3, -167.3) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+> RoR2.LimbMatcher
+>v scaleLimbs = False
+>v valid = False
+>v limbPairs = RoR2.LimbMatcher+LimbPair[]
+
+> RoR2.ItemDisplay
+>v rendererInfos = RoR2.CharacterModel+RendererInfo[]
+>v visibilityLevel = Visible
+
+>GameObject Children 0 LightningArmArmature
+
+>> transform = p: (0.0, 0.0, 0.0) r: (270.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>>GameObject Children 0 lightning_upper_arm
+
+>>> transform = p: (0.0, 0.4, 0.1) r: (283.0, 269.7, 181.3) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 0 lightning_lower_arm
+
+>>>> transform = p: (0.0, 0.5, 0.0) r: (356.5, 77.5, 90.8) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 0 lightning_hand
+
+>>>>> transform = p: (0.0, 0.4, 0.0) r: (277.7, 194.2, 333.1) s: (1.0, 1.0, 1.0)
+>>>>>GameObject Children 0 lightning_hand_end
+
+>>>>>> transform = p: (0.0, 0.2, 0.0) r: (277.7, 194.2, 333.1) s: (1.0, 1.0, 1.0)
+>>>GameObject Children 1 Sphere
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (283.0, 269.7, 181.3) s: (0.3, 0.3, 0.3)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 2 Sphere (1)
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (283.0, 269.7, 181.3) s: (0.4, 0.4, 0.4)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = Sphere (UnityEngine.Mesh)
+>>>>v mesh = Sphere Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>GameObject Children 3 mdlCapacitor
+
+>>>> transform = p: (0.0, 0.0, 0.0) r: (347.3, 355.8, 58.7) s: (0.2, 0.2, 0.2)
+>>>> UnityEngine.MeshFilter
+>>>>v sharedMesh = CapacitorMesh (UnityEngine.Mesh)
+>>>>v mesh = CapacitorMesh Instance (UnityEngine.Mesh)
+
+>>>> UnityEngine.MeshRenderer
+>>>>v additionalVertexStreams = 
+>>>>v subMeshStartIndex = 0
+
+>>>>GameObject Children 0 ProngEnd1
+
+>>>>> transform = p: (0.0, 0.0, 2.5) r: (347.3, 355.8, 58.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 1 ProngEnd2
+
+>>>>> transform = p: (1.9, 0.0, 1.5) r: (347.3, 355.8, 58.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 2 ProngEnd3
+
+>>>>> transform = p: (0.9, 1.8, 1.5) r: (347.3, 355.8, 58.7) s: (1.0, 1.0, 1.0)
+>>>>GameObject Children 3 PulseGlow
+
+>>>>> transform = p: (0.0, 0.0, 0.0) r: (347.3, 355.8, 58.7) s: (1.5, 1.5, 1.5)
+>>>>> UnityEngine.ParticleSystem
+>>>>>v startDelay = 0
+>>>>>v loop = True
+>>>>>v playOnAwake = True
+>>>>>v duration = 5
+>>>>>v playbackSpeed = 1
+>>>>>v enableEmission = True
+>>>>>v emissionRate = 3
+>>>>>v startSpeed = 0
+>>>>>v startSize = 6
+>>>>>v startColor = RGBA(0.046, 0.080, 0.198, 1.000)
+>>>>>v startRotation = 0
+>>>>>v startRotation3D = (0.0, 0.0, 0.0)
+>>>>>v startLifetime = 1
+>>>>>v gravityModifier = 0
+>>>>>v maxParticles = 3
+>>>>>v simulationSpace = Local
+>>>>>v scalingMode = Hierarchy
+>>>>>v automaticCullingEnabled = True
+>>>>>v isPlaying = False
+>>>>>v isEmitting = False
+>>>>>v isStopped = True
+>>>>>v isPaused = False
+>>>>>v particleCount = 0
+>>>>>v time = 0
+>>>>>v randomSeed = 0
+>>>>>v useAutoRandomSeed = True
+>>>>>v proceduralSimulationSupported = True
+>>>>>v main = UnityEngine.ParticleSystem+MainModule
+>>>>>v emission = UnityEngine.ParticleSystem+EmissionModule
+>>>>>v shape = UnityEngine.ParticleSystem+ShapeModule
+>>>>>v velocityOverLifetime = UnityEngine.ParticleSystem+VelocityOverLifetimeModule
+>>>>>v limitVelocityOverLifetime = UnityEngine.ParticleSystem+LimitVelocityOverLifetimeModule
+>>>>>v inheritVelocity = UnityEngine.ParticleSystem+InheritVelocityModule
+>>>>>v forceOverLifetime = UnityEngine.ParticleSystem+ForceOverLifetimeModule
+>>>>>v colorOverLifetime = UnityEngine.ParticleSystem+ColorOverLifetimeModule
+>>>>>v colorBySpeed = UnityEngine.ParticleSystem+ColorBySpeedModule
+>>>>>v sizeOverLifetime = UnityEngine.ParticleSystem+SizeOverLifetimeModule
+>>>>>v sizeBySpeed = UnityEngine.ParticleSystem+SizeBySpeedModule
+>>>>>v rotationOverLifetime = UnityEngine.ParticleSystem+RotationOverLifetimeModule
+>>>>>v rotationBySpeed = UnityEngine.ParticleSystem+RotationBySpeedModule
+>>>>>v externalForces = UnityEngine.ParticleSystem+ExternalForcesModule
+>>>>>v noise = UnityEngine.ParticleSystem+NoiseModule
+>>>>>v collision = UnityEngine.ParticleSystem+CollisionModule
+>>>>>v trigger = UnityEngine.ParticleSystem+TriggerModule
+>>>>>v subEmitters = UnityEngine.ParticleSystem+SubEmittersModule
+>>>>>v textureSheetAnimation = UnityEngine.ParticleSystem+TextureSheetAnimationModule
+>>>>>v lights = UnityEngine.ParticleSystem+LightsModule
+>>>>>v trails = UnityEngine.ParticleSystem+TrailModule
+>>>>>v customData = UnityEngine.ParticleSystem+CustomDataModule
+
+>>>>> UnityEngine.ParticleSystemRenderer
+>>>>>v alignment = View
+>>>>>v renderMode = Billboard
+>>>>>v sortMode = None
+>>>>>v lengthScale = 2
+>>>>>v velocityScale = 0
+>>>>>v cameraVelocityScale = 0
+>>>>>v normalDirection = 1
+>>>>>v shadowBias = 0
+>>>>>v sortingFudge = 0
+>>>>>v minParticleSize = 0
+>>>>>v maxParticleSize = 0,5
+>>>>>v pivot = (0.0, 0.0, 0.0)
+>>>>>v flip = (0.0, 0.0, 0.0)
+>>>>>v maskInteraction = None
+>>>>>v trailMaterial = 
+>>>>>v enableGPUInstancing = False
+>>>>>v allowRoll = True
+>>>>>v mesh = 
+>>>>>v meshCount = 0
+>>>>>v activeVertexStreamsCount = 5
+
+>GameObject Children 1 Lightning Line
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 10
+>>v startWidth = 0,1
+>>v endWidth = 0,0999999
+>>v widthMultiplier = 0,1
+>>v numCornerVertices = 2
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v positionCount = 10
+>>v shadowBias = 0
+>>v generateLightingData = False
+>>v textureMode = Stretch
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> RoR2.MultiPointBezierCurveLine
+>>v vertexList = RoR2.MultiPointBezierCurveLine+Vertex[]
+>>v linePositionList = UnityEngine.Vector3[]
+>>v lineRenderer = Lightning Line (UnityEngine.LineRenderer)
+
+>GameObject Children 2 Lightning Line (1)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 10
+>>v startWidth = 0,1
+>>v endWidth = 0,0999999
+>>v widthMultiplier = 0,1
+>>v numCornerVertices = 2
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v positionCount = 10
+>>v shadowBias = 0
+>>v generateLightingData = False
+>>v textureMode = Stretch
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> RoR2.MultiPointBezierCurveLine
+>>v vertexList = RoR2.MultiPointBezierCurveLine+Vertex[]
+>>v linePositionList = UnityEngine.Vector3[]
+>>v lineRenderer = Lightning Line (1) (UnityEngine.LineRenderer)
+
+>GameObject Children 3 Lightning Line (3)
+
+>> transform = p: (0.0, 0.0, 0.0) r: (0.0, 270.0, 0.0) s: (1.0, 1.0, 1.0)
+>> UnityEngine.LineRenderer
+>>v numPositions = 10
+>>v startWidth = 0,1
+>>v endWidth = 0,0999999
+>>v widthMultiplier = 0,1
+>>v numCornerVertices = 2
+>>v numCapVertices = 0
+>>v useWorldSpace = True
+>>v loop = False
+>>v startColor = RGBA(1.000, 1.000, 1.000, 0.000)
+>>v endColor = RGBA(1.000, 1.000, 1.000, 1.000)
+>>v positionCount = 10
+>>v shadowBias = 0
+>>v generateLightingData = False
+>>v textureMode = Stretch
+>>v alignment = View
+>>v widthCurve = UnityEngine.AnimationCurve
+>>v colorGradient = UnityEngine.Gradient
+
+>> RoR2.MultiPointBezierCurveLine
+>>v vertexList = RoR2.MultiPointBezierCurveLine+Vertex[]
+>>v linePositionList = UnityEngine.Vector3[]
+>>v lineRenderer = Lightning Line (3) (UnityEngine.LineRenderer)
