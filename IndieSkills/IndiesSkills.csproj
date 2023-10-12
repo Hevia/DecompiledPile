@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>IndiesSkills</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="BepInEx" />
+    <Reference Include="R2API" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime" />
+    <Reference Include="RoR2" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="PaladinMod" />
+    <Reference Include="MMHOOK_RoR2" />
+    <Reference Include="Unity.ResourceManager" />
+    <Reference Include="UnityEngine.ImageConversionModule" />
+    <Reference Include="Wwise" />
+    <Reference Include="AncientScepter" />
+    <Reference Include="Unity.Addressables" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+  </ItemGroup>
+</Project>
