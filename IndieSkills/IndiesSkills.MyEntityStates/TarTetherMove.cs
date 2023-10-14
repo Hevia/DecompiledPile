@@ -35,23 +35,21 @@ public class TarTetherMove : BaseCastChanneledSpellState
 
 	public override void OnEnter()
 	{
-		//IL_00b1: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00b6: Unknown result type (might be due to invalid IL or missing references)
 		base.baseDuration = 6f;
 		base.overrideDuration = 6f;
 		base.muzzleflashEffectPrefab = Resources.Load<GameObject>("Prefabs/Effects/ImpactEffects/ExplosionSolarFlare");
 		base.projectilePrefab = null;
 		base.castSoundString = "PaladinCastTorpor";
 		base.muzzleString = "HandL";
-		soundID = Util.PlayAttackSpeedSound(Recover.enterSoundString, ((EntityState)this).gameObject, ((BaseState)this).attackSpeedStat);
+		soundID = Util.PlayAttackSpeedSound(Recover.enterSoundString, this.gameObject, ((BaseState)this).attackSpeedStat);
 		((BaseCastChanneledSpellState)this).OnEnter();
 		if (!NetworkServer.active)
 		{
 			return;
 		}
-		if (Object.op_Implicit((Object)(object)((EntityState)this).modelLocator))
+		if (Object.op_Implicit((Object)(object)this.modelLocator))
 		{
-			ChildLocator modelChildLocator = ((EntityState)this).GetModelChildLocator();
+			ChildLocator modelChildLocator = this.GetModelChildLocator();
 			if (Object.op_Implicit((Object)(object)modelChildLocator))
 			{
 				Transform val = modelChildLocator.FindChild("HandL");
@@ -76,9 +74,9 @@ public class TarTetherMove : BaseCastChanneledSpellState
 		{
 			return;
 		}
-		if (Object.op_Implicit((Object)(object)((EntityState)this).modelLocator))
+		if (Object.op_Implicit((Object)(object)this.modelLocator))
 		{
-			ChildLocator component = ((Component)((EntityState)this).modelLocator.modelTransform).GetComponent<ChildLocator>();
+			ChildLocator component = ((Component)this.modelLocator.modelTransform).GetComponent<ChildLocator>();
 			if (Object.op_Implicit((Object)(object)component))
 			{
 				int num = component.FindChildIndex("HandL");
@@ -91,10 +89,10 @@ public class TarTetherMove : BaseCastChanneledSpellState
 		}
 		for (int num2 = tetherControllers.Count - 1; num2 >= 0; num2--)
 		{
-			if (Object.op_Implicit((Object)(object)tetherControllers[num2]))
+			if (tetherControllers[num2])
 			{
-				((Component)tetherControllers[num2]).gameObject.transform.position = handPosition;
-				NetMessageExtensions.Send((INetMessage)(object)new Main.SyncTetherPosition(((NetworkBehaviour)tetherControllers[num2]).netId, new Vector3(handPosition.x, NetworkServer.localClientActive ? handPosition.y : (handPosition.y + 2f), handPosition.z)), (NetworkDestination)1);
+				tetherControllers[num2].gameObject.transform.position = handPosition;
+				NetMessageExtensions.Send(new Main.SyncTetherPosition(((NetworkBehaviour)tetherControllers[num2]).netId, new Vector3(handPosition.x, NetworkServer.localClientActive ? handPosition.y : (handPosition.y + 2f), handPosition.z)), (NetworkDestination)1);
 			}
 		}
 		RemoveDeadTethersFromList(tetherControllers);
@@ -103,7 +101,7 @@ public class TarTetherMove : BaseCastChanneledSpellState
 
 	protected override void PlayCastAnimation()
 	{
-		((EntityState)this).PlayAnimation("Gesture, Override", "CastSun", "Spell.playbackRate", 0.25f);
+		this.PlayAnimation("Gesture, Override", "CastSun", "Spell.playbackRate", 0.25f);
 	}
 
 	public override void OnExit()
@@ -112,34 +110,19 @@ public class TarTetherMove : BaseCastChanneledSpellState
 		{
 			for (int num = tetherControllers.Count - 1; num >= 0; num--)
 			{
-				if (Object.op_Implicit((Object)(object)tetherControllers[num]))
+				if (Object.op_Implicit(tetherControllers[num]))
 				{
-					Object.Destroy((Object)(object)((Component)tetherControllers[num]).gameObject);
+					Object.Destroy(tetherControllers[num].gameObject);
 				}
 			}
 		}
 		((BaseCastChanneledSpellState)this).OnExit();
 		AkSoundEngine.StopPlayingID(soundID);
-		((EntityState)this).PlayAnimation("Gesture, Override", "CastSunEnd", "Spell.playbackRate", 0.8f);
+		this.PlayAnimation("Gesture, Override", "CastSunEnd", "Spell.playbackRate", 0.8f);
 	}
 
 	private void FireTethers()
 	{
-		//IL_0002: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0007: Unknown result type (might be due to invalid IL or missing references)
-		//IL_001a: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0020: Expected O, but got Unknown
-		//IL_0021: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0022: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0033: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0038: Unknown result type (might be due to invalid IL or missing references)
-		//IL_003f: Unknown result type (might be due to invalid IL or missing references)
-		//IL_004c: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0051: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00bc: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00cc: Unknown result type (might be due to invalid IL or missing references)
-		//IL_019f: Unknown result type (might be due to invalid IL or missing references)
-		//IL_01a0: Unknown result type (might be due to invalid IL or missing references)
 		Vector3 val = handPosition;
 		float breakDistanceSqr = maxTetherDistance * maxTetherDistance;
 		List<GameObject> list = new List<GameObject>();
@@ -151,7 +134,7 @@ public class TarTetherMove : BaseCastChanneledSpellState
 		val2.filterByLoS = true;
 		val2.searchDirection = Vector3.up;
 		val2.RefreshCandidates();
-		val2.FilterOutGameObject(((EntityState)this).gameObject);
+		val2.FilterOutGameObject(this.gameObject);
 		List<HurtBox> list2 = val2.GetResults().ToList();
 		for (int i = 0; i < list2.Count; i++)
 		{
@@ -159,17 +142,17 @@ public class TarTetherMove : BaseCastChanneledSpellState
 			{
 				break;
 			}
-			if (list2[i].healthComponent.body.teamComponent.teamIndex != ((EntityState)this).characterBody.teamComponent.teamIndex && !affectedIndividuals.Contains(list2[i]))
+			if (list2[i].healthComponent.body.teamComponent.teamIndex != this.characterBody.teamComponent.teamIndex && !affectedIndividuals.Contains(list2[i]))
 			{
-				GameObject gameObject = ((Component)list2[i].healthComponent).gameObject;
-				if (Object.op_Implicit((Object)(object)gameObject))
+				GameObject gameObject = list2[i].healthComponent.gameObject;
+				if (Object.op_Implicit(gameObject))
 				{
 					list.Add(gameObject);
 					affectedIndividuals.Add(list2[i]);
 				}
 			}
 		}
-		float tickInterval = 1f / damageTickFrequency * (1f / ((EntityState)this).characterBody.attackSpeed);
+		float tickInterval = 1f / damageTickFrequency * (1f / this.characterBody.attackSpeed);
 		float damageCoefficientPerTick = damagePerSecond / damageTickFrequency;
 		float mulchDistanceSqr = mulchDistance * mulchDistance;
 		GameObject val3 = Resources.Load<GameObject>("Prefabs/NetworkedObjects/TarTether");
@@ -177,7 +160,7 @@ public class TarTetherMove : BaseCastChanneledSpellState
 		{
 			GameObject val4 = Object.Instantiate<GameObject>(val3, val, Quaternion.identity);
 			TarTetherController component = val4.GetComponent<TarTetherController>();
-			component.NetworkownerRoot = ((EntityState)this).gameObject;
+			component.NetworkownerRoot = this.gameObject;
 			component.NetworktargetRoot = list[j];
 			component.breakDistanceSqr = breakDistanceSqr;
 			component.damageCoefficientPerTick = damageCoefficientPerTick;
@@ -196,7 +179,7 @@ public class TarTetherMove : BaseCastChanneledSpellState
 	{
 		for (int num = tethersList.Count - 1; num >= 0; num--)
 		{
-			if (!Object.op_Implicit((Object)(object)tethersList[num]))
+			if (!tethersList[num])
 			{
 				tethersList.RemoveAt(num);
 			}

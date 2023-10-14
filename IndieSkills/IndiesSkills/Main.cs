@@ -31,28 +31,18 @@ public class Main : BaseUnityPlugin
 
 		public SyncTetherPosition(NetworkInstanceId netID, Vector3 positionGiven)
 		{
-			//IL_0009: Unknown result type (might be due to invalid IL or missing references)
-			//IL_000a: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0010: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0011: Unknown result type (might be due to invalid IL or missing references)
 			netIdToUpdate = netID;
 			positionSetter = positionGiven;
 		}
 
 		public void Deserialize(NetworkReader reader)
 		{
-			//IL_0003: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0008: Unknown result type (might be due to invalid IL or missing references)
-			//IL_000f: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0014: Unknown result type (might be due to invalid IL or missing references)
 			netIdToUpdate = reader.ReadNetworkId();
 			positionSetter = reader.ReadVector3();
 		}
 
 		public void OnReceived()
 		{
-			//IL_000d: Unknown result type (might be due to invalid IL or missing references)
-			//IL_001d: Unknown result type (might be due to invalid IL or missing references)
 			if (!NetworkServer.active)
 			{
 				ClientScene.FindLocalObject(netIdToUpdate).transform.position = positionSetter;
@@ -61,8 +51,6 @@ public class Main : BaseUnityPlugin
 
 		public void Serialize(NetworkWriter writer)
 		{
-			//IL_0003: Unknown result type (might be due to invalid IL or missing references)
-			//IL_0010: Unknown result type (might be due to invalid IL or missing references)
 			writer.Write(netIdToUpdate);
 			writer.Write(positionSetter);
 		}
