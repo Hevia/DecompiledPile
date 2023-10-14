@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>VileModV3</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="VileModV3.VileModV3SB.bnk" />
+    <None Remove="VileModV3.vilev3bundle" />
+    <EmbeddedResource Include="VileModV3.VileModV3SB.bnk" LogicalName="VileModV3.VileModV3SB.bnk" />
+    <EmbeddedResource Include="VileModV3.vilev3bundle" LogicalName="VileModV3.vilev3bundle" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BepInEx" />
+    <Reference Include="R2API" />
+    <Reference Include="MMHOOK_RoR2" />
+    <Reference Include="RoR2" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime" />
+    <Reference Include="UnityEngine.AssetBundleModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="HGCSharpUtils" />
+    <Reference Include="LegacyResourcesAPI" />
+    <Reference Include="Wwise" />
+    <Reference Include="HGUnityUtils" />
+  </ItemGroup>
+</Project>

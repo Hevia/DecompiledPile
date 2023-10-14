@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Rorschach</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Rorschach.Rorschach.bnk" />
+    <None Remove="Rorschach.Rorschach2.bnk" />
+    <None Remove="Rorschach.rorschachassets" />
+    <EmbeddedResource Include="Rorschach.Rorschach.bnk" LogicalName="Rorschach.Rorschach.bnk" />
+    <EmbeddedResource Include="Rorschach.Rorschach2.bnk" LogicalName="Rorschach.Rorschach2.bnk" />
+    <EmbeddedResource Include="Rorschach.rorschachassets" LogicalName="Rorschach.rorschachassets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.AssetBundleModule" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="RoR2" />
+    <Reference Include="Unity.TextMeshPro" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="MMHOOK_RoR2" />
+    <Reference Include="BepInEx" />
+    <Reference Include="R2API.Networking" />
+    <Reference Include="R2API.Loadout" />
+    <Reference Include="KinematicCharacterController" />
+    <Reference Include="Unity.ResourceManager" />
+    <Reference Include="UnityEngine.ParticleSystemModule" />
+    <Reference Include="UnityEngine.AnimationModule" />
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime" />
+    <Reference Include="R2API.Sound" />
+    <Reference Include="Wwise" />
+    <Reference Include="LegacyResourcesAPI" />
+    <Reference Include="R2API.Prefab" />
+    <Reference Include="R2API.Core" />
+    <Reference Include="R2API.Language" />
+    <Reference Include="R2API.ContentManagement" />
+    <Reference Include="Unity.Addressables" />
+    <Reference Include="UnityEngine.InputLegacyModule" />
+  </ItemGroup>
+</Project>
