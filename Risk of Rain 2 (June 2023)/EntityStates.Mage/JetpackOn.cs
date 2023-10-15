@@ -16,7 +16,7 @@ public class JetpackOn : BaseState
 		jetOnEffect = FindModelChild("JetOn");
 		if (Object.op_Implicit((Object)(object)jetOnEffect))
 		{
-			((Component)jetOnEffect).gameObject.SetActive(true);
+			jetOnEffect.gameObject.SetActive(true);
 		}
 	}
 
