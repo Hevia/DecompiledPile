@@ -109,8 +109,8 @@ public class CherryBlast : BaseSkillState
 		{
 			BulletAttack val = new BulletAttack();
 			val.owner = ((EntityState)this).gameObject;
-			val.origin = ((Ray)(ref aimRay)).origin;
-			val.aimVector = ((Ray)(ref aimRay)).direction;
+			val.origin = aimRay.origin;
+			val.aimVector = aimRay.direction;
 			val.minSpread = 0.1f;
 			val.maxSpread = 1f;
 			val.damage = damageCoefficient * ((BaseState)this).damageStat;

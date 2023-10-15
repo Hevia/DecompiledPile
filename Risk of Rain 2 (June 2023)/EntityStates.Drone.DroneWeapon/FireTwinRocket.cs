@@ -76,8 +76,8 @@ public class FireTwinRocket : BaseState
 		}
 		float num = 1000f;
 		Ray aimRay = GetAimRay();
-		Vector3 forward = ((Ray)(ref aimRay)).direction;
-		Vector3 position = ((Ray)(ref aimRay)).origin;
+		Vector3 forward = aimRay.direction;
+		Vector3 position = aimRay.origin;
 		if (Object.op_Implicit((Object)(object)val))
 		{
 			position = val.position;

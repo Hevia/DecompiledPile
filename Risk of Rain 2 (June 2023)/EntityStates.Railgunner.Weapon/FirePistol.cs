@@ -99,10 +99,10 @@ public class FirePistol : BaseState, IBaseWeaponState
 			}
 			Quaternion val = Quaternion.AngleAxis((float)Random.Range(0, 360), Vector3.forward);
 			Quaternion val2 = Quaternion.AngleAxis(Random.Range(0f, baseInaccuracyDegrees + num), Vector3.left);
-			Quaternion rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction, Vector3.up) * val * val2;
+			Quaternion rotation = Util.QuaternionSafeLookRotation(aimRay.direction, Vector3.up) * val * val2;
 			FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 			fireProjectileInfo.projectilePrefab = projectilePrefab;
-			fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
+			fireProjectileInfo.position = aimRay.origin;
 			fireProjectileInfo.rotation = rotation;
 			fireProjectileInfo.owner = base.gameObject;
 			fireProjectileInfo.damage = damageStat * damageCoefficient;
@@ -112,7 +112,7 @@ public class FirePistol : BaseState, IBaseWeaponState
 			fireProjectileInfo.damageColorIndex = DamageColorIndex.Default;
 			FireProjectileInfo fireProjectileInfo2 = fireProjectileInfo;
 			ProjectileManager.instance.FireProjectile(fireProjectileInfo2);
-			base.characterBody.characterMotor.ApplyForce((0f - selfKnockbackForce) * ((Ray)(ref aimRay)).direction);
+			base.characterBody.characterMotor.ApplyForce((0f - selfKnockbackForce) * aimRay.direction);
 		}
 		base.characterBody.AddSpreadBloom(spreadBloomValue);
 	}

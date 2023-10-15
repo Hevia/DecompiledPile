@@ -90,7 +90,7 @@ public class LeapSlam : BaseState
 		modelTransform = GetModelTransform();
 		Util.PlaySound(initialAttackSoundString, base.gameObject);
 		Ray aimRay = GetAimRay();
-		initialAimVector = ((Ray)(ref aimRay)).direction;
+		initialAimVector = aimRay.direction;
 		initialAimVector.y = Mathf.Max(initialAimVector.y, 0f);
 		initialAimVector.y += yBias;
 		initialAimVector = ((Vector3)(ref initialAimVector)).normalized;

@@ -72,7 +72,7 @@ public class CombatDodge : DodgeState
 		//IL_0014: Unknown result type (might be due to invalid IL or missing references)
 		BullseyeSearch bullseyeSearch = search;
 		Ray aimRay = GetAimRay();
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
+		bullseyeSearch.searchOrigin = aimRay.origin;
 		search.RefreshCandidates();
 		List<HurtBox> list = search.GetResults().ToList();
 		if (list.Count <= 0)
@@ -98,11 +98,11 @@ public class CombatDodge : DodgeState
 		if (base.isAuthority)
 		{
 			Ray aimRay = GetAimRay();
-			((Ray)(ref aimRay)).direction = Random.onUnitSphere;
+			aimRay.direction = Random.onUnitSphere;
 			HurtBox hurtBox = PickNextTarget();
 			if (Object.op_Implicit((Object)(object)hurtBox))
 			{
-				((Ray)(ref aimRay)).direction = ((Component)hurtBox).transform.position - ((Ray)(ref aimRay)).origin;
+				aimRay.direction = ((Component)hurtBox).transform.position - aimRay.origin;
 			}
 			Util.PlaySound(firePistolSoundString, base.gameObject);
 			if (Object.op_Implicit((Object)(object)muzzleEffectPrefab))
@@ -112,8 +112,8 @@ public class CombatDodge : DodgeState
 			BulletAttack bulletAttack = new BulletAttack();
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+			bulletAttack.origin = aimRay.origin;
+			bulletAttack.aimVector = aimRay.direction;
 			bulletAttack.minSpread = 0f;
 			bulletAttack.maxSpread = base.characterBody.spreadBloomAngle;
 			bulletAttack.damage = damageCoefficient * damageStat;

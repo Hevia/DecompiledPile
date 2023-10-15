@@ -101,8 +101,8 @@ public class ChargeEmbers : BaseState
 		base.Update();
 		Ray aimRay = GetAimRay();
 		float num = 50f;
-		Vector3 origin = ((Ray)(ref aimRay)).origin;
-		Vector3 point = ((Ray)(ref aimRay)).GetPoint(num);
+		Vector3 origin = aimRay.origin;
+		Vector3 point = aimRay.GetPoint(num);
 		laserEffectInstanceLineRenderer.SetPosition(0, origin);
 		laserEffectInstanceLineRenderer.SetPosition(1, point);
 		Color startColor = default(Color);

@@ -97,8 +97,8 @@ public class SpiritPull : BaseState
 		enemyFinder = new BullseyeSearch();
 		enemyFinder.maxDistanceFilter = 2000f;
 		enemyFinder.maxAngleFilter = lockOnAngle;
-		enemyFinder.searchOrigin = ((Ray)(ref aimRay)).origin;
-		enemyFinder.searchDirection = ((Ray)(ref aimRay)).direction;
+		enemyFinder.searchOrigin = aimRay.origin;
+		enemyFinder.searchDirection = aimRay.direction;
 		enemyFinder.filterByLoS = false;
 		enemyFinder.sortMode = BullseyeSearch.SortMode.Distance;
 		enemyFinder.teamMaskFilter = TeamMask.allButNeutral;

@@ -53,8 +53,8 @@ public class FirePistol2 : BaseSkillState, SteppedSkillDef.IStepSetter
 			BulletAttack bulletAttack = new BulletAttack();
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+			bulletAttack.origin = aimRay.origin;
+			bulletAttack.aimVector = aimRay.direction;
 			bulletAttack.minSpread = 0f;
 			bulletAttack.maxSpread = base.characterBody.spreadBloomAngle;
 			bulletAttack.damage = damageCoefficient * damageStat;

@@ -218,13 +218,13 @@ public class BazaarController : MonoBehaviour
 			return;
 		}
 		Ray aimRay = default(Ray);
-		((Ray)(ref aimRay))._002Ector(shopkeeperInputBank.aimOrigin, shopkeeper.transform.forward);
+		aimRay._002Ector(shopkeeperInputBank.aimOrigin, shopkeeper.transform.forward);
 		shopkeeperTargetBody = Util.GetEnemyEasyTarget(shopkeeper.GetComponent<CharacterBody>(), aimRay, shopkeeperTrackDistance, shopkeeperTrackAngle);
 		if (Object.op_Implicit((Object)(object)shopkeeperTargetBody))
 		{
-			Vector3 direction = ((Component)shopkeeperTargetBody.mainHurtBox).transform.position - ((Ray)(ref aimRay)).origin;
-			((Ray)(ref aimRay)).direction = direction;
+			Vector3 direction = ((Component)shopkeeperTargetBody.mainHurtBox).transform.position - aimRay.origin;
+			aimRay.direction = direction;
 		}
-		shopkeeperInputBank.aimDirection = ((Ray)(ref aimRay)).direction;
+		shopkeeperInputBank.aimDirection = aimRay.direction;
 	}
 }

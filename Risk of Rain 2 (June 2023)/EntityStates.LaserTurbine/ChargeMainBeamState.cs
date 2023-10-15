@@ -63,7 +63,7 @@ public class ChargeMainBeamState : LaserTurbineBaseState
 			float num = 1000f;
 			Ray aimRay = GetAimRay();
 			_ = beamIndicatorInstance.transform.parent.position;
-			Vector3 point = ((Ray)(ref aimRay)).GetPoint(num);
+			Vector3 point = aimRay.GetPoint(num);
 			if (Util.CharacterRaycast(((Component)base.ownerBody).gameObject, aimRay, out var hitInfo, num, LayerMask.op_Implicit(LayerMask.op_Implicit(LayerIndex.entityPrecise.mask) | LayerMask.op_Implicit(LayerIndex.world.mask)), (QueryTriggerInteraction)0))
 			{
 				point = ((RaycastHit)(ref hitInfo)).point;

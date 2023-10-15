@@ -108,7 +108,7 @@ public class BaseLeap : BaseCharacterMain
 		previousAirControl = base.characterMotor.airControl;
 		base.characterMotor.airControl = airControl;
 		Ray aimRay = GetAimRay();
-		Vector3 direction = ((Ray)(ref aimRay)).direction;
+		Vector3 direction = aimRay.direction;
 		if (base.isAuthority)
 		{
 			base.characterBody.isSprinting = true;

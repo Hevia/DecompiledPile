@@ -85,8 +85,8 @@ public class FireMegaLaser : BaseState
 		enemyFinder.viewer = base.characterBody;
 		enemyFinder.maxDistanceFilter = maxDistance;
 		enemyFinder.maxAngleFilter = lockOnAngle;
-		enemyFinder.searchOrigin = ((Ray)(ref aimRay)).origin;
-		enemyFinder.searchDirection = ((Ray)(ref aimRay)).direction;
+		enemyFinder.searchOrigin = aimRay.origin;
+		enemyFinder.searchDirection = aimRay.direction;
 		enemyFinder.filterByLoS = false;
 		enemyFinder.sortMode = BullseyeSearch.SortMode.Angle;
 		enemyFinder.teamMaskFilter = TeamMask.allButNeutral;
@@ -134,8 +134,8 @@ public class FireMegaLaser : BaseState
 		//IL_002f: Unknown result type (might be due to invalid IL or missing references)
 		if (base.isAuthority)
 		{
-			enemyFinder.searchOrigin = ((Ray)(ref aimRay)).origin;
-			enemyFinder.searchDirection = ((Ray)(ref aimRay)).direction;
+			enemyFinder.searchOrigin = aimRay.origin;
+			enemyFinder.searchDirection = aimRay.direction;
 			enemyFinder.RefreshCandidates();
 			foundAnyTarget = Object.op_Implicit((Object)(object)(lockedOnHurtBox = enemyFinder.GetResults().FirstOrDefault()));
 		}
@@ -199,13 +199,13 @@ public class FireMegaLaser : BaseState
 		fireStopwatch += Time.fixedDeltaTime;
 		stopwatch += Time.fixedDeltaTime;
 		aimRay = GetAimRay();
-		Vector3 val = ((Ray)(ref aimRay)).origin;
+		Vector3 val = aimRay.origin;
 		if (Object.op_Implicit((Object)(object)muzzleTransform))
 		{
 			val = muzzleTransform.position;
 		}
 		RaycastHit hitInfo;
-		Vector3 val2 = (Object.op_Implicit((Object)(object)lockedOnHurtBox) ? ((Component)lockedOnHurtBox).transform.position : ((!Util.CharacterRaycast(base.gameObject, aimRay, out hitInfo, maxDistance, LayerMask.op_Implicit(LayerMask.op_Implicit(LayerIndex.world.mask) | LayerMask.op_Implicit(LayerIndex.entityPrecise.mask)), (QueryTriggerInteraction)1)) ? ((Ray)(ref aimRay)).GetPoint(maxDistance) : ((RaycastHit)(ref hitInfo)).point));
+		Vector3 val2 = (Object.op_Implicit((Object)(object)lockedOnHurtBox) ? ((Component)lockedOnHurtBox).transform.position : ((!Util.CharacterRaycast(base.gameObject, aimRay, out hitInfo, maxDistance, LayerMask.op_Implicit(LayerMask.op_Implicit(LayerIndex.world.mask) | LayerMask.op_Implicit(LayerIndex.entityPrecise.mask)), (QueryTriggerInteraction)1)) ? aimRay.GetPoint(maxDistance) : ((RaycastHit)(ref hitInfo)).point));
 		Ray val3 = default(Ray);
 		((Ray)(ref val3))._002Ector(val, val2 - val);
 		bool flag = false;
@@ -265,8 +265,8 @@ public class FireMegaLaser : BaseState
 			BulletAttack bulletAttack = new BulletAttack();
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+			bulletAttack.origin = aimRay.origin;
+			bulletAttack.aimVector = aimRay.direction;
 			bulletAttack.minSpread = minSpread;
 			bulletAttack.maxSpread = maxSpread;
 			bulletAttack.bulletCount = 1u;

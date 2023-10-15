@@ -63,7 +63,7 @@ public class FireRHCannon : BaseState
 		Transform val = component.FindChild(text);
 		if (Object.op_Implicit((Object)(object)val))
 		{
-			Vector3 forward = ((Ray)(ref aimRay)).direction;
+			Vector3 forward = aimRay.direction;
 			RaycastHit val2 = default(RaycastHit);
 			if (Physics.Raycast(aimRay, ref val2, (float)LayerMask.op_Implicit(LayerIndex.world.mask)))
 			{

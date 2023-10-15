@@ -88,7 +88,7 @@ public class FireMortar2 : BaseState
 		else
 		{
 			Ray aimRay = base.inputBank.GetAimRay();
-			point = ((Ray)(ref aimRay)).GetPoint(maxDistance);
+			point = aimRay.GetPoint(maxDistance);
 		}
 		FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 		fireProjectileInfo.projectilePrefab = projectilePrefab;

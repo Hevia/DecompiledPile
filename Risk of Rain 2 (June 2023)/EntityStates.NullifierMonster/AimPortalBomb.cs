@@ -87,8 +87,8 @@ public class AimPortalBomb : BaseState
 			if (pointA.HasValue && pointB.HasValue)
 			{
 				Ray aimRay = GetAimRay();
-				Vector3 val = pointA.Value - ((Ray)(ref aimRay)).origin;
-				Vector3 val2 = pointB.Value - ((Ray)(ref aimRay)).origin;
+				Vector3 val = pointA.Value - aimRay.origin;
+				Vector3 val2 = pointB.Value - aimRay.origin;
 				Quaternion val3 = Quaternion.LookRotation(val);
 				Quaternion val4 = Quaternion.LookRotation(val2);
 				Quaternion value = val4;

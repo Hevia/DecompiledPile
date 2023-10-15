@@ -129,7 +129,7 @@ public class FirePortalBomb : BaseState
 				float num2 = (float)bombsFired * num;
 				Ray aimRay = GetAimRay();
 				Quaternion val = Quaternion.Slerp(startRotation.Value, endRotation.Value, num2);
-				((Ray)(ref aimRay)).direction = val * Vector3.forward;
+				aimRay.direction = val * Vector3.forward;
 				FireBomb(aimRay);
 				EffectManager.SimpleMuzzleFlash(muzzleflashEffectPrefab, base.gameObject, muzzleString, transmit: true);
 			}

@@ -60,8 +60,8 @@ public class FireLightsOut : BaseState
 			{
 				owner = base.gameObject,
 				weapon = base.gameObject,
-				origin = ((Ray)(ref aimRay)).origin,
-				aimVector = ((Ray)(ref aimRay)).direction,
+				origin = aimRay.origin,
+				aimVector = aimRay.direction,
 				minSpread = minSpread,
 				maxSpread = maxSpread,
 				bulletCount = ((bulletCount > 0) ? ((uint)bulletCount) : 0u),

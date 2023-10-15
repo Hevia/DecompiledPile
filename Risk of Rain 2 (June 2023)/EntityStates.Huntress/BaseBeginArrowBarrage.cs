@@ -76,7 +76,7 @@ public class BaseBeginArrowBarrage : BaseState
 			aimRequest = base.cameraTargetParams.RequestAimType(CameraTargetParams.AimType.Aura);
 		}
 		Ray aimRay = GetAimRay();
-		Vector3 direction = ((Ray)(ref aimRay)).direction;
+		Vector3 direction = aimRay.direction;
 		direction.y = 0f;
 		((Vector3)(ref direction)).Normalize();
 		Vector3 up = Vector3.up;

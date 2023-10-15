@@ -83,7 +83,7 @@ public class ChannelRain : BaseState
 		//IL_0205: Unknown result type (might be due to invalid IL or missing references)
 		Vector3 val = Vector3.zero;
 		Ray aimRay = GetAimRay();
-		((Ray)(ref aimRay)).origin = ((Ray)(ref aimRay)).origin + Random.insideUnitSphere * randomRadius;
+		aimRay.origin = aimRay.origin + Random.insideUnitSphere * randomRadius;
 		RaycastHit val2 = default(RaycastHit);
 		if (Physics.Raycast(aimRay, ref val2, (float)LayerMask.op_Implicit(LayerIndex.world.mask)))
 		{

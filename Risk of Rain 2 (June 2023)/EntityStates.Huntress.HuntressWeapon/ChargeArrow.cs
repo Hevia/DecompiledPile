@@ -120,8 +120,8 @@ public class ChargeArrow : BaseState
 			huntressArrowOrb.procCoefficient = orbProcCoefficient;
 			Ray aimRay = GetAimRay();
 			BullseyeSearch bullseyeSearch = new BullseyeSearch();
-			bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-			bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+			bullseyeSearch.searchOrigin = aimRay.origin;
+			bullseyeSearch.searchDirection = aimRay.direction;
 			bullseyeSearch.maxDistanceFilter = orbRange;
 			bullseyeSearch.teamMaskFilter = TeamMask.allButNeutral;
 			bullseyeSearch.teamMaskFilter.RemoveTeam(huntressArrowOrb.teamIndex);

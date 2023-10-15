@@ -770,8 +770,8 @@ public static class Util
 			teamIndex = component.teamIndex;
 		}
 		ReadOnlyCollection<TeamComponent> teamMembers = TeamComponent.GetTeamMembers(teamIndex);
-		Vector3 origin = ((Ray)(ref aimRay)).origin;
-		Vector3 direction = ((Ray)(ref aimRay)).direction;
+		Vector3 origin = aimRay.origin;
+		Vector3 direction = aimRay.direction;
 		List<EasyTargetCandidate> candidatesList = new List<EasyTargetCandidate>(teamMembers.Count);
 		List<int> list = new List<int>(teamMembers.Count);
 		float num = Mathf.Cos(maxDeviation * (MathF.PI / 180f));
@@ -840,8 +840,8 @@ public static class Util
 				list.AddRange(TeamComponent.GetTeamMembers(teamIndex2));
 			}
 		}
-		Vector3 origin = ((Ray)(ref aimRay)).origin;
-		Vector3 direction = ((Ray)(ref aimRay)).direction;
+		Vector3 origin = aimRay.origin;
+		Vector3 direction = aimRay.direction;
 		List<EasyTargetCandidate> candidatesList = new List<EasyTargetCandidate>(list.Count);
 		List<int> list2 = new List<int>(list.Count);
 		float num = Mathf.Cos(maxDeviation * (MathF.PI / 180f));

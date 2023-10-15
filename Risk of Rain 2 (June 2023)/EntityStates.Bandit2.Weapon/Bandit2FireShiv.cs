@@ -93,8 +93,8 @@ public class Bandit2FireShiv : BaseSkillState
 			{
 				FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 				fireProjectileInfo.projectilePrefab = projectilePrefab;
-				fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
-				fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+				fireProjectileInfo.position = aimRay.origin;
+				fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 				fireProjectileInfo.owner = base.gameObject;
 				fireProjectileInfo.damage = damageStat * damageCoefficient;
 				fireProjectileInfo.force = force;

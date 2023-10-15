@@ -115,8 +115,8 @@ public class MinigunFire : MinigunState
 		Ray aimRay = GetAimRay();
 		BulletAttack bulletAttack = new BulletAttack();
 		bulletAttack.bulletCount = (uint)baseBulletCount;
-		bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
-		bulletAttack.origin = ((Ray)(ref aimRay)).origin;
+		bulletAttack.aimVector = aimRay.direction;
+		bulletAttack.origin = aimRay.origin;
 		bulletAttack.damage = damage;
 		bulletAttack.damageColorIndex = DamageColorIndex.Default;
 		bulletAttack.damageType = DamageType.Generic;

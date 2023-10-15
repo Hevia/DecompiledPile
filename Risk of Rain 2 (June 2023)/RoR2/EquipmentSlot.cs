@@ -310,12 +310,12 @@ public class EquipmentSlot : NetworkBehaviour
 							Transform val2 = componentInChildren.FindChild("Muzzle");
 							if (Object.op_Implicit((Object)(object)val2))
 							{
-								((Ray)(ref aimRay)).origin = val2.position;
+								aimRay.origin = val2.position;
 							}
 						}
 					}
-					healthComponent.TakeDamageForce(((Ray)(ref aimRay)).direction * -1500f, alwaysApply: true);
-					ProjectileManager.instance.FireProjectile(LegacyResourcesAPI.Load<GameObject>("Prefabs/Projectiles/BeamSphere"), ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), ((Component)this).gameObject, characterBody.damage * 2f, 0f, Util.CheckRoll(characterBody.crit, characterBody.master), DamageColorIndex.Item);
+					healthComponent.TakeDamageForce(aimRay.direction * -1500f, alwaysApply: true);
+					ProjectileManager.instance.FireProjectile(LegacyResourcesAPI.Load<GameObject>("Prefabs/Projectiles/BeamSphere"), aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), ((Component)this).gameObject, characterBody.damage * 2f, 0f, Util.CheckRoll(characterBody.crit, characterBody.master), DamageColorIndex.Item);
 					bfgChargeTimer = 0f;
 				}
 			}
@@ -820,8 +820,8 @@ public class EquipmentSlot : NetworkBehaviour
 			pickupSearch = new PickupSearch();
 		}
 		aimRay = CameraRigController.ModifyAimRayIfApplicable(aimRay, ((Component)this).gameObject, out var extraRaycastDistance);
-		pickupSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		pickupSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		pickupSearch.searchOrigin = aimRay.origin;
+		pickupSearch.searchDirection = aimRay.direction;
 		pickupSearch.minAngleFilter = 0f;
 		pickupSearch.maxAngleFilter = maxAngle;
 		pickupSearch.minDistanceFilter = 0f;
@@ -884,7 +884,7 @@ public class EquipmentSlot : NetworkBehaviour
 		if (NetworkServer.active)
 		{
 			Ray aimRay = GetAimRay();
-			Quaternion val = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+			Quaternion val = Quaternion.LookRotation(aimRay.direction);
 			float y = ((Quaternion)(ref val)).eulerAngles.y;
 			float num2 = 3f;
 			foreach (float item in new DegreeSlices(sliceCount, 0.5f))
@@ -926,7 +926,7 @@ public class EquipmentSlot : NetworkBehaviour
 		//IL_002a: Unknown result type (might be due to invalid IL or missing references)
 		Vector3 position = ((Component)this).transform.position;
 		Ray aimRay = GetAimRay();
-		ProjectileManager.instance.FireProjectile(LegacyResourcesAPI.Load<GameObject>("Prefabs/Projectiles/GravSphere"), position, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), ((Component)this).gameObject, 0f, 0f, crit: false);
+		ProjectileManager.instance.FireProjectile(LegacyResourcesAPI.Load<GameObject>("Prefabs/Projectiles/GravSphere"), position, Util.QuaternionSafeLookRotation(aimRay.direction), ((Component)this).gameObject, 0f, 0f, crit: false);
 		return true;
 	}
 
@@ -948,11 +948,11 @@ public class EquipmentSlot : NetworkBehaviour
 		//IL_0072: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0077: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		Quaternion val = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+		Quaternion val = Quaternion.LookRotation(aimRay.direction);
 		float num = 15f;
-		FireSingleSaw(characterBody, ((Ray)(ref aimRay)).origin, val * Quaternion.Euler(0f, 0f - num, 0f));
-		FireSingleSaw(characterBody, ((Ray)(ref aimRay)).origin, val);
-		FireSingleSaw(characterBody, ((Ray)(ref aimRay)).origin, val * Quaternion.Euler(0f, num, 0f));
+		FireSingleSaw(characterBody, aimRay.origin, val * Quaternion.Euler(0f, 0f - num, 0f));
+		FireSingleSaw(characterBody, aimRay.origin, val);
+		FireSingleSaw(characterBody, aimRay.origin, val * Quaternion.Euler(0f, num, 0f));
 		return true;
 		void FireSingleSaw(CharacterBody firingCharacterBody, Vector3 origin, Quaternion rotation)
 		{
@@ -1336,7 +1336,7 @@ public class EquipmentSlot : NetworkBehaviour
 		//IL_001a: Unknown result type (might be due to invalid IL or missing references)
 		//IL_001f: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		GameObject val = Object.Instantiate<GameObject>(LegacyResourcesAPI.Load<GameObject>("Prefabs/NetworkedObjects/FireballVehicle"), ((Ray)(ref aimRay)).origin, Quaternion.LookRotation(((Ray)(ref aimRay)).direction));
+		GameObject val = Object.Instantiate<GameObject>(LegacyResourcesAPI.Load<GameObject>("Prefabs/NetworkedObjects/FireballVehicle"), aimRay.origin, Quaternion.LookRotation(aimRay.direction));
 		val.GetComponent<VehicleSeat>().AssignPassenger(((Component)this).gameObject);
 		NetworkUser networkUser = characterBody?.master?.playerCharacterMasterController?.networkUser;
 		if (Object.op_Implicit((Object)(object)networkUser))
@@ -1515,7 +1515,7 @@ public class EquipmentSlot : NetworkBehaviour
 			return false;
 		}
 		Ray aimRay = GetAimRay();
-		Quaternion rotation = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+		Quaternion rotation = Quaternion.LookRotation(aimRay.direction);
 		GameObject val = LegacyResourcesAPI.Load<GameObject>("Prefabs/Projectiles/DeathProjectile");
 		val.GetComponent<DeathProjectile>().teamIndex = teamComponent.teamIndex;
 		FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
@@ -1525,7 +1525,7 @@ public class EquipmentSlot : NetworkBehaviour
 		fireProjectileInfo.damageColorIndex = DamageColorIndex.Item;
 		fireProjectileInfo.force = 0f;
 		fireProjectileInfo.owner = ((Component)this).gameObject;
-		fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
+		fireProjectileInfo.position = aimRay.origin;
 		fireProjectileInfo.rotation = rotation;
 		FireProjectileInfo fireProjectileInfo2 = fireProjectileInfo;
 		ProjectileManager.instance.FireProjectile(fireProjectileInfo2);
@@ -1541,7 +1541,7 @@ public class EquipmentSlot : NetworkBehaviour
 		//IL_0026: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
 		GameObject prefab = LegacyResourcesAPI.Load<GameObject>("Prefabs/Projectiles/MolotovClusterProjectile");
-		ProjectileManager.instance.FireProjectile(prefab, ((Ray)(ref aimRay)).origin, Quaternion.LookRotation(((Ray)(ref aimRay)).direction), ((Component)this).gameObject, characterBody.damage, 0f, Util.CheckRoll(characterBody.crit, characterBody.master));
+		ProjectileManager.instance.FireProjectile(prefab, aimRay.origin, Quaternion.LookRotation(aimRay.direction), ((Component)this).gameObject, characterBody.damage, 0f, Util.CheckRoll(characterBody.crit, characterBody.master));
 		return true;
 	}
 
@@ -1557,7 +1557,7 @@ public class EquipmentSlot : NetworkBehaviour
 		//IL_0057: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
 		Ray ray = default(Ray);
-		((Ray)(ref ray))._002Ector(((Ray)(ref aimRay)).origin, Vector3.down);
+		((Ray)(ref ray))._002Ector(aimRay.origin, Vector3.down);
 		if (Util.CharacterRaycast(((Component)this).gameObject, ray, out var hitInfo, 1000f, LayerIndex.world.mask, (QueryTriggerInteraction)0))
 		{
 			GameObject prefab = LegacyResourcesAPI.Load<GameObject>("Prefabs/Projectiles/VendingMachineProjectile");
@@ -1585,7 +1585,7 @@ public class EquipmentSlot : NetworkBehaviour
 			return false;
 		}
 		Ray aimRay = GetAimRay();
-		Quaternion rotation = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+		Quaternion rotation = Quaternion.LookRotation(aimRay.direction);
 		GameObject projectilePrefab = LegacyResourcesAPI.Load<GameObject>("Prefabs/Projectiles/GummyCloneProjectile");
 		FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 		fireProjectileInfo.projectilePrefab = projectilePrefab;
@@ -1594,7 +1594,7 @@ public class EquipmentSlot : NetworkBehaviour
 		fireProjectileInfo.damageColorIndex = DamageColorIndex.Item;
 		fireProjectileInfo.force = 0f;
 		fireProjectileInfo.owner = ((Component)this).gameObject;
-		fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
+		fireProjectileInfo.position = aimRay.origin;
 		fireProjectileInfo.rotation = rotation;
 		FireProjectileInfo fireProjectileInfo2 = fireProjectileInfo;
 		ProjectileManager.instance.FireProjectile(fireProjectileInfo2);

@@ -118,7 +118,7 @@ public class FireCrabCannonBase : BaseState
 			{
 				bonusYaw = (float)num / (float)(projectileCount - 1) * totalYawSpread;
 			}
-			Vector3 forward = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, spread, 1f, 1f, bonusYaw, bonusPitch);
+			Vector3 forward = Util.ApplySpread(aimRay.direction, 0f, spread, 1f, 1f, bonusYaw, bonusPitch);
 			Vector3 position = muzzleTransform.position;
 			ProjectileManager.instance.FireProjectile(projectilePrefab, position, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 		}

@@ -71,8 +71,8 @@ public class ProjectileParentTether : MonoBehaviour
 			if (Object.op_Implicit((Object)(object)tetherEffectInstance))
 			{
 				Ray aimRay = GetAimRay();
-				tetherEffectInstance.transform.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
-				tetherEffectInstanceEnd.transform.position = ((Ray)(ref aimRay)).origin + ((Ray)(ref aimRay)).direction * GetRayDistance();
+				tetherEffectInstance.transform.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
+				tetherEffectInstanceEnd.transform.position = aimRay.origin + aimRay.direction * GetRayDistance();
 			}
 		}
 	}
@@ -150,13 +150,13 @@ public class ProjectileParentTether : MonoBehaviour
 		{
 			Ray aimRay = GetAimRay();
 			attackTimer = attackInterval;
-			Vector3 direction = ((Ray)(ref aimRay)).direction;
+			Vector3 direction = aimRay.direction;
 			if (((Vector3)(ref direction)).magnitude < maxTetherRange && NetworkServer.active)
 			{
 				BulletAttack bulletAttack = new BulletAttack();
 				bulletAttack.owner = projectileController.owner;
-				bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-				bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+				bulletAttack.origin = aimRay.origin;
+				bulletAttack.aimVector = aimRay.direction;
 				bulletAttack.minSpread = 0f;
 				bulletAttack.damage = damageCoefficient * projectileDamage.damage;
 				bulletAttack.force = 0f;

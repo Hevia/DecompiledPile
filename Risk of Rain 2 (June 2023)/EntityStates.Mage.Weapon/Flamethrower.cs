@@ -121,8 +121,8 @@ public class Flamethrower : BaseState
 			BulletAttack bulletAttack = new BulletAttack();
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+			bulletAttack.origin = aimRay.origin;
+			bulletAttack.aimVector = aimRay.direction;
 			bulletAttack.minSpread = 0f;
 			bulletAttack.damage = tickDamageCoefficient * damageStat;
 			bulletAttack.force = force;
@@ -139,7 +139,7 @@ public class Flamethrower : BaseState
 			bulletAttack.Fire();
 			if (Object.op_Implicit((Object)(object)base.characterMotor))
 			{
-				base.characterMotor.ApplyForce(((Ray)(ref aimRay)).direction * (0f - recoilForce));
+				base.characterMotor.ApplyForce(aimRay.direction * (0f - recoilForce));
 			}
 		}
 	}
@@ -204,8 +204,8 @@ public class Flamethrower : BaseState
 		//IL_002a: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0043: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		Vector3 direction = ((Ray)(ref aimRay)).direction;
-		Vector3 direction2 = ((Ray)(ref aimRay)).direction;
+		Vector3 direction = aimRay.direction;
+		Vector3 direction2 = aimRay.direction;
 		if (Object.op_Implicit((Object)(object)leftFlamethrowerTransform))
 		{
 			leftFlamethrowerTransform.forward = direction;

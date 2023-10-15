@@ -148,15 +148,15 @@ public class SporeGrenade : BaseState
 		//IL_01f5: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
 		Ray val = default(Ray);
-		((Ray)(ref val))._002Ector(((Ray)(ref aimRay)).origin, Vector3.up);
+		((Ray)(ref val))._002Ector(aimRay.origin, Vector3.up);
 		Transform val2 = FindModelChild(targetMuzzle);
 		if (Object.op_Implicit((Object)(object)val2))
 		{
 			((Ray)(ref val)).origin = val2.position;
 		}
 		BullseyeSearch bullseyeSearch = new BullseyeSearch();
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.filterByLoS = false;
 		bullseyeSearch.teamMaskFilter = TeamMask.allButNeutral;
 		if (Object.op_Implicit((Object)(object)base.teamComponent))

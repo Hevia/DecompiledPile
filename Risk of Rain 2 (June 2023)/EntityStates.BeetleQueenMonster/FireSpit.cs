@@ -66,11 +66,11 @@ public class FireSpit : BaseState
 		aimRay = GetAimRay();
 		float magnitude = projectileHSpeed;
 		Ray ray = aimRay;
-		((Ray)(ref ray)).origin = ((Ray)(ref aimRay)).GetPoint(6f);
+		((Ray)(ref ray)).origin = aimRay.GetPoint(6f);
 		if (Util.CharacterRaycast(base.gameObject, ray, out var hitInfo, float.PositiveInfinity, LayerMask.op_Implicit(LayerMask.op_Implicit(LayerIndex.world.mask) | LayerMask.op_Implicit(LayerIndex.entityPrecise.mask)), (QueryTriggerInteraction)1))
 		{
 			float num = magnitude;
-			Vector3 val = ((RaycastHit)(ref hitInfo)).point - ((Ray)(ref aimRay)).origin;
+			Vector3 val = ((RaycastHit)(ref hitInfo)).point - aimRay.origin;
 			Vector2 val2 = default(Vector2);
 			((Vector2)(ref val2))._002Ector(val.x, val.z);
 			float magnitude2 = ((Vector2)(ref val2)).magnitude;
@@ -78,7 +78,7 @@ public class FireSpit : BaseState
 			Vector3 val3 = default(Vector3);
 			((Vector3)(ref val3))._002Ector(val2.x / magnitude2 * num, num2, val2.y / magnitude2 * num);
 			magnitude = ((Vector3)(ref val3)).magnitude;
-			((Ray)(ref aimRay)).direction = val3 / magnitude;
+			aimRay.direction = val3 / magnitude;
 		}
 		EffectManager.SimpleMuzzleFlash(effectPrefab, base.gameObject, muzzleName, transmit: false);
 		if (base.isAuthority)
@@ -98,8 +98,8 @@ public class FireSpit : BaseState
 		//IL_002f: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0034: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0035: Unknown result type (might be due to invalid IL or missing references)
-		Vector3 forward = Util.ApplySpread(((Ray)(ref aimRay)).direction, minSpread, maxSpread, 1f, 1f, bonusYaw, bonusPitch);
-		ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master), DamageColorIndex.Default, null, speed);
+		Vector3 forward = Util.ApplySpread(aimRay.direction, minSpread, maxSpread, 1f, 1f, bonusYaw, bonusPitch);
+		ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master), DamageColorIndex.Default, null, speed);
 	}
 
 	public override void OnExit()

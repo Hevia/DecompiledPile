@@ -201,8 +201,8 @@ public class FireRoller : BaseState
 		}
 		float num = 1000f;
 		Ray aimRay = GetAimRay();
-		Vector3 forward = ((Ray)(ref aimRay)).direction;
-		Vector3 val = ((Ray)(ref aimRay)).origin;
+		Vector3 forward = aimRay.direction;
+		Vector3 val = aimRay.origin;
 		float magnitude = targetProjectileSpeed;
 		if (Object.op_Implicit((Object)(object)muzzleTransform))
 		{

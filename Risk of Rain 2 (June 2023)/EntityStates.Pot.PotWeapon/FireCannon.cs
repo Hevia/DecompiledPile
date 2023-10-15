@@ -93,14 +93,14 @@ public class FireCannon : BaseState
 			float num = Random.Range(minSpread, maxSpread);
 			float num2 = Random.Range(0f, 360f);
 			Vector3 up = Vector3.up;
-			Vector3 val2 = Vector3.Cross(up, ((Ray)(ref aimRay)).direction);
+			Vector3 val2 = Vector3.Cross(up, aimRay.direction);
 			Vector3 val3 = Quaternion.Euler(0f, 0f, num2) * (Quaternion.Euler(num, 0f, 0f) * Vector3.forward);
 			float y = val3.y;
 			val3.y = 0f;
 			float num3 = Mathf.Atan2(val3.z, val3.x) * 57.29578f - 90f;
 			float num4 = Mathf.Atan2(y, ((Vector3)(ref val3)).magnitude) * 57.29578f + arcAngle;
-			Vector3 forward = Quaternion.AngleAxis(num3, up) * (Quaternion.AngleAxis(num4, val2) * ((Ray)(ref aimRay)).direction);
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master));
+			Vector3 forward = Quaternion.AngleAxis(num3, up) * (Quaternion.AngleAxis(num4, val2) * aimRay.direction);
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master));
 		}
 	}
 

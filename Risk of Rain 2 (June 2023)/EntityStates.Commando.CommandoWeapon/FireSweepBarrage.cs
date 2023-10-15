@@ -78,8 +78,8 @@ public class FireSweepBarrage : BaseState
 		bullseyeSearch.teamMaskFilter = TeamMask.GetEnemyTeams(GetTeam());
 		bullseyeSearch.maxAngleFilter = fieldOfView * 0.5f;
 		bullseyeSearch.maxDistanceFilter = maxDistance;
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.sortMode = BullseyeSearch.SortMode.DistanceAndAngle;
 		bullseyeSearch.filterByLoS = true;
 		bullseyeSearch.RefreshCandidates();

@@ -57,8 +57,8 @@ public class ExampleState : BaseSkillState
 			{
 				owner = ((EntityState)this).gameObject,
 				weapon = ((EntityState)this).gameObject,
-				origin = ((Ray)(ref aimRay)).origin,
-				aimVector = ((Ray)(ref aimRay)).direction,
+				origin = aimRay.origin,
+				aimVector = aimRay.direction,
 				minSpread = 0f,
 				maxSpread = ((EntityState)this).characterBody.spreadBloomAngle,
 				bulletCount = 1u,

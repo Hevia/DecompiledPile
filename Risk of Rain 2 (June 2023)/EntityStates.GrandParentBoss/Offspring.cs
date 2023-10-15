@@ -91,7 +91,7 @@ public class Offspring : BaseState
 		//IL_0061: Unknown result type (might be due to invalid IL or missing references)
 		Vector3 zero = Vector3.zero;
 		Ray aimRay = GetAimRay();
-		((Ray)(ref aimRay)).origin = ((Ray)(ref aimRay)).origin + Random.insideUnitSphere * randomRadius;
+		aimRay.origin = aimRay.origin + Random.insideUnitSphere * randomRadius;
 		RaycastHit val = default(RaycastHit);
 		if (Physics.Raycast(aimRay, ref val, (float)LayerMask.op_Implicit(LayerIndex.world.mask)))
 		{

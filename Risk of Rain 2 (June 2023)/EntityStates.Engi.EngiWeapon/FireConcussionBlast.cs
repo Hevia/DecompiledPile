@@ -63,7 +63,7 @@ public class FireConcussionBlast : BaseState
 				Transform val = component.FindChild(targetMuzzle);
 				if (Object.op_Implicit((Object)(object)val))
 				{
-					((Ray)(ref aimRay)).origin = val.position;
+					aimRay.origin = val.position;
 				}
 			}
 		}
@@ -77,8 +77,8 @@ public class FireConcussionBlast : BaseState
 			BulletAttack bulletAttack = new BulletAttack();
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+			bulletAttack.origin = aimRay.origin;
+			bulletAttack.aimVector = aimRay.direction;
 			bulletAttack.minSpread = minSpread;
 			bulletAttack.maxSpread = maxSpread;
 			bulletAttack.damage = damageCoefficient * damageStat;

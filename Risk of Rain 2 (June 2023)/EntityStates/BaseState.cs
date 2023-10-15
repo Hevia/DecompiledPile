@@ -147,15 +147,15 @@ public class BaseState : EntityState
 		//IL_002b: Unknown result type (might be due to invalid IL or missing references)
 		//IL_003f: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0044: Unknown result type (might be due to invalid IL or missing references)
-		if (Object.op_Implicit((Object)(object)base.characterDirection) && ((Ray)(ref aimRay)).direction != Vector3.zero)
+		if (Object.op_Implicit((Object)(object)base.characterDirection) && aimRay.direction != Vector3.zero)
 		{
 			if (snap)
 			{
-				base.characterDirection.forward = ((Ray)(ref aimRay)).direction;
+				base.characterDirection.forward = aimRay.direction;
 			}
 			else
 			{
-				base.characterDirection.moveVector = ((Ray)(ref aimRay)).direction;
+				base.characterDirection.moveVector = aimRay.direction;
 			}
 		}
 		if (Object.op_Implicit((Object)(object)base.characterBody))

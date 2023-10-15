@@ -87,10 +87,10 @@ public class FireMortar : BaseState
 		//IL_01d5: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
 		Ray val = default(Ray);
-		((Ray)(ref val))._002Ector(((Ray)(ref aimRay)).origin, Vector3.up);
+		((Ray)(ref val))._002Ector(aimRay.origin, Vector3.up);
 		BullseyeSearch bullseyeSearch = new BullseyeSearch();
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.filterByLoS = false;
 		bullseyeSearch.teamMaskFilter = TeamMask.allButNeutral;
 		if (Object.op_Implicit((Object)(object)base.teamComponent))

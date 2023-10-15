@@ -84,7 +84,7 @@ public class Slam : BaseState
 			{
 				Ray aimRay = GetAimRay();
 				EffectManager.SimpleMuzzleFlash(swingEffectPrefab, base.gameObject, "SwingCenter", transmit: true);
-				ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * earthquakeDamageCoefficient, forceMagnitude, Util.CheckRoll(critStat, base.characterBody.master));
+				ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * earthquakeDamageCoefficient, forceMagnitude, Util.CheckRoll(critStat, base.characterBody.master));
 				hasSwung = true;
 			}
 			attack.forceVector = hammerChildTransform.right;

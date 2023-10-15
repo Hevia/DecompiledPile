@@ -110,7 +110,7 @@ public class FireCorruptHandBeam : BaseSkillState
 		if (Object.op_Implicit((Object)(object)blinkVfxInstance))
 		{
 			Ray aimRay = GetAimRay();
-			Vector3 point = ((Ray)(ref aimRay)).GetPoint(maxDistance);
+			Vector3 point = aimRay.GetPoint(maxDistance);
 			if (Util.CharacterRaycast(base.gameObject, GetAimRay(), out var hitInfo, maxDistance, LayerIndex.world.mask, (QueryTriggerInteraction)0))
 			{
 				point = ((RaycastHit)(ref hitInfo)).point;
@@ -159,8 +159,8 @@ public class FireCorruptHandBeam : BaseSkillState
 			BulletAttack bulletAttack = new BulletAttack();
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+			bulletAttack.origin = aimRay.origin;
+			bulletAttack.aimVector = aimRay.direction;
 			bulletAttack.muzzleName = muzzle;
 			bulletAttack.maxDistance = Mathf.Lerp(minDistance, maxDistance, Random.value);
 			bulletAttack.minSpread = 0f;

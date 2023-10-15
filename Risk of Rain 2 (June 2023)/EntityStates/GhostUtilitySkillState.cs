@@ -83,7 +83,7 @@ public class GhostUtilitySkillState : GenericCharacterMain
 			if (Object.op_Implicit((Object)(object)entryEffectPrefab))
 			{
 				Ray aimRay = GetAimRay();
-				EffectManager.SimpleEffect(entryEffectPrefab, ((Ray)(ref aimRay)).origin, Quaternion.LookRotation(((Ray)(ref aimRay)).direction), transmit: false);
+				EffectManager.SimpleEffect(entryEffectPrefab, aimRay.origin, Quaternion.LookRotation(aimRay.direction), transmit: false);
 			}
 		}
 		Transform modelTransform = GetModelTransform();
@@ -178,7 +178,7 @@ public class GhostUtilitySkillState : GenericCharacterMain
 		if (Object.op_Implicit((Object)(object)exitEffectPrefab) && !outer.destroying)
 		{
 			Ray aimRay = GetAimRay();
-			EffectManager.SimpleEffect(exitEffectPrefab, ((Ray)(ref aimRay)).origin, Quaternion.LookRotation(((Ray)(ref aimRay)).direction), transmit: false);
+			EffectManager.SimpleEffect(exitEffectPrefab, aimRay.origin, Quaternion.LookRotation(aimRay.direction), transmit: false);
 		}
 		if (Object.op_Implicit((Object)(object)coreVfxInstance))
 		{

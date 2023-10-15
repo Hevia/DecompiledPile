@@ -76,7 +76,7 @@ public class FireCorruptDisks : BaseSkillState
 		Util.PlaySound(attackSoundString, base.gameObject);
 		AddRecoil(-1f * recoilAmplitude, -1.5f * recoilAmplitude, -0.25f * recoilAmplitude, 0.25f * recoilAmplitude);
 		base.characterBody.AddSpreadBloom(bloom);
-		base.characterBody.characterMotor.ApplyForce((0f - selfKnockbackForce) * ((Ray)(ref aimRay)).direction);
+		base.characterBody.characterMotor.ApplyForce((0f - selfKnockbackForce) * aimRay.direction);
 		if (Object.op_Implicit((Object)(object)muzzleflashEffectPrefab))
 		{
 			EffectManager.SimpleMuzzleFlash(muzzleflashEffectPrefab, base.gameObject, muzzle, transmit: false);
@@ -117,13 +117,13 @@ public class FireCorruptDisks : BaseSkillState
 			float bonusYaw = num * yawPerProjectile;
 			float num2 = num * offsetPerProjectile;
 			Ray aimRay = GetAimRay();
-			((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, base.characterBody.spreadBloomAngle + spread, 1f, 1f, bonusYaw, bonusPitch);
+			aimRay.direction = Util.ApplySpread(aimRay.direction, 0f, base.characterBody.spreadBloomAngle + spread, 1f, 1f, bonusYaw, bonusPitch);
 			Vector3 onUnitSphere = Random.onUnitSphere;
-			Vector3.ProjectOnPlane(onUnitSphere, ((Ray)(ref aimRay)).direction);
-			Quaternion rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction, onUnitSphere);
+			Vector3.ProjectOnPlane(onUnitSphere, aimRay.direction);
+			Quaternion rotation = Util.QuaternionSafeLookRotation(aimRay.direction, onUnitSphere);
 			FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 			fireProjectileInfo.projectilePrefab = projectilePrefab;
-			fireProjectileInfo.position = ((Ray)(ref aimRay)).origin + Vector3.Cross(((Ray)(ref aimRay)).direction, Vector3.up) * num2;
+			fireProjectileInfo.position = aimRay.origin + Vector3.Cross(aimRay.direction, Vector3.up) * num2;
 			fireProjectileInfo.rotation = rotation;
 			fireProjectileInfo.owner = base.gameObject;
 			fireProjectileInfo.damage = damageStat * damageCoefficient;

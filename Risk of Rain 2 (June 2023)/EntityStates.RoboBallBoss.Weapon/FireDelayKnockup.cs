@@ -75,8 +75,8 @@ public class FireDelayKnockup : BaseState
 		bullseyeSearch.maxDistanceFilter = maxDistance;
 		bullseyeSearch.maxAngleFilter = 360f;
 		Ray aimRay = GetAimRay();
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.filterByLoS = false;
 		bullseyeSearch.sortMode = BullseyeSearch.SortMode.Angle;
 		bullseyeSearch.RefreshCandidates();

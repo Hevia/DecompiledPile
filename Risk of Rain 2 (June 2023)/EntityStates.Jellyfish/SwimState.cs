@@ -65,7 +65,7 @@ public class SwimState : BaseState
 			{
 				RigidbodyDirection obj = base.rigidbodyDirection;
 				Ray aimRay = GetAimRay();
-				obj.aimDirection = ((Ray)(ref aimRay)).direction;
+				obj.aimDirection = aimRay.direction;
 			}
 		}
 		if (Object.op_Implicit((Object)(object)base.skillLocator))

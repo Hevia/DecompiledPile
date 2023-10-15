@@ -98,8 +98,8 @@ public class MinigunFire : MinigunState
 		bool crit = !critEndTime.hasPassed;
 		float damage = baseDamagePerSecondCoefficient / baseBulletsPerSecond * damageStat;
 		Ray aimRay = GetAimRay();
-		Vector3 forward = Util.ApplySpread(((Ray)(ref aimRay)).direction, bulletMinSpread, bulletMaxSpread, 1f, 1f);
-		ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damage, 0f, crit);
+		Vector3 forward = Util.ApplySpread(aimRay.direction, bulletMinSpread, bulletMaxSpread, 1f, 1f);
+		ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damage, 0f, crit);
 	}
 
 	public override void FixedUpdate()

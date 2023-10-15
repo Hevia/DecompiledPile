@@ -340,10 +340,10 @@ public abstract class AimThrowableBase : BaseSkillState
 		}
 		else
 		{
-			dest.hitPoint = ((Ray)(ref aimRay)).GetPoint(maxDistance);
-			dest.hitNormal = -((Ray)(ref aimRay)).direction;
+			dest.hitPoint = aimRay.GetPoint(maxDistance);
+			dest.hitNormal = -aimRay.direction;
 		}
-		Vector3 val = dest.hitPoint - ((Ray)(ref aimRay)).origin;
+		Vector3 val = dest.hitPoint - aimRay.origin;
 		if (useGravity)
 		{
 			float num = projectileBaseSpeed;
@@ -354,7 +354,7 @@ public abstract class AimThrowableBase : BaseSkillState
 			Vector3 val3 = default(Vector3);
 			((Vector3)(ref val3))._002Ector(val2.x / magnitude * num, num2, val2.y / magnitude * num);
 			dest.speedOverride = ((Vector3)(ref val3)).magnitude;
-			dest.finalRay = new Ray(((Ray)(ref aimRay)).origin, val3 / dest.speedOverride);
+			dest.finalRay = new Ray(aimRay.origin, val3 / dest.speedOverride);
 			dest.travelTime = Trajectory.CalculateGroundTravelTime(num, magnitude);
 		}
 		else

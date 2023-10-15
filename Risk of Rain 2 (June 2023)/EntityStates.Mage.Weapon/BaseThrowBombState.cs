@@ -78,8 +78,8 @@ public abstract class BaseThrowBombState : BaseState
 				float num2 = charge * force;
 				FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 				fireProjectileInfo.projectilePrefab = projectilePrefab;
-				fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
-				fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+				fireProjectileInfo.position = aimRay.origin;
+				fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 				fireProjectileInfo.owner = base.gameObject;
 				fireProjectileInfo.damage = damageStat * num;
 				fireProjectileInfo.force = num2;
@@ -90,7 +90,7 @@ public abstract class BaseThrowBombState : BaseState
 			}
 			if (Object.op_Implicit((Object)(object)base.characterMotor))
 			{
-				base.characterMotor.ApplyForce(((Ray)(ref aimRay)).direction * ((0f - selfForce) * charge));
+				base.characterMotor.ApplyForce(aimRay.direction * ((0f - selfForce) * charge));
 			}
 		}
 	}

@@ -127,7 +127,7 @@ public abstract class BaseFireSnipe : GenericBulletBaseState, IBaseWeaponState
 	{
 		//IL_0014: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0019: Unknown result type (might be due to invalid IL or missing references)
-		base.characterBody.characterMotor.ApplyForce((0f - selfKnockbackForce) * ((Ray)(ref aimRay)).direction);
+		base.characterBody.characterMotor.ApplyForce((0f - selfKnockbackForce) * aimRay.direction);
 	}
 
 	protected override void PlayFireAnimation()

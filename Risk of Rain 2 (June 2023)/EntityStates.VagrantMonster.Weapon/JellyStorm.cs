@@ -69,8 +69,8 @@ public class JellyStorm : BaseState
 		//IL_002f: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0034: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0035: Unknown result type (might be due to invalid IL or missing references)
-		Vector3 forward = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 0f, 1f, 1f, bonusYaw, bonusPitch);
-		ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master), DamageColorIndex.Default, null, speed);
+		Vector3 forward = Util.ApplySpread(aimRay.direction, 0f, 0f, 1f, 1f, bonusYaw, bonusPitch);
+		ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master), DamageColorIndex.Default, null, speed);
 	}
 
 	public override void FixedUpdate()
@@ -93,8 +93,8 @@ public class JellyStorm : BaseState
 					float bonusYaw = 360f / (float)missileTurretCount * (float)i + 360f * missileTurretYawFrequency * stopwatch;
 					float bonusPitch = Mathf.Sin(MathF.PI * 2f * missileTurretPitchFrequency * stopwatch) * missileTurretPitchMagnitude;
 					Ray aimRay = default(Ray);
-					((Ray)(ref aimRay)).origin = val.position;
-					((Ray)(ref aimRay)).direction = ((Component)val).transform.forward;
+					aimRay.origin = val.position;
+					aimRay.direction = ((Component)val).transform.forward;
 					FireBlob(aimRay, bonusPitch, bonusYaw, missileSpeed);
 				}
 			}

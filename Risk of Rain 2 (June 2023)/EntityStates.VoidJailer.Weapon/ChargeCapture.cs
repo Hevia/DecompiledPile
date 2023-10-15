@@ -66,7 +66,7 @@ public class ChargeCapture : BaseState
 		{
 			Transform obj = attackIndicatorInstance.transform;
 			Ray aimRay = GetAimRay();
-			obj.forward = ((Ray)(ref aimRay)).direction;
+			obj.forward = aimRay.direction;
 		}
 		base.Update();
 	}

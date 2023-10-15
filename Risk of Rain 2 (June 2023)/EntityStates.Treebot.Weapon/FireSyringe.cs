@@ -80,8 +80,8 @@ public class FireSyringe : BaseState
 			{
 				Ray aimRay = GetAimRay();
 				float bonusYaw = (float)Mathf.FloorToInt((float)projectilesFired - (float)(projectileCount - 1) / 2f) / (float)(projectileCount - 1) * totalYawSpread;
-				Vector3 forward = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 0f, 1f, 1f, bonusYaw);
-				ProjectileManager.instance.FireProjectile(prefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+				Vector3 forward = Util.ApplySpread(aimRay.direction, 0f, 0f, 1f, 1f, bonusYaw);
+				ProjectileManager.instance.FireProjectile(prefab, aimRay.origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 			}
 			projectilesFired++;
 		}

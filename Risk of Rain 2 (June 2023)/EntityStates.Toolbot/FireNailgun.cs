@@ -55,12 +55,12 @@ public class FireNailgun : BaseNailgunState
 			PullCurrentStats();
 			refireStopwatch -= duration;
 			Ray aimRay = GetAimRay();
-			Vector3 direction = ((Ray)(ref aimRay)).direction;
+			Vector3 direction = aimRay.direction;
 			Vector3 val = Vector3.Cross(Vector3.up, direction);
 			float num = Mathf.Sin((float)fireNumber * 0.5f);
 			Vector3 val2 = Quaternion.AngleAxis(base.characterBody.spreadBloomAngle * num, val) * direction;
 			val2 = Quaternion.AngleAxis((float)fireNumber * -65.454544f, direction) * val2;
-			((Ray)(ref aimRay)).direction = val2;
+			aimRay.direction = val2;
 			FireBullet(aimRay, 1, 0f, 0f);
 		}
 		if (base.isAuthority && (!IsKeyDownAuthority() || base.characterBody.isSprinting))

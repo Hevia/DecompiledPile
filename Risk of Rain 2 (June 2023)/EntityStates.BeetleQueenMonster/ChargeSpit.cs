@@ -68,7 +68,7 @@ public class ChargeSpit : BaseState
 		{
 			CharacterDirection obj = base.characterDirection;
 			Ray aimRay = GetAimRay();
-			obj.moveVector = ((Ray)(ref aimRay)).direction;
+			obj.moveVector = aimRay.direction;
 		}
 		if (base.fixedAge >= duration && base.isAuthority)
 		{

@@ -54,12 +54,12 @@ public class FireLunarShards : BaseSkillState
 			Transform val = FindModelChild(muzzleString);
 			if (Object.op_Implicit((Object)(object)val))
 			{
-				((Ray)(ref aimRay)).origin = val.position;
+				aimRay.origin = val.position;
 			}
-			((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, maxSpread, spreadYawScale, spreadPitchScale);
+			aimRay.direction = Util.ApplySpread(aimRay.direction, 0f, maxSpread, spreadYawScale, spreadPitchScale);
 			FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
-			fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
-			fireProjectileInfo.rotation = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+			fireProjectileInfo.position = aimRay.origin;
+			fireProjectileInfo.rotation = Quaternion.LookRotation(aimRay.direction);
 			fireProjectileInfo.crit = base.characterBody.RollCrit();
 			fireProjectileInfo.damage = base.characterBody.damage * damageCoefficient;
 			fireProjectileInfo.damageColorIndex = DamageColorIndex.Default;

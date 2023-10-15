@@ -29,8 +29,8 @@ public class PrepAssaulter2 : BaseState
 		((Component)FindModelChild("PreDashEffect")).gameObject.SetActive(true);
 		Util.PlaySound(enterSoundString, base.gameObject);
 		Ray aimRay = GetAimRay();
-		base.characterDirection.forward = ((Ray)(ref aimRay)).direction;
-		base.characterDirection.moveVector = ((Ray)(ref aimRay)).direction;
+		base.characterDirection.forward = aimRay.direction;
+		base.characterDirection.moveVector = aimRay.direction;
 		SmallHop(base.characterMotor, smallHopVelocity);
 		if (NetworkServer.active)
 		{

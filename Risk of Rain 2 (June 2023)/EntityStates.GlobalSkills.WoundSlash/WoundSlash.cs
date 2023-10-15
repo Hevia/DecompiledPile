@@ -45,12 +45,12 @@ public class WoundSlash : BaseSkillState
 		//IL_00d2: Unknown result type (might be due to invalid IL or missing references)
 		base.OnEnter();
 		Ray aimRay = GetAimRay();
-		Vector3 val = base.characterBody.corePosition + ((Ray)(ref aimRay)).direction * slashEffectOffset;
+		Vector3 val = base.characterBody.corePosition + aimRay.direction * slashEffectOffset;
 		Util.PlaySound(soundString, base.gameObject);
 		EffectData effectData = new EffectData
 		{
 			origin = val,
-			rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction)
+			rotation = Util.QuaternionSafeLookRotation(aimRay.direction)
 		};
 		EffectManager.SpawnEffect(slashEffectPrefab, effectData, transmit: true);
 		if (NetworkServer.active)

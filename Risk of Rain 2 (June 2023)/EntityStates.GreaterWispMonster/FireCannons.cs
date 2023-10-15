@@ -56,11 +56,11 @@ public class FireCannons : BaseState
 			Transform val2 = component.FindChild(childIndex2);
 			if (Object.op_Implicit((Object)(object)val))
 			{
-				ProjectileManager.instance.FireProjectile(projectilePrefab, val.position, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+				ProjectileManager.instance.FireProjectile(projectilePrefab, val.position, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 			}
 			if (Object.op_Implicit((Object)(object)val2))
 			{
-				ProjectileManager.instance.FireProjectile(projectilePrefab, val2.position, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+				ProjectileManager.instance.FireProjectile(projectilePrefab, val2.position, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 			}
 		}
 	}

@@ -59,7 +59,7 @@ public class ShotgunIce : BaseSkillState
 			EffectManager.SimpleMuzzleFlash(FireIceOrb.effectPrefab, ((EntityState)this).gameObject, muzzleString, false);
 			if (((EntityState)this).isAuthority)
 			{
-				ProjectileManager.instance.FireProjectile(Projectiles.ShotgunIceProjectile, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), ((EntityState)this).gameObject, damageCoefficient * ((BaseState)this).damageStat, 0f, Util.CheckRoll(((BaseState)this).critStat, ((EntityState)this).characterBody.master), (DamageColorIndex)0, (GameObject)null, -1f);
+				ProjectileManager.instance.FireProjectile(Projectiles.ShotgunIceProjectile, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), ((EntityState)this).gameObject, damageCoefficient * ((BaseState)this).damageStat, 0f, Util.CheckRoll(((BaseState)this).critStat, ((EntityState)this).characterBody.master), (DamageColorIndex)0, (GameObject)null, -1f);
 			}
 		}
 	}

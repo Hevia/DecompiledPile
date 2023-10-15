@@ -116,7 +116,7 @@ public class FireMissiles : BaseState
 			if (base.isAuthority)
 			{
 				Ray aimRay = GetAimRay();
-				Quaternion val = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+				Quaternion val = Util.QuaternionSafeLookRotation(aimRay.direction);
 				FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 				fireProjectileInfo.projectilePrefab = projectilePrefab;
 				fireProjectileInfo.position = muzzleTransform.position;

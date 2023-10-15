@@ -60,7 +60,7 @@ public class ThrowBarrel : GenericProjectileBaseState
 		{
 			CharacterDirection obj = base.characterDirection;
 			Ray aimRay = GetAimRay();
-			obj.moveVector = ((Ray)(ref aimRay)).direction;
+			obj.moveVector = aimRay.direction;
 		}
 		base.characterBody.SetAimTimer(0f);
 		Transform val = FindModelChild(chargeEffectMuzzleString);
@@ -103,11 +103,11 @@ public class ThrowBarrel : GenericProjectileBaseState
 		RaycastHit hitInfo = default(RaycastHit);
 		Ray ray = aimRay;
 		float desiredForwardSpeed = projectilePrefab.GetComponent<ProjectileSimple>().desiredForwardSpeed;
-		((Ray)(ref ray)).origin = ((Ray)(ref aimRay)).origin;
+		((Ray)(ref ray)).origin = aimRay.origin;
 		if (Util.CharacterRaycast(base.gameObject, ray, out hitInfo, float.PositiveInfinity, LayerMask.op_Implicit(LayerMask.op_Implicit(LayerIndex.world.mask) | LayerMask.op_Implicit(LayerIndex.entityPrecise.mask)), (QueryTriggerInteraction)1))
 		{
 			float num = desiredForwardSpeed;
-			Vector3 val = ((RaycastHit)(ref hitInfo)).point - ((Ray)(ref aimRay)).origin;
+			Vector3 val = ((RaycastHit)(ref hitInfo)).point - aimRay.origin;
 			Vector2 val2 = default(Vector2);
 			((Vector2)(ref val2))._002Ector(val.x, val.z);
 			float magnitude = ((Vector2)(ref val2)).magnitude;
@@ -115,9 +115,9 @@ public class ThrowBarrel : GenericProjectileBaseState
 			Vector3 val3 = default(Vector3);
 			((Vector3)(ref val3))._002Ector(val2.x / magnitude * num, num2, val2.y / magnitude * num);
 			desiredForwardSpeed = ((Vector3)(ref val3)).magnitude;
-			((Ray)(ref aimRay)).direction = val3 / desiredForwardSpeed;
+			aimRay.direction = val3 / desiredForwardSpeed;
 		}
-		((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 0f, 1f, 1f, projectileYawBonusPerProjectile * (float)currentProjectileCount, projectilePitchBonusPerProjectile * (float)currentProjectileCount);
+		aimRay.direction = Util.ApplySpread(aimRay.direction, 0f, 0f, 1f, 1f, projectileYawBonusPerProjectile * (float)currentProjectileCount, projectilePitchBonusPerProjectile * (float)currentProjectileCount);
 		return aimRay;
 	}
 

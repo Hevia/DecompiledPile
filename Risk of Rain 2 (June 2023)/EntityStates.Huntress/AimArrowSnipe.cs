@@ -56,7 +56,7 @@ public class AimArrowSnipe : BaseArrowBarrage
 		{
 			CharacterDirection obj = base.characterDirection;
 			Ray aimRay = GetAimRay();
-			obj.moveVector = ((Ray)(ref aimRay)).direction;
+			obj.moveVector = aimRay.direction;
 		}
 		if (!Object.op_Implicit((Object)(object)primarySkillSlot) || primarySkillSlot.stock == 0)
 		{

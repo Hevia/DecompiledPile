@@ -97,11 +97,11 @@ public class FireCrabCannon : BaseState
 		if (base.isAuthority)
 		{
 			Ray aimRay = GetAimRay();
-			((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, maxSpread, 1f, 1f);
+			aimRay.direction = Util.ApplySpread(aimRay.direction, 0f, maxSpread, 1f, 1f);
 			Vector3 onUnitSphere = Random.onUnitSphere;
-			Vector3.ProjectOnPlane(onUnitSphere, ((Ray)(ref aimRay)).direction);
-			Quaternion rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction, onUnitSphere);
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, rotation, base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master));
+			Vector3.ProjectOnPlane(onUnitSphere, aimRay.direction);
+			Quaternion rotation = Util.QuaternionSafeLookRotation(aimRay.direction, onUnitSphere);
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, rotation, base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master));
 		}
 	}
 

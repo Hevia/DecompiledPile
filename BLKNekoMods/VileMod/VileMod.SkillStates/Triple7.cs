@@ -103,8 +103,8 @@ public class Triple7 : BaseSkillState
 			Ray aimRay = ((BaseState)this).GetAimRay();
 			BulletAttack val = new BulletAttack();
 			val.bulletCount = 1u;
-			val.aimVector = ((Ray)(ref aimRay)).direction;
-			val.origin = ((Ray)(ref aimRay)).origin;
+			val.aimVector = aimRay.direction;
+			val.origin = aimRay.origin;
 			val.damage = damageCoefficient * ((BaseState)this).damageStat;
 			val.damageColorIndex = (DamageColorIndex)0;
 			val.falloffModel = (FalloffModel)1;

@@ -60,8 +60,8 @@ public class EmergencyDroneCustomTarget : MonoBehaviour
 			search.maxDistanceFilter = float.PositiveInfinity;
 			search.minDistanceFilter = 0f;
 			search.maxAngleFilter = 360f;
-			search.searchDirection = ((Ray)(ref aimRay)).direction;
-			search.searchOrigin = ((Ray)(ref aimRay)).origin;
+			search.searchDirection = aimRay.direction;
+			search.searchOrigin = aimRay.origin;
 			search.sortMode = BullseyeSearch.SortMode.Distance;
 			search.queryTriggerInteraction = (QueryTriggerInteraction)0;
 			TeamMask none = TeamMask.none;

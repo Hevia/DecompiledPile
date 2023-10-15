@@ -112,7 +112,7 @@ public class GravekeeperBarrage : BaseState
 				Ray projectileRay = default(Ray);
 				((Ray)(ref projectileRay)).origin = val.position;
 				Ray aimRay = GetAimRay();
-				((Ray)(ref projectileRay)).direction = ((Ray)(ref aimRay)).direction;
+				((Ray)(ref projectileRay)).direction = aimRay.direction;
 				float num = 1000f;
 				RaycastHit val2 = default(RaycastHit);
 				if (Physics.Raycast(GetAimRay(), ref val2, num, LayerMask.op_Implicit(LayerIndex.world.mask)))

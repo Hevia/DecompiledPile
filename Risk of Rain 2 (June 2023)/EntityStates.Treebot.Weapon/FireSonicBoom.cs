@@ -99,19 +99,19 @@ public class FireSonicBoom : BaseState
 		{
 			EffectManager.SpawnEffect(fireEffectPrefab, new EffectData
 			{
-				origin = ((Ray)(ref aimRay)).origin,
-				rotation = Quaternion.LookRotation(((Ray)(ref aimRay)).direction)
+				origin = aimRay.origin,
+				rotation = Quaternion.LookRotation(aimRay.direction)
 			}, transmit: false);
 		}
-		((Ray)(ref aimRay)).origin = ((Ray)(ref aimRay)).origin - ((Ray)(ref aimRay)).direction * backupDistance;
+		aimRay.origin = aimRay.origin - aimRay.direction * backupDistance;
 		if (NetworkServer.active)
 		{
 			BullseyeSearch bullseyeSearch = new BullseyeSearch();
 			bullseyeSearch.teamMaskFilter = TeamMask.all;
 			bullseyeSearch.maxAngleFilter = fieldOfView * 0.5f;
 			bullseyeSearch.maxDistanceFilter = maxDistance;
-			bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-			bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+			bullseyeSearch.searchOrigin = aimRay.origin;
+			bullseyeSearch.searchDirection = aimRay.direction;
 			bullseyeSearch.sortMode = BullseyeSearch.SortMode.Distance;
 			bullseyeSearch.filterByLoS = false;
 			bullseyeSearch.RefreshCandidates();
@@ -122,7 +122,7 @@ public class FireSonicBoom : BaseState
 			{
 				if (FriendlyFireManager.ShouldSplashHitProceed(item.healthComponent, team))
 				{
-					Vector3 val = ((Component)item).transform.position - ((Ray)(ref aimRay)).origin;
+					Vector3 val = ((Component)item).transform.position - aimRay.origin;
 					float magnitude = ((Vector3)(ref val)).magnitude;
 					Vector2 val2 = new Vector2(val.x, val.z);
 					_ = ((Vector2)(ref val2)).magnitude;
@@ -170,7 +170,7 @@ public class FireSonicBoom : BaseState
 			float num4 = (Object.op_Implicit((Object)(object)base.characterBody.characterMotor) ? base.characterBody.characterMotor.mass : 1f);
 			float acceleration2 = base.characterBody.acceleration;
 			float num5 = Trajectory.CalculateInitialYSpeedForHeight(height, 0f - acceleration2);
-			base.characterBody.characterMotor.ApplyForce((0f - num5) * num4 * ((Ray)(ref aimRay)).direction);
+			base.characterBody.characterMotor.ApplyForce((0f - num5) * num4 * aimRay.direction);
 		}
 	}
 

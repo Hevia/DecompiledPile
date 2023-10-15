@@ -75,7 +75,7 @@ public class SummonEggs : BaseState
 		//IL_0049: Unknown result type (might be due to invalid IL or missing references)
 		//IL_004a: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		Vector3 searchOrigin = ((Ray)(ref aimRay)).origin;
+		Vector3 searchOrigin = aimRay.origin;
 		if (Object.op_Implicit((Object)(object)base.inputBank) && base.inputBank.GetAimRaycast(float.PositiveInfinity, out var hitInfo))
 		{
 			searchOrigin = ((RaycastHit)(ref hitInfo)).point;

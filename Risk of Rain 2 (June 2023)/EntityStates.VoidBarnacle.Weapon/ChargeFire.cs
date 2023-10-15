@@ -70,7 +70,7 @@ public class ChargeFire : BaseState
 		if (Object.op_Implicit((Object)(object)_chargeVfxInstance))
 		{
 			Ray aimRay = GetAimRay();
-			_chargeVfxInstance.transform.forward = ((Ray)(ref aimRay)).direction;
+			_chargeVfxInstance.transform.forward = aimRay.direction;
 		}
 	}
 

@@ -119,7 +119,7 @@ public class ChargeLaser : BaseState
 		float num = 1000f;
 		Ray aimRay = GetAimRay();
 		Vector3 position = laserEffect.transform.parent.position;
-		Vector3 point = ((Ray)(ref aimRay)).GetPoint(num);
+		Vector3 point = aimRay.GetPoint(num);
 		laserDirection = point - position;
 		RaycastHit val = default(RaycastHit);
 		if (Physics.Raycast(aimRay, ref val, num, LayerMask.op_Implicit(LayerIndex.world.mask) | LayerMask.op_Implicit(LayerIndex.entityPrecise.mask)))

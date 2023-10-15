@@ -75,8 +75,8 @@ public class FireSpine : BaseState
 		enemyFinder = new BullseyeSearch();
 		enemyFinder.viewer = base.characterBody;
 		enemyFinder.maxDistanceFilter = float.PositiveInfinity;
-		enemyFinder.searchOrigin = ((Ray)(ref aimRay)).origin;
-		enemyFinder.searchDirection = ((Ray)(ref aimRay)).direction;
+		enemyFinder.searchOrigin = aimRay.origin;
+		enemyFinder.searchDirection = aimRay.direction;
 		enemyFinder.sortMode = BullseyeSearch.SortMode.Distance;
 		enemyFinder.teamMaskFilter = TeamMask.allButNeutral;
 		enemyFinder.minDistanceFilter = 0f;
@@ -94,8 +94,8 @@ public class FireSpine : BaseState
 			Ray aimRay2 = GetAimRay();
 			Vector3 val = position - ((Ray)(ref aimRay2)).origin;
 			aimRay2 = GetAimRay();
-			((Ray)(ref aimRay)).origin = ((Ray)(ref aimRay2)).origin;
-			((Ray)(ref aimRay)).direction = val;
+			aimRay.origin = ((Ray)(ref aimRay2)).origin;
+			aimRay.direction = val;
 			base.inputBank.aimDirection = val;
 			StartAimMode(aimRay);
 			hasFiredArrow = true;

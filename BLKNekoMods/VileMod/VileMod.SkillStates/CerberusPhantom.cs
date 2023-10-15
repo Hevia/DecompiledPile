@@ -70,17 +70,17 @@ public class CerberusPhantom : BaseSkillState
 			((EntityState)this).characterBody.SetSpreadBloom(0.8f, true);
 			Ray aimRay = ((BaseState)this).GetAimRay();
 			EffectManager.SimpleMuzzleFlash(FireShotgun.effectPrefab, ((EntityState)this).gameObject, muzzleString, false);
-			float num = ((Ray)(ref aimRay)).direction.x - ((Ray)(ref aimRay)).direction.x * 3f;
+			float num = aimRay.direction.x - aimRay.direction.x * 3f;
 			Vector3 val = default(Vector3);
-			((Vector3)(ref val))._002Ector(((Ray)(ref aimRay)).direction.x + 0.2f, ((Ray)(ref aimRay)).direction.y, ((Ray)(ref aimRay)).direction.z);
+			((Vector3)(ref val))._002Ector(aimRay.direction.x + 0.2f, aimRay.direction.y, aimRay.direction.z);
 			Vector3 val2 = default(Vector3);
-			((Vector3)(ref val2))._002Ector(((Ray)(ref aimRay)).direction.x - 0.2f, ((Ray)(ref aimRay)).direction.y, ((Ray)(ref aimRay)).direction.z);
+			((Vector3)(ref val2))._002Ector(aimRay.direction.x - 0.2f, aimRay.direction.y, aimRay.direction.z);
 			if (((EntityState)this).isAuthority)
 			{
 				Util.PlaySound(Sounds.vileCerberusPhantom, ((EntityState)this).gameObject);
-				ProjectileManager.instance.FireProjectile(Projectiles.CerberusPhantonFMJProjectile, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Vector3)(ref val)).normalized), ((EntityState)this).gameObject, damageCoefficient * ((BaseState)this).damageStat, 0f, Util.CheckRoll(((BaseState)this).critStat, ((EntityState)this).characterBody.master), (DamageColorIndex)0, (GameObject)null, -1f);
-				ProjectileManager.instance.FireProjectile(Projectiles.CerberusPhantonFMJProjectile, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Vector3)(ref val2)).normalized), ((EntityState)this).gameObject, damageCoefficient * ((BaseState)this).damageStat, 0f, Util.CheckRoll(((BaseState)this).critStat, ((EntityState)this).characterBody.master), (DamageColorIndex)0, (GameObject)null, -1f);
-				ProjectileManager.instance.FireProjectile(Projectiles.CerberusPhantonFMJProjectile, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), ((EntityState)this).gameObject, damageCoefficient * ((BaseState)this).damageStat, 0f, Util.CheckRoll(((BaseState)this).critStat, ((EntityState)this).characterBody.master), (DamageColorIndex)0, (GameObject)null, -1f);
+				ProjectileManager.instance.FireProjectile(Projectiles.CerberusPhantonFMJProjectile, aimRay.origin, Util.QuaternionSafeLookRotation(((Vector3)(ref val)).normalized), ((EntityState)this).gameObject, damageCoefficient * ((BaseState)this).damageStat, 0f, Util.CheckRoll(((BaseState)this).critStat, ((EntityState)this).characterBody.master), (DamageColorIndex)0, (GameObject)null, -1f);
+				ProjectileManager.instance.FireProjectile(Projectiles.CerberusPhantonFMJProjectile, aimRay.origin, Util.QuaternionSafeLookRotation(((Vector3)(ref val2)).normalized), ((EntityState)this).gameObject, damageCoefficient * ((BaseState)this).damageStat, 0f, Util.CheckRoll(((BaseState)this).critStat, ((EntityState)this).characterBody.master), (DamageColorIndex)0, (GameObject)null, -1f);
+				ProjectileManager.instance.FireProjectile(Projectiles.CerberusPhantonFMJProjectile, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), ((EntityState)this).gameObject, damageCoefficient * ((BaseState)this).damageStat, 0f, Util.CheckRoll(((BaseState)this).critStat, ((EntityState)this).characterBody.master), (DamageColorIndex)0, (GameObject)null, -1f);
 			}
 		}
 	}

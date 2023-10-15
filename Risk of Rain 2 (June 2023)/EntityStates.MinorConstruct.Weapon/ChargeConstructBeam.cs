@@ -63,7 +63,7 @@ public class ChargeConstructBeam : BaseState
 		if (Object.op_Implicit((Object)(object)chargeInstance))
 		{
 			Ray aimRay = GetAimRay();
-			chargeInstance.transform.forward = ((Ray)(ref aimRay)).direction;
+			chargeInstance.transform.forward = aimRay.direction;
 		}
 	}
 

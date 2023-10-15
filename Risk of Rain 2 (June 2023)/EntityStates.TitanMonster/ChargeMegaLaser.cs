@@ -60,8 +60,8 @@ public class ChargeMegaLaser : BaseState
 		enemyFinder = new BullseyeSearch();
 		enemyFinder.maxDistanceFilter = 2000f;
 		enemyFinder.maxAngleFilter = lockOnAngle;
-		enemyFinder.searchOrigin = ((Ray)(ref aimRay)).origin;
-		enemyFinder.searchDirection = ((Ray)(ref aimRay)).direction;
+		enemyFinder.searchOrigin = aimRay.origin;
+		enemyFinder.searchDirection = aimRay.direction;
 		enemyFinder.filterByLoS = false;
 		enemyFinder.sortMode = BullseyeSearch.SortMode.Angle;
 		enemyFinder.teamMaskFilter = TeamMask.allButNeutral;
@@ -146,10 +146,10 @@ public class ChargeMegaLaser : BaseState
 		lockedOnHurtBox = enemyFinder.GetResults().FirstOrDefault();
 		if (Object.op_Implicit((Object)(object)lockedOnHurtBox))
 		{
-			((Ray)(ref aimRay)).direction = ((Component)lockedOnHurtBox).transform.position - ((Ray)(ref aimRay)).origin;
+			aimRay.direction = ((Component)lockedOnHurtBox).transform.position - aimRay.origin;
 		}
 		Vector3 position = laserEffect.transform.parent.position;
-		Vector3 point = ((Ray)(ref aimRay)).GetPoint(num);
+		Vector3 point = aimRay.GetPoint(num);
 		RaycastHit val = default(RaycastHit);
 		if (Physics.Raycast(aimRay, ref val, num, LayerMask.op_Implicit(LayerIndex.world.mask) | LayerMask.op_Implicit(LayerIndex.defaultLayer.mask)))
 		{

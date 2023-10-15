@@ -108,8 +108,8 @@ public class Capture2 : BaseState
 		bullseyeSearch.teamMaskFilter = TeamMask.all;
 		bullseyeSearch.maxAngleFilter = pullFieldOfView * 0.5f;
 		bullseyeSearch.maxDistanceFilter = pullMaxDistance;
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.sortMode = BullseyeSearch.SortMode.Angle;
 		bullseyeSearch.filterByLoS = true;
 		bullseyeSearch.RefreshCandidates();
@@ -120,7 +120,7 @@ public class Capture2 : BaseState
 		{
 			return;
 		}
-		Vector3 val = ((Component)hurtBox).transform.position - ((Ray)(ref aimRay)).origin;
+		Vector3 val = ((Component)hurtBox).transform.position - aimRay.origin;
 		float magnitude = ((Vector3)(ref val)).magnitude;
 		Vector3 val2 = val / magnitude;
 		float num = 1f;

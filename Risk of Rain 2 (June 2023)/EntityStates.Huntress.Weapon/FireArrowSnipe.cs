@@ -25,6 +25,6 @@ public class FireArrowSnipe : GenericBulletBaseState
 		base.characterBody.SetSpreadBloom(0.2f, canOnlyIncreaseBloom: false);
 		AddRecoil(-0.6f * recoilAmplitude, -0.8f * recoilAmplitude, -0.1f * recoilAmplitude, 0.1f * recoilAmplitude);
 		PlayAnimation("Body", "FireArrowSnipe", "FireArrowSnipe.playbackRate", duration);
-		base.healthComponent.TakeDamageForce(((Ray)(ref aimRay)).direction * -400f, alwaysApply: true);
+		base.healthComponent.TakeDamageForce(aimRay.direction * -400f, alwaysApply: true);
 	}
 }

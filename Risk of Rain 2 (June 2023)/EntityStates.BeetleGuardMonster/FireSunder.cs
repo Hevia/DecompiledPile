@@ -95,8 +95,8 @@ public class FireSunder : BaseState
 			if (base.isAuthority && Object.op_Implicit((Object)(object)modelTransform))
 			{
 				Ray aimRay = GetAimRay();
-				((Ray)(ref aimRay)).origin = handRTransform.position;
-				ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, forceMagnitude, Util.CheckRoll(critStat, base.characterBody.master));
+				aimRay.origin = handRTransform.position;
+				ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, forceMagnitude, Util.CheckRoll(critStat, base.characterBody.master));
 			}
 			hasAttacked = true;
 			EntityState.Destroy((Object)(object)rightHandChargeEffect);

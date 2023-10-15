@@ -44,7 +44,7 @@ public class NailgunFinalBurst : BaseNailgunState
 		if (base.isAuthority)
 		{
 			float num = selfForce * (base.characterMotor.isGrounded ? 0.5f : 1f) * base.characterMotor.mass;
-			base.characterMotor.ApplyForce(((Ray)(ref aimRay)).direction * (0f - num));
+			base.characterMotor.ApplyForce(aimRay.direction * (0f - num));
 		}
 		Util.PlaySound(BaseNailgunState.fireSoundString, base.gameObject);
 		Util.PlaySound(BaseNailgunState.fireSoundString, base.gameObject);

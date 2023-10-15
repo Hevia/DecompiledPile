@@ -165,8 +165,8 @@ public class FireLunarGuns : BaseState
 		Ray aimRay = GetAimRay();
 		BulletAttack bulletAttack = new BulletAttack();
 		bulletAttack.bulletCount = (uint)baseBulletCount / 2u;
-		bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
-		bulletAttack.origin = ((Ray)(ref aimRay)).origin;
+		bulletAttack.aimVector = aimRay.direction;
+		bulletAttack.origin = aimRay.origin;
 		bulletAttack.damage = damage;
 		bulletAttack.damageColorIndex = DamageColorIndex.Default;
 		bulletAttack.damageType = DamageType.Generic;
@@ -195,8 +195,8 @@ public class FireLunarGuns : BaseState
 		bulletAttack.Fire();
 		BulletAttack bulletAttack2 = new BulletAttack();
 		bulletAttack2.bulletCount = (uint)baseBulletCount / 2u;
-		bulletAttack2.aimVector = ((Ray)(ref aimRay)).direction;
-		bulletAttack2.origin = ((Ray)(ref aimRay)).origin;
+		bulletAttack2.aimVector = aimRay.direction;
+		bulletAttack2.origin = aimRay.origin;
 		bulletAttack2.damage = damage;
 		bulletAttack2.damageColorIndex = DamageColorIndex.Default;
 		bulletAttack2.damageType = DamageType.Generic;

@@ -108,7 +108,7 @@ public class ChargeTrioBomb : BaseState
 			{
 				if (base.isAuthority)
 				{
-					ProjectileManager.instance.FireProjectile(bombProjectilePrefab, val2.position, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+					ProjectileManager.instance.FireProjectile(bombProjectilePrefab, val2.position, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 					Rigidbody component = GetComponent<Rigidbody>();
 					if (Object.op_Implicit((Object)(object)component))
 					{

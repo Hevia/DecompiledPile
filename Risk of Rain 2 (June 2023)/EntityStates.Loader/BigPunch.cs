@@ -86,7 +86,7 @@ public class BigPunch : LoaderMeleeAttack
 			{
 				FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 				Ray aimRay = GetAimRay();
-				fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
+				fireProjectileInfo.position = aimRay.origin;
 				fireProjectileInfo.rotation = Quaternion.LookRotation(punchVector);
 				fireProjectileInfo.crit = RollCrit();
 				fireProjectileInfo.damage = 1f * damageStat;
@@ -113,7 +113,7 @@ public class BigPunch : LoaderMeleeAttack
 		bullseyeSearch.teamMaskFilter = TeamMask.GetEnemyTeams(team);
 		bullseyeSearch.maxAngleFilter = maxShockFOV * 0.5f;
 		bullseyeSearch.maxDistanceFilter = maxShockDistance;
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
+		bullseyeSearch.searchOrigin = aimRay.origin;
 		bullseyeSearch.searchDirection = punchVector;
 		bullseyeSearch.sortMode = BullseyeSearch.SortMode.Distance;
 		bullseyeSearch.filterByLoS = false;

@@ -47,9 +47,9 @@ public class FireWindblade : BaseSkillState
 		Ray aimRay = GetAimRay();
 		if (base.isAuthority)
 		{
-			Quaternion val = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
-			Quaternion val2 = Quaternion.AngleAxis(Random.Range(0f, 360f), ((Ray)(ref aimRay)).direction);
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, val2 * val, base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+			Quaternion val = Util.QuaternionSafeLookRotation(aimRay.direction);
+			Quaternion val2 = Quaternion.AngleAxis(Random.Range(0f, 360f), aimRay.direction);
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, val2 * val, base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 		}
 	}
 

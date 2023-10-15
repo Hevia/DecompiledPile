@@ -39,8 +39,8 @@ public class FireHook : BaseSkillState
 		{
 			Ray aimRay = GetAimRay();
 			FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
-			fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
-			fireProjectileInfo.rotation = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+			fireProjectileInfo.position = aimRay.origin;
+			fireProjectileInfo.rotation = Quaternion.LookRotation(aimRay.direction);
 			fireProjectileInfo.crit = base.characterBody.RollCrit();
 			fireProjectileInfo.damage = damageStat * damageCoefficient;
 			fireProjectileInfo.force = 0f;

@@ -47,7 +47,7 @@ public abstract class BaseMultiBeamState : BaseState
 			}
 		}
 		num = Mathf.Min(num, beamMaxDistance);
-		beamEndPos = ((Ray)(ref aimRay)).GetPoint(num);
+		beamEndPos = aimRay.GetPoint(num);
 		Vector3 position = muzzleTransform.position;
 		beamRay = new Ray(position, beamEndPos - position);
 	}

@@ -84,7 +84,7 @@ public class Throw : BaseState
 		if (NetworkServer.active && Object.op_Implicit((Object)(object)modelAnimator) && modelAnimator.GetFloat("Throw.activate") > 0f && !hasSwung)
 		{
 			Ray aimRay = GetAimRay();
-			Vector3 forward = ((Ray)(ref aimRay)).direction;
+			Vector3 forward = aimRay.direction;
 			RaycastHit val = default(RaycastHit);
 			if (Physics.Raycast(aimRay, ref val, (float)LayerMask.op_Implicit(LayerIndex.world.mask)))
 			{

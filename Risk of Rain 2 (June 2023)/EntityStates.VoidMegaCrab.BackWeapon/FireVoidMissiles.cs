@@ -75,14 +75,14 @@ public class FireVoidMissiles : BaseSkillState
 			Ray aimRay = GetAimRay();
 			if ((Object)(object)val != (Object)null)
 			{
-				((Ray)(ref aimRay))._002Ector(val.position, val.forward);
+				aimRay._002Ector(val.position, val.forward);
 			}
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 			if ((Object)(object)val2 != (Object)null)
 			{
-				((Ray)(ref aimRay))._002Ector(val2.position, val2.forward);
+				aimRay._002Ector(val2.position, val2.forward);
 			}
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 		}
 	}
 

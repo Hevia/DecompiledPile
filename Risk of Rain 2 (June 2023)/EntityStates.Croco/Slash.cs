@@ -70,7 +70,7 @@ public class Slash : BasicMeleeAttack, SteppedSkillDef.IStepSetter
 		base.OnEnter();
 		CharacterDirection obj = base.characterDirection;
 		Ray aimRay = GetAimRay();
-		obj.forward = ((Ray)(ref aimRay)).direction;
+		obj.forward = aimRay.direction;
 		durationBeforeInterruptable = (isComboFinisher ? (comboFinisherBaseDurationBeforeInterruptable / attackSpeedStat) : (baseDurationBeforeInterruptable / attackSpeedStat));
 	}
 

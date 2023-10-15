@@ -81,8 +81,8 @@ public abstract class GenericBulletBaseState : BaseState
 		}
 		return new BulletAttack
 		{
-			aimVector = ((Ray)(ref aimRay)).direction,
-			origin = ((Ray)(ref aimRay)).origin,
+			aimVector = aimRay.direction,
+			origin = aimRay.origin,
 			owner = base.gameObject,
 			weapon = null,
 			bulletCount = (uint)bulletCount,

@@ -66,7 +66,7 @@ public class HuntressTracker : MonoBehaviour
 			trackerUpdateStopwatch -= 1f / trackerUpdateFrequency;
 			_ = trackingTarget;
 			Ray aimRay = default(Ray);
-			((Ray)(ref aimRay))._002Ector(inputBank.aimOrigin, inputBank.aimDirection);
+			aimRay._002Ector(inputBank.aimOrigin, inputBank.aimDirection);
 			SearchForTarget(aimRay);
 			indicator.targetTransform = (Object.op_Implicit((Object)(object)trackingTarget) ? ((Component)trackingTarget).transform : null);
 		}
@@ -80,8 +80,8 @@ public class HuntressTracker : MonoBehaviour
 		//IL_0046: Unknown result type (might be due to invalid IL or missing references)
 		search.teamMaskFilter = TeamMask.GetUnprotectedTeams(teamComponent.teamIndex);
 		search.filterByLoS = true;
-		search.searchOrigin = ((Ray)(ref aimRay)).origin;
-		search.searchDirection = ((Ray)(ref aimRay)).direction;
+		search.searchOrigin = aimRay.origin;
+		search.searchDirection = aimRay.direction;
 		search.sortMode = BullseyeSearch.SortMode.Distance;
 		search.maxDistanceFilter = maxTrackingDistance;
 		search.maxAngleFilter = maxTrackingAngle;

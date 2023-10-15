@@ -146,7 +146,7 @@ public class LoomingPresence : BaseState
 		{
 			CharacterDirection obj = base.characterDirection;
 			Ray aimRay = GetAimRay();
-			obj.forward = ((Ray)(ref aimRay)).direction;
+			obj.forward = aimRay.direction;
 		}
 		if (Object.op_Implicit((Object)(object)modelTransform) && Object.op_Implicit((Object)(object)destealthMaterial))
 		{

@@ -57,8 +57,8 @@ public class AimChainGun : BaseDroneWeaponChainGunState
 		}
 		searchRefreshTimer = searchRefreshSeconds;
 		Ray aimRay = GetAimRay();
-		enemyFinder.searchOrigin = ((Ray)(ref aimRay)).origin;
-		enemyFinder.searchDirection = ((Ray)(ref aimRay)).direction;
+		enemyFinder.searchOrigin = aimRay.origin;
+		enemyFinder.searchDirection = aimRay.direction;
 		enemyFinder.RefreshCandidates();
 		using IEnumerator<HurtBox> enumerator = enemyFinder.GetResults().GetEnumerator();
 		if (enumerator.MoveNext())

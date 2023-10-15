@@ -42,7 +42,7 @@ public class Bite : BasicMeleeAttack
 		base.OnEnter();
 		CharacterDirection obj = base.characterDirection;
 		Ray aimRay = GetAimRay();
-		obj.forward = ((Ray)(ref aimRay)).direction;
+		obj.forward = aimRay.direction;
 		durationBeforeInterruptable = baseDurationBeforeInterruptable / attackSpeedStat;
 		crocoDamageTypeController = GetComponent<CrocoDamageTypeController>();
 	}

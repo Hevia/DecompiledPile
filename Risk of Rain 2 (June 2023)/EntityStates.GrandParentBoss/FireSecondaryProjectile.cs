@@ -96,9 +96,9 @@ public class FireSecondaryProjectile : BaseState
 			ChildLocator component = ((Component)modelTransform).GetComponent<ChildLocator>();
 			if (Object.op_Implicit((Object)(object)component))
 			{
-				((Ray)(ref aimRay)).origin = ((Component)component.FindChild(muzzleName)).transform.position;
+				aimRay.origin = ((Component)component.FindChild(muzzleName)).transform.position;
 			}
 		}
-		ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+		ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 	}
 }

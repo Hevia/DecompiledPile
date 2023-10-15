@@ -107,8 +107,8 @@ public class GenericProjectileBaseState : BaseState
 		{
 			Ray aimRay = GetAimRay();
 			aimRay = ModifyProjectileAimRay(aimRay);
-			((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, minSpread, maxSpread, 1f, 1f, 0f, projectilePitchBonus);
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
+			aimRay.direction = Util.ApplySpread(aimRay.direction, minSpread, maxSpread, 1f, 1f, 0f, projectilePitchBonus);
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master));
 		}
 	}
 

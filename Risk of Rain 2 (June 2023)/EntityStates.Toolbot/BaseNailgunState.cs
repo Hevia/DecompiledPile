@@ -82,8 +82,8 @@ public class BaseNailgunState : BaseToolbotPrimarySkillState
 		if (base.isAuthority)
 		{
 			BulletAttack bulletAttack = new BulletAttack();
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
+			bulletAttack.aimVector = aimRay.direction;
+			bulletAttack.origin = aimRay.origin;
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
 			bulletAttack.bulletCount = (uint)bulletCount;

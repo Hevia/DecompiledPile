@@ -137,7 +137,7 @@ public class SetupSupplyDrop : BaseState
 		{
 			CharacterDirection obj = base.characterDirection;
 			Ray aimRay = GetAimRay();
-			obj.moveVector = ((Ray)(ref aimRay)).direction;
+			obj.moveVector = aimRay.direction;
 		}
 		if (base.isAuthority && beginExit)
 		{
@@ -207,7 +207,7 @@ public class SetupSupplyDrop : BaseState
 		//IL_00a3: Unknown result type (might be due to invalid IL or missing references)
 		float extraRaycastDistance = 0f;
 		CameraRigController.ModifyAimRayIfApplicable(aimRay, gameObject, out extraRaycastDistance);
-		Vector3 val = -((Ray)(ref aimRay)).direction;
+		Vector3 val = -aimRay.direction;
 		Vector3 val2 = Vector3.up;
 		Vector3 val3 = Vector3.Cross(val2, val);
 		PlacementInfo result = default(PlacementInfo);

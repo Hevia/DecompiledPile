@@ -141,8 +141,8 @@ public class ChargeBomb : BaseState
 			{
 				Vector3 val3 = endLine;
 				Ray val4 = default(Ray);
-				((Ray)(ref val4)).origin = ((Ray)(ref aimRay)).origin;
-				((Ray)(ref val4)).direction = val3 - ((Ray)(ref aimRay)).origin;
+				((Ray)(ref val4)).origin = aimRay.origin;
+				((Ray)(ref val4)).direction = val3 - aimRay.origin;
 				Debug.DrawLine(((Ray)(ref val4)).origin, val3, Color.red, 5f);
 				if (Physics.Raycast(val4, ref val, 500f, LayerMask.op_Implicit(LayerIndex.world.mask)))
 				{

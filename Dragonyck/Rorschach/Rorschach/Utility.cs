@@ -77,11 +77,11 @@ internal class Utility : MeleeSkillState
 		val.force = 0f;
 		val.owner = ((EntityState)this).gameObject;
 		Ray aimRay = ((BaseState)this).GetAimRay();
-		val.position = ((Ray)(ref aimRay)).origin;
+		val.position = aimRay.origin;
 		val.procChainMask = default(ProcChainMask);
 		val.projectilePrefab = Prefabs.utilityProjectile;
 		aimRay = ((BaseState)this).GetAimRay();
-		val.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+		val.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 		val.useFuseOverride = false;
 		val.useSpeedOverride = false;
 		val.target = null;

@@ -92,10 +92,10 @@ public class FireTwinBlaster : BaseSkillState
 		//IL_0066: Unknown result type (might be due to invalid IL or missing references)
 		//IL_006b: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, base.characterBody.spreadBloomAngle * spread, 1f, 1f);
+		aimRay.direction = Util.ApplySpread(aimRay.direction, 0f, base.characterBody.spreadBloomAngle * spread, 1f, 1f);
 		FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
-		fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
-		fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+		fireProjectileInfo.position = aimRay.origin;
+		fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 		fireProjectileInfo.owner = base.gameObject;
 		fireProjectileInfo.damage = damageStat * damageCoefficient;
 		fireProjectileInfo.force = force;

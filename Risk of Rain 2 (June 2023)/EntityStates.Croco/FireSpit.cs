@@ -62,8 +62,8 @@ public class FireSpit : BaseState
 			DamageType value = (Object.op_Implicit((Object)(object)crocoDamageTypeController) ? crocoDamageTypeController.GetDamageType() : DamageType.Generic);
 			FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 			fireProjectileInfo.projectilePrefab = projectilePrefab;
-			fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
-			fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+			fireProjectileInfo.position = aimRay.origin;
+			fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 			fireProjectileInfo.owner = base.gameObject;
 			fireProjectileInfo.damage = damageStat * damageCoefficient;
 			fireProjectileInfo.damageTypeOverride = value;

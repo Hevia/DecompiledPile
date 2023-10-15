@@ -77,7 +77,7 @@ public class FireMainBeamState : LaserTurbineBaseState
 		{
 			Vector3 val = ((Ray)(ref initialAimRay)).origin - beamHitPosition;
 			Ray aimRay = default(Ray);
-			((Ray)(ref aimRay))._002Ector(beamHitPosition, val);
+			aimRay._002Ector(beamHitPosition, val);
 			FireBeamServer(aimRay, backwardBeamTracerEffect, ((Vector3)(ref val)).magnitude, isInitialBeam: false);
 		}
 		base.laserTurbineController.showTurbineDisplay = true;
@@ -113,8 +113,8 @@ public class FireMainBeamState : LaserTurbineBaseState
 		bool didHit = false;
 		BulletAttack obj = new BulletAttack
 		{
-			origin = ((Ray)(ref aimRay)).origin,
-			aimVector = ((Ray)(ref aimRay)).direction,
+			origin = aimRay.origin,
+			aimVector = aimRay.direction,
 			bulletCount = 1u,
 			damage = GetDamage() * mainBeamDamageCoefficient,
 			damageColorIndex = DamageColorIndex.Item,
@@ -182,7 +182,7 @@ public class FireMainBeamState : LaserTurbineBaseState
 			}
 			else
 			{
-				beamHitPosition = ((Ray)(ref aimRay)).GetPoint(mainBeamMaxDistance);
+				beamHitPosition = aimRay.GetPoint(mainBeamMaxDistance);
 			}
 		}
 		if (didHit && isInitialBeam)
@@ -190,7 +190,7 @@ public class FireMainBeamState : LaserTurbineBaseState
 			FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 			fireProjectileInfo.projectilePrefab = secondBombPrefab;
 			fireProjectileInfo.owner = ((Component)base.ownerBody).gameObject;
-			fireProjectileInfo.position = beamHitPosition - ((Ray)(ref aimRay)).direction * 0.5f;
+			fireProjectileInfo.position = beamHitPosition - aimRay.direction * 0.5f;
 			fireProjectileInfo.rotation = Quaternion.identity;
 			fireProjectileInfo.damage = GetDamage() * secondBombDamageCoefficient;
 			fireProjectileInfo.damageColorIndex = DamageColorIndex.Item;
@@ -201,7 +201,7 @@ public class FireMainBeamState : LaserTurbineBaseState
 		{
 			EffectData effectData = new EffectData
 			{
-				origin = ((Ray)(ref aimRay)).origin,
+				origin = aimRay.origin,
 				start = base.transform.position
 			};
 			effectData.SetNetworkedObjectReference(base.gameObject);

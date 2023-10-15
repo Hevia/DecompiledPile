@@ -90,7 +90,7 @@ public class FireBombardment : BaseState
 		PlayCrossfade("Gesture, Bombardment", "FireBombardment", 0.1f);
 		Util.PlaySound(shootSoundString, base.gameObject);
 		aimRay = GetAimRay();
-		Vector3 val = ((Ray)(ref aimRay)).origin;
+		Vector3 val = aimRay.origin;
 		if (Object.op_Implicit((Object)(object)modelTransform))
 		{
 			ChildLocator component = ((Component)modelTransform).GetComponent<ChildLocator>();
@@ -123,18 +123,18 @@ public class FireBombardment : BaseState
 				Vector3 val5 = default(Vector3);
 				((Vector3)(ref val5))._002Ector(val4.x / magnitude * velocity, num2, val4.y / magnitude * velocity);
 				num = ((Vector3)(ref val5)).magnitude;
-				((Ray)(ref aimRay)).direction = val5 / num;
+				aimRay.direction = val5 / num;
 			}
 			float num3 = Random.Range(0f, base.characterBody.spreadBloomAngle);
 			float num4 = Random.Range(0f, 360f);
 			Vector3 up = Vector3.up;
-			Vector3 val6 = Vector3.Cross(up, ((Ray)(ref aimRay)).direction);
+			Vector3 val6 = Vector3.Cross(up, aimRay.direction);
 			Vector3 val7 = Quaternion.Euler(0f, 0f, num4) * (Quaternion.Euler(num3, 0f, 0f) * Vector3.forward);
 			float y = val7.y;
 			val7.y = 0f;
 			float num5 = Mathf.Atan2(val7.z, val7.x) * 57.29578f - 90f;
 			float num6 = Mathf.Atan2(y, ((Vector3)(ref val7)).magnitude) * 57.29578f;
-			Vector3 forward = Quaternion.AngleAxis(num5, up) * (Quaternion.AngleAxis(num6, val6) * ((Ray)(ref aimRay)).direction);
+			Vector3 forward = Quaternion.AngleAxis(num5, up) * (Quaternion.AngleAxis(num6, val6) * aimRay.direction);
 			ProjectileManager.instance.FireProjectile(projectilePrefab, val, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master), DamageColorIndex.Default, null, num);
 		}
 		base.characterBody.AddSpreadBloom(spreadBloomValue);

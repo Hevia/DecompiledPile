@@ -48,8 +48,8 @@ public class FireShotgun2 : Bandit2FirePrimaryBase
 		AddRecoil(-1f * recoilAmplitudeY, -1.5f * recoilAmplitudeY, -1f * recoilAmplitudeX, 1f * recoilAmplitudeX);
 		if (base.isAuthority)
 		{
-			Vector3 val = Vector3.Cross(Vector3.up, ((Ray)(ref aimRay)).direction);
-			Vector3 val2 = Vector3.Cross(((Ray)(ref aimRay)).direction, val);
+			Vector3 val = Vector3.Cross(Vector3.up, aimRay.direction);
+			Vector3 val2 = Vector3.Cross(aimRay.direction, val);
 			float num = 0f;
 			if (Object.op_Implicit((Object)(object)base.characterBody))
 			{
@@ -62,10 +62,10 @@ public class FireShotgun2 : Bandit2FirePrimaryBase
 				num3 = Random.Range(minFixedSpreadYaw + num, maxFixedSpreadYaw + num) * 2f;
 				num2 = num3 / (float)(bulletCount - 1);
 			}
-			Vector3 val3 = Quaternion.AngleAxis((0f - num3) * 0.5f, val2) * ((Ray)(ref aimRay)).direction;
+			Vector3 val3 = Quaternion.AngleAxis((0f - num3) * 0.5f, val2) * aimRay.direction;
 			Quaternion val4 = Quaternion.AngleAxis(num2, val2);
 			Ray aimRay2 = default(Ray);
-			((Ray)(ref aimRay2))._002Ector(((Ray)(ref aimRay)).origin, val3);
+			((Ray)(ref aimRay2))._002Ector(aimRay.origin, val3);
 			for (int i = 0; i < bulletCount; i++)
 			{
 				BulletAttack bulletAttack = GenerateBulletAttack(aimRay2);

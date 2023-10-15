@@ -66,7 +66,7 @@ public class FireMegaTurret : BaseState
 		//IL_00ac: Unknown result type (might be due to invalid IL or missing references)
 		//IL_00b4: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		_ = ((Ray)(ref aimRay)).origin;
+		_ = aimRay.origin;
 		Util.PlayAttackSpeedSound(attackSoundString, base.gameObject, attackSoundPlaybackCoefficient);
 		PlayAnimation("Gesture, Additive", "FireGat");
 		if (Object.op_Implicit((Object)(object)childLocator))
@@ -86,8 +86,8 @@ public class FireMegaTurret : BaseState
 			BulletAttack bulletAttack = new BulletAttack();
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+			bulletAttack.origin = aimRay.origin;
+			bulletAttack.aimVector = aimRay.direction;
 			bulletAttack.minSpread = minSpread;
 			bulletAttack.maxSpread = maxSpread;
 			bulletAttack.damage = damageCoefficient * damageStat;

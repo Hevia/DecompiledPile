@@ -63,13 +63,13 @@ public class FireTrackingBomb : BaseState
 			ChildLocator component = ((Component)modelTransform).GetComponent<ChildLocator>();
 			if (Object.op_Implicit((Object)(object)component))
 			{
-				((Ray)(ref aimRay)).origin = ((Component)component.FindChild("TrackingBombMuzzle")).transform.position;
+				aimRay.origin = ((Component)component.FindChild("TrackingBombMuzzle")).transform.position;
 			}
 		}
 		EffectManager.SimpleMuzzleFlash(muzzleEffectPrefab, base.gameObject, "TrackingBombMuzzle", transmit: false);
 		if (base.isAuthority)
 		{
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * bombDamageCoefficient, bombForce, Util.CheckRoll(critStat, base.characterBody.master));
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * bombDamageCoefficient, bombForce, Util.CheckRoll(critStat, base.characterBody.master));
 		}
 	}
 }

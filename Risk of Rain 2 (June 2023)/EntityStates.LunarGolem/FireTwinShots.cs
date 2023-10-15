@@ -150,11 +150,11 @@ public class FireTwinShots : BaseState
 		//IL_0174: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
 		Quaternion val = Quaternion.LookRotation(((Ray)(ref initialAimRay)).direction);
-		Quaternion val2 = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+		Quaternion val2 = Quaternion.LookRotation(aimRay.direction);
 		float num = Util.Remap(Util.Remap(refireIndex, 0f, refireCount - 1, 0f, 1f), 0f, 1f, minLeadTime, maxLeadTime) / aimDelay;
 		Quaternion val3 = Quaternion.SlerpUnclamped(val, val2, 1f + num);
 		Ray val4 = default(Ray);
-		((Ray)(ref val4))._002Ector(((Ray)(ref aimRay)).origin, val3 * Vector3.forward);
+		((Ray)(ref val4))._002Ector(aimRay.origin, val3 * Vector3.forward);
 		if (refireIndex == 0 && Object.op_Implicit((Object)(object)dustEffectPrefab))
 		{
 			EffectManager.SimpleMuzzleFlash(dustEffectPrefab, base.gameObject, "Root", transmit: false);

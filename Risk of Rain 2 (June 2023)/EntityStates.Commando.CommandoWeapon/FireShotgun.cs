@@ -60,8 +60,8 @@ public class FireShotgun : BaseState
 			BulletAttack bulletAttack = new BulletAttack();
 			bulletAttack.owner = base.gameObject;
 			bulletAttack.weapon = base.gameObject;
-			bulletAttack.origin = ((Ray)(ref aimRay)).origin;
-			bulletAttack.aimVector = ((Ray)(ref aimRay)).direction;
+			bulletAttack.origin = aimRay.origin;
+			bulletAttack.aimVector = aimRay.direction;
 			bulletAttack.minSpread = 0f;
 			bulletAttack.maxSpread = base.characterBody.spreadBloomAngle;
 			bulletAttack.bulletCount = ((bulletCount > 0) ? ((uint)bulletCount) : 0u);

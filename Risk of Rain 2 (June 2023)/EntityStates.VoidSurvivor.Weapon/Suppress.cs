@@ -117,8 +117,8 @@ public class Suppress : BaseSkillState
 		bullseyeSearch.teamMaskFilter = TeamMask.GetEnemyTeams(GetTeam());
 		bullseyeSearch.maxAngleFilter = maxSearchAngleFilter;
 		bullseyeSearch.maxDistanceFilter = maxSearchDistance;
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.sortMode = BullseyeSearch.SortMode.Angle;
 		bullseyeSearch.filterByLoS = true;
 		bullseyeSearch.RefreshCandidates();
@@ -164,7 +164,7 @@ public class Suppress : BaseSkillState
 			{
 				Ray aimRay = GetAimRay();
 				_ = targetBody.corePosition;
-				Vector3 position = ((Ray)(ref aimRay)).origin + ((Ray)(ref aimRay)).direction * idealDistance;
+				Vector3 position = aimRay.origin + aimRay.direction * idealDistance;
 				idealFXTransform.position = position;
 			}
 			if (Object.op_Implicit((Object)(object)targetFXTransform))
@@ -220,7 +220,7 @@ public class Suppress : BaseSkillState
 		{
 			Ray aimRay = GetAimRay();
 			Vector3 corePosition = targetBody.corePosition;
-			Vector3 val = ((Ray)(ref aimRay)).origin + ((Ray)(ref aimRay)).direction * idealDistance;
+			Vector3 val = aimRay.origin + aimRay.direction * idealDistance;
 			if (applyForces)
 			{
 				Vector3 val2 = val - corePosition;

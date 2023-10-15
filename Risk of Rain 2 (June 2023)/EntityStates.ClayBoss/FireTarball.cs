@@ -59,7 +59,7 @@ public class FireTarball : BaseState
 				Transform val = component.FindChild(targetMuzzle);
 				if (Object.op_Implicit((Object)(object)val))
 				{
-					((Ray)(ref aimRay)).origin = val.position;
+					aimRay.origin = val.position;
 				}
 			}
 		}
@@ -70,8 +70,8 @@ public class FireTarball : BaseState
 		}
 		if (base.isAuthority)
 		{
-			Vector3 forward = Vector3.ProjectOnPlane(((Ray)(ref aimRay)).direction, Vector3.up);
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master));
+			Vector3 forward = Vector3.ProjectOnPlane(aimRay.direction, Vector3.up);
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master));
 		}
 		base.characterBody.AddSpreadBloom(spreadBloomValue);
 	}

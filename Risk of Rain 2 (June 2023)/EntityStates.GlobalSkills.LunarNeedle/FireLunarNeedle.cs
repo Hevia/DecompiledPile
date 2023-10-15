@@ -49,10 +49,10 @@ public class FireLunarNeedle : BaseSkillState
 		if (base.isAuthority)
 		{
 			Ray aimRay = GetAimRay();
-			((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, maxSpread, 1f, 1f);
+			aimRay.direction = Util.ApplySpread(aimRay.direction, 0f, maxSpread, 1f, 1f);
 			FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
-			fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
-			fireProjectileInfo.rotation = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+			fireProjectileInfo.position = aimRay.origin;
+			fireProjectileInfo.rotation = Quaternion.LookRotation(aimRay.direction);
 			fireProjectileInfo.crit = base.characterBody.RollCrit();
 			fireProjectileInfo.damage = base.characterBody.damage * damageCoefficient;
 			fireProjectileInfo.damageColorIndex = DamageColorIndex.Default;

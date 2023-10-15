@@ -195,8 +195,8 @@ public class PortalJump : BaseState
 		Ray aimRay = GetAimRay();
 		enemyFinder = new BullseyeSearch();
 		enemyFinder.maxDistanceFilter = skillDistance;
-		enemyFinder.searchOrigin = ((Ray)(ref aimRay)).origin;
-		enemyFinder.searchDirection = ((Ray)(ref aimRay)).direction;
+		enemyFinder.searchOrigin = aimRay.origin;
+		enemyFinder.searchDirection = aimRay.direction;
 		enemyFinder.filterByLoS = false;
 		enemyFinder.sortMode = BullseyeSearch.SortMode.Distance;
 		enemyFinder.teamMaskFilter = TeamMask.allButNeutral;

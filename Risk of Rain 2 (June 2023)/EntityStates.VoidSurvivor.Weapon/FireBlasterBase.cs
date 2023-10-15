@@ -121,11 +121,11 @@ public class FireBlasterBase : BaseSkillState, SteppedSkillDef.IStepSetter
 			float bonusYaw = num * yawPerProjectile;
 			float num2 = num * offsetPerProjectile;
 			Ray aimRay = GetAimRay();
-			((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, base.characterBody.spreadBloomAngle + spread, 1f, 1f, bonusYaw);
+			aimRay.direction = Util.ApplySpread(aimRay.direction, 0f, base.characterBody.spreadBloomAngle + spread, 1f, 1f, bonusYaw);
 			FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 			fireProjectileInfo.projectilePrefab = projectilePrefab;
-			fireProjectileInfo.position = ((Ray)(ref aimRay)).origin + Vector3.Cross(((Ray)(ref aimRay)).direction, Vector3.up) * num2;
-			fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+			fireProjectileInfo.position = aimRay.origin + Vector3.Cross(aimRay.direction, Vector3.up) * num2;
+			fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 			fireProjectileInfo.owner = base.gameObject;
 			fireProjectileInfo.damage = damageStat * damageCoefficient;
 			fireProjectileInfo.force = force;

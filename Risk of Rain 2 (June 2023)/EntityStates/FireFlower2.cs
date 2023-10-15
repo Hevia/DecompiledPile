@@ -50,10 +50,10 @@ public class FireFlower2 : BaseState
 			fireProjectileInfo.damageColorIndex = DamageColorIndex.Default;
 			fireProjectileInfo.force = 0f;
 			fireProjectileInfo.owner = base.gameObject;
-			fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
+			fireProjectileInfo.position = aimRay.origin;
 			fireProjectileInfo.procChainMask = default(ProcChainMask);
 			fireProjectileInfo.projectilePrefab = projectilePrefab;
-			fireProjectileInfo.rotation = Quaternion.LookRotation(((Ray)(ref aimRay)).direction);
+			fireProjectileInfo.rotation = Quaternion.LookRotation(aimRay.direction);
 			fireProjectileInfo.useSpeedOverride = false;
 			FireProjectileInfo fireProjectileInfo2 = fireProjectileInfo;
 			ProjectileManager.instance.FireProjectile(fireProjectileInfo2);

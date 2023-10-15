@@ -55,8 +55,8 @@ public class BuffBeam : BaseState
 		bullseyeSearch.filterByLoS = false;
 		bullseyeSearch.maxDistanceFilter = 50f;
 		bullseyeSearch.maxAngleFilter = 180f;
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.sortMode = BullseyeSearch.SortMode.Angle;
 		bullseyeSearch.RefreshCandidates();
 		bullseyeSearch.FilterOutGameObject(base.gameObject);

@@ -93,7 +93,7 @@ public class FireRepulsion : BaseState
 		aimRay = GetAimRay();
 		PlayCrossfade(animationLayerName, animationStateName, animationPlaybackParameterName, duration, animationCrossfadeDuration);
 		Util.PlaySound(sound, base.gameObject);
-		Vector3 origin = ((Ray)(ref aimRay)).origin;
+		Vector3 origin = aimRay.origin;
 		Transform val = FindModelChild(muzzle);
 		if (Object.op_Implicit((Object)(object)val))
 		{
@@ -102,10 +102,10 @@ public class FireRepulsion : BaseState
 		EffectManager.SpawnEffect(fireEffectPrefab, new EffectData
 		{
 			origin = origin,
-			rotation = Quaternion.LookRotation(((Ray)(ref aimRay)).direction)
+			rotation = Quaternion.LookRotation(aimRay.direction)
 		}, transmit: false);
 		ref Ray reference = ref aimRay;
-		((Ray)(ref reference)).origin = ((Ray)(ref reference)).origin - ((Ray)(ref aimRay)).direction * backupDistance;
+		((Ray)(ref reference)).origin = ((Ray)(ref reference)).origin - aimRay.direction * backupDistance;
 		if (NetworkServer.active)
 		{
 			PushEnemies();
@@ -216,8 +216,8 @@ public class FireRepulsion : BaseState
 		bullseyeSearch.teamMaskFilter = TeamMask.all;
 		bullseyeSearch.maxAngleFilter = fieldOfView * 0.5f;
 		bullseyeSearch.maxDistanceFilter = maxKnockbackDistance;
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.sortMode = BullseyeSearch.SortMode.Distance;
 		bullseyeSearch.filterByLoS = false;
 		bullseyeSearch.RefreshCandidates();

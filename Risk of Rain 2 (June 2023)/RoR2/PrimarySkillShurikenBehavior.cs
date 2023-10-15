@@ -99,7 +99,7 @@ public class PrimarySkillShurikenBehavior : CharacterBody.ItemBehavior
 		//IL_0026: Unknown result type (might be due to invalid IL or missing references)
 		//IL_002b: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction) * GetRandomRollPitch(), ((Component)this).gameObject, body.damage * (3f + 1f * (float)stack), 0f, Util.CheckRoll(body.crit, body.master), DamageColorIndex.Item);
+		ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction) * GetRandomRollPitch(), ((Component)this).gameObject, body.damage * (3f + 1f * (float)stack), 0f, Util.CheckRoll(body.crit, body.master), DamageColorIndex.Item);
 	}
 
 	private Ray GetAimRay()

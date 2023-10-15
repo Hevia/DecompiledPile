@@ -60,7 +60,7 @@ public class FireEyeBlast : BaseState
 		{
 			HealthComponent obj = base.healthComponent;
 			Ray aimRay = GetAimRay();
-			obj.TakeDamageForce(((Ray)(ref aimRay)).direction * selfForce);
+			obj.TakeDamageForce(aimRay.direction * selfForce);
 		}
 		if (Random.value <= 0.5f)
 		{
@@ -106,8 +106,8 @@ public class FireEyeBlast : BaseState
 				{
 					bonusPitch = (float)num2 / (float)(projectileCount - 1) * totalYawSpread;
 				}
-				Vector3 forward = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 0f, 1f, 1f, bonusYaw, bonusPitch);
-				ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master), DamageColorIndex.Default, null, speedOverride);
+				Vector3 forward = Util.ApplySpread(aimRay.direction, 0f, 0f, 1f, 1f, bonusYaw, bonusPitch);
+				ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(forward), base.gameObject, damageStat * damageCoefficient, force, Util.CheckRoll(critStat, base.characterBody.master), DamageColorIndex.Default, null, speedOverride);
 				projectilesFired++;
 			}
 		}

@@ -88,7 +88,7 @@ public class DashSlam : BaseState
 		modelTransform = GetModelTransform();
 		Util.PlaySound(initialAttackSoundString, base.gameObject);
 		Ray aimRay = GetAimRay();
-		initialAimVector = Vector3.ProjectOnPlane(((Ray)(ref aimRay)).direction, Vector3.up);
+		initialAimVector = Vector3.ProjectOnPlane(aimRay.direction, Vector3.up);
 		base.characterMotor.velocity.y = 0f;
 		base.characterDirection.forward = initialAimVector;
 		attack = new BlastAttack();

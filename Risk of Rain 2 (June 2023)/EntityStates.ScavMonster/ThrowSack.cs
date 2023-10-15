@@ -85,7 +85,7 @@ public class ThrowSack : SackBaseState
 		Ray aimRay = GetAimRay();
 		Ray ray = aimRay;
 		Ray val = aimRay;
-		Vector3 point = ((Ray)(ref aimRay)).GetPoint(minimumDistance);
+		Vector3 point = aimRay.GetPoint(minimumDistance);
 		bool flag = false;
 		if (Util.CharacterRaycast(base.gameObject, ray, out var hitInfo, 500f, LayerMask.op_Implicit(LayerMask.op_Implicit(LayerIndex.world.mask) | LayerMask.op_Implicit(LayerIndex.entityPrecise.mask)), (QueryTriggerInteraction)1))
 		{

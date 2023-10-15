@@ -47,11 +47,11 @@ public class FireThermite : BaseState
 		}
 		if (base.isAuthority)
 		{
-			ProjectileManager.instance.FireProjectile(projectilePrefab, ((Ray)(ref aimRay)).origin, Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master));
+			ProjectileManager.instance.FireProjectile(projectilePrefab, aimRay.origin, Util.QuaternionSafeLookRotation(aimRay.direction), base.gameObject, damageStat * damageCoefficient, 0f, Util.CheckRoll(critStat, base.characterBody.master));
 		}
 		if (Object.op_Implicit((Object)(object)base.characterMotor) && !base.characterMotor.isGrounded)
 		{
-			Vector3 val = -((Ray)(ref aimRay)).direction * selfForce;
+			Vector3 val = -aimRay.direction * selfForce;
 			val.y *= 0.5f;
 			base.characterMotor.ApplyForce(val, alwaysApply: true);
 		}

@@ -121,7 +121,7 @@ public class FlyState : BaseState
 			{
 				RigidbodyDirection obj = base.rigidbodyDirection;
 				Ray aimRay = GetAimRay();
-				obj.aimDirection = ((Ray)(ref aimRay)).direction;
+				obj.aimDirection = aimRay.direction;
 			}
 			skill1InputReceived = base.inputBank.skill1.down;
 			skill2InputReceived = base.inputBank.skill2.down;

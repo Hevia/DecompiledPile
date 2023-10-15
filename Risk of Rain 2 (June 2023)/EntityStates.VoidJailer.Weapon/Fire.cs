@@ -39,7 +39,7 @@ public class Fire : GenericProjectileBaseState
 		//IL_0012: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0017: Unknown result type (might be due to invalid IL or missing references)
 		//IL_0021: Unknown result type (might be due to invalid IL or missing references)
-		((Ray)(ref aimRay)).origin = ((Ray)(ref aimRay)).origin + Random.insideUnitSphere * maxRandomDistance;
+		aimRay.origin = aimRay.origin + Random.insideUnitSphere * maxRandomDistance;
 		return aimRay;
 	}
 

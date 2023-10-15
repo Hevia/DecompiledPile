@@ -40,7 +40,7 @@ public class SwingMeleeBase : BasicMeleeAttack
 		base.OnEnter();
 		CharacterDirection obj = base.characterDirection;
 		Ray aimRay = GetAimRay();
-		obj.forward = ((Ray)(ref aimRay)).direction;
+		obj.forward = aimRay.direction;
 	}
 
 	public override void OnExit()

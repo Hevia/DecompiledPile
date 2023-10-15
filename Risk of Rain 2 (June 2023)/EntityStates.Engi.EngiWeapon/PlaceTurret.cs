@@ -119,15 +119,15 @@ public class PlaceTurret : BaseState
 		//IL_0147: Unknown result type (might be due to invalid IL or missing references)
 		//IL_015a: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		Vector3 direction = ((Ray)(ref aimRay)).direction;
+		Vector3 direction = aimRay.direction;
 		direction.y = 0f;
 		((Vector3)(ref direction)).Normalize();
-		((Ray)(ref aimRay)).direction = direction;
+		aimRay.direction = direction;
 		PlacementInfo result = default(PlacementInfo);
 		result.ok = false;
 		result.rotation = Util.QuaternionSafeLookRotation(-direction);
 		Ray val = default(Ray);
-		((Ray)(ref val))._002Ector(((Ray)(ref aimRay)).GetPoint(2f) + Vector3.up * 1f, Vector3.down);
+		((Ray)(ref val))._002Ector(aimRay.GetPoint(2f) + Vector3.up * 1f, Vector3.down);
 		float num = 4f;
 		float num2 = num;
 		RaycastHit val2 = default(RaycastHit);

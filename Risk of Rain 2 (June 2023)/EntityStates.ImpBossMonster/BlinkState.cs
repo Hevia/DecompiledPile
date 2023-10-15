@@ -141,8 +141,8 @@ public class BlinkState : BaseState
 		Vector3 val = Vector3.zero;
 		Ray aimRay = GetAimRay();
 		BullseyeSearch bullseyeSearch = new BullseyeSearch();
-		bullseyeSearch.searchOrigin = ((Ray)(ref aimRay)).origin;
-		bullseyeSearch.searchDirection = ((Ray)(ref aimRay)).direction;
+		bullseyeSearch.searchOrigin = aimRay.origin;
+		bullseyeSearch.searchDirection = aimRay.direction;
 		bullseyeSearch.maxDistanceFilter = blinkDistance;
 		bullseyeSearch.teamMaskFilter = TeamMask.allButNeutral;
 		bullseyeSearch.filterByLoS = false;

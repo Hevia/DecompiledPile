@@ -231,8 +231,8 @@ public class Paint : BaseEngiMissilePainterState
 		search.minAngleFilter = 0f;
 		search.maxAngleFilter = maxAngle;
 		search.viewer = base.characterBody;
-		search.searchOrigin = ((Ray)(ref aimRay)).origin;
-		search.searchDirection = ((Ray)(ref aimRay)).direction;
+		search.searchOrigin = aimRay.origin;
+		search.searchDirection = aimRay.direction;
 		search.sortMode = BullseyeSearch.SortMode.DistanceAndAngle;
 		search.teamMaskFilter = TeamMask.GetUnprotectedTeams(GetTeam());
 		search.RefreshCandidates();

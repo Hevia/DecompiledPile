@@ -75,7 +75,7 @@ public class FireMegaBlasterBase : BaseState
 		{
 			FireProjectiles();
 		}
-		base.characterBody.characterMotor.ApplyForce((0f - selfKnockbackForce) * ((Ray)(ref aimRay)).direction);
+		base.characterBody.characterMotor.ApplyForce((0f - selfKnockbackForce) * aimRay.direction);
 	}
 
 	private void FireProjectiles()
@@ -90,11 +90,11 @@ public class FireMegaBlasterBase : BaseState
 		//IL_0067: Unknown result type (might be due to invalid IL or missing references)
 		//IL_006c: Unknown result type (might be due to invalid IL or missing references)
 		Ray aimRay = GetAimRay();
-		((Ray)(ref aimRay)).direction = Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, spread, 1f, 1f);
+		aimRay.direction = Util.ApplySpread(aimRay.direction, 0f, spread, 1f, 1f);
 		FireProjectileInfo fireProjectileInfo = default(FireProjectileInfo);
 		fireProjectileInfo.projectilePrefab = projectilePrefab;
-		fireProjectileInfo.position = ((Ray)(ref aimRay)).origin;
-		fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+		fireProjectileInfo.position = aimRay.origin;
+		fireProjectileInfo.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 		fireProjectileInfo.owner = base.gameObject;
 		fireProjectileInfo.damage = damageStat * damageCoefficient;
 		fireProjectileInfo.force = force;

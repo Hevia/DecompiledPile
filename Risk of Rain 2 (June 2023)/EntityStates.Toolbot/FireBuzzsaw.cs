@@ -152,7 +152,7 @@ public class FireBuzzsaw : BaseToolbotPrimarySkillState
 			{
 				Vector3 lastFireAverageHitPosition = attack.lastFireAverageHitPosition;
 				Ray aimRay = GetAimRay();
-				Vector3 val = lastFireAverageHitPosition - ((Ray)(ref aimRay)).origin;
+				Vector3 val = lastFireAverageHitPosition - aimRay.origin;
 				Vector3 normalized = ((Vector3)(ref val)).normalized;
 				if (Object.op_Implicit((Object)(object)base.characterMotor))
 				{

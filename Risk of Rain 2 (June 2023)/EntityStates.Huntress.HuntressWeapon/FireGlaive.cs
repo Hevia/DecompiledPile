@@ -36,8 +36,8 @@ public class FireGlaive : BaseState
 		Transform modelTransform = GetModelTransform();
 		duration = baseDuration / attackSpeedStat;
 		PlayAnimation("Gesture", "FireGlaive", "FireGlaive.playbackRate", duration);
-		Vector3 position = ((Ray)(ref aimRay)).origin;
-		Quaternion rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+		Vector3 position = aimRay.origin;
+		Quaternion rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 		if (Object.op_Implicit((Object)(object)modelTransform))
 		{
 			ChildLocator component = ((Component)modelTransform).GetComponent<ChildLocator>();

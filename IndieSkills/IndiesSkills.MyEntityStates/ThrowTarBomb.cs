@@ -71,8 +71,8 @@ public class ThrowTarBomb : BaseSkillState
 		{
 			FireProjectileInfo val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff;
 			val.damageTypeOverride = (DamageType)512;
@@ -82,8 +82,8 @@ public class ThrowTarBomb : BaseSkillState
 			FireProjectileInfo val2 = val;
 			val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff;
 			val.damageTypeOverride = (DamageType)512;
@@ -93,8 +93,8 @@ public class ThrowTarBomb : BaseSkillState
 			FireProjectileInfo val3 = val;
 			val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(((Ray)(ref aimRay)).direction);
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(aimRay.direction);
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff;
 			val.damageTypeOverride = (DamageType)512;
@@ -104,8 +104,8 @@ public class ThrowTarBomb : BaseSkillState
 			FireProjectileInfo val4 = val;
 			val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 15f, 1f, 1f, 0f, 0f));
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(aimRay.direction, 0f, 15f, 1f, 1f, 0f, 0f));
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff * 0.5f;
 			val.damageTypeOverride = (DamageType)512;
@@ -115,8 +115,8 @@ public class ThrowTarBomb : BaseSkillState
 			FireProjectileInfo val5 = val;
 			val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 15f, 1f, 1f, 0f, 0f));
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(aimRay.direction, 0f, 15f, 1f, 1f, 0f, 0f));
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff * 0.5f;
 			val.damageTypeOverride = (DamageType)512;
@@ -126,8 +126,8 @@ public class ThrowTarBomb : BaseSkillState
 			FireProjectileInfo val6 = val;
 			val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 10f, 1f, 1f, 0f, 0f));
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(aimRay.direction, 0f, 10f, 1f, 1f, 0f, 0f));
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff * 0.5f;
 			val.damageTypeOverride = (DamageType)512;
@@ -137,8 +137,8 @@ public class ThrowTarBomb : BaseSkillState
 			FireProjectileInfo val7 = val;
 			val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 15f, 1f, 1f, 0f, 0f));
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(aimRay.direction, 0f, 15f, 1f, 1f, 0f, 0f));
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff * 0.5f;
 			val.damageTypeOverride = (DamageType)512;
@@ -148,8 +148,8 @@ public class ThrowTarBomb : BaseSkillState
 			FireProjectileInfo val8 = val;
 			val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 15f, 1f, 1f, 0f, 0f));
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(aimRay.direction, 0f, 15f, 1f, 1f, 0f, 0f));
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff * 0.5f;
 			val.damageTypeOverride = (DamageType)512;
@@ -159,8 +159,8 @@ public class ThrowTarBomb : BaseSkillState
 			FireProjectileInfo val9 = val;
 			val = default(FireProjectileInfo);
 			val.projectilePrefab = projectilePrefab;
-			val.position = ((Ray)(ref aimRay)).origin;
-			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(((Ray)(ref aimRay)).direction, 0f, 15f, 1f, 1f, 0f, 0f));
+			val.position = aimRay.origin;
+			val.rotation = Util.QuaternionSafeLookRotation(Util.ApplySpread(aimRay.direction, 0f, 15f, 1f, 1f, 0f, 0f));
 			val.owner = ((EntityState)this).gameObject;
 			val.damage = ((BaseState)this).damageStat * damageCoeff * 0.5f;
 			val.damageTypeOverride = (DamageType)512;

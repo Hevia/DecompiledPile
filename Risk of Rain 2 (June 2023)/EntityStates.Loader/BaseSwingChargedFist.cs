@@ -59,7 +59,7 @@ public class BaseSwingChargedFist : LoaderMeleeAttack
 			base.characterMotor.disableAirControlUntilCollision |= disableAirControlUntilCollision;
 			Vector3 velocity = base.characterMotor.velocity;
 			Ray aimRay = GetAimRay();
-			punchVelocity = CalculateLungeVelocity(velocity, ((Ray)(ref aimRay)).direction, charge, minLungeSpeed, maxLungeSpeed);
+			punchVelocity = CalculateLungeVelocity(velocity, aimRay.direction, charge, minLungeSpeed, maxLungeSpeed);
 			base.characterMotor.velocity = punchVelocity;
 			base.characterDirection.forward = ((Vector3)(ref base.characterMotor.velocity)).normalized;
 			punchSpeed = ((Vector3)(ref base.characterMotor.velocity)).magnitude;
@@ -105,7 +105,7 @@ public class BaseSwingChargedFist : LoaderMeleeAttack
 		overlapAttack.damage = damageCoefficient * damageStat + bonusDamage;
 		Vector3 velocity = base.characterMotor.velocity;
 		Ray aimRay = GetAimRay();
-		overlapAttack.forceVector = velocity + ((Ray)(ref aimRay)).direction * Mathf.Lerp(minPunchForce, maxPunchForce, charge);
+		overlapAttack.forceVector = velocity + aimRay.direction * Mathf.Lerp(minPunchForce, maxPunchForce, charge);
 		if (base.fixedAge + Time.fixedDeltaTime >= duration)
 		{
 			HitBoxGroup hitBoxGroup = FindHitBoxGroup("PunchLollypop");

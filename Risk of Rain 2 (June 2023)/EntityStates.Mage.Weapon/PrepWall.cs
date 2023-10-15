@@ -76,7 +76,7 @@ public class PrepWall : BaseState
 			{
 				areaIndicatorInstance.transform.position = ((RaycastHit)(ref val)).point;
 				areaIndicatorInstance.transform.up = ((RaycastHit)(ref val)).normal;
-				areaIndicatorInstance.transform.forward = -((Ray)(ref aimRay)).direction;
+				areaIndicatorInstance.transform.forward = -aimRay.direction;
 				goodPlacement = Vector3.Angle(Vector3.up, ((RaycastHit)(ref val)).normal) < maxSlopeAngle;
 			}
 			if (flag != goodPlacement || crosshairOverrideRequest == null)
