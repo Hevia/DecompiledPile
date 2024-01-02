@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>RandomSurvivors</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="R2API" />
+    <Reference Include="BepInEx" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="MMHOOK_Assembly-CSharp" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="UnityEngine.Networking" />
+    <Reference Include="UnityEngine.IMGUIModule" />
+    <Reference Include="UnityEngine.UI" />
+  </ItemGroup>
+</Project>
