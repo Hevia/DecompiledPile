@@ -39,25 +39,25 @@ public class SlideState : BaseState
 		//IL_012b: Unknown result type (might be due to invalid IL or missing references)
 		base.OnEnter();
 		Util.PlaySound(soundString, base.gameObject);
-		if (Object.op_Implicit((Object)(object)base.inputBank) && Object.op_Implicit((Object)(object)base.characterDirection))
+		if (base.inputBank && base.characterDirection)
 		{
 			CharacterDirection obj = base.characterDirection;
 			Vector3 val = ((base.inputBank.moveVector == Vector3.zero) ? base.characterDirection.forward : base.inputBank.moveVector);
-			obj.forward = ((Vector3)(ref val)).normalized;
+			obj.forward = (val).normalized;
 		}
-		if (Object.op_Implicit((Object)(object)base.characterMotor))
+		if (base.characterMotor)
 		{
 			startedStateGrounded = base.characterMotor.isGrounded;
 		}
-		if (Object.op_Implicit((Object)(object)jetEffectPrefab))
+		if (jetEffectPrefab)
 		{
 			Transform val2 = FindModelChild("LeftJet");
 			Transform val3 = FindModelChild("RightJet");
-			if (Object.op_Implicit((Object)(object)val2))
+			if ((val2))
 			{
 				Object.Instantiate<GameObject>(jetEffectPrefab, val2);
 			}
-			if (Object.op_Implicit((Object)(object)val3))
+			if ((val3))
 			{
 				Object.Instantiate<GameObject>(jetEffectPrefab, val3);
 			}
@@ -72,7 +72,7 @@ public class SlideState : BaseState
 			return;
 		}
 		PlayAnimation("Body", "SlideForward", "SlideForward.playbackRate", slideDuration);
-		if (Object.op_Implicit((Object)(object)slideEffectPrefab))
+		if ((slideEffectPrefab))
 		{
 			Transform val4 = FindModelChild("Base");
 			slideEffectInstance = Object.Instantiate<GameObject>(slideEffectPrefab, val4);
@@ -95,12 +95,12 @@ public class SlideState : BaseState
 		if (base.isAuthority)
 		{
 			float num = (startedStateGrounded ? slideDuration : jumpDuration);
-			if (Object.op_Implicit((Object)(object)base.inputBank) && Object.op_Implicit((Object)(object)base.characterDirection))
+			if ((base.inputBank) && (base.characterDirection))
 			{
 				base.characterDirection.moveVector = base.inputBank.moveVector;
 				forwardDirection = base.characterDirection.forward;
 			}
-			if (Object.op_Implicit((Object)(object)base.characterMotor))
+			if ((base.characterMotor))
 			{
 				float num2 = 0f;
 				num2 = ((!startedStateGrounded) ? jumpforwardSpeedCoefficientCurve.Evaluate(base.fixedAge / num) : forwardSpeedCoefficientCurve.Evaluate(base.fixedAge / num));
@@ -117,9 +117,9 @@ public class SlideState : BaseState
 	public override void OnExit()
 	{
 		PlayImpactAnimation();
-		if (Object.op_Implicit((Object)(object)slideEffectInstance))
+		if ((slideEffectInstance))
 		{
-			EntityState.Destroy((Object)(object)slideEffectInstance);
+			EntityState.Destroy(slideEffectInstance);
 		}
 		base.OnExit();
 	}

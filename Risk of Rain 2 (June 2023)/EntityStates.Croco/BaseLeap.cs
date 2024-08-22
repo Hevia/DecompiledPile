@@ -144,7 +144,6 @@ public class BaseLeap : BaseCharacterMain
 
 	protected override void UpdateAnimationParameters()
 	{
-		//IL_0007: Unknown result type (might be due to invalid IL or missing references)
 		base.UpdateAnimationParameters();
 		float num = Mathf.Clamp01(Util.Remap(base.estimatedVelocity.y, minYVelocityForAnim, maxYVelocityForAnim, 0f, 1f)) * 0.97f;
 		base.modelAnimator.SetFloat("LeapCycle", num, 0.1f, Time.deltaTime);

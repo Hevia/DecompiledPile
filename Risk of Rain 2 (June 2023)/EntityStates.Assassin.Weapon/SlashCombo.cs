@@ -73,16 +73,16 @@ public class SlashCombo : BaseState
 			animationStateName = "SlashP3";
 			break;
 		}
-		if (Object.op_Implicit((Object)(object)modelTransform))
+		if (modelTransform)
 		{
 			attack.hitBoxGroup = Array.Find(((Component)modelTransform).GetComponents<HitBoxGroup>(), (HitBoxGroup element) => element.groupName == hitboxGroupName);
 		}
-		if (Object.op_Implicit((Object)(object)modelAnimator))
+		if (modelAnimator)
 		{
 			PlayAnimation("Gesture, Override", animationStateName, "SlashCombo.playbackRate", duration * mecanimDurationCoefficient);
 			PlayAnimation("Gesture, Additive", animationStateName, "SlashCombo.playbackRate", duration * mecanimDurationCoefficient);
 		}
-		if (Object.op_Implicit((Object)(object)base.characterBody))
+		if (base.characterBody)
 		{
 			base.characterBody.SetAimTimer(2f);
 		}
@@ -90,20 +90,15 @@ public class SlashCombo : BaseState
 
 	public override void FixedUpdate()
 	{
-		//IL_007f: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0084: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00a3: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00ad: Unknown result type (might be due to invalid IL or missing references)
-		//IL_00b2: Unknown result type (might be due to invalid IL or missing references)
 		base.FixedUpdate();
-		if (NetworkServer.active && Object.op_Implicit((Object)(object)modelAnimator) && modelAnimator.GetFloat("SlashCombo.hitBoxActive") > 0.1f)
+		if ((NetworkServer.active && modelAnimator) && (modelAnimator.GetFloat("SlashCombo.hitBoxActive") > 0.1f))
 		{
 			if (!hasSlashed)
 			{
 				EffectManager.SimpleMuzzleFlash(swingEffectPrefab, base.gameObject, "SwingCenter", transmit: true);
 				HealthComponent healthComponent = base.characterBody.healthComponent;
 				CharacterDirection component = ((Component)base.characterBody).GetComponent<CharacterDirection>();
-				if (Object.op_Implicit((Object)(object)healthComponent))
+				if (healthComponent)
 				{
 					healthComponent.TakeDamageForce(selfForceMagnitude * component.forward, alwaysApply: true);
 				}
@@ -116,7 +111,7 @@ public class SlashCombo : BaseState
 		{
 			return;
 		}
-		if (Object.op_Implicit((Object)(object)base.inputBank) && base.inputBank.skill1.down)
+		if (base.inputBank && base.inputBank.skill1.down)
 		{
 			SlashCombo slashCombo = new SlashCombo();
 			switch (slashComboPermutation)

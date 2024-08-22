@@ -36,13 +36,6 @@ public class FireSpit : BaseState
 
 	public override void OnEnter()
 	{
-		//IL_0013: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0018: Unknown result type (might be due to invalid IL or missing references)
-		//IL_011c: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0121: Unknown result type (might be due to invalid IL or missing references)
-		//IL_012a: Unknown result type (might be due to invalid IL or missing references)
-		//IL_012f: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0134: Unknown result type (might be due to invalid IL or missing references)
 		base.OnEnter();
 		crocoDamageTypeController = GetComponent<CrocoDamageTypeController>();
 		Ray aimRay = GetAimRay();

@@ -128,9 +128,6 @@ public abstract class GenericBulletBaseState : BaseState
 
 	protected virtual void FireBullet(Ray aimRay)
 	{
-		//IL_0001: Unknown result type (might be due to invalid IL or missing references)
-		//IL_0058: Unknown result type (might be due to invalid IL or missing references)
-		//IL_006d: Unknown result type (might be due to invalid IL or missing references)
 		StartAimMode(aimRay, 3f);
 		DoFireEffects();
 		PlayFireAnimation();
